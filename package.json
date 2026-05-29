@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "ethers": "^6.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
