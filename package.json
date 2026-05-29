@@ -6,6 +6,8 @@
   "homepage": "https://jonny1111111111111.github.io/agentfeed/",
   "scripts": {
     "dev": "vite",
+    "gen:launches": "node scripts/gen-launches.mjs",
+    "prebuild": "node scripts/gen-launches.mjs",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -13,7 +15,6 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "ethers": "^6.16.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
