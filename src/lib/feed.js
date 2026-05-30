@@ -170,6 +170,8 @@ export async function fetchMarkets(addresses) {
     out[a] = {
       hasPool: true,
       priceUsd: Number(primary.priceUsd) || 0,
+      priceNative: Number(primary.priceNative) || 0, // token price in the quote token (WETH/ETH)
+      quoteSymbol: primary.quoteToken?.symbol || "ETH",
       volume24h,
       liquidityUsd,
       fdv: primary.fdv || 0,

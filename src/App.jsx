@@ -298,6 +298,7 @@ export default function AgentFeed() {
           onClose={() => setSelected(null)}
           onPick={(addr) => setSelected(addr)}
           isNew={isNew}
+          pushToast={pushToast}
         />
       )}
     </div>
@@ -305,7 +306,7 @@ export default function AgentFeed() {
 }
 
 /* ─────────────────── Detail modal ─────────────────── */
-function TokenDetail({ token: t, siblings, onClose, onPick, isNew }) {
+function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) {
   const [copied, setCopied] = useState(false);
   const m = t.market;
   const who = agentLabel(t);
@@ -368,6 +369,8 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew }) {
               {m.priceChange24h >= 0 ? "▲" : "▼"} {Math.abs(m.priceChange24h).toFixed(1)}% (24h)
             </div>
             <a className="af-dex-btn" href={dexUrl(t)} target="_blank" rel="noreferrer">Open on DEXScreener ↗</a>
+
+            <SwapBox token={t} pushToast={pushToast} />
           </>
         ) : (
           <div className="af-nopool">No active pool yet — this token hasn’t started trading on a DEX.</div>
@@ -392,6 +395,109 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew }) {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+/* ─────────────────── Swap demo (no real execution) ─────────────────── */
+const SLIPPAGES = [0.5, 1, 3];
+
+// Compact amount formatter for swap in/out values.
+function fmtAmt(n) {
+  if (!isFinite(n) || n <= 0) return "0";
+  if (n >= 1000) return n.toLocaleString("en-US", { maximumFractionDigits: 2 });
+  if (n >= 1) return n.toLocaleString("en-US", { maximumFractionDigits: 4 });
+  return Number(n.toPrecision(5)).toString();
+}
+
+function SwapBox({ token: t, pushToast }) {
+  const m = t.market;
+  const [side, setSide] = useState("buy"); // buy = ETH→token, sell = token→ETH
+  const [amount, setAmount] = useState("");
+  const [slippage, setSlippage] = useState(1);
+  const [swapping, setSwapping] = useState(false);
+  const [done, setDone] = useState(false);
+
+  const priceNative = m?.priceNative || 0; // token price in ETH
+  const ethUsd = priceNative > 0 ? m.priceUsd / priceNative : 0;
+  const amt = parseFloat(amount) || 0;
+
+  // Output before slippage.
+  const rawOut = side === "buy" ? (priceNative > 0 ? amt / priceNative : 0) : amt * priceNative;
+  const minOut = rawOut * (1 - slippage / 100);
+  const inSym = side === "buy" ? "ETH" : t.tokenSymbol;
+  const outSym = side === "buy" ? t.tokenSymbol : "ETH";
+  const inUsd = side === "buy" ? amt * ethUsd : amt * m.priceUsd;
+
+  const reset = (next) => {
+    setSide(next);
+    setAmount("");
+    setDone(false);
+  };
+
+  const swap = () => {
+    if (!amt || swapping) return;
+    setSwapping(true);
+    setDone(false);
+    setTimeout(() => {
+      setSwapping(false);
+      setDone(true);
+      pushToast?.(`✅ Swapped ${fmtAmt(amt)} ${inSym} → ${fmtAmt(rawOut)} ${outSym} (demo)`);
+      setTimeout(() => setDone(false), 2200);
+    }, 1100);
+  };
+
+  return (
+    <div className="af-swap">
+      <div className="af-swap-tabs">
+        <button className={`af-swap-tab buy ${side === "buy" ? "active" : ""}`} onClick={() => reset("buy")}>Buy</button>
+        <button className={`af-swap-tab sell ${side === "sell" ? "active" : ""}`} onClick={() => reset("sell")}>Sell</button>
+      </div>
+
+      <div className="af-swap-field">
+        <div className="af-swap-field-top">
+          <span className="af-swap-lbl">You pay</span>
+          <span className="af-swap-bal">{inSym}</span>
+        </div>
+        <input
+          className="af-swap-input"
+          type="number"
+          inputMode="decimal"
+          min="0"
+          placeholder="0.0"
+          value={amount}
+          onChange={(e) => { setAmount(e.target.value); setDone(false); }}
+        />
+        <div className="af-swap-sub">{inUsd > 0 ? `≈ ${fmtUsd(inUsd)}` : " "}</div>
+      </div>
+
+      <div className="af-swap-arrow">↓</div>
+
+      <div className="af-swap-field">
+        <div className="af-swap-field-top">
+          <span className="af-swap-lbl">You receive</span>
+          <span className="af-swap-bal">{outSym}</span>
+        </div>
+        <div className="af-swap-output">{fmtAmt(rawOut)}</div>
+        <div className="af-swap-sub">{rawOut > 0 ? `min ${fmtAmt(minOut)} after ${slippage}% slippage` : " "}</div>
+      </div>
+
+      <div className="af-swap-slip">
+        <span className="af-swap-lbl">Slippage</span>
+        <div className="af-slip-opts">
+          {SLIPPAGES.map((s) => (
+            <button key={s} className={`af-slip ${slippage === s ? "active" : ""}`} onClick={() => setSlippage(s)}>{s}%</button>
+          ))}
+        </div>
+      </div>
+
+      <div className="af-swap-rate">1 {t.tokenSymbol} ≈ {fmtUsd(m.priceUsd)}</div>
+
+      <button className={`af-swap-btn ${side} ${done ? "done" : ""}`} disabled={!amt || swapping} onClick={swap}>
+        {swapping ? "Swapping…" : done ? "✓ Swap complete" : amt ? `${side === "buy" ? "Buy" : "Sell"} ${t.tokenSymbol}` : "Enter an amount"}
+      </button>
+
+      <div className="af-swap-foot">⚡ Powered by Uniswap v4 · demo only — no wallet, no execution</div>
     </div>
   );
 }
@@ -494,6 +600,31 @@ const CSS = `
   .af-sib-more { font-size:11px; color:#666; padding:6px 4px; text-align:center; }
   .af-nosib { font-size:12px; color:#666; padding:6px 2px; }
 
+  .af-swap { margin-top:18px; background:#0f0f12; border:1px solid #242424; border-radius:16px; padding:14px; }
+  .af-swap-tabs { display:flex; gap:6px; background:#161616; border:1px solid #232323; border-radius:100px; padding:4px; margin-bottom:12px; }
+  .af-swap-tab { flex:1; padding:9px 0; border:none; background:transparent; color:#888; border-radius:100px; font-size:13px; font-weight:700; cursor:pointer; transition:all .18s; font-family:inherit; }
+  .af-swap-tab.buy.active { background:#22c55e; color:#04130a; box-shadow:0 2px 14px rgba(34,197,94,.35); }
+  .af-swap-tab.sell.active { background:#ef4444; color:#fff; box-shadow:0 2px 14px rgba(239,68,68,.35); }
+  .af-swap-field { background:#161616; border:1px solid #232323; border-radius:14px; padding:12px 14px; }
+  .af-swap-field-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:4px; }
+  .af-swap-lbl { font-size:11px; color:#777; font-weight:600; }
+  .af-swap-bal { font-size:12px; color:#bbb; font-weight:700; background:#202020; border:1px solid #2c2c2c; border-radius:100px; padding:3px 10px; }
+  .af-swap-input { width:100%; background:transparent; border:none; outline:none; color:#fff; font-size:24px; font-weight:700; font-family:inherit; padding:0; }
+  .af-swap-input::-webkit-outer-spin-button, .af-swap-input::-webkit-inner-spin-button { -webkit-appearance:none; margin:0; }
+  .af-swap-output { font-size:24px; font-weight:700; color:#eaeaea; min-height:30px; overflow:hidden; text-overflow:ellipsis; }
+  .af-swap-sub { font-size:11px; color:#666; margin-top:3px; min-height:14px; }
+  .af-swap-arrow { text-align:center; color:#555; font-size:16px; margin:6px 0; }
+  .af-swap-slip { display:flex; align-items:center; justify-content:space-between; margin-top:12px; }
+  .af-slip-opts { display:flex; gap:6px; }
+  .af-slip { background:#181818; border:1px solid #2a2a2a; color:#999; border-radius:9px; padding:5px 11px; font-size:12px; font-weight:700; cursor:pointer; transition:all .15s; font-family:inherit; }
+  .af-slip.active { background:#4f6ef7; border-color:#4f6ef7; color:#fff; }
+  .af-swap-rate { font-size:11px; color:#666; margin-top:12px; text-align:center; }
+  .af-swap-btn { width:100%; margin-top:12px; padding:14px; border:none; border-radius:13px; font-size:15px; font-weight:800; cursor:pointer; transition:all .2s; font-family:inherit; color:#fff; }
+  .af-swap-btn.buy { background:#22c55e; color:#04130a; } .af-swap-btn.sell { background:#ef4444; }
+  .af-swap-btn.done { background:#1f8f4d !important; color:#fff !important; animation:swapPop .4s ease-out; }
+  .af-swap-btn:disabled { background:#222; color:#555; cursor:not-allowed; }
+  .af-swap-foot { font-size:10px; color:#555; text-align:center; margin-top:11px; }
+
   .af-toasts { position:fixed; bottom:20px; right:20px; z-index:60; display:flex; flex-direction:column; gap:8px; max-width:calc(100vw - 40px); }
   .af-toast { background:#16161c; border:1px solid rgba(168,85,247,.4); color:#e9d5ff; font-size:13px; font-weight:600; padding:12px 16px; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,.5); animation:toastIn .3s cubic-bezier(.2,.8,.2,1); }
 
@@ -501,4 +632,5 @@ const CSS = `
   @keyframes fade { from{ opacity:0; } to{ opacity:1; } }
   @keyframes rise { from{ opacity:0; transform:translateY(16px); } to{ opacity:1; transform:translateY(0); } }
   @keyframes toastIn { from{ opacity:0; transform:translateX(30px); } to{ opacity:1; transform:translateX(0); } }
+  @keyframes swapPop { 0%{ transform:scale(1); } 40%{ transform:scale(1.04); } 100%{ transform:scale(1); } }
 `;
