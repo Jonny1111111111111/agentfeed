@@ -25,9 +25,13 @@ function mapItem(i) {
       handle: i.launcher?.handle ?? null,
       image: i.launcher?.image ?? null,
       verified: !!i.launcher?.verified,
+      operatorAddress: i.launcher?.operatorAddress ?? null,
+      profileUrl: i.launcher?.profileUrl ?? null,
     },
+    feeRecipient: i.feeRecipient?.value ?? null,
     dexscreenerUrl: i.public?.dexscreenerUrl ?? null,
     launchUrl: i.public?.launchUrl ?? null,
+    basescanUrl: i.public?.basescanUrl ?? null,
   };
 }
 

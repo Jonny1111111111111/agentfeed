@@ -35,10 +35,24 @@ export function mapLaunch(i) {
       handle: i.launcher?.handle ?? null,
       image: i.launcher?.image ?? null,
       verified: !!i.launcher?.verified,
+      operatorAddress: i.launcher?.operatorAddress ?? null,
+      profileUrl: i.launcher?.profileUrl ?? null,
     },
+    feeRecipient: i.feeRecipient ?? i.feeRecipient?.value ?? null,
     dexscreenerUrl: i.dexscreenerUrl ?? i.public?.dexscreenerUrl ?? null,
     launchUrl: i.launchUrl ?? i.public?.launchUrl ?? null,
+    basescanUrl: i.basescanUrl ?? i.public?.basescanUrl ?? null,
   };
+}
+
+// Stable key grouping tokens that share a launcher: verified operator address
+// first, else the fee-recipient wallet, else the token itself (ungrouped).
+export function agentKey(token) {
+  return (
+    token.launcher?.operatorAddress?.toLowerCase() ||
+    token.feeRecipient?.toLowerCase() ||
+    token.tokenAddress.toLowerCase()
+  );
 }
 
 /**
@@ -118,6 +132,9 @@ export const short = (a) => (a ? `${a.slice(0, 6)}…${a.slice(-4)}` : "");
 // Prefer the platform-provided DEXScreener link, else build one from the address.
 export const dexUrl = (token) =>
   token.market?.url || token.dexscreenerUrl || `https://dexscreener.com/base/${token.tokenAddress}`;
+
+export const basescanUrl = (token) =>
+  token.basescanUrl || `https://basescan.org/token/${token.tokenAddress}`;
 
 // Display name for the launching agent: launcher.name, else @handle, else null.
 export function agentLabel(token) {
