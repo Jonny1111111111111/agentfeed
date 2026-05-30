@@ -103,20 +103,19 @@ function AgentCard({ agent: a, onPickToken }) {
 }
 
 // Feedr brand mark — minimal white "F" with a signal dot, on a dark tile.
-function Logo({ size = 28, wordmark = true }) {
+function Logo({ size = 30, wordmark = true }) {
   return (
     <span className="af-logo">
       <svg className="af-logo-mark" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="8" fill="#15151c" stroke="#26263010" />
-        <path d="M10.5 7.5 H22 V11 H14.4 V14.6 H21 V18 H14.4 V24.5 H10.5 Z" fill="#fff" />
-        <circle cx="23.4" cy="9" r="2.6" fill="#4f6ef7" />
+        <rect width="32" height="32" rx="9" fill="#ff5a00" />
+        <path d="M10.5 7.5 H22 V11.2 H14.6 V14.8 H21 V18.4 H14.6 V24.5 H10.5 Z" fill="#fff" />
       </svg>
       {wordmark && <span className="af-logo-word">Feedr</span>}
     </span>
   );
 }
 
-// X (Twitter) and Globe icons for card action buttons.
+// ── Icons ──
 const IconX = () => (
   <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
     <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -127,64 +126,69 @@ const IconGlobe = () => (
     <circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
   </svg>
 );
+const IconBell = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9" /><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0" />
+  </svg>
+);
+const IconRocket = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+    <path d="M12 15l-3-3a22 22 0 0 1 8-10c2.5 0 4 1.5 4 4a22 22 0 0 1-9 9z" /><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+  </svg>
+);
+const IconTarget = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+    <circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1.4" fill="currentColor" />
+  </svg>
+);
+const IconTrend = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M3 17l6-6 4 4 7-7" /><path d="M14 8h6v6" />
+  </svg>
+);
+const IconDollar = () => (
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="9" /><path d="M14.8 9.3A2.4 2.4 0 0 0 12.6 8h-1.2a2.1 2.1 0 0 0 0 4.2h1.2a2.1 2.1 0 0 1 0 4.2h-1.2a2.4 2.4 0 0 1-2.2-1.3M12 6.5v1.5M12 16v1.5" />
+  </svg>
+);
+const IconSearch = () => (
+  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+    <circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" />
+  </svg>
+);
+const IconFilter = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M3 5h18M6 12h12M10 19h4" />
+  </svg>
+);
 
 const xUrlFor = (handle) => (handle ? `https://x.com/${handle.replace(/^@/, "")}` : null);
 
-// Bankr-style launch card: identity + LAUNCHER / FEE TO / CA / LAUNCHED + status + links.
-function TokenCard({ token: t, isNew, onOpen }) {
-  const [copied, setCopied] = useState(false);
+// List-style launch row: avatar · name/ticker/CA/date · est. fees + Fired.
+function TokenRow({ token: t, isNew, onOpen }) {
   const who = agentLabel(t);
-  const xUrl = xUrlFor(t.launcher?.handle);
-  const webUrl = t.launchUrl || t.launcher?.profileUrl || null;
-  const stop = (e) => e.stopPropagation();
-  const copy = (e) => {
-    e.stopPropagation();
-    navigator.clipboard?.writeText(t.tokenAddress).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1300);
-    }).catch(() => {});
-  };
-
   return (
-    <div className="af-card token" role="button" tabIndex={0} onClick={onOpen}
+    <div className="af-row" role="button" tabIndex={0} onClick={onOpen}
       onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && onOpen()}>
-      <div className="af-tc-head">
-        <Avatar token={t} size={38} />
-        <div className="af-tc-id">
-          <div className="af-tc-name">
-            {t.tokenName}
-            {isNew && <span className="af-new-badge">NEW</span>}
-          </div>
-          <div className="af-tc-tick">${t.tokenSymbol}{t.launcher?.verified && <span className="af-verified" title="verified">✓</span>}</div>
+      <Avatar token={t} size={42} />
+      <div className="af-row-mid">
+        <div className="af-row-title">
+          <span className="af-row-name">{t.tokenName}</span>
+          <span className="af-row-tick">${t.tokenSymbol}</span>
+          {t.launcher?.verified && <span className="af-verified" title="verified">✓</span>}
+          {isNew && <span className="af-new-badge">NEW</span>}
+        </div>
+        <div className="af-row-meta">
+          <span className="mono">{short(t.tokenAddress)}</span>
+          <span className="af-row-sep">·</span>
+          <span>{fmtDate(t.createdAt)}</span>
+          {who && <><span className="af-row-sep">·</span><span className="af-row-by">{who}</span></>}
         </div>
       </div>
-
-      <div className="af-tc-rows">
-        <div className="af-tc-row">
-          <span className="af-k">Launcher</span>
-          <span className="af-v">{who || "anonymous"}</span>
-        </div>
-        <div className="af-tc-row">
-          <span className="af-k">Est. Fees</span>
-          <span className="af-v fees">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</span>
-        </div>
-        <div className="af-tc-row">
-          <span className="af-k">CA</span>
-          <span className="af-ca">
-            <span className="mono">{short(t.tokenAddress)}</span>
-            <button className="af-ca-copy" onClick={copy} title="copy contract address">{copied ? "✓" : "⧉"}</button>
-          </span>
-        </div>
-        <div className="af-tc-row">
-          <span className="af-k">Launched</span>
-          <span className="af-v">{fmtDate(t.createdAt)}</span>
-        </div>
-      </div>
-
-      <div className="af-tc-actions">
-        {xUrl && <a className="af-act" href={xUrl} target="_blank" rel="noreferrer" onClick={stop}><IconX /> X</a>}
-        {webUrl && <a className="af-act" href={webUrl} target="_blank" rel="noreferrer" onClick={stop}><IconGlobe /> Website</a>}
-        <a className="af-act ghost" href={dexUrl(t)} target="_blank" rel="noreferrer" onClick={stop}>Chart ↗</a>
+      <div className="af-row-right">
+        <div className="af-row-fees">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</div>
+        <div className="af-row-fired">🔥 Fired</div>
       </div>
     </div>
   );
@@ -350,25 +354,43 @@ export default function AgentFeed() {
       <style>{CSS}</style>
 
       <header className="af-header">
-        <Logo size={28} />
+        <Logo size={30} />
+        <button className="af-bell" aria-label="notifications"><IconBell /></button>
       </header>
 
-      <div className="af-statbar">
-        <div className="af-stat">
-          <div className="af-stat-num">{tokens.length}</div>
-          <div className="af-stat-lbl">Tokens Launched</div>
+      <div className="af-statwrap">
+        <div className="af-globe" aria-hidden="true">
+          <svg viewBox="0 0 200 200" width="100%" height="100%">
+            <circle cx="100" cy="100" r="92" fill="none" stroke="#ff5a00" strokeWidth="1" />
+            <ellipse cx="100" cy="100" rx="92" ry="34" fill="none" stroke="#ff5a00" strokeWidth="1" />
+            <ellipse cx="100" cy="100" rx="92" ry="66" fill="none" stroke="#ff5a00" strokeWidth="1" />
+            <ellipse cx="100" cy="100" rx="34" ry="92" fill="none" stroke="#ff5a00" strokeWidth="1" />
+            <ellipse cx="100" cy="100" rx="66" ry="92" fill="none" stroke="#ff5a00" strokeWidth="1" />
+            <line x1="8" y1="100" x2="192" y2="100" stroke="#ff5a00" strokeWidth="1" />
+            <line x1="100" y1="8" x2="100" y2="192" stroke="#ff5a00" strokeWidth="1" />
+          </svg>
         </div>
-        <div className="af-stat">
-          <div className="af-stat-num">{activeCount}</div>
-          <div className="af-stat-lbl">Active Pools</div>
-        </div>
-        <div className="af-stat">
-          <div className="af-stat-num">{newCount}</div>
-          <div className="af-stat-lbl">New This Week</div>
-        </div>
-        <div className="af-stat">
-          <div className="af-stat-num">{fmtUsd(totalVol)}</div>
-          <div className="af-stat-lbl">24h Volume</div>
+        <div className="af-statbar">
+          <div className="af-stat">
+            <span className="af-stat-ico"><IconRocket /></span>
+            <div className="af-stat-num">{tokens.length}</div>
+            <div className="af-stat-lbl">Tokens Launched</div>
+          </div>
+          <div className="af-stat">
+            <span className="af-stat-ico"><IconTarget /></span>
+            <div className="af-stat-num">{activeCount}</div>
+            <div className="af-stat-lbl">Active Pools</div>
+          </div>
+          <div className="af-stat">
+            <span className="af-stat-ico"><IconTrend /></span>
+            <div className="af-stat-num">{newCount}</div>
+            <div className="af-stat-lbl">New This Week</div>
+          </div>
+          <div className="af-stat">
+            <span className="af-stat-ico"><IconDollar /></span>
+            <div className="af-stat-num">{fmtUsd(totalVol)}</div>
+            <div className="af-stat-lbl">24h Volume</div>
+          </div>
         </div>
       </div>
 
@@ -389,15 +411,21 @@ export default function AgentFeed() {
       </div>
 
       <div className="af-search">
-        <span className="af-search-icon">⌕</span>
-        <input
-          className="af-search-input"
-          type="text"
-          placeholder={tab === "agents" ? "Search agents by name or handle…" : "Search by token name, ticker, or agent…"}
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        {query && <button className="af-search-clear" onClick={() => setQuery("")} aria-label="clear">✕</button>}
+        <div className="af-search-box">
+          <span className="af-search-icon"><IconSearch /></span>
+          <input
+            className="af-search-input"
+            type="text"
+            placeholder={tab === "agents" ? "Search agents by name or handle…" : "Search by token name, ticker, or agent…"}
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          />
+          {query ? (
+            <button className="af-search-clear" onClick={() => setQuery("")} aria-label="clear">✕</button>
+          ) : (
+            <span className="af-search-filter" aria-hidden="true"><IconFilter /></span>
+          )}
+        </div>
       </div>
 
       {tab === "agents" ? (
@@ -416,10 +444,10 @@ export default function AgentFeed() {
           ))}
         </div>
       ) : (
-        <div className="af-grid">
+        <div className="af-list">
           {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
           {list.map((t) => (
-            <TokenCard key={t.tokenAddress} token={t} isNew={isNew(t)} onOpen={() => setSelected(t.tokenAddress)} />
+            <TokenRow key={t.tokenAddress} token={t} isNew={isNew(t)} onOpen={() => setSelected(t.tokenAddress)} />
           ))}
         </div>
       )}
@@ -468,6 +496,8 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
   const [copied, setCopied] = useState(false);
   const m = t.market;
   const who = agentLabel(t);
+  const xUrl = xUrlFor(t.launcher?.handle);
+  const webUrl = t.launchUrl || t.launcher?.profileUrl || null;
 
   const copy = async () => {
     try {
@@ -513,6 +543,11 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
               <button className="af-copy" onClick={copy}>{copied ? "copied ✓" : "copy"}</button>
               <a className="af-link" href={basescanUrl(t)} target="_blank" rel="noreferrer">BaseScan ↗</a>
             </span>
+          </div>
+          <div className="af-modal-links">
+            {xUrl && <a className="af-act" href={xUrl} target="_blank" rel="noreferrer"><IconX /> X</a>}
+            {webUrl && <a className="af-act" href={webUrl} target="_blank" rel="noreferrer"><IconGlobe /> Website</a>}
+            <a className="af-act ghost" href={dexUrl(t)} target="_blank" rel="noreferrer">Chart ↗</a>
           </div>
         </div>
 
@@ -661,36 +696,41 @@ function SwapBox({ token: t, pushToast }) {
 /* ─────────────────────── CSS ─────────────────────── */
 const CSS = `
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { background: #0a0a0a; }
-  ::-webkit-scrollbar { width: 6px; height:6px; background: #111; }
-  ::-webkit-scrollbar-thumb { background: #2a2a2a; border-radius: 4px; }
+  html, body { background:#000; }
+  ::-webkit-scrollbar { width:6px; height:6px; background:#000; }
+  ::-webkit-scrollbar-thumb { background:#2a2a2a; border-radius:4px; }
 
-  .af-root { background:#0a0a0a; min-height:100vh; font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; color:#fff; }
+  .af-root { background:#000; min-height:100vh; font-family:'Inter','SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; color:#fff; }
 
-  .af-header { display:flex; align-items:center; justify-content:space-between; padding:16px 24px; border-bottom:1px solid #1a1a1a; position:sticky; top:0; background:rgba(10,10,10,0.92); backdrop-filter:blur(12px); z-index:20; }
-  .af-logo { display:inline-flex; align-items:center; gap:9px; }
-  .af-logo-mark { border-radius:8px; box-shadow:0 0 0 1px #26262e, 0 2px 10px rgba(79,110,247,.2); flex-shrink:0; }
-  .af-logo-word { font-size:19px; font-weight:800; letter-spacing:-0.6px; color:#fff; }
-  .af-pill { display:flex; align-items:center; gap:6px; background:#161616; border:1px solid #262626; border-radius:100px; padding:7px 14px; }
-  .af-live-dot { width:7px; height:7px; border-radius:50%; background:#22c55e; box-shadow:0 0 6px #22c55e; animation:pulse 1.8s ease-in-out infinite; flex-shrink:0; }
-  .af-live-txt { font-size:10px; font-weight:800; color:#22c55e; letter-spacing:1.2px; }
+  .af-header { display:flex; align-items:center; justify-content:space-between; padding:15px 20px; border-bottom:1px solid rgba(255,255,255,0.06); position:sticky; top:0; background:rgba(0,0,0,0.85); backdrop-filter:blur(12px); z-index:20; }
+  .af-logo { display:inline-flex; align-items:center; gap:10px; }
+  .af-logo-mark { border-radius:9px; flex-shrink:0; box-shadow:0 2px 12px rgba(255,90,0,.3); }
+  .af-logo-word { font-size:20px; font-weight:800; letter-spacing:-0.6px; color:#fff; }
+  .af-bell { display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:11px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#cfcfcf; cursor:pointer; transition:all .15s; }
+  .af-bell:hover { color:#ff5a00; border-color:rgba(255,90,0,.4); background:rgba(255,90,0,.08); }
 
-  .af-statbar { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; padding:18px 16px 0; max-width:1240px; margin:0 auto; }
-  @media(min-width:680px){ .af-statbar{ grid-template-columns:repeat(4,1fr); padding:22px 28px 0; } }
-  .af-stat { background:#141414; border:1px solid #232323; border-radius:16px; padding:16px 18px; }
-  .af-stat-num { font-size:24px; font-weight:800; letter-spacing:-.5px; }
-  .af-stat-lbl { font-size:10px; color:#888; font-weight:600; letter-spacing:.9px; text-transform:uppercase; margin-top:5px; }
+  /* Stats */
+  .af-statwrap { position:relative; max-width:1240px; margin:0 auto; overflow:hidden; }
+  .af-globe { position:absolute; top:50%; right:-30px; transform:translateY(-50%); width:300px; height:300px; opacity:0.12; pointer-events:none; z-index:0; }
+  @media(max-width:680px){ .af-globe{ width:210px; height:210px; right:-55px; opacity:0.09; } }
+  .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); gap:12px; padding:18px 16px 4px; }
+  @media(min-width:680px){ .af-statbar{ padding:24px 28px 4px; gap:14px; } }
+  .af-stat { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; transition:border-color .2s; }
+  .af-stat:hover { border-color:rgba(255,90,0,.35); }
+  .af-stat-ico { display:inline-flex; color:#ff5a00; margin-bottom:10px; }
+  .af-stat-num { font-size:26px; font-weight:800; letter-spacing:-.5px; color:#fff; line-height:1; }
+  .af-stat-lbl { font-size:10.5px; color:#8a8a8a; font-weight:600; letter-spacing:.9px; text-transform:uppercase; margin-top:6px; }
 
-  .af-note { margin:14px 16px 0; padding:9px 14px; background:rgba(168,85,247,.1); border:1px solid rgba(168,85,247,.3); border-radius:12px; color:#c084fc; font-size:11px; max-width:1240px; }
+  .af-note { margin:14px 16px 0; padding:9px 14px; background:rgba(255,90,0,.08); border:1px solid rgba(255,90,0,.28); border-radius:12px; color:#ffb37a; font-size:11px; max-width:1240px; }
   @media(min-width:680px){ .af-note{ margin:14px 28px 0; } }
 
-  .af-tabs { display:flex; gap:8px; padding:18px 16px 4px; max-width:1240px; margin:0 auto; flex-wrap:wrap; }
-  @media(min-width:680px){ .af-tabs{ padding:22px 28px 4px; } }
-  .af-tab { padding:9px 16px; border:1px solid #232323; background:#141414; color:#888; border-radius:100px; font-size:13px; font-weight:600; cursor:pointer; transition:all .18s; display:flex; align-items:center; gap:7px; font-family:inherit; }
-  .af-tab:hover { border-color:#3a3a3a; color:#bbb; }
-  .af-tab.active { background:#4f6ef7; border-color:#4f6ef7; color:#fff; box-shadow:0 2px 18px rgba(79,110,247,.35); }
-  .af-tab-count { font-size:11px; font-weight:800; background:rgba(255,255,255,.14); border-radius:100px; padding:1px 8px; }
-  .af-tab.active .af-tab-count { background:rgba(255,255,255,.22); }
+  .af-tabs { display:flex; gap:8px; padding:16px 16px 4px; max-width:1240px; margin:0 auto; flex-wrap:wrap; }
+  @media(min-width:680px){ .af-tabs{ padding:18px 28px 4px; } }
+  .af-tab { padding:9px 16px; border:1px solid rgba(255,255,255,0.12); background:transparent; color:#9a9a9a; border-radius:100px; font-size:13px; font-weight:600; cursor:pointer; transition:all .18s; display:flex; align-items:center; gap:7px; font-family:inherit; }
+  .af-tab:hover { border-color:rgba(255,255,255,0.25); color:#ddd; }
+  .af-tab.active { background:#ff5a00; border-color:#ff5a00; color:#fff; box-shadow:0 2px 18px rgba(255,90,0,.4); }
+  .af-tab-count { font-size:11px; font-weight:800; background:rgba(255,255,255,.12); border-radius:100px; padding:1px 8px; }
+  .af-tab.active .af-tab-count { background:rgba(255,255,255,.25); }
 
   .af-grid { display:grid; grid-template-columns:1fr; gap:12px; padding:16px; max-width:1240px; margin:0 auto; }
   @media(min-width:560px){ .af-grid{ grid-template-columns:repeat(2,1fr); } }
@@ -698,7 +738,7 @@ const CSS = `
   .af-empty { color:#666; font-size:13px; padding:40px; text-align:center; grid-column:1/-1; }
 
   .af-card { background:#141414; border:1px solid #232323; border-radius:18px; padding:16px; text-align:left; cursor:pointer; transition:border-color .2s, transform .12s, background .2s; font-family:inherit; color:inherit; display:flex; flex-direction:column; gap:14px; }
-  .af-card:hover { border-color:#4f6ef7; background:#171717; transform:translateY(-2px); }
+  .af-card:hover { border-color:#ff5a00; background:#171717; transform:translateY(-2px); }
   .af-card:active { transform:translateY(0); }
   .af-card-top { display:flex; align-items:center; gap:12px; }
   .af-card-id { flex:1; min-width:0; }
@@ -719,7 +759,7 @@ const CSS = `
   /* Token launch card (Bankr-style, compact, translucent on dark) */
   .af-card.token { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.10); color:#fff; gap:0; padding:0; overflow:hidden; border-radius:13px; }
   .af-card.token:hover { background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.20); transform:translateY(-2px); }
-  .af-card.token:focus-visible { outline:2px solid #4f6ef7; outline-offset:2px; }
+  .af-card.token:focus-visible { outline:2px solid #ff5a00; outline-offset:2px; }
   .af-tc-head { display:flex; align-items:center; gap:10px; padding:10px 12px 8px; }
   .af-tc-id { flex:1; min-width:0; }
   .af-tc-name { font-size:13px; font-weight:700; color:#f2f2f3; display:flex; align-items:center; gap:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
@@ -733,10 +773,10 @@ const CSS = `
   .af-ca { display:flex; align-items:center; gap:6px; }
   .af-card.token .af-ca .mono { color:#cfcfcf; font-size:11px; }
   .af-ca-copy { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); color:#aaa; border-radius:6px; width:20px; height:20px; font-size:10px; cursor:pointer; line-height:1; }
-  .af-ca-copy:hover { color:#fff; border-color:#4f6ef7; }
+  .af-ca-copy:hover { color:#fff; border-color:#ff5a00; }
   .af-tc-actions { display:flex; gap:6px; padding:8px 12px 10px; }
   .af-act { display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:700; color:#cfcfcf; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:8px; padding:5px 9px; text-decoration:none; transition:all .15s; }
-  .af-act:hover { border-color:#4f6ef7; color:#fff; background:rgba(255,255,255,0.10); }
+  .af-act:hover { border-color:#ff5a00; color:#fff; background:rgba(255,255,255,0.10); }
   .af-act.ghost { margin-left:auto; color:#71717a; }
 
   /* Footer */
@@ -747,7 +787,7 @@ const CSS = `
   .af-foot-tag { font-size:13px; color:#999; margin-top:12px; line-height:1.5; }
   .af-foot-powered { font-size:11px; color:#555; margin-top:14px; display:flex; flex-wrap:wrap; gap:7px; align-items:center; }
   .af-foot-powered a { color:#888; text-decoration:none; font-weight:600; }
-  .af-foot-powered a:hover { color:#4f6ef7; }
+  .af-foot-powered a:hover { color:#ff5a00; }
   .af-foot-links { display:flex; flex-direction:column; gap:11px; }
   .af-foot-links a { font-size:13px; color:#aaa; text-decoration:none; font-weight:600; transition:color .15s; }
   .af-foot-links a:hover { color:#fff; }
@@ -763,14 +803,14 @@ const CSS = `
   .af-modal-hdr { display:flex; gap:14px; align-items:center; padding-right:34px; }
   .af-modal-name { font-size:20px; font-weight:800; letter-spacing:-.4px; display:flex; align-items:center; gap:8px; }
   .af-modal-sub { font-size:13px; color:#888; font-weight:700; margin-top:3px; display:flex; align-items:center; gap:8px; }
-  .af-modal-agent { font-size:12px; color:#4f6ef7; font-weight:600; margin-top:4px; }
+  .af-modal-agent { font-size:12px; color:#ff5a00; font-weight:600; margin-top:4px; }
 
   .af-modal-meta { margin-top:18px; display:flex; flex-direction:column; gap:11px; border-top:1px solid #1e1e1e; padding-top:16px; }
   .af-meta-row { display:flex; align-items:center; justify-content:space-between; gap:12px; }
   .af-addr { display:flex; align-items:center; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
   .af-copy { font-size:11px; font-weight:700; background:#1c1c1c; border:1px solid #2a2a2a; color:#bbb; border-radius:8px; padding:3px 9px; cursor:pointer; transition:all .15s; font-family:inherit; }
-  .af-copy:hover { border-color:#4f6ef7; color:#fff; }
-  .af-link { font-size:11px; font-weight:700; color:#4f6ef7; text-decoration:none; }
+  .af-copy:hover { border-color:#ff5a00; color:#fff; }
+  .af-link { font-size:11px; font-weight:700; color:#ff5a00; text-decoration:none; }
   .af-link:hover { text-decoration:underline; }
 
   .af-section-label { font-size:10px; color:#777; font-weight:700; letter-spacing:1px; text-transform:uppercase; margin:20px 0 11px; display:flex; align-items:center; gap:8px; }
@@ -780,26 +820,51 @@ const CSS = `
   .af-mkt-l { font-size:10px; color:#777; font-weight:600; letter-spacing:.6px; text-transform:uppercase; margin-top:5px; }
   .af-chg { font-size:13px; font-weight:700; margin-top:12px; }
   .af-chg.pos { color:#22c55e; } .af-chg.neg { color:#ef4444; }
-  .af-dex-btn { display:block; text-align:center; margin-top:14px; background:#4f6ef7; color:#fff; font-size:13px; font-weight:700; padding:12px; border-radius:12px; text-decoration:none; transition:background .15s; }
-  .af-dex-btn:hover { background:#3d5bea; }
+  .af-dex-btn { display:block; text-align:center; margin-top:14px; background:#ff5a00; color:#fff; font-size:13px; font-weight:700; padding:12px; border-radius:12px; text-decoration:none; transition:background .15s; }
+  .af-dex-btn:hover { background:#e65200; }
   .af-nopool { background:#181818; border:1px dashed #2e2e2e; border-radius:14px; padding:18px; color:#888; font-size:13px; text-align:center; margin-top:6px; }
 
   .af-sib-list { display:flex; flex-direction:column; gap:7px; }
   .af-sib { display:flex; align-items:center; gap:10px; background:#181818; border:1px solid #242424; border-radius:12px; padding:9px 12px; cursor:pointer; transition:border-color .15s, background .15s; font-family:inherit; text-align:left; }
-  .af-sib:hover { border-color:#4f6ef7; background:#1c1c1c; }
+  .af-sib:hover { border-color:#ff5a00; background:#1c1c1c; }
   .af-sib-name { flex:1; font-size:13px; font-weight:700; color:#eee; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .af-sib-tick { font-size:11px; color:#777; font-weight:700; }
   .af-sib-more { font-size:11px; color:#666; padding:6px 4px; text-align:center; }
   .af-nosib { font-size:12px; color:#666; padding:6px 2px; }
 
-  .af-search { display:flex; align-items:center; gap:10px; max-width:1240px; margin:6px auto 0; padding:0 16px; }
+  .af-search { max-width:1240px; margin:8px auto 0; padding:0 16px; }
   @media(min-width:680px){ .af-search{ padding:0 28px; } }
-  .af-search-icon { color:#666; font-size:18px; flex-shrink:0; }
-  .af-search-input { flex:1; background:#141414; border:1px solid #242424; border-radius:12px; padding:11px 14px; color:#fff; font-size:14px; font-family:inherit; outline:none; transition:border-color .15s; }
+  .af-search-box { display:flex; align-items:center; gap:11px; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.1); border-radius:13px; padding:12px 14px; transition:border-color .15s; }
+  .af-search-box:focus-within { border-color:#ff5a00; }
+  .af-search-icon { display:inline-flex; color:#7a7a7a; flex-shrink:0; }
+  .af-search-input { flex:1; min-width:0; background:transparent; border:none; color:#fff; font-size:14px; font-family:inherit; outline:none; }
   .af-search-input::placeholder { color:#5a5a5a; }
-  .af-search-input:focus { border-color:#4f6ef7; }
-  .af-search-clear { background:#1c1c1c; border:1px solid #2a2a2a; color:#999; border-radius:9px; width:32px; height:32px; cursor:pointer; font-size:12px; flex-shrink:0; }
-  .af-search-clear:hover { color:#fff; border-color:#3a3a3a; }
+  .af-search-filter { display:inline-flex; color:#7a7a7a; flex-shrink:0; }
+  .af-search-clear { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); color:#aaa; border-radius:8px; width:26px; height:26px; cursor:pointer; font-size:11px; flex-shrink:0; }
+  .af-search-clear:hover { color:#fff; border-color:#ff5a00; }
+
+  /* Token list (rows) */
+  .af-list { max-width:1240px; margin:16px auto 0; padding:0 16px 28px; }
+  @media(min-width:680px){ .af-list{ padding:0 28px 32px; } }
+  .af-list .af-empty { color:#666; font-size:13px; padding:40px; text-align:center; }
+  .af-row { display:flex; align-items:center; gap:13px; padding:13px 14px 13px 16px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.06); border-left:3px solid #ff5a00; border-radius:10px; margin-bottom:8px; cursor:pointer; transition:background .15s, border-color .15s, transform .1s; font-family:inherit; }
+  .af-row:hover { background:rgba(255,90,0,0.06); border-color:rgba(255,90,0,0.3); border-left-color:#ff5a00; transform:translateX(2px); }
+  .af-row:focus-visible { outline:2px solid #ff5a00; outline-offset:2px; }
+  .af-row .af-av-img, .af-row .af-av-emoji { flex-shrink:0; }
+  .af-row-mid { flex:1; min-width:0; }
+  .af-row-title { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .af-row-name { font-size:14px; font-weight:700; color:#f2f2f3; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:55vw; }
+  .af-row-tick { font-size:12px; font-weight:700; color:#ff8a3d; }
+  .af-row .af-verified { font-size:11px; font-weight:800; color:#22c55e; }
+  .af-row-meta { display:flex; align-items:center; gap:7px; margin-top:4px; font-size:11px; color:#7c7c80; font-weight:500; }
+  .af-row-meta .mono { color:#9a9a9e; }
+  .af-row-sep { color:#444; }
+  .af-row-by { color:#8a8a90; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:30vw; }
+  .af-row-right { text-align:right; flex-shrink:0; }
+  .af-row-fees { font-size:15px; font-weight:800; color:#fff; letter-spacing:-.3px; }
+  .af-row-fired { font-size:11px; font-weight:700; color:#ff5a00; margin-top:2px; }
+
+  .af-modal-links { display:flex; gap:8px; margin-top:12px; }
 
   .af-status { font-size:10px; font-weight:800; letter-spacing:.5px; border-radius:100px; padding:3px 9px; flex-shrink:0; text-transform:uppercase; }
   .af-status.on { background:rgba(34,197,94,.14); color:#22c55e; border:1px solid rgba(34,197,94,.3); }
@@ -809,7 +874,7 @@ const CSS = `
   .af-card-row.tokens { align-items:flex-start; }
   .af-agent-tokens { display:flex; flex-wrap:wrap; gap:5px; justify-content:flex-end; max-width:70%; }
   .af-token-chip { background:#1b2030; border:1px solid #2c3550; color:#9bb0ff; border-radius:8px; padding:3px 8px; font-size:11px; font-weight:700; cursor:pointer; font-family:inherit; transition:all .15s; }
-  .af-token-chip:hover { border-color:#4f6ef7; color:#fff; background:#222a40; }
+  .af-token-chip:hover { border-color:#ff5a00; color:#fff; background:#222a40; }
 
   .af-swap { margin-top:18px; background:#0f0f12; border:1px solid #242424; border-radius:16px; padding:14px; }
   .af-modal > .af-swap { margin-top:30px; } /* clear the close button when swap is at the top */
@@ -830,7 +895,7 @@ const CSS = `
   .af-swap-slip { display:flex; align-items:center; justify-content:space-between; margin-top:12px; }
   .af-slip-opts { display:flex; gap:6px; }
   .af-slip { background:#181818; border:1px solid #2a2a2a; color:#999; border-radius:9px; padding:5px 11px; font-size:12px; font-weight:700; cursor:pointer; transition:all .15s; font-family:inherit; }
-  .af-slip.active { background:#4f6ef7; border-color:#4f6ef7; color:#fff; }
+  .af-slip.active { background:#ff5a00; border-color:#ff5a00; color:#fff; }
   .af-swap-rate { font-size:11px; color:#666; margin-top:12px; text-align:center; }
   .af-swap-btn { width:100%; margin-top:12px; padding:14px; border:none; border-radius:13px; font-size:15px; font-weight:800; cursor:pointer; transition:all .2s; font-family:inherit; color:#fff; }
   .af-swap-btn.buy { background:#22c55e; color:#04130a; } .af-swap-btn.sell { background:#ef4444; }
