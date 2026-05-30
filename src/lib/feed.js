@@ -1,19 +1,24 @@
 // Runtime data layer for the AgentFeed dashboard.
 //
-// Two live sources, both reachable from the browser:
-//  1. 0xWork verified token launches — api.0xwork.org is CORS-blocked, so we
-//     route it through the allorigins public CORS proxy. A build-time snapshot
-//     (src/data/launches.json) is the always-available fallback.
+// Two live sources:
+//  1. 0xWork token launches — api.0xwork.org is CORS-blocked, so we route it
+//     through the allorigins public CORS proxy. A build-time snapshot
+//     (src/data/launches.json) holds all ~346 launches as the always-available
+//     fallback. At runtime we only need page 1 (newest launchIds) to detect new
+//     launches by diffing the max launchId.
 //  2. DEXScreener (CORS: *) for live price / volume / liquidity / FDV / change.
+//     The tokens endpoint accepts at most 30 addresses per request, so we batch.
 //
-// Fees are estimated as: 24h volume × agent share (0.57) × swap fee rate.
+// Fees are estimated as: 24h volume × agent share (0.57) × swap fee rate (1.2%).
 
-const LAUNCHES_URL = "https://api.0xwork.org/agent/token/launches?verified=true&limit=100";
+const BASE = "https://api.0xwork.org/agent/token/launches";
+const LAUNCHES_PAGE1 = `${BASE}?limit=50&offset=0`;
 const PROXY = (u) => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`;
 const DEX_TOKENS = "https://api.dexscreener.com/latest/dex/tokens/";
+const DEX_BATCH = 30; // DEXScreener caps the tokens endpoint at 30 addresses
 
-export const SWAP_FEE_RATE = 0.003; // 0.3% AMM swap fee (token-forge pools are Uniswap v4)
-export const FEE_AGENT_SHARE = 0.57;
+export const SWAP_FEE_RATE = 0.012; // 1.2% swap fee on token-forge pools
+export const FEE_AGENT_SHARE = 0.57; // creator/agent share of the fee
 
 export const computeFees = (volume24h) => volume24h * FEE_AGENT_SHARE * SWAP_FEE_RATE;
 
@@ -22,36 +27,56 @@ export function mapLaunch(i) {
     launchId: i.launchId,
     tokenName: i.tokenName,
     tokenSymbol: i.tokenSymbol,
-    agentName: i.launcher?.name ?? i.agentName ?? null,
     tokenAddress: i.tokenAddress,
+    imageUrl: i.imageUrl ?? null,
     createdAt: i.createdAt,
+    launcher: {
+      name: i.launcher?.name ?? null,
+      handle: i.launcher?.handle ?? null,
+      image: i.launcher?.image ?? null,
+      verified: !!i.launcher?.verified,
+    },
+    dexscreenerUrl: i.dexscreenerUrl ?? i.public?.dexscreenerUrl ?? null,
+    launchUrl: i.launchUrl ?? i.public?.launchUrl ?? null,
   };
 }
 
-/** Live verified launches via CORS proxy. Throws on failure so callers can fall back. */
+/**
+ * Live launches (page 1, newest first) via the CORS proxy. Used only for
+ * new-launch detection. Throws on failure so callers can fall back.
+ */
 export async function fetchLaunchesLive() {
-  const res = await fetch(PROXY(LAUNCHES_URL), { headers: { accept: "application/json" } });
+  const res = await fetch(PROXY(LAUNCHES_PAGE1), { headers: { accept: "application/json" } });
   if (!res.ok) throw new Error(`launches proxy HTTP ${res.status}`);
   const json = JSON.parse(await res.text());
-  return (json.items || []).filter((i) => i.launcher?.verified && i.tokenAddress).map(mapLaunch);
+  return (json.items || []).filter((i) => i.tokenAddress).map(mapLaunch);
 }
 
 /**
- * Batch-fetch DEXScreener market data for many token addresses (one request).
+ * Batch-fetch DEXScreener market data for many token addresses, 30 per request.
  * For each token: primary pair = highest-liquidity pool; volume & liquidity are
- * summed across that token's pools. Returns Map(lowerAddr -> market | undefined).
+ * summed across that token's pools. Returns an object keyed by lowercase address.
+ * Individual batch failures are tolerated so one bad chunk doesn't blank the board.
  */
 export async function fetchMarkets(addresses) {
   const out = {};
   if (!addresses.length) return out;
-  const res = await fetch(DEX_TOKENS + addresses.join(","));
-  if (!res.ok) throw new Error(`dexscreener HTTP ${res.status}`);
-  const json = await res.json();
   const byToken = {};
-  for (const p of json.pairs || []) {
-    const a = p.baseToken?.address?.toLowerCase();
-    if (!a) continue;
-    (byToken[a] ??= []).push(p);
+  for (let i = 0; i < addresses.length; i += DEX_BATCH) {
+    const batch = addresses.slice(i, i + DEX_BATCH);
+    let json;
+    try {
+      const res = await fetch(DEX_TOKENS + batch.join(","));
+      if (!res.ok) continue;
+      json = await res.json();
+    } catch {
+      continue;
+    }
+    for (const p of json.pairs || []) {
+      const a = p.baseToken?.address?.toLowerCase();
+      if (!a) continue;
+      (byToken[a] ??= []).push(p);
+    }
   }
   for (const a in byToken) {
     const ps = byToken[a].sort((x, y) => (y.liquidity?.usd || 0) - (x.liquidity?.usd || 0));
@@ -89,7 +114,18 @@ export function fmtNum(n) {
 }
 
 export const short = (a) => (a ? `${a.slice(0, 6)}…${a.slice(-4)}` : "");
-export const dexUrl = (token) => token.market?.url || `https://dexscreener.com/base/${token.tokenAddress}`;
+
+// Prefer the platform-provided DEXScreener link, else build one from the address.
+export const dexUrl = (token) =>
+  token.market?.url || token.dexscreenerUrl || `https://dexscreener.com/base/${token.tokenAddress}`;
+
+// Display name for the launching agent: launcher.name, else @handle, else null.
+export function agentLabel(token) {
+  const l = token.launcher || {};
+  if (l.name) return l.name;
+  if (l.handle) return l.handle.startsWith("@") ? l.handle : `@${l.handle}`;
+  return null;
+}
 
 const AVATARS = ["🦈", "🤖", "🐙", "🔐", "🌊", "💧", "🧠", "⚡", "🦾", "🛰️", "🔮", "🎯", "🧩", "🚀", "🦉", "🐬"];
 export function avatarFor(seed) {

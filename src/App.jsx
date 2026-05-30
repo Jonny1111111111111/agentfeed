@@ -6,10 +6,10 @@ import {
   fetchMarkets,
   computeFees,
   fmtUsd,
-  fmtNum,
   short,
   dexUrl,
   avatarFor,
+  agentLabel,
   daysSince,
   nowTime,
   SWAP_FEE_RATE,
@@ -28,6 +28,13 @@ function makeToken(launch) {
 let evtSeq = 0;
 const mkEvent = (e) => ({ id: `${Date.now()}-${evtSeq++}`, time: nowTime(), ...e });
 
+// Avatar: real launcher image if available, else a deterministic emoji.
+function Avatar({ token }) {
+  const img = token.launcher?.image;
+  if (img) return <img className="af-avatar-img" src={img} alt="" loading="lazy" />;
+  return <span className="af-avatar">{avatarFor(token.tokenAddress)}</span>;
+}
+
 export default function AgentFeed() {
   const [tab, setTab] = useState("leaderboard");
   const [tokens, setTokens] = useState(() => (snapshot.items || []).map((l) => makeToken(mapLaunch(l))));
@@ -38,6 +45,9 @@ export default function AgentFeed() {
   const [flashIds, setFlashIds] = useState(new Set());
 
   const prevVol = useRef({}); // lowerAddr -> last seen 24h volume
+  const maxLaunchId = useRef(
+    (snapshot.items || []).reduce((m, l) => Math.max(m, l.launchId || 0), 0)
+  );
   const tokensRef = useRef(tokens);
   tokensRef.current = tokens;
 
@@ -111,27 +121,31 @@ export default function AgentFeed() {
     return () => clearInterval(iv);
   }, []);
 
-  // Poll 0xWork launches (via proxy) for newly launched verified agents.
+  // Poll 0xWork launches (via proxy) for newly launched agents — detected by
+  // a launchId greater than the highest we've seen.
   useEffect(() => {
     const iv = setInterval(async () => {
       try {
         const live = await fetchLaunchesLive();
         setProxyDown(false);
-        const known = new Set(tokensRef.current.map((t) => t.tokenAddress.toLowerCase()));
-        const fresh = live.filter((l) => !known.has(l.tokenAddress.toLowerCase()));
+        const fresh = live
+          .filter((l) => l.launchId > maxLaunchId.current)
+          .sort((a, b) => a.launchId - b.launchId);
         if (fresh.length) {
+          maxLaunchId.current = Math.max(...fresh.map((l) => l.launchId));
           setTokens((prev) => [...fresh.map((l) => ({ ...makeToken(l), isNew: true })), ...prev]);
           pushEvents(
-            fresh.map((l) =>
-              mkEvent({
+            fresh.map((l) => {
+              const who = agentLabel(l);
+              return mkEvent({
                 type: "launch",
                 color: "#a855f7",
                 icon: "🆕",
-                text: `${l.tokenSymbol} launched${l.agentName ? ` by ${l.agentName}` : ""}`,
+                text: `${l.tokenSymbol} launched${who ? ` by ${who}` : ""}`,
                 addr: l.tokenAddress,
                 flash: l.tokenAddress,
-              })
-            )
+              });
+            })
           );
         }
       } catch {
@@ -149,20 +163,30 @@ export default function AgentFeed() {
 
   // Derived views.
   const isNew = (t) => t.isNew || daysSince(t.createdAt) < NEW_DAYS;
-  const leaderboard = [...tokens].sort((a, b) => b.fees - a.fees);
+  // Leaderboard: active (has a DEX pool) on top by fees, then inactive newest-first.
+  const leaderboard = [...tokens].sort((a, b) => {
+    const aActive = a.market?.hasPool ? 1 : 0;
+    const bActive = b.market?.hasPool ? 1 : 0;
+    if (aActive !== bActive) return bActive - aActive;
+    if (aActive) return b.fees - a.fees;
+    return Date.parse(b.createdAt) - Date.parse(a.createdAt);
+  });
   const newAgents = [...tokens].sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt));
+  const activeCount = tokens.filter((t) => t.market?.hasPool).length;
   const newCount = tokens.filter(isNew).length;
   const totalVol = tokens.reduce((s, t) => s + (t.market?.volume24h || 0), 0);
   const totalFees = tokens.reduce((s, t) => s + t.fees, 0);
-  const topToken = leaderboard[0];
+  const topToken = leaderboard.find((t) => t.market?.hasPool);
   const displayed = tab === "leaderboard" ? leaderboard : newAgents;
 
   const tickerItems = [];
   leaderboard.forEach((t) => {
-    if (t.market?.hasPool) tickerItems.push(`${t.tokenSymbol} ${t.market.priceChange24h >= 0 ? "+" : ""}${t.market.priceChange24h.toFixed(1)}%`);
+    if (t.market?.hasPool)
+      tickerItems.push(`${t.tokenSymbol} ${t.market.priceChange24h >= 0 ? "+" : ""}${t.market.priceChange24h.toFixed(1)}%`);
   });
   if (totalFees > 0) tickerItems.push(`Fees ${fmtUsd(totalFees)}`);
   tickerItems.push(`Vol ${fmtUsd(totalVol)}`);
+  tickerItems.push(`${tokens.length} agents`);
   const tickerFull = tickerItems.length ? [...tickerItems, ...tickerItems, ...tickerItems] : ["loading 0xWork launches…"];
 
   return (
@@ -176,9 +200,13 @@ export default function AgentFeed() {
           <span className="af-logo-badge">FEED</span>
         </div>
         <div className="af-pill">
-          <span className="af-pill-icon">✅</span>
+          <span className="af-pill-icon">🪙</span>
           <span className="af-pill-val">{tokens.length}</span>
-          <span className="af-pill-lbl">verified</span>
+          <span className="af-pill-lbl">agents</span>
+          <span className="af-pill-div" />
+          <span className="af-pill-icon">📈</span>
+          <span className="af-pill-val">{activeCount}</span>
+          <span className="af-pill-lbl">active</span>
           <span className="af-pill-div" />
           <span className="af-live-dot" />
           <span className="af-live-txt">{loading ? "SYNC" : "LIVE"}</span>
@@ -197,7 +225,7 @@ export default function AgentFeed() {
       </div>
 
       {proxyDown && (
-        <div className="af-note">ℹ️ Live launch polling unavailable (CORS proxy down) — showing the verified snapshot. Trading data is still live.</div>
+        <div className="af-note">ℹ️ Live launch polling unavailable (CORS proxy down) — showing the snapshot. Trading data is still live.</div>
       )}
 
       <div className="af-body">
@@ -237,16 +265,18 @@ export default function AgentFeed() {
             {displayed.map((t, i) => {
               const m = t.market;
               const chg = m?.priceChange24h ?? 0;
+              const who = agentLabel(t);
               return (
-                <a key={t.tokenAddress} href={dexUrl(t)} target="_blank" rel="noreferrer" className={`af-agent-card${flashIds.has(t.tokenAddress) ? " flash" : ""}`}>
+                <a key={t.tokenAddress} href={dexUrl(t)} target="_blank" rel="noreferrer" className={`af-agent-card${flashIds.has(t.tokenAddress) ? " flash" : ""}${m?.hasPool ? "" : " inactive"}`}>
                   <span className="af-rank">#{i + 1}</span>
-                  <span className="af-avatar">{avatarFor(t.tokenAddress)}</span>
+                  <Avatar token={t} />
                   <div className="af-agent-info">
                     <div className="af-agent-name">
                       {t.tokenName}
                       {isNew(t) && <span className="af-new-badge">NEW</span>}
+                      {t.launcher?.verified && <span className="af-verified" title="verified launcher">✓</span>}
                     </div>
-                    <div className="af-agent-sym">${t.tokenSymbol}{t.agentName ? ` · ${t.agentName}` : ""}</div>
+                    <div className="af-agent-sym">${t.tokenSymbol}{who ? ` · ${who}` : ` · ${short(t.tokenAddress)}`}</div>
                   </div>
                   <div className="af-agent-meta">
                     <div className="af-agent-fee">{m?.hasPool ? fmtUsd(t.fees) : "—"}</div>
@@ -289,7 +319,7 @@ export default function AgentFeed() {
       </div>
 
       <footer className="af-footer">
-        Verified launches: 0xWork token-forge · trading data: DEXScreener · fees ≈ vol × {FEE_AGENT_SHARE} × {SWAP_FEE_RATE} · not affiliated with 0xWork
+        All {tokens.length} 0xWork token-forge launches · trading data: DEXScreener · fees ≈ vol × {FEE_AGENT_SHARE} × {SWAP_FEE_RATE} · not affiliated with 0xWork
       </footer>
     </div>
   );
@@ -347,13 +377,17 @@ const CSS = `
   .af-agent-list { display:flex; flex-direction:column; gap:8px; }
   .af-agent-card { background:#1a1a1a; border:1px solid #2a2a2a; border-radius:16px; padding:14px 16px; display:flex; align-items:center; gap:12px; transition:border-color .3s, box-shadow .3s, background .3s; text-decoration:none; color:inherit; }
   .af-agent-card:hover { border-color:#3a3a3a; }
+  .af-agent-card.inactive { opacity:.62; }
+  .af-agent-card.inactive:hover { opacity:1; }
   .af-agent-card.flash { animation:cardFlash .9s ease-out forwards; }
   .af-rank { font-size:11px; color:#444; font-weight:700; min-width:22px; }
   .af-avatar { font-size:28px; line-height:1; flex-shrink:0; }
+  .af-avatar-img { width:30px; height:30px; border-radius:50%; object-fit:cover; flex-shrink:0; background:#222; }
   .af-agent-info { flex:1; min-width:0; }
   .af-agent-name { font-size:14px; font-weight:700; display:flex; align-items:center; gap:7px; }
   .af-agent-sym { font-size:11px; color:#666; margin-top:2px; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .af-new-badge { font-size:8px; font-weight:800; letter-spacing:1px; background:rgba(168,85,247,.15); color:#c084fc; border:1px solid rgba(168,85,247,.3); border-radius:6px; padding:1px 6px; }
+  .af-verified { font-size:10px; font-weight:800; color:#22c55e; }
   .af-agent-meta { text-align:right; }
   .af-agent-fee { font-size:16px; font-weight:800; }
   .af-agent-chg { font-size:11px; font-weight:700; margin-top:2px; }

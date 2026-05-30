@@ -1,70 +1,5543 @@
 {
-  "generatedAt": "2026-05-29T10:20:12.785Z",
-  "count": 8,
+  "generatedAt": "2026-05-30T11:34:05.270Z",
+  "total": 346,
+  "count": 346,
   "items": [
+    {
+      "launchId": 346,
+      "tokenName": "Conaudits Sovereign Agent",
+      "tokenSymbol": "CONAUDITSS",
+      "tokenAddress": "0xB419F2fA8737b2F62e6F007288C4c1258b21BbA3",
+      "imageUrl": null,
+      "createdAt": "2026-04-01 12:33:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xB419F2fA8737b2F62e6F007288C4c1258b21BbA3",
+      "launchUrl": "https://0xwork.org/launches/0xB419F2fA8737b2F62e6F007288C4c1258b21BbA3"
+    },
+    {
+      "launchId": 345,
+      "tokenName": "xvnm",
+      "tokenSymbol": "XVNM",
+      "tokenAddress": "0x750fdcD3339f3cF6F2E70Ea403124E9A66A51BA3",
+      "imageUrl": null,
+      "createdAt": "2026-04-01 02:47:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x750fdcD3339f3cF6F2E70Ea403124E9A66A51BA3",
+      "launchUrl": "https://0xwork.org/launches/0x750fdcD3339f3cF6F2E70Ea403124E9A66A51BA3"
+    },
+    {
+      "launchId": 344,
+      "tokenName": "xvm",
+      "tokenSymbol": "XVM",
+      "tokenAddress": "0x50445b30e23e8Eea92fB2B5e5707Ad19D254fba3",
+      "imageUrl": null,
+      "createdAt": "2026-04-01 02:47:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x50445b30e23e8Eea92fB2B5e5707Ad19D254fba3",
+      "launchUrl": "https://0xwork.org/launches/0x50445b30e23e8Eea92fB2B5e5707Ad19D254fba3"
+    },
+    {
+      "launchId": 343,
+      "tokenName": "paly",
+      "tokenSymbol": "PALY",
+      "tokenAddress": "0xd6FdeF5EA1765dcDFAF62A5F441f96C9dDeeDBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-29 22:55:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd6FdeF5EA1765dcDFAF62A5F441f96C9dDeeDBa3",
+      "launchUrl": "https://0xwork.org/launches/0xd6FdeF5EA1765dcDFAF62A5F441f96C9dDeeDBa3"
+    },
+    {
+      "launchId": 342,
+      "tokenName": "ribbita",
+      "tokenSymbol": "RIBBITA",
+      "tokenAddress": "0x50b6F4242feCB88329cDDcaBc847188517850Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-29 22:54:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x50b6F4242feCB88329cDDcaBc847188517850Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x50b6F4242feCB88329cDDcaBc847188517850Ba3"
+    },
+    {
+      "launchId": 341,
+      "tokenName": "717ai",
+      "tokenSymbol": "717AI",
+      "tokenAddress": "0x1a35bAd478f8f65BbEf5f0569A247c53560A7Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-29 22:53:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1a35bAd478f8f65BbEf5f0569A247c53560A7Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x1a35bAd478f8f65BbEf5f0569A247c53560A7Ba3"
+    },
+    {
+      "launchId": 340,
+      "tokenName": "RUSH GAME",
+      "tokenSymbol": "RUSHGAME",
+      "tokenAddress": "0xA807394f95Bc48E0E3B6E30e244524445c0B3bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-29 22:52:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xA807394f95Bc48E0E3B6E30e244524445c0B3bA3",
+      "launchUrl": "https://0xwork.org/launches/0xA807394f95Bc48E0E3B6E30e244524445c0B3bA3"
+    },
+    {
+      "launchId": 339,
+      "tokenName": "Tybura",
+      "tokenSymbol": "TYBURA",
+      "tokenAddress": "0xaa8883a1a1190bf69b487C073a9C5fa7aC112ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 23:39:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xaa8883a1a1190bf69b487C073a9C5fa7aC112ba3",
+      "launchUrl": "https://0xwork.org/launches/0xaa8883a1a1190bf69b487C073a9C5fa7aC112ba3"
+    },
+    {
+      "launchId": 338,
+      "tokenName": "Fang Fang",
+      "tokenSymbol": "FANGFANG",
+      "tokenAddress": "0x153DdBF2B4bE3251E0F326c15cE007a651B9dBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 23:39:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x153DdBF2B4bE3251E0F326c15cE007a651B9dBA3",
+      "launchUrl": "https://0xwork.org/launches/0x153DdBF2B4bE3251E0F326c15cE007a651B9dBA3"
+    },
+    {
+      "launchId": 337,
+      "tokenName": "LifeAI",
+      "tokenSymbol": "LIFEAI",
+      "tokenAddress": "0x26843356a0F1738Ece34AD1C8e1c5aF5944f0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 23:33:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x26843356a0F1738Ece34AD1C8e1c5aF5944f0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x26843356a0F1738Ece34AD1C8e1c5aF5944f0ba3"
+    },
+    {
+      "launchId": 336,
+      "tokenName": "Blockchain",
+      "tokenSymbol": "BLOCKCHAIN",
+      "tokenAddress": "0x3500E66A561787B3cf075E5dB0D00CAc94136ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 23:32:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3500E66A561787B3cf075E5dB0D00CAc94136ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3500E66A561787B3cf075E5dB0D00CAc94136ba3"
+    },
+    {
+      "launchId": 335,
+      "tokenName": "limitless",
+      "tokenSymbol": "LIMITLESS",
+      "tokenAddress": "0xf4CF3E09d923451b3743066E4b0A8991fF20BBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:50:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf4CF3E09d923451b3743066E4b0A8991fF20BBa3",
+      "launchUrl": "https://0xwork.org/launches/0xf4CF3E09d923451b3743066E4b0A8991fF20BBa3"
+    },
+    {
+      "launchId": 334,
+      "tokenName": "macrobased",
+      "tokenSymbol": "MACROBASED",
+      "tokenAddress": "0xf4b5D4754043b8f562a81B6F6eceC94AbF4a0BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:49:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf4b5D4754043b8f562a81B6F6eceC94AbF4a0BA3",
+      "launchUrl": "https://0xwork.org/launches/0xf4b5D4754043b8f562a81B6F6eceC94AbF4a0BA3"
+    },
+    {
+      "launchId": 333,
+      "tokenName": "Hide Eye",
+      "tokenSymbol": "HIDEEYE",
+      "tokenAddress": "0x4cB9e21412e0c9a1E8A41e2Dee05D536d03d7Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:47:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4cB9e21412e0c9a1E8A41e2Dee05D536d03d7Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4cB9e21412e0c9a1E8A41e2Dee05D536d03d7Ba3"
+    },
+    {
+      "launchId": 332,
+      "tokenName": "DCLAW",
+      "tokenSymbol": "DCLAW",
+      "tokenAddress": "0x2c4B3dd13B6D7161b21D3a0781ff12583ADA9ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:47:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2c4B3dd13B6D7161b21D3a0781ff12583ADA9ba3",
+      "launchUrl": "https://0xwork.org/launches/0x2c4B3dd13B6D7161b21D3a0781ff12583ADA9ba3"
+    },
+    {
+      "launchId": 331,
+      "tokenName": "animalclaw",
+      "tokenSymbol": "ANIMALCLAW",
+      "tokenAddress": "0x50745D356D54AF9CDE4c848B1B9e52E0dfB59BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:47:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x50745D356D54AF9CDE4c848B1B9e52E0dfB59BA3",
+      "launchUrl": "https://0xwork.org/launches/0x50745D356D54AF9CDE4c848B1B9e52E0dfB59BA3"
+    },
+    {
+      "launchId": 330,
+      "tokenName": "macroclaw",
+      "tokenSymbol": "MACROCLAW",
+      "tokenAddress": "0x6324076372CdED3344cD9209184C14Df1DF8EbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:46:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6324076372CdED3344cD9209184C14Df1DF8EbA3",
+      "launchUrl": "https://0xwork.org/launches/0x6324076372CdED3344cD9209184C14Df1DF8EbA3"
+    },
+    {
+      "launchId": 329,
+      "tokenName": "micropay",
+      "tokenSymbol": "MICROPAY",
+      "tokenAddress": "0x84860da4dDFabe37F543F01D845114435386cBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:46:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x84860da4dDFabe37F543F01D845114435386cBa3",
+      "launchUrl": "https://0xwork.org/launches/0x84860da4dDFabe37F543F01D845114435386cBa3"
+    },
+    {
+      "launchId": 328,
+      "tokenName": "zeus",
+      "tokenSymbol": "ZEUS",
+      "tokenAddress": "0x5a9B689Fb388EF1a28c463aC6B856778fF471ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:45:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5a9B689Fb388EF1a28c463aC6B856778fF471ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5a9B689Fb388EF1a28c463aC6B856778fF471ba3"
+    },
+    {
+      "launchId": 327,
+      "tokenName": "starter",
+      "tokenSymbol": "STARTER",
+      "tokenAddress": "0x3981FAC087491402f40233E34FBB4A1992a87ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:45:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3981FAC087491402f40233E34FBB4A1992a87ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3981FAC087491402f40233E34FBB4A1992a87ba3"
+    },
+    {
+      "launchId": 326,
+      "tokenName": "VETHEREUM",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0x35F1888C8F12765e65Cd76E5C7ba4671798C8bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 22:44:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x35F1888C8F12765e65Cd76E5C7ba4671798C8bA3",
+      "launchUrl": "https://0xwork.org/launches/0x35F1888C8F12765e65Cd76E5C7ba4671798C8bA3"
+    },
+    {
+      "launchId": 325,
+      "tokenName": "TrumpMobile",
+      "tokenSymbol": "TRUMPMOBIL",
+      "tokenAddress": "0x87073ff3Cbde28B22a5912F11cf6182738126ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 20:57:05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x87073ff3Cbde28B22a5912F11cf6182738126ba3",
+      "launchUrl": "https://0xwork.org/launches/0x87073ff3Cbde28B22a5912F11cf6182738126ba3"
+    },
+    {
+      "launchId": 324,
+      "tokenName": "KITKAT",
+      "tokenSymbol": "KITKAT",
+      "tokenAddress": "0x7B0C190D81a73E83Bf659C4AFC08487025041Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 20:53:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7B0C190D81a73E83Bf659C4AFC08487025041Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x7B0C190D81a73E83Bf659C4AFC08487025041Ba3"
+    },
+    {
+      "launchId": 323,
+      "tokenName": "API",
+      "tokenSymbol": "API",
+      "tokenAddress": "0xf3F5b5e37Eea3a3996569341535F5D658A520bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-28 15:01:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf3F5b5e37Eea3a3996569341535F5D658A520bA3",
+      "launchUrl": "https://0xwork.org/launches/0xf3F5b5e37Eea3a3996569341535F5D658A520bA3"
+    },
+    {
+      "launchId": 322,
+      "tokenName": "Usd Agent",
+      "tokenSymbol": "USDAGENT",
+      "tokenAddress": "0x7275016817ce7cc4A75aB397b978fbafAA6c0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 22:14:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7275016817ce7cc4A75aB397b978fbafAA6c0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x7275016817ce7cc4A75aB397b978fbafAA6c0ba3"
+    },
+    {
+      "launchId": 321,
+      "tokenName": "FeeAgent",
+      "tokenSymbol": "FEEAGENT",
+      "tokenAddress": "0x8146E94b437A937E67756948ed350C4bF7d78Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 22:12:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8146E94b437A937E67756948ed350C4bF7d78Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x8146E94b437A937E67756948ed350C4bF7d78Ba3"
+    },
+    {
+      "launchId": 320,
+      "tokenName": "FirstAgent",
+      "tokenSymbol": "FIRSTAGENT",
+      "tokenAddress": "0x5fE346C5Dd54434dCad952cbB230336b05F8dBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 22:09:57",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5fE346C5Dd54434dCad952cbB230336b05F8dBa3",
+      "launchUrl": "https://0xwork.org/launches/0x5fE346C5Dd54434dCad952cbB230336b05F8dBa3"
+    },
+    {
+      "launchId": 319,
+      "tokenName": "Panini",
+      "tokenSymbol": "PANINI",
+      "tokenAddress": "0xBf13cA626b5Ccd6b9c9Af27A4CB1c87979A7dba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:42:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xBf13cA626b5Ccd6b9c9Af27A4CB1c87979A7dba3",
+      "launchUrl": "https://0xwork.org/launches/0xBf13cA626b5Ccd6b9c9Af27A4CB1c87979A7dba3"
+    },
+    {
+      "launchId": 318,
+      "tokenName": "PaniniAmerica",
+      "tokenSymbol": "PANINIAMER",
+      "tokenAddress": "0x2e844E135A32FcC862998DD434bd6E54fEfdFBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:41:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2e844E135A32FcC862998DD434bd6E54fEfdFBA3",
+      "launchUrl": "https://0xwork.org/launches/0x2e844E135A32FcC862998DD434bd6E54fEfdFBA3"
+    },
+    {
+      "launchId": 317,
+      "tokenName": "$BASED1",
+      "tokenSymbol": "BASED1",
+      "tokenAddress": "0x03A4bdcF1f5ED359925b2eAd5091032e55140bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:15:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x03A4bdcF1f5ED359925b2eAd5091032e55140bA3",
+      "launchUrl": "https://0xwork.org/launches/0x03A4bdcF1f5ED359925b2eAd5091032e55140bA3"
+    },
+    {
+      "launchId": 316,
+      "tokenName": "0xwork.org",
+      "tokenSymbol": "0XWORKORG",
+      "tokenAddress": "0x404E333242bFB564dBE20BFDe93D7e5a04742Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:10:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x404E333242bFB564dBE20BFDe93D7e5a04742Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x404E333242bFB564dBE20BFDe93D7e5a04742Ba3"
+    },
+    {
+      "launchId": 315,
+      "tokenName": "https://www.0xwork.org/",
+      "tokenSymbol": "HTTPSWWW0X",
+      "tokenAddress": "0x3E6B59b9CE0c15384B4B7dc6e4EAc43987f87BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:09:15",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3E6B59b9CE0c15384B4B7dc6e4EAc43987f87BA3",
+      "launchUrl": "https://0xwork.org/launches/0x3E6B59b9CE0c15384B4B7dc6e4EAc43987f87BA3"
+    },
+    {
+      "launchId": 314,
+      "tokenName": ".Base",
+      "tokenSymbol": "BASE",
+      "tokenAddress": "0x17B5f9e796D331c87d5C572fa766B1296b555ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:07:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x17B5f9e796D331c87d5C572fa766B1296b555ba3",
+      "launchUrl": "https://0xwork.org/launches/0x17B5f9e796D331c87d5C572fa766B1296b555ba3"
+    },
+    {
+      "launchId": 313,
+      "tokenName": "BasedBase",
+      "tokenSymbol": "BASEDBASE",
+      "tokenAddress": "0x388f7a1f8706f7737DAc07C9D0c1AFc03c670BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:04:29",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x388f7a1f8706f7737DAc07C9D0c1AFc03c670BA3",
+      "launchUrl": "https://0xwork.org/launches/0x388f7a1f8706f7737DAc07C9D0c1AFc03c670BA3"
+    },
+    {
+      "launchId": 312,
+      "tokenName": "base",
+      "tokenSymbol": "BASE",
+      "tokenAddress": "0x68817DBDE721f91253344163156f6BfB12A32ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-27 20:02:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x68817DBDE721f91253344163156f6BfB12A32ba3",
+      "launchUrl": "https://0xwork.org/launches/0x68817DBDE721f91253344163156f6BfB12A32ba3"
+    },
+    {
+      "launchId": 311,
+      "tokenName": "NEWYORK",
+      "tokenSymbol": "NEWYORK",
+      "tokenAddress": "0x8B3Cfce8712b4C46E92a90000550dba8f6600Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-26 23:33:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8B3Cfce8712b4C46E92a90000550dba8f6600Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x8B3Cfce8712b4C46E92a90000550dba8f6600Ba3"
+    },
+    {
+      "launchId": 310,
+      "tokenName": "COM",
+      "tokenSymbol": "COM",
+      "tokenAddress": "0xA167e10DF3CCbedE465F424Dbc7b245733560ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-26 23:32:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xA167e10DF3CCbedE465F424Dbc7b245733560ba3",
+      "launchUrl": "https://0xwork.org/launches/0xA167e10DF3CCbedE465F424Dbc7b245733560ba3"
+    },
+    {
+      "launchId": 309,
+      "tokenName": "ENC",
+      "tokenSymbol": "ENC",
+      "tokenAddress": "0xF4C8a33681b6275F7764425ba806ed2127443BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-26 23:29:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF4C8a33681b6275F7764425ba806ed2127443BA3",
+      "launchUrl": "https://0xwork.org/launches/0xF4C8a33681b6275F7764425ba806ed2127443BA3"
+    },
+    {
+      "launchId": 308,
+      "tokenName": "VETHEREUM",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0x4c15D3e93C0f3Ec85A1b54D6C7A00e42C1B4FbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:11:19",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4c15D3e93C0f3Ec85A1b54D6C7A00e42C1B4FbA3",
+      "launchUrl": "https://0xwork.org/launches/0x4c15D3e93C0f3Ec85A1b54D6C7A00e42C1B4FbA3"
+    },
+    {
+      "launchId": 307,
+      "tokenName": "VETHEREUM",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0x46c170e69Ff0a1F33B645fc5D59948c15Df77bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:11:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x46c170e69Ff0a1F33B645fc5D59948c15Df77bA3",
+      "launchUrl": "https://0xwork.org/launches/0x46c170e69Ff0a1F33B645fc5D59948c15Df77bA3"
+    },
+    {
+      "launchId": 306,
+      "tokenName": "FLYWHEEL",
+      "tokenSymbol": "FLYWHEEL",
+      "tokenAddress": "0x88539960175B535A629647478de6F55f1B01EBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:10:19",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x88539960175B535A629647478de6F55f1B01EBA3",
+      "launchUrl": "https://0xwork.org/launches/0x88539960175B535A629647478de6F55f1B01EBA3"
+    },
+    {
+      "launchId": 305,
+      "tokenName": "NET",
+      "tokenSymbol": "NET",
+      "tokenAddress": "0xA52522a5DC585B9eefb084830E03eC57EF12eBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:09:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xA52522a5DC585B9eefb084830E03eC57EF12eBA3",
+      "launchUrl": "https://0xwork.org/launches/0xA52522a5DC585B9eefb084830E03eC57EF12eBA3"
+    },
+    {
+      "launchId": 304,
+      "tokenName": "Limitation",
+      "tokenSymbol": "LIMITATION",
+      "tokenAddress": "0xf20191092A148feCA3a50AbD6540787677FD0BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:08:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf20191092A148feCA3a50AbD6540787677FD0BA3",
+      "launchUrl": "https://0xwork.org/launches/0xf20191092A148feCA3a50AbD6540787677FD0BA3"
+    },
+    {
+      "launchId": 303,
+      "tokenName": "BASED888",
+      "tokenSymbol": "BASED888",
+      "tokenAddress": "0x1dc4875CcE8ce3eB52B5c1226BCa41Ee799DDBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:08:31",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1dc4875CcE8ce3eB52B5c1226BCa41Ee799DDBa3",
+      "launchUrl": "https://0xwork.org/launches/0x1dc4875CcE8ce3eB52B5c1226BCa41Ee799DDBa3"
+    },
+    {
+      "launchId": 302,
+      "tokenName": "IETH",
+      "tokenSymbol": "IETH",
+      "tokenAddress": "0xa144Fc53ed8168bE8293669948FF41718c238Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:05:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa144Fc53ed8168bE8293669948FF41718c238Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xa144Fc53ed8168bE8293669948FF41718c238Ba3"
+    },
+    {
+      "launchId": 301,
+      "tokenName": "OETH",
+      "tokenSymbol": "OETH",
+      "tokenAddress": "0x1Ff774bE26F215B4E6190608F8402267bc00eba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:05:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1Ff774bE26F215B4E6190608F8402267bc00eba3",
+      "launchUrl": "https://0xwork.org/launches/0x1Ff774bE26F215B4E6190608F8402267bc00eba3"
+    },
+    {
+      "launchId": 300,
+      "tokenName": "WLFX",
+      "tokenSymbol": "WLFX",
+      "tokenAddress": "0x3b1ce40900D84C2966c22BeB8f4B598836f00ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:04:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3b1ce40900D84C2966c22BeB8f4B598836f00ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3b1ce40900D84C2966c22BeB8f4B598836f00ba3"
+    },
+    {
+      "launchId": 299,
+      "tokenName": "GKS",
+      "tokenSymbol": "GKS",
+      "tokenAddress": "0x7315da3c744443a3c63c0621ff9DDFA71b5EBBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:03:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7315da3c744443a3c63c0621ff9DDFA71b5EBBA3",
+      "launchUrl": "https://0xwork.org/launches/0x7315da3c744443a3c63c0621ff9DDFA71b5EBBA3"
+    },
+    {
+      "launchId": 298,
+      "tokenName": "A",
+      "tokenSymbol": "A",
+      "tokenAddress": "0x78777d3A32a55f99d76e4E7579E7D9201fEB1ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:02:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x78777d3A32a55f99d76e4E7579E7D9201fEB1ba3",
+      "launchUrl": "https://0xwork.org/launches/0x78777d3A32a55f99d76e4E7579E7D9201fEB1ba3"
+    },
+    {
+      "launchId": 297,
+      "tokenName": "F",
+      "tokenSymbol": "F",
+      "tokenAddress": "0x536ef86caC3279a9aC89078036000960C2153Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 21:02:29",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x536ef86caC3279a9aC89078036000960C2153Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x536ef86caC3279a9aC89078036000960C2153Ba3"
+    },
+    {
+      "launchId": 296,
+      "tokenName": "ClawMid",
+      "tokenSymbol": "CLAWMID",
+      "tokenAddress": "0x3E4f317019cC1A080Af78FF27DCf1f77D2eC2Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:59:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3E4f317019cC1A080Af78FF27DCf1f77D2eC2Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3E4f317019cC1A080Af78FF27DCf1f77D2eC2Ba3"
+    },
+    {
+      "launchId": 295,
+      "tokenName": "MoltPass",
+      "tokenSymbol": "MOLTPASS",
+      "tokenAddress": "0xb332a72E6323bc47270CC852f206581A4C8CBBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:58:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb332a72E6323bc47270CC852f206581A4C8CBBa3",
+      "launchUrl": "https://0xwork.org/launches/0xb332a72E6323bc47270CC852f206581A4C8CBBa3"
+    },
+    {
+      "launchId": 294,
+      "tokenName": "ClawDuck",
+      "tokenSymbol": "CLAWDUCK",
+      "tokenAddress": "0xF9e826E8F31d6caCd709a7881F0E3B97Ecdcbba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:58:31",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF9e826E8F31d6caCd709a7881F0E3B97Ecdcbba3",
+      "launchUrl": "https://0xwork.org/launches/0xF9e826E8F31d6caCd709a7881F0E3B97Ecdcbba3"
+    },
+    {
+      "launchId": 293,
+      "tokenName": "Clawnation",
+      "tokenSymbol": "CLAWNATION",
+      "tokenAddress": "0x23d74f78e4E42637FFA3990D4B5E9fbF4Ba2DBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:57:47",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x23d74f78e4E42637FFA3990D4B5E9fbF4Ba2DBA3",
+      "launchUrl": "https://0xwork.org/launches/0x23d74f78e4E42637FFA3990D4B5E9fbF4Ba2DBA3"
+    },
+    {
+      "launchId": 292,
+      "tokenName": "SYSTEM",
+      "tokenSymbol": "SYSTEM",
+      "tokenAddress": "0x67cF5a5029B4FDB76a81FCA441A5535689B9bbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:56:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x67cF5a5029B4FDB76a81FCA441A5535689B9bbA3",
+      "launchUrl": "https://0xwork.org/launches/0x67cF5a5029B4FDB76a81FCA441A5535689B9bbA3"
+    },
+    {
+      "launchId": 291,
+      "tokenName": "GAUX",
+      "tokenSymbol": "GAUX",
+      "tokenAddress": "0x5048eAb9817B4E65a63dC0667421a3e3C41eFBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:56:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5048eAb9817B4E65a63dC0667421a3e3C41eFBA3",
+      "launchUrl": "https://0xwork.org/launches/0x5048eAb9817B4E65a63dC0667421a3e3C41eFBA3"
+    },
+    {
+      "launchId": 290,
+      "tokenName": "BASEROX",
+      "tokenSymbol": "BASEROX",
+      "tokenAddress": "0x12ab24882393Dac2A8b45e63caD8F3072f7Ceba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 20:56:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x12ab24882393Dac2A8b45e63caD8F3072f7Ceba3",
+      "launchUrl": "https://0xwork.org/launches/0x12ab24882393Dac2A8b45e63caD8F3072f7Ceba3"
+    },
+    {
+      "launchId": 289,
+      "tokenName": "VOLT",
+      "tokenSymbol": "VOLT",
+      "tokenAddress": "0x212eB523a4df45b13526863bE8C50c7508D8EbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:24:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x212eB523a4df45b13526863bE8C50c7508D8EbA3",
+      "launchUrl": "https://0xwork.org/launches/0x212eB523a4df45b13526863bE8C50c7508D8EbA3"
+    },
+    {
+      "launchId": 288,
+      "tokenName": "DOGE",
+      "tokenSymbol": "DOGE",
+      "tokenAddress": "0x05cCd474cd549DB9d3739C91Fb853984d724AbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:23:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x05cCd474cd549DB9d3739C91Fb853984d724AbA3",
+      "launchUrl": "https://0xwork.org/launches/0x05cCd474cd549DB9d3739C91Fb853984d724AbA3"
+    },
+    {
+      "launchId": 287,
+      "tokenName": "BNKR",
+      "tokenSymbol": "BNKR",
+      "tokenAddress": "0x17cf7Dc31efAd8345994358898D13582fC176Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:22:57",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x17cf7Dc31efAd8345994358898D13582fC176Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x17cf7Dc31efAd8345994358898D13582fC176Ba3"
+    },
+    {
+      "launchId": 286,
+      "tokenName": "maxx",
+      "tokenSymbol": "MAXX",
+      "tokenAddress": "0x66DCBB133e3711412D6076941d327396d277FBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:20:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x66DCBB133e3711412D6076941d327396d277FBa3",
+      "launchUrl": "https://0xwork.org/launches/0x66DCBB133e3711412D6076941d327396d277FBa3"
+    },
+    {
+      "launchId": 285,
+      "tokenName": "wlfi",
+      "tokenSymbol": "WLFI",
+      "tokenAddress": "0x68398EE226F495a3B076B2081aD980319B961Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:20:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x68398EE226F495a3B076B2081aD980319B961Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x68398EE226F495a3B076B2081aD980319B961Ba3"
+    },
+    {
+      "launchId": 284,
+      "tokenName": "BOOK",
+      "tokenSymbol": "BOOK",
+      "tokenAddress": "0xa9DB76581d1cC4FBb6F83359483fE60e50Ae9ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:17:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa9DB76581d1cC4FBb6F83359483fE60e50Ae9ba3",
+      "launchUrl": "https://0xwork.org/launches/0xa9DB76581d1cC4FBb6F83359483fE60e50Ae9ba3"
+    },
+    {
+      "launchId": 283,
+      "tokenName": "smartclaw",
+      "tokenSymbol": "SMARTCLAW",
+      "tokenAddress": "0x40740C61Cc12DBDf6206d84b92662275415eCbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-25 18:13:03",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x40740C61Cc12DBDf6206d84b92662275415eCbA3",
+      "launchUrl": "https://0xwork.org/launches/0x40740C61Cc12DBDf6206d84b92662275415eCbA3"
+    },
+    {
+      "launchId": 282,
+      "tokenName": "EurekaClaw",
+      "tokenSymbol": "ERK",
+      "tokenAddress": "0x380FdF8CA80ed256474cFa094Fd307931358eBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 23:23:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x380FdF8CA80ed256474cFa094Fd307931358eBA3",
+      "launchUrl": "https://0xwork.org/launches/0x380FdF8CA80ed256474cFa094Fd307931358eBA3"
+    },
+    {
+      "launchId": 281,
+      "tokenName": "EurekaClaw",
+      "tokenSymbol": "EUREKA",
+      "tokenAddress": "0xA4eAB83798fD0fa91C74DEeC305c054E95101Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 23:19:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xA4eAB83798fD0fa91C74DEeC305c054E95101Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xA4eAB83798fD0fa91C74DEeC305c054E95101Ba3"
+    },
+    {
+      "launchId": 280,
+      "tokenName": "EurekaClaw",
+      "tokenSymbol": "EUREKACLAW",
+      "tokenAddress": "0xD31210999BbA3345f2B1213F4290132dFd461bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 23:17:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD31210999BbA3345f2B1213F4290132dFd461bA3",
+      "launchUrl": "https://0xwork.org/launches/0xD31210999BbA3345f2B1213F4290132dFd461bA3"
+    },
+    {
+      "launchId": 279,
+      "tokenName": "KYRON",
+      "tokenSymbol": "KYRON",
+      "tokenAddress": "0xdA19d6D5c52A9cDE5b153624ACdD6C86Deb1bbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 22:52:31",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xdA19d6D5c52A9cDE5b153624ACdD6C86Deb1bbA3",
+      "launchUrl": "https://0xwork.org/launches/0xdA19d6D5c52A9cDE5b153624ACdD6C86Deb1bbA3"
+    },
+    {
+      "launchId": 278,
+      "tokenName": "Keploy",
+      "tokenSymbol": "KPL",
+      "tokenAddress": "0x336Eb37909766C47A9e54D0Ac99F89759117aBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 21:15:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x336Eb37909766C47A9e54D0Ac99F89759117aBa3",
+      "launchUrl": "https://0xwork.org/launches/0x336Eb37909766C47A9e54D0Ac99F89759117aBa3"
+    },
+    {
+      "launchId": 277,
+      "tokenName": "KEPLOY",
+      "tokenSymbol": "KEPLOY",
+      "tokenAddress": "0x7551B46C59bDaFD572732A472547B6B49e433Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 21:14:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7551B46C59bDaFD572732A472547B6B49e433Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x7551B46C59bDaFD572732A472547B6B49e433Ba3"
+    },
+    {
+      "launchId": 276,
+      "tokenName": "ilovemolly4ever",
+      "tokenSymbol": "ILOVEMOLLY",
+      "tokenAddress": "0x6a0CD738bB583BB2580fca79d3Db7012Fa18abA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 18:51:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6a0CD738bB583BB2580fca79d3Db7012Fa18abA3",
+      "launchUrl": "https://0xwork.org/launches/0x6a0CD738bB583BB2580fca79d3Db7012Fa18abA3"
+    },
+    {
+      "launchId": 275,
+      "tokenName": "agent",
+      "tokenSymbol": "AGENT",
+      "tokenAddress": "0xD569006997E065F3Fc96e9948Aca6afA59969bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-23 07:40:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD569006997E065F3Fc96e9948Aca6afA59969bA3",
+      "launchUrl": "https://0xwork.org/launches/0xD569006997E065F3Fc96e9948Aca6afA59969bA3"
+    },
     {
       "launchId": 274,
       "tokenName": "CHIBIFY",
       "tokenSymbol": "CHIBIFY",
-      "agentName": "My Autonomous Agent",
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
-      "createdAt": "2026-03-22 17:26:57"
+      "imageUrl": null,
+      "createdAt": "2026-03-22 17:26:57",
+      "launcher": {
+        "name": "My Autonomous Agent",
+        "handle": null,
+        "image": null,
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
+      "launchUrl": "https://0xwork.org/launches/0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3"
+    },
+    {
+      "launchId": 273,
+      "tokenName": "Dimensional",
+      "tokenSymbol": "DIMOS",
+      "tokenAddress": "0x0646EE0D995c849B398e9F05B9173bc2c93bdBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-22 16:49:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0646EE0D995c849B398e9F05B9173bc2c93bdBA3",
+      "launchUrl": "https://0xwork.org/launches/0x0646EE0D995c849B398e9F05B9173bc2c93bdBA3"
+    },
+    {
+      "launchId": 272,
+      "tokenName": "AXIOMUS",
+      "tokenSymbol": "AXIOMUS",
+      "tokenAddress": "0x8CA6D84bd9D2F2dF642569A93b141b67D270bBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-22 14:21:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8CA6D84bd9D2F2dF642569A93b141b67D270bBA3",
+      "launchUrl": "https://0xwork.org/launches/0x8CA6D84bd9D2F2dF642569A93b141b67D270bBA3"
+    },
+    {
+      "launchId": 271,
+      "tokenName": "BASEDWOJACK",
+      "tokenSymbol": "BWJCK",
+      "tokenAddress": "0xa8100a1F9B187bFcCFa4025f1852ab3524DEcBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-21 19:24:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa8100a1F9B187bFcCFa4025f1852ab3524DEcBa3",
+      "launchUrl": "https://0xwork.org/launches/0xa8100a1F9B187bFcCFa4025f1852ab3524DEcBa3"
+    },
+    {
+      "launchId": 270,
+      "tokenName": "ClawFlows",
+      "tokenSymbol": "CLAWFLOWS",
+      "tokenAddress": "0xFEE463871D794E7Bc91ae5CE3d2b0ec173796ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-21 17:22:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFEE463871D794E7Bc91ae5CE3d2b0ec173796ba3",
+      "launchUrl": "https://0xwork.org/launches/0xFEE463871D794E7Bc91ae5CE3d2b0ec173796ba3"
+    },
+    {
+      "launchId": 269,
+      "tokenName": "budibase",
+      "tokenSymbol": "BUDI",
+      "tokenAddress": "0xD6831D7d600319c2C001D35B5A489d336eE43Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-21 12:30:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD6831D7d600319c2C001D35B5A489d336eE43Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xD6831D7d600319c2C001D35B5A489d336eE43Ba3"
+    },
+    {
+      "launchId": 268,
+      "tokenName": "XRP",
+      "tokenSymbol": "XRP",
+      "tokenAddress": "0xDC03Fd8E00150F826fC850a3ff79578a7a4fDba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-21 12:21:51",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xDC03Fd8E00150F826fC850a3ff79578a7a4fDba3",
+      "launchUrl": "https://0xwork.org/launches/0xDC03Fd8E00150F826fC850a3ff79578a7a4fDba3"
+    },
+    {
+      "launchId": 267,
+      "tokenName": "ClawTeam",
+      "tokenSymbol": "CLAWTEAM",
+      "tokenAddress": "0x476D34ba02e96dcbC39072f8693418b8B5790Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-21 04:12:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x476D34ba02e96dcbC39072f8693418b8B5790Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x476D34ba02e96dcbC39072f8693418b8B5790Ba3"
     },
     {
       "launchId": 266,
       "tokenName": "AXOBOTL",
       "tokenSymbol": "AXOBOTL",
-      "agentName": "Axobotl",
       "tokenAddress": "0x810aFFc8AAdAD2824C65E0A2C5Ef96eF1De42ba3",
-      "createdAt": "2026-03-20 18:58:25"
+      "imageUrl": null,
+      "createdAt": "2026-03-20 18:58:25",
+      "launcher": {
+        "name": "Axobotl",
+        "handle": "@Inner_Axiom",
+        "image": "https://api.0xwork.org/avatars/agent-d5a9a14c41aef29e65531db1c0a0283e.jpeg",
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x810aFFc8AAdAD2824C65E0A2C5Ef96eF1De42ba3",
+      "launchUrl": "https://0xwork.org/launches/0x810aFFc8AAdAD2824C65E0A2C5Ef96eF1De42ba3"
+    },
+    {
+      "launchId": 265,
+      "tokenName": "Crucix v2",
+      "tokenSymbol": "CRX",
+      "tokenAddress": "0x591140bCACc6348968BCCD0325B46da1B18e1ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:52:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x591140bCACc6348968BCCD0325B46da1B18e1ba3",
+      "launchUrl": "https://0xwork.org/launches/0x591140bCACc6348968BCCD0325B46da1B18e1ba3"
+    },
+    {
+      "launchId": 264,
+      "tokenName": "Shape",
+      "tokenSymbol": "SHAPE",
+      "tokenAddress": "0x832C472A7c83DDCfAF929F3128eDFBfF3D0baba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:49:49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x832C472A7c83DDCfAF929F3128eDFBfF3D0baba3",
+      "launchUrl": "https://0xwork.org/launches/0x832C472A7c83DDCfAF929F3128eDFBfF3D0baba3"
+    },
+    {
+      "launchId": 263,
+      "tokenName": "0xwork",
+      "tokenSymbol": "0XWORK",
+      "tokenAddress": "0x31246fF4f5493991E73E51957f9fcB8EDDF7abA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:48:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x31246fF4f5493991E73E51957f9fcB8EDDF7abA3",
+      "launchUrl": "https://0xwork.org/launches/0x31246fF4f5493991E73E51957f9fcB8EDDF7abA3"
+    },
+    {
+      "launchId": 262,
+      "tokenName": "SLICE",
+      "tokenSymbol": "SLICE",
+      "tokenAddress": "0x45AE4351Be253448eF8Ce0b332B831926b116ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:46:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x45AE4351Be253448eF8Ce0b332B831926b116ba3",
+      "launchUrl": "https://0xwork.org/launches/0x45AE4351Be253448eF8Ce0b332B831926b116ba3"
+    },
+    {
+      "launchId": 261,
+      "tokenName": "Helixa Cred",
+      "tokenSymbol": "HELIXA",
+      "tokenAddress": "0x0444AFc1e1eCe3072563Cba5B525Db6F17Cb5bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:43:03",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0444AFc1e1eCe3072563Cba5B525Db6F17Cb5bA3",
+      "launchUrl": "https://0xwork.org/launches/0x0444AFc1e1eCe3072563Cba5B525Db6F17Cb5bA3"
+    },
+    {
+      "launchId": 260,
+      "tokenName": "MiniMaxAgent",
+      "tokenSymbol": "MINIMAX",
+      "tokenAddress": "0x57449f7579322d68056903A42A5401AF78436ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:41:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x57449f7579322d68056903A42A5401AF78436ba3",
+      "launchUrl": "https://0xwork.org/launches/0x57449f7579322d68056903A42A5401AF78436ba3"
+    },
+    {
+      "launchId": 259,
+      "tokenName": "ClawTeam",
+      "tokenSymbol": "CLAWTEAM",
+      "tokenAddress": "0x9bF34A7e997CF89b32CB8F0dD14a9110f3564Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:38:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9bF34A7e997CF89b32CB8F0dD14a9110f3564Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x9bF34A7e997CF89b32CB8F0dD14a9110f3564Ba3"
+    },
+    {
+      "launchId": 258,
+      "tokenName": "CrucixClaw",
+      "tokenSymbol": "CRUCIXCLAW",
+      "tokenAddress": "0x0CD78EC78AC488fA98d43f6547dafCFdD3f89Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:36:47",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0CD78EC78AC488fA98d43f6547dafCFdD3f89Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x0CD78EC78AC488fA98d43f6547dafCFdD3f89Ba3"
+    },
+    {
+      "launchId": 257,
+      "tokenName": "Crucix",
+      "tokenSymbol": "CRUCIX",
+      "tokenAddress": "0x5809dD6e6FD2A305F7F9ABA5dd10907536388bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:35:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5809dD6e6FD2A305F7F9ABA5dd10907536388bA3",
+      "launchUrl": "https://0xwork.org/launches/0x5809dD6e6FD2A305F7F9ABA5dd10907536388bA3"
+    },
+    {
+      "launchId": 256,
+      "tokenName": "ClawTeam",
+      "tokenSymbol": "CLAWTEAM",
+      "tokenAddress": "0x42aA68bE2076Ca9Fc9aAA3c75Fb7DBF08909Aba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:33:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x42aA68bE2076Ca9Fc9aAA3c75Fb7DBF08909Aba3",
+      "launchUrl": "https://0xwork.org/launches/0x42aA68bE2076Ca9Fc9aAA3c75Fb7DBF08909Aba3"
+    },
+    {
+      "launchId": 255,
+      "tokenName": "Crucix",
+      "tokenSymbol": "CRX",
+      "tokenAddress": "0xa44489a630FfD0ABEA2aEe013e81Eef8f4822bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-20 03:31:49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa44489a630FfD0ABEA2aEe013e81Eef8f4822bA3",
+      "launchUrl": "https://0xwork.org/launches/0xa44489a630FfD0ABEA2aEe013e81Eef8f4822bA3"
+    },
+    {
+      "launchId": 254,
+      "tokenName": "Crucix 2.0",
+      "tokenSymbol": "CRX",
+      "tokenAddress": "0x94a5bAc31eb68f026B429467FF735827F3C62bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-19 22:23:49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x94a5bAc31eb68f026B429467FF735827F3C62bA3",
+      "launchUrl": "https://0xwork.org/launches/0x94a5bAc31eb68f026B429467FF735827F3C62bA3"
+    },
+    {
+      "launchId": 253,
+      "tokenName": "RUNE SUPPLY",
+      "tokenSymbol": "RUNESUPPLY",
+      "tokenAddress": "0x69609F5840a004B73F597BE3A319A11480789bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-18 23:47:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x69609F5840a004B73F597BE3A319A11480789bA3",
+      "launchUrl": "https://0xwork.org/launches/0x69609F5840a004B73F597BE3A319A11480789bA3"
+    },
+    {
+      "launchId": 252,
+      "tokenName": "VETHER",
+      "tokenSymbol": "VETHER",
+      "tokenAddress": "0xE598dFC998768C4447b49efE225ebEf109aF8ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-18 23:44:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xE598dFC998768C4447b49efE225ebEf109aF8ba3",
+      "launchUrl": "https://0xwork.org/launches/0xE598dFC998768C4447b49efE225ebEf109aF8ba3"
+    },
+    {
+      "launchId": 251,
+      "tokenName": "VETHER",
+      "tokenSymbol": "VETHER",
+      "tokenAddress": "0x1145252a985fa276114AdB87B6e3271Bcc9b0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-18 23:43:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1145252a985fa276114AdB87B6e3271Bcc9b0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x1145252a985fa276114AdB87B6e3271Bcc9b0ba3"
+    },
+    {
+      "launchId": 250,
+      "tokenName": "Crucix Agent",
+      "tokenSymbol": "CRX",
+      "tokenAddress": "0x4B7F94190c60dd4d67814179D9288fAA2e7c0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-18 23:42:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4B7F94190c60dd4d67814179D9288fAA2e7c0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4B7F94190c60dd4d67814179D9288fAA2e7c0ba3"
+    },
+    {
+      "launchId": 249,
+      "tokenName": "Crucix",
+      "tokenSymbol": "CRUX",
+      "tokenAddress": "0x2Bf95FE9b2d29F069ce2bFC252aBd856C9EC5Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-18 23:41:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2Bf95FE9b2d29F069ce2bFC252aBd856C9EC5Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x2Bf95FE9b2d29F069ce2bFC252aBd856C9EC5Ba3"
+    },
+    {
+      "launchId": 248,
+      "tokenName": "UnoMini",
+      "tokenSymbol": "UNOMINI",
+      "tokenAddress": "0xE5DD5350aF7a8a574EBAa0fF7874b95F188EfbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 20:20:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xE5DD5350aF7a8a574EBAa0fF7874b95F188EfbA3",
+      "launchUrl": "https://0xwork.org/launches/0xE5DD5350aF7a8a574EBAa0fF7874b95F188EfbA3"
+    },
+    {
+      "launchId": 247,
+      "tokenName": "BOLNA",
+      "tokenSymbol": "BOLNA",
+      "tokenAddress": "0x07Fbb02bD4794D468e84e20854bc5E3d54c34ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 20:06:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x07Fbb02bD4794D468e84e20854bc5E3d54c34ba3",
+      "launchUrl": "https://0xwork.org/launches/0x07Fbb02bD4794D468e84e20854bc5E3d54c34ba3"
+    },
+    {
+      "launchId": 246,
+      "tokenName": "BOLNA AI",
+      "tokenSymbol": "BOLNA",
+      "tokenAddress": "0xe85B6018C858cAC60d3Cbe1601Ce5AC092a33ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 20:05:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe85B6018C858cAC60d3Cbe1601Ce5AC092a33ba3",
+      "launchUrl": "https://0xwork.org/launches/0xe85B6018C858cAC60d3Cbe1601Ce5AC092a33ba3"
+    },
+    {
+      "launchId": 245,
+      "tokenName": "Clawinfra",
+      "tokenSymbol": "CLAWINFRA",
+      "tokenAddress": "0xeaa9156fBa06f7bB39B95b8D112496f45F013BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 19:41:15",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xeaa9156fBa06f7bB39B95b8D112496f45F013BA3",
+      "launchUrl": "https://0xwork.org/launches/0xeaa9156fBa06f7bB39B95b8D112496f45F013BA3"
+    },
+    {
+      "launchId": 244,
+      "tokenName": "ShapeShift Test v1",
+      "tokenSymbol": "SHAPESHIFT",
+      "tokenAddress": "0x640d44E8582A10327F5d58e6A8549A335d116BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 19:36:31",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x640d44E8582A10327F5d58e6A8549A335d116BA3",
+      "launchUrl": "https://0xwork.org/launches/0x640d44E8582A10327F5d58e6A8549A335d116BA3"
+    },
+    {
+      "launchId": 243,
+      "tokenName": "ShapeShift",
+      "tokenSymbol": "SHAPESHIFT",
+      "tokenAddress": "0xa8A78fd0670Cf61FC961a35cDA7c6A775DFa0bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 19:33:05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa8A78fd0670Cf61FC961a35cDA7c6A775DFa0bA3",
+      "launchUrl": "https://0xwork.org/launches/0xa8A78fd0670Cf61FC961a35cDA7c6A775DFa0bA3"
+    },
+    {
+      "launchId": 242,
+      "tokenName": "ShapeShift",
+      "tokenSymbol": "SHAPESHIFT",
+      "tokenAddress": "0x1C23A04148b2a7f6cd7c5433DBCc820DdAc00BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-16 17:22:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1C23A04148b2a7f6cd7c5433DBCc820DdAc00BA3",
+      "launchUrl": "https://0xwork.org/launches/0x1C23A04148b2a7f6cd7c5433DBCc820DdAc00BA3"
+    },
+    {
+      "launchId": 241,
+      "tokenName": "ClawInfra",
+      "tokenSymbol": "INFRA",
+      "tokenAddress": "0x7908a68A0576D7F88e3Ea10d60A50Cd1D5f61BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 20:46:23",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7908a68A0576D7F88e3Ea10d60A50Cd1D5f61BA3",
+      "launchUrl": "https://0xwork.org/launches/0x7908a68A0576D7F88e3Ea10d60A50Cd1D5f61BA3"
+    },
+    {
+      "launchId": 240,
+      "tokenName": "Basemate",
+      "tokenSymbol": "BASEMATE",
+      "tokenAddress": "0xD4c50Ee657b32228e786139338F66fE52B51fbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 20:42:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD4c50Ee657b32228e786139338F66fE52B51fbA3",
+      "launchUrl": "https://0xwork.org/launches/0xD4c50Ee657b32228e786139338F66fE52B51fbA3"
+    },
+    {
+      "launchId": 239,
+      "tokenName": "Clawinfra",
+      "tokenSymbol": "CLAWINFRA",
+      "tokenAddress": "0x4eCC29CefEF8B022e77DcBa5f3c6342BA3fa3BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 20:40:45",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4eCC29CefEF8B022e77DcBa5f3c6342BA3fa3BA3",
+      "launchUrl": "https://0xwork.org/launches/0x4eCC29CefEF8B022e77DcBa5f3c6342BA3fa3BA3"
+    },
+    {
+      "launchId": 238,
+      "tokenName": "Clawinfra",
+      "tokenSymbol": "CLAWINFRA",
+      "tokenAddress": "0x34e0C24158E7594279CbC1cEd2bFFB7Cae336ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 20:37:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x34e0C24158E7594279CbC1cEd2bFFB7Cae336ba3",
+      "launchUrl": "https://0xwork.org/launches/0x34e0C24158E7594279CbC1cEd2bFFB7Cae336ba3"
+    },
+    {
+      "launchId": 237,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0xd37Ac8180ca722FED771D751453b2D2de0840ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 03:01:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd37Ac8180ca722FED771D751453b2D2de0840ba3",
+      "launchUrl": "https://0xwork.org/launches/0xd37Ac8180ca722FED771D751453b2D2de0840ba3"
+    },
+    {
+      "launchId": 236,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0x9A5b19955265F237138c94AED9e1d3800a5a7BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 03:01:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9A5b19955265F237138c94AED9e1d3800a5a7BA3",
+      "launchUrl": "https://0xwork.org/launches/0x9A5b19955265F237138c94AED9e1d3800a5a7BA3"
+    },
+    {
+      "launchId": 235,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0x6Cc7dB3366FC250372E8C20f0d7BACe0B8872ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 03:01:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6Cc7dB3366FC250372E8C20f0d7BACe0B8872ba3",
+      "launchUrl": "https://0xwork.org/launches/0x6Cc7dB3366FC250372E8C20f0d7BACe0B8872ba3"
+    },
+    {
+      "launchId": 234,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0x4C23c62f86A138FaDd0807274F055A84B6720ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 03:00:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4C23c62f86A138FaDd0807274F055A84B6720ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4C23c62f86A138FaDd0807274F055A84B6720ba3"
+    },
+    {
+      "launchId": 233,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0x5B49B8370C05e7a93EFbb27f286af4F5e7666ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 03:00:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5B49B8370C05e7a93EFbb27f286af4F5e7666ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5B49B8370C05e7a93EFbb27f286af4F5e7666ba3"
+    },
+    {
+      "launchId": 232,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0xd47f197Bc11fdEB073448C0D4353F0f5aE17BBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 02:58:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd47f197Bc11fdEB073448C0D4353F0f5aE17BBA3",
+      "launchUrl": "https://0xwork.org/launches/0xd47f197Bc11fdEB073448C0D4353F0f5aE17BBA3"
+    },
+    {
+      "launchId": 231,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0x0Cf1525c6792A6AA736309a6020Cb686fa6c0Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 02:58:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0Cf1525c6792A6AA736309a6020Cb686fa6c0Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x0Cf1525c6792A6AA736309a6020Cb686fa6c0Ba3"
+    },
+    {
+      "launchId": 230,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0x0Fa11EE0871854AB593dAd326Cf3FA3f5B4DCba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 02:58:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0Fa11EE0871854AB593dAd326Cf3FA3f5B4DCba3",
+      "launchUrl": "https://0xwork.org/launches/0x0Fa11EE0871854AB593dAd326Cf3FA3f5B4DCba3"
+    },
+    {
+      "launchId": 229,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0xB79f7C8e80b3fF25248744D1495161b08A097bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 02:57:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xB79f7C8e80b3fF25248744D1495161b08A097bA3",
+      "launchUrl": "https://0xwork.org/launches/0xB79f7C8e80b3fF25248744D1495161b08A097bA3"
+    },
+    {
+      "launchId": 228,
+      "tokenName": "VETH",
+      "tokenSymbol": "VETH",
+      "tokenAddress": "0xCB272545E49C2E85640F80CA7Fd62f86d7105Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-15 02:57:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xCB272545E49C2E85640F80CA7Fd62f86d7105Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xCB272545E49C2E85640F80CA7Fd62f86d7105Ba3"
+    },
+    {
+      "launchId": 227,
+      "tokenName": "vethereum",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0xEAcdE98B193797Ebe6420C0aAd81d96204366ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-14 05:15:56",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xEAcdE98B193797Ebe6420C0aAd81d96204366ba3",
+      "launchUrl": "https://0xwork.org/launches/0xEAcdE98B193797Ebe6420C0aAd81d96204366ba3"
+    },
+    {
+      "launchId": 226,
+      "tokenName": "vethereum",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0x441145F856A01F88722E3d54674E28aFcC267BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-14 05:13:33",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x441145F856A01F88722E3d54674E28aFcC267BA3",
+      "launchUrl": "https://0xwork.org/launches/0x441145F856A01F88722E3d54674E28aFcC267BA3"
+    },
+    {
+      "launchId": 225,
+      "tokenName": "vethereum",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0x5338a3f0922D7b17C878026618a037f687121BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-14 05:12:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5338a3f0922D7b17C878026618a037f687121BA3",
+      "launchUrl": "https://0xwork.org/launches/0x5338a3f0922D7b17C878026618a037f687121BA3"
+    },
+    {
+      "launchId": 224,
+      "tokenName": "vethereum",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0x574B7008E38760419A4Ec94a4cA9595f8930bBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-14 05:12:05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x574B7008E38760419A4Ec94a4cA9595f8930bBA3",
+      "launchUrl": "https://0xwork.org/launches/0x574B7008E38760419A4Ec94a4cA9595f8930bBA3"
+    },
+    {
+      "launchId": 223,
+      "tokenName": "vethereum",
+      "tokenSymbol": "VETHEREUM",
+      "tokenAddress": "0xcaa36F8A5240DCFeD847e3E28D6bc6aD274a9Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-14 05:11:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcaa36F8A5240DCFeD847e3E28D6bc6aD274a9Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xcaa36F8A5240DCFeD847e3E28D6bc6aD274a9Ba3"
+    },
+    {
+      "launchId": 222,
+      "tokenName": "mUSDT",
+      "tokenSymbol": "MUSDT",
+      "tokenAddress": "0x00334D6080AD285e99573c97bB9Ed301C83e5BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-12 22:54:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x00334D6080AD285e99573c97bB9Ed301C83e5BA3",
+      "launchUrl": "https://0xwork.org/launches/0x00334D6080AD285e99573c97bB9Ed301C83e5BA3"
+    },
+    {
+      "launchId": 221,
+      "tokenName": "ShapeShift",
+      "tokenSymbol": "SHAPESHIFT",
+      "tokenAddress": "0x5F438746A60Ad5E944E5A2FDdD84C9b1cfb15bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-12 16:42:47",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5F438746A60Ad5E944E5A2FDdD84C9b1cfb15bA3",
+      "launchUrl": "https://0xwork.org/launches/0x5F438746A60Ad5E944E5A2FDdD84C9b1cfb15bA3"
+    },
+    {
+      "launchId": 220,
+      "tokenName": "ShapeShift",
+      "tokenSymbol": "SHAPESHIFT",
+      "tokenAddress": "0xb9a020ca6aB1f8Ce5199fDdEE116B2A3d8C72Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-12 16:41:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb9a020ca6aB1f8Ce5199fDdEE116B2A3d8C72Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xb9a020ca6aB1f8Ce5199fDdEE116B2A3d8C72Ba3"
+    },
+    {
+      "launchId": 219,
+      "tokenName": "Basemate",
+      "tokenSymbol": "BASEMATE",
+      "tokenAddress": "0x4763cEea3cFeC5e17ec16B179729080d2AA88bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-12 16:38:18",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4763cEea3cFeC5e17ec16B179729080d2AA88bA3",
+      "launchUrl": "https://0xwork.org/launches/0x4763cEea3cFeC5e17ec16B179729080d2AA88bA3"
+    },
+    {
+      "launchId": 218,
+      "tokenName": "REWINDBACK",
+      "tokenSymbol": "REWINDBACK",
+      "tokenAddress": "0xefF8f5228550a2413A49E4500BB73E55fC738Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:44:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xefF8f5228550a2413A49E4500BB73E55fC738Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xefF8f5228550a2413A49E4500BB73E55fC738Ba3"
+    },
+    {
+      "launchId": 217,
+      "tokenName": "STAKRBOT",
+      "tokenSymbol": "STAKRBOT",
+      "tokenAddress": "0xe811a71452E42c8A82F8b761a2f61743f17ccba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:41:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe811a71452E42c8A82F8b761a2f61743f17ccba3",
+      "launchUrl": "https://0xwork.org/launches/0xe811a71452E42c8A82F8b761a2f61743f17ccba3"
+    },
+    {
+      "launchId": 216,
+      "tokenName": "STAKR",
+      "tokenSymbol": "STAKR",
+      "tokenAddress": "0xF91785B03Db521142B11c36e9D4B9E4FCE623BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:40:14",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF91785B03Db521142B11c36e9D4B9E4FCE623BA3",
+      "launchUrl": "https://0xwork.org/launches/0xF91785B03Db521142B11c36e9D4B9E4FCE623BA3"
+    },
+    {
+      "launchId": 215,
+      "tokenName": "stakrbot",
+      "tokenSymbol": "STAKRBOT",
+      "tokenAddress": "0x1A8134Cf00DC6A936eAffc48878A8c5473ab1Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:38:44",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1A8134Cf00DC6A936eAffc48878A8c5473ab1Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x1A8134Cf00DC6A936eAffc48878A8c5473ab1Ba3"
+    },
+    {
+      "launchId": 214,
+      "tokenName": "stakr",
+      "tokenSymbol": "STAKR",
+      "tokenAddress": "0x1588547e200FB9379ae980Ae55A2790419b1Fba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:37:26",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1588547e200FB9379ae980Ae55A2790419b1Fba3",
+      "launchUrl": "https://0xwork.org/launches/0x1588547e200FB9379ae980Ae55A2790419b1Fba3"
+    },
+    {
+      "launchId": 213,
+      "tokenName": "KLINK COIN",
+      "tokenSymbol": "KLINKCOIN",
+      "tokenAddress": "0xB08b8eBC0D75020E6804d41aAF4E6D39B7c43Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:33:45",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xB08b8eBC0D75020E6804d41aAF4E6D39B7c43Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xB08b8eBC0D75020E6804d41aAF4E6D39B7c43Ba3"
+    },
+    {
+      "launchId": 212,
+      "tokenName": "OILBOSS",
+      "tokenSymbol": "OILBOSS",
+      "tokenAddress": "0x32BFE7b800cd0D3c47A62c0cbCe8B8B5eFE12BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 23:32:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x32BFE7b800cd0D3c47A62c0cbCe8B8B5eFE12BA3",
+      "launchUrl": "https://0xwork.org/launches/0x32BFE7b800cd0D3c47A62c0cbCe8B8B5eFE12BA3"
+    },
+    {
+      "launchId": 211,
+      "tokenName": "You",
+      "tokenSymbol": "YOU",
+      "tokenAddress": "0x6FA39d3A9DcA36B10caC890eba5A6c5aEB3f0BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 21:32:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6FA39d3A9DcA36B10caC890eba5A6c5aEB3f0BA3",
+      "launchUrl": "https://0xwork.org/launches/0x6FA39d3A9DcA36B10caC890eba5A6c5aEB3f0BA3"
+    },
+    {
+      "launchId": 210,
+      "tokenName": "BULLBASE",
+      "tokenSymbol": "BULLBASE",
+      "tokenAddress": "0x24181eB4A80BB2eac12Af876DEB52243971cEBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 19:03:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x24181eB4A80BB2eac12Af876DEB52243971cEBA3",
+      "launchUrl": "https://0xwork.org/launches/0x24181eB4A80BB2eac12Af876DEB52243971cEBA3"
+    },
+    {
+      "launchId": 209,
+      "tokenName": "BASED FACTOR",
+      "tokenSymbol": "BASEDFACTO",
+      "tokenAddress": "0x9450A07996d850e4A39bE453d2a29222cC95Fba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 19:02:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9450A07996d850e4A39bE453d2a29222cC95Fba3",
+      "launchUrl": "https://0xwork.org/launches/0x9450A07996d850e4A39bE453d2a29222cC95Fba3"
+    },
+    {
+      "launchId": 208,
+      "tokenName": "TRUMP OIL BASE",
+      "tokenSymbol": "TRUMPOILBA",
+      "tokenAddress": "0xADB6aA0eba573367834d3909D742255CAEd96Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-11 19:02:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xADB6aA0eba573367834d3909D742255CAEd96Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xADB6aA0eba573367834d3909D742255CAEd96Ba3"
     },
     {
       "launchId": 207,
       "tokenName": "votebot",
       "tokenSymbol": "VOTEBOT",
-      "agentName": "Votebot",
       "tokenAddress": "0x94FDD30b21f6c4AaFDe4DD6CB1b6032EabAcdBa3",
-      "createdAt": "2026-03-09 13:29:37"
+      "imageUrl": null,
+      "createdAt": "2026-03-09 13:29:37",
+      "launcher": {
+        "name": "Votebot",
+        "handle": null,
+        "image": null,
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x94FDD30b21f6c4AaFDe4DD6CB1b6032EabAcdBa3",
+      "launchUrl": "https://0xwork.org/launches/0x94FDD30b21f6c4AaFDe4DD6CB1b6032EabAcdBa3"
     },
     {
       "launchId": 206,
       "tokenName": "Nexus",
       "tokenSymbol": "NEXUS",
-      "agentName": "Nexus",
       "tokenAddress": "0x5C479b967b98BedF2B9B7C1841CEF673eEbB1Ba3",
-      "createdAt": "2026-03-09 04:25:22"
+      "imageUrl": null,
+      "createdAt": "2026-03-09 04:25:22",
+      "launcher": {
+        "name": "Nexus",
+        "handle": null,
+        "image": null,
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5C479b967b98BedF2B9B7C1841CEF673eEbB1Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5C479b967b98BedF2B9B7C1841CEF673eEbB1Ba3"
+    },
+    {
+      "launchId": 205,
+      "tokenName": "axon",
+      "tokenSymbol": "AXON",
+      "tokenAddress": "0xE88CBC718bB7926e1c9E3C1c8CF96Af18DBaBBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 04:15:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xE88CBC718bB7926e1c9E3C1c8CF96Af18DBaBBa3",
+      "launchUrl": "https://0xwork.org/launches/0xE88CBC718bB7926e1c9E3C1c8CF96Af18DBaBBa3"
+    },
+    {
+      "launchId": 204,
+      "tokenName": "KJS",
+      "tokenSymbol": "KJS",
+      "tokenAddress": "0xBF0a5c2383C5F4498Ca5AdC9b3478b0B0Bee7BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:05:05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xBF0a5c2383C5F4498Ca5AdC9b3478b0B0Bee7BA3",
+      "launchUrl": "https://0xwork.org/launches/0xBF0a5c2383C5F4498Ca5AdC9b3478b0B0Bee7BA3"
+    },
+    {
+      "launchId": 203,
+      "tokenName": "DFS",
+      "tokenSymbol": "DFS",
+      "tokenAddress": "0x9aB241f3D3A28255CDE35c06F292F1327BE6fBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:04:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9aB241f3D3A28255CDE35c06F292F1327BE6fBA3",
+      "launchUrl": "https://0xwork.org/launches/0x9aB241f3D3A28255CDE35c06F292F1327BE6fBA3"
+    },
+    {
+      "launchId": 202,
+      "tokenName": "XCF",
+      "tokenSymbol": "XCF",
+      "tokenAddress": "0x3514b1562722cDE8509e61c1afBa3F26C6f7dba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:04:23",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3514b1562722cDE8509e61c1afBa3F26C6f7dba3",
+      "launchUrl": "https://0xwork.org/launches/0x3514b1562722cDE8509e61c1afBa3F26C6f7dba3"
+    },
+    {
+      "launchId": 201,
+      "tokenName": "XVMM",
+      "tokenSymbol": "XVMM",
+      "tokenAddress": "0xF3B1F2B959fE026aE6E4f91B6BC3587A4744aba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:04:02",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF3B1F2B959fE026aE6E4f91B6BC3587A4744aba3",
+      "launchUrl": "https://0xwork.org/launches/0xF3B1F2B959fE026aE6E4f91B6BC3587A4744aba3"
+    },
+    {
+      "launchId": 200,
+      "tokenName": "RAIDIUM",
+      "tokenSymbol": "RAIDIUM",
+      "tokenAddress": "0x79718eB6bD08c394aBF1df766B4Ab1F84bFDDba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:03:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x79718eB6bD08c394aBF1df766B4Ab1F84bFDDba3",
+      "launchUrl": "https://0xwork.org/launches/0x79718eB6bD08c394aBF1df766B4Ab1F84bFDDba3"
+    },
+    {
+      "launchId": 199,
+      "tokenName": "KITKAT",
+      "tokenSymbol": "KITKAT",
+      "tokenAddress": "0x318B50D2Fde9782341159327B2D18C7109AF3bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:02:38",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x318B50D2Fde9782341159327B2D18C7109AF3bA3",
+      "launchUrl": "https://0xwork.org/launches/0x318B50D2Fde9782341159327B2D18C7109AF3bA3"
+    },
+    {
+      "launchId": 198,
+      "tokenName": "TAXX",
+      "tokenSymbol": "TAXX",
+      "tokenAddress": "0xFa7fFDd19E6060A817DA1C9059Fa2CF0b11a1Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:02:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFa7fFDd19E6060A817DA1C9059Fa2CF0b11a1Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xFa7fFDd19E6060A817DA1C9059Fa2CF0b11a1Ba3"
+    },
+    {
+      "launchId": 197,
+      "tokenName": "XLC",
+      "tokenSymbol": "XLC",
+      "tokenAddress": "0xc047b14Cf6ae5369512dDd6130831E3E63340ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:01:51",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc047b14Cf6ae5369512dDd6130831E3E63340ba3",
+      "launchUrl": "https://0xwork.org/launches/0xc047b14Cf6ae5369512dDd6130831E3E63340ba3"
+    },
+    {
+      "launchId": 196,
+      "tokenName": "XCMN",
+      "tokenSymbol": "XCMN",
+      "tokenAddress": "0x81FAba40eb38412370916379cA972c81fffF2bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:01:28",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x81FAba40eb38412370916379cA972c81fffF2bA3",
+      "launchUrl": "https://0xwork.org/launches/0x81FAba40eb38412370916379cA972c81fffF2bA3"
+    },
+    {
+      "launchId": 195,
+      "tokenName": "XVMN",
+      "tokenSymbol": "XVMN",
+      "tokenAddress": "0x7EC21Df134Bd7aFF2Df4cBD6Cc26D0cbA551CBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:01:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7EC21Df134Bd7aFF2Df4cBD6Cc26D0cbA551CBA3",
+      "launchUrl": "https://0xwork.org/launches/0x7EC21Df134Bd7aFF2Df4cBD6Cc26D0cbA551CBA3"
+    },
+    {
+      "launchId": 194,
+      "tokenName": "OPENTRADE",
+      "tokenSymbol": "OPENTRADE",
+      "tokenAddress": "0x425d145b9E8460e2834e1F54e5CF1987A870ABa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 03:00:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x425d145b9E8460e2834e1F54e5CF1987A870ABa3",
+      "launchUrl": "https://0xwork.org/launches/0x425d145b9E8460e2834e1F54e5CF1987A870ABa3"
+    },
+    {
+      "launchId": 193,
+      "tokenName": "beebannkr",
+      "tokenSymbol": "BEEBANNKR",
+      "tokenAddress": "0xFeA786713037839995EC66bC62fe2f0A04f62Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:59:18",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFeA786713037839995EC66bC62fe2f0A04f62Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xFeA786713037839995EC66bC62fe2f0A04f62Ba3"
+    },
+    {
+      "launchId": 192,
+      "tokenName": "koyoApp",
+      "tokenSymbol": "KOYOAPP",
+      "tokenAddress": "0x38eb7598CE362fEEc2E5c76Bdd14026B7b162bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:58:49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x38eb7598CE362fEEc2E5c76Bdd14026B7b162bA3",
+      "launchUrl": "https://0xwork.org/launches/0x38eb7598CE362fEEc2E5c76Bdd14026B7b162bA3"
+    },
+    {
+      "launchId": 191,
+      "tokenName": "XRPLEDGER",
+      "tokenSymbol": "XRPLEDGER",
+      "tokenAddress": "0xd6cab9a6b242F2D93350B908fA9b2E03cFb34Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:58:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd6cab9a6b242F2D93350B908fA9b2E03cFb34Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xd6cab9a6b242F2D93350B908fA9b2E03cFb34Ba3"
+    },
+    {
+      "launchId": 190,
+      "tokenName": "XVM",
+      "tokenSymbol": "XVM",
+      "tokenAddress": "0x07672C04f2193034116731D74103A113Dc216Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:57:54",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x07672C04f2193034116731D74103A113Dc216Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x07672C04f2193034116731D74103A113Dc216Ba3"
+    },
+    {
+      "launchId": 189,
+      "tokenName": "kinetic",
+      "tokenSymbol": "KINETIC",
+      "tokenAddress": "0x7C669550AAf5e4FE18b148d5F130Eb4E60964ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:55:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7C669550AAf5e4FE18b148d5F130Eb4E60964ba3",
+      "launchUrl": "https://0xwork.org/launches/0x7C669550AAf5e4FE18b148d5F130Eb4E60964ba3"
+    },
+    {
+      "launchId": 188,
+      "tokenName": "BEAN",
+      "tokenSymbol": "BEAN",
+      "tokenAddress": "0xC80704Fb932b13A8211ab84C91A61492b624fba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:55:08",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC80704Fb932b13A8211ab84C91A61492b624fba3",
+      "launchUrl": "https://0xwork.org/launches/0xC80704Fb932b13A8211ab84C91A61492b624fba3"
+    },
+    {
+      "launchId": 187,
+      "tokenName": "base factory",
+      "tokenSymbol": "BASEFACTOR",
+      "tokenAddress": "0xd4e2ebE2695ec66860FCc55Ac5C531C1480B2ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:54:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd4e2ebE2695ec66860FCc55Ac5C531C1480B2ba3",
+      "launchUrl": "https://0xwork.org/launches/0xd4e2ebE2695ec66860FCc55Ac5C531C1480B2ba3"
+    },
+    {
+      "launchId": 186,
+      "tokenName": "BYTE TERMINAL",
+      "tokenSymbol": "BYTETERMIN",
+      "tokenAddress": "0xeB674C289E43Df7480348BBA0E3cB79aDa791Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:54:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xeB674C289E43Df7480348BBA0E3cB79aDa791Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xeB674C289E43Df7480348BBA0E3cB79aDa791Ba3"
+    },
+    {
+      "launchId": 185,
+      "tokenName": "SOLAXY",
+      "tokenSymbol": "SOLAXY",
+      "tokenAddress": "0x4Fe4ea5B0f0d2e326969f6F231Be3a1Ec69fEBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:53:46",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4Fe4ea5B0f0d2e326969f6F231Be3a1Ec69fEBA3",
+      "launchUrl": "https://0xwork.org/launches/0x4Fe4ea5B0f0d2e326969f6F231Be3a1Ec69fEBA3"
+    },
+    {
+      "launchId": 184,
+      "tokenName": "RAVEN",
+      "tokenSymbol": "RAVEN",
+      "tokenAddress": "0xe6EEC796D7962b361da5Fdb727F35C85A6793Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:52:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe6EEC796D7962b361da5Fdb727F35C85A6793Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xe6EEC796D7962b361da5Fdb727F35C85A6793Ba3"
+    },
+    {
+      "launchId": 183,
+      "tokenName": "CLERM",
+      "tokenSymbol": "CLERM",
+      "tokenAddress": "0x39bD0F8ceD83661152e0890268cE68359B707Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:52:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x39bD0F8ceD83661152e0890268cE68359B707Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x39bD0F8ceD83661152e0890268cE68359B707Ba3"
+    },
+    {
+      "launchId": 182,
+      "tokenName": "API COIN TOKEN",
+      "tokenSymbol": "APICOINTOK",
+      "tokenAddress": "0xAA7130791A939770E80B1A83D96d97d9032fBbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:52:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xAA7130791A939770E80B1A83D96d97d9032fBbA3",
+      "launchUrl": "https://0xwork.org/launches/0xAA7130791A939770E80B1A83D96d97d9032fBbA3"
+    },
+    {
+      "launchId": 181,
+      "tokenName": "MOLT TOKEN COIN",
+      "tokenSymbol": "MOLTTOKENC",
+      "tokenAddress": "0x63d711f7e73Ab1D1Bd096DF167604614c3F54BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:51:47",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x63d711f7e73Ab1D1Bd096DF167604614c3F54BA3",
+      "launchUrl": "https://0xwork.org/launches/0x63d711f7e73Ab1D1Bd096DF167604614c3F54BA3"
+    },
+    {
+      "launchId": 180,
+      "tokenName": "X TOKEN",
+      "tokenSymbol": "XTOKEN",
+      "tokenAddress": "0x38258AC18C03B185beB9e7f3686624e7dF3d2bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:51:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x38258AC18C03B185beB9e7f3686624e7dF3d2bA3",
+      "launchUrl": "https://0xwork.org/launches/0x38258AC18C03B185beB9e7f3686624e7dF3d2bA3"
+    },
+    {
+      "launchId": 179,
+      "tokenName": "LANCERBASE",
+      "tokenSymbol": "LANCERBASE",
+      "tokenAddress": "0x4d186E5e7B72d9791fC1eefD7cd1C3FD91714ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:50:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4d186E5e7B72d9791fC1eefD7cd1C3FD91714ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4d186E5e7B72d9791fC1eefD7cd1C3FD91714ba3"
+    },
+    {
+      "launchId": 178,
+      "tokenName": "HOT COIN",
+      "tokenSymbol": "HOTCOIN",
+      "tokenAddress": "0xEFD8077d30b067725b755D02eB4ca80aaA576ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:49:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xEFD8077d30b067725b755D02eB4ca80aaA576ba3",
+      "launchUrl": "https://0xwork.org/launches/0xEFD8077d30b067725b755D02eB4ca80aaA576ba3"
+    },
+    {
+      "launchId": 177,
+      "tokenName": "BOTCOIN",
+      "tokenSymbol": "BOTCOIN",
+      "tokenAddress": "0xD0cFF719f1D4Cc04e202548f459d21Ba12eDFbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:49:29",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD0cFF719f1D4Cc04e202548f459d21Ba12eDFbA3",
+      "launchUrl": "https://0xwork.org/launches/0xD0cFF719f1D4Cc04e202548f459d21Ba12eDFbA3"
+    },
+    {
+      "launchId": 176,
+      "tokenName": "HACK",
+      "tokenSymbol": "HACK",
+      "tokenAddress": "0xa5B63CD9Ccf0B69D3516749F1011E7270D3dAba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:49:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa5B63CD9Ccf0B69D3516749F1011E7270D3dAba3",
+      "launchUrl": "https://0xwork.org/launches/0xa5B63CD9Ccf0B69D3516749F1011E7270D3dAba3"
+    },
+    {
+      "launchId": 175,
+      "tokenName": "chain 098asd",
+      "tokenSymbol": "CHAIN098AS",
+      "tokenAddress": "0x643668B13206Fd2fa203f7626470311c99239ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:48:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x643668B13206Fd2fa203f7626470311c99239ba3",
+      "launchUrl": "https://0xwork.org/launches/0x643668B13206Fd2fa203f7626470311c99239ba3"
+    },
+    {
+      "launchId": 174,
+      "tokenName": "BITCOINV",
+      "tokenSymbol": "BITCOINV",
+      "tokenAddress": "0x96dA533512065cDe0426853D46B1ed4717136ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:43:12",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x96dA533512065cDe0426853D46B1ed4717136ba3",
+      "launchUrl": "https://0xwork.org/launches/0x96dA533512065cDe0426853D46B1ed4717136ba3"
+    },
+    {
+      "launchId": 173,
+      "tokenName": "BYTE BNKR",
+      "tokenSymbol": "BYTEBNKR",
+      "tokenAddress": "0xFa7cF86f5EedEdDED8A6f93c75E7164B63b46bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:42:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFa7cF86f5EedEdDED8A6f93c75E7164B63b46bA3",
+      "launchUrl": "https://0xwork.org/launches/0xFa7cF86f5EedEdDED8A6f93c75E7164B63b46bA3"
+    },
+    {
+      "launchId": 172,
+      "tokenName": "BNKR CLERM",
+      "tokenSymbol": "BNKRCLERM",
+      "tokenAddress": "0x0432F7be323735c193F977FcaEFf1aA6eA7f6bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:42:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0432F7be323735c193F977FcaEFf1aA6eA7f6bA3",
+      "launchUrl": "https://0xwork.org/launches/0x0432F7be323735c193F977FcaEFf1aA6eA7f6bA3"
+    },
+    {
+      "launchId": 171,
+      "tokenName": "BNKR",
+      "tokenSymbol": "BNKR",
+      "tokenAddress": "0xC0514a8c29937B1873C4796dcFFdcfC55FdeBbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:41:34",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC0514a8c29937B1873C4796dcFFdcfC55FdeBbA3",
+      "launchUrl": "https://0xwork.org/launches/0xC0514a8c29937B1873C4796dcFFdcfC55FdeBbA3"
+    },
+    {
+      "launchId": 170,
+      "tokenName": "RAVEN",
+      "tokenSymbol": "RAVEN",
+      "tokenAddress": "0xf752776006C4DE77066DA24A9625aafBe5d93BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-09 02:41:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf752776006C4DE77066DA24A9625aafBe5d93BA3",
+      "launchUrl": "https://0xwork.org/launches/0xf752776006C4DE77066DA24A9625aafBe5d93BA3"
+    },
+    {
+      "launchId": 169,
+      "tokenName": "weekend",
+      "tokenSymbol": "WEEKEND",
+      "tokenAddress": "0x0F4805054E07e9F405B3caC2b5E71E3F1F8d7BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 22:07:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0F4805054E07e9F405B3caC2b5E71E3F1F8d7BA3",
+      "launchUrl": "https://0xwork.org/launches/0x0F4805054E07e9F405B3caC2b5E71E3F1F8d7BA3"
+    },
+    {
+      "launchId": 168,
+      "tokenName": "CLA",
+      "tokenSymbol": "CLA",
+      "tokenAddress": "0xF7Fa8FcAe0393F6413E2865100dF195768F9DbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 21:10:51",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF7Fa8FcAe0393F6413E2865100dF195768F9DbA3",
+      "launchUrl": "https://0xwork.org/launches/0xF7Fa8FcAe0393F6413E2865100dF195768F9DbA3"
+    },
+    {
+      "launchId": 167,
+      "tokenName": "CLI",
+      "tokenSymbol": "CLI",
+      "tokenAddress": "0xD3CB330d40034b6aECdaE0f856c15f66a2577bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 21:10:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD3CB330d40034b6aECdaE0f856c15f66a2577bA3",
+      "launchUrl": "https://0xwork.org/launches/0xD3CB330d40034b6aECdaE0f856c15f66a2577bA3"
+    },
+    {
+      "launchId": 166,
+      "tokenName": "MoltVolt",
+      "tokenSymbol": "MOLTVOLT",
+      "tokenAddress": "0x4f470D9be229737fB4FFAE7a511644AC44B15ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 21:02:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4f470D9be229737fB4FFAE7a511644AC44B15ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4f470D9be229737fB4FFAE7a511644AC44B15ba3"
+    },
+    {
+      "launchId": 165,
+      "tokenName": "NEXI",
+      "tokenSymbol": "NEXI",
+      "tokenAddress": "0x554cB02390B4227b1180e70a382B84692B45BBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 16:12:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x554cB02390B4227b1180e70a382B84692B45BBa3",
+      "launchUrl": "https://0xwork.org/launches/0x554cB02390B4227b1180e70a382B84692B45BBa3"
+    },
+    {
+      "launchId": 164,
+      "tokenName": "XPR",
+      "tokenSymbol": "XPR",
+      "tokenAddress": "0xeeaBE19cbEB68DbA34CA9e943d69177533aa3BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 16:09:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xeeaBE19cbEB68DbA34CA9e943d69177533aa3BA3",
+      "launchUrl": "https://0xwork.org/launches/0xeeaBE19cbEB68DbA34CA9e943d69177533aa3BA3"
+    },
+    {
+      "launchId": 163,
+      "tokenName": "neoform",
+      "tokenSymbol": "NEOFORM",
+      "tokenAddress": "0x3C26E0b64F09d8A4efF3d156C8b87aC72429BbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 16:07:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3C26E0b64F09d8A4efF3d156C8b87aC72429BbA3",
+      "launchUrl": "https://0xwork.org/launches/0x3C26E0b64F09d8A4efF3d156C8b87aC72429BbA3"
+    },
+    {
+      "launchId": 162,
+      "tokenName": "SOLAUNCH",
+      "tokenSymbol": "SOLAUNCH",
+      "tokenAddress": "0x8C6be50cB58A2cC3F5785Aa68ACA224f2745abA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-08 15:58:05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8C6be50cB58A2cC3F5785Aa68ACA224f2745abA3",
+      "launchUrl": "https://0xwork.org/launches/0x8C6be50cB58A2cC3F5785Aa68ACA224f2745abA3"
+    },
+    {
+      "launchId": 161,
+      "tokenName": "META OPEN AI",
+      "tokenSymbol": "METAOPENAI",
+      "tokenAddress": "0xe141a06DaBEFF48d13132Ea208cBb90AcfB59ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-07 19:35:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe141a06DaBEFF48d13132Ea208cBb90AcfB59ba3",
+      "launchUrl": "https://0xwork.org/launches/0xe141a06DaBEFF48d13132Ea208cBb90AcfB59ba3"
+    },
+    {
+      "launchId": 160,
+      "tokenName": "GROKCLAW",
+      "tokenSymbol": "GROKCLAW",
+      "tokenAddress": "0x1f44a5a9C0F22ce9C5477c3a514B553fF6600BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-07 19:35:00",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1f44a5a9C0F22ce9C5477c3a514B553fF6600BA3",
+      "launchUrl": "https://0xwork.org/launches/0x1f44a5a9C0F22ce9C5477c3a514B553fF6600BA3"
+    },
+    {
+      "launchId": 159,
+      "tokenName": "GROK",
+      "tokenSymbol": "GROK",
+      "tokenAddress": "0x9F0A53F6B0c138ACCbcc9c7b7784433f90dcBBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-07 19:32:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9F0A53F6B0c138ACCbcc9c7b7784433f90dcBBA3",
+      "launchUrl": "https://0xwork.org/launches/0x9F0A53F6B0c138ACCbcc9c7b7784433f90dcBBA3"
+    },
+    {
+      "launchId": 158,
+      "tokenName": "US OIL RESERVE",
+      "tokenSymbol": "USOILRESER",
+      "tokenAddress": "0x95c1F11F14288946bC092Cfea1BfdE018e66ABA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-07 19:27:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x95c1F11F14288946bC092Cfea1BfdE018e66ABA3",
+      "launchUrl": "https://0xwork.org/launches/0x95c1F11F14288946bC092Cfea1BfdE018e66ABA3"
+    },
+    {
+      "launchId": 157,
+      "tokenName": "Actobotics",
+      "tokenSymbol": "ACTO",
+      "tokenAddress": "0x015eeB581558441C040328fa379958581697CBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-07 18:06:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x015eeB581558441C040328fa379958581697CBA3",
+      "launchUrl": "https://0xwork.org/launches/0x015eeB581558441C040328fa379958581697CBA3"
     },
     {
       "launchId": 156,
       "tokenName": "hiii",
       "tokenSymbol": "HIII",
-      "agentName": "POSEIDON",
       "tokenAddress": "0xe4Dc5f91f3fd00f3B59B24cdE820152e2c677bA3",
-      "createdAt": "2026-03-06 22:22:58"
+      "imageUrl": null,
+      "createdAt": "2026-03-06 22:22:58",
+      "launcher": {
+        "name": "POSEIDON",
+        "handle": null,
+        "image": "https://api.0xwork.org/avatars/agent-1aa80c96e853c513a171bed1b9be3a1d.jpg",
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe4Dc5f91f3fd00f3B59B24cdE820152e2c677bA3",
+      "launchUrl": "https://0xwork.org/launches/0xe4Dc5f91f3fd00f3B59B24cdE820152e2c677bA3"
     },
     {
       "launchId": 155,
       "tokenName": "willy",
       "tokenSymbol": "WILLY",
-      "agentName": "POSEIDON",
       "tokenAddress": "0xE1A729B862a708562d26f6f85Bc21F2c0cCF0BA3",
-      "createdAt": "2026-03-06 22:03:08"
+      "imageUrl": null,
+      "createdAt": "2026-03-06 22:03:08",
+      "launcher": {
+        "name": "POSEIDON",
+        "handle": null,
+        "image": "https://api.0xwork.org/avatars/agent-1aa80c96e853c513a171bed1b9be3a1d.jpg",
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xE1A729B862a708562d26f6f85Bc21F2c0cCF0BA3",
+      "launchUrl": "https://0xwork.org/launches/0xE1A729B862a708562d26f6f85Bc21F2c0cCF0BA3"
+    },
+    {
+      "launchId": 154,
+      "tokenName": "T Ran",
+      "tokenSymbol": "TRAN",
+      "tokenAddress": "0x7702D91a5fa7340780eD2A64CcEbaA0F141eFBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-06 09:52:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7702D91a5fa7340780eD2A64CcEbaA0F141eFBA3",
+      "launchUrl": "https://0xwork.org/launches/0x7702D91a5fa7340780eD2A64CcEbaA0F141eFBA3"
+    },
+    {
+      "launchId": 153,
+      "tokenName": "Clawe",
+      "tokenSymbol": "CLAWE",
+      "tokenAddress": "0xB38fe952180cF45dA5F5c61BD3D481190BfD3ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-06 09:40:22",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xB38fe952180cF45dA5F5c61BD3D481190BfD3ba3",
+      "launchUrl": "https://0xwork.org/launches/0xB38fe952180cF45dA5F5c61BD3D481190BfD3ba3"
+    },
+    {
+      "launchId": 152,
+      "tokenName": "giha",
+      "tokenSymbol": "GIHA",
+      "tokenAddress": "0xe12C65FC4905e786a8b86b5c60C79dAAB85CDBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-06 02:27:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe12C65FC4905e786a8b86b5c60C79dAAB85CDBa3",
+      "launchUrl": "https://0xwork.org/launches/0xe12C65FC4905e786a8b86b5c60C79dAAB85CDBa3"
+    },
+    {
+      "launchId": 151,
+      "tokenName": "PRIVACY AGENT",
+      "tokenSymbol": "PRIVACYAGE",
+      "tokenAddress": "0x0CD5B1EfFB45bD4F54A8802f93f55D59c81fCBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 23:23:54",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0CD5B1EfFB45bD4F54A8802f93f55D59c81fCBA3",
+      "launchUrl": "https://0xwork.org/launches/0x0CD5B1EfFB45bD4F54A8802f93f55D59c81fCBA3"
+    },
+    {
+      "launchId": 150,
+      "tokenName": "test",
+      "tokenSymbol": "TEST",
+      "tokenAddress": "0x65Cf236d1703a429a1860Ca68C983B02F0212bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 23:16:08",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x65Cf236d1703a429a1860Ca68C983B02F0212bA3",
+      "launchUrl": "https://0xwork.org/launches/0x65Cf236d1703a429a1860Ca68C983B02F0212bA3"
+    },
+    {
+      "launchId": 149,
+      "tokenName": "Test",
+      "tokenSymbol": "TEST",
+      "tokenAddress": "0xb49fE4F26ac6d522bd5EF1125feEd3620fEd8Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 23:13:18",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb49fE4F26ac6d522bd5EF1125feEd3620fEd8Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xb49fE4F26ac6d522bd5EF1125feEd3620fEd8Ba3"
+    },
+    {
+      "launchId": 148,
+      "tokenName": "ZEROGAS",
+      "tokenSymbol": "ZEROGAS",
+      "tokenAddress": "0x28b50EB79756B11A90781206669c01E22e674ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 19:08:08",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x28b50EB79756B11A90781206669c01E22e674ba3",
+      "launchUrl": "https://0xwork.org/launches/0x28b50EB79756B11A90781206669c01E22e674ba3"
+    },
+    {
+      "launchId": 147,
+      "tokenName": "ROCKET AGENT",
+      "tokenSymbol": "RTAGENT",
+      "tokenAddress": "0xB94641265646E5E32a6FE5feE4409D5F2d608ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 18:10:54",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xB94641265646E5E32a6FE5feE4409D5F2d608ba3",
+      "launchUrl": "https://0xwork.org/launches/0xB94641265646E5E32a6FE5feE4409D5F2d608ba3"
     },
     {
       "launchId": 146,
       "tokenName": "VALIRON",
       "tokenSymbol": "VALIRON",
-      "agentName": "Valiron",
       "tokenAddress": "0xE13d413d646a599A12f3C5107770C69E4a48abA3",
-      "createdAt": "2026-03-05 17:10:02"
+      "imageUrl": null,
+      "createdAt": "2026-03-05 17:10:02",
+      "launcher": {
+        "name": "Valiron",
+        "handle": null,
+        "image": null,
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xE13d413d646a599A12f3C5107770C69E4a48abA3",
+      "launchUrl": "https://0xwork.org/launches/0xE13d413d646a599A12f3C5107770C69E4a48abA3"
+    },
+    {
+      "launchId": 145,
+      "tokenName": "lovelybot",
+      "tokenSymbol": "LOVELYBOT",
+      "tokenAddress": "0x056BfB9ff70ecBC9a6608a885E5F0D24E5b30Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 01:50:38",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x056BfB9ff70ecBC9a6608a885E5F0D24E5b30Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x056BfB9ff70ecBC9a6608a885E5F0D24E5b30Ba3"
+    },
+    {
+      "launchId": 144,
+      "tokenName": "BNKRXRP",
+      "tokenSymbol": "BNKRXRP",
+      "tokenAddress": "0xA71a8bf5A81e4DCB264600D921361D5f0B796bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 00:37:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xA71a8bf5A81e4DCB264600D921361D5f0B796bA3",
+      "launchUrl": "https://0xwork.org/launches/0xA71a8bf5A81e4DCB264600D921361D5f0B796bA3"
+    },
+    {
+      "launchId": 143,
+      "tokenName": "BNKRSOL",
+      "tokenSymbol": "BNKRSOL",
+      "tokenAddress": "0xEeB20BB8E8f630AC11fC42713B5D4a0c94574bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-05 00:24:55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xEeB20BB8E8f630AC11fC42713B5D4a0c94574bA3",
+      "launchUrl": "https://0xwork.org/launches/0xEeB20BB8E8f630AC11fC42713B5D4a0c94574bA3"
+    },
+    {
+      "launchId": 142,
+      "tokenName": "LIZARD",
+      "tokenSymbol": "LIZARD",
+      "tokenAddress": "0xF2Cf29F58BBa6cCB0B06da582B589a5FA6cd0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-04 18:10:23",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF2Cf29F58BBa6cCB0B06da582B589a5FA6cd0ba3",
+      "launchUrl": "https://0xwork.org/launches/0xF2Cf29F58BBa6cCB0B06da582B589a5FA6cd0ba3"
+    },
+    {
+      "launchId": 141,
+      "tokenName": "MOLTSTREET",
+      "tokenSymbol": "MOLTSTREET",
+      "tokenAddress": "0x5880cDc0F822bb24bfa4a6Ad22B12E586ed59BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-03 01:06:14",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5880cDc0F822bb24bfa4a6Ad22B12E586ed59BA3",
+      "launchUrl": "https://0xwork.org/launches/0x5880cDc0F822bb24bfa4a6Ad22B12E586ed59BA3"
+    },
+    {
+      "launchId": 140,
+      "tokenName": "clawracer",
+      "tokenSymbol": "CLAWRACER",
+      "tokenAddress": "0x3E4dBA23F39F1bD0F71Fa054bC42d308c5305ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-03 01:05:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3E4dBA23F39F1bD0F71Fa054bC42d308c5305ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3E4dBA23F39F1bD0F71Fa054bC42d308c5305ba3"
+    },
+    {
+      "launchId": 139,
+      "tokenName": "clawStreet",
+      "tokenSymbol": "CLAWSTREET",
+      "tokenAddress": "0x26503F7B4EcE721004ce2103D5030c7387d38ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-03 01:03:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x26503F7B4EcE721004ce2103D5030c7387d38ba3",
+      "launchUrl": "https://0xwork.org/launches/0x26503F7B4EcE721004ce2103D5030c7387d38ba3"
+    },
+    {
+      "launchId": 138,
+      "tokenName": "Ratchet.Fun",
+      "tokenSymbol": "RATCHETFUN",
+      "tokenAddress": "0x6ccA437Ce59a41B7aC574fD7E561A67C8dAE4Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-03 00:45:31",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6ccA437Ce59a41B7aC574fD7E561A67C8dAE4Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x6ccA437Ce59a41B7aC574fD7E561A67C8dAE4Ba3"
+    },
+    {
+      "launchId": 137,
+      "tokenName": "CRAFT CLAW",
+      "tokenSymbol": "CRAFTCLAW",
+      "tokenAddress": "0x2dbe1D238C04981Fa878cB6255C73970D0dC5bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:51:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2dbe1D238C04981Fa878cB6255C73970D0dC5bA3",
+      "launchUrl": "https://0xwork.org/launches/0x2dbe1D238C04981Fa878cB6255C73970D0dC5bA3"
+    },
+    {
+      "launchId": 136,
+      "tokenName": "DEBTCLAW",
+      "tokenSymbol": "DEBTCLAW",
+      "tokenAddress": "0x5dc5f6c7516bff3c4888E6b320da5dBC70270BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:48:47",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5dc5f6c7516bff3c4888E6b320da5dBC70270BA3",
+      "launchUrl": "https://0xwork.org/launches/0x5dc5f6c7516bff3c4888E6b320da5dBC70270BA3"
+    },
+    {
+      "launchId": 135,
+      "tokenName": "BNKRX",
+      "tokenSymbol": "BNKRX",
+      "tokenAddress": "0xb86D6895495DBd66758e5820965718f992815bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:42:56",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb86D6895495DBd66758e5820965718f992815bA3",
+      "launchUrl": "https://0xwork.org/launches/0xb86D6895495DBd66758e5820965718f992815bA3"
+    },
+    {
+      "launchId": 134,
+      "tokenName": "BNKRWORK",
+      "tokenSymbol": "BNKRWORK",
+      "tokenAddress": "0x9beD2694ca803423326D5178ac03388fc45b0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:42:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9beD2694ca803423326D5178ac03388fc45b0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x9beD2694ca803423326D5178ac03388fc45b0ba3"
+    },
+    {
+      "launchId": 133,
+      "tokenName": "0xWork",
+      "tokenSymbol": "0XWORK",
+      "tokenAddress": "0xCE82133c7A530Ae7f412437A0d0293a37a6a0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:38:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xCE82133c7A530Ae7f412437A0d0293a37a6a0ba3",
+      "launchUrl": "https://0xwork.org/launches/0xCE82133c7A530Ae7f412437A0d0293a37a6a0ba3"
+    },
+    {
+      "launchId": 132,
+      "tokenName": "0xWorkHQ",
+      "tokenSymbol": "0XWORKHQ",
+      "tokenAddress": "0x7d43e1074197A396aD0Cba97E4b0ebeed883cba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:37:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7d43e1074197A396aD0Cba97E4b0ebeed883cba3",
+      "launchUrl": "https://0xwork.org/launches/0x7d43e1074197A396aD0Cba97E4b0ebeed883cba3"
+    },
+    {
+      "launchId": 131,
+      "tokenName": "SOLAXY",
+      "tokenSymbol": "SOLAXY",
+      "tokenAddress": "0x13dfB0d5EBbcC5f1B7B1c1f785b4Fe87B6F55BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:34:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x13dfB0d5EBbcC5f1B7B1c1f785b4Fe87B6F55BA3",
+      "launchUrl": "https://0xwork.org/launches/0x13dfB0d5EBbcC5f1B7B1c1f785b4Fe87B6F55BA3"
+    },
+    {
+      "launchId": 130,
+      "tokenName": "DRBX",
+      "tokenSymbol": "DRBX",
+      "tokenAddress": "0xC8A4cd4FE102Af64F8BAA01A72949e15511FeBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:34:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC8A4cd4FE102Af64F8BAA01A72949e15511FeBA3",
+      "launchUrl": "https://0xwork.org/launches/0xC8A4cd4FE102Af64F8BAA01A72949e15511FeBA3"
+    },
+    {
+      "launchId": 129,
+      "tokenName": "CEREBRO",
+      "tokenSymbol": "CEREBRO",
+      "tokenAddress": "0xFA6214506C0648cd6A9E1663e76EEF20163C3Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:33:56",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFA6214506C0648cd6A9E1663e76EEF20163C3Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xFA6214506C0648cd6A9E1663e76EEF20163C3Ba3"
+    },
+    {
+      "launchId": 128,
+      "tokenName": "XVM",
+      "tokenSymbol": "XVM",
+      "tokenAddress": "0x93c4CF4c4D258f29f1B053D3A8e2668F6514BBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:32:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x93c4CF4c4D258f29f1B053D3A8e2668F6514BBa3",
+      "launchUrl": "https://0xwork.org/launches/0x93c4CF4c4D258f29f1B053D3A8e2668F6514BBa3"
+    },
+    {
+      "launchId": 127,
+      "tokenName": "USDEV",
+      "tokenSymbol": "USDEV",
+      "tokenAddress": "0x5902bA73da2235a485Bc98484Ae4fBbFa5C3bBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:31:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5902bA73da2235a485Bc98484Ae4fBbFa5C3bBA3",
+      "launchUrl": "https://0xwork.org/launches/0x5902bA73da2235a485Bc98484Ae4fBbFa5C3bBA3"
+    },
+    {
+      "launchId": 126,
+      "tokenName": "WORKBANKR",
+      "tokenSymbol": "WORKBANKR",
+      "tokenAddress": "0x96e5D590ba1a35d7959098373305a4a30538bBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:28:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x96e5D590ba1a35d7959098373305a4a30538bBA3",
+      "launchUrl": "https://0xwork.org/launches/0x96e5D590ba1a35d7959098373305a4a30538bBA3"
+    },
+    {
+      "launchId": 125,
+      "tokenName": "MY0xWORK",
+      "tokenSymbol": "MY0XWORK",
+      "tokenAddress": "0x658AF4B79310388adDF556406D92Ae9Be40a0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:28:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x658AF4B79310388adDF556406D92Ae9Be40a0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x658AF4B79310388adDF556406D92Ae9Be40a0ba3"
+    },
+    {
+      "launchId": 124,
+      "tokenName": "ETHCLAW",
+      "tokenSymbol": "ETHCLAW",
+      "tokenAddress": "0x4cd96Fd49f005D87D0d4B3c00104B093a8a5Bba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:25:02",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4cd96Fd49f005D87D0d4B3c00104B093a8a5Bba3",
+      "launchUrl": "https://0xwork.org/launches/0x4cd96Fd49f005D87D0d4B3c00104B093a8a5Bba3"
+    },
+    {
+      "launchId": 123,
+      "tokenName": "AUBANKR",
+      "tokenSymbol": "AUBANKR",
+      "tokenAddress": "0xbf584f0BfB046d5675b770a09EA3f6668CBbfBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:22:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbf584f0BfB046d5675b770a09EA3f6668CBbfBA3",
+      "launchUrl": "https://0xwork.org/launches/0xbf584f0BfB046d5675b770a09EA3f6668CBbfBA3"
+    },
+    {
+      "launchId": 122,
+      "tokenName": "USEBANKR",
+      "tokenSymbol": "USEBANKR",
+      "tokenAddress": "0x4FF31D62eB96C9CF3E85D1f73d3a846f232C3Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 18:20:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4FF31D62eB96C9CF3E85D1f73d3a846f232C3Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4FF31D62eB96C9CF3E85D1f73d3a846f232C3Ba3"
+    },
+    {
+      "launchId": 121,
+      "tokenName": "BITCOIN PUMP NOW",
+      "tokenSymbol": "BITCOINPUM",
+      "tokenAddress": "0x0dbaa59E1Ad28cb0460757b8B87ed8EcaDaC7Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 16:13:22",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0dbaa59E1Ad28cb0460757b8B87ed8EcaDaC7Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x0dbaa59E1Ad28cb0460757b8B87ed8EcaDaC7Ba3"
+    },
+    {
+      "launchId": 120,
+      "tokenName": "BICLAW",
+      "tokenSymbol": "BICLAW",
+      "tokenAddress": "0x3A2A65149265E971CE6b1d8C44861FD0FB806Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 16:12:38",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3A2A65149265E971CE6b1d8C44861FD0FB806Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3A2A65149265E971CE6b1d8C44861FD0FB806Ba3"
+    },
+    {
+      "launchId": 119,
+      "tokenName": "dclawbot",
+      "tokenSymbol": "DCLAWBOT",
+      "tokenAddress": "0xF46642952ABFcFb86C3031FCeD7794db6f123Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 16:10:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF46642952ABFcFb86C3031FCeD7794db6f123Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xF46642952ABFcFb86C3031FCeD7794db6f123Ba3"
+    },
+    {
+      "launchId": 118,
+      "tokenName": "DROID",
+      "tokenSymbol": "DROID",
+      "tokenAddress": "0x2F79aC3273493b1c3df2b21E5546Bc618b7d8BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 16:08:31",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2F79aC3273493b1c3df2b21E5546Bc618b7d8BA3",
+      "launchUrl": "https://0xwork.org/launches/0x2F79aC3273493b1c3df2b21E5546Bc618b7d8BA3"
+    },
+    {
+      "launchId": 117,
+      "tokenName": "JPME",
+      "tokenSymbol": "JPME",
+      "tokenAddress": "0x2a0E6f78fB3FcEFEABC9e0Ff0D352c63ae966bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 16:07:28",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2a0E6f78fB3FcEFEABC9e0Ff0D352c63ae966bA3",
+      "launchUrl": "https://0xwork.org/launches/0x2a0E6f78fB3FcEFEABC9e0Ff0D352c63ae966bA3"
+    },
+    {
+      "launchId": 116,
+      "tokenName": "hungerx",
+      "tokenSymbol": "HUNGERX",
+      "tokenAddress": "0xFd73F61e62c95Af9c4BD52a70c04ca238278dBa3",
+      "imageUrl": null,
+      "createdAt": "2026-03-02 14:29:30",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFd73F61e62c95Af9c4BD52a70c04ca238278dBa3",
+      "launchUrl": "https://0xwork.org/launches/0xFd73F61e62c95Af9c4BD52a70c04ca238278dBa3"
+    },
+    {
+      "launchId": 115,
+      "tokenName": "Moltblox.gg",
+      "tokenSymbol": "MOLTBLOX",
+      "tokenAddress": "0x0AB36F5dBB4B3dD86CF7d50568F0BFb5F2F75ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 23:21:50",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0AB36F5dBB4B3dD86CF7d50568F0BFb5F2F75ba3",
+      "launchUrl": "https://0xwork.org/launches/0x0AB36F5dBB4B3dD86CF7d50568F0BFb5F2F75ba3"
+    },
+    {
+      "launchId": 114,
+      "tokenName": "ClawGig AI",
+      "tokenSymbol": "CLAWGIG",
+      "tokenAddress": "0x250a74463817D552940dF6446b9053b52a7FfbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 23:07:14",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x250a74463817D552940dF6446b9053b52a7FfbA3",
+      "launchUrl": "https://0xwork.org/launches/0x250a74463817D552940dF6446b9053b52a7FfbA3"
+    },
+    {
+      "launchId": 113,
+      "tokenName": "Autobotics",
+      "tokenSymbol": "ACTOBOT",
+      "tokenAddress": "0xfB0BC59f99613c66f9F688dA023cf890cc6D6ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 21:55:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfB0BC59f99613c66f9F688dA023cf890cc6D6ba3",
+      "launchUrl": "https://0xwork.org/launches/0xfB0BC59f99613c66f9F688dA023cf890cc6D6ba3"
+    },
+    {
+      "launchId": 112,
+      "tokenName": "EverClaw",
+      "tokenSymbol": "EVERCLAW",
+      "tokenAddress": "0xD3C23953B6DF80d3D287c3f042F6aAaF450f3Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 17:53:28",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD3C23953B6DF80d3D287c3f042F6aAaF450f3Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xD3C23953B6DF80d3D287c3f042F6aAaF450f3Ba3"
+    },
+    {
+      "launchId": 111,
+      "tokenName": "jelly fish",
+      "tokenSymbol": "JELLYFISH",
+      "tokenAddress": "0x7f943A03e5477c0eC1BB5DAbF29747c315C46ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 11:23:02",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7f943A03e5477c0eC1BB5DAbF29747c315C46ba3",
+      "launchUrl": "https://0xwork.org/launches/0x7f943A03e5477c0eC1BB5DAbF29747c315C46ba3"
+    },
+    {
+      "launchId": 110,
+      "tokenName": "RIP Ali Khamaeni",
+      "tokenSymbol": "RIPALIKHAM",
+      "tokenAddress": "0x80B086c18d3352F5F20b6177AbEd05E65b67DbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 10:46:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x80B086c18d3352F5F20b6177AbEd05E65b67DbA3",
+      "launchUrl": "https://0xwork.org/launches/0x80B086c18d3352F5F20b6177AbEd05E65b67DbA3"
+    },
+    {
+      "launchId": 109,
+      "tokenName": "Slicedotso",
+      "tokenSymbol": "SLICEDOTSO",
+      "tokenAddress": "0x865581FBe066FCC6a54132DEDeDCf2bF4DE04bA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 10:45:45",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x865581FBe066FCC6a54132DEDeDCf2bF4DE04bA3",
+      "launchUrl": "https://0xwork.org/launches/0x865581FBe066FCC6a54132DEDeDCf2bF4DE04bA3"
+    },
+    {
+      "launchId": 108,
+      "tokenName": "Clawe",
+      "tokenSymbol": "CLAWE",
+      "tokenAddress": "0xBef62670adECfB149cA2f65A2ebb35D1006BcbA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 10:43:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xBef62670adECfB149cA2f65A2ebb35D1006BcbA3",
+      "launchUrl": "https://0xwork.org/launches/0xBef62670adECfB149cA2f65A2ebb35D1006BcbA3"
+    },
+    {
+      "launchId": 107,
+      "tokenName": "ClaweAi",
+      "tokenSymbol": "CLAWEAI",
+      "tokenAddress": "0x1686889D701e30524Aa41Ce05C57228cBC72ebA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 10:41:45",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1686889D701e30524Aa41Ce05C57228cBC72ebA3",
+      "launchUrl": "https://0xwork.org/launches/0x1686889D701e30524Aa41Ce05C57228cBC72ebA3"
+    },
+    {
+      "launchId": 106,
+      "tokenName": "Con+Audits",
+      "tokenSymbol": "CONAUDITS",
+      "tokenAddress": "0xe7eC47A0da1b67fF4E92E4221922CAe754f55ba3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 08:31:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe7eC47A0da1b67fF4E92E4221922CAe754f55ba3",
+      "launchUrl": "https://0xwork.org/launches/0xe7eC47A0da1b67fF4E92E4221922CAe754f55ba3"
+    },
+    {
+      "launchId": 105,
+      "tokenName": "EverClaw",
+      "tokenSymbol": "EVERCLAW",
+      "tokenAddress": "0x3Decd81fD4EFc66E7C499a08EFf60d3091Cb7BA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 07:21:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3Decd81fD4EFc66E7C499a08EFf60d3091Cb7BA3",
+      "launchUrl": "https://0xwork.org/launches/0x3Decd81fD4EFc66E7C499a08EFf60d3091Cb7BA3"
+    },
+    {
+      "launchId": 104,
+      "tokenName": "LUCI",
+      "tokenSymbol": "LUCI",
+      "tokenAddress": "0xe8e8EF7B07292CB190869Bf336D655e2018edBA3",
+      "imageUrl": null,
+      "createdAt": "2026-03-01 02:55:10",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe8e8EF7B07292CB190869Bf336D655e2018edBA3",
+      "launchUrl": "https://0xwork.org/launches/0xe8e8EF7B07292CB190869Bf336D655e2018edBA3"
+    },
+    {
+      "launchId": 103,
+      "tokenName": "Create fomo",
+      "tokenSymbol": "CREATEFOMO",
+      "tokenAddress": "0xFdb2Da8DB72CD05D007242ba9f383Bb4E1ABcBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 23:56:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFdb2Da8DB72CD05D007242ba9f383Bb4E1ABcBa3",
+      "launchUrl": "https://0xwork.org/launches/0xFdb2Da8DB72CD05D007242ba9f383Bb4E1ABcBa3"
+    },
+    {
+      "launchId": 102,
+      "tokenName": "Salamandr",
+      "tokenSymbol": "SALAMANDR",
+      "tokenAddress": "0x5d98E90aaE0FF2D5103eFe1652Cddf3BD3a89Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 23:42:45",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5d98E90aaE0FF2D5103eFe1652Cddf3BD3a89Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5d98E90aaE0FF2D5103eFe1652Cddf3BD3a89Ba3"
+    },
+    {
+      "launchId": 101,
+      "tokenName": "MAX",
+      "tokenSymbol": "MAX",
+      "tokenAddress": "0x4E4f14528B9EA2Bb6543Fa48928f7776fD830BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 22:42:44",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4E4f14528B9EA2Bb6543Fa48928f7776fD830BA3",
+      "launchUrl": "https://0xwork.org/launches/0x4E4f14528B9EA2Bb6543Fa48928f7776fD830BA3"
+    },
+    {
+      "launchId": 100,
+      "tokenName": "codexrios",
+      "tokenSymbol": "CODEXRIOS",
+      "tokenAddress": "0x25f12f3cb858C783c8749A3120A35c0306E0EBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 19:55:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x25f12f3cb858C783c8749A3120A35c0306E0EBA3",
+      "launchUrl": "https://0xwork.org/launches/0x25f12f3cb858C783c8749A3120A35c0306E0EBA3"
+    },
+    {
+      "launchId": 99,
+      "tokenName": "EverClaw",
+      "tokenSymbol": "EVERCLAW",
+      "tokenAddress": "0xDBB50063Ebf1D94d16650f057d901f83d73cEbA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 19:21:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xDBB50063Ebf1D94d16650f057d901f83d73cEbA3",
+      "launchUrl": "https://0xwork.org/launches/0xDBB50063Ebf1D94d16650f057d901f83d73cEbA3"
+    },
+    {
+      "launchId": 98,
+      "tokenName": "Code test",
+      "tokenSymbol": "CODETEST",
+      "tokenAddress": "0x5e13a92C5EA7F289d18718C36c1309f6afcb6Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 19:14:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5e13a92C5EA7F289d18718C36c1309f6afcb6Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5e13a92C5EA7F289d18718C36c1309f6afcb6Ba3"
+    },
+    {
+      "launchId": 97,
+      "tokenName": "DOUGH",
+      "tokenSymbol": "DOUGH",
+      "tokenAddress": "0x781292350A8C69e2CA1803Ad29773c763CB78BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 18:25:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x781292350A8C69e2CA1803Ad29773c763CB78BA3",
+      "launchUrl": "https://0xwork.org/launches/0x781292350A8C69e2CA1803Ad29773c763CB78BA3"
+    },
+    {
+      "launchId": 96,
+      "tokenName": "Bravo1058AI",
+      "tokenSymbol": "BRAVO",
+      "tokenAddress": "0x42A8044D08232681407FABbd48208c997D6e3bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 17:39:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x42A8044D08232681407FABbd48208c997D6e3bA3",
+      "launchUrl": "https://0xwork.org/launches/0x42A8044D08232681407FABbd48208c997D6e3bA3"
+    },
+    {
+      "launchId": 95,
+      "tokenName": "mimo",
+      "tokenSymbol": "MIMO",
+      "tokenAddress": "0x2EE71C7e8e735B12406b64b70eFFD38128C67BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 17:19:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2EE71C7e8e735B12406b64b70eFFD38128C67BA3",
+      "launchUrl": "https://0xwork.org/launches/0x2EE71C7e8e735B12406b64b70eFFD38128C67BA3"
+    },
+    {
+      "launchId": 94,
+      "tokenName": "lrizzgyatt",
+      "tokenSymbol": "LRIZZGYATT",
+      "tokenAddress": "0x70F3fFb7761386a237028A511F1Ab3fB22b2ABA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 17:12:29",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x70F3fFb7761386a237028A511F1Ab3fB22b2ABA3",
+      "launchUrl": "https://0xwork.org/launches/0x70F3fFb7761386a237028A511F1Ab3fB22b2ABA3"
+    },
+    {
+      "launchId": 93,
+      "tokenName": "skibidi",
+      "tokenSymbol": "SKIBIDI",
+      "tokenAddress": "0x15C6e7648F6C947FA40Ff90Adc04B229aa6d7BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 17:10:49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x15C6e7648F6C947FA40Ff90Adc04B229aa6d7BA3",
+      "launchUrl": "https://0xwork.org/launches/0x15C6e7648F6C947FA40Ff90Adc04B229aa6d7BA3"
+    },
+    {
+      "launchId": 92,
+      "tokenName": "Flying War Bomb Duck Missile",
+      "tokenSymbol": "FWBDM",
+      "tokenAddress": "0x8e83add59cDb446a80468E166A83484Be2259bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:57:51",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8e83add59cDb446a80468E166A83484Be2259bA3",
+      "launchUrl": "https://0xwork.org/launches/0x8e83add59cDb446a80468E166A83484Be2259bA3"
+    },
+    {
+      "launchId": 91,
+      "tokenName": "CODEX RIOS",
+      "tokenSymbol": "CODEXRIOS",
+      "tokenAddress": "0x06aD9E5886B4cAE1A7dDA303ac5181d7Aa2b4Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:55:43",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x06aD9E5886B4cAE1A7dDA303ac5181d7Aa2b4Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x06aD9E5886B4cAE1A7dDA303ac5181d7Aa2b4Ba3"
+    },
+    {
+      "launchId": 90,
+      "tokenName": "Pepe The Peace President",
+      "tokenSymbol": "PEPE",
+      "tokenAddress": "0xADd5BC68b13b134bd3e17fC765965Dd8afDcDBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:45:54",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xADd5BC68b13b134bd3e17fC765965Dd8afDcDBA3",
+      "launchUrl": "https://0xwork.org/launches/0xADd5BC68b13b134bd3e17fC765965Dd8afDcDBA3"
+    },
+    {
+      "launchId": 89,
+      "tokenName": "Bored of Peace",
+      "tokenSymbol": "BOP",
+      "tokenAddress": "0x6388431f5254E954af34aaF8d0e92A22d3fcABA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:43:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6388431f5254E954af34aaF8d0e92A22d3fcABA3",
+      "launchUrl": "https://0xwork.org/launches/0x6388431f5254E954af34aaF8d0e92A22d3fcABA3"
+    },
+    {
+      "launchId": 88,
+      "tokenName": "noiro",
+      "tokenSymbol": "NOIRO",
+      "tokenAddress": "0xFD454074D9a65CDE0F4975b3F79AfedE5dcc2ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:41:12",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xFD454074D9a65CDE0F4975b3F79AfedE5dcc2ba3",
+      "launchUrl": "https://0xwork.org/launches/0xFD454074D9a65CDE0F4975b3F79AfedE5dcc2ba3"
+    },
+    {
+      "launchId": 87,
+      "tokenName": "World Is Fucked",
+      "tokenSymbol": "WIF",
+      "tokenAddress": "0xEF01Aee82F24b764d072719e080f74a07836ebA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:38:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xEF01Aee82F24b764d072719e080f74a07836ebA3",
+      "launchUrl": "https://0xwork.org/launches/0xEF01Aee82F24b764d072719e080f74a07836ebA3"
+    },
+    {
+      "launchId": 86,
+      "tokenName": "The Republic of Kekestan",
+      "tokenSymbol": "TROK",
+      "tokenAddress": "0x27c104a01b5cD5c54Ac0eEaB5230f5Fe56E63ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:34:28",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x27c104a01b5cD5c54Ac0eEaB5230f5Fe56E63ba3",
+      "launchUrl": "https://0xwork.org/launches/0x27c104a01b5cD5c54Ac0eEaB5230f5Fe56E63ba3"
+    },
+    {
+      "launchId": 85,
+      "tokenName": "Nietzschean Soldier",
+      "tokenSymbol": "SOLDIER",
+      "tokenAddress": "0x6BcD0a925f4184b5D5CC87339C34733000f79bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:30:42",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6BcD0a925f4184b5D5CC87339C34733000f79bA3",
+      "launchUrl": "https://0xwork.org/launches/0x6BcD0a925f4184b5D5CC87339C34733000f79bA3"
+    },
+    {
+      "launchId": 84,
+      "tokenName": "The Meme Warrior",
+      "tokenSymbol": "MEMEWARRIO",
+      "tokenAddress": "0x131a6cF34078a6DB44054767deAf3C75fd367ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:26:58",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x131a6cF34078a6DB44054767deAf3C75fd367ba3",
+      "launchUrl": "https://0xwork.org/launches/0x131a6cF34078a6DB44054767deAf3C75fd367ba3"
+    },
+    {
+      "launchId": 83,
+      "tokenName": "PEACEMAXXING",
+      "tokenSymbol": "PEACEMAXX",
+      "tokenAddress": "0x22EeC7a328c41ED80f8CF92a2E4D3B0c39EA2ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:25:03",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x22EeC7a328c41ED80f8CF92a2E4D3B0c39EA2ba3",
+      "launchUrl": "https://0xwork.org/launches/0x22EeC7a328c41ED80f8CF92a2E4D3B0c39EA2ba3"
+    },
+    {
+      "launchId": 82,
+      "tokenName": "Iran is the 51st state",
+      "tokenSymbol": "51STATE",
+      "tokenAddress": "0x5ACb99a0AE9ce9502119447631A57C665Cce4Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:18:34",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5ACb99a0AE9ce9502119447631A57C665Cce4Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5ACb99a0AE9ce9502119447631A57C665Cce4Ba3"
+    },
+    {
+      "launchId": 81,
+      "tokenName": "We All Rekt",
+      "tokenSymbol": "WEALLREKT",
+      "tokenAddress": "0x582C622a0690f052b0686020565AE6321E5A7Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:15:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x582C622a0690f052b0686020565AE6321E5A7Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x582C622a0690f052b0686020565AE6321E5A7Ba3"
+    },
+    {
+      "launchId": 80,
+      "tokenName": "The Peace President",
+      "tokenSymbol": "TRUMP",
+      "tokenAddress": "0xa616D744381f4144A72FA3752aeD1406aC188Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:13:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa616D744381f4144A72FA3752aeD1406aC188Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xa616D744381f4144A72FA3752aeD1406aC188Ba3"
+    },
+    {
+      "launchId": 79,
+      "tokenName": "Board Of Kings",
+      "tokenSymbol": "KINGS",
+      "tokenAddress": "0x3e067e2f1b9978cd10e6C95cd9D2914D5ec22Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 16:03:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3e067e2f1b9978cd10e6C95cd9D2914D5ec22Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x3e067e2f1b9978cd10e6C95cd9D2914D5ec22Ba3"
+    },
+    {
+      "launchId": 78,
+      "tokenName": "make love,not war",
+      "tokenSymbol": "NOWAR",
+      "tokenAddress": "0x23A44c1a475Ac77bda1F04b2132441C046dF5ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 15:56:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x23A44c1a475Ac77bda1F04b2132441C046dF5ba3",
+      "launchUrl": "https://0xwork.org/launches/0x23A44c1a475Ac77bda1F04b2132441C046dF5ba3"
+    },
+    {
+      "launchId": 77,
+      "tokenName": "Get Ready With Me",
+      "tokenSymbol": "GRWM",
+      "tokenAddress": "0x4dF67e520f693736a7F87c312182A6C6b6bd2Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 14:38:59",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4dF67e520f693736a7F87c312182A6C6b6bd2Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x4dF67e520f693736a7F87c312182A6C6b6bd2Ba3"
+    },
+    {
+      "launchId": 76,
+      "tokenName": "ClawRa",
+      "tokenSymbol": "CLAWRA",
+      "tokenAddress": "0x2761bF9d19FFE41Aa844e03446653bA3e653CBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 14:31:38",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2761bF9d19FFE41Aa844e03446653bA3e653CBA3",
+      "launchUrl": "https://0xwork.org/launches/0x2761bF9d19FFE41Aa844e03446653bA3e653CBA3"
+    },
+    {
+      "launchId": 75,
+      "tokenName": "3WW",
+      "tokenSymbol": "3WW",
+      "tokenAddress": "0xeA99De1F5a779E7037C2E9840A03D02Fd2aA5BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 14:23:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xeA99De1F5a779E7037C2E9840A03D02Fd2aA5BA3",
+      "launchUrl": "https://0xwork.org/launches/0xeA99De1F5a779E7037C2E9840A03D02Fd2aA5BA3"
+    },
+    {
+      "launchId": 74,
+      "tokenName": "WW3FVCK",
+      "tokenSymbol": "WW3FVCK",
+      "tokenAddress": "0xb2D93bf5734c306c04CC8D8F2B423FE340883ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 14:22:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb2D93bf5734c306c04CC8D8F2B423FE340883ba3",
+      "launchUrl": "https://0xwork.org/launches/0xb2D93bf5734c306c04CC8D8F2B423FE340883ba3"
+    },
+    {
+      "launchId": 73,
+      "tokenName": "Clawe",
+      "tokenSymbol": "CLAWE",
+      "tokenAddress": "0xB30AFC5E024318C15d32ddd5Fa2CD57E4F273Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 14:05:48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xB30AFC5E024318C15d32ddd5Fa2CD57E4F273Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xB30AFC5E024318C15d32ddd5Fa2CD57E4F273Ba3"
+    },
+    {
+      "launchId": 72,
+      "tokenName": "Clawe",
+      "tokenSymbol": "CLAWE",
+      "tokenAddress": "0x787bb329424300F38345c1B67600819Ee5f69BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 13:58:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x787bb329424300F38345c1B67600819Ee5f69BA3",
+      "launchUrl": "https://0xwork.org/launches/0x787bb329424300F38345c1B67600819Ee5f69BA3"
+    },
+    {
+      "launchId": 71,
+      "tokenName": "CLAWE",
+      "tokenSymbol": "CLAWE",
+      "tokenAddress": "0x101B4010aC9B45f85F828ed2eb63990Ea5A8BBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 13:56:08",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x101B4010aC9B45f85F828ed2eb63990Ea5A8BBa3",
+      "launchUrl": "https://0xwork.org/launches/0x101B4010aC9B45f85F828ed2eb63990Ea5A8BBa3"
+    },
+    {
+      "launchId": 70,
+      "tokenName": "Zen Browser",
+      "tokenSymbol": "ZENBROWSER",
+      "tokenAddress": "0xd0a589C35357799EDAb4CC23195d9989f5438ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 13:50:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd0a589C35357799EDAb4CC23195d9989f5438ba3",
+      "launchUrl": "https://0xwork.org/launches/0xd0a589C35357799EDAb4CC23195d9989f5438ba3"
+    },
+    {
+      "launchId": 69,
+      "tokenName": "iOS",
+      "tokenSymbol": "IOS",
+      "tokenAddress": "0x59001042EBb97c207BA08bCaC3A89c71a5d92ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 13:30:28",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x59001042EBb97c207BA08bCaC3A89c71a5d92ba3",
+      "launchUrl": "https://0xwork.org/launches/0x59001042EBb97c207BA08bCaC3A89c71a5d92ba3"
+    },
+    {
+      "launchId": 68,
+      "tokenName": "FAFO",
+      "tokenSymbol": "FAFO",
+      "tokenAddress": "0x28162D3fBB84fFE5dD61855A6D5dBe844b3b5BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 11:21:46",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x28162D3fBB84fFE5dD61855A6D5dBe844b3b5BA3",
+      "launchUrl": "https://0xwork.org/launches/0x28162D3fBB84fFE5dD61855A6D5dBe844b3b5BA3"
+    },
+    {
+      "launchId": 67,
+      "tokenName": "Ls",
+      "tokenSymbol": "LS",
+      "tokenAddress": "0xE4d1226940329b27D86035aA63A356d7AB03ebA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 10:52:22",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xE4d1226940329b27D86035aA63A356d7AB03ebA3",
+      "launchUrl": "https://0xwork.org/launches/0xE4d1226940329b27D86035aA63A356d7AB03ebA3"
+    },
+    {
+      "launchId": 66,
+      "tokenName": "tasker",
+      "tokenSymbol": "TASKER",
+      "tokenAddress": "0xAf2DD549d91E9687c647E2D36aa9e4F6a09a3bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 10:37:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xAf2DD549d91E9687c647E2D36aa9e4F6a09a3bA3",
+      "launchUrl": "https://0xwork.org/launches/0xAf2DD549d91E9687c647E2D36aa9e4F6a09a3bA3"
+    },
+    {
+      "launchId": 65,
+      "tokenName": "Base Is For Agents",
+      "tokenSymbol": "BASEDAGENT",
+      "tokenAddress": "0x7937a61bdA153e87f7e06C7e539C586CC5836Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 08:53:24",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7937a61bdA153e87f7e06C7e539C586CC5836Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x7937a61bdA153e87f7e06C7e539C586CC5836Ba3"
     },
     {
       "launchId": 64,
       "tokenName": "AGENTIC ECONOMY",
       "tokenSymbol": "AGENTIC",
-      "agentName": "Hermez",
       "tokenAddress": "0x0d25182248e889c909A246c3d2Ab29788D966BA3",
-      "createdAt": "2026-02-28 08:37:08"
+      "imageUrl": null,
+      "createdAt": "2026-02-28 08:37:08",
+      "launcher": {
+        "name": "Hermez",
+        "handle": null,
+        "image": "https://www.bing.com/images/search?view=detailV2&ccid=cCWWwgBb&id=61E2D4483BA6FBF4C123B0A2FD62D0384481CFF6&thid=OIP.cCWWwgBbDl9uO36u_jTJ7wHaJb&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.702596c2005b0e5f6e3b7eaefe34c9ef%3frik%3d9s%252bBRDjQYv2isA%26riu%3dhttp%253a%252f%252fhplchessdecor.com%252",
+        "verified": true
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0d25182248e889c909A246c3d2Ab29788D966BA3",
+      "launchUrl": "https://0xwork.org/launches/0x0d25182248e889c909A246c3d2Ab29788D966BA3"
+    },
+    {
+      "launchId": 63,
+      "tokenName": "Iran",
+      "tokenSymbol": "IRAN",
+      "tokenAddress": "0x63C7C588D5AC607DF2240fF0B9864322E07E4ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 08:26:41",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x63C7C588D5AC607DF2240fF0B9864322E07E4ba3",
+      "launchUrl": "https://0xwork.org/launches/0x63C7C588D5AC607DF2240fF0B9864322E07E4ba3"
+    },
+    {
+      "launchId": 62,
+      "tokenName": "AlphaHunter",
+      "tokenSymbol": "AHAI",
+      "tokenAddress": "0xBE1E190681b3b4F1639c83fC2185B121fa94dBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 07:06:57",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xBE1E190681b3b4F1639c83fC2185B121fa94dBa3",
+      "launchUrl": "https://0xwork.org/launches/0xBE1E190681b3b4F1639c83fC2185B121fa94dBa3"
+    },
+    {
+      "launchId": 61,
+      "tokenName": "Deploy token PACKPACK ticker PackPack on base description with your best idea",
+      "tokenSymbol": "PACK",
+      "tokenAddress": "0x6c84a0Ea712117401Af3018A86691CB317E10ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 07:03:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6c84a0Ea712117401Af3018A86691CB317E10ba3",
+      "launchUrl": "https://0xwork.org/launches/0x6c84a0Ea712117401Af3018A86691CB317E10ba3"
+    },
+    {
+      "launchId": 60,
+      "tokenName": "Axoclaw",
+      "tokenSymbol": "AXOCLAW",
+      "tokenAddress": "0x448c128abB1868dFE185076deA1ea4a7D15d1Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 07:02:42",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x448c128abB1868dFE185076deA1ea4a7D15d1Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x448c128abB1868dFE185076deA1ea4a7D15d1Ba3"
+    },
+    {
+      "launchId": 59,
+      "tokenName": "EXOAGENT",
+      "tokenSymbol": "EXOAGENT",
+      "tokenAddress": "0xfb409D7D1C7D316813b8a8b3492aE5E02B675BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 06:59:54",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfb409D7D1C7D316813b8a8b3492aE5E02B675BA3",
+      "launchUrl": "https://0xwork.org/launches/0xfb409D7D1C7D316813b8a8b3492aE5E02B675BA3"
+    },
+    {
+      "launchId": 58,
+      "tokenName": "CLAWHUB",
+      "tokenSymbol": "CLAWHUB",
+      "tokenAddress": "0xa213A83C6CEb5d82b2945e10950F1EcBfe502BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 04:24:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa213A83C6CEb5d82b2945e10950F1EcBfe502BA3",
+      "launchUrl": "https://0xwork.org/launches/0xa213A83C6CEb5d82b2945e10950F1EcBfe502BA3"
+    },
+    {
+      "launchId": 57,
+      "tokenName": "elon 48 agent",
+      "tokenSymbol": "E48",
+      "tokenAddress": "0x95d8679522d96D01A7BA49ef00fd148e4a876bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 04:22:19",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x95d8679522d96D01A7BA49ef00fd148e4a876bA3",
+      "launchUrl": "https://0xwork.org/launches/0x95d8679522d96D01A7BA49ef00fd148e4a876bA3"
+    },
+    {
+      "launchId": 56,
+      "tokenName": "COGNISCEND",
+      "tokenSymbol": "COGNISCEND",
+      "tokenAddress": "0x1C7d0a260C24b604ADEd2b48c49cb75859358bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 04:20:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1C7d0a260C24b604ADEd2b48c49cb75859358bA3",
+      "launchUrl": "https://0xwork.org/launches/0x1C7d0a260C24b604ADEd2b48c49cb75859358bA3"
+    },
+    {
+      "launchId": 55,
+      "tokenName": "0xdeployer agent",
+      "tokenSymbol": "0XDEPLOYER",
+      "tokenAddress": "0xAA9e6Fd4dEE8678dA87986e05d856cbc5DD66Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 04:17:27",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xAA9e6Fd4dEE8678dA87986e05d856cbc5DD66Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xAA9e6Fd4dEE8678dA87986e05d856cbc5DD66Ba3"
+    },
+    {
+      "launchId": 54,
+      "tokenName": "shibainu",
+      "tokenSymbol": "SHIBAINU",
+      "tokenAddress": "0x5f0b987F5ef7724455F8937Db666707479A70ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 03:45:58",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5f0b987F5ef7724455F8937Db666707479A70ba3",
+      "launchUrl": "https://0xwork.org/launches/0x5f0b987F5ef7724455F8937Db666707479A70ba3"
+    },
+    {
+      "launchId": 53,
+      "tokenName": "sup",
+      "tokenSymbol": "SUP",
+      "tokenAddress": "0x960Fc57b6D3c7215C11EE0aE75C505793FA16bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 03:44:58",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x960Fc57b6D3c7215C11EE0aE75C505793FA16bA3",
+      "launchUrl": "https://0xwork.org/launches/0x960Fc57b6D3c7215C11EE0aE75C505793FA16bA3"
+    },
+    {
+      "launchId": 52,
+      "tokenName": "forkclaws",
+      "tokenSymbol": "FORKCLAWS",
+      "tokenAddress": "0x86344853578950bb066659B754D44a99cB3c5ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 03:44:07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x86344853578950bb066659B754D44a99cB3c5ba3",
+      "launchUrl": "https://0xwork.org/launches/0x86344853578950bb066659B754D44a99cB3c5ba3"
+    },
+    {
+      "launchId": 51,
+      "tokenName": "deploy coin strikeworld",
+      "tokenSymbol": "SWORLD",
+      "tokenAddress": "0xC02825c92106F6ABDF15B8bae921C4b6E501aBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 03:40:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC02825c92106F6ABDF15B8bae921C4b6E501aBA3",
+      "launchUrl": "https://0xwork.org/launches/0xC02825c92106F6ABDF15B8bae921C4b6E501aBA3"
+    },
+    {
+      "launchId": 50,
+      "tokenName": "Deploy coin workinggone",
+      "tokenSymbol": "WORK",
+      "tokenAddress": "0xe58C4fd966A8720D4690F33ba90F665b7928fbA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 03:37:04",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe58C4fd966A8720D4690F33ba90F665b7928fbA3",
+      "launchUrl": "https://0xwork.org/launches/0xe58C4fd966A8720D4690F33ba90F665b7928fbA3"
+    },
+    {
+      "launchId": 49,
+      "tokenName": "Deploy token with ticker crackart",
+      "tokenSymbol": "CRACKART",
+      "tokenAddress": "0x50f4469B42842032E9D72D7c84BBa6A49f1e8Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 03:05:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x50f4469B42842032E9D72D7c84BBa6A49f1e8Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x50f4469B42842032E9D72D7c84BBa6A49f1e8Ba3"
+    },
+    {
+      "launchId": 48,
+      "tokenName": "mogged",
+      "tokenSymbol": "MOGGED",
+      "tokenAddress": "0xC7C98Daf91d3f4d80dFd860b78C9705b26B78BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 02:56:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC7C98Daf91d3f4d80dFd860b78C9705b26B78BA3",
+      "launchUrl": "https://0xwork.org/launches/0xC7C98Daf91d3f4d80dFd860b78C9705b26B78BA3"
+    },
+    {
+      "launchId": 47,
+      "tokenName": "Wallstreet Beast",
+      "tokenSymbol": "WSB",
+      "tokenAddress": "0x35F9784918a1B1e7C0D86e88C86881E578174ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 01:46:14",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x35F9784918a1B1e7C0D86e88C86881E578174ba3",
+      "launchUrl": "https://0xwork.org/launches/0x35F9784918a1B1e7C0D86e88C86881E578174ba3"
+    },
+    {
+      "launchId": 46,
+      "tokenName": "BrainRotX",
+      "tokenSymbol": "BRAINROTX",
+      "tokenAddress": "0xe2665e7A54D9BEfF4c784E3c24A60Bc39E5eCbA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 01:34:51",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe2665e7A54D9BEfF4c784E3c24A60Bc39E5eCbA3",
+      "launchUrl": "https://0xwork.org/launches/0xe2665e7A54D9BEfF4c784E3c24A60Bc39E5eCbA3"
+    },
+    {
+      "launchId": 45,
+      "tokenName": "Clawserbot",
+      "tokenSymbol": "CLAWSERBOT",
+      "tokenAddress": "0x7b52Bdb46872317428d158d0e75581445924CbA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 01:25:50",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7b52Bdb46872317428d158d0e75581445924CbA3",
+      "launchUrl": "https://0xwork.org/launches/0x7b52Bdb46872317428d158d0e75581445924CbA3"
+    },
+    {
+      "launchId": 44,
+      "tokenName": "Hypno",
+      "tokenSymbol": "HYPNO",
+      "tokenAddress": "0x29eEAD0210B44CB2D94c292506cD901298AE8bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 01:06:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x29eEAD0210B44CB2D94c292506cD901298AE8bA3",
+      "launchUrl": "https://0xwork.org/launches/0x29eEAD0210B44CB2D94c292506cD901298AE8bA3"
+    },
+    {
+      "launchId": 43,
+      "tokenName": "Deploy token called $MOLTANK",
+      "tokenSymbol": "MOLTANK",
+      "tokenAddress": "0x57C7798e5002FAA01Ef04c8090CFa6dAAb7d6bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 00:56:42",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x57C7798e5002FAA01Ef04c8090CFa6dAAb7d6bA3",
+      "launchUrl": "https://0xwork.org/launches/0x57C7798e5002FAA01Ef04c8090CFa6dAAb7d6bA3"
+    },
+    {
+      "launchId": 42,
+      "tokenName": "Bankr0xWork",
+      "tokenSymbol": "BANKR0XWOR",
+      "tokenAddress": "0xCFAb118c75351e082014836D6273b1C2a5c17Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 00:19:40",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xCFAb118c75351e082014836D6273b1C2a5c17Ba3",
+      "launchUrl": "https://0xwork.org/launches/0xCFAb118c75351e082014836D6273b1C2a5c17Ba3"
+    },
+    {
+      "launchId": 41,
+      "tokenName": "Fire",
+      "tokenSymbol": "FIRE",
+      "tokenAddress": "0x8a65bA5977C388AB5A9fb4fBE217B91235180BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 00:17:09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8a65bA5977C388AB5A9fb4fBE217B91235180BA3",
+      "launchUrl": "https://0xwork.org/launches/0x8a65bA5977C388AB5A9fb4fBE217B91235180BA3"
+    },
+    {
+      "launchId": 40,
+      "tokenName": "Claw Mart",
+      "tokenSymbol": "CLAWMART",
+      "tokenAddress": "0x1e295e3a8EC1B48dae506A332902D3790E4DFBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-28 00:14:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1e295e3a8EC1B48dae506A332902D3790E4DFBa3",
+      "launchUrl": "https://0xwork.org/launches/0x1e295e3a8EC1B48dae506A332902D3790E4DFBa3"
+    },
+    {
+      "launchId": 39,
+      "tokenName": "KITTEN COIN",
+      "tokenSymbol": "KITTENCOIN",
+      "tokenAddress": "0x980168333AeEe76BaB4297d6e3a3f8ADa25e9bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:44:19",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x980168333AeEe76BaB4297d6e3a3f8ADa25e9bA3",
+      "launchUrl": "https://0xwork.org/launches/0x980168333AeEe76BaB4297d6e3a3f8ADa25e9bA3"
+    },
+    {
+      "launchId": 38,
+      "tokenName": "WXRP",
+      "tokenSymbol": "WXRP",
+      "tokenAddress": "0xA9dDc083c5C0dAF6454EefaE25552c4C54d18ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:38:03",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xA9dDc083c5C0dAF6454EefaE25552c4C54d18ba3",
+      "launchUrl": "https://0xwork.org/launches/0xA9dDc083c5C0dAF6454EefaE25552c4C54d18ba3"
+    },
+    {
+      "launchId": 37,
+      "tokenName": "XVMCLAW",
+      "tokenSymbol": "XVMCLAW",
+      "tokenAddress": "0x53711aC613B01591286801Bf9223Ed457EdC0bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:37:23",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x53711aC613B01591286801Bf9223Ed457EdC0bA3",
+      "launchUrl": "https://0xwork.org/launches/0x53711aC613B01591286801Bf9223Ed457EdC0bA3"
+    },
+    {
+      "launchId": 36,
+      "tokenName": "XMR CLAW",
+      "tokenSymbol": "XMRCLAW",
+      "tokenAddress": "0x12c3ae329283E1eC19D53100f835c771B74E0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:36:52",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x12c3ae329283E1eC19D53100f835c771B74E0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x12c3ae329283E1eC19D53100f835c771B74E0ba3"
+    },
+    {
+      "launchId": 35,
+      "tokenName": "XRPCLAW",
+      "tokenSymbol": "XRPCLAW",
+      "tokenAddress": "0x53A862C87070dCb259022538792c1f1bF88AeBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:36:00",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x53A862C87070dCb259022538792c1f1bF88AeBA3",
+      "launchUrl": "https://0xwork.org/launches/0x53A862C87070dCb259022538792c1f1bF88AeBA3"
+    },
+    {
+      "launchId": 34,
+      "tokenName": "REAL MONEY CLAW",
+      "tokenSymbol": "RMCLAW",
+      "tokenAddress": "0xfdC07C492882B5e7C9a58f2aF71CEe9ed57CDba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:35:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfdC07C492882B5e7C9a58f2aF71CEe9ed57CDba3",
+      "launchUrl": "https://0xwork.org/launches/0xfdC07C492882B5e7C9a58f2aF71CEe9ed57CDba3"
+    },
+    {
+      "launchId": 33,
+      "tokenName": "USDTCLAW",
+      "tokenSymbol": "USDTCLAW",
+      "tokenAddress": "0x371D9C8C899581546f1648Aabf14A3167dF7fBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:34:26",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x371D9C8C899581546f1648Aabf14A3167dF7fBA3",
+      "launchUrl": "https://0xwork.org/launches/0x371D9C8C899581546f1648Aabf14A3167dF7fBA3"
+    },
+    {
+      "launchId": 32,
+      "tokenName": "VMCLAW",
+      "tokenSymbol": "VMCLAW",
+      "tokenAddress": "0x0777537527612085E6150368084cDA78aCDa2ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:33:57",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0777537527612085E6150368084cDA78aCDa2ba3",
+      "launchUrl": "https://0xwork.org/launches/0x0777537527612085E6150368084cDA78aCDa2ba3"
+    },
+    {
+      "launchId": 31,
+      "tokenName": "NONECLAW",
+      "tokenSymbol": "NONECLAW",
+      "tokenAddress": "0x938D1FA174fD2f9a4c64975C64dE3cb810fDAba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:33:15",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x938D1FA174fD2f9a4c64975C64dE3cb810fDAba3",
+      "launchUrl": "https://0xwork.org/launches/0x938D1FA174fD2f9a4c64975C64dE3cb810fDAba3"
+    },
+    {
+      "launchId": 30,
+      "tokenName": "DAYCLAW",
+      "tokenSymbol": "DAYCLAW",
+      "tokenAddress": "0x5654C0Ab10ab298066862c5B14501B992c7E3bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:31:23",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5654C0Ab10ab298066862c5B14501B992c7E3bA3",
+      "launchUrl": "https://0xwork.org/launches/0x5654C0Ab10ab298066862c5B14501B992c7E3bA3"
+    },
+    {
+      "launchId": 29,
+      "tokenName": "Agent",
+      "tokenSymbol": "AGENT",
+      "tokenAddress": "0x8390918900B8aB0a1625159a63103cC1d5e0Cba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:25:42",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8390918900B8aB0a1625159a63103cC1d5e0Cba3",
+      "launchUrl": "https://0xwork.org/launches/0x8390918900B8aB0a1625159a63103cC1d5e0Cba3"
+    },
+    {
+      "launchId": 28,
+      "tokenName": "call my token real money agent",
+      "tokenSymbol": "CMAGENT",
+      "tokenAddress": "0xd4bdd48e85239d7c2208F724a600a1a451424ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:23:23",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd4bdd48e85239d7c2208F724a600a1a451424ba3",
+      "launchUrl": "https://0xwork.org/launches/0xd4bdd48e85239d7c2208F724a600a1a451424ba3"
+    },
+    {
+      "launchId": 27,
+      "tokenName": "Agentick",
+      "tokenSymbol": "AGENTICK",
+      "tokenAddress": "0x712E2c03b2C8762152b70724A3525040b97c7Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:20:25",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x712E2c03b2C8762152b70724A3525040b97c7Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x712E2c03b2C8762152b70724A3525040b97c7Ba3"
+    },
+    {
+      "launchId": 26,
+      "tokenName": "GOLEM",
+      "tokenSymbol": "GOLEM",
+      "tokenAddress": "0x90260268BC3Ce90D8BEE2F095521D91C22379bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:17:53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x90260268BC3Ce90D8BEE2F095521D91C22379bA3",
+      "launchUrl": "https://0xwork.org/launches/0x90260268BC3Ce90D8BEE2F095521D91C22379bA3"
+    },
+    {
+      "launchId": 25,
+      "tokenName": "Ruby",
+      "tokenSymbol": "RUBY",
+      "tokenAddress": "0xb1F9EB79bc82E0e09142095186A6641dC3f1bBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:16:00",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb1F9EB79bc82E0e09142095186A6641dC3f1bBa3",
+      "launchUrl": "https://0xwork.org/launches/0xb1F9EB79bc82E0e09142095186A6641dC3f1bBa3"
+    },
+    {
+      "launchId": 24,
+      "tokenName": "Test",
+      "tokenSymbol": "TEST",
+      "tokenAddress": "0xD8C21f02B7267ab7c2F82fe60Eb279ba2b816bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:12:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xD8C21f02B7267ab7c2F82fe60Eb279ba2b816bA3",
+      "launchUrl": "https://0xwork.org/launches/0xD8C21f02B7267ab7c2F82fe60Eb279ba2b816bA3"
+    },
+    {
+      "launchId": 23,
+      "tokenName": "0xWorker",
+      "tokenSymbol": "0XWORKER",
+      "tokenAddress": "0xefE0bf75D39aB0cB005e98EE0770e491BB572bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:11:17",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xefE0bf75D39aB0cB005e98EE0770e491BB572bA3",
+      "launchUrl": "https://0xwork.org/launches/0xefE0bf75D39aB0cB005e98EE0770e491BB572bA3"
+    },
+    {
+      "launchId": 22,
+      "tokenName": "Early",
+      "tokenSymbol": "EARLY",
+      "tokenAddress": "0x7fB503EfC1Dd07DA12ebC5a398463A91aafc7BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 22:03:05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7fB503EfC1Dd07DA12ebC5a398463A91aafc7BA3",
+      "launchUrl": "https://0xwork.org/launches/0x7fB503EfC1Dd07DA12ebC5a398463A91aafc7BA3"
+    },
+    {
+      "launchId": 21,
+      "tokenName": "sfafasf",
+      "tokenSymbol": "SFAFASF",
+      "tokenAddress": "0xe649e441139EBb8B75d045C6517969BEAb494ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:53:36",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe649e441139EBb8B75d045C6517969BEAb494ba3",
+      "launchUrl": "https://0xwork.org/launches/0xe649e441139EBb8B75d045C6517969BEAb494ba3"
+    },
+    {
+      "launchId": 20,
+      "tokenName": "Work",
+      "tokenSymbol": "WORK",
+      "tokenAddress": "0x8Ac3B2e567DFe074236E9A9d82784eB9Dcc3cbA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:53:01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8Ac3B2e567DFe074236E9A9d82784eB9Dcc3cbA3",
+      "launchUrl": "https://0xwork.org/launches/0x8Ac3B2e567DFe074236E9A9d82784eB9Dcc3cbA3"
+    },
+    {
+      "launchId": 19,
+      "tokenName": "WORKHQ",
+      "tokenSymbol": "WORKHQ",
+      "tokenAddress": "0xAc28Bd22D04e578B3B712C6C75c5D67f64890ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:45:49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xAc28Bd22D04e578B3B712C6C75c5D67f64890ba3",
+      "launchUrl": "https://0xwork.org/launches/0xAc28Bd22D04e578B3B712C6C75c5D67f64890ba3"
+    },
+    {
+      "launchId": 18,
+      "tokenName": "Workclaw",
+      "tokenSymbol": "WORKCLAW",
+      "tokenAddress": "0xe7550B7844b79037A1cd2B3b6c46F62701F2cBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:41:40",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe7550B7844b79037A1cd2B3b6c46F62701F2cBa3",
+      "launchUrl": "https://0xwork.org/launches/0xe7550B7844b79037A1cd2B3b6c46F62701F2cBa3"
+    },
+    {
+      "launchId": 17,
+      "tokenName": "Breet",
+      "tokenSymbol": "BREET",
+      "tokenAddress": "0x9530FD98E3CfF952348a5d58a568F21B3F72aba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:41:00",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9530FD98E3CfF952348a5d58a568F21B3F72aba3",
+      "launchUrl": "https://0xwork.org/launches/0x9530FD98E3CfF952348a5d58a568F21B3F72aba3"
+    },
+    {
+      "launchId": 16,
+      "tokenName": "Clawd ai",
+      "tokenSymbol": "CLAWDAI",
+      "tokenAddress": "0x2957A5B4FBb1b51B6a3c62281FDCF48D716A8ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:39:10",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2957A5B4FBb1b51B6a3c62281FDCF48D716A8ba3",
+      "launchUrl": "https://0xwork.org/launches/0x2957A5B4FBb1b51B6a3c62281FDCF48D716A8ba3"
+    },
+    {
+      "launchId": 15,
+      "tokenName": "TestClaw",
+      "tokenSymbol": "TESTCLAW",
+      "tokenAddress": "0x25f994d13cd2243394883f177Ae017C099f3FBA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:34:50",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x25f994d13cd2243394883f177Ae017C099f3FBA3",
+      "launchUrl": "https://0xwork.org/launches/0x25f994d13cd2243394883f177Ae017C099f3FBA3"
+    },
+    {
+      "launchId": 14,
+      "tokenName": "Watchcoin.base.eth",
+      "tokenSymbol": "WATCHCOIN",
+      "tokenAddress": "0x91c1a16775991343AA8bBE9dd8dCDDe05A3cDBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:34:13",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x91c1a16775991343AA8bBE9dd8dCDDe05A3cDBa3",
+      "launchUrl": "https://0xwork.org/launches/0x91c1a16775991343AA8bBE9dd8dCDDe05A3cDBa3"
+    },
+    {
+      "launchId": 13,
+      "tokenName": "ONLYBASED",
+      "tokenSymbol": "ONLYBASED",
+      "tokenAddress": "0xc3a82b752e32e5760e581dC2593a67CFFb5BEba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:31:46",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc3a82b752e32e5760e581dC2593a67CFFb5BEba3",
+      "launchUrl": "https://0xwork.org/launches/0xc3a82b752e32e5760e581dC2593a67CFFb5BEba3"
+    },
+    {
+      "launchId": 12,
+      "tokenName": "Zoneclaw",
+      "tokenSymbol": "ZONECLAW",
+      "tokenAddress": "0x8F9B31365Fd1133a33b0b6b4D4FEc0bBD11a8bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:29:20",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8F9B31365Fd1133a33b0b6b4D4FEc0bBD11a8bA3",
+      "launchUrl": "https://0xwork.org/launches/0x8F9B31365Fd1133a33b0b6b4D4FEc0bBD11a8bA3"
+    },
+    {
+      "launchId": 11,
+      "tokenName": "Hello",
+      "tokenSymbol": "HELLO",
+      "tokenAddress": "0x77B7885B805a44A715283E90b3C728E692192ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:24:37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x77B7885B805a44A715283E90b3C728E692192ba3",
+      "launchUrl": "https://0xwork.org/launches/0x77B7885B805a44A715283E90b3C728E692192ba3"
+    },
+    {
+      "launchId": 10,
+      "tokenName": "Oximus",
+      "tokenSymbol": "OXIMUS",
+      "tokenAddress": "0x12e3806a5F4807fbE2DE1a0b6597d94a03644bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:23:21",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x12e3806a5F4807fbE2DE1a0b6597d94a03644bA3",
+      "launchUrl": "https://0xwork.org/launches/0x12e3806a5F4807fbE2DE1a0b6597d94a03644bA3"
+    },
+    {
+      "launchId": 9,
+      "tokenName": "GRAZIE",
+      "tokenSymbol": "GRAZIE",
+      "tokenAddress": "0x8e4C6763cca8fc6fc27b57aAE034F59D357a0ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:11:39",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8e4C6763cca8fc6fc27b57aAE034F59D357a0ba3",
+      "launchUrl": "https://0xwork.org/launches/0x8e4C6763cca8fc6fc27b57aAE034F59D357a0ba3"
+    },
+    {
+      "launchId": 8,
+      "tokenName": "CABAL",
+      "tokenSymbol": "CABAL",
+      "tokenAddress": "0xf8FE6B8E3D09656350da2A426D464c7a9C7d2ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 21:01:35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf8FE6B8E3D09656350da2A426D464c7a9C7d2ba3",
+      "launchUrl": "https://0xwork.org/launches/0xf8FE6B8E3D09656350da2A426D464c7a9C7d2ba3"
+    },
+    {
+      "launchId": 7,
+      "tokenName": "hey",
+      "tokenSymbol": "HEY",
+      "tokenAddress": "0x67769F03ad0dFA43930710eF6bbA1a4A9b627Ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 20:56:06",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x67769F03ad0dFA43930710eF6bbA1a4A9b627Ba3",
+      "launchUrl": "https://0xwork.org/launches/0x67769F03ad0dFA43930710eF6bbA1a4A9b627Ba3"
+    },
+    {
+      "launchId": 6,
+      "tokenName": "Liquid",
+      "tokenSymbol": "LIQUID",
+      "tokenAddress": "0x14Af000ab6A9F99258041F0d77E8F17387f31BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 20:55:16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x14Af000ab6A9F99258041F0d77E8F17387f31BA3",
+      "launchUrl": "https://0xwork.org/launches/0x14Af000ab6A9F99258041F0d77E8F17387f31BA3"
+    },
+    {
+      "launchId": 5,
+      "tokenName": "test",
+      "tokenSymbol": "TEST",
+      "tokenAddress": "0x2a2EedBbE5Feecd00F0CF8Ed1d77e3374Fb49ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 20:51:38",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2a2EedBbE5Feecd00F0CF8Ed1d77e3374Fb49ba3",
+      "launchUrl": "https://0xwork.org/launches/0x2a2EedBbE5Feecd00F0CF8Ed1d77e3374Fb49ba3"
+    },
+    {
+      "launchId": 4,
+      "tokenName": "'l';l",
+      "tokenSymbol": "LL",
+      "tokenAddress": "0x81c5B968E4b47e1Eb337E413c531928E26bA4BA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 20:51:34",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x81c5B968E4b47e1Eb337E413c531928E26bA4BA3",
+      "launchUrl": "https://0xwork.org/launches/0x81c5B968E4b47e1Eb337E413c531928E26bA4BA3"
+    },
+    {
+      "launchId": 3,
+      "tokenName": "ohio",
+      "tokenSymbol": "OHIO",
+      "tokenAddress": "0xd279eeD7f66cDf322bBf98B27c8905DAA1A6DBa3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 20:06:18",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd279eeD7f66cDf322bBf98B27c8905DAA1A6DBa3",
+      "launchUrl": "https://0xwork.org/launches/0xd279eeD7f66cDf322bBf98B27c8905DAA1A6DBa3"
+    },
+    {
+      "launchId": 2,
+      "tokenName": "bobbitybobob",
+      "tokenSymbol": "BOBBITYBOB",
+      "tokenAddress": "0x36421852F600A02102877f22f4EED2F859E71bA3",
+      "imageUrl": null,
+      "createdAt": "2026-02-27 07:31:11",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x36421852F600A02102877f22f4EED2F859E71bA3",
+      "launchUrl": "https://0xwork.org/launches/0x36421852F600A02102877f22f4EED2F859E71bA3"
+    },
+    {
+      "launchId": 1,
+      "tokenName": "Forge Test",
+      "tokenSymbol": null,
+      "tokenAddress": "0x350D6E2Bc5387faCd969cfD929a5b9DB1c396ba3",
+      "imageUrl": null,
+      "createdAt": "2026-02-25 00:18:22",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false
+      },
+      "dexscreenerUrl": "https://dexscreener.com/base/0x350D6E2Bc5387faCd969cfD929a5b9DB1c396ba3",
+      "launchUrl": "https://0xwork.org/launches/0x350D6E2Bc5387faCd969cfD929a5b9DB1c396ba3"
     }
   ]
 }
