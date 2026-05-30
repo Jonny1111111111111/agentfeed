@@ -134,7 +134,6 @@ const xUrlFor = (handle) => (handle ? `https://x.com/${handle.replace(/^@/, "")}
 function TokenCard({ token: t, isNew, onOpen }) {
   const [copied, setCopied] = useState(false);
   const who = agentLabel(t);
-  const deployed = !!(t.poolId || t.market?.hasPool);
   const xUrl = xUrlFor(t.launcher?.handle);
   const webUrl = t.launchUrl || t.launcher?.profileUrl || null;
   const stop = (e) => e.stopPropagation();
@@ -150,7 +149,7 @@ function TokenCard({ token: t, isNew, onOpen }) {
     <div className="af-card token" role="button" tabIndex={0} onClick={onOpen}
       onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && onOpen()}>
       <div className="af-tc-head">
-        <Avatar token={t} size={46} />
+        <Avatar token={t} size={38} />
         <div className="af-tc-id">
           <div className="af-tc-name">
             {t.tokenName}
@@ -158,9 +157,6 @@ function TokenCard({ token: t, isNew, onOpen }) {
           </div>
           <div className="af-tc-tick">${t.tokenSymbol}{t.launcher?.verified && <span className="af-verified" title="verified">✓</span>}</div>
         </div>
-        <span className={`af-badge ${deployed ? "deployed" : "pending"}`}>
-          <span className="af-badge-dot" />{deployed ? "DEPLOYED" : "PENDING"}
-        </span>
       </div>
 
       <div className="af-tc-rows">
@@ -169,8 +165,8 @@ function TokenCard({ token: t, isNew, onOpen }) {
           <span className="af-v">{who || "anonymous"}</span>
         </div>
         <div className="af-tc-row">
-          <span className="af-k">Fee to</span>
-          <span className="af-v mono">{t.feeRecipient ? short(t.feeRecipient) : "—"}</span>
+          <span className="af-k">Est. Fees</span>
+          <span className="af-v fees">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</span>
         </div>
         <div className="af-tc-row">
           <span className="af-k">CA</span>
@@ -722,28 +718,29 @@ const CSS = `
   .af-av-img { border-radius:50%; object-fit:cover; flex-shrink:0; background:#222; }
   .af-av-emoji { display:inline-flex; align-items:center; justify-content:center; border-radius:50%; background:#1d1d1d; border:1px solid #2a2a2a; flex-shrink:0; line-height:1; }
 
-  /* Token launch card (Bankr-style) */
-  .af-card.token { gap:0; padding:0; overflow:hidden; }
+  /* Token launch card (Bankr-style, light + compact) */
+  .af-card.token { background:#f5f5f5; border:1px solid #e3e3e6; color:#18181b; gap:0; padding:0; overflow:hidden; border-radius:13px; }
+  .af-card.token:hover { background:#fff; border-color:#c7c7cd; transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.28); }
   .af-card.token:focus-visible { outline:2px solid #4f6ef7; outline-offset:2px; }
-  .af-tc-head { display:flex; align-items:center; gap:12px; padding:16px 16px 12px; }
+  .af-tc-head { display:flex; align-items:center; gap:10px; padding:10px 12px 8px; }
   .af-tc-id { flex:1; min-width:0; }
-  .af-tc-name { font-size:15px; font-weight:700; display:flex; align-items:center; gap:7px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .af-tc-tick { font-size:12px; color:#7a7a7a; font-weight:700; margin-top:2px; display:flex; align-items:center; gap:5px; }
-  .af-badge { display:inline-flex; align-items:center; gap:5px; font-size:9px; font-weight:800; letter-spacing:.8px; border-radius:100px; padding:4px 9px; flex-shrink:0; }
-  .af-badge-dot { width:5px; height:5px; border-radius:50%; }
-  .af-badge.deployed { background:rgba(34,197,94,.12); color:#22c55e; border:1px solid rgba(34,197,94,.28); }
-  .af-badge.deployed .af-badge-dot { background:#22c55e; box-shadow:0 0 6px #22c55e; }
-  .af-badge.pending { background:rgba(234,179,8,.12); color:#eab308; border:1px solid rgba(234,179,8,.28); }
-  .af-badge.pending .af-badge-dot { background:#eab308; }
-  .af-tc-rows { display:flex; flex-direction:column; gap:8px; padding:12px 16px; border-top:1px solid #1d1d1d; border-bottom:1px solid #1d1d1d; background:#121212; }
+  .af-tc-name { font-size:13px; font-weight:700; color:#18181b; display:flex; align-items:center; gap:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .af-tc-tick { font-size:11px; color:#71717a; font-weight:700; margin-top:1px; display:flex; align-items:center; gap:5px; }
+  .af-card.token .af-verified { color:#16a34a; font-size:10px; }
+  .af-card.token .af-new-badge { background:rgba(124,58,237,.12); color:#7c3aed; border-color:rgba(124,58,237,.3); }
+  .af-tc-rows { display:flex; flex-direction:column; gap:5px; padding:8px 12px; border-top:1px solid #e6e6e9; border-bottom:1px solid #e6e6e9; background:#eeeef0; }
   .af-tc-row { display:flex; align-items:center; justify-content:space-between; gap:10px; }
-  .af-ca { display:flex; align-items:center; gap:7px; }
-  .af-ca-copy { background:#1c1c1c; border:1px solid #2a2a2a; color:#999; border-radius:6px; width:22px; height:22px; font-size:11px; cursor:pointer; line-height:1; }
-  .af-ca-copy:hover { color:#fff; border-color:#4f6ef7; }
-  .af-tc-actions { display:flex; gap:8px; padding:12px 16px 14px; }
-  .af-act { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700; color:#cfcfcf; background:#1a1a1a; border:1px solid #2a2a2a; border-radius:10px; padding:7px 12px; text-decoration:none; transition:all .15s; }
-  .af-act:hover { border-color:#4f6ef7; color:#fff; background:#1e1e1e; }
-  .af-act.ghost { margin-left:auto; color:#888; }
+  .af-card.token .af-k { font-size:10.5px; color:#71717a; font-weight:600; }
+  .af-card.token .af-v { font-size:11.5px; color:#27272a; font-weight:600; max-width:62%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .af-card.token .af-v.fees { color:#15a34a; font-weight:800; }
+  .af-ca { display:flex; align-items:center; gap:6px; }
+  .af-card.token .af-ca .mono { color:#27272a; font-size:11px; }
+  .af-ca-copy { background:#e4e4e7; border:1px solid #d4d4d8; color:#52525b; border-radius:6px; width:20px; height:20px; font-size:10px; cursor:pointer; line-height:1; }
+  .af-ca-copy:hover { color:#18181b; border-color:#4f6ef7; }
+  .af-tc-actions { display:flex; gap:6px; padding:8px 12px 10px; }
+  .af-act { display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:700; color:#3f3f46; background:#e9e9ec; border:1px solid #dcdce0; border-radius:8px; padding:5px 9px; text-decoration:none; transition:all .15s; }
+  .af-act:hover { border-color:#4f6ef7; color:#18181b; background:#fff; }
+  .af-act.ghost { margin-left:auto; color:#71717a; }
 
   /* Footer */
   .af-footer { border-top:1px solid #161616; padding:32px 20px 26px; max-width:1240px; margin:36px auto 0; }
