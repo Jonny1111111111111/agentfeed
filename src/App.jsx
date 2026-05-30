@@ -366,18 +366,6 @@ export default function AgentFeed() {
       </header>
 
       <div className="af-statwrap">
-        <div className="af-globe" aria-hidden="true">
-          <div className="af-globe-glow" />
-          <svg className="af-globe-grid" viewBox="0 0 200 200" width="100%" height="100%">
-            <circle cx="100" cy="100" r="96" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
-            <ellipse cx="100" cy="100" rx="96" ry="36" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
-            <ellipse cx="100" cy="100" rx="96" ry="68" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
-            <ellipse cx="100" cy="100" rx="36" ry="96" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
-            <ellipse cx="100" cy="100" rx="68" ry="96" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
-            <line x1="4" y1="100" x2="196" y2="100" stroke="#ff7a30" strokeWidth="0.8" />
-            <line x1="100" y1="4" x2="100" y2="196" stroke="#ff7a30" strokeWidth="0.8" />
-          </svg>
-        </div>
         <div className="af-statbar">
           <div className="af-stat">
             <span className="af-stat-ico"><IconRocket /></span>
@@ -719,10 +707,6 @@ const CSS = `
 
   /* Stats */
   .af-statwrap { position:relative; max-width:1240px; margin:0 auto; overflow:hidden; }
-  .af-globe { position:absolute; top:-70px; right:-70px; width:260px; height:260px; pointer-events:none; z-index:0; }
-  .af-globe-glow { position:absolute; inset:0; border-radius:50%; background:radial-gradient(circle at 38% 34%, rgba(255,150,70,0.95), rgba(255,80,0,0.6) 42%, rgba(150,40,0,0.25) 68%, transparent 74%); filter:blur(1px); }
-  .af-globe-grid { position:absolute; inset:0; opacity:0.5; mix-blend-mode:screen; }
-  @media(max-width:680px){ .af-globe{ width:190px; height:190px; top:-55px; right:-55px; } }
   .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); gap:12px; padding:18px 16px 4px; }
   @media(min-width:680px){ .af-statbar{ padding:24px 28px 4px; gap:14px; } }
   .af-stat { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; transition:border-color .2s; }
