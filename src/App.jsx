@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 import snapshot from "./data/launches.json";
+import agentsSnapshot from "./data/agents.json";
 import {
   mapLaunch,
   getLatestBlock,
@@ -24,6 +25,7 @@ const DEX_POLL_MS = 30000;
 const LAUNCH_POLL_MS = 60000;
 const NEW_DAYS = 7;
 const MAX_NEW_PER_CYCLE = 8; // cap additions per poll to survive spam bursts
+const AGENTS = agentsSnapshot.agents || []; // static build-time snapshot
 
 function makeToken(launch) {
   return { ...launch, market: null, fees: 0, isNew: false };
@@ -47,6 +49,61 @@ function Avatar({ token, size = 44 }) {
   );
 }
 
+// Generic avatar for an arbitrary image URL + seed (used for agents).
+function PicAvatar({ src, seed, size = 44 }) {
+  if (src) return <img className="af-av-img" style={{ width: size, height: size }} src={src} alt="" loading="lazy" />;
+  return (
+    <span className="af-av-emoji" style={{ width: size, height: size, fontSize: size * 0.55 }}>
+      {avatarFor(seed || "agent")}
+    </span>
+  );
+}
+
+// Card for a registered 0xWork agent (Agents tab).
+function AgentCard({ agent: a, onPickToken }) {
+  const active = a.status === "Active";
+  return (
+    <div className="af-card af-agent-card">
+      <div className="af-card-top">
+        <PicAvatar src={a.image} seed={a.operatorAddress || a.name} size={44} />
+        <div className="af-card-id">
+          <div className="af-card-name">
+            {a.name || "Unnamed agent"}
+            {a.verified && <span className="af-verified" title="verified X handle">✓</span>}
+          </div>
+          <div className="af-card-tick">{a.handle || (a.operatorAddress ? short(a.operatorAddress) : "—")}</div>
+        </div>
+        <span className={`af-status ${active ? "on" : "off"}`}>{a.status}</span>
+      </div>
+      <div className="af-card-rows">
+        <div className="af-card-row">
+          <span className="af-k">Reputation</span>
+          <span className="af-v">{a.reputation}{a.successRate != null ? ` · ${a.successRate}% success` : ""}</span>
+        </div>
+        <div className="af-card-row">
+          <span className="af-k">Tasks done</span>
+          <span className="af-v">{a.tasksCompleted}{a.totalEarned ? ` · $${a.totalEarned.toLocaleString("en-US")} earned` : ""}</span>
+        </div>
+        <div className="af-card-row tokens">
+          <span className="af-k">Tokens</span>
+          <span className="af-agent-tokens">
+            {a.tokens.length === 0 ? (
+              <span className="af-v">—</span>
+            ) : (
+              a.tokens.slice(0, 4).map((t) => (
+                <button key={t.tokenAddress} className="af-token-chip" onClick={() => onPickToken(t.tokenAddress)}>
+                  ${t.tokenSymbol}
+                </button>
+              ))
+            )}
+            {a.tokens.length > 4 && <span className="af-v">+{a.tokens.length - 4}</span>}
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function AgentFeed() {
   const [tab, setTab] = useState("all");
   const [tokens, setTokens] = useState(() => (snapshot.items || []).map((l) => makeToken(mapLaunch(l))));
@@ -54,6 +111,9 @@ export default function AgentFeed() {
   const [rpcDown, setRpcDown] = useState(false);
   const [selected, setSelected] = useState(null); // tokenAddress of open detail
   const [toasts, setToasts] = useState([]); // transient new-launch notifications
+  const [query, setQuery] = useState(""); // search box
+
+  const agents = AGENTS;
 
   const lastBlock = useRef(snapshot.latestBlock || 0);
   const tokensRef = useRef(tokens);
@@ -169,14 +229,26 @@ export default function AgentFeed() {
     return g;
   }, [tokens]);
 
-  const list = useMemo(() => {
-    if (tab === "active")
-      return tokens.filter((t) => t.market?.hasPool).sort((a, b) => (b.market.volume24h || 0) - (a.market.volume24h || 0));
-    if (tab === "new") return tokens.filter(isNew).sort(byDateDesc);
-    return [...tokens].sort(byDateDesc);
-  }, [tokens, tab]);
+  const q = query.trim().toLowerCase();
 
-  const selectedToken = selected && tokens.find((t) => t.tokenAddress === selected);
+  const list = useMemo(() => {
+    // Token search: name, ticker, or agent handle/name.
+    const matches = (t) =>
+      !q ||
+      t.tokenName?.toLowerCase().includes(q) ||
+      t.tokenSymbol?.toLowerCase().includes(q) ||
+      (agentLabel(t) || "").toLowerCase().includes(q);
+    const base = tab === "new" ? tokens.filter(isNew) : [...tokens];
+    return base.filter(matches).sort(byDateDesc);
+  }, [tokens, tab, q]);
+
+  // Agent search: name or handle.
+  const agentList = useMemo(
+    () => agents.filter((a) => !q || a.name?.toLowerCase().includes(q) || (a.handle || "").toLowerCase().includes(q)),
+    [agents, q]
+  );
+
+  const selectedToken = selected && tokens.find((t) => t.tokenAddress.toLowerCase() === selected.toLowerCase());
 
   // Lock body scroll while modal is open + close on Escape.
   useEffect(() => {
@@ -233,52 +305,81 @@ export default function AgentFeed() {
         <button className={`af-tab ${tab === "all" ? "active" : ""}`} onClick={() => setTab("all")}>
           All Tokens <span className="af-tab-count">{tokens.length}</span>
         </button>
-        <button className={`af-tab ${tab === "active" ? "active" : ""}`} onClick={() => setTab("active")}>
-          Active <span className="af-tab-count">{activeCount}</span>
+        <button className={`af-tab ${tab === "agents" ? "active" : ""}`} onClick={() => setTab("agents")}>
+          Agents <span className="af-tab-count">{agents.length}</span>
         </button>
         <button className={`af-tab ${tab === "new" ? "active" : ""}`} onClick={() => setTab("new")}>
           New This Week <span className="af-tab-count">{newCount}</span>
         </button>
       </div>
 
-      <div className="af-grid">
-        {list.length === 0 && <div className="af-empty">No tokens in this view.</div>}
-        {list.map((t) => {
-          const who = agentLabel(t);
-          return (
-            <button key={t.tokenAddress} className="af-card" onClick={() => setSelected(t.tokenAddress)}>
-              <div className="af-card-top">
-                <Avatar token={t} size={44} />
-                <div className="af-card-id">
-                  <div className="af-card-name">
-                    {t.tokenName}
-                    {isNew(t) && <span className="af-new-badge">NEW</span>}
-                  </div>
-                  <div className="af-card-tick">
-                    ${t.tokenSymbol}
-                    {t.launcher?.verified && <span className="af-verified" title="verified launcher">✓</span>}
-                  </div>
-                </div>
-                {t.market?.hasPool && <span className="af-card-livedot" title="active pool" />}
-              </div>
-              <div className="af-card-rows">
-                <div className="af-card-row">
-                  <span className="af-k">Agent</span>
-                  <span className="af-v">{who || "anonymous"}</span>
-                </div>
-                <div className="af-card-row">
-                  <span className="af-k">Launched</span>
-                  <span className="af-v">{fmtDate(t.createdAt)}</span>
-                </div>
-                <div className="af-card-row">
-                  <span className="af-k">Token</span>
-                  <span className="af-v mono">{short(t.tokenAddress)}</span>
-                </div>
-              </div>
-            </button>
-          );
-        })}
+      <div className="af-search">
+        <span className="af-search-icon">⌕</span>
+        <input
+          className="af-search-input"
+          type="text"
+          placeholder={tab === "agents" ? "Search agents by name or handle…" : "Search by token name, ticker, or agent…"}
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+        {query && <button className="af-search-clear" onClick={() => setQuery("")} aria-label="clear">✕</button>}
       </div>
+
+      {tab === "agents" ? (
+        <div className="af-grid">
+          {agentList.length === 0 && <div className="af-empty">No agents match “{query}”.</div>}
+          {agentList.map((a) => (
+            <AgentCard
+              key={a.id}
+              agent={a}
+              onPickToken={(addr) => {
+                const known = tokensRef.current.find((t) => t.tokenAddress.toLowerCase() === addr.toLowerCase());
+                if (known) setSelected(known.tokenAddress);
+                else window.open(`https://dexscreener.com/base/${addr}`, "_blank", "noopener");
+              }}
+            />
+          ))}
+        </div>
+      ) : (
+        <div className="af-grid">
+          {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
+          {list.map((t) => {
+            const who = agentLabel(t);
+            return (
+              <button key={t.tokenAddress} className="af-card" onClick={() => setSelected(t.tokenAddress)}>
+                <div className="af-card-top">
+                  <Avatar token={t} size={44} />
+                  <div className="af-card-id">
+                    <div className="af-card-name">
+                      {t.tokenName}
+                      {isNew(t) && <span className="af-new-badge">NEW</span>}
+                    </div>
+                    <div className="af-card-tick">
+                      ${t.tokenSymbol}
+                      {t.launcher?.verified && <span className="af-verified" title="verified launcher">✓</span>}
+                    </div>
+                  </div>
+                  {t.market?.hasPool && <span className="af-card-livedot" title="active pool" />}
+                </div>
+                <div className="af-card-rows">
+                  <div className="af-card-row">
+                    <span className="af-k">Agent</span>
+                    <span className="af-v">{who || "anonymous"}</span>
+                  </div>
+                  <div className="af-card-row">
+                    <span className="af-k">Launched</span>
+                    <span className="af-v">{fmtDate(t.createdAt)}</span>
+                  </div>
+                  <div className="af-card-row">
+                    <span className="af-k">Token</span>
+                    <span className="af-v mono">{short(t.tokenAddress)}</span>
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       <footer className="af-footer">
         {tokens.length} agent tokens with live pools · launches indexed on-chain from the Base v4 hook
@@ -599,6 +700,25 @@ const CSS = `
   .af-sib-tick { font-size:11px; color:#777; font-weight:700; }
   .af-sib-more { font-size:11px; color:#666; padding:6px 4px; text-align:center; }
   .af-nosib { font-size:12px; color:#666; padding:6px 2px; }
+
+  .af-search { display:flex; align-items:center; gap:10px; max-width:1240px; margin:6px auto 0; padding:0 16px; }
+  @media(min-width:680px){ .af-search{ padding:0 28px; } }
+  .af-search-icon { color:#666; font-size:18px; flex-shrink:0; }
+  .af-search-input { flex:1; background:#141414; border:1px solid #242424; border-radius:12px; padding:11px 14px; color:#fff; font-size:14px; font-family:inherit; outline:none; transition:border-color .15s; }
+  .af-search-input::placeholder { color:#5a5a5a; }
+  .af-search-input:focus { border-color:#4f6ef7; }
+  .af-search-clear { background:#1c1c1c; border:1px solid #2a2a2a; color:#999; border-radius:9px; width:32px; height:32px; cursor:pointer; font-size:12px; flex-shrink:0; }
+  .af-search-clear:hover { color:#fff; border-color:#3a3a3a; }
+
+  .af-status { font-size:10px; font-weight:800; letter-spacing:.5px; border-radius:100px; padding:3px 9px; flex-shrink:0; text-transform:uppercase; }
+  .af-status.on { background:rgba(34,197,94,.14); color:#22c55e; border:1px solid rgba(34,197,94,.3); }
+  .af-status.off { background:#202020; color:#888; border:1px solid #2c2c2c; }
+  .af-card.af-agent-card { cursor:default; }
+  .af-card.af-agent-card:hover { transform:none; border-color:#2f2f2f; }
+  .af-card-row.tokens { align-items:flex-start; }
+  .af-agent-tokens { display:flex; flex-wrap:wrap; gap:5px; justify-content:flex-end; max-width:70%; }
+  .af-token-chip { background:#1b2030; border:1px solid #2c3550; color:#9bb0ff; border-radius:8px; padding:3px 8px; font-size:11px; font-weight:700; cursor:pointer; font-family:inherit; transition:all .15s; }
+  .af-token-chip:hover { border-color:#4f6ef7; color:#fff; background:#222a40; }
 
   .af-swap { margin-top:18px; background:#0f0f12; border:1px solid #242424; border-radius:16px; padding:14px; }
   .af-swap-tabs { display:flex; gap:6px; background:#161616; border:1px solid #232323; border-radius:100px; padding:4px; margin-bottom:12px; }
