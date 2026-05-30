@@ -163,6 +163,21 @@ const IconCal = () => (
 
 const xUrlFor = (handle) => (handle ? `https://x.com/${handle.replace(/^@/, "")}` : null);
 
+// Decorative mini sparkline for stat cards (no real data — a few preset shapes).
+const SPARKS = [
+  "0,18 9,13 17,15 25,8 34,11 43,5 52,9 62,3",
+  "0,6 9,10 18,7 27,12 36,9 45,14 54,8 62,12",
+  "0,14 10,15 18,9 27,11 35,6 44,9 53,4 62,7",
+  "0,10 8,7 17,11 26,6 35,9 44,5 53,8 62,4",
+];
+function Sparkline({ variant = 0 }) {
+  return (
+    <svg className="af-spark" width="64" height="22" viewBox="0 0 62 22" fill="none" aria-hidden="true">
+      <polyline points={SPARKS[variant % SPARKS.length]} stroke="#ff5a00" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 // List-style launch row: avatar · name / $ticker / CA · date · est. fees + Fired.
 function TokenRow({ token: t, isNew, onOpen }) {
   return (
@@ -196,6 +211,7 @@ export default function AgentFeed() {
   const [selected, setSelected] = useState(null); // tokenAddress of open detail
   const [toasts, setToasts] = useState([]); // transient new-launch notifications
   const [query, setQuery] = useState(""); // search box
+  const [sortBy, setSortBy] = useState("fees"); // fees | volume
 
   const agents = AGENTS;
 
@@ -298,7 +314,6 @@ export default function AgentFeed() {
 
   // ── derived ──
   const isNew = (t) => t.isNew || daysSince(t.createdAt) < NEW_DAYS;
-  const byDateDesc = (a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt);
 
   const activeCount = tokens.filter((t) => t.market?.hasPool).length;
   const newCount = tokens.filter(isNew).length;
@@ -320,9 +335,11 @@ export default function AgentFeed() {
       t.tokenName?.toLowerCase().includes(q) ||
       t.tokenSymbol?.toLowerCase().includes(q) ||
       (agentLabel(t) || "").toLowerCase().includes(q);
+    const key = sortBy === "volume" ? (t) => t.market?.volume24h || 0 : (t) => t.fees || 0;
     const base = tab === "new" ? tokens.filter(isNew) : [...tokens];
-    return base.filter(matches).sort(byDateDesc);
-  }, [tokens, tab, q]);
+    // Sort by the chosen metric desc, newest-first as the tiebreak.
+    return base.filter(matches).sort((a, b) => key(b) - key(a) || Date.parse(b.createdAt) - Date.parse(a.createdAt));
+  }, [tokens, tab, q, sortBy]);
 
   // Agent search: name or handle.
   const agentList = useMemo(
@@ -352,28 +369,49 @@ export default function AgentFeed() {
         <Logo size={30} />
         <button className="af-bell" aria-label="notifications"><IconBell /></button>
       </header>
+      <div className="af-glowline" aria-hidden="true" />
+
+      <div className="af-tagline">Every AI agent token on Base. <span className="af-tagline-hl">Live.</span></div>
+
+      <div className="af-ticker" aria-hidden="true">
+        <div className="af-ticker-track">
+          {[...tokens, ...tokens].map((t, i) => (
+            <span className="af-tk-item" key={i}>
+              <span className="af-tk-emoji">{avatarFor(t.tokenAddress)}</span>
+              <span className="af-tk-sym">${t.tokenSymbol}</span>
+              <span className="af-tk-val">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</span>
+              <span className="af-tk-sep">•</span>
+            </span>
+          ))}
+        </div>
+      </div>
 
       <div className="af-statwrap">
+        <div className="af-stat-radial" aria-hidden="true" />
         <div className="af-statbar">
           <div className="af-stat">
             <span className="af-stat-ico"><IconRocket /></span>
             <div className="af-stat-num">{tokens.length}</div>
             <div className="af-stat-lbl">Tokens Launched</div>
+            <Sparkline variant={0} />
           </div>
           <div className="af-stat">
             <span className="af-stat-ico"><IconTarget /></span>
             <div className="af-stat-num">{activeCount}</div>
             <div className="af-stat-lbl">Active Pools</div>
+            <Sparkline variant={1} />
           </div>
           <div className="af-stat">
             <span className="af-stat-ico"><IconTrend /></span>
             <div className="af-stat-num">{newCount}</div>
             <div className="af-stat-lbl">New This Week</div>
+            <Sparkline variant={2} />
           </div>
           <div className="af-stat">
             <span className="af-stat-ico"><IconDollar /></span>
             <div className="af-stat-num">{fmtUsd(totalVol)}</div>
             <div className="af-stat-lbl">24h Volume</div>
+            <Sparkline variant={3} />
           </div>
         </div>
       </div>
@@ -428,12 +466,19 @@ export default function AgentFeed() {
           ))}
         </div>
       ) : (
-        <div className="af-list">
-          {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
-          {list.map((t) => (
-            <TokenRow key={t.tokenAddress} token={t} isNew={isNew(t)} onOpen={() => setSelected(t.tokenAddress)} />
-          ))}
-        </div>
+        <>
+          <div className="af-sort">
+            <span className="af-sort-lbl">Sort</span>
+            <button className={`af-tab ${sortBy === "fees" ? "active" : ""}`} onClick={() => setSortBy("fees")}>Sort by Fees</button>
+            <button className={`af-tab ${sortBy === "volume" ? "active" : ""}`} onClick={() => setSortBy("volume")}>Sort by Volume</button>
+          </div>
+          <div className="af-list">
+            {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
+            {list.map((t) => (
+              <TokenRow key={t.tokenAddress} token={t} isNew={isNew(t)} onOpen={() => setSelected(t.tokenAddress)} />
+            ))}
+          </div>
+        </>
       )}
 
       <footer className="af-footer">
@@ -693,15 +738,37 @@ const CSS = `
   .af-bell { display:inline-flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:11px; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#cfcfcf; cursor:pointer; transition:all .15s; }
   .af-bell:hover { color:#ff5a00; border-color:rgba(255,90,0,.4); background:rgba(255,90,0,.08); }
 
+  /* Animated glow line under the header */
+  .af-glowline { height:2px; width:100%; background:linear-gradient(90deg, transparent 0%, rgba(255,90,0,0) 20%, #ff5a00 50%, rgba(255,90,0,0) 80%, transparent 100%); background-size:60% 100%; background-repeat:no-repeat; animation:glowslide 3.4s linear infinite; }
+  @keyframes glowslide { 0%{ background-position:-60% 0; } 100%{ background-position:160% 0; } }
+
+  /* Tagline */
+  .af-tagline { max-width:1240px; margin:0 auto; padding:18px 16px 4px; font-size:17px; font-weight:800; letter-spacing:-.3px; color:#fff; }
+  @media(min-width:680px){ .af-tagline{ padding:20px 28px 6px; font-size:19px; } }
+  .af-tagline-hl { color:#ff5a00; }
+
+  /* Scrolling ticker */
+  .af-ticker { margin-top:10px; overflow:hidden; background:#0a0a0a; border-top:1px solid rgba(255,255,255,0.06); border-bottom:1px solid rgba(255,255,255,0.06); white-space:nowrap; }
+  .af-ticker-track { display:inline-flex; align-items:center; will-change:transform; animation:tkscroll 80s linear infinite; }
+  .af-ticker:hover .af-ticker-track { animation-play-state:paused; }
+  @keyframes tkscroll { from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
+  .af-tk-item { display:inline-flex; align-items:center; gap:7px; padding:9px 0; font-size:12px; }
+  .af-tk-emoji { font-size:13px; }
+  .af-tk-sym { color:#ff5a00; font-weight:800; }
+  .af-tk-val { color:#fff; font-weight:600; }
+  .af-tk-sep { color:#3a3a3a; margin:0 14px; }
+
   /* Stats */
   .af-statwrap { position:relative; max-width:1240px; margin:0 auto; overflow:hidden; }
+  .af-stat-radial { position:absolute; top:-80px; right:-80px; width:360px; height:360px; border-radius:50%; background:radial-gradient(circle, rgba(255,90,0,0.20), rgba(255,90,0,0.07) 45%, transparent 68%); filter:blur(24px); pointer-events:none; z-index:0; }
   .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); gap:12px; padding:18px 16px 4px; }
   @media(min-width:680px){ .af-statbar{ padding:24px 28px 4px; gap:14px; } }
-  .af-stat { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; transition:border-color .2s; }
+  .af-stat { position:relative; overflow:hidden; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; transition:border-color .2s; }
   .af-stat:hover { border-color:rgba(255,90,0,.35); }
   .af-stat-ico { display:inline-flex; color:#ff5a00; margin-bottom:10px; }
   .af-stat-num { font-size:26px; font-weight:800; letter-spacing:-.5px; color:#fff; line-height:1; }
   .af-stat-lbl { font-size:10.5px; color:#8a8a8a; font-weight:600; letter-spacing:.9px; text-transform:uppercase; margin-top:6px; }
+  .af-spark { position:absolute; bottom:12px; right:12px; opacity:0.55; }
 
   .af-note { margin:14px 16px 0; padding:9px 14px; background:rgba(255,90,0,.08); border:1px solid rgba(255,90,0,.28); border-radius:12px; color:#ffb37a; font-size:11px; max-width:1240px; }
   @media(min-width:680px){ .af-note{ margin:14px 28px 0; } }
@@ -826,7 +893,12 @@ const CSS = `
   .af-search-clear:hover { color:#fff; border-color:#ff5a00; }
 
   /* Token list (rows) */
-  .af-list { max-width:1240px; margin:16px auto 0; padding:0 16px 28px; }
+  .af-sort { display:flex; align-items:center; gap:8px; max-width:1240px; margin:16px auto 0; padding:0 16px; flex-wrap:wrap; }
+  @media(min-width:680px){ .af-sort{ padding:0 28px; } }
+  .af-sort-lbl { font-size:11px; color:#7a7a7a; font-weight:700; letter-spacing:.6px; text-transform:uppercase; margin-right:2px; }
+  .af-sort .af-tab { font-size:12px; padding:7px 14px; }
+
+  .af-list { max-width:1240px; margin:12px auto 0; padding:0 16px 28px; }
   @media(min-width:680px){ .af-list{ padding:0 28px 32px; } }
   .af-list .af-empty { color:#666; font-size:13px; padding:40px; text-align:center; }
   .af-row { display:flex; align-items:center; gap:13px; padding:13px 14px 13px 16px; background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.06); border-left:3px solid #ff5a00; border-radius:10px; margin-bottom:8px; cursor:pointer; transition:background .15s, border-color .15s, transform .1s; font-family:inherit; }
