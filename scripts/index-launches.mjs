@@ -22,12 +22,12 @@ const WETH = "0x4200000000000000000000000000000000000006";
 const INIT_TOPIC0 = "0xdd466e674ea557f56295e2d0218a125ea4b4f0f6f3307b95f85e6110838d6438";
 
 const CHUNK = 2000; // getLogs block span — capped to stay within public RPC limits
-const LOOKBACK_BLOCKS = Number(process.env.LOOKBACK_BLOCKS || 302400); // ~7 days @2s
+const LOOKBACK_BLOCKS = Number(process.env.LOOKBACK_BLOCKS || 1296000); // ~30 days @2s
 const DEX_BATCH = 30; // DEXScreener tokens endpoint cap
 const OUT = path.resolve("src/data/launches.json");
 
 let rpcId = 0;
-async function rpc(method, params, tries = 4) {
+async function rpc(method, params, tries = 8) {
   for (let attempt = 0; attempt < tries; attempt++) {
     try {
       const res = await fetch(RPC, {
@@ -35,12 +35,14 @@ async function rpc(method, params, tries = 4) {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ jsonrpc: "2.0", id: ++rpcId, method, params }),
       });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       if (json.error) throw new Error(json.error.message);
       return json.result;
     } catch (err) {
       if (attempt === tries - 1) throw err;
-      await sleep(400 * (attempt + 1));
+      // exponential backoff capped at 8s — survives transient public-RPC drops
+      await sleep(Math.min(8000, 500 * 2 ** attempt));
     }
   }
 }
@@ -79,11 +81,20 @@ const tokenSymbol = (t) => callString(t, "0x95d89b41"); // symbol()
 // 1) Scan recent PoolManager Initialize events for pools created by our hook.
 async function scanHookLaunches(fromBlock, toBlock) {
   const found = new Map(); // token(lower) -> { poolId, block }
+  let skipped = 0;
   for (let from = fromBlock; from <= toBlock; from += CHUNK) {
     const to = Math.min(from + CHUNK - 1, toBlock);
-    const logs = await rpc("eth_getLogs", [
-      { address: POOL_MANAGER, topics: [INIT_TOPIC0], fromBlock: "0x" + from.toString(16), toBlock: "0x" + to.toString(16) },
-    ]);
+    // A single chunk failing must not abort the whole scan: rpc() already
+    // retries with backoff; if it still throws, skip this chunk and continue.
+    let logs;
+    try {
+      logs = await rpc("eth_getLogs", [
+        { address: POOL_MANAGER, topics: [INIT_TOPIC0], fromBlock: "0x" + from.toString(16), toBlock: "0x" + to.toString(16) },
+      ]);
+    } catch {
+      skipped++;
+      continue;
+    }
     for (const lg of logs || []) {
       const words = lg.data.slice(2).match(/.{64}/g);
       if (!words || "0x" + words[2].slice(24).toLowerCase() !== HOOK) continue;
@@ -92,24 +103,31 @@ async function scanHookLaunches(fromBlock, toBlock) {
       const token = c0.toLowerCase() === WETH.toLowerCase() ? c1 : c0;
       found.set(token.toLowerCase(), { poolId: lg.topics[1], block: hexToInt(lg.blockNumber) });
     }
-    process.stderr.write(`\r[index] scanned ${to - fromBlock}/${toBlock - fromBlock} blocks · ${found.size} hook tokens`);
+    process.stderr.write(`\r[index] scanned ${to - fromBlock}/${toBlock - fromBlock} blocks · ${found.size} hook tokens · ${skipped} chunks skipped`);
+    await sleep(60); // light pacing to ease pressure on the public RPC
   }
-  process.stderr.write("\n");
+  process.stderr.write(`\n[index] scan done: ${found.size} hook tokens, ${skipped} chunks skipped\n`);
   return found;
 }
 
 // 2) 0xWork API (paginated) → identity overlay by token address.
+// Best-effort: the API is only an overlay, so a failure here must not abort the
+// run — we return whatever we managed to fetch.
 async function fetchApi() {
   const byAddr = new Map();
   let total = Infinity;
-  for (let off = 0; off < total; off += 50) {
-    const res = await fetch(`https://api.0xwork.org/agent/token/launches?limit=50&offset=${off}`, {
-      headers: { accept: "application/json" },
-    });
-    if (!res.ok) break;
-    const j = await res.json();
-    total = j.total ?? (j.items || []).length;
-    for (const i of j.items || []) if (i.tokenAddress) byAddr.set(i.tokenAddress.toLowerCase(), i);
+  try {
+    for (let off = 0; off < total; off += 50) {
+      const res = await fetch(`https://api.0xwork.org/agent/token/launches?limit=50&offset=${off}`, {
+        headers: { accept: "application/json" },
+      });
+      if (!res.ok) break;
+      const j = await res.json();
+      total = j.total ?? (j.items || []).length;
+      for (const i of j.items || []) if (i.tokenAddress) byAddr.set(i.tokenAddress.toLowerCase(), i);
+    }
+  } catch (err) {
+    console.error(`\n[index] API overlay fetch failed (${err.message}); continuing with ${byAddr.size} entries`);
   }
   return byAddr;
 }
