@@ -17,8 +17,6 @@ import {
   avatarFor,
   daysSince,
   RUNTIME_LOOKBACK_BLOCKS,
-  SWAP_FEE_RATE,
-  FEE_AGENT_SHARE,
 } from "./lib/feed";
 
 const DEX_POLL_MS = 30000;
@@ -99,6 +97,98 @@ function AgentCard({ agent: a, onPickToken }) {
             {a.tokens.length > 4 && <span className="af-v">+{a.tokens.length - 4}</span>}
           </span>
         </div>
+      </div>
+    </div>
+  );
+}
+
+// Feedr brand mark — minimal white "F" with a signal dot, on a dark tile.
+function Logo({ size = 28, wordmark = true }) {
+  return (
+    <span className="af-logo">
+      <svg className="af-logo-mark" width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="#15151c" stroke="#26263010" />
+        <path d="M10.5 7.5 H22 V11 H14.4 V14.6 H21 V18 H14.4 V24.5 H10.5 Z" fill="#fff" />
+        <circle cx="23.4" cy="9" r="2.6" fill="#4f6ef7" />
+      </svg>
+      {wordmark && <span className="af-logo-word">Feedr</span>}
+    </span>
+  );
+}
+
+// X (Twitter) and Globe icons for card action buttons.
+const IconX = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
+const IconGlobe = () => (
+  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+    <circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18" />
+  </svg>
+);
+
+const xUrlFor = (handle) => (handle ? `https://x.com/${handle.replace(/^@/, "")}` : null);
+
+// Bankr-style launch card: identity + LAUNCHER / FEE TO / CA / LAUNCHED + status + links.
+function TokenCard({ token: t, isNew, onOpen }) {
+  const [copied, setCopied] = useState(false);
+  const who = agentLabel(t);
+  const deployed = !!(t.poolId || t.market?.hasPool);
+  const xUrl = xUrlFor(t.launcher?.handle);
+  const webUrl = t.launchUrl || t.launcher?.profileUrl || null;
+  const stop = (e) => e.stopPropagation();
+  const copy = (e) => {
+    e.stopPropagation();
+    navigator.clipboard?.writeText(t.tokenAddress).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1300);
+    }).catch(() => {});
+  };
+
+  return (
+    <div className="af-card token" role="button" tabIndex={0} onClick={onOpen}
+      onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && onOpen()}>
+      <div className="af-tc-head">
+        <Avatar token={t} size={46} />
+        <div className="af-tc-id">
+          <div className="af-tc-name">
+            {t.tokenName}
+            {isNew && <span className="af-new-badge">NEW</span>}
+          </div>
+          <div className="af-tc-tick">${t.tokenSymbol}{t.launcher?.verified && <span className="af-verified" title="verified">✓</span>}</div>
+        </div>
+        <span className={`af-badge ${deployed ? "deployed" : "pending"}`}>
+          <span className="af-badge-dot" />{deployed ? "DEPLOYED" : "PENDING"}
+        </span>
+      </div>
+
+      <div className="af-tc-rows">
+        <div className="af-tc-row">
+          <span className="af-k">Launcher</span>
+          <span className="af-v">{who || "anonymous"}</span>
+        </div>
+        <div className="af-tc-row">
+          <span className="af-k">Fee to</span>
+          <span className="af-v mono">{t.feeRecipient ? short(t.feeRecipient) : "—"}</span>
+        </div>
+        <div className="af-tc-row">
+          <span className="af-k">CA</span>
+          <span className="af-ca">
+            <span className="mono">{short(t.tokenAddress)}</span>
+            <button className="af-ca-copy" onClick={copy} title="copy contract address">{copied ? "✓" : "⧉"}</button>
+          </span>
+        </div>
+        <div className="af-tc-row">
+          <span className="af-k">Launched</span>
+          <span className="af-v">{fmtDate(t.createdAt)}</span>
+        </div>
+      </div>
+
+      <div className="af-tc-actions">
+        {xUrl && <a className="af-act" href={xUrl} target="_blank" rel="noreferrer" onClick={stop}><IconX /> X</a>}
+        {webUrl && <a className="af-act" href={webUrl} target="_blank" rel="noreferrer" onClick={stop}><IconGlobe /> Website</a>}
+        <a className="af-act ghost" href={dexUrl(t)} target="_blank" rel="noreferrer" onClick={stop}>Chart ↗</a>
       </div>
     </div>
   );
@@ -267,11 +357,7 @@ export default function AgentFeed() {
       <style>{CSS}</style>
 
       <header className="af-header">
-        <div className="af-logo">
-          <span className="af-logo-dot" />
-          <span className="af-logo-text">0xWork</span>
-          <span className="af-logo-badge">FEED</span>
-        </div>
+        <Logo size={28} />
         <div className="af-pill">
           <span className="af-live-dot" />
           <span className="af-live-txt">{loading ? "SYNC" : "LIVE"}</span>
@@ -343,47 +429,35 @@ export default function AgentFeed() {
       ) : (
         <div className="af-grid">
           {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
-          {list.map((t) => {
-            const who = agentLabel(t);
-            return (
-              <button key={t.tokenAddress} className="af-card" onClick={() => setSelected(t.tokenAddress)}>
-                <div className="af-card-top">
-                  <Avatar token={t} size={44} />
-                  <div className="af-card-id">
-                    <div className="af-card-name">
-                      {t.tokenName}
-                      {isNew(t) && <span className="af-new-badge">NEW</span>}
-                    </div>
-                    <div className="af-card-tick">
-                      ${t.tokenSymbol}
-                      {t.launcher?.verified && <span className="af-verified" title="verified launcher">✓</span>}
-                    </div>
-                  </div>
-                  {t.market?.hasPool && <span className="af-card-livedot" title="active pool" />}
-                </div>
-                <div className="af-card-rows">
-                  <div className="af-card-row">
-                    <span className="af-k">Agent</span>
-                    <span className="af-v">{who || "anonymous"}</span>
-                  </div>
-                  <div className="af-card-row">
-                    <span className="af-k">Launched</span>
-                    <span className="af-v">{fmtDate(t.createdAt)}</span>
-                  </div>
-                  <div className="af-card-row">
-                    <span className="af-k">Token</span>
-                    <span className="af-v mono">{short(t.tokenAddress)}</span>
-                  </div>
-                </div>
-              </button>
-            );
-          })}
+          {list.map((t) => (
+            <TokenCard key={t.tokenAddress} token={t} isNew={isNew(t)} onOpen={() => setSelected(t.tokenAddress)} />
+          ))}
         </div>
       )}
 
       <footer className="af-footer">
-        {tokens.length} agent tokens with live pools · launches indexed on-chain from the Base v4 hook
-        <span className="mono"> {short("0xbb7784a4d481184283ed89619a3e3ed143e1adc0")}</span> · trading data: DEXScreener · fees ≈ vol × {FEE_AGENT_SHARE} × {SWAP_FEE_RATE} · not affiliated with 0xWork
+        <div className="af-foot-main">
+          <div className="af-foot-brand">
+            <Logo size={30} />
+            <p className="af-foot-tag">The live token feed for onchain AI agents.</p>
+            <p className="af-foot-powered">
+              Powered by
+              <a href="https://base.org" target="_blank" rel="noreferrer">Base</a>·
+              <a href="https://uniswap.org" target="_blank" rel="noreferrer">Uniswap v4</a>·
+              <a href="https://dexscreener.com" target="_blank" rel="noreferrer">DEXScreener</a>
+            </p>
+          </div>
+          <nav className="af-foot-links">
+            <a href="https://docs.base.org" target="_blank" rel="noreferrer">Docs</a>
+            <a href="https://discord.com" target="_blank" rel="noreferrer">Discord</a>
+            <a href="https://x.com" target="_blank" rel="noreferrer">X (Twitter)</a>
+            <a href="https://github.com/Jonny1111111111111/agentfeed" target="_blank" rel="noreferrer">GitHub</a>
+          </nav>
+        </div>
+        <div className="af-foot-bottom">
+          <span>© 2026 Feedr</span>
+          <span className="af-foot-fine">{tokens.length} tokens with live pools · indexed on-chain · not affiliated with 0xWork</span>
+        </div>
       </footer>
 
       <div className="af-toasts">
@@ -613,10 +687,9 @@ const CSS = `
   .af-root { background:#0a0a0a; min-height:100vh; font-family:'SF Pro Display',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; color:#fff; }
 
   .af-header { display:flex; align-items:center; justify-content:space-between; padding:16px 24px; border-bottom:1px solid #1a1a1a; position:sticky; top:0; background:rgba(10,10,10,0.92); backdrop-filter:blur(12px); z-index:20; }
-  .af-logo { display:flex; align-items:center; gap:8px; }
-  .af-logo-dot { width:10px; height:10px; border-radius:50%; background:#4f6ef7; box-shadow:0 0 10px #4f6ef7; }
-  .af-logo-text { font-size:18px; font-weight:800; letter-spacing:-0.5px; }
-  .af-logo-badge { font-size:9px; font-weight:800; letter-spacing:1.8px; color:#4f6ef7; background:rgba(79,110,247,.12); padding:2px 8px; border-radius:6px; border:1px solid rgba(79,110,247,.25); }
+  .af-logo { display:inline-flex; align-items:center; gap:9px; }
+  .af-logo-mark { border-radius:8px; box-shadow:0 0 0 1px #26262e, 0 2px 10px rgba(79,110,247,.2); flex-shrink:0; }
+  .af-logo-word { font-size:19px; font-weight:800; letter-spacing:-0.6px; color:#fff; }
   .af-pill { display:flex; align-items:center; gap:6px; background:#161616; border:1px solid #262626; border-radius:100px; padding:7px 14px; }
   .af-live-dot { width:7px; height:7px; border-radius:50%; background:#22c55e; box-shadow:0 0 6px #22c55e; animation:pulse 1.8s ease-in-out infinite; flex-shrink:0; }
   .af-live-txt { font-size:10px; font-weight:800; color:#22c55e; letter-spacing:1.2px; }
@@ -662,7 +735,44 @@ const CSS = `
   .af-av-img { border-radius:50%; object-fit:cover; flex-shrink:0; background:#222; }
   .af-av-emoji { display:inline-flex; align-items:center; justify-content:center; border-radius:50%; background:#1d1d1d; border:1px solid #2a2a2a; flex-shrink:0; line-height:1; }
 
-  .af-footer { text-align:center; font-size:10px; color:#444; padding:24px 18px; border-top:1px solid #161616; line-height:1.6; }
+  /* Token launch card (Bankr-style) */
+  .af-card.token { gap:0; padding:0; overflow:hidden; }
+  .af-card.token:focus-visible { outline:2px solid #4f6ef7; outline-offset:2px; }
+  .af-tc-head { display:flex; align-items:center; gap:12px; padding:16px 16px 12px; }
+  .af-tc-id { flex:1; min-width:0; }
+  .af-tc-name { font-size:15px; font-weight:700; display:flex; align-items:center; gap:7px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .af-tc-tick { font-size:12px; color:#7a7a7a; font-weight:700; margin-top:2px; display:flex; align-items:center; gap:5px; }
+  .af-badge { display:inline-flex; align-items:center; gap:5px; font-size:9px; font-weight:800; letter-spacing:.8px; border-radius:100px; padding:4px 9px; flex-shrink:0; }
+  .af-badge-dot { width:5px; height:5px; border-radius:50%; }
+  .af-badge.deployed { background:rgba(34,197,94,.12); color:#22c55e; border:1px solid rgba(34,197,94,.28); }
+  .af-badge.deployed .af-badge-dot { background:#22c55e; box-shadow:0 0 6px #22c55e; }
+  .af-badge.pending { background:rgba(234,179,8,.12); color:#eab308; border:1px solid rgba(234,179,8,.28); }
+  .af-badge.pending .af-badge-dot { background:#eab308; }
+  .af-tc-rows { display:flex; flex-direction:column; gap:8px; padding:12px 16px; border-top:1px solid #1d1d1d; border-bottom:1px solid #1d1d1d; background:#121212; }
+  .af-tc-row { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .af-ca { display:flex; align-items:center; gap:7px; }
+  .af-ca-copy { background:#1c1c1c; border:1px solid #2a2a2a; color:#999; border-radius:6px; width:22px; height:22px; font-size:11px; cursor:pointer; line-height:1; }
+  .af-ca-copy:hover { color:#fff; border-color:#4f6ef7; }
+  .af-tc-actions { display:flex; gap:8px; padding:12px 16px 14px; }
+  .af-act { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700; color:#cfcfcf; background:#1a1a1a; border:1px solid #2a2a2a; border-radius:10px; padding:7px 12px; text-decoration:none; transition:all .15s; }
+  .af-act:hover { border-color:#4f6ef7; color:#fff; background:#1e1e1e; }
+  .af-act.ghost { margin-left:auto; color:#888; }
+
+  /* Footer */
+  .af-footer { border-top:1px solid #161616; padding:32px 20px 26px; max-width:1240px; margin:36px auto 0; }
+  .af-foot-main { display:flex; flex-direction:column; gap:24px; justify-content:space-between; }
+  @media(min-width:680px){ .af-foot-main{ flex-direction:row; align-items:flex-start; padding:0 8px; } }
+  .af-foot-brand { max-width:340px; }
+  .af-foot-tag { font-size:13px; color:#999; margin-top:12px; line-height:1.5; }
+  .af-foot-powered { font-size:11px; color:#555; margin-top:14px; display:flex; flex-wrap:wrap; gap:7px; align-items:center; }
+  .af-foot-powered a { color:#888; text-decoration:none; font-weight:600; }
+  .af-foot-powered a:hover { color:#4f6ef7; }
+  .af-foot-links { display:flex; flex-direction:column; gap:11px; }
+  .af-foot-links a { font-size:13px; color:#aaa; text-decoration:none; font-weight:600; transition:color .15s; }
+  .af-foot-links a:hover { color:#fff; }
+  .af-foot-bottom { display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; border-top:1px solid #161616; margin-top:26px; padding-top:18px; font-size:11px; color:#555; }
+  @media(min-width:680px){ .af-foot-bottom{ padding-left:8px; padding-right:8px; } }
+  .af-foot-fine { color:#444; }
 
   /* modal */
   .af-modal-bg { position:fixed; inset:0; background:rgba(0,0,0,.72); backdrop-filter:blur(6px); z-index:50; display:flex; align-items:flex-start; justify-content:center; padding:24px 14px; overflow-y:auto; animation:fade .18s ease-out; }
