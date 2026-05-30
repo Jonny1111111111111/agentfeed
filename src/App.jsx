@@ -197,7 +197,6 @@ function TokenCard({ token: t, isNew, onOpen }) {
 export default function AgentFeed() {
   const [tab, setTab] = useState("all");
   const [tokens, setTokens] = useState(() => (snapshot.items || []).map((l) => makeToken(mapLaunch(l))));
-  const [loading, setLoading] = useState(true);
   const [rpcDown, setRpcDown] = useState(false);
   const [selected, setSelected] = useState(null); // tokenAddress of open detail
   const [toasts, setToasts] = useState([]); // transient new-launch notifications
@@ -236,8 +235,6 @@ export default function AgentFeed() {
         if (!cancelled) applyMarkets(markets);
       } catch {
         /* retry on next poll */
-      } finally {
-        if (!cancelled) setLoading(false);
       }
     })();
     return () => {
@@ -358,10 +355,6 @@ export default function AgentFeed() {
 
       <header className="af-header">
         <Logo size={28} />
-        <div className="af-pill">
-          <span className="af-live-dot" />
-          <span className="af-live-txt">{loading ? "SYNC" : "LIVE"}</span>
-        </div>
       </header>
 
       <div className="af-statbar">
@@ -440,12 +433,6 @@ export default function AgentFeed() {
           <div className="af-foot-brand">
             <Logo size={30} />
             <p className="af-foot-tag">The live token feed for onchain AI agents.</p>
-            <p className="af-foot-powered">
-              Powered by
-              <a href="https://base.org" target="_blank" rel="noreferrer">Base</a>·
-              <a href="https://uniswap.org" target="_blank" rel="noreferrer">Uniswap v4</a>·
-              <a href="https://dexscreener.com" target="_blank" rel="noreferrer">DEXScreener</a>
-            </p>
           </div>
           <nav className="af-foot-links">
             <a href="https://docs.base.org" target="_blank" rel="noreferrer">Docs</a>
@@ -456,7 +443,7 @@ export default function AgentFeed() {
         </div>
         <div className="af-foot-bottom">
           <span>© 2026 Feedr</span>
-          <span className="af-foot-fine">{tokens.length} tokens with live pools · indexed on-chain · not affiliated with 0xWork</span>
+          <span className="af-foot-fine">{tokens.length} tokens with live pools · indexed on-chain</span>
         </div>
       </footer>
 
