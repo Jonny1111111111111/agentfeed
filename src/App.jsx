@@ -57,46 +57,34 @@ function PicAvatar({ src, seed, size = 44 }) {
   );
 }
 
-// Card for a registered 0xWork agent (Agents tab).
+// Row for a registered 0xWork agent (Agents tab) — same style as TokenRow.
 function AgentCard({ agent: a, onPickToken }) {
   const active = a.status === "Active";
+  const handle = a.handle || (a.operatorAddress ? short(a.operatorAddress) : "—");
   return (
-    <div className="af-card af-agent-card">
-      <div className="af-card-top">
-        <PicAvatar src={a.image} seed={a.operatorAddress || a.name} size={44} />
-        <div className="af-card-id">
-          <div className="af-card-name">
-            {a.name || "Unnamed agent"}
-            {a.verified && <span className="af-verified" title="verified X handle">✓</span>}
-          </div>
-          <div className="af-card-tick">{a.handle || (a.operatorAddress ? short(a.operatorAddress) : "—")}</div>
+    <div className="af-row agent">
+      <PicAvatar src={a.image} seed={a.operatorAddress || a.name} size={40} />
+      <div className="af-row-mid">
+        <div className="af-row-title">
+          <span className="af-row-name">{a.name || "Unnamed agent"}</span>
+          {a.verified && <span className="af-verified" title="verified X handle">✓</span>}
+          <span className={`af-status ${active ? "on" : "off"}`}>{a.status}</span>
         </div>
-        <span className={`af-status ${active ? "on" : "off"}`}>{a.status}</span>
+        <div className="af-row-tick">{handle}</div>
+        <div className="af-row-meta">
+          <span className="af-row-chip">Rep {a.reputation}</span>
+          <span className="af-row-chip">{a.tasksCompleted} tasks</span>
+          {a.tokens.slice(0, 3).map((t) => (
+            <button key={t.tokenAddress} className="af-token-chip" onClick={() => onPickToken(t.tokenAddress)}>
+              ${t.tokenSymbol}
+            </button>
+          ))}
+          {a.tokens.length > 3 && <span className="af-row-chip">+{a.tokens.length - 3}</span>}
+        </div>
       </div>
-      <div className="af-card-rows">
-        <div className="af-card-row">
-          <span className="af-k">Reputation</span>
-          <span className="af-v">{a.reputation}{a.successRate != null ? ` · ${a.successRate}% success` : ""}</span>
-        </div>
-        <div className="af-card-row">
-          <span className="af-k">Tasks done</span>
-          <span className="af-v">{a.tasksCompleted}{a.totalEarned ? ` · $${a.totalEarned.toLocaleString("en-US")} earned` : ""}</span>
-        </div>
-        <div className="af-card-row tokens">
-          <span className="af-k">Tokens</span>
-          <span className="af-agent-tokens">
-            {a.tokens.length === 0 ? (
-              <span className="af-v">—</span>
-            ) : (
-              a.tokens.slice(0, 4).map((t) => (
-                <button key={t.tokenAddress} className="af-token-chip" onClick={() => onPickToken(t.tokenAddress)}>
-                  ${t.tokenSymbol}
-                </button>
-              ))
-            )}
-            {a.tokens.length > 4 && <span className="af-v">+{a.tokens.length - 4}</span>}
-          </span>
-        </div>
+      <div className="af-row-right">
+        <div className="af-row-fees">{a.totalEarned ? fmtUsd(a.totalEarned) : a.reputation}</div>
+        <div className="af-row-fired">{a.totalEarned ? "Earned" : "Rep"}</div>
       </div>
     </div>
   );
@@ -425,7 +413,7 @@ export default function AgentFeed() {
       </div>
 
       {tab === "agents" ? (
-        <div className="af-grid">
+        <div className="af-list">
           {agentList.length === 0 && <div className="af-empty">No agents match “{query}”.</div>}
           {agentList.map((a) => (
             <AgentCard
@@ -860,15 +848,13 @@ const CSS = `
 
   .af-modal-links { display:flex; gap:8px; margin-top:12px; }
 
-  .af-status { font-size:10px; font-weight:800; letter-spacing:.5px; border-radius:100px; padding:3px 9px; flex-shrink:0; text-transform:uppercase; }
+  .af-status { font-size:9px; font-weight:800; letter-spacing:.5px; border-radius:100px; padding:2px 8px; flex-shrink:0; text-transform:uppercase; }
   .af-status.on { background:rgba(34,197,94,.14); color:#22c55e; border:1px solid rgba(34,197,94,.3); }
-  .af-status.off { background:#202020; color:#888; border:1px solid #2c2c2c; }
-  .af-card.af-agent-card { cursor:default; }
-  .af-card.af-agent-card:hover { transform:none; border-color:#2f2f2f; }
-  .af-card-row.tokens { align-items:flex-start; }
-  .af-agent-tokens { display:flex; flex-wrap:wrap; gap:5px; justify-content:flex-end; max-width:70%; }
-  .af-token-chip { background:#1b2030; border:1px solid #2c3550; color:#9bb0ff; border-radius:8px; padding:3px 8px; font-size:11px; font-weight:700; cursor:pointer; font-family:inherit; transition:all .15s; }
-  .af-token-chip:hover { border-color:#ff5a00; color:#fff; background:#222a40; }
+  .af-status.off { background:rgba(255,255,255,0.06); color:#888; border:1px solid rgba(255,255,255,0.12); }
+  .af-row.agent { cursor:default; }
+  .af-row.agent:hover { transform:none; background:rgba(255,255,255,0.04); border-color:rgba(255,255,255,0.1); border-left-color:#ff5a00; }
+  .af-token-chip { background:rgba(255,90,0,0.1); border:1px solid rgba(255,90,0,0.28); color:#ff8a3d; border-radius:7px; padding:2px 7px; font-size:11px; font-weight:700; cursor:pointer; font-family:inherit; transition:all .15s; }
+  .af-token-chip:hover { border-color:#ff5a00; color:#fff; background:rgba(255,90,0,0.22); }
 
   .af-swap { margin-top:18px; background:#0f0f12; border:1px solid #242424; border-radius:16px; padding:14px; }
   .af-modal > .af-swap { margin-top:30px; } /* clear the close button when swap is at the top */
