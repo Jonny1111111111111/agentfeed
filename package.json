@@ -6,8 +6,8 @@
   "homepage": "https://jonny1111111111111.github.io/agentfeed/",
   "scripts": {
     "dev": "vite",
-    "gen:launches": "node scripts/gen-launches.mjs",
-    "prebuild": "node scripts/gen-launches.mjs",
+    "index:launches": "node scripts/index-launches.mjs",
+    "prebuild": "node scripts/index-launches.mjs",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",

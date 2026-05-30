@@ -1,19 +1,24 @@
 // Runtime data layer for the AgentFeed dashboard.
 //
-// Two live sources:
-//  1. 0xWork token launches — api.0xwork.org is CORS-blocked, so we route it
-//     through the allorigins public CORS proxy. A build-time snapshot
-//     (src/data/launches.json) holds all ~346 launches as the always-available
-//     fallback. At runtime we only need page 1 (newest launchIds) to detect new
-//     launches by diffing the max launchId.
-//  2. DEXScreener (CORS: *) for live price / volume / liquidity / FDV / change.
+// Two live sources, both browser-reachable (CORS: *):
+//  1. Base public RPC (mainnet.base.org) — we poll PoolManager `Initialize`
+//     events created by the shared agent-launch hook to detect NEW token
+//     launches on-chain. The build-time indexer (scripts/index-launches.mjs)
+//     snapshots the high-signal set (launches with a live DEX pool) to
+//     src/data/launches.json.
+//  2. DEXScreener for live price / volume / liquidity / FDV / change.
 //     The tokens endpoint accepts at most 30 addresses per request, so we batch.
 //
 // Fees are estimated as: 24h volume × agent share (0.57) × swap fee rate (1.2%).
 
-const BASE = "https://api.0xwork.org/agent/token/launches";
-const LAUNCHES_PAGE1 = `${BASE}?limit=50&offset=0`;
-const PROXY = (u) => `https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`;
+// ── Base on-chain config (Uniswap v4 launch hook) ──
+const BASE_RPC = "https://mainnet.base.org";
+const POOL_MANAGER = "0x498581ff718922c3f8e6a244956af099b2652b2b";
+export const LAUNCH_HOOK = "0xbb7784a4d481184283ed89619a3e3ed143e1adc0".toLowerCase();
+const WETH = "0x4200000000000000000000000000000000000006";
+const INIT_TOPIC0 = "0xdd466e674ea557f56295e2d0218a125ea4b4f0f6f3307b95f85e6110838d6438";
+export const RUNTIME_LOOKBACK_BLOCKS = 2000; // max blocks polled per cycle
+
 const DEX_TOKENS = "https://api.dexscreener.com/latest/dex/tokens/";
 const DEX_BATCH = 30; // DEXScreener caps the tokens endpoint at 30 addresses
 
@@ -55,15 +60,80 @@ export function agentKey(token) {
   );
 }
 
+// ── Base RPC helpers ──
+let rpcId = 0;
+async function rpc(method, params) {
+  const res = await fetch(BASE_RPC, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ jsonrpc: "2.0", id: ++rpcId, method, params }),
+  });
+  if (!res.ok) throw new Error(`rpc HTTP ${res.status}`);
+  const json = await res.json();
+  if (json.error) throw new Error(json.error.message);
+  return json.result;
+}
+
+export async function getLatestBlock() {
+  return parseInt(await rpc("eth_blockNumber", []), 16);
+}
+
 /**
- * Live launches (page 1, newest first) via the CORS proxy. Used only for
- * new-launch detection. Throws on failure so callers can fall back.
+ * Poll PoolManager Initialize events between two blocks and return the launches
+ * created by our launch hook. Each result is a partial token record (address +
+ * poolId + block); callers enrich with DEXScreener/identity. The block span
+ * should stay within RUNTIME_LOOKBACK_BLOCKS to respect public-RPC limits.
  */
-export async function fetchLaunchesLive() {
-  const res = await fetch(PROXY(LAUNCHES_PAGE1), { headers: { accept: "application/json" } });
-  if (!res.ok) throw new Error(`launches proxy HTTP ${res.status}`);
-  const json = JSON.parse(await res.text());
-  return (json.items || []).filter((i) => i.tokenAddress).map(mapLaunch);
+export async function fetchNewLaunches(fromBlock, toBlock) {
+  const logs = await rpc("eth_getLogs", [
+    {
+      address: POOL_MANAGER,
+      topics: [INIT_TOPIC0],
+      fromBlock: "0x" + fromBlock.toString(16),
+      toBlock: "0x" + toBlock.toString(16),
+    },
+  ]);
+  const out = [];
+  for (const lg of logs || []) {
+    const words = lg.data.slice(2).match(/.{64}/g);
+    if (!words || "0x" + words[2].slice(24).toLowerCase() !== LAUNCH_HOOK) continue;
+    const c0 = "0x" + lg.topics[2].slice(26);
+    const c1 = "0x" + lg.topics[3].slice(26);
+    const token = c0.toLowerCase() === WETH.toLowerCase() ? c1 : c0;
+    out.push({
+      tokenAddress: token,
+      poolId: lg.topics[1],
+      block: parseInt(lg.blockNumber, 16),
+      dexscreenerUrl: `https://dexscreener.com/base/${token}`,
+      basescanUrl: `https://basescan.org/token/${token}`,
+    });
+  }
+  return out;
+}
+
+// Resolve a token's name()/symbol() via eth_call (ABI string or bytes32).
+const hexToUtf8 = (hex) => {
+  const bytes = hex.match(/.{2}/g)?.map((h) => parseInt(h, 16)) ?? [];
+  return new TextDecoder().decode(new Uint8Array(bytes)).replace(/\0+$/, "");
+};
+function decodeStringResult(hex) {
+  if (!hex || hex === "0x") return null;
+  const body = hex.slice(2);
+  if (body.length === 64) return hexToUtf8(body) || null;
+  try {
+    const len = parseInt(body.slice(64, 128), 16);
+    return hexToUtf8(body.slice(128, 128 + len * 2)) || null;
+  } catch {
+    return null;
+  }
+}
+
+export async function resolveTokenMeta(tokenAddress) {
+  const [name, symbol] = await Promise.all([
+    rpc("eth_call", [{ to: tokenAddress, data: "0x06fdde03" }, "latest"]).then(decodeStringResult).catch(() => null),
+    rpc("eth_call", [{ to: tokenAddress, data: "0x95d89b41" }, "latest"]).then(decodeStringResult).catch(() => null),
+  ]);
+  return { name, symbol };
 }
 
 /**

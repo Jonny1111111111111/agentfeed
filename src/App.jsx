@@ -2,7 +2,9 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import snapshot from "./data/launches.json";
 import {
   mapLaunch,
-  fetchLaunchesLive,
+  getLatestBlock,
+  fetchNewLaunches,
+  resolveTokenMeta,
   fetchMarkets,
   computeFees,
   fmtUsd,
@@ -13,6 +15,7 @@ import {
   agentKey,
   avatarFor,
   daysSince,
+  RUNTIME_LOOKBACK_BLOCKS,
   SWAP_FEE_RATE,
   FEE_AGENT_SHARE,
 } from "./lib/feed";
@@ -20,6 +23,7 @@ import {
 const DEX_POLL_MS = 30000;
 const LAUNCH_POLL_MS = 60000;
 const NEW_DAYS = 7;
+const MAX_NEW_PER_CYCLE = 8; // cap additions per poll to survive spam bursts
 
 function makeToken(launch) {
   return { ...launch, market: null, fees: 0, isNew: false };
@@ -47,14 +51,21 @@ export default function AgentFeed() {
   const [tab, setTab] = useState("all");
   const [tokens, setTokens] = useState(() => (snapshot.items || []).map((l) => makeToken(mapLaunch(l))));
   const [loading, setLoading] = useState(true);
-  const [proxyDown, setProxyDown] = useState(false);
+  const [rpcDown, setRpcDown] = useState(false);
   const [selected, setSelected] = useState(null); // tokenAddress of open detail
+  const [toasts, setToasts] = useState([]); // transient new-launch notifications
 
-  const maxLaunchId = useRef((snapshot.items || []).reduce((m, l) => Math.max(m, l.launchId || 0), 0));
+  const lastBlock = useRef(snapshot.latestBlock || 0);
   const tokensRef = useRef(tokens);
   useEffect(() => {
     tokensRef.current = tokens;
   }, [tokens]);
+
+  const pushToast = (text) => {
+    const id = `${Date.now()}-${Math.random()}`;
+    setToasts((prev) => [{ id, text }, ...prev].slice(0, 4));
+    setTimeout(() => setToasts((prev) => prev.filter((t) => t.id !== id)), 8000);
+  };
 
   function applyMarkets(markets) {
     setTokens((prev) =>
@@ -97,19 +108,47 @@ export default function AgentFeed() {
     return () => clearInterval(iv);
   }, []);
 
-  // Poll 0xWork launches via proxy; new = launchId above the highest seen.
+  // Poll Base on-chain for new hook launches (PoolManager Initialize events).
   useEffect(() => {
     const iv = setInterval(async () => {
       try {
-        const live = await fetchLaunchesLive();
-        setProxyDown(false);
-        const fresh = live.filter((l) => l.launchId > maxLaunchId.current).sort((a, b) => a.launchId - b.launchId);
-        if (fresh.length) {
-          maxLaunchId.current = Math.max(...fresh.map((l) => l.launchId));
-          setTokens((prev) => [...fresh.map((l) => ({ ...makeToken(l), isNew: true })), ...prev]);
-        }
+        const latest = await getLatestBlock();
+        setRpcDown(false);
+        if (!lastBlock.current) lastBlock.current = latest - RUNTIME_LOOKBACK_BLOCKS;
+        const from = Math.max(lastBlock.current + 1, latest - RUNTIME_LOOKBACK_BLOCKS);
+        if (from > latest) return;
+        const events = await fetchNewLaunches(from, latest);
+        lastBlock.current = latest;
+
+        const known = new Set(tokensRef.current.map((t) => t.tokenAddress.toLowerCase()));
+        const fresh = events.filter((e) => !known.has(e.tokenAddress.toLowerCase())).slice(0, MAX_NEW_PER_CYCLE);
+        if (!fresh.length) return;
+
+        const enriched = await Promise.all(
+          fresh.map(async (e) => {
+            const meta = await resolveTokenMeta(e.tokenAddress).catch(() => ({}));
+            return makeToken({
+              tokenName: meta.name || "New token",
+              tokenSymbol: meta.symbol || "?",
+              tokenAddress: e.tokenAddress,
+              createdAt: new Date().toISOString().replace("T", " ").slice(0, 19),
+              poolId: e.poolId,
+              launcher: { name: null, handle: null, image: null, verified: false },
+              feeRecipient: null,
+              dexscreenerUrl: e.dexscreenerUrl,
+              basescanUrl: e.basescanUrl,
+              source: "onchain-hook",
+            });
+          })
+        );
+        setTokens((prev) => {
+          const have = new Set(prev.map((t) => t.tokenAddress.toLowerCase()));
+          const add = enriched.filter((t) => !have.has(t.tokenAddress.toLowerCase())).map((t) => ({ ...t, isNew: true }));
+          return add.length ? [...add, ...prev] : prev;
+        });
+        enriched.forEach((t) => pushToast(`🆕 ${t.tokenSymbol} just launched on-chain`));
       } catch {
-        setProxyDown(true);
+        setRpcDown(true);
       }
     }, LAUNCH_POLL_MS);
     return () => clearInterval(iv);
@@ -186,8 +225,8 @@ export default function AgentFeed() {
         </div>
       </div>
 
-      {proxyDown && (
-        <div className="af-note">ℹ️ Live launch polling paused (CORS proxy down) — showing the snapshot of all {tokens.length} launches. Trading data is still live.</div>
+      {rpcDown && (
+        <div className="af-note">ℹ️ On-chain launch polling paused (Base RPC unreachable) — showing the snapshot. Trading data is still live.</div>
       )}
 
       <div className="af-tabs">
@@ -242,8 +281,15 @@ export default function AgentFeed() {
       </div>
 
       <footer className="af-footer">
-        All {tokens.length} 0xWork token-forge launches · trading data: DEXScreener · fees ≈ vol × {FEE_AGENT_SHARE} × {SWAP_FEE_RATE} · not affiliated with 0xWork
+        {tokens.length} agent tokens with live pools · launches indexed on-chain from the Base v4 hook
+        <span className="mono"> {short("0xbb7784a4d481184283ed89619a3e3ed143e1adc0")}</span> · trading data: DEXScreener · fees ≈ vol × {FEE_AGENT_SHARE} × {SWAP_FEE_RATE} · not affiliated with 0xWork
       </footer>
+
+      <div className="af-toasts">
+        {toasts.map((t) => (
+          <div key={t.id} className="af-toast">{t.text}</div>
+        ))}
+      </div>
 
       {selectedToken && (
         <TokenDetail
@@ -448,7 +494,11 @@ const CSS = `
   .af-sib-more { font-size:11px; color:#666; padding:6px 4px; text-align:center; }
   .af-nosib { font-size:12px; color:#666; padding:6px 2px; }
 
+  .af-toasts { position:fixed; bottom:20px; right:20px; z-index:60; display:flex; flex-direction:column; gap:8px; max-width:calc(100vw - 40px); }
+  .af-toast { background:#16161c; border:1px solid rgba(168,85,247,.4); color:#e9d5ff; font-size:13px; font-weight:600; padding:12px 16px; border-radius:12px; box-shadow:0 8px 30px rgba(0,0,0,.5); animation:toastIn .3s cubic-bezier(.2,.8,.2,1); }
+
   @keyframes pulse { 0%,100%{ opacity:1; } 50%{ opacity:.4; } }
   @keyframes fade { from{ opacity:0; } to{ opacity:1; } }
   @keyframes rise { from{ opacity:0; transform:translateY(16px); } to{ opacity:1; transform:translateY(0); } }
+  @keyframes toastIn { from{ opacity:0; transform:translateX(30px); } to{ opacity:1; transform:translateX(0); } }
 `;
