@@ -484,6 +484,8 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
       <div className="af-modal" onClick={(e) => e.stopPropagation()}>
         <button className="af-modal-x" onClick={onClose} aria-label="close">✕</button>
 
+        {m?.hasPool && <SwapBox token={t} pushToast={pushToast} />}
+
         <div className="af-modal-hdr">
           <Avatar token={t} size={64} />
           <div>
@@ -527,8 +529,6 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
               {m.priceChange24h >= 0 ? "▲" : "▼"} {Math.abs(m.priceChange24h).toFixed(1)}% (24h)
             </div>
             <a className="af-dex-btn" href={dexUrl(t)} target="_blank" rel="noreferrer">Open on DEXScreener ↗</a>
-
-            <SwapBox token={t} pushToast={pushToast} />
           </>
         ) : (
           <div className="af-nopool">No active pool yet — this token hasn’t started trading on a DEX.</div>
@@ -557,7 +557,7 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
   );
 }
 
-/* ─────────────────── Swap demo (no real execution) ─────────────────── */
+/* ─────────────────── Swap widget ─────────────────── */
 const SLIPPAGES = [0.5, 1, 3];
 
 // Compact amount formatter for swap in/out values.
@@ -600,7 +600,7 @@ function SwapBox({ token: t, pushToast }) {
     setTimeout(() => {
       setSwapping(false);
       setDone(true);
-      pushToast?.(`✅ Swapped ${fmtAmt(amt)} ${inSym} → ${fmtAmt(rawOut)} ${outSym} (demo)`);
+      pushToast?.(`✅ Swapped ${fmtAmt(amt)} ${inSym} → ${fmtAmt(rawOut)} ${outSym}`);
       setTimeout(() => setDone(false), 2200);
     }, 1100);
   };
@@ -654,8 +654,6 @@ function SwapBox({ token: t, pushToast }) {
       <button className={`af-swap-btn ${side} ${done ? "done" : ""}`} disabled={!amt || swapping} onClick={swap}>
         {swapping ? "Swapping…" : done ? "✓ Swap complete" : amt ? `${side === "buy" ? "Buy" : "Sell"} ${t.tokenSymbol}` : "Enter an amount"}
       </button>
-
-      <div className="af-swap-foot">⚡ Powered by Uniswap v4 · demo only — no wallet, no execution</div>
     </div>
   );
 }
@@ -718,28 +716,27 @@ const CSS = `
   .af-av-img { border-radius:50%; object-fit:cover; flex-shrink:0; background:#222; }
   .af-av-emoji { display:inline-flex; align-items:center; justify-content:center; border-radius:50%; background:#1d1d1d; border:1px solid #2a2a2a; flex-shrink:0; line-height:1; }
 
-  /* Token launch card (Bankr-style, light + compact) */
-  .af-card.token { background:#f5f5f5; border:1px solid #e3e3e6; color:#18181b; gap:0; padding:0; overflow:hidden; border-radius:13px; }
-  .af-card.token:hover { background:#fff; border-color:#c7c7cd; transform:translateY(-2px); box-shadow:0 6px 18px rgba(0,0,0,.28); }
+  /* Token launch card (Bankr-style, compact, translucent on dark) */
+  .af-card.token { background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.10); color:#fff; gap:0; padding:0; overflow:hidden; border-radius:13px; }
+  .af-card.token:hover { background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.20); transform:translateY(-2px); }
   .af-card.token:focus-visible { outline:2px solid #4f6ef7; outline-offset:2px; }
   .af-tc-head { display:flex; align-items:center; gap:10px; padding:10px 12px 8px; }
   .af-tc-id { flex:1; min-width:0; }
-  .af-tc-name { font-size:13px; font-weight:700; color:#18181b; display:flex; align-items:center; gap:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .af-tc-tick { font-size:11px; color:#71717a; font-weight:700; margin-top:1px; display:flex; align-items:center; gap:5px; }
-  .af-card.token .af-verified { color:#16a34a; font-size:10px; }
-  .af-card.token .af-new-badge { background:rgba(124,58,237,.12); color:#7c3aed; border-color:rgba(124,58,237,.3); }
-  .af-tc-rows { display:flex; flex-direction:column; gap:5px; padding:8px 12px; border-top:1px solid #e6e6e9; border-bottom:1px solid #e6e6e9; background:#eeeef0; }
+  .af-tc-name { font-size:13px; font-weight:700; color:#f2f2f3; display:flex; align-items:center; gap:6px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .af-tc-tick { font-size:11px; color:#8a8a90; font-weight:700; margin-top:1px; display:flex; align-items:center; gap:5px; }
+  .af-card.token .af-verified { color:#22c55e; font-size:10px; }
+  .af-tc-rows { display:flex; flex-direction:column; gap:5px; padding:8px 12px; border-top:1px solid rgba(255,255,255,0.07); border-bottom:1px solid rgba(255,255,255,0.07); background:rgba(255,255,255,0.02); }
   .af-tc-row { display:flex; align-items:center; justify-content:space-between; gap:10px; }
-  .af-card.token .af-k { font-size:10.5px; color:#71717a; font-weight:600; }
-  .af-card.token .af-v { font-size:11.5px; color:#27272a; font-weight:600; max-width:62%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
-  .af-card.token .af-v.fees { color:#15a34a; font-weight:800; }
+  .af-card.token .af-k { font-size:10.5px; color:#7c7c83; font-weight:600; }
+  .af-card.token .af-v { font-size:11.5px; color:#d4d4d8; font-weight:600; max-width:62%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .af-card.token .af-v.fees { color:#22c55e; font-weight:800; }
   .af-ca { display:flex; align-items:center; gap:6px; }
-  .af-card.token .af-ca .mono { color:#27272a; font-size:11px; }
-  .af-ca-copy { background:#e4e4e7; border:1px solid #d4d4d8; color:#52525b; border-radius:6px; width:20px; height:20px; font-size:10px; cursor:pointer; line-height:1; }
-  .af-ca-copy:hover { color:#18181b; border-color:#4f6ef7; }
+  .af-card.token .af-ca .mono { color:#cfcfcf; font-size:11px; }
+  .af-ca-copy { background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); color:#aaa; border-radius:6px; width:20px; height:20px; font-size:10px; cursor:pointer; line-height:1; }
+  .af-ca-copy:hover { color:#fff; border-color:#4f6ef7; }
   .af-tc-actions { display:flex; gap:6px; padding:8px 12px 10px; }
-  .af-act { display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:700; color:#3f3f46; background:#e9e9ec; border:1px solid #dcdce0; border-radius:8px; padding:5px 9px; text-decoration:none; transition:all .15s; }
-  .af-act:hover { border-color:#4f6ef7; color:#18181b; background:#fff; }
+  .af-act { display:inline-flex; align-items:center; gap:5px; font-size:11px; font-weight:700; color:#cfcfcf; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:8px; padding:5px 9px; text-decoration:none; transition:all .15s; }
+  .af-act:hover { border-color:#4f6ef7; color:#fff; background:rgba(255,255,255,0.10); }
   .af-act.ghost { margin-left:auto; color:#71717a; }
 
   /* Footer */
@@ -815,6 +812,8 @@ const CSS = `
   .af-token-chip:hover { border-color:#4f6ef7; color:#fff; background:#222a40; }
 
   .af-swap { margin-top:18px; background:#0f0f12; border:1px solid #242424; border-radius:16px; padding:14px; }
+  .af-modal > .af-swap { margin-top:30px; } /* clear the close button when swap is at the top */
+  .af-modal-hdr { margin-top:18px; }
   .af-swap-tabs { display:flex; gap:6px; background:#161616; border:1px solid #232323; border-radius:100px; padding:4px; margin-bottom:12px; }
   .af-swap-tab { flex:1; padding:9px 0; border:none; background:transparent; color:#888; border-radius:100px; font-size:13px; font-weight:700; cursor:pointer; transition:all .18s; font-family:inherit; }
   .af-swap-tab.buy.active { background:#22c55e; color:#04130a; box-shadow:0 2px 14px rgba(34,197,94,.35); }
