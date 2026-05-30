@@ -162,33 +162,40 @@ const IconFilter = () => (
     <path d="M3 5h18M6 12h12M10 19h4" />
   </svg>
 );
+const IconDoc = () => (
+  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" /><path d="M14 3v5h5" />
+  </svg>
+);
+const IconCal = () => (
+  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <rect x="3" y="5" width="18" height="16" rx="2" /><path d="M3 9h18M8 3v4M16 3v4" />
+  </svg>
+);
 
 const xUrlFor = (handle) => (handle ? `https://x.com/${handle.replace(/^@/, "")}` : null);
 
-// List-style launch row: avatar · name/ticker/CA/date · est. fees + Fired.
+// List-style launch row: avatar · name / $ticker / CA · date · est. fees + Fired.
 function TokenRow({ token: t, isNew, onOpen }) {
-  const who = agentLabel(t);
   return (
     <div className="af-row" role="button" tabIndex={0} onClick={onOpen}
       onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && onOpen()}>
-      <Avatar token={t} size={42} />
+      <Avatar token={t} size={40} />
       <div className="af-row-mid">
         <div className="af-row-title">
           <span className="af-row-name">{t.tokenName}</span>
-          <span className="af-row-tick">${t.tokenSymbol}</span>
           {t.launcher?.verified && <span className="af-verified" title="verified">✓</span>}
           {isNew && <span className="af-new-badge">NEW</span>}
         </div>
+        <div className="af-row-tick">${t.tokenSymbol}</div>
         <div className="af-row-meta">
-          <span className="mono">{short(t.tokenAddress)}</span>
-          <span className="af-row-sep">·</span>
-          <span>{fmtDate(t.createdAt)}</span>
-          {who && <><span className="af-row-sep">·</span><span className="af-row-by">{who}</span></>}
+          <span className="af-row-chip"><IconDoc /><span className="mono">{short(t.tokenAddress)}</span></span>
+          <span className="af-row-chip"><IconCal />{fmtDate(t.createdAt)}</span>
         </div>
       </div>
       <div className="af-row-right">
         <div className="af-row-fees">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</div>
-        <div className="af-row-fired">🔥 Fired</div>
+        <div className="af-row-fired">Fees</div>
       </div>
     </div>
   );
@@ -360,14 +367,15 @@ export default function AgentFeed() {
 
       <div className="af-statwrap">
         <div className="af-globe" aria-hidden="true">
-          <svg viewBox="0 0 200 200" width="100%" height="100%">
-            <circle cx="100" cy="100" r="92" fill="none" stroke="#ff5a00" strokeWidth="1" />
-            <ellipse cx="100" cy="100" rx="92" ry="34" fill="none" stroke="#ff5a00" strokeWidth="1" />
-            <ellipse cx="100" cy="100" rx="92" ry="66" fill="none" stroke="#ff5a00" strokeWidth="1" />
-            <ellipse cx="100" cy="100" rx="34" ry="92" fill="none" stroke="#ff5a00" strokeWidth="1" />
-            <ellipse cx="100" cy="100" rx="66" ry="92" fill="none" stroke="#ff5a00" strokeWidth="1" />
-            <line x1="8" y1="100" x2="192" y2="100" stroke="#ff5a00" strokeWidth="1" />
-            <line x1="100" y1="8" x2="100" y2="192" stroke="#ff5a00" strokeWidth="1" />
+          <div className="af-globe-glow" />
+          <svg className="af-globe-grid" viewBox="0 0 200 200" width="100%" height="100%">
+            <circle cx="100" cy="100" r="96" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
+            <ellipse cx="100" cy="100" rx="96" ry="36" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
+            <ellipse cx="100" cy="100" rx="96" ry="68" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
+            <ellipse cx="100" cy="100" rx="36" ry="96" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
+            <ellipse cx="100" cy="100" rx="68" ry="96" fill="none" stroke="#ff7a30" strokeWidth="0.8" />
+            <line x1="4" y1="100" x2="196" y2="100" stroke="#ff7a30" strokeWidth="0.8" />
+            <line x1="100" y1="4" x2="100" y2="196" stroke="#ff7a30" strokeWidth="0.8" />
           </svg>
         </div>
         <div className="af-statbar">
@@ -711,8 +719,10 @@ const CSS = `
 
   /* Stats */
   .af-statwrap { position:relative; max-width:1240px; margin:0 auto; overflow:hidden; }
-  .af-globe { position:absolute; top:50%; right:-30px; transform:translateY(-50%); width:300px; height:300px; opacity:0.12; pointer-events:none; z-index:0; }
-  @media(max-width:680px){ .af-globe{ width:210px; height:210px; right:-55px; opacity:0.09; } }
+  .af-globe { position:absolute; top:-70px; right:-70px; width:260px; height:260px; pointer-events:none; z-index:0; }
+  .af-globe-glow { position:absolute; inset:0; border-radius:50%; background:radial-gradient(circle at 38% 34%, rgba(255,150,70,0.95), rgba(255,80,0,0.6) 42%, rgba(150,40,0,0.25) 68%, transparent 74%); filter:blur(1px); }
+  .af-globe-grid { position:absolute; inset:0; opacity:0.5; mix-blend-mode:screen; }
+  @media(max-width:680px){ .af-globe{ width:190px; height:190px; top:-55px; right:-55px; } }
   .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); gap:12px; padding:18px 16px 4px; }
   @media(min-width:680px){ .af-statbar{ padding:24px 28px 4px; gap:14px; } }
   .af-stat { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; transition:border-color .2s; }
@@ -750,7 +760,7 @@ const CSS = `
   .af-k { font-size:11px; color:#666; font-weight:600; }
   .af-v { font-size:12px; color:#cfcfcf; font-weight:600; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:62%; }
   .mono { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-  .af-new-badge { font-size:8px; font-weight:800; letter-spacing:1px; background:rgba(168,85,247,.16); color:#c084fc; border:1px solid rgba(168,85,247,.35); border-radius:6px; padding:1px 6px; flex-shrink:0; }
+  .af-new-badge { font-size:8px; font-weight:800; letter-spacing:1px; background:rgba(255,90,0,.16); color:#ff7a30; border:1px solid rgba(255,90,0,.4); border-radius:6px; padding:1px 6px; flex-shrink:0; }
   .af-verified { font-size:11px; font-weight:800; color:#22c55e; }
 
   .af-av-img { border-radius:50%; object-fit:cover; flex-shrink:0; background:#222; }
@@ -854,12 +864,12 @@ const CSS = `
   .af-row-mid { flex:1; min-width:0; }
   .af-row-title { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
   .af-row-name { font-size:14px; font-weight:700; color:#f2f2f3; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:55vw; }
-  .af-row-tick { font-size:12px; font-weight:700; color:#ff8a3d; }
+  .af-row-tick { font-size:12px; font-weight:700; color:#9a9a9e; margin-top:2px; }
   .af-row .af-verified { font-size:11px; font-weight:800; color:#22c55e; }
-  .af-row-meta { display:flex; align-items:center; gap:7px; margin-top:4px; font-size:11px; color:#7c7c80; font-weight:500; }
-  .af-row-meta .mono { color:#9a9a9e; }
-  .af-row-sep { color:#444; }
-  .af-row-by { color:#8a8a90; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:30vw; }
+  .af-row-meta { display:flex; align-items:center; gap:14px; margin-top:5px; font-size:11px; color:#7c7c80; font-weight:500; }
+  .af-row-chip { display:inline-flex; align-items:center; gap:5px; color:#7c7c80; }
+  .af-row-chip .mono { color:#9a9a9e; }
+  .af-row-chip svg { color:#5f5f64; flex-shrink:0; }
   .af-row-right { text-align:right; flex-shrink:0; }
   .af-row-fees { font-size:15px; font-weight:800; color:#fff; letter-spacing:-.3px; }
   .af-row-fired { font-size:11px; font-weight:700; color:#ff5a00; margin-top:2px; }
