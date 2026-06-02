@@ -68,9 +68,9 @@ Error generating stack: `+e.message+`
   /* Stats */
   .af-statwrap { position:relative; max-width:1200px; margin:0 auto; overflow:hidden; }
   .af-stat-radial { position:absolute; top:-80px; right:-80px; width:360px; height:360px; border-radius:50%; background:radial-gradient(circle, rgba(255,90,0,0.20), rgba(255,90,0,0.07) 45%, transparent 68%); filter:blur(24px); pointer-events:none; z-index:0; }
-  .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); grid-auto-rows:1fr; align-items:stretch; gap:12px; padding:18px 16px 4px; }
-  @media(min-width:680px){ .af-statbar{ padding:24px 28px 4px; gap:14px; } }
-  .af-stat { position:relative; overflow:hidden; display:flex; flex-direction:column; height:100%; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; min-height:118px; transition:border-color .2s; }
+  .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); grid-template-rows:1fr 1fr; align-items:stretch; gap:12px; padding:18px 16px 4px; }
+  @media(min-width:680px){ .af-statbar{ height:240px; padding:24px 28px 4px; gap:14px; } }
+  .af-stat { position:relative; overflow:hidden; display:flex; flex-direction:column; height:100%; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; min-height:108px; transition:border-color .2s; }
   .af-stat:hover { border-color:rgba(255,90,0,.35); }
   .af-stat-ico { position:relative; z-index:2; display:inline-flex; color:#ff5a00; margin-bottom:10px; }
   .af-stat-num { position:relative; z-index:2; font-size:26px; font-weight:800; letter-spacing:-.5px; color:#fff; line-height:1; }
@@ -294,7 +294,8 @@ Error generating stack: `+e.message+`
 
   /* ── Compact table layout (All Tokens + Agents) ── */
   .af-table { display:flex; flex-direction:column; }
-  .af-thead, .af-trow { display:grid; grid-template-columns:1fr 120px 80px 70px; align-items:center; gap:8px; }
+  .af-thead, .af-trow { display:grid; grid-template-columns:1fr 76px 52px 44px; align-items:center; gap:6px; }
+  @media(min-width:680px){ .af-thead, .af-trow { grid-template-columns:2fr 140px 90px 70px; gap:10px; } }
   .af-thead { padding:6px 12px; font-size:11px; font-weight:800; letter-spacing:.6px; color:#8a8a8a; border-bottom:1px solid rgba(255,255,255,.1); }
   .af-th-r { text-align:right; }
   .af-th-sort { display:inline-flex; align-items:center; justify-content:flex-end; gap:4px; background:none; border:0; padding:0; margin:0; font:inherit; font-size:11px; font-weight:800; letter-spacing:.6px; color:#8a8a8a; cursor:pointer; text-align:right; }
@@ -305,7 +306,7 @@ Error generating stack: `+e.message+`
   .af-trow:focus-visible { outline:2px solid #ff5a00; outline-offset:-2px; }
   .af-tcell-agent { display:flex; align-items:center; gap:11px; min-width:0; }
   .af-tcell-agent .af-av-img, .af-tcell-agent .af-av-emoji { flex-shrink:0; }
-  .af-tname-wrap { min-width:0; display:flex; flex-direction:column; }
+  .af-tname-wrap { flex:1; min-width:0; display:flex; flex-direction:column; }
   .af-tname { display:flex; align-items:center; gap:6px; font-size:14px; font-weight:800; color:#fff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .af-tname .af-verified { font-size:11px; font-weight:800; color:#22c55e; flex-shrink:0; }
   .af-ttick { font-size:12px; font-weight:700; color:#ff5a00; margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
@@ -381,7 +382,7 @@ Error generating stack: `+e.message+`
   .af-plat-breakdown { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:8px; font-size:12px; color:#9a9a9e; font-weight:600; padding:4px 6px 12px; }
   .af-plat-breakdown b { color:#fff; font-weight:800; }
   .af-plat-dot { color:#555; }
-  .af-plat-filter { display:flex; align-items:center; justify-content:flex-end; flex-wrap:wrap; gap:8px; padding:0 12px 6px; }
+  .af-plat-filter { display:flex; align-items:center; justify-content:flex-start; flex-wrap:wrap; gap:8px; padding:0 12px 6px; }
   .af-plat-fbtn { font-size:12px; font-weight:700; letter-spacing:.2px; color:#b6b6ba; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12); border-radius:999px; padding:6px 14px; cursor:pointer; transition:background .15s,border-color .15s,color .15s; }
   .af-plat-fbtn:hover { background:rgba(255,255,255,.09); color:#fff; }
   .af-plat-fbtn.active { background:rgba(255,90,0,.16); border-color:rgba(255,90,0,.5); color:#ff8a3d; }
