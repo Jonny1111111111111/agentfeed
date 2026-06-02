@@ -69,7 +69,7 @@ Error generating stack: `+e.message+`
   .af-statwrap { position:relative; max-width:1200px; margin:0 auto; overflow:hidden; }
   .af-stat-radial { position:absolute; top:-80px; right:-80px; width:360px; height:360px; border-radius:50%; background:radial-gradient(circle, rgba(255,90,0,0.20), rgba(255,90,0,0.07) 45%, transparent 68%); filter:blur(24px); pointer-events:none; z-index:0; }
   .af-statbar { position:relative; z-index:1; display:grid; grid-template-columns:repeat(2,1fr); grid-template-rows:1fr 1fr; align-items:stretch; gap:12px; padding:18px 16px 4px; }
-  @media(min-width:680px){ .af-statbar{ height:240px; padding:24px 28px 4px; gap:14px; } }
+  @media(min-width:680px){ .af-statbar{ grid-template-rows:110px 110px; padding:24px 28px 4px; gap:12px; } .af-stat{ box-sizing:border-box; min-height:0; } }
   .af-stat { position:relative; overflow:hidden; display:flex; flex-direction:column; height:100%; background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:16px; padding:18px; min-height:108px; transition:border-color .2s; }
   .af-stat:hover { border-color:rgba(255,90,0,.35); }
   .af-stat-ico { position:relative; z-index:2; display:inline-flex; color:#ff5a00; margin-bottom:10px; }
