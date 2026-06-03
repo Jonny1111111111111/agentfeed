@@ -1,0 +1,86 @@
+name: Sync 0xWork verified + deploy
+
+# Keeps Feedr's 0xWork verified list in sync with 0xwork.org/launches.
+# Their public API is CORS-locked to 0xwork.org, so the browser can't read it at
+# runtime — instead we re-pull it here on a schedule, rebuild the data, rebuild
+# the site, and deploy to GitHub Pages end-to-end with no manual step.
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch:
+    inputs:
+      full_reindex:
+        description: "Also run the full on-chain launch reindex (~30 min, flaky public RPC)"
+        type: boolean
+        default: false
+
+# GITHUB_TOKEN needs write access to commit refreshed data and push to gh-pages.
+# (No personal access token required — do NOT add one.)
+permissions:
+  contents: write
+
+# Don't let two scheduled runs deploy on top of each other.
+concurrency:
+  group: sync-0xwork-deploy
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Optional, manual-only: rebuild launches.json from the on-chain hook index.
+      # Skipped on the schedule because it takes ~30 min on the public RPC and is
+      # unrelated to the 0xWork verified sync (the pull step below merges verified
+      # tokens into launches.json regardless).
+      - name: Full on-chain reindex (optional)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full_reindex }}
+        run: npm run index:launches
+        env:
+          BASE_RPC: ${{ secrets.BASE_RPC }} # optional: a faster RPC if configured
+
+      # Re-pull the 0xWork verified launches (API ∪ server-rendered page) →
+      # src/data/verified.json, and merge any missing verified token into
+      # src/data/launches.json.
+      - name: Pull 0xWork verified list
+        run: npm run pull:verified
+
+      # Rebuild the 0xWork agent roster snapshot (src/data/agents.json).
+      - name: Rebuild agents.json
+        run: npm run gen:agents
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/verified.json src/data/launches.json src/data/agents.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): sync 0xWork verified list [skip ci]"
+            git push
+          fi
+
+      # Build the static site (data is already fresh, so call vite directly to
+      # avoid the prebuild chain re-running the heavy indexer).
+      - name: Build site
+        run: npx vite build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages

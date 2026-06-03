@@ -11,6 +11,17 @@
 //
 // Fees are estimated as: 24h volume × agent share (0.57) × swap fee rate (1.2%).
 
+import verified from "../data/verified.json";
+
+// ── 0xWork verified set ──
+// Source of truth for the "0xWork" tag: the verified launch list pulled from
+// 0xwork.org/launches (scripts/pull-0xwork-verified.mjs, refreshed by the
+// scheduled GitHub Action). A token is "0xWork" iff its address is in this set.
+// Membership is checked at runtime, so re-indexing launches.json never drops the
+// tag and a launch 0xWork un-verifies simply falls out of the set on next pull.
+export const VERIFIED_0XWORK = new Set((verified.addresses || []).map((a) => a.toLowerCase()));
+export const is0xWork = (address) => !!address && VERIFIED_0XWORK.has(address.toLowerCase());
+
 // ── Base on-chain config (Uniswap v4 launch hook) ──
 const BASE_RPC = "https://mainnet.base.org";
 const POOL_MANAGER = "0x498581ff718922c3f8e6a244956af099b2652b2b";
@@ -35,11 +46,15 @@ export function mapLaunch(i) {
     tokenAddress: i.tokenAddress,
     imageUrl: i.imageUrl ?? null,
     createdAt: i.createdAt,
+    source: i.source ?? null, // "onchain-hook" (Bankr/Doppler shared launch hook), etc.
+    is0xWork: is0xWork(i.tokenAddress), // 0xWork tag = membership in the verified set
     launcher: {
       name: i.launcher?.name ?? null,
       handle: i.launcher?.handle ?? null,
       image: i.launcher?.image ?? null,
-      verified: !!i.launcher?.verified,
+      // The old per-token launcher.verified flag was unreliable; the verified
+      // set (verified.json) is now authoritative.
+      verified: is0xWork(i.tokenAddress),
       operatorAddress: i.launcher?.operatorAddress ?? null,
       profileUrl: i.launcher?.profileUrl ?? null,
     },
@@ -128,11 +143,41 @@ function decodeStringResult(hex) {
   }
 }
 
+// eth_call for an ABI string, retried a few times — the public RPC is flaky on
+// freshly-created tokens, which is what made new-launch toasts show "?".
+async function ethCallString(to, data, tries = 3) {
+  for (let i = 0; i < tries; i++) {
+    try {
+      const s = decodeStringResult(await rpc("eth_call", [{ to, data }, "latest"]));
+      if (s) return s;
+    } catch {
+      /* transient — retry */
+    }
+    await new Promise((r) => setTimeout(r, 250 * (i + 1)));
+  }
+  return null;
+}
+
 export async function resolveTokenMeta(tokenAddress) {
-  const [name, symbol] = await Promise.all([
-    rpc("eth_call", [{ to: tokenAddress, data: "0x06fdde03" }, "latest"]).then(decodeStringResult).catch(() => null),
-    rpc("eth_call", [{ to: tokenAddress, data: "0x95d89b41" }, "latest"]).then(decodeStringResult).catch(() => null),
+  let [name, symbol] = await Promise.all([
+    ethCallString(tokenAddress, "0x06fdde03"), // name()
+    ethCallString(tokenAddress, "0x95d89b41"), // symbol()
   ]);
+  // Fallback to DEXScreener metadata if the chain calls didn't resolve.
+  if (!name || !symbol) {
+    try {
+      const res = await fetch(DEX_TOKENS + tokenAddress);
+      if (res.ok) {
+        const bt = ((await res.json()).pairs || [])[0]?.baseToken;
+        if (bt) {
+          name = name || bt.name || null;
+          symbol = symbol || bt.symbol || null;
+        }
+      }
+    } catch {
+      /* ignore — keep whatever we have */
+    }
+  }
   return { name, symbol };
 }
 
@@ -167,6 +212,7 @@ export async function fetchMarkets(addresses) {
     const primary = ps[0];
     const volume24h = ps.reduce((s, p) => s + (p.volume?.h24 || 0), 0);
     const liquidityUsd = ps.reduce((s, p) => s + (p.liquidity?.usd || 0), 0);
+    const txns24h = ps.reduce((s, p) => s + ((p.txns?.h24?.buys || 0) + (p.txns?.h24?.sells || 0)), 0);
     out[a] = {
       hasPool: true,
       priceUsd: Number(primary.priceUsd) || 0,
@@ -174,10 +220,12 @@ export async function fetchMarkets(addresses) {
       quoteSymbol: primary.quoteToken?.symbol || "ETH",
       volume24h,
       liquidityUsd,
+      txns24h,
       fdv: primary.fdv || 0,
       priceChange24h: primary.priceChange?.h24 ?? 0,
       url: primary.url,
       dexId: primary.dexId,
+      imageUrl: primary.info?.imageUrl || null, // token image from DEXScreener
     };
   }
   return out;
