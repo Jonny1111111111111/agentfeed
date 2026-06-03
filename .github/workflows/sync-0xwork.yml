@@ -39,7 +39,10 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci
+        # npm install (not ci) so a committed lockfile that's out of sync with
+        # package.json — e.g. missing platform-specific optional deps generated on
+        # another OS — doesn't hard-fail the scheduled job.
+        run: npm install --no-audit --no-fund
 
       # Optional, manual-only: rebuild launches.json from the on-chain hook index.
       # Skipped on the schedule because it takes ~30 min on the public RPC and is
