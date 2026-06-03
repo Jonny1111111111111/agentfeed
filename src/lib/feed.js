@@ -12,6 +12,7 @@
 // Fees are estimated as: 24h volume × agent share (0.57) × swap fee rate (1.2%).
 
 import verified from "../data/verified.json";
+import clanker from "../data/clanker.json";
 
 // ── 0xWork verified set ──
 // Source of truth for the "0xWork" tag: the verified launch list pulled from
@@ -21,6 +22,12 @@ import verified from "../data/verified.json";
 // tag and a launch 0xWork un-verifies simply falls out of the set on next pull.
 export const VERIFIED_0XWORK = new Set((verified.addresses || []).map((a) => a.toLowerCase()));
 export const is0xWork = (address) => !!address && VERIFIED_0XWORK.has(address.toLowerCase());
+
+// ── Clanker set ──
+// Source of truth for the "Clanker" tag: live-pool tokens pulled from the Clanker
+// API + v4 factory (scripts/pull-clanker.mjs). Same membership-at-runtime model.
+export const CLANKER = new Set((clanker.addresses || []).map((a) => a.toLowerCase()));
+export const isClanker = (address) => !!address && CLANKER.has(address.toLowerCase());
 
 // ── Base on-chain config (Uniswap v4 launch hook) ──
 const BASE_RPC = "https://mainnet.base.org";
@@ -46,8 +53,9 @@ export function mapLaunch(i) {
     tokenAddress: i.tokenAddress,
     imageUrl: i.imageUrl ?? null,
     createdAt: i.createdAt,
-    source: i.source ?? null, // "onchain-hook" (Bankr/Doppler shared launch hook), etc.
+    source: i.source ?? null, // "onchain-hook" (Bankr/Doppler shared launch hook), "clanker", etc.
     is0xWork: is0xWork(i.tokenAddress), // 0xWork tag = membership in the verified set
+    isClanker: isClanker(i.tokenAddress), // Clanker tag = membership in the Clanker set
     launcher: {
       name: i.launcher?.name ?? null,
       handle: i.launcher?.handle ?? null,

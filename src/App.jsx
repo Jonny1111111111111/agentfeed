@@ -17,6 +17,7 @@ import {
   avatarFor,
   daysSince,
   is0xWork,
+  isClanker,
   RUNTIME_LOOKBACK_BLOCKS,
 } from "./lib/feed";
 
@@ -120,23 +121,28 @@ const tierForFees = (fees = 0) =>
 //                  pulled from 0xwork.org/launches). This is the authoritative
 //                  signal, replacing the old (unreliable) per-token verified flag
 //                  and the "any token-forge launch = 0xWork" heuristic.
+//  • Clanker     — token is in the Clanker live-pool set (clanker.json, pulled
+//                  from the Clanker API + v4 factory).
 //  • Bankr       — any other shared-hook launch (on-chain hook / unverified forge).
 //  • Independent — unknown source.
-// Only platforms with a style render a badge.
+// Both 0xWork and Clanker are membership-based, so they survive a re-index.
 const PLATFORM_STYLE = {
   "0xWork": { bg: "rgba(255,90,0,.14)", border: "rgba(255,90,0,.4)", color: "#ff8a3d" },
+  Clanker: { bg: "rgba(46,204,143,.14)", border: "rgba(46,204,143,.4)", color: "#3fd79b" },
   Bankr: { bg: "rgba(90,140,255,.14)", border: "rgba(90,140,255,.4)", color: "#7da6ff" },
   Independent: { bg: "rgba(255,255,255,.06)", border: "rgba(255,255,255,.16)", color: "#b6b6ba" },
 };
 function tokenPlatform(t) {
   if (t.is0xWork) return "0xWork";
+  if (t.isClanker || t.source === "clanker") return "Clanker";
   if (t.source === "onchain-hook" || t.source === "token-forge") return "Bankr";
   return "Independent";
 }
-// An agent is "0xWork" if any of its tokens is in the verified list; else Bankr
-// if any came from the shared launch hook; else Independent.
+// An agent's platform follows its tokens: 0xWork (verified) first, then Clanker,
+// then any shared-hook launch (Bankr), else Independent.
 function agentPlatform(a) {
   if (a.tokens.some((t) => t.is0xWork)) return "0xWork";
+  if (a.tokens.some((t) => t.isClanker || t.source === "clanker")) return "Clanker";
   if (a.tokens.some((t) => t.source === "onchain-hook" || t.source === "token-forge")) return "Bankr";
   return "Independent";
 }
@@ -305,7 +311,11 @@ function TokenRow({ token: t, isNew, onOpen }) {
             {t.is0xWork && <span className="af-verified" title="0xWork verified">✓</span>}
             {isNew && <span className="af-new-badge">NEW</span>}
           </span>
-          <span className="af-ttick">${t.tokenSymbol}</span>
+          <span className="af-ttick">
+            ${t.tokenSymbol}
+            {/* Platform pill on the row (0xWork already shows the ✓; skip the neutral Independent tag). */}
+            {!t.is0xWork && tokenPlatform(t) !== "Independent" && <PlatformBadge platform={tokenPlatform(t)} />}
+          </span>
         </div>
       </div>
       <div className="af-tfees">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</div>
@@ -440,6 +450,7 @@ export default function AgentFeed() {
               createdAt: new Date().toISOString().replace("T", " ").slice(0, 19),
               poolId: e.poolId,
               is0xWork: is0xWork(e.tokenAddress),
+              isClanker: isClanker(e.tokenAddress),
               launcher: { name: null, handle: null, image: null, verified: is0xWork(e.tokenAddress) },
               feeRecipient: null,
               dexscreenerUrl: e.dexscreenerUrl,
@@ -648,7 +659,7 @@ export default function AgentFeed() {
         <div className="af-list">
           {agents.length > 0 && (
             <div className="af-plat-filter" role="group" aria-label="Filter agents by platform">
-              {["all", "0xWork", "Bankr", "Independent"].map((p) => (
+              {["all", "0xWork", "Clanker", "Bankr", "Independent"].map((p) => (
                 <button
                   key={p}
                   className={`af-plat-fbtn ${platformFilter === p ? "active" : ""}`}

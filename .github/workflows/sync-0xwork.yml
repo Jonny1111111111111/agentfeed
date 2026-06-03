@@ -60,6 +60,12 @@ jobs:
       - name: Pull 0xWork verified list
         run: npm run pull:verified
 
+      # Pull the Clanker live-pool set (Clanker API + v4 factory) →
+      # src/data/clanker.json, merged into launches.json with source:"clanker".
+      # Recent window + persisted set: fast, no deep RPC scan.
+      - name: Pull Clanker tokens
+        run: npm run pull:clanker
+
       # Rebuild the 0xWork agent roster snapshot (src/data/agents.json).
       - name: Rebuild agents.json
         run: npm run gen:agents
@@ -68,11 +74,11 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/verified.json src/data/launches.json src/data/agents.json
+          git add src/data/verified.json src/data/clanker.json src/data/launches.json src/data/agents.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
-            git commit -m "chore(data): sync 0xWork verified list [skip ci]"
+            git commit -m "chore(data): sync 0xWork verified + Clanker [skip ci]"
             git push
           fi
 
