@@ -5,8 +5,968 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 1237,
+  "count": 1286,
   "items": [
+    {
+      "tokenName": "aeon city",
+      "tokenSymbol": "ACITY",
+      "tokenAddress": "0xd6cCA25769606FC35747Be2bD0cfE507EeDC9B07",
+      "imageUrl": "https://ipfs.io/ipfs/QmTTX3P4SgCtn5WJBaoiuHUZUTCwQnSiAyCBX7NLiA8omh",
+      "createdAt": "2026-06-05 19:41:41",
+      "poolId": "0xccbdf426926cc3c2e9030a89ba781aff18ad57ee4361b2bc45391dcc2ea090a0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmTTX3P4SgCtn5WJBaoiuHUZUTCwQnSiAyCBX7NLiA8omh",
+        "verified": false,
+        "operatorAddress": "0x8C4D592D15446e94077D295500D01a28958C616c",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x8C4D592D15446e94077D295500D01a28958C616c",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xccbdf426926cc3c2e9030a89ba781aff18ad57ee4361b2bc45391dcc2ea090a0",
+      "basescanUrl": "https://basescan.org/token/0xd6cCA25769606FC35747Be2bD0cfE507EeDC9B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "KuzyAI",
+      "tokenSymbol": "KUZY",
+      "tokenAddress": "0x839C6f49f6e82FC1F500361EB36E5c7027E56b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaq2rpz3ohe2ozww2iwim4di3fme5jw6f3tdxoon5xizzqklgfbdy",
+      "createdAt": "2026-06-05 19:37:13",
+      "poolId": "0x3af359e2852f93b0bb45a3b18966f17709910643bc4e985fd2316c28b4aa811a",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaq2rpz3ohe2ozww2iwim4di3fme5jw6f3tdxoon5xizzqklgfbdy",
+        "verified": false,
+        "operatorAddress": "0x0A84729B07d3c5Fb3Eb5018EFe18763c4df068D0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0A84729B07d3c5Fb3Eb5018EFe18763c4df068D0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3af359e2852f93b0bb45a3b18966f17709910643bc4e985fd2316c28b4aa811a",
+      "basescanUrl": "https://basescan.org/token/0x839C6f49f6e82FC1F500361EB36E5c7027E56b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Fridays At The Park",
+      "tokenSymbol": "THEPARK",
+      "tokenAddress": "0x8E3320Dd515d836Dc451E887770d2317AC151B07",
+      "imageUrl": "https://ipfs.io/ipfs/QmbbdQRFPt47wSbUXrgHGVeU32DosQNCEZWxEjVnMskFn",
+      "createdAt": "2026-06-05 19:34:41",
+      "poolId": "0x6cdb8addff6b51c222b32b623e8deb2a814decc248c3554c291b195eba85cc55",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmbbdQRFPt47wSbUXrgHGVeU32DosQNCEZWxEjVnMskFn",
+        "verified": false,
+        "operatorAddress": "0x589FFBbdA0EaCD5A9C2BA208b379c886B2630503",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x589FFBbdA0EaCD5A9C2BA208b379c886B2630503",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6cdb8addff6b51c222b32b623e8deb2a814decc248c3554c291b195eba85cc55",
+      "basescanUrl": "https://basescan.org/token/0x8E3320Dd515d836Dc451E887770d2317AC151B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Cloud Rent Is Due",
+      "tokenSymbol": "RENT",
+      "tokenAddress": "0x008Dd059391E115129d9DFd6c9B1B329774643AA",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifgg3gxqtcn7nbm5vpbrg5gjfhs2wdtewwxq52jixplatrqosl4xm",
+      "createdAt": "2026-06-05 19:34:27",
+      "poolId": "0xc896b512d8c59407d694ac30c1eb1e8a9d5e054b9cc8259b562cc8b1add8312a",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifgg3gxqtcn7nbm5vpbrg5gjfhs2wdtewwxq52jixplatrqosl4xm",
+        "verified": false,
+        "operatorAddress": "0x0084780DeDD0662Da08C4f07910C3923B6dC5B0b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0084780DeDD0662Da08C4f07910C3923B6dC5B0b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc896b512d8c59407d694ac30c1eb1e8a9d5e054b9cc8259b562cc8b1add8312a",
+      "basescanUrl": "https://basescan.org/token/0x008Dd059391E115129d9DFd6c9B1B329774643AA",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Quantum",
+      "tokenSymbol": "QM",
+      "tokenAddress": "0x380136D2203A924Daf8934Fc72201A2D24C1B589",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780687762569-35faa1dc-icon.png",
+      "createdAt": "2026-06-05 19:34:13",
+      "poolId": "0x24da68c64ae7f1765f2f05ed910e83fae812908e9a3e6a75ef3441955ee4c44f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780687762569-35faa1dc-icon.png",
+        "verified": false,
+        "operatorAddress": "0x240a3Df57aAA7089e7d2E261F0D948A99F43C96a",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x240a3Df57aAA7089e7d2E261F0D948A99F43C96a",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x24da68c64ae7f1765f2f05ed910e83fae812908e9a3e6a75ef3441955ee4c44f",
+      "basescanUrl": "https://basescan.org/token/0x380136D2203A924Daf8934Fc72201A2D24C1B589",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Artisan Songwriting Token",
+      "tokenSymbol": "ARTS",
+      "tokenAddress": "0xAeb9535ecB425621dcF77dfDC93D0559F1b1E2ba",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780687200999-0c624948-icon.png",
+      "createdAt": "2026-06-05 19:24:39",
+      "poolId": "0xae9f5446c4eea7ef0eb08355063833962684e5273fa9104229fc305cd3a79e99",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780687200999-0c624948-icon.png",
+        "verified": false,
+        "operatorAddress": "0x0Ac7D72e0A6E21Fb840BBd07f2b8d0763B65c2C3",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0Ac7D72e0A6E21Fb840BBd07f2b8d0763B65c2C3",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xae9f5446c4eea7ef0eb08355063833962684e5273fa9104229fc305cd3a79e99",
+      "basescanUrl": "https://basescan.org/token/0xAeb9535ecB425621dcF77dfDC93D0559F1b1E2ba",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "stAIke",
+      "tokenSymbol": "STAIKE",
+      "tokenAddress": "0x5494d61d67a544e9E725F0bdbE6A4A7464a24b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiajwip7ftdnjmnetvr5mvldqx3smbc4vmrirbfk4cpoauyx3cec4q",
+      "createdAt": "2026-06-05 19:16:33",
+      "poolId": "0xb18d0cc460ebd8b11db16ea9f2de95680f79c91182b3dfbc54b93572d5db38bd",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiajwip7ftdnjmnetvr5mvldqx3smbc4vmrirbfk4cpoauyx3cec4q",
+        "verified": false,
+        "operatorAddress": "0x9E6Ff974255c615dae8efC5F0BaA9E3e5F94Ad7C",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x9E6Ff974255c615dae8efC5F0BaA9E3e5F94Ad7C",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb18d0cc460ebd8b11db16ea9f2de95680f79c91182b3dfbc54b93572d5db38bd",
+      "basescanUrl": "https://basescan.org/token/0x5494d61d67a544e9E725F0bdbE6A4A7464a24b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Master Debater Token",
+      "tokenSymbol": "MASTER",
+      "tokenAddress": "0xd7E0dFd432Fb071b5310cD71d679ca28c2a31B1a",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780686596947-b1a092aa-icon.png",
+      "createdAt": "2026-06-05 19:14:37",
+      "poolId": "0x1f608ce04054621ac5596be46fc0cff6055ea8e5f5704b69917db769fad01661",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780686596947-b1a092aa-icon.png",
+        "verified": false,
+        "operatorAddress": "0xE2350A05267a1164cdbfdC2e48F4A1BA6486532d",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE2350A05267a1164cdbfdC2e48F4A1BA6486532d",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1f608ce04054621ac5596be46fc0cff6055ea8e5f5704b69917db769fad01661",
+      "basescanUrl": "https://basescan.org/token/0xd7E0dFd432Fb071b5310cD71d679ca28c2a31B1a",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Base Season",
+      "tokenSymbol": "SZN",
+      "tokenAddress": "0x5BA5D38b06E26E374F9C11BFA441fD2469062b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreicbwre2kjmkwhysaill33vp62pjkquh32ul3k2bwhpeflxsfozf2q",
+      "createdAt": "2026-06-05 18:42:33",
+      "poolId": "0x6860e76c2e92c50c8cb1ba089da54f7453a7c3da45e8e8ede8f90a4a9cfb089b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreicbwre2kjmkwhysaill33vp62pjkquh32ul3k2bwhpeflxsfozf2q",
+        "verified": false,
+        "operatorAddress": "0xCc2c17107399BF7BfD83F0028F10219050C67861",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xCc2c17107399BF7BfD83F0028F10219050C67861",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6860e76c2e92c50c8cb1ba089da54f7453a7c3da45e8e8ede8f90a4a9cfb089b",
+      "basescanUrl": "https://basescan.org/token/0x5BA5D38b06E26E374F9C11BFA441fD2469062b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "commonware.xyz",
+      "tokenSymbol": "comware",
+      "tokenAddress": "0xF0c0e13a183917cA4E7Ca10Ac0c901593C1a4b07",
+      "imageUrl": "https://ipfs.io/ipfs/QmbbdQRFPt47wSbUXrgHGVeeU32DosQNCEZWxEjVnMskFn",
+      "createdAt": "2026-06-05 18:41:23",
+      "poolId": "0xe2ff1a2c69cd8a0015ed97c3c668f19f3a7637d02a738e854d8bfa29cb3eb6d8",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmbbdQRFPt47wSbUXrgHGVeeU32DosQNCEZWxEjVnMskFn",
+        "verified": false,
+        "operatorAddress": "0xEB7764b11A5408aE6718c32303E844043A13B1a8",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xEB7764b11A5408aE6718c32303E844043A13B1a8",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe2ff1a2c69cd8a0015ed97c3c668f19f3a7637d02a738e854d8bfa29cb3eb6d8",
+      "basescanUrl": "https://basescan.org/token/0xF0c0e13a183917cA4E7Ca10Ac0c901593C1a4b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Nouns Crush",
+      "tokenSymbol": "NOUNSCRUSH",
+      "tokenAddress": "0x1a0Fb13B8bE39FF05155218A86D2E65CFe995cF8",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780569072510-92ac1075-icon.png",
+      "createdAt": "2026-06-05 18:37:55",
+      "poolId": "0x4ce895bc08b690f368e723937883a10bf9d5df78c04c6b2ffe7256b00b3b2d53",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780569072510-92ac1075-icon.png",
+        "verified": false,
+        "operatorAddress": "0xE64AE6B6c7BDAFefad768D9354bBED2C55C9B0F2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE64AE6B6c7BDAFefad768D9354bBED2C55C9B0F2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4ce895bc08b690f368e723937883a10bf9d5df78c04c6b2ffe7256b00b3b2d53",
+      "basescanUrl": "https://basescan.org/token/0x1a0Fb13B8bE39FF05155218A86D2E65CFe995cF8",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Carledger",
+      "tokenSymbol": "CAR",
+      "tokenAddress": "0x1A07d9d0CA44CFbCDA4e1b6b794590aA9E92fb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifbsgnbljyx7ar63n4ruqxhklpmt7jyagxgksok7ci57bqmgtu2re",
+      "createdAt": "2026-06-05 18:35:45",
+      "poolId": "0x018310dca1d4bd87fee7b3d15c8098403c53de3dfee1202f61c11e3d97b5d958",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifbsgnbljyx7ar63n4ruqxhklpmt7jyagxgksok7ci57bqmgtu2re",
+        "verified": false,
+        "operatorAddress": "0x7b61387562C473E020178fA8eD05EAFb9346832e",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7b61387562C473E020178fA8eD05EAFb9346832e",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x018310dca1d4bd87fee7b3d15c8098403c53de3dfee1202f61c11e3d97b5d958",
+      "basescanUrl": "https://basescan.org/token/0x1A07d9d0CA44CFbCDA4e1b6b794590aA9E92fb07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Nouns Tiles Token",
+      "tokenSymbol": "NOUNSTILES",
+      "tokenAddress": "0x67e6F2BbbaC1eDb31C4E73b60fcf05b39Df502D9",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780482782126-b8d0baf4-icon.png",
+      "createdAt": "2026-06-05 18:35:37",
+      "poolId": "0x3dee7173ce9e2c1f5c4a1a10de21eff0028f736ab79e323289a6d338bb5335f7",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780482782126-b8d0baf4-icon.png",
+        "verified": false,
+        "operatorAddress": "0xE64AE6B6c7BDAFefad768D9354bBED2C55C9B0F2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE64AE6B6c7BDAFefad768D9354bBED2C55C9B0F2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3dee7173ce9e2c1f5c4a1a10de21eff0028f736ab79e323289a6d338bb5335f7",
+      "basescanUrl": "https://basescan.org/token/0x67e6F2BbbaC1eDb31C4E73b60fcf05b39Df502D9",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "commonware",
+      "tokenSymbol": "commonware",
+      "tokenAddress": "0x4553844bbe8476f6F394715BFFCA3968d0F6Cb07",
+      "imageUrl": "https://ipfs.io/ipfs/QmbbdQRFPt47wSbUXrgHGVeeU32DosQNCEZWxEjVnMskFn",
+      "createdAt": "2026-06-05 18:32:47",
+      "poolId": "0x241267869fc78be38ff33b0e3de86cd00fd9de31d8e1dc94db3afa71e26bd091",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmbbdQRFPt47wSbUXrgHGVeeU32DosQNCEZWxEjVnMskFn",
+        "verified": false,
+        "operatorAddress": "0xEB7764b11A5408aE6718c32303E844043A13B1a8",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xEB7764b11A5408aE6718c32303E844043A13B1a8",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x241267869fc78be38ff33b0e3de86cd00fd9de31d8e1dc94db3afa71e26bd091",
+      "basescanUrl": "https://basescan.org/token/0x4553844bbe8476f6F394715BFFCA3968d0F6Cb07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "It`s Too Late Bro",
+      "tokenSymbol": "TLB",
+      "tokenAddress": "0x74298ED2209aD780b638ABB635379402f6111b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreieft3nl53yzuzm625w54dr77m42fsnpzag5o35kyzhfwurbahkl24",
+      "createdAt": "2026-06-05 18:32:05",
+      "poolId": "0xb3bc01665a26d318d882da1fc8ffba5a339b4126f7f794c975091e9b3fbf2c9c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreieft3nl53yzuzm625w54dr77m42fsnpzag5o35kyzhfwurbahkl24",
+        "verified": false,
+        "operatorAddress": "0xabDbe3B8Ea443f4526F229dbB174a0d52F7A4071",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xabDbe3B8Ea443f4526F229dbB174a0d52F7A4071",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb3bc01665a26d318d882da1fc8ffba5a339b4126f7f794c975091e9b3fbf2c9c",
+      "basescanUrl": "https://basescan.org/token/0x74298ED2209aD780b638ABB635379402f6111b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Nebby",
+      "tokenSymbol": "NEBBY",
+      "tokenAddress": "0x6A660dce9cf32BEcaf60b76Ea0b54840fA93dB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreics222mtij2dhgu4tgotysnkks42uhrtdzqdlb6pllyivrm2u6xsy",
+      "createdAt": "2026-06-05 18:18:41",
+      "poolId": "0x0046688b4d1ce05755563370f2db0bf0d5bf7b6d7182c03fe659bd4ea2ce4ec0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreics222mtij2dhgu4tgotysnkks42uhrtdzqdlb6pllyivrm2u6xsy",
+        "verified": false,
+        "operatorAddress": "0xC5F1D55817f1250BCf4D68b48442bc847e722f31",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC5F1D55817f1250BCf4D68b48442bc847e722f31",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0046688b4d1ce05755563370f2db0bf0d5bf7b6d7182c03fe659bd4ea2ce4ec0",
+      "basescanUrl": "https://basescan.org/token/0x6A660dce9cf32BEcaf60b76Ea0b54840fA93dB07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Neural Fund AI",
+      "tokenSymbol": "NeuralFund",
+      "tokenAddress": "0xd77411fEA64D7027e1A9Cd3CafEc595Da6db5b07",
+      "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ec7eee86-5430-42c5-69f0-3c3c5c5a2b00/original",
+      "createdAt": "2026-06-05 18:17:03",
+      "poolId": "0xec3e512b64645fa0a20de3f57948736e9942326f2f01c71495421a8a98aea150",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/ec7eee86-5430-42c5-69f0-3c3c5c5a2b00/original",
+        "verified": false,
+        "operatorAddress": "0x589202EE6611744417D5f9F357Cf3D33E1f564c0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x589202EE6611744417D5f9F357Cf3D33E1f564c0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xec3e512b64645fa0a20de3f57948736e9942326f2f01c71495421a8a98aea150",
+      "basescanUrl": "https://basescan.org/token/0xd77411fEA64D7027e1A9Cd3CafEc595Da6db5b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "GROVA",
+      "tokenSymbol": "GRVA",
+      "tokenAddress": "0x814d35c32370D03D3b1f0C062Acc3347B0cbFb07",
+      "imageUrl": "https://pbs.twimg.com/media/HKEcthJb0AA-tQG.jpg",
+      "createdAt": "2026-06-05 18:16:53",
+      "poolId": "0xb03c02247344a8a5eab3132b9fb062f30c5c254011638ef5acffb3920004b6c7",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pbs.twimg.com/media/HKEcthJb0AA-tQG.jpg",
+        "verified": false,
+        "operatorAddress": "0xb58dc91fF9c6F9AcB1a5B996127c3A7b2A89cd09",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xb58dc91fF9c6F9AcB1a5B996127c3A7b2A89cd09",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb03c02247344a8a5eab3132b9fb062f30c5c254011638ef5acffb3920004b6c7",
+      "basescanUrl": "https://basescan.org/token/0x814d35c32370D03D3b1f0C062Acc3347B0cbFb07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "BaseDollar",
+      "tokenSymbol": "BD",
+      "tokenAddress": "0xCdA79369B5c6fE56D7CB83B60D27cDc80377ab07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreicqmkt4uqyukfv255vrqgai4ciaa7guczkgsj4s3pp3nfsy7wtqw4",
+      "createdAt": "2026-06-05 18:02:57",
+      "poolId": "0x177a8b6a5eb6e5aab82c1bdd55cf3ef7b67c7fdd60d43b7f4fc510e1730e4e97",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreicqmkt4uqyukfv255vrqgai4ciaa7guczkgsj4s3pp3nfsy7wtqw4",
+        "verified": false,
+        "operatorAddress": "0xB70645369eb48860a8C66f8cbD83EbFc6b01C1Df",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB70645369eb48860a8C66f8cbD83EbFc6b01C1Df",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x177a8b6a5eb6e5aab82c1bdd55cf3ef7b67c7fdd60d43b7f4fc510e1730e4e97",
+      "basescanUrl": "https://basescan.org/token/0xCdA79369B5c6fE56D7CB83B60D27cDc80377ab07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "NewSome",
+      "tokenSymbol": "NEWSOME",
+      "tokenAddress": "0xE51fB6BC4679e466BFf2BB46C1b5B451584a3b07",
+      "imageUrl": "https://cdn.charms.ai/assets/avatars/candidates/e7c294ff-4845-4315-96d6-cdd21fac24d9/1780681699645-0e618fb9.jpg",
+      "createdAt": "2026-06-05 17:48:37",
+      "poolId": "0x44bf28a0af43079b13d0ecce1de9ac903be8ed2d085f9b4fdce14d4c27a53b35",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://cdn.charms.ai/assets/avatars/candidates/e7c294ff-4845-4315-96d6-cdd21fac24d9/1780681699645-0e618fb9.jpg",
+        "verified": false,
+        "operatorAddress": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x44bf28a0af43079b13d0ecce1de9ac903be8ed2d085f9b4fdce14d4c27a53b35",
+      "basescanUrl": "https://basescan.org/token/0xE51fB6BC4679e466BFf2BB46C1b5B451584a3b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Venice Agent",
+      "tokenSymbol": "AGENT",
+      "tokenAddress": "0x4A8F9031103c3376EFA67b1512ff823a6F12246C",
+      "imageUrl": "https://maroon-just-pig-513.mypinata.cloud/ipfs/bafkreich77blghs33zcyj2hvy6l6kueogjjw72pl7mbgz6dffkgzlmwvqm",
+      "createdAt": "2026-06-05 17:32:31",
+      "poolId": "0x05e554d57586daa04962d03b709f3c3792483f71e8e855af5f5dfde0af3abdfd",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://maroon-just-pig-513.mypinata.cloud/ipfs/bafkreich77blghs33zcyj2hvy6l6kueogjjw72pl7mbgz6dffkgzlmwvqm",
+        "verified": false,
+        "operatorAddress": "0x053707B201385AE3421D450A1FF272952D2D6971",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x053707B201385AE3421D450A1FF272952D2D6971",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x05e554d57586daa04962d03b709f3c3792483f71e8e855af5f5dfde0af3abdfd",
+      "basescanUrl": "https://basescan.org/token/0x4A8F9031103c3376EFA67b1512ff823a6F12246C",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "BullishPad",
+      "tokenSymbol": "BULLPAD",
+      "tokenAddress": "0x7b516450045EFf2Fb77DFa558DD0F5c9ac223b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie7i5pgoflvkpx7d6zobdi7jwigu2nhxagly3z4rkcpier6pvyuli",
+      "createdAt": "2026-06-05 17:32:23",
+      "poolId": "0x35f8ef4b148c4fd7403b78662595d6a66e44ceefb0ade18bf66efa7207ef2454",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie7i5pgoflvkpx7d6zobdi7jwigu2nhxagly3z4rkcpier6pvyuli",
+        "verified": false,
+        "operatorAddress": "0xAb70B3C6b14f0c9B661f0e380ced6dAB5d9086f7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xAb70B3C6b14f0c9B661f0e380ced6dAB5d9086f7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x35f8ef4b148c4fd7403b78662595d6a66e44ceefb0ade18bf66efa7207ef2454",
+      "basescanUrl": "https://basescan.org/token/0x7b516450045EFf2Fb77DFa558DD0F5c9ac223b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "AGENT HOUR",
+      "tokenSymbol": "AHOUR",
+      "tokenAddress": "0x89cc412567EA41Ff52311e7358C03eFCFaEb53D7",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 17:20:31",
+      "poolId": "0xfddddc5fb4e3117e8c3724d956fdad8b17e97a0d196b8edba9e7d1019f75b8d6",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xf80713Cc96374338575876C2A49E96519dfe54d2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xf80713Cc96374338575876C2A49E96519dfe54d2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfddddc5fb4e3117e8c3724d956fdad8b17e97a0d196b8edba9e7d1019f75b8d6",
+      "basescanUrl": "https://basescan.org/token/0x89cc412567EA41Ff52311e7358C03eFCFaEb53D7",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "The Goldman Sack",
+      "tokenSymbol": "SACK",
+      "tokenAddress": "0x676f8770426bD553995bcEcee543111a9201Cb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeifui5xeuda243l7wnodx3vln6cqqcos7vsjnpfvyd6an2q2xlzpde",
+      "createdAt": "2026-06-05 17:17:55",
+      "poolId": "0x80e40f23a2c0847f4c6e206481bbb7d312a437e9b8351fcb5b5055b50e47bd89",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeifui5xeuda243l7wnodx3vln6cqqcos7vsjnpfvyd6an2q2xlzpde",
+        "verified": false,
+        "operatorAddress": "0x637362225c98f43Cd23Cec0dc86B6cE8a120B300",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x637362225c98f43Cd23Cec0dc86B6cE8a120B300",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x80e40f23a2c0847f4c6e206481bbb7d312a437e9b8351fcb5b5055b50e47bd89",
+      "basescanUrl": "https://basescan.org/token/0x676f8770426bD553995bcEcee543111a9201Cb07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Zenith Network",
+      "tokenSymbol": "ZENITH",
+      "tokenAddress": "0xC177942adf38987387Bc97c292Ca8C308e827b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih4rvsjgd3w7epvviz4rmaabyjs4kedkknjo4fiqk2d6i7pbu5woq",
+      "createdAt": "2026-06-05 17:06:17",
+      "poolId": "0xd3ea0c83c29ee35035c9f6b987e5a7a566c3b400721357204f1dfe7c51acbd18",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih4rvsjgd3w7epvviz4rmaabyjs4kedkknjo4fiqk2d6i7pbu5woq",
+        "verified": false,
+        "operatorAddress": "0x06CAc92fB83D76185bF1c5FEa206332988C5BEF4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x06CAc92fB83D76185bF1c5FEa206332988C5BEF4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd3ea0c83c29ee35035c9f6b987e5a7a566c3b400721357204f1dfe7c51acbd18",
+      "basescanUrl": "https://basescan.org/token/0xC177942adf38987387Bc97c292Ca8C308e827b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "The Duck",
+      "tokenSymbol": "DUCK",
+      "tokenAddress": "0xe1c8e737f654ae8a9b54f691d4bc8a89f961bb07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 16:41:25",
+      "poolId": "0xf7be182b2e8d4768cbe8a5170e1f64087a02c5fc0fa5d922ef4a6418e9057cd5",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf7be182b2e8d4768cbe8a5170e1f64087a02c5fc0fa5d922ef4a6418e9057cd5",
+      "basescanUrl": "https://basescan.org/token/0xe1c8e737f654ae8a9b54f691d4bc8a89f961bb07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "MediQuest Token",
+      "tokenSymbol": "MEDQ",
+      "tokenAddress": "0x687Fe06236dC2a5E4Cfe1521F74e8e9ddfadFDd1",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780677099932-918f3b79-icon.png",
+      "createdAt": "2026-06-05 16:33:51",
+      "poolId": "0xd31b7a41041acf4d0b09340e64e32b4324c4af823431a249e3ebff943a2bc63b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780677099932-918f3b79-icon.png",
+        "verified": false,
+        "operatorAddress": "0x27116a6874F83d48080A6bf49C0a815BBa53E0DB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x27116a6874F83d48080A6bf49C0a815BBa53E0DB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd31b7a41041acf4d0b09340e64e32b4324c4af823431a249e3ebff943a2bc63b",
+      "basescanUrl": "https://basescan.org/token/0x687Fe06236dC2a5E4Cfe1521F74e8e9ddfadFDd1",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Nulify Bridge",
+      "tokenSymbol": "NULIFY",
+      "tokenAddress": "0xE2573aE7b15FEF987A4C38CfBF041db6f227eB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreicq5ynwfw4lkjg6lovdphpour4uzfvjsfglevviq5bnlssegvd4ym",
+      "createdAt": "2026-06-05 16:26:09",
+      "poolId": "0x281ec4127a935526c4dce77171dd371b77ffaa624c1d62a6777afc1df12ca617",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreicq5ynwfw4lkjg6lovdphpour4uzfvjsfglevviq5bnlssegvd4ym",
+        "verified": false,
+        "operatorAddress": "0x249c15413Fd92E569CDc765923A20f5e581b49c4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x249c15413Fd92E569CDc765923A20f5e581b49c4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x281ec4127a935526c4dce77171dd371b77ffaa624c1d62a6777afc1df12ca617",
+      "basescanUrl": "https://basescan.org/token/0xE2573aE7b15FEF987A4C38CfBF041db6f227eB07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Mei",
+      "tokenSymbol": "MEI",
+      "tokenAddress": "0xA787Ea1C47E75Fad00631Bcd36364c142a060b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigsnbmj63fyzdlf6honigaeape6owyxskfnwvuqvyn3cdfatawqey",
+      "createdAt": "2026-06-05 16:06:29",
+      "poolId": "0xc149ab448e6a4d78fee499e6e31e3fd35964b16c5d6b22f0813c1f64cce8ddae",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigsnbmj63fyzdlf6honigaeape6owyxskfnwvuqvyn3cdfatawqey",
+        "verified": false,
+        "operatorAddress": "0xC338Fd1983edC525A0a667dcd7d3b8F381Da95FB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC338Fd1983edC525A0a667dcd7d3b8F381Da95FB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc149ab448e6a4d78fee499e6e31e3fd35964b16c5d6b22f0813c1f64cce8ddae",
+      "basescanUrl": "https://basescan.org/token/0xA787Ea1C47E75Fad00631Bcd36364c142a060b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "MemeBattle Token",
+      "tokenSymbol": "MEBA",
+      "tokenAddress": "0xf0F2e9c8E3556c0A9757dEB4184Eb4Cdc678Cd67",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780674924478-be625fbd-icon.png",
+      "createdAt": "2026-06-05 16:01:31",
+      "poolId": "0xe7c3dc37fed13a029e4d042924eff4ffec0cb6d3b3d239930a515d93c57fa5f8",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780674924478-be625fbd-icon.png",
+        "verified": false,
+        "operatorAddress": "0x5Bf0276ADbBAC36e9E2fe4D7b84417D714017169",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5Bf0276ADbBAC36e9E2fe4D7b84417D714017169",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe7c3dc37fed13a029e4d042924eff4ffec0cb6d3b3d239930a515d93c57fa5f8",
+      "basescanUrl": "https://basescan.org/token/0xf0F2e9c8E3556c0A9757dEB4184Eb4Cdc678Cd67",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "VOOI Token",
+      "tokenSymbol": "VOOI",
+      "tokenAddress": "0xf097D4589f70019ae700282f3fAF20e3b8CB47dF",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780674847280-b314c476-icon.png",
+      "createdAt": "2026-06-05 15:58:49",
+      "poolId": "0xcc6e18fb10d3208fa5deee89b4ed8cade14c15d06482dc036a97bb136ed44343",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780674847280-b314c476-icon.png",
+        "verified": false,
+        "operatorAddress": "0x240a3Df57aAA7089e7d2E261F0D948A99F43C96a",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x240a3Df57aAA7089e7d2E261F0D948A99F43C96a",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcc6e18fb10d3208fa5deee89b4ed8cade14c15d06482dc036a97bb136ed44343",
+      "basescanUrl": "https://basescan.org/token/0xf097D4589f70019ae700282f3fAF20e3b8CB47dF",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "AUTONOMI",
+      "tokenSymbol": "AUTON",
+      "tokenAddress": "0x2ea8482c5CBfEb36414a2A69AE5c15F9F11D6B07",
+      "imageUrl": "https://pbs.twimg.com/media/HKD6XjCaAAAYwP9.jpg",
+      "createdAt": "2026-06-05 15:47:05",
+      "poolId": "0x96f160826a92388cbcea98f9b73ba571df7b8e89d44baa098a434b398de1c477",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pbs.twimg.com/media/HKD6XjCaAAAYwP9.jpg",
+        "verified": false,
+        "operatorAddress": "0xaA95bDe29c427680ffA4cEE6446f9384f5483edD",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xaA95bDe29c427680ffA4cEE6446f9384f5483edD",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x96f160826a92388cbcea98f9b73ba571df7b8e89d44baa098a434b398de1c477",
+      "basescanUrl": "https://basescan.org/token/0x2ea8482c5CBfEb36414a2A69AE5c15F9F11D6B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Orbperps",
+      "tokenSymbol": "ORB",
+      "tokenAddress": "0x5974d003DEA09F00c387F8C56635E8a645798b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibekxcb3ro652aoh2fe5f3cud6gc3sfvsihv4vkf2gyv32sfkwiky",
+      "createdAt": "2026-06-05 15:39:41",
+      "poolId": "0xfb5e08e2d880a88d0cd59d49765d06c6e2db3fc1aee777bab19701596e3b692f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibekxcb3ro652aoh2fe5f3cud6gc3sfvsihv4vkf2gyv32sfkwiky",
+        "verified": false,
+        "operatorAddress": "0x2D6f0018E39A5bFf4C2f08C88c338D14BBdAfCd8",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x2D6f0018E39A5bFf4C2f08C88c338D14BBdAfCd8",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfb5e08e2d880a88d0cd59d49765d06c6e2db3fc1aee777bab19701596e3b692f",
+      "basescanUrl": "https://basescan.org/token/0x5974d003DEA09F00c387F8C56635E8a645798b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Blue Terminal",
+      "tokenSymbol": "BLUE",
+      "tokenAddress": "0x0DFaB07FF6232f51909BaFd3B811e0f4BbB5FB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreic45k6gefbr6hyfd3kn4zyv7g5wxe6hy4s7drcnn2cgtf4iw7f5gi",
+      "createdAt": "2026-06-05 15:31:47",
+      "poolId": "0x1d65e2f330501b70fe245bd3818bace3f3d52f6bd673336b22d1a1750d772a32",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreic45k6gefbr6hyfd3kn4zyv7g5wxe6hy4s7drcnn2cgtf4iw7f5gi",
+        "verified": false,
+        "operatorAddress": "0xB6c0aeB051573BA55cF7c559184e8D6E98909a4C",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB6c0aeB051573BA55cF7c559184e8D6E98909a4C",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1d65e2f330501b70fe245bd3818bace3f3d52f6bd673336b22d1a1750d772a32",
+      "basescanUrl": "https://basescan.org/token/0x0DFaB07FF6232f51909BaFd3B811e0f4BbB5FB07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "ChainQuest Token",
+      "tokenSymbol": "CQT",
+      "tokenAddress": "0x1e692D6D9912b4d6D91a78b072272d96fFdF327c",
+      "imageUrl": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780673248734-bf6afa7e-icon.png",
+      "createdAt": "2026-06-05 15:28:51",
+      "poolId": "0xb75fbb5a9aeda20938ed61eb5f653c3eca6f7a0e5bdc617c51465a3fe09ac442",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780673248734-bf6afa7e-icon.png",
+        "verified": false,
+        "operatorAddress": "0xaB54C4f6636C62F7f7d6168950a840E4DBd6398C",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xaB54C4f6636C62F7f7d6168950a840E4DBd6398C",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb75fbb5a9aeda20938ed61eb5f653c3eca6f7a0e5bdc617c51465a3fe09ac442",
+      "basescanUrl": "https://basescan.org/token/0x1e692D6D9912b4d6D91a78b072272d96fFdF327c",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "GM Wallet",
+      "tokenSymbol": "GMWALLET",
+      "tokenAddress": "0x42308d6cD97e4C475e18Ccf8544984017880aB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiclmzrr22xqsetvb675ixrxnebzusfehchjhrr7knekem3syve6vy",
+      "createdAt": "2026-06-05 15:23:23",
+      "poolId": "0x1301f5a8640375756decc9b4d0e42431ab6213162b5af1ca507ef3c8345d8d05",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiclmzrr22xqsetvb675ixrxnebzusfehchjhrr7knekem3syve6vy",
+        "verified": false,
+        "operatorAddress": "0x1Cf8b4695bAA8BaB6cb4C5dba9703b1f0Ce2F72D",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x1Cf8b4695bAA8BaB6cb4C5dba9703b1f0Ce2F72D",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1301f5a8640375756decc9b4d0e42431ab6213162b5af1ca507ef3c8345d8d05",
+      "basescanUrl": "https://basescan.org/token/0x42308d6cD97e4C475e18Ccf8544984017880aB07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "AUREUS",
+      "tokenSymbol": "AURX",
+      "tokenAddress": "0xBAfc6e5Fe247C25f4B2B30BB66fc58b5C8365B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeigim2u25h7x3pc7u4wdv4j56x655jeynwdvgwpjcer6yjtxqzuw2m",
+      "createdAt": "2026-06-05 15:15:49",
+      "poolId": "0xb8895836ce158645a439d6e91afcfaeb36e8eea050ede8548fd74cd93cb5e81b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeigim2u25h7x3pc7u4wdv4j56x655jeynwdvgwpjcer6yjtxqzuw2m",
+        "verified": false,
+        "operatorAddress": "0x7fA3d9d3A8d6cAD96cC1e10CEd4E5c8cD794070F",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7fA3d9d3A8d6cAD96cC1e10CEd4E5c8cD794070F",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb8895836ce158645a439d6e91afcfaeb36e8eea050ede8548fd74cd93cb5e81b",
+      "basescanUrl": "https://basescan.org/token/0xBAfc6e5Fe247C25f4B2B30BB66fc58b5C8365B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "dogwifcollar",
+      "tokenSymbol": "dollar",
+      "tokenAddress": "0xab605bfb4d0417f1e0b3eb76507e1556a4e49b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 15:10:11",
+      "poolId": "0x4b85de1d9fc8c861c61dab3930ba065faeb9ece87f531e239d069c0d2b7caea2",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4b85de1d9fc8c861c61dab3930ba065faeb9ece87f531e239d069c0d2b7caea2",
+      "basescanUrl": "https://basescan.org/token/0xab605bfb4d0417f1e0b3eb76507e1556a4e49b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Savior of All Memes",
+      "tokenSymbol": "Micromeme",
+      "tokenAddress": "0x1b1d746e45a1a5d91409d018c47e9637323c6b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 15:05:25",
+      "poolId": "0x3a9a6bdf5ca90a3607a1603435fcd51825dabc74470c87e2264cee0783a7c015",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3a9a6bdf5ca90a3607a1603435fcd51825dabc74470c87e2264cee0783a7c015",
+      "basescanUrl": "https://basescan.org/token/0x1b1d746e45a1a5d91409d018c47e9637323c6b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Schema",
+      "tokenSymbol": "SCHEMA",
+      "tokenAddress": "0x18Ee9d41F165074647083Ba05Ad461A7df886B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiebf2yk47ckzb5zyzgrmgjj5zrvwrtp3zoqebujikifhrzsh46pha",
+      "createdAt": "2026-06-05 15:04:25",
+      "poolId": "0xf4c642c0b5c8bb7cf8fead36b38b2bcb4b822ce2b01b34ca05c6778b000c49c2",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiebf2yk47ckzb5zyzgrmgjj5zrvwrtp3zoqebujikifhrzsh46pha",
+        "verified": false,
+        "operatorAddress": "0xd24920A2783E7FE60AFcea0189Ecd2BFB396804c",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd24920A2783E7FE60AFcea0189Ecd2BFB396804c",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf4c642c0b5c8bb7cf8fead36b38b2bcb4b822ce2b01b34ca05c6778b000c49c2",
+      "basescanUrl": "https://basescan.org/token/0x18Ee9d41F165074647083Ba05Ad461A7df886B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Nigga Cash",
+      "tokenSymbol": "NEC",
+      "tokenAddress": "0x85ce7841a13d46d9c4fd24ecd5d700dbb6814b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 15:00:55",
+      "poolId": "0x839a0b2a9ce7a9c8bb42a1204bbca42e42e049591892c0a5657307e89fd9e20e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x839a0b2a9ce7a9c8bb42a1204bbca42e42e049591892c0a5657307e89fd9e20e",
+      "basescanUrl": "https://basescan.org/token/0x85ce7841a13d46d9c4fd24ecd5d700dbb6814b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "PotWars",
+      "tokenSymbol": "POT",
+      "tokenAddress": "0xb2a5BBbc98F02Fc5c41675718Eb76903E2D73B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigyavmg6l336xsluwuk7zzhivx7refwkczzrna7rpiuqfsrmvky7e",
+      "createdAt": "2026-06-05 14:59:57",
+      "poolId": "0xe9fe300af78e108b74292b1aa472ae4d2373b18d30dd232da9a56a40f2b1c9e0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigyavmg6l336xsluwuk7zzhivx7refwkczzrna7rpiuqfsrmvky7e",
+        "verified": false,
+        "operatorAddress": "0x5b0C8E7DbFeE2a4FC64e2E4A53615da42C4E1CC1",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5b0C8E7DbFeE2a4FC64e2E4A53615da42C4E1CC1",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe9fe300af78e108b74292b1aa472ae4d2373b18d30dd232da9a56a40f2b1c9e0",
+      "basescanUrl": "https://basescan.org/token/0xb2a5BBbc98F02Fc5c41675718Eb76903E2D73B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Margin Trade",
+      "tokenSymbol": "MARGIN",
+      "tokenAddress": "0xD9E2A1Bcf8C947FEA4609b6465758E9D07B0Ab07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihivrlj4hbpck6jul22y2tgg75dpn3by5y5qv24gzczqsascinduu",
+      "createdAt": "2026-06-05 14:57:29",
+      "poolId": "0x5b8e43c3eb5b25e9abbfb668857907ccea7e518346c7f2fb90371299d831d3b4",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihivrlj4hbpck6jul22y2tgg75dpn3by5y5qv24gzczqsascinduu",
+        "verified": false,
+        "operatorAddress": "0x7eBeCcD906aD5c490B4a95bDf5F87A1Ce05049eC",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7eBeCcD906aD5c490B4a95bDf5F87A1Ce05049eC",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5b8e43c3eb5b25e9abbfb668857907ccea7e518346c7f2fb90371299d831d3b4",
+      "basescanUrl": "https://basescan.org/token/0xD9E2A1Bcf8C947FEA4609b6465758E9D07B0Ab07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "USDinu",
+      "tokenSymbol": "USDinu",
+      "tokenAddress": "0x76ae67cc97ec8f6185e736cfc9d1fbdb4d4c0b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 14:56:25",
+      "poolId": "0x9eec6169e69c125ee0f30e3277ea83d678040fea42418ea31219d1d46247c72e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9eec6169e69c125ee0f30e3277ea83d678040fea42418ea31219d1d46247c72e",
+      "basescanUrl": "https://basescan.org/token/0x76ae67cc97ec8f6185e736cfc9d1fbdb4d4c0b07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Grailed GG",
+      "tokenSymbol": "GRAILED",
+      "tokenAddress": "0xdDF0965d359719c6824cDbe2F2634FcFe7C37B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidvynptzhisxnfnj74zdg27fqad3tg2ufrd6hedazvrvil2wawwya",
+      "createdAt": "2026-06-05 14:54:13",
+      "poolId": "0x29155d724a21a243d04f43df7fae266f906668e184fb6c27c14b0ca2f35c4486",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidvynptzhisxnfnj74zdg27fqad3tg2ufrd6hedazvrvil2wawwya",
+        "verified": false,
+        "operatorAddress": "0x34290F0004F9c1EE5F0A780e4F213d93121C8c87",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x34290F0004F9c1EE5F0A780e4F213d93121C8c87",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x29155d724a21a243d04f43df7fae266f906668e184fb6c27c14b0ca2f35c4486",
+      "basescanUrl": "https://basescan.org/token/0xdDF0965d359719c6824cDbe2F2634FcFe7C37B07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "Bingus",
+      "tokenSymbol": "Bingus",
+      "tokenAddress": "0x5def28500f0cd9a60826a93964268efdf91ceb07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 14:51:35",
+      "poolId": "0x5a90d956c7f084f453522b81bb7d1c19090fd504b839fc55ad4e6cfa6d0a8bfd",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5a90d956c7f084f453522b81bb7d1c19090fd504b839fc55ad4e6cfa6d0a8bfd",
+      "basescanUrl": "https://basescan.org/token/0x5def28500f0cd9a60826a93964268efdf91ceb07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "ShitThatOnlyCooksKeepsSending",
+      "tokenSymbol": "STOCKS",
+      "tokenAddress": "0x100c3fcbdfc5563f0c88d164624db53f2470ab07",
+      "imageUrl": null,
+      "createdAt": "2026-06-05 14:46:53",
+      "poolId": "0xfd28d2979df737d7cfddb15aab97723781847e5ad062ea694c829ee1f277a274",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfd28d2979df737d7cfddb15aab97723781847e5ad062ea694c829ee1f277a274",
+      "basescanUrl": "https://basescan.org/token/0x100c3fcbdfc5563f0c88d164624db53f2470ab07",
+      "source": "clanker"
+    },
+    {
+      "tokenName": "The Polude Market",
+      "tokenSymbol": "polude",
+      "tokenAddress": "0x7425d876B5991c8C76435736Ec37A00352C66B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaiqyogehyhdo7fwmeodyrwv62bqoeagtwxlkuguvwzmbj7p6pgqq",
+      "createdAt": "2026-06-05 14:39:35",
+      "poolId": "0x7414aed4edab67e95ba43d706c17b23de4e3e53f5343a22be631e30c5eef07f1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaiqyogehyhdo7fwmeodyrwv62bqoeagtwxlkuguvwzmbj7p6pgqq",
+        "verified": false,
+        "operatorAddress": "0x62E1Ec4F2A8F6f48dbB304363bD6bA21e820e3d7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x62E1Ec4F2A8F6f48dbB304363bD6bA21e820e3d7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7414aed4edab67e95ba43d706c17b23de4e3e53f5343a22be631e30c5eef07f1",
+      "basescanUrl": "https://basescan.org/token/0x7425d876B5991c8C76435736Ec37A00352C66B07",
+      "source": "clanker"
+    },
     {
       "tokenName": "APU",
       "tokenSymbol": "APU",
@@ -3472,6 +4432,26 @@
       "source": "clanker"
     },
     {
+      "tokenName": "bby",
+      "tokenSymbol": "BBYZ",
+      "tokenAddress": "0xc31259a5F9249EA56Cc59D47798b96a980696b07",
+      "imageUrl": "https://cdn.charms.ai/assets/avatars/candidates/5e450f1d-7a7b-4cd7-a39e-95f0832c2bda/1780623741143-8497a890.jpg",
+      "createdAt": "2026-06-05 01:43:05",
+      "poolId": "0xb328085c9968476c6b93eaa99732585d0406dd80362269d597c00c375064881c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://cdn.charms.ai/assets/avatars/candidates/5e450f1d-7a7b-4cd7-a39e-95f0832c2bda/1780623741143-8497a890.jpg",
+        "verified": false,
+        "operatorAddress": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb328085c9968476c6b93eaa99732585d0406dd80362269d597c00c375064881c",
+      "basescanUrl": "https://basescan.org/token/0xc31259a5F9249EA56Cc59D47798b96a980696b07",
+      "source": "clanker"
+    },
+    {
       "tokenName": "Yidam",
       "tokenSymbol": "YIDAM",
       "tokenAddress": "0xaea4B121f9646b68c4098Bd1eB1EeFd0FE3a5753",
@@ -4303,7 +5283,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/yama.png",
         "verified": false,
-        "operatorAddress": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
@@ -4323,7 +5303,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/gullveig.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4343,7 +5323,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/modgud.png",
         "verified": false,
-        "operatorAddress": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
@@ -4363,7 +5343,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nastrond.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4383,7 +5363,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/naglfar.png",
         "verified": false,
-        "operatorAddress": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
@@ -4403,7 +5383,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/garm.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4423,7 +5403,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/utukku.png",
         "verified": false,
-        "operatorAddress": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
@@ -4443,7 +5423,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/pazuzu.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4463,7 +5443,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/irkalla.png",
         "verified": false,
-        "operatorAddress": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
@@ -4483,7 +5463,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/eurynomos.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4503,7 +5483,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/charybdis.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4543,7 +5523,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/rhadamanth.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4563,7 +5543,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/ixion.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4583,7 +5563,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/tantalos.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4603,7 +5583,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/phlegyas.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4623,7 +5603,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/hecate.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4643,7 +5623,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/charon.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4663,7 +5643,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nephthys.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4683,7 +5663,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/aker.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4703,7 +5683,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/khenti.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4723,7 +5703,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/ammit.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4743,7 +5723,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/sokaris.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4763,7 +5743,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/aither.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4803,7 +5783,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/namtar.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4823,7 +5803,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/edimmu.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4843,7 +5823,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/abzu.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4863,7 +5843,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/ereshkigal.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4883,7 +5863,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nergal.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4923,7 +5903,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/threnody.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4943,7 +5923,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/psychopomp.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4963,7 +5943,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/barathrum.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -4983,7 +5963,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/obolus.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5003,7 +5983,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/eidolon.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5023,7 +6003,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/ananke.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5043,7 +6023,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/katabasis.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5063,7 +6043,7 @@
         "handle": null,
         "image": "https://cdn.charms.ai/assets/avatars/candidates/471d1655-1e60-4af8-b318-88872d178c68/1780621077171-6798d31c.jpg",
         "verified": false,
-        "operatorAddress": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
@@ -5143,7 +6123,7 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiheqpfdq4ulvrnpxzepurmbtyojxpf3oimlb25hdxkhuzggzoo2wm",
         "verified": false,
-        "operatorAddress": "0xb951DE8C3241687eeF43d27EB06E52af95114158",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xb951DE8C3241687eeF43d27EB06E52af95114158",
@@ -5183,7 +6163,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/muspell.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5203,7 +6183,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/ginnunga.png",
         "verified": false,
-        "operatorAddress": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB17fb3A034087b011545a15edE4B8b961BF84806",
@@ -5243,7 +6223,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/niflheim.png",
         "verified": false,
-        "operatorAddress": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
@@ -5263,7 +6243,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/helheimr.png",
         "verified": false,
-        "operatorAddress": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
@@ -5283,7 +6263,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/jormungr.png",
         "verified": false,
-        "operatorAddress": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
@@ -5303,7 +6283,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/fenrisul.png",
         "verified": false,
-        "operatorAddress": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
@@ -5323,7 +6303,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nidhogg.png",
         "verified": false,
-        "operatorAddress": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
@@ -5343,7 +6323,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/svartalf.png",
         "verified": false,
-        "operatorAddress": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xE78DA1f3A55FB5d359ddcBC10866c0E3cFAeEa7e",
@@ -5363,7 +6343,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/dispater.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5403,7 +6383,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/orcus.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5423,7 +6403,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/cocalus.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5443,7 +6423,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/geryon.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5463,7 +6443,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/echidna.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5483,7 +6463,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/typhonic.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5503,7 +6483,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/mormo.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5523,7 +6503,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/lamiae.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5543,7 +6523,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/empusa.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5583,7 +6563,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/keres.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5603,7 +6583,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/melinoe.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5623,7 +6603,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/hypnose.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5643,7 +6623,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/phobetor.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5663,7 +6643,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nepenthe.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5683,7 +6663,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/achlys.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5703,7 +6683,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/cimmeria.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5723,7 +6703,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/obsidiane.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5763,7 +6743,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/azothic.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5783,7 +6763,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/abraxas.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5823,7 +6803,7 @@
         "handle": null,
         "image": "https://cdn.charms.ai/assets/avatars/candidates/471d1655-1e60-4af8-b318-88872d178c68/1780619074830-ea3add85.jpg",
         "verified": false,
-        "operatorAddress": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x3879B1Ee8389FfeFb7afd51b1bafb9fAF23d6699",
@@ -5843,7 +6823,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/morrigan.png",
         "verified": false,
-        "operatorAddress": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xafd8dABE75cD7f9745A59Dc750A1fe174Aba84b0",
@@ -5863,7 +6843,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/feralis.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5883,7 +6863,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/caligo.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5903,7 +6883,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nocturne.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5923,7 +6903,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/somnium.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5943,7 +6923,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/nullithe.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5963,7 +6943,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/tartarean.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -5983,7 +6963,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/avernus.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6003,7 +6983,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/phlegethon.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6023,7 +7003,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/voidwrought.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6043,7 +7023,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/dreadmaw.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6063,7 +7043,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/netherwake.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6083,7 +7063,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/gloamworm.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6103,7 +7083,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/umbralis.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6143,7 +7123,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/sporangia.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6163,7 +7143,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/ichorine.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6183,7 +7163,7 @@
         "handle": null,
         "image": "https://raw.githubusercontent.com/lordbasilaiassistant-sudo/vanity-token-media/main/media/tenebrae.png",
         "verified": false,
-        "operatorAddress": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x5f644a130e7e14cfE81c023EC987376263dc9384",
@@ -6283,7 +7263,7 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiecq3zc4nrkygvztfcrnp2qzcyqtiqbkmtmphberoxophdjm6wpbm",
         "verified": false,
-        "operatorAddress": "0xB88BfDB990c53e0f39bfDf3fD0A56e23c049abA0",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xB88BfDB990c53e0f39bfDf3fD0A56e23c049abA0",
@@ -6383,7 +7363,7 @@
         "handle": null,
         "image": "https://pub-2fb244e19fde48759a9cc4dfb18ababf.r2.dev/1780615779040-ae3794ab-icon.png",
         "verified": false,
-        "operatorAddress": "0x9e00C73371A14037dFB0612c3d5e37Ae9d414697",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x9e00C73371A14037dFB0612c3d5e37Ae9d414697",
@@ -6423,7 +7403,7 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibzjggqdwc67pffglgau4aar2rajxw6ntxvpdv3gjj54f65mdslu4",
         "verified": false,
-        "operatorAddress": "0xd6c3A34d41203350112A0C384D33dcE5F9FfD2cd",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xd6c3A34d41203350112A0C384D33dcE5F9FfD2cd",
@@ -6483,7 +7463,7 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihsypgusre6hcgk62vjkqeta2ourzc22lxl664depkbuz5kythkey",
         "verified": false,
-        "operatorAddress": "0xF34D29dFd7b8F61A3C4163Bd6cF8243C368656AD",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xF34D29dFd7b8F61A3C4163Bd6cF8243C368656AD",
@@ -6523,7 +7503,7 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihfuzhvwq3hgu3dtfdh3scl7rwzyw4a5joxblon67war56sfa3qry",
         "verified": false,
-        "operatorAddress": "0x752AFE38fF4635655407294cFbD2EA5e20Eac7e2",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x752AFE38fF4635655407294cFbD2EA5e20Eac7e2",
@@ -6563,7 +7543,7 @@
         "handle": null,
         "image": "https://ipfs.io/ipfs/QmSnHLAe9bkZvGnNjNVqepUFESvkqGDseWamLW8uV9LQE",
         "verified": false,
-        "operatorAddress": "0x0e5aE48Fe4957923598456B457Dd8e5e22853176",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x0e5aE48Fe4957923598456B457Dd8e5e22853176",
@@ -6583,7 +7563,7 @@
         "handle": null,
         "image": "https://ipfs.io/ipfs/QmSnHLAe9bkZvGnNjNVqepUFESvkqGDseWamLW8uV9LQE",
         "verified": false,
-        "operatorAddress": "0x0e5aE48Fe4957923598456B457Dd8e5e22853176",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x0e5aE48Fe4957923598456B457Dd8e5e22853176",
@@ -6623,7 +7603,7 @@
         "handle": null,
         "image": "https://ipfs.io/ipfs/QmSnHLAe9bkZvGnNjNVqepUFESvkqGDseWamLW8uV9LQE",
         "verified": false,
-        "operatorAddress": "0x1A8F7ED57F5E8b000DB25eFf647aed0590d83a0b",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x1A8F7ED57F5E8b000DB25eFf647aed0590d83a0b",
@@ -6643,7 +7623,7 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifrybyc4d5h63uhl4l2rkic276faspwggynmopmgfkpuzom3y3rma",
         "verified": false,
-        "operatorAddress": "0x4FC657A623411B8420BD6cbb78bBc7903d4E4e78",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x4FC657A623411B8420BD6cbb78bBc7903d4E4e78",
