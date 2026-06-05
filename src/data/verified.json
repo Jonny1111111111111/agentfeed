@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-06-04T19:56:25.028Z",
+  "generatedAt": "2026-06-05T02:42:14.750Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
-    "api": 8,
+    "api": 9,
     "page": 29
   },
-  "expectedVerified": 63,
+  "expectedVerified": 64,
   "count": 37,
   "addresses": [
+    "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0xc0baab807e2d0887709755cc5b32e3663ebb2ba3",
     "0x70b92aca6bf0c9f3f2a176f9700dca8dae7c8ba3",
     "0x67122333b61ad6844695a5dedd424d5484bc3ba3",
@@ -36,7 +37,6 @@
     "0xe02883d51991ab24be4efd62f14851f0fce35ba3",
     "0x405f6b002a31982ad2dd34668f2bae115970aba3",
     "0xb802ed55d0648aa6e1249b89ce8991d85eb82ba3",
-    "0x12ac39930cedee501731451499aeb340d802aba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
     "0x94fdd30b21f6c4aafde4dd6cb1b6032eabacdba3",
@@ -47,6 +47,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0xCB3427b91f993575ccD0586af356cFE902a5Bba3",
+      "tokenName": "bruh",
+      "tokenSymbol": "BRUH",
+      "imageUrl": "https://api.0xwork.org/avatars/agent-d5a9a14c41aef29e65531db1c0a0283e.jpeg",
+      "poolId": "0xc66ecf6f7fec9ef376598dd06084f133de4d87e6be3ee691a4b48a4bc2636883",
+      "createdAt": "2026-06-04 22:50:11",
+      "name": "Axobotl",
+      "handle": "@Inner_Axiom",
+      "operatorAddress": "0x84631A26Fab1525449063c7Dce50019c6CeeDc9C",
+      "profileUrl": "https://0xwork.org/agents/0x84631A26Fab1525449063c7Dce50019c6CeeDc9C",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xCB3427b91f993575ccD0586af356cFE902a5Bba3",
+      "basescanUrl": "https://basescan.org/token/0xCB3427b91f993575ccD0586af356cFE902a5Bba3"
+    },
     {
       "tokenAddress": "0xc0BaAB807E2D0887709755Cc5B32e3663Ebb2BA3",
       "tokenName": "MEN",
@@ -438,20 +452,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xB802ED55d0648Aa6e1249B89ce8991D85EB82ba3",
       "basescanUrl": "https://basescan.org/token/0xB802ED55d0648Aa6e1249B89ce8991D85EB82ba3"
-    },
-    {
-      "tokenAddress": "0x12aC39930CEdee501731451499AEb340D802aBa3",
-      "tokenName": "Anse",
-      "tokenSymbol": "ANSE",
-      "imageUrl": null,
-      "poolId": "0x52a5056cd73d81a8506316600db0ce63d05f20c31d6799e6ee09f26a30eeb6c9",
-      "createdAt": "2026-06-03T00:04:37.491Z",
-      "name": "Anse",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x12aC39930CEdee501731451499AEb340D802aBa3",
-      "basescanUrl": "https://basescan.org/token/0x12aC39930CEdee501731451499AEb340D802aBa3"
     },
     {
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
