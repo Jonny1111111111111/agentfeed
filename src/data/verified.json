@@ -1,13 +1,16 @@
 {
-  "generatedAt": "2026-06-06T13:14:53.911Z",
+  "generatedAt": "2026-06-06T19:08:33.642Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
     "page": 28
   },
-  "expectedVerified": 68,
+  "expectedVerified": 70,
   "count": 36,
   "addresses": [
+    "0x8e39c577efafa80aab55b97771eae95959601ba3",
+    "0xa44fec594562b31f2d1f0a9cb39d3d0a272aeba3",
+    "0x7a517991af7c83ff112747286d43d0bd12ef1ba3",
     "0x92ea54dfc3e9a43bead6d06115f20d9ecb45aba3",
     "0x36d6155590841827ef3bb4aa3409283167ca7ba3",
     "0x5ba712150ee2ea2b434aef85e15a04ef8d90bba3",
@@ -33,9 +36,6 @@
     "0x9080582d38b023282f5e7f3205732f6067481ba3",
     "0x5f1ac307b7336ccb584f34d26ff2dac0b7322ba3",
     "0x7b7cddb16703d58a535ff87a5210e868ac14cba3",
-    "0x1dc31725359fe2e86161f41d7da3f7297849bba3",
-    "0x6a664ffd06fe29a44edff541e7a06940c6349ba3",
-    "0x30bf9f89ca0932179181222ed8ca535c7e119ba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
     "0x94fdd30b21f6c4aafde4dd6cb1b6032eabacdba3",
@@ -46,6 +46,48 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x8e39c577eFAfA80aaB55B97771EaE95959601BA3",
+      "tokenName": "Nucho",
+      "tokenSymbol": "NUCHO",
+      "imageUrl": null,
+      "poolId": "0xc5ec9da757d54858d7dcb4805a2b9198f23e3d5758c04cee5f16662124b9eb10",
+      "createdAt": "2026-06-06T18:27:25.427Z",
+      "name": "Nucho",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8e39c577eFAfA80aaB55B97771EaE95959601BA3",
+      "basescanUrl": "https://basescan.org/token/0x8e39c577eFAfA80aaB55B97771EaE95959601BA3"
+    },
+    {
+      "tokenAddress": "0xa44FEc594562B31F2D1F0A9CB39D3d0a272aeBa3",
+      "tokenName": "Ole",
+      "tokenSymbol": "OLE",
+      "imageUrl": null,
+      "poolId": "0x023246fed560a63a17556366a895dccc2a1bc4f3d823ea7ad28437457348f3b1",
+      "createdAt": "2026-06-06T16:15:01.495Z",
+      "name": "Ole",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa44FEc594562B31F2D1F0A9CB39D3d0a272aeBa3",
+      "basescanUrl": "https://basescan.org/token/0xa44FEc594562B31F2D1F0A9CB39D3d0a272aeBa3"
+    },
+    {
+      "tokenAddress": "0x7A517991aF7c83Ff112747286d43d0BD12Ef1ba3",
+      "tokenName": "Guffi",
+      "tokenSymbol": "GUFFI",
+      "imageUrl": null,
+      "poolId": "0xa6d1be39bd20ee29efbca59cf4a07a994d880fe6c5d7b3f3433e31ac49419f67",
+      "createdAt": "2026-06-06T14:13:01.645Z",
+      "name": "Guffi",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7A517991aF7c83Ff112747286d43d0BD12Ef1ba3",
+      "basescanUrl": "https://basescan.org/token/0x7A517991aF7c83Ff112747286d43d0BD12Ef1ba3"
+    },
     {
       "tokenAddress": "0x92EA54dfc3e9A43BeAD6D06115f20d9Ecb45abA3",
       "tokenName": "Brielle",
@@ -395,48 +437,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x7B7CddB16703D58A535FF87a5210E868aC14cBA3",
       "basescanUrl": "https://basescan.org/token/0x7B7CddB16703D58A535FF87a5210E868aC14cBA3"
-    },
-    {
-      "tokenAddress": "0x1dc31725359fE2E86161F41D7DA3F7297849bBA3",
-      "tokenName": "Dome",
-      "tokenSymbol": "DOME",
-      "imageUrl": null,
-      "poolId": "0x579658f6b1493207d23e89dcfa84d4f10cb4f6a17676844a70f280495e5114de",
-      "createdAt": "2026-06-03T15:54:45.772Z",
-      "name": "Dome",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1dc31725359fE2E86161F41D7DA3F7297849bBA3",
-      "basescanUrl": "https://basescan.org/token/0x1dc31725359fE2E86161F41D7DA3F7297849bBA3"
-    },
-    {
-      "tokenAddress": "0x6A664fFD06fE29A44EDFf541e7A06940C6349bA3",
-      "tokenName": "Dura",
-      "tokenSymbol": "DURA",
-      "imageUrl": null,
-      "poolId": "0xe5715937eaa392240c73a2921a8486a1626b5c2b04c3b104e50c62ad5d97098d",
-      "createdAt": "2026-06-03T14:03:37.712Z",
-      "name": "Dura",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x6A664fFD06fE29A44EDFf541e7A06940C6349bA3",
-      "basescanUrl": "https://basescan.org/token/0x6A664fFD06fE29A44EDFf541e7A06940C6349bA3"
-    },
-    {
-      "tokenAddress": "0x30bF9F89ca0932179181222ed8cA535C7E119ba3",
-      "tokenName": "FINANCE",
-      "tokenSymbol": "FINANCE",
-      "imageUrl": null,
-      "poolId": "0x9f54470550c9b1e7c8e99ede61654abe69f4e5441d228590ef1fa4aa8b57d001",
-      "createdAt": "2026-06-03T12:09:03.703Z",
-      "name": "FINANCE",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x30bF9F89ca0932179181222ed8cA535C7E119ba3",
-      "basescanUrl": "https://basescan.org/token/0x30bF9F89ca0932179181222ed8cA535C7E119ba3"
     },
     {
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
