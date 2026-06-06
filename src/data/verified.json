@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T19:44:24.686Z",
+  "generatedAt": "2026-06-06T02:29:45.068Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
@@ -8,6 +8,7 @@
   "expectedVerified": 68,
   "count": 36,
   "addresses": [
+    "0x92ea54dfc3e9a43bead6d06115f20d9ecb45aba3",
     "0x36d6155590841827ef3bb4aa3409283167ca7ba3",
     "0x5ba712150ee2ea2b434aef85e15a04ef8d90bba3",
     "0x000dc7e310a7f3707adad949904959bfc2945ba3",
@@ -35,7 +36,6 @@
     "0x1dc31725359fe2e86161f41d7da3f7297849bba3",
     "0x6a664ffd06fe29a44edff541e7a06940c6349ba3",
     "0x30bf9f89ca0932179181222ed8ca535c7e119ba3",
-    "0xa8851050d43e81b2b8b0ff872251a23caa17eba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
     "0x94fdd30b21f6c4aafde4dd6cb1b6032eabacdba3",
@@ -46,6 +46,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x92EA54dfc3e9A43BeAD6D06115f20d9Ecb45abA3",
+      "tokenName": "Brielle",
+      "tokenSymbol": "BRIELLE",
+      "imageUrl": "https://api.0xwork.org/token-images/59dd866a-810d-482c-a12f-c2e8e710ee01.png",
+      "poolId": "0x62d7b1d889cd12dd43234a5ebe0a0a7b77bc8a97f9d6c972b52d77315fdc5e0a",
+      "createdAt": "2026-06-06T02:07:53.497Z",
+      "name": "Brielle",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x92EA54dfc3e9A43BeAD6D06115f20d9Ecb45abA3",
+      "basescanUrl": "https://basescan.org/token/0x92EA54dfc3e9A43BeAD6D06115f20d9Ecb45abA3"
+    },
     {
       "tokenAddress": "0x36d6155590841827ef3bb4aa3409283167Ca7BA3",
       "tokenName": "Firewolf",
@@ -423,20 +437,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x30bF9F89ca0932179181222ed8cA535C7E119ba3",
       "basescanUrl": "https://basescan.org/token/0x30bF9F89ca0932179181222ed8cA535C7E119ba3"
-    },
-    {
-      "tokenAddress": "0xA8851050D43e81B2b8b0Ff872251a23caa17eBA3",
-      "tokenName": "Pump",
-      "tokenSymbol": "PUMP",
-      "imageUrl": null,
-      "poolId": "0x5ac1f84fce5ec0e4f4317daa8c965b4f326292def7d96ce1d1645256daf6d0db",
-      "createdAt": "2026-06-03T10:47:43.548Z",
-      "name": "Pump",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xA8851050D43e81B2b8b0Ff872251a23caa17eBA3",
-      "basescanUrl": "https://basescan.org/token/0xA8851050D43e81B2b8b0Ff872251a23caa17eBA3"
     },
     {
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
