@@ -547,14 +547,17 @@ export default function AgentFeed() {
       (agentLabel(t) || "").toLowerCase().includes(q);
     const maxAge = { "24h": 1, "7d": 7, "30d": 30, all: Infinity }[timeFilter];
     const inWindow = (t) => daysSince(t.createdAt) <= maxAge;
-    // Only show tokens with real 24h volume from DEXScreener — hide anything with
-    // no market data or volume 0 (so the list is live, tradeable tokens only).
-    const hasVolume = (t) => (t.market?.volume24h || 0) > 0;
+    // Show every token until DEXScreener has actually answered for it; only hide a
+    // token once its data is in AND volume is 0. `t.market` is undefined until a
+    // successful fetch covers the token (real data or a no-pool stub), so unfetched
+    // tokens stay visible immediately from launches.json — never hidden for missing
+    // market data, only for a confirmed zero.
+    const showByVolume = (t) => !t.market || (t.market.volume24h || 0) > 0;
     // Sort by fees (direction from the FEES header), newest-first as the tiebreak.
     const dir = feesSortDesc ? 1 : -1;
     const key = (t) => t.fees || 0;
     return [...tokens]
-      .filter((t) => matches(t) && inWindow(t) && hasVolume(t))
+      .filter((t) => matches(t) && inWindow(t) && showByVolume(t))
       .sort((a, b) => dir * (key(b) - key(a)) || Date.parse(b.createdAt) - Date.parse(a.createdAt));
   }, [tokens, q, timeFilter, feesSortDesc]);
 

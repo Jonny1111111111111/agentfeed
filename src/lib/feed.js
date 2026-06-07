@@ -195,10 +195,19 @@ export async function resolveTokenMeta(tokenAddress) {
  * summed across that token's pools. Returns an object keyed by lowercase address.
  * Individual batch failures are tolerated so one bad chunk doesn't blank the board.
  */
+// A no-pool stub recorded for an address that a SUCCESSFUL DEXScreener response
+// returned no pair for — i.e. "fetched and confirmed no/zero volume". Distinct
+// from a token we simply haven't fetched yet (whose `market` stays undefined),
+// so the UI can keep unfetched tokens visible and only hide confirmed-zero ones.
+const NO_POOL_MARKET = { hasPool: false, volume24h: 0, liquidityUsd: 0, txns24h: 0, priceUsd: 0, priceChange24h: 0 };
+
 // Fetch + aggregate a single ≤30-address batch into per-token market objects
 // (keyed by lowercase address). A token's pools all come back in its own batch
 // (we query by token address), so per-batch aggregation is complete and safe to
-// emit progressively. Returns {} on a failed/empty batch (tolerated, not thrown).
+// emit progressively. On a SUCCESSFUL response every requested address gets an
+// entry (real data or a no-pool stub) so callers can tell "confirmed zero" from
+// "not fetched". Returns {} only on a failed batch (network/HTTP), so those
+// tokens stay unfetched and visible rather than being wrongly marked zero.
 async function fetchMarketBatch(batch) {
   let json;
   try {
@@ -235,6 +244,12 @@ async function fetchMarketBatch(batch) {
       dexId: primary.dexId,
       imageUrl: primary.info?.imageUrl || null, // token image from DEXScreener
     };
+  }
+  // Response succeeded → mark every requested address we got no pair for as a
+  // confirmed no-pool token (so it can be filtered out, but only now, not before).
+  for (const addr of batch) {
+    const lc = addr.toLowerCase();
+    if (!out[lc]) out[lc] = NO_POOL_MARKET;
   }
   return out;
 }
