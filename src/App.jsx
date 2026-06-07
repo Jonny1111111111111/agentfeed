@@ -429,10 +429,12 @@ export default function AgentFeed() {
         return;
       }
       try {
-        // Newest-first matches the default (unpriced) list order, so the rows the
-        // user sees first get their market data first.
+        // Fetch curated (0xWork / Bankr) tokens first, then newest-first, so the
+        // smaller always-shown platforms get their fees/volume alongside Clanker
+        // rather than waiting at the back of the queue.
+        const curated = (t) => t.is0xWork || t.source === "onchain-hook" || t.source === "token-forge";
         const addrs = [...tokensRef.current]
-          .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
+          .sort((a, b) => curated(b) - curated(a) || Date.parse(b.createdAt) - Date.parse(a.createdAt))
           .map((t) => t.tokenAddress);
         // Lazy-load in the background: 30 tokens per batch, 300ms between batches,
         // applying + caching each batch as it lands. Never blocks first paint —
@@ -548,12 +550,15 @@ export default function AgentFeed() {
       (agentLabel(t) || "").toLowerCase().includes(q);
     const maxAge = { "24h": 1, "7d": 7, "30d": 30, all: Infinity }[timeFilter];
     const inWindow = (t) => daysSince(t.createdAt) <= maxAge;
-    // Show every token until DEXScreener has actually answered for it; only hide a
-    // token once its data is in AND volume is 0. `t.market` is undefined until a
-    // successful fetch covers the token (real data or a no-pool stub), so unfetched
-    // tokens stay visible immediately from launches.json — never hidden for missing
-    // market data, only for a confirmed zero.
-    const showByVolume = (t) => !t.market || (t.market.volume24h || 0) > 0;
+    // Curated sources always show so all three platforms appear together: 0xWork
+    // (verified) and Bankr (the shared launch hook: onchain-hook / token-forge).
+    // The zero-volume filter only prunes the Clanker firehose (706k tokens, where
+    // signal matters). For Clanker, show until DEXScreener answers, then hide only
+    // a confirmed zero (`t.market` stays undefined until a successful fetch covers
+    // it, so it's visible immediately from launches.json — never hidden for merely
+    // missing data).
+    const isCurated = (t) => t.is0xWork || t.source === "onchain-hook" || t.source === "token-forge";
+    const showByVolume = (t) => isCurated(t) || !t.market || (t.market.volume24h || 0) > 0;
     // Sort by fees (direction from the FEES header), newest-first as the tiebreak.
     const dir = feesSortDesc ? 1 : -1;
     const key = (t) => t.fees || 0;
