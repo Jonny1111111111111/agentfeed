@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-06-07T02:48:21.583Z",
+  "generatedAt": "2026-06-07T08:47:27.224Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
     "page": 26
   },
-  "expectedVerified": 66,
+  "expectedVerified": 64,
   "count": 34,
   "addresses": [
+    "0x8a949761997858deedbca0e3103073cefd554ba3",
     "0x682ba220566faaa8b272f7b315d6fc6e57ee3ba3",
     "0xa81fabf242b5c32d1433fcde06c1193217732ba3",
     "0x538c305d578f5632c377b49aa1918f6f18f6eba3",
@@ -33,7 +34,6 @@
     "0xf36bd9788566ed2a42c1a0234674344a1a607ba3",
     "0x56715bcf9701959fd9ae840782ea0fecf9c98ba3",
     "0xb8bb86a874e49082b4adee836208aa98cb370ba3",
-    "0x3c7483bc8193e539ea5738202427df4b36877ba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
     "0x94fdd30b21f6c4aafde4dd6cb1b6032eabacdba3",
@@ -44,6 +44,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x8A949761997858dEEdBcA0E3103073cEfD554BA3",
+      "tokenName": "MemPalace",
+      "tokenSymbol": "MEMPALAC",
+      "imageUrl": null,
+      "poolId": "0xb195585abc94396a4c17451e2a2f7469f9eb3f66fc99f3d4d586e7beb4cc295e",
+      "createdAt": "2026-06-07T06:11:35.534Z",
+      "name": "MemPalace",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8A949761997858dEEdBcA0E3103073cEfD554BA3",
+      "basescanUrl": "https://basescan.org/token/0x8A949761997858dEEdBcA0E3103073cEfD554BA3"
+    },
     {
       "tokenAddress": "0x682bA220566FAAa8b272f7B315D6Fc6E57eE3bA3",
       "tokenName": "World kup",
@@ -393,20 +407,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xB8Bb86a874E49082b4aDeE836208Aa98CB370bA3",
       "basescanUrl": "https://basescan.org/token/0xB8Bb86a874E49082b4aDeE836208Aa98CB370bA3"
-    },
-    {
-      "tokenAddress": "0x3C7483bc8193e539EA5738202427dF4B36877ba3",
-      "tokenName": "Posel",
-      "tokenSymbol": "POSEL",
-      "imageUrl": null,
-      "poolId": "0xd87f8978c14af1859261febe62725d1433f38edf7acfc4dbb0e536ecc240d5fa",
-      "createdAt": "2026-06-03T17:08:55.656Z",
-      "name": "Posel",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3C7483bc8193e539EA5738202427dF4B36877ba3",
-      "basescanUrl": "https://basescan.org/token/0x3C7483bc8193e539EA5738202427dF4B36877ba3"
     },
     {
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
