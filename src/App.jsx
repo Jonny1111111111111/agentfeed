@@ -6,6 +6,7 @@ import {
   fetchNewLaunches,
   resolveTokenMeta,
   fetchMarkets,
+  fetchMarketsProgressive,
   computeFees,
   fmtUsd,
   fmtNum,
@@ -404,8 +405,16 @@ export default function AgentFeed() {
     let cancelled = false;
     (async () => {
       try {
-        const markets = await fetchMarkets(tokensRef.current.map((t) => t.tokenAddress));
-        if (!cancelled) applyMarkets(markets);
+        // Newest-first: the default view sorts unpriced tokens by recency, so the
+        // tokens visible at the top of the list get their prices first.
+        const addrs = [...tokensRef.current]
+          .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
+          .map((t) => t.tokenAddress);
+        // Progressive: paint each 30-token batch as it arrives instead of waiting
+        // for the whole ~478-token sweep (which made first load take ~1 min / stall).
+        await fetchMarketsProgressive(addrs, (partial) => {
+          if (!cancelled) applyMarkets(partial);
+        });
       } catch {
         /* retry on next poll */
       }
@@ -510,6 +519,13 @@ export default function AgentFeed() {
       .sort((a, b) => dir * (key(b) - key(a)) || Date.parse(b.createdAt) - Date.parse(a.createdAt));
   }, [tokens, q, timeFilter, feesSortDesc]);
 
+  // Ticker shows only the top tokens by fees so the loop is short and readable —
+  // scrolling all ~478 made it whip by too fast to read any symbol.
+  const tickerTokens = useMemo(
+    () => [...tokens].sort((a, b) => (b.fees || 0) - (a.fees || 0)).slice(0, 40),
+    [tokens]
+  );
+
   // Agents derived from the live feed (tokens with active pools + real fees/volume).
   const agents = useMemo(() => buildAgents(tokens), [tokens]);
 
@@ -587,7 +603,7 @@ export default function AgentFeed() {
 
       <div className="af-ticker" aria-hidden="true">
         <div className="af-ticker-track">
-          {[...tokens, ...tokens].map((t, i) => (
+          {[...tickerTokens, ...tickerTokens].map((t, i) => (
             <span className="af-tk-item" key={i}>
               <span className="af-tk-emoji">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" style={{ verticalAlign: "-1px" }} aria-hidden="true">
@@ -1707,7 +1723,7 @@ const CSS = `
 
   /* Scrolling ticker */
   .af-ticker { margin-top:10px; overflow:hidden; background:#0a0a0a; border-top:1px solid rgba(255,255,255,0.06); border-bottom:1px solid rgba(255,255,255,0.06); white-space:nowrap; }
-  .af-ticker-track { display:inline-flex; align-items:center; will-change:transform; animation:tkscroll 80s linear infinite; }
+  .af-ticker-track { display:inline-flex; align-items:center; will-change:transform; animation:tkscroll 50s linear infinite; }
   .af-ticker:hover .af-ticker-track { animation-play-state:paused; }
   @keyframes tkscroll { from{ transform:translateX(0); } to{ transform:translateX(-50%); } }
   .af-tk-item { display:inline-flex; align-items:center; gap:7px; padding:9px 0; font-size:12px; }

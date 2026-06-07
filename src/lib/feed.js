@@ -195,26 +195,26 @@ export async function resolveTokenMeta(tokenAddress) {
  * summed across that token's pools. Returns an object keyed by lowercase address.
  * Individual batch failures are tolerated so one bad chunk doesn't blank the board.
  */
-export async function fetchMarkets(addresses) {
-  const out = {};
-  if (!addresses.length) return out;
-  const byToken = {};
-  for (let i = 0; i < addresses.length; i += DEX_BATCH) {
-    const batch = addresses.slice(i, i + DEX_BATCH);
-    let json;
-    try {
-      const res = await fetch(DEX_TOKENS + batch.join(","));
-      if (!res.ok) continue;
-      json = await res.json();
-    } catch {
-      continue;
-    }
-    for (const p of json.pairs || []) {
-      const a = p.baseToken?.address?.toLowerCase();
-      if (!a) continue;
-      (byToken[a] ??= []).push(p);
-    }
+// Fetch + aggregate a single ≤30-address batch into per-token market objects
+// (keyed by lowercase address). A token's pools all come back in its own batch
+// (we query by token address), so per-batch aggregation is complete and safe to
+// emit progressively. Returns {} on a failed/empty batch (tolerated, not thrown).
+async function fetchMarketBatch(batch) {
+  let json;
+  try {
+    const res = await fetch(DEX_TOKENS + batch.join(","));
+    if (!res.ok) return {};
+    json = await res.json();
+  } catch {
+    return {};
   }
+  const byToken = {};
+  for (const p of json.pairs || []) {
+    const a = p.baseToken?.address?.toLowerCase();
+    if (!a) continue;
+    (byToken[a] ??= []).push(p);
+  }
+  const out = {};
   for (const a in byToken) {
     const ps = byToken[a].sort((x, y) => (y.liquidity?.usd || 0) - (x.liquidity?.usd || 0));
     const primary = ps[0];
@@ -237,6 +237,33 @@ export async function fetchMarkets(addresses) {
     };
   }
   return out;
+}
+
+export async function fetchMarkets(addresses) {
+  const out = {};
+  if (!addresses.length) return out;
+  for (let i = 0; i < addresses.length; i += DEX_BATCH) {
+    Object.assign(out, await fetchMarketBatch(addresses.slice(i, i + DEX_BATCH)));
+  }
+  return out;
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Progressive variant for first paint: fetch ≤30 addresses at a time and hand
+ * each batch's result to `onBatch` as soon as it lands, with a short gap between
+ * batches so 478 tokens don't fire as one burst (which stalled / rate-limited
+ * the initial load). The caller can merge each partial in so the board fills in
+ * incrementally instead of waiting for the whole sweep.
+ */
+export async function fetchMarketsProgressive(addresses, onBatch, { delayMs = 120 } = {}) {
+  if (!addresses.length) return;
+  for (let i = 0; i < addresses.length; i += DEX_BATCH) {
+    const partial = await fetchMarketBatch(addresses.slice(i, i + DEX_BATCH));
+    if (Object.keys(partial).length) onBatch?.(partial);
+    if (delayMs && i + DEX_BATCH < addresses.length) await sleep(delayMs);
+  }
 }
 
 // ── formatting + presentation helpers ──
