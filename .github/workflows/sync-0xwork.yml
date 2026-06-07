@@ -30,7 +30,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        # Always build from the current tip of main — never a stale/other ref.
+        # fetch-depth:0 gives the data-commit step full history so it can rebase
+        # onto any human push that landed mid-run instead of failing or clobbering.
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -79,6 +85,9 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore(data): sync 0xWork verified + Clanker [skip ci]"
+            # Rebase onto any push that landed during the run so we integrate
+            # committed work rather than racing/overwriting it, then push.
+            git pull --rebase --autostash origin main
             git push
           fi
 
