@@ -1,13 +1,16 @@
 {
-  "generatedAt": "2026-06-07T08:47:27.224Z",
+  "generatedAt": "2026-06-07T10:00:19.814Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
-    "page": 26
+    "page": 25
   },
-  "expectedVerified": 64,
-  "count": 34,
+  "expectedVerified": 67,
+  "count": 33,
   "addresses": [
+    "0x2f8ef966bd596b8e51e5e373d657cebb89b26ba3",
+    "0xf385e7abe6806c7034daa38fec464b145277dba3",
+    "0x2aed7427a851e99700e37c9008a2bf2e3e81fba3",
     "0x8a949761997858deedbca0e3103073cefd554ba3",
     "0x682ba220566faaa8b272f7b315d6fc6e57ee3ba3",
     "0xa81fabf242b5c32d1433fcde06c1193217732ba3",
@@ -30,10 +33,6 @@
     "0xc0baab807e2d0887709755cc5b32e3663ebb2ba3",
     "0x70b92aca6bf0c9f3f2a176f9700dca8dae7c8ba3",
     "0x67122333b61ad6844695a5dedd424d5484bc3ba3",
-    "0xcca16e2f2e019899096e32fd6af83f07b9bccba3",
-    "0xf36bd9788566ed2a42c1a0234674344a1a607ba3",
-    "0x56715bcf9701959fd9ae840782ea0fecf9c98ba3",
-    "0xb8bb86a874e49082b4adee836208aa98cb370ba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
     "0x94fdd30b21f6c4aafde4dd6cb1b6032eabacdba3",
@@ -44,6 +43,48 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x2f8eF966BD596b8e51e5E373D657cEBB89b26Ba3",
+      "tokenName": "Narh",
+      "tokenSymbol": "NARH",
+      "imageUrl": null,
+      "poolId": "0x5974e9b01e284519e604681ce50b23f36db28fba83877bea7782473158f13869",
+      "createdAt": "2026-06-07T09:29:31.646Z",
+      "name": "Narh",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2f8eF966BD596b8e51e5E373D657cEBB89b26Ba3",
+      "basescanUrl": "https://basescan.org/token/0x2f8eF966BD596b8e51e5E373D657cEBB89b26Ba3"
+    },
+    {
+      "tokenAddress": "0xf385E7aBE6806C7034daA38fEc464B145277dba3",
+      "tokenName": "Jeraq",
+      "tokenSymbol": "JERAQ",
+      "imageUrl": null,
+      "poolId": "0x15ae2f7a8b43c045e60def981fde3ebda5e6bf6ebc477f8098f465568aff9135",
+      "createdAt": "2026-06-07T09:21:29.457Z",
+      "name": "Jeraq",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf385E7aBE6806C7034daA38fEc464B145277dba3",
+      "basescanUrl": "https://basescan.org/token/0xf385E7aBE6806C7034daA38fEc464B145277dba3"
+    },
+    {
+      "tokenAddress": "0x2AED7427A851e99700e37C9008A2BF2e3e81fBa3",
+      "tokenName": "RETARD",
+      "tokenSymbol": "RETARD",
+      "imageUrl": null,
+      "poolId": "0xf12a6c516739fbb70032d80bbea369f0d1486b9cd1898cdd2491001e10a899dd",
+      "createdAt": "2026-06-07T08:55:01.668Z",
+      "name": "RETARD",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2AED7427A851e99700e37C9008A2BF2e3e81fBa3",
+      "basescanUrl": "https://basescan.org/token/0x2AED7427A851e99700e37C9008A2BF2e3e81fBa3"
+    },
     {
       "tokenAddress": "0x8A949761997858dEEdBcA0E3103073cEfD554BA3",
       "tokenName": "MemPalace",
@@ -351,62 +392,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x67122333B61aD6844695a5deDd424D5484BC3Ba3",
       "basescanUrl": "https://basescan.org/token/0x67122333B61aD6844695a5deDd424D5484BC3Ba3"
-    },
-    {
-      "tokenAddress": "0xCCa16E2f2E019899096e32Fd6AF83F07B9bCcBa3",
-      "tokenName": "Just buy 10",
-      "tokenSymbol": "JUSTBUY1",
-      "imageUrl": null,
-      "poolId": "0x6fd3070dfe47d8cde1182757a6d06ac78e6cc7c83ebbadf1a3989b2dd4345f05",
-      "createdAt": "2026-06-03T18:02:17.468Z",
-      "name": "Just buy 10",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xCCa16E2f2E019899096e32Fd6AF83F07B9bCcBa3",
-      "basescanUrl": "https://basescan.org/token/0xCCa16E2f2E019899096e32Fd6AF83F07B9bCcBa3"
-    },
-    {
-      "tokenAddress": "0xf36bd9788566ed2a42c1a0234674344A1A607BA3",
-      "tokenName": "World",
-      "tokenSymbol": "WORLD",
-      "imageUrl": null,
-      "poolId": "0xd56121ac1147740eec7cda80187487dc6de2dc1bb291a76f57969ef2d2b67f39",
-      "createdAt": "2026-06-03T17:40:39.720Z",
-      "name": "World",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf36bd9788566ed2a42c1a0234674344A1A607BA3",
-      "basescanUrl": "https://basescan.org/token/0xf36bd9788566ed2a42c1a0234674344A1A607BA3"
-    },
-    {
-      "tokenAddress": "0x56715BCF9701959FD9ae840782eA0fecf9C98bA3",
-      "tokenName": "Fluk",
-      "tokenSymbol": "FLUK",
-      "imageUrl": null,
-      "poolId": "0x6ecad0ef46abd044e5285458a0f4fe5369c5003489f36ea415acbe49e18fab7c",
-      "createdAt": "2026-06-03T17:27:19.720Z",
-      "name": "Fluk",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x56715BCF9701959FD9ae840782eA0fecf9C98bA3",
-      "basescanUrl": "https://basescan.org/token/0x56715BCF9701959FD9ae840782eA0fecf9C98bA3"
-    },
-    {
-      "tokenAddress": "0xB8Bb86a874E49082b4aDeE836208Aa98CB370bA3",
-      "tokenName": "Blur",
-      "tokenSymbol": "BLUR",
-      "imageUrl": null,
-      "poolId": "0x3a001af077cdc4b93b66b69782df9a60fd52409c77bce8469d1661ff27e2f7bb",
-      "createdAt": "2026-06-03T17:18:11.474Z",
-      "name": "Blur",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xB8Bb86a874E49082b4aDeE836208Aa98CB370bA3",
-      "basescanUrl": "https://basescan.org/token/0xB8Bb86a874E49082b4aDeE836208Aa98CB370bA3"
     },
     {
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
