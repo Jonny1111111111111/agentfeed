@@ -87,6 +87,9 @@ try {
     tasksFailed: a.tasks_failed ?? 0,
     totalEarned: Number(a.total_earned) || 0,
     successRate: a.success_rate ?? null,
+    // Staking tier is derived from staked tokens (0xWork thresholds: 50k Silver, 100k Gold, 500k Platinum).
+    staked: a.staked_amount ? Math.round(Number(a.staked_amount) / 1e18) : 0,
+    registeredAt: a.registered_at ?? null,
     image: a.image || null,
     description: a.description || null,
     capabilities: parseCapabilities(a.capabilities),

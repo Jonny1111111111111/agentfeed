@@ -14,7 +14,6 @@ import {
   basescanUrl,
   agentLabel,
   agentKey,
-  avatarFor,
   daysSince,
   is0xWork,
   isClanker,
@@ -25,11 +24,14 @@ const DEX_POLL_MS = 30000;
 const LAUNCH_POLL_MS = 60000;
 const NEW_DAYS = 7;
 
-// AGE column label: whole-day age like "17d", or "NEW" when younger than NEW_DAYS.
+// AGE column label: always a real elapsed time — minutes under 1h ("45m"),
+// hours under 1d ("6h"), else days ("3d"). Never "NEW" or "—".
 const ageLabel = (createdAt) => {
-  const d = daysSince(createdAt);
-  if (!Number.isFinite(d)) return "—";
-  return d < NEW_DAYS ? "NEW" : `${Math.floor(d)}d`;
+  const d = daysSince(createdAt); // days as a float (Infinity if unparseable)
+  const mins = Number.isFinite(d) ? Math.max(0, d * 1440) : 0;
+  if (mins < 60) return `${Math.floor(mins)}m`;
+  if (mins < 1440) return `${Math.floor(mins / 60)}h`;
+  return `${Math.floor(mins / 1440)}d`;
 };
 const MAX_NEW_PER_CYCLE = 8; // cap additions per poll to survive spam bursts
 
@@ -89,26 +91,33 @@ const fmtDate = (createdAt) => {
   return new Date(t).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 };
 
-// Avatar: real launcher image if available, else a deterministic emoji.
-function Avatar({ token, size = 44 }) {
-  const img = tokenImage(token);
-  if (img)
-    return <img className="af-av-img" style={{ width: size, height: size }} src={img} alt="" loading="lazy" />;
+// Single neutral placeholder shown for every token/agent without an image — one
+// simple muted "coin" mark, instead of a unique generated avatar per token.
+function DefaultAvatar({ size = 44 }) {
   return (
-    <span className="af-av-emoji" style={{ width: size, height: size, fontSize: size * 0.55 }}>
-      {avatarFor(token.tokenAddress)}
+    <span className="af-av-emoji" style={{ width: size, height: size }}>
+      <svg width={size * 0.52} height={size * 0.52} viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="9" stroke="#6b6b72" strokeWidth="1.6" />
+        <circle cx="12" cy="12" r="3.4" fill="#6b6b72" />
+      </svg>
     </span>
   );
 }
 
-// Generic avatar for an arbitrary image URL + seed (used for agents).
+// Avatar: real launcher/token image if available, else the default placeholder.
+function Avatar({ token, size = 44 }) {
+  const img = tokenImage(token);
+  if (img)
+    return <img className="af-av-img" style={{ width: size, height: size }} src={img} alt="" loading="lazy" />;
+  return <DefaultAvatar size={size} />;
+}
+
+// Generic avatar for an arbitrary image URL (used for agents); falls back to the
+// same default placeholder. `seed` is retained only for call-site compatibility.
 function PicAvatar({ src, seed, size = 44 }) {
+  void seed;
   if (src) return <img className="af-av-img" style={{ width: size, height: size }} src={src} alt="" loading="lazy" />;
-  return (
-    <span className="af-av-emoji" style={{ width: size, height: size, fontSize: size * 0.55 }}>
-      {avatarFor(seed || "agent")}
-    </span>
-  );
+  return <DefaultAvatar size={size} />;
 }
 
 // Agent tiers, derived from total estimated 24h fees across an agent's tokens.
@@ -180,7 +189,6 @@ function AgentCard({ agent: a, onOpen }) {
   const primary = agentDisplayName(a);
   const ticker = agentTicker(a);
   const age = ageLabel(a.oldestCreatedAt);
-  const isNew = daysSince(a.newestCreatedAt) < NEW_DAYS;
   return (
     <div className="af-trow" role="button" tabIndex={0} onClick={onOpen}
       onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && onOpen()}>
@@ -190,14 +198,14 @@ function AgentCard({ agent: a, onOpen }) {
           <span className="af-tname">
             {primary}
             {a.verified && <span className="af-verified" title="verified X handle">✓</span>}
-            {isNew && <span className="af-new-badge">NEW</span>}
+            {/* NEW badge is detail-only — kept out of list rows. */}
           </span>
           <span className="af-ttick">{ticker}</span>
         </div>
       </div>
       <div className="af-tfees">{fmtUsd(a.totalFees)}</div>
       <div className="af-ttxns">{fmtNum(a.totalTxns || 0)}</div>
-      <div className={`af-tage ${age === "NEW" ? "new" : ""}`}>{age}</div>
+      <div className="af-tage">{age}</div>
     </div>
   );
 }
@@ -298,7 +306,7 @@ function Sparkline({ variant = 0 }) {
 }
 
 // Compact table row: AGENT (avatar · name / $ticker) | FEES | TXNS | AGE.
-function TokenRow({ token: t, isNew, onOpen }) {
+function TokenRow({ token: t, onOpen }) {
   const age = ageLabel(t.createdAt);
   return (
     <div className="af-trow" role="button" tabIndex={0} onClick={onOpen}
@@ -309,18 +317,14 @@ function TokenRow({ token: t, isNew, onOpen }) {
           <span className="af-tname">
             {t.tokenName}
             {t.is0xWork && <span className="af-verified" title="0xWork verified">✓</span>}
-            {isNew && <span className="af-new-badge">NEW</span>}
           </span>
-          <span className="af-ttick">
-            ${t.tokenSymbol}
-            {/* Platform pill on the row (0xWork already shows the ✓; skip the neutral Independent tag). */}
-            {!t.is0xWork && tokenPlatform(t) !== "Independent" && <PlatformBadge platform={tokenPlatform(t)} />}
-          </span>
+          {/* Platform pill and NEW badge are intentionally detail-only — list rows stay clean. */}
+          <span className="af-ttick">${t.tokenSymbol}</span>
         </div>
       </div>
       <div className="af-tfees">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</div>
       <div className="af-ttxns">{t.market?.hasPool ? fmtNum(t.market.txns24h || 0) : "—"}</div>
-      <div className={`af-tage ${age === "NEW" ? "new" : ""}`}>{age}</div>
+      <div className="af-tage">{age}</div>
     </div>
   );
 }
@@ -585,7 +589,12 @@ export default function AgentFeed() {
         <div className="af-ticker-track">
           {[...tokens, ...tokens].map((t, i) => (
             <span className="af-tk-item" key={i}>
-              <span className="af-tk-emoji">{avatarFor(t.tokenAddress)}</span>
+              <span className="af-tk-emoji">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" style={{ verticalAlign: "-1px" }} aria-hidden="true">
+                  <circle cx="12" cy="12" r="9" stroke="#6b6b72" strokeWidth="2" />
+                  <circle cx="12" cy="12" r="3.4" fill="#6b6b72" />
+                </svg>
+              </span>
               <span className="af-tk-sym">${t.tokenSymbol}</span>
               <span className="af-tk-val">{t.market?.hasPool ? fmtUsd(t.fees) : "—"}</span>
               <span className="af-tk-sep">•</span>
@@ -699,7 +708,7 @@ export default function AgentFeed() {
             <TableHead sortDesc={feesSortDesc} onToggleSort={() => setFeesSortDesc((v) => !v)} />
             {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
             {list.map((t) => (
-              <TokenRow key={t.tokenAddress} token={t} isNew={isNew(t)} onOpen={() => setSelected(t.tokenAddress)} />
+              <TokenRow key={t.tokenAddress} token={t} onOpen={() => setSelected(t.tokenAddress)} />
             ))}
           </div>
         </div>
@@ -805,6 +814,8 @@ function AgentDetail({ agent: a, onClose, onPickToken, pushToast }) {
                 <span className="af-ag-name">{agentDisplayName(a)}</span>
                 {a.verified && <span className="af-verified" title="verified X handle">✓</span>}
                 <span className="af-ag-tier" style={{ background: tierColor }}>{tier.toUpperCase()}</span>
+                {/* NEW badge: detail-only (kept out of list rows), driven by the agent's newest token. */}
+                {daysSince(a.newestCreatedAt) < NEW_DAYS && <span className="af-new-badge">NEW</span>}
               </div>
               <div className="af-ag-submeta">
                 {a.name && handle ? (
@@ -1042,13 +1053,16 @@ async function buildShareCard(t) {
   } else {
     ctx.fillStyle = "#15110a";
     ctx.fillRect(avX, avY, avSize, avSize);
-    ctx.fillStyle = "#fff";
-    ctx.font = "72px 'Apple Color Emoji','Segoe UI Emoji', sans-serif";
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.fillText(avatarFor(t.tokenAddress), avCx, avCy + 4);
-    ctx.textAlign = "left";
-    ctx.textBaseline = "alphabetic";
+    // Single neutral placeholder coin (no per-token avatar).
+    ctx.strokeStyle = "#6b6b72";
+    ctx.lineWidth = avSize * 0.06;
+    ctx.beginPath();
+    ctx.arc(avCx, avCy, avSize * 0.3, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.fillStyle = "#6b6b72";
+    ctx.beginPath();
+    ctx.arc(avCx, avCy, avSize * 0.11, 0, Math.PI * 2);
+    ctx.fill();
   }
   ctx.restore();
   ctx.strokeStyle = GOLD;
@@ -1125,13 +1139,16 @@ async function buildAgentShareCard(a) {
   } else {
     ctx.fillStyle = "#15110a";
     ctx.fillRect(avX, avY, avSize, avSize);
-    ctx.fillStyle = "#fff";
-    ctx.font = "72px 'Apple Color Emoji','Segoe UI Emoji', sans-serif";
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.fillText(avatarFor(a.key || a.name || "agent"), avCx, avCy + 4);
-    ctx.textAlign = "left";
-    ctx.textBaseline = "alphabetic";
+    // Single neutral placeholder coin (no per-agent avatar).
+    ctx.strokeStyle = "#6b6b72";
+    ctx.lineWidth = avSize * 0.06;
+    ctx.beginPath();
+    ctx.arc(avCx, avCy, avSize * 0.3, 0, Math.PI * 2);
+    ctx.stroke();
+    ctx.fillStyle = "#6b6b72";
+    ctx.beginPath();
+    ctx.arc(avCx, avCy, avSize * 0.11, 0, Math.PI * 2);
+    ctx.fill();
   }
   ctx.restore();
   ctx.strokeStyle = GOLD;
@@ -1481,6 +1498,10 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
         {/* 4 · TOKEN INFO */}
         <section className="af-td-section">
           <div className="af-td-label">Token Info</div>
+          <div className="af-meta-row">
+            <span className="af-k">Age</span>
+            <span className="af-v">{ageLabel(t.createdAt)}</span>
+          </div>
           <div className="af-meta-row">
             <span className="af-k">Launched</span>
             <span className="af-v">{fmtDate(t.createdAt)}</span>
