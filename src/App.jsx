@@ -1,5 +1,8 @@
 import { useState, useEffect, useRef, useMemo } from "react";
 import snapshot from "./data/launches.json";
+// Logo is bundled (base64-inlined) so the header/splash mark paints instantly on
+// first load — no separate HTTP request, no dependency on any API or async data.
+import logo from "./assets/logo.png?inline";
 import {
   mapLaunch,
   getLatestBlock,
@@ -92,33 +95,44 @@ const fmtDate = (createdAt) => {
   return new Date(t).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 };
 
-// Single neutral placeholder shown for every token/agent without an image — one
-// simple muted "coin" mark, instead of a unique generated avatar per token.
-function DefaultAvatar({ size = 44 }) {
-  return (
-    <span className="af-av-emoji" style={{ width: size, height: size }}>
-      <svg width={size * 0.52} height={size * 0.52} viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <circle cx="12" cy="12" r="9" stroke="#6b6b72" strokeWidth="1.6" />
-        <circle cx="12" cy="12" r="3.4" fill="#6b6b72" />
-      </svg>
-    </span>
+// Local "coin" placeholder as an inline data-URI (no network request) so every
+// avatar paints a clean default instantly — never a broken or empty image.
+const AV_PLACEHOLDER =
+  "data:image/svg+xml," +
+  encodeURIComponent(
+    `<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' fill='#1d1d1d'/><circle cx='12' cy='12' r='9' fill='none' stroke='#6b6b72' stroke-width='1.6'/><circle cx='12' cy='12' r='3.4' fill='#6b6b72'/></svg>`
   );
+
+// Image avatar that shows the local placeholder immediately, preloads the real
+// image in the background, and swaps to it only once it has actually loaded.
+// A failed/missing image just stays on the placeholder — never broken/empty.
+function ImgAvatar({ src, size = 44 }) {
+  const [shown, setShown] = useState(AV_PLACEHOLDER);
+  useEffect(() => {
+    setShown(AV_PLACEHOLDER);
+    if (!src) return;
+    let cancelled = false;
+    const img = new Image();
+    img.onload = () => !cancelled && setShown(src);
+    img.onerror = () => !cancelled && setShown(AV_PLACEHOLDER);
+    img.src = src;
+    return () => {
+      cancelled = true;
+    };
+  }, [src]);
+  return <img className="af-av-img" style={{ width: size, height: size }} src={shown} alt="" />;
 }
 
-// Avatar: real launcher/token image if available, else the default placeholder.
+// Avatar: real launcher/token image if available, else the local placeholder.
 function Avatar({ token, size = 44 }) {
-  const img = tokenImage(token);
-  if (img)
-    return <img className="af-av-img" style={{ width: size, height: size }} src={img} alt="" loading="lazy" />;
-  return <DefaultAvatar size={size} />;
+  return <ImgAvatar src={tokenImage(token)} size={size} />;
 }
 
-// Generic avatar for an arbitrary image URL (used for agents); falls back to the
-// same default placeholder. `seed` is retained only for call-site compatibility.
+// Generic avatar for an arbitrary image URL (used for agents). `seed` is retained
+// only for call-site compatibility.
 function PicAvatar({ src, seed, size = 44 }) {
   void seed;
-  if (src) return <img className="af-av-img" style={{ width: size, height: size }} src={src} alt="" loading="lazy" />;
-  return <DefaultAvatar size={size} />;
+  return <ImgAvatar src={src} size={size} />;
 }
 
 // Agent tiers, derived from total estimated 24h fees across an agent's tokens.
@@ -585,14 +599,14 @@ export default function AgentFeed() {
 
       {splash && (
         <div className={`af-splash ${splashFade ? "fade" : ""}`}>
-          <img className="af-splash-logo" src="/agentfeed/logo.png" alt="Feedr" />
+          <img className="af-splash-logo" src={logo} alt="Feedr" />
           <div className="af-splash-word">FEEDR</div>
         </div>
       )}
 
       <header className="af-header">
         <span className="af-logo">
-          <img src="/agentfeed/logo.png" height="36" alt="Feedr" />
+          <img src={logo} height="36" alt="Feedr" />
           <span className="af-logo-word">Feedr</span>
         </span>
         <button className="af-bell" aria-label="notifications"><IconBell /></button>
@@ -733,7 +747,7 @@ export default function AgentFeed() {
       <footer className="af-footer">
         <div className="af-foot-main">
           <div className="af-foot-brand">
-            <img src="/agentfeed/logo.png" height="32" alt="Feedr" />
+            <img src={logo} height="32" alt="Feedr" />
             <p className="af-foot-tag">The live token feed for onchain AI agents.</p>
           </div>
           <nav className="af-foot-links">
@@ -993,7 +1007,7 @@ async function drawShareChrome(ctx, W, H, P, tagline) {
   // Logo: the real brand image (logo.png), then wordmark + right tagline.
   const lh = 56, lyp = 44;
   let wordX = P;
-  const logoImg = await loadImg("/agentfeed/logo.png", false);
+  const logoImg = await loadImg(logo, false);
   if (logoImg) {
     const lw = Math.round(lh * (logoImg.naturalWidth / logoImg.naturalHeight));
     ctx.drawImage(logoImg, P, lyp, lw, lh);
@@ -1419,6 +1433,7 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
   const [copied, setCopied] = useState(false);
   const [sharing, setSharing] = useState(false);
   const [preview, setPreview] = useState(null);
+  const [swapOpen, setSwapOpen] = useState(false); // swap widget is collapsed until tapped
   const m = t.market;
   const who = agentLabel(t);
   const xUrl = xUrlFor(t.launcher?.handle);
@@ -1480,11 +1495,16 @@ function TokenDetail({ token: t, siblings, onClose, onPick, isNew, pushToast }) 
           </div>
         </div>
 
-        {/* 2 · SWAP */}
+        {/* 2 · SWAP — collapsed until the user taps Swap, then the widget expands. */}
         {m?.hasPool && (
           <section className="af-td-section">
-            <div className="af-td-label">Swap</div>
-            <SwapBox token={t} pushToast={pushToast} />
+            {swapOpen ? (
+              <SwapBox token={t} pushToast={pushToast} />
+            ) : (
+              <button className="af-swap-open" onClick={() => setSwapOpen(true)}>
+                Swap {t.tokenSymbol}
+              </button>
+            )}
           </section>
         )}
 
@@ -1662,8 +1682,6 @@ function SwapBox({ token: t, pushToast }) {
           ))}
         </div>
       </div>
-
-      <div className="af-swap-rate">1 {t.tokenSymbol} ≈ {fmtUsd(m.priceUsd)}</div>
 
       <button className={`af-swap-btn ${side} ${done ? "done" : ""}`} disabled={!amt || swapping} onClick={swap}>
         {swapping ? "Swapping…" : done ? "✓ Swap complete" : amt ? `${side === "buy" ? "Buy" : "Sell"} ${t.tokenSymbol}` : "Enter an amount"}
@@ -2055,6 +2073,8 @@ const CSS = `
   .af-plat-fbtn.active { background:rgba(255,90,0,.16); border-color:rgba(255,90,0,.5); color:#ff8a3d; }
   .af-ag-platrow { display:flex; align-items:center; gap:7px; flex-wrap:wrap; margin-top:10px; font-size:12px; color:#8a8a8a; font-weight:600; }
 
+  .af-swap-open { width:100%; padding:14px; border:none; border-radius:13px; font-size:15px; font-weight:800; cursor:pointer; transition:filter .2s; font-family:inherit; background:#22c55e; color:#04130a; }
+  .af-swap-open:hover { filter:brightness(1.08); }
   .af-swap { margin-top:18px; background:#0f0f12; border:1px solid #242424; border-radius:16px; padding:14px; }
   .af-modal > .af-swap { margin-top:30px; } /* clear the close button when swap is at the top */
   .af-modal-hdr { margin-top:18px; }
@@ -2075,7 +2095,6 @@ const CSS = `
   .af-slip-opts { display:flex; gap:6px; }
   .af-slip { background:#181818; border:1px solid #2a2a2a; color:#999; border-radius:9px; padding:5px 11px; font-size:12px; font-weight:700; cursor:pointer; transition:all .15s; font-family:inherit; }
   .af-slip.active { background:#ff5a00; border-color:#ff5a00; color:#fff; }
-  .af-swap-rate { font-size:11px; color:#666; margin-top:12px; text-align:center; }
   .af-swap-btn { width:100%; margin-top:12px; padding:14px; border:none; border-radius:13px; font-size:15px; font-weight:800; cursor:pointer; transition:all .2s; font-family:inherit; color:#fff; }
   .af-swap-btn.buy { background:#22c55e; color:#04130a; } .af-swap-btn.sell { background:#ef4444; }
   .af-swap-btn.done { background:#1f8f4d !important; color:#fff !important; animation:swapPop .4s ease-out; }
