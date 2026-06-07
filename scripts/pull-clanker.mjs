@@ -34,6 +34,13 @@ const NEWEST_PAGES = Number(process.env.CLANKER_PAGES || 40); // ~800 newest tok
 const ONCHAIN_LOOKBACK = Number(process.env.CLANKER_LOOKBACK_BLOCKS || 9000); // ~5h; one getLogs call within the public-RPC 10k cap
 const DEX_BATCH = 30;
 
+// Hard high-signal thresholds: only keep tokens DEXScreener shows with real,
+// active trading. Applied in the data pipeline (not the UI) so launches.json is
+// already the trimmed source of truth and the runtime has far fewer tokens to
+// price. Override via env for tuning.
+const MIN_VOL_24H = Number(process.env.CLANKER_MIN_VOL || 500);
+const MIN_TXNS_24H = Number(process.env.CLANKER_MIN_TXNS || 100);
+
 const OUT = path.resolve("src/data/clanker.json");
 const LAUNCHES = path.resolve("src/data/launches.json");
 
@@ -148,9 +155,15 @@ async function fetchMarkets(addresses) {
     await sleep(250);
   }
   const out = {};
+  let dropped = 0;
   for (const a in byToken) {
     const ps = byToken[a].sort((x, y) => (y.liquidity?.usd || 0) - (x.liquidity?.usd || 0));
     const primary = ps[0];
+    // Sum across all of the token's pools (24h volume + buy/sell txn count).
+    const volume24h = ps.reduce((s, p) => s + (p.volume?.h24 || 0), 0);
+    const txns24h = ps.reduce((s, p) => s + ((p.txns?.h24?.buys || 0) + (p.txns?.h24?.sells || 0)), 0);
+    // Hard filter: only real, active markets survive into the data files.
+    if (!(volume24h > MIN_VOL_24H && txns24h > MIN_TXNS_24H)) { dropped++; continue; }
     out[a] = {
       name: primary.baseToken?.name || null,
       symbol: primary.baseToken?.symbol || null,
@@ -158,8 +171,11 @@ async function fetchMarkets(addresses) {
       url: primary.url || null,
       imageUrl: primary.info?.imageUrl || null,
       createdAtMs: primary.pairCreatedAt || null,
+      volume24h,
+      txns24h,
     };
   }
+  console.error(`[clanker] DEXScreener: ${Object.keys(out).length} kept (vol>${MIN_VOL_24H} & txns>${MIN_TXNS_24H}), ${dropped} below threshold`);
   return out;
 }
 
@@ -210,6 +226,9 @@ async function main() {
       dexscreenerUrl: m.url || `https://dexscreener.com/base/${addr}`,
       basescanUrl: `https://basescan.org/token/${a.tokenAddress || addr}`,
       source: "clanker",
+      // Snapshot of the stats this token passed the filter on (informational).
+      volume24h: m.volume24h,
+      txns24h: m.txns24h,
     };
   });
   items.sort((x, y) => Date.parse((y.createdAt || "").replace(" ", "T")) - Date.parse((x.createdAt || "").replace(" ", "T")));
@@ -238,7 +257,15 @@ function mergeIntoLaunches(items) {
   try { snap = JSON.parse(fs.readFileSync(LAUNCHES, "utf8")); } catch (err) {
     console.error(`[clanker] could not read launches.json (${err.message}); skipping merge`); return;
   }
-  const list = snap.items || [];
+  const keep = new Set(items.map((it) => lc(it.tokenAddress)));
+  // Prune stale clanker tokens: a clanker-sourced entry that's no longer in the
+  // freshly filtered set (dead pool or below the volume/txns threshold) must drop
+  // out of launches.json too — otherwise the merge would only ever accumulate.
+  // Non-clanker sources (onchain-hook, token-forge) are left untouched.
+  const before = (snap.items || []).length;
+  let list = (snap.items || []).filter((i) => i.source !== "clanker" || keep.has(lc(i.tokenAddress)));
+  const pruned = before - list.length;
+
   const byAddr = new Map(list.map((i) => [lc(i.tokenAddress), i]));
   let added = 0, tagged = 0;
   for (const it of items) {
@@ -248,15 +275,11 @@ function mergeIntoLaunches(items) {
       ex.launcher = ex.launcher?.name || ex.launcher?.handle ? ex.launcher : it.launcher;
     } else { list.push(it); added++; }
   }
-  if (added || tagged) {
-    list.sort((x, y) => Date.parse((y.createdAt || "").replace(" ", "T")) - Date.parse((x.createdAt || "").replace(" ", "T")));
-    snap.items = list;
-    snap.count = list.length;
-    fs.writeFileSync(LAUNCHES, JSON.stringify(snap, null, 2));
-    console.error(`[clanker] launches.json: +${added} new, ${tagged} re-tagged clanker (now ${list.length})`);
-  } else {
-    console.error(`[clanker] launches.json already up to date`);
-  }
+  list.sort((x, y) => Date.parse((y.createdAt || "").replace(" ", "T")) - Date.parse((x.createdAt || "").replace(" ", "T")));
+  snap.items = list;
+  snap.count = list.length;
+  fs.writeFileSync(LAUNCHES, JSON.stringify(snap, null, 2));
+  console.error(`[clanker] launches.json: +${added} new, ${tagged} re-tagged, -${pruned} pruned clanker (now ${list.length})`);
 }
 
 main().catch((err) => keepExisting(`pull failed (${err.message})`));

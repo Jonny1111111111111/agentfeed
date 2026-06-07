@@ -434,8 +434,9 @@ export default function AgentFeed() {
         const addrs = [...tokensRef.current]
           .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
           .map((t) => t.tokenAddress);
-        // Lazy-load: 30 tokens per batch, 500ms between batches, applying + caching
-        // each batch as it lands instead of awaiting the whole ~478-token sweep.
+        // Lazy-load in the background: 30 tokens per batch, 300ms between batches,
+        // applying + caching each batch as it lands. Never blocks first paint —
+        // the list already rendered synchronously from launches.json above.
         const acc = {};
         await fetchMarketsProgressive(
           addrs,
@@ -445,7 +446,7 @@ export default function AgentFeed() {
             applyMarkets(partial);
             saveCachedMarkets(acc);
           },
-          { delayMs: 500 }
+          { delayMs: 300 }
         );
       } catch {
         /* retry on next poll */
