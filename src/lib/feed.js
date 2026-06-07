@@ -266,6 +266,32 @@ export async function fetchMarketsProgressive(addresses, onBatch, { delayMs = 12
   }
 }
 
+// ── DEXScreener market cache (sessionStorage, 5-min TTL) ──
+// Lets a revisit within the TTL paint live market data instantly and skip the
+// DEXScreener sweep entirely. Keyed map: { lcAddress: market }.
+const MARKETS_CACHE_KEY = "feedr:markets:v1";
+const MARKETS_TTL_MS = 5 * 60 * 1000;
+
+export function loadCachedMarkets() {
+  try {
+    const raw = sessionStorage.getItem(MARKETS_CACHE_KEY);
+    if (!raw) return null;
+    const { ts, markets } = JSON.parse(raw);
+    if (!ts || Date.now() - ts > MARKETS_TTL_MS || !markets) return null;
+    return markets;
+  } catch {
+    return null;
+  }
+}
+
+export function saveCachedMarkets(markets) {
+  try {
+    sessionStorage.setItem(MARKETS_CACHE_KEY, JSON.stringify({ ts: Date.now(), markets }));
+  } catch {
+    /* storage unavailable or over quota — caching is best-effort */
+  }
+}
+
 // ── formatting + presentation helpers ──
 export function fmtUsd(n) {
   if (n == null) return "—";

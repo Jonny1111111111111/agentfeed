@@ -10,6 +10,8 @@ import {
   resolveTokenMeta,
   fetchMarkets,
   fetchMarketsProgressive,
+  loadCachedMarkets,
+  saveCachedMarkets,
   computeFees,
   fmtUsd,
   fmtNum,
@@ -414,21 +416,37 @@ export default function AgentFeed() {
     );
   }
 
-  // Initial market load.
+  // Initial market load. The token list itself already rendered synchronously
+  // from launches.json (name/ticker/avatar/age) — this only fills in live market
+  // data, progressively, so it never blocks first paint.
   useEffect(() => {
     let cancelled = false;
     (async () => {
+      // Cache hit within the 5-min TTL → paint instantly and skip the API entirely.
+      const cached = loadCachedMarkets();
+      if (cached) {
+        applyMarkets(cached);
+        return;
+      }
       try {
-        // Newest-first: the default view sorts unpriced tokens by recency, so the
-        // tokens visible at the top of the list get their prices first.
+        // Newest-first matches the default (unpriced) list order, so the rows the
+        // user sees first get their market data first.
         const addrs = [...tokensRef.current]
           .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt))
           .map((t) => t.tokenAddress);
-        // Progressive: paint each 30-token batch as it arrives instead of waiting
-        // for the whole ~478-token sweep (which made first load take ~1 min / stall).
-        await fetchMarketsProgressive(addrs, (partial) => {
-          if (!cancelled) applyMarkets(partial);
-        });
+        // Lazy-load: 30 tokens per batch, 500ms between batches, applying + caching
+        // each batch as it lands instead of awaiting the whole ~478-token sweep.
+        const acc = {};
+        await fetchMarketsProgressive(
+          addrs,
+          (partial) => {
+            if (cancelled) return;
+            Object.assign(acc, partial);
+            applyMarkets(partial);
+            saveCachedMarkets(acc);
+          },
+          { delayMs: 500 }
+        );
       } catch {
         /* retry on next poll */
       }
@@ -438,12 +456,13 @@ export default function AgentFeed() {
     };
   }, []);
 
-  // Poll DEXScreener for trading data.
+  // Poll DEXScreener for trading data; refresh the cache so it stays warm.
   useEffect(() => {
     const iv = setInterval(async () => {
       try {
         const markets = await fetchMarkets(tokensRef.current.map((t) => t.tokenAddress));
         applyMarkets(markets);
+        saveCachedMarkets(markets);
       } catch {
         /* transient */
       }
@@ -506,6 +525,9 @@ export default function AgentFeed() {
 
   const newCount = tokens.filter(isNew).length;
   const totalVol = tokens.reduce((s, t) => s + (t.market?.volume24h || 0), 0);
+  // True once any DEXScreener data has arrived — used to distinguish the initial
+  // progressive-loading state from a genuinely empty (no-volume) result.
+  const marketsLoaded = tokens.some((t) => t.market);
 
   // Group tokens by agent for the detail view.
   const byAgent = useMemo(() => {
@@ -525,11 +547,14 @@ export default function AgentFeed() {
       (agentLabel(t) || "").toLowerCase().includes(q);
     const maxAge = { "24h": 1, "7d": 7, "30d": 30, all: Infinity }[timeFilter];
     const inWindow = (t) => daysSince(t.createdAt) <= maxAge;
+    // Only show tokens with real 24h volume from DEXScreener — hide anything with
+    // no market data or volume 0 (so the list is live, tradeable tokens only).
+    const hasVolume = (t) => (t.market?.volume24h || 0) > 0;
     // Sort by fees (direction from the FEES header), newest-first as the tiebreak.
     const dir = feesSortDesc ? 1 : -1;
     const key = (t) => t.fees || 0;
     return [...tokens]
-      .filter((t) => matches(t) && inWindow(t))
+      .filter((t) => matches(t) && inWindow(t) && hasVolume(t))
       .sort((a, b) => dir * (key(b) - key(a)) || Date.parse(b.createdAt) - Date.parse(a.createdAt));
   }, [tokens, q, timeFilter, feesSortDesc]);
 
@@ -736,7 +761,15 @@ export default function AgentFeed() {
           </div>
           <div className="af-table">
             <TableHead sortDesc={feesSortDesc} onToggleSort={() => setFeesSortDesc((v) => !v)} />
-            {list.length === 0 && <div className="af-empty">No tokens match “{query}”.</div>}
+            {list.length === 0 && (
+              <div className="af-empty">
+                {q
+                  ? `No tokens match “${query}”.`
+                  : marketsLoaded
+                    ? "No tokens with 24h volume right now."
+                    : "Loading live market data…"}
+              </div>
+            )}
             {list.map((t) => (
               <TokenRow key={t.tokenAddress} token={t} onOpen={() => setSelected(t.tokenAddress)} />
             ))}
