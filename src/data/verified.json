@@ -1,13 +1,16 @@
 {
-  "generatedAt": "2026-06-07T10:00:19.814Z",
+  "generatedAt": "2026-06-07T13:26:11.357Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
-    "page": 25
+    "page": 27
   },
-  "expectedVerified": 67,
-  "count": 33,
+  "expectedVerified": 70,
+  "count": 35,
   "addresses": [
+    "0x4c2dabe62261c470d2ba2b1570e4376af7219ba3",
+    "0xf34f30488a82c10440e3e36d7f75328dd1242ba3",
+    "0xc383c7f87cee398f380755126d1b7aede1772ba3",
     "0x2f8ef966bd596b8e51e5e373d657cebb89b26ba3",
     "0xf385e7abe6806c7034daa38fec464b145277dba3",
     "0x2aed7427a851e99700e37c9008a2bf2e3e81fba3",
@@ -32,7 +35,6 @@
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0xc0baab807e2d0887709755cc5b32e3663ebb2ba3",
     "0x70b92aca6bf0c9f3f2a176f9700dca8dae7c8ba3",
-    "0x67122333b61ad6844695a5dedd424d5484bc3ba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
     "0x94fdd30b21f6c4aafde4dd6cb1b6032eabacdba3",
@@ -43,6 +45,48 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x4c2DAbE62261c470d2bA2B1570e4376AF7219ba3",
+      "tokenName": "SUPA WORLD CUP COIN",
+      "tokenSymbol": "SUPAWORL",
+      "imageUrl": null,
+      "poolId": "0x10af3c14ba22150334bb71ae42b5eaad0582d9e09bf8d79ff49fc293ca8034c0",
+      "createdAt": "2026-06-07T11:39:05.545Z",
+      "name": "SUPA WORLD CUP COIN",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4c2DAbE62261c470d2bA2B1570e4376AF7219ba3",
+      "basescanUrl": "https://basescan.org/token/0x4c2DAbE62261c470d2bA2B1570e4376AF7219ba3"
+    },
+    {
+      "tokenAddress": "0xf34f30488A82c10440E3E36d7f75328Dd1242BA3",
+      "tokenName": "AGENDA",
+      "tokenSymbol": "AGENDA",
+      "imageUrl": null,
+      "poolId": "0xac62d76aac0a2814bced057211a2561558f933cac12e443323ebec2c966afa19",
+      "createdAt": "2026-06-07T11:30:27.354Z",
+      "name": "AGENDA",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf34f30488A82c10440E3E36d7f75328Dd1242BA3",
+      "basescanUrl": "https://basescan.org/token/0xf34f30488A82c10440E3E36d7f75328Dd1242BA3"
+    },
+    {
+      "tokenAddress": "0xC383c7F87Cee398F380755126d1b7AEde1772ba3",
+      "tokenName": "Sato",
+      "tokenSymbol": "SATO",
+      "imageUrl": null,
+      "poolId": "0xbc2e909bc43f25245048a5e73b10914df2bd81c5c0c3bfd646de91ff831c9b49",
+      "createdAt": "2026-06-07T09:40:01.593Z",
+      "name": "Sato",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC383c7F87Cee398F380755126d1b7AEde1772ba3",
+      "basescanUrl": "https://basescan.org/token/0xC383c7F87Cee398F380755126d1b7AEde1772ba3"
+    },
     {
       "tokenAddress": "0x2f8eF966BD596b8e51e5E373D657cEBB89b26Ba3",
       "tokenName": "Narh",
@@ -378,20 +422,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x70b92acA6BF0c9f3f2A176f9700DCA8daE7C8Ba3",
       "basescanUrl": "https://basescan.org/token/0x70b92acA6BF0c9f3f2A176f9700DCA8daE7C8Ba3"
-    },
-    {
-      "tokenAddress": "0x67122333B61aD6844695a5deDd424D5484BC3Ba3",
-      "tokenName": "Ps world",
-      "tokenSymbol": "PSWORLD",
-      "imageUrl": null,
-      "poolId": "0x6eff570658885aef6338d2e48eae3e8a2a2811f2b353663b712c1fcd58729c79",
-      "createdAt": "2026-06-03T18:59:31.427Z",
-      "name": "Ps world",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x67122333B61aD6844695a5deDd424D5484BC3Ba3",
-      "basescanUrl": "https://basescan.org/token/0x67122333B61aD6844695a5deDd424D5484BC3Ba3"
     },
     {
       "tokenAddress": "0x9db971417cDC42a36d0e10C9B1F79fC8bC9edBA3",
