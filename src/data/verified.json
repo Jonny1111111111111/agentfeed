@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-06-08T02:51:28.414Z",
+  "generatedAt": "2026-06-08T10:22:17.594Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
-    "page": 4
+    "page": 6
   },
-  "expectedVerified": 56,
-  "count": 13,
+  "expectedVerified": 52,
+  "count": 15,
   "addresses": [
+    "0xac5d766efcffb75e5276e584de4ec55fe7906ba3",
+    "0xf832e3d02d8b72483166aabf5ee91df845367ba3",
     "0x57477c9733c1f519e712a489784469174c50cba3",
     "0xbb4adf53728dbd80fb34b058eee335e7be35aba3",
     "0xa85127bb18e7f155c073b3c8331ca7543be9eba3",
@@ -23,6 +25,34 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0xAc5d766EfcfFb75e5276e584De4ec55FE7906Ba3",
+      "tokenName": "Claudeweb",
+      "tokenSymbol": "CLAUDEWE",
+      "imageUrl": null,
+      "poolId": "0x0b50b642cd1f4030e5117635883306f4c810661eee0247fc16447609840aa319",
+      "createdAt": "2026-06-08T08:30:19.473Z",
+      "name": "Claudeweb",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xAc5d766EfcfFb75e5276e584De4ec55FE7906Ba3",
+      "basescanUrl": "https://basescan.org/token/0xAc5d766EfcfFb75e5276e584De4ec55FE7906Ba3"
+    },
+    {
+      "tokenAddress": "0xf832E3D02d8B72483166aaBf5ee91DF845367ba3",
+      "tokenName": "MNT",
+      "tokenSymbol": "MNT",
+      "imageUrl": null,
+      "poolId": "0x1719a84839d48d56a4d5f60059d31faa4ced0643ce7b32dbc1a6ec45f152dc4a",
+      "createdAt": "2026-06-08T06:02:03.508Z",
+      "name": "MNT",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf832E3D02d8B72483166aaBf5ee91DF845367ba3",
+      "basescanUrl": "https://basescan.org/token/0xf832E3D02d8B72483166aaBf5ee91DF845367ba3"
+    },
     {
       "tokenAddress": "0x57477C9733c1f519e712a489784469174c50Cba3",
       "tokenName": "Utt",
