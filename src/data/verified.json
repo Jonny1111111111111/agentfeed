@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-06-07T19:09:51.658Z",
+  "generatedAt": "2026-06-08T02:51:28.414Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 9,
-    "page": 2
+    "page": 4
   },
-  "expectedVerified": 65,
-  "count": 11,
+  "expectedVerified": 56,
+  "count": 13,
   "addresses": [
+    "0x57477c9733c1f519e712a489784469174c50cba3",
+    "0xbb4adf53728dbd80fb34b058eee335e7be35aba3",
     "0xa85127bb18e7f155c073b3c8331ca7543be9eba3",
     "0xc277118f1fa1bccd451c856098d5e0a1f1103ba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
@@ -21,6 +23,34 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x57477C9733c1f519e712a489784469174c50Cba3",
+      "tokenName": "Utt",
+      "tokenSymbol": "UTT",
+      "imageUrl": null,
+      "poolId": "0x48cd66d259a413ea7c854f21dea662d71030090e9d6adc51bff0b9d073a86e7b",
+      "createdAt": "2026-06-07T21:29:27.439Z",
+      "name": "Utt",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x57477C9733c1f519e712a489784469174c50Cba3",
+      "basescanUrl": "https://basescan.org/token/0x57477C9733c1f519e712a489784469174c50Cba3"
+    },
+    {
+      "tokenAddress": "0xbB4aDF53728dBd80FB34B058eEE335E7Be35aBa3",
+      "tokenName": "JUPE",
+      "tokenSymbol": "JUPE",
+      "imageUrl": null,
+      "poolId": "0xf320b421dbb04c94d788c23ef2dd2b84f0be36e9611b150e55fd72537f0a1b88",
+      "createdAt": "2026-06-07T20:52:05.634Z",
+      "name": "JUPE",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbB4aDF53728dBd80FB34B058eEE335E7Be35aBa3",
+      "basescanUrl": "https://basescan.org/token/0xbB4aDF53728dBd80FB34B058eEE335E7Be35aBa3"
+    },
     {
       "tokenAddress": "0xA85127Bb18E7f155C073b3C8331ca7543be9EBA3",
       "tokenName": "Echo",
