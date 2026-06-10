@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T14:58:38.787Z",
+  "generatedAt": "2026-06-10T20:17:35.695Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
@@ -8,6 +8,8 @@
   "expectedVerified": 77,
   "count": 36,
   "addresses": [
+    "0x1ac43ee81518123baf7e78df8ec86fab93078ba3",
+    "0x1c2dbedc2096b41085e1bea4f424b6d605fd3ba3",
     "0xcb6e7061e72403ec6348e337cad56bbb3f905ba3",
     "0x86e980571b2321b8c6efcd0ea2414ab4a0eb8ba3",
     "0x260ae9d2722e9eae9740df41ddac1d986a3b3ba3",
@@ -32,8 +34,6 @@
     "0x8db9e7b366654a36967faaaf5c1daea7f5f71ba3",
     "0xe54be0e0455e24bc4b31396ec9d74f1a11676ba3",
     "0xf26c2d2c2db314b89ea200571fb975e881615ba3",
-    "0x3d651dcea1549f7a676de9f8b6d43b58bc8cdba3",
-    "0x30e224046dd8d541f85f9a59a4571f91c4c1cba3",
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
@@ -46,6 +46,34 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x1Ac43eE81518123bAf7E78df8eC86FAB93078ba3",
+      "tokenName": "Bubu cat",
+      "tokenSymbol": "BUBUCAT",
+      "imageUrl": null,
+      "poolId": "0x74b8f5239a4467c6f21d9eaf6c24b0b776f70621c5f41d342f768bab09e5ab16",
+      "createdAt": "2026-06-10T19:15:55.523Z",
+      "name": "Bubu cat",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1Ac43eE81518123bAf7E78df8eC86FAB93078ba3",
+      "basescanUrl": "https://basescan.org/token/0x1Ac43eE81518123bAf7E78df8eC86FAB93078ba3"
+    },
+    {
+      "tokenAddress": "0x1C2dbEdC2096B41085e1BeA4f424b6D605Fd3bA3",
+      "tokenName": "Didi cat",
+      "tokenSymbol": "DIDICAT",
+      "imageUrl": null,
+      "poolId": "0xa7c6f44cd060efae8cd3baa8d6bd6f5e491123c5bce7b53197a8d0e72c4c506c",
+      "createdAt": "2026-06-10T19:10:37.685Z",
+      "name": "Didi cat",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1C2dbEdC2096B41085e1BeA4f424b6D605Fd3bA3",
+      "basescanUrl": "https://basescan.org/token/0x1C2dbEdC2096B41085e1BeA4f424b6D605Fd3bA3"
+    },
     {
       "tokenAddress": "0xcb6E7061e72403eC6348E337cad56Bbb3f905ba3",
       "tokenName": "Justy",
@@ -381,34 +409,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xF26C2d2C2dB314b89ea200571FB975E881615ba3",
       "basescanUrl": "https://basescan.org/token/0xF26C2d2C2dB314b89ea200571FB975E881615ba3"
-    },
-    {
-      "tokenAddress": "0x3d651Dcea1549F7A676De9F8B6D43B58bc8cDBA3",
-      "tokenName": "Kingemmy1",
-      "tokenSymbol": "KINGEMMY",
-      "imageUrl": null,
-      "poolId": "0x2736f7be6d69c0039fdc29c3b9708d8b40425056b59ceed7eb545d1b7b349e03",
-      "createdAt": "2026-06-09T06:36:53.404Z",
-      "name": "Kingemmy1",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3d651Dcea1549F7A676De9F8B6D43B58bc8cDBA3",
-      "basescanUrl": "https://basescan.org/token/0x3d651Dcea1549F7A676De9F8B6D43B58bc8cDBA3"
-    },
-    {
-      "tokenAddress": "0x30e224046dd8d541F85f9a59a4571F91c4c1cba3",
-      "tokenName": "Bully",
-      "tokenSymbol": "BULLY",
-      "imageUrl": null,
-      "poolId": "0xfde25a604d69c398a45cfca4a467517791a9a39f728dd660700724f40340206e",
-      "createdAt": "2026-06-09T05:04:53.699Z",
-      "name": "Bully",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x30e224046dd8d541F85f9a59a4571F91c4c1cba3",
-      "basescanUrl": "https://basescan.org/token/0x30e224046dd8d541F85f9a59a4571F91c4c1cba3"
     },
     {
       "tokenAddress": "0x025170CB07f70fdE28fb3AD298Ff2f092e542ba3",
