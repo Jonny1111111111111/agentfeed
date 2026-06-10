@@ -1,13 +1,16 @@
 {
-  "generatedAt": "2026-06-10T02:42:20.062Z",
+  "generatedAt": "2026-06-10T09:43:12.011Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
-    "page": 24
+    "page": 26
   },
-  "expectedVerified": 69,
-  "count": 33,
+  "expectedVerified": 72,
+  "count": 35,
   "addresses": [
+    "0xc4b7136a16bb3f559e2dda63c6dbc25c3e9a9ba3",
+    "0xca738f7dbc212e9b530e315b954f79d944269ba3",
+    "0xd0b302b43d03e969467a36f6c223a8563b6d2ba3",
     "0x76e1a02c5ec8a3c6fc0340f905d1d275344cbba3",
     "0x651d518b62fe58d6210e919b1b95b652a6b8bba3",
     "0xbfaafc7230478989dbd2ea221db68ab637020ba3",
@@ -31,7 +34,6 @@
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
     "0xac5d766efcffb75e5276e584de4ec55fe7906ba3",
     "0xf832e3d02d8b72483166aabf5ee91df845367ba3",
-    "0x57477c9733c1f519e712a489784469174c50cba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
@@ -43,6 +45,48 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0xc4B7136a16bB3f559e2DDA63C6DBc25c3e9A9bA3",
+      "tokenName": "Fable",
+      "tokenSymbol": "FABLE",
+      "imageUrl": null,
+      "poolId": "0xd98e1056f229418962b003cdd995cd052b8577d44ac1f43f716c9832e5d30ad5",
+      "createdAt": "2026-06-10T08:45:21.741Z",
+      "name": "Fable",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc4B7136a16bB3f559e2DDA63C6DBc25c3e9A9bA3",
+      "basescanUrl": "https://basescan.org/token/0xc4B7136a16bB3f559e2DDA63C6DBc25c3e9A9bA3"
+    },
+    {
+      "tokenAddress": "0xcA738F7dbC212E9b530E315B954f79d944269ba3",
+      "tokenName": "Az",
+      "tokenSymbol": "AZ",
+      "imageUrl": null,
+      "poolId": "0x65dccc896871912328f21259d56b6e5457ea5de758ad1501ec1d02cc8ca78339",
+      "createdAt": "2026-06-10T08:25:23.571Z",
+      "name": "Az",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcA738F7dbC212E9b530E315B954f79d944269ba3",
+      "basescanUrl": "https://basescan.org/token/0xcA738F7dbC212E9b530E315B954f79d944269ba3"
+    },
+    {
+      "tokenAddress": "0xd0b302B43D03e969467a36f6C223A8563b6d2Ba3",
+      "tokenName": "DUMB",
+      "tokenSymbol": "DUMB",
+      "imageUrl": null,
+      "poolId": "0x3670bf33d073481ed83329178c441330648c2fb75299a8779d0be63c9fb529a8",
+      "createdAt": "2026-06-10T07:18:15.631Z",
+      "name": "DUMB",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd0b302B43D03e969467a36f6C223A8563b6d2Ba3",
+      "basescanUrl": "https://basescan.org/token/0xd0b302B43D03e969467a36f6C223A8563b6d2Ba3"
+    },
     {
       "tokenAddress": "0x76e1A02c5Ec8a3c6FC0340f905d1D275344cbBa3",
       "tokenName": "Suli",
@@ -364,20 +408,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xf832E3D02d8B72483166aaBf5ee91DF845367ba3",
       "basescanUrl": "https://basescan.org/token/0xf832E3D02d8B72483166aaBf5ee91DF845367ba3"
-    },
-    {
-      "tokenAddress": "0x57477C9733c1f519e712a489784469174c50Cba3",
-      "tokenName": "Utt",
-      "tokenSymbol": "UTT",
-      "imageUrl": null,
-      "poolId": "0x48cd66d259a413ea7c854f21dea662d71030090e9d6adc51bff0b9d073a86e7b",
-      "createdAt": "2026-06-07T21:29:27.439Z",
-      "name": "Utt",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x57477C9733c1f519e712a489784469174c50Cba3",
-      "basescanUrl": "https://basescan.org/token/0x57477C9733c1f519e712a489784469174c50Cba3"
     },
     {
       "tokenAddress": "0xCB3427b91f993575ccD0586af356cFE902a5Bba3",
