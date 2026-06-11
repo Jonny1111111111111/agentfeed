@@ -1,14 +1,35 @@
 {
-  "generatedAt": "2026-06-10T20:18:28.323Z",
+  "generatedAt": "2026-06-11T02:52:38.399Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 768,
-    "chain": 308,
-    "persisted": 139
+    "api": 788,
+    "chain": 188,
+    "persisted": 132
   },
-  "count": 132,
+  "count": 107,
   "addresses": [
+    "0x97645e581268ce0cb385436bdf1c75b958866b07",
+    "0xe103e738d7eb2e652376b90be12a889ffabafb07",
+    "0xaf1f7a23730c78855963e73ce6df727d08865b07",
+    "0x99bfb09efd8e834ccb77e09fb837d404744a8b07",
+    "0xdcbb0e7f86b35777f49e81e3a2c166efec5c2b07",
+    "0x31fcead16aad7a46502bdb14e85c620de69b6b07",
+    "0xab8cd468dc00b1ac688fdb4d65ae2d302c1a9b07",
+    "0x58bf8e02008b3df45498b22c9325b362250edb07",
+    "0x1ce941cc6ade45de93c16932b75719bdda546b07",
+    "0xdcdf6f83440be49d2e7470bb4f82772d10280b07",
+    "0x04d1f8a0b7506a991ea96de5c18f5bd9a6143b07",
+    "0xa3342d5fb39e3f9bf8d7dd11616e505758652b07",
+    "0x08ed6dc3f2d796b85e9f20980a612081912b0b07",
+    "0x4c037d9e70973de8a7e81644c217251f24477b07",
+    "0x14e2dc9e5ca23496735928ee8d1aa511f3dcdb07",
+    "0x36525aa5670c15441f06e3262dba5a16d50c5b07",
+    "0x51f44128a8638d26e3fee1e8d1b4ae4d5401fb07",
+    "0x10f89d84878c71dc54bbe12f58d9372b1cac9b07",
+    "0xdd6c08283bceb4e7385488577c6c0f46bf937b07",
+    "0xbf29190a87621d7b7f081c8f0138f5c02f7a8b07",
+    "0x1f8fbfa97f3d48100b0c8c164b8f040759199b07",
     "0xb40288f1f5d53860e6f8d955f449cb4f42f40b07",
     "0x15c03eff71db48dfdbf743b5f93f3fa4cd021b07",
     "0x606e3c75116b6f975afd0c70d6bca90c41975b07",
@@ -32,7 +53,6 @@
     "0x50c072b2a42bb43787c09912ccb59f47e304380f",
     "0xe08473458f5dd8c03d5cfee75b5cdd12bbc67777",
     "0xdf3d67bec1ddf6cb8a2c01d5c62f2484d8a85b07",
-    "0x53790ec8218ef203fbf3e33e0e00ee7f38477777",
     "0x6916fd71895bfc803a00ea02292f63e89a767777",
     "0x536d2cbcc2e31b32732520233810847da48bab07",
     "0x5a62f81bebbd07e4b067b6e8e453c0273bba4b07",
@@ -50,7 +70,6 @@
     "0xd9f51e1b968522e47d983c6738dc5c0777ddbb07",
     "0x3804d7fe0e6a811022124d1e3203dee0551b7777",
     "0xff5200798abb74936af5bb6852597166bcfb0b07",
-    "0x81cf52134b7d67befbd6098d9dc8e1a434b24b07",
     "0x6cf078058206eb50d55f537e1eb6ece5de889b07",
     "0x7cc582792badd05816ee4de09886cb7bcdf00b07",
     "0xff2e3fe30ed8ac314b4e9ca38b59604330fb5b07",
@@ -58,19 +77,16 @@
     "0x2a547c76b732dcef4e2b4ddbc56be98bb3a67777",
     "0x91afdd9773de51537d25a9588fb0f425d2892b07",
     "0xe26e0e188e25cd46e7e0a0b44af80ab0cc367777",
-    "0x5c58d7de1d3f2dafb22b70d45c6d39e160fafb07",
     "0x41fab189b74825267ba8ccbd574d0d72a4c44b07",
     "0x37d850d0f1934a36a51a89dae35f355fa1f34b07",
     "0xbbd4d15c33c89fec87cd122d116430f57fc92b07",
     "0xbe26f40501d51adefc8be10b7c455106bffc6b07",
     "0xb081cbbeb1703c2bc61659b2d4798c55657d7777",
-    "0xcd20fd12940b797ad03dea65b1a5c0cda95ffb07",
     "0xd02271eb7cc1b961150c24f5ba6983cc55b0eb07",
     "0x9eea0ba0e0f2ab6a3a3881344b68c13e94195b07",
     "0xa32e0d37b98dd3dbbefa26d8e67c3966b21d4b07",
     "0x3fb2006f33b2a325ff553c1790cef4bebe747777",
     "0xd89adb2cc9bd27748f22c0e9ce7729d88e07eb07",
-    "0x01b17eea9d395eb85ca62eb0e711435bd1014b07",
     "0x836e2951828cf3da537bacb12f2747d109a64b07",
     "0xc6869d7e72daf5a97e7902a54e103a9350bb7777",
     "0xcc4f2a4bbc04e30a9cfb6f8b3ce34d4d85ecdb07",
@@ -91,58 +107,479 @@
     "0xcca310ad658577a8e03cc9ee366cbea6b24b2b07",
     "0x766c308003c93a198c9236801eede3d24688eb07",
     "0x79af6f6806f8e23edac0aa26cd625349ee2cfb07",
-    "0x61be23bed7b7532e9e11706b77fd9c1c8aeecb07",
     "0x08e2d8d82247ecdc6a72af41a17af0e809569b07",
-    "0xf7b79d6929241d01730f5c95b449a04e37ffdb07",
-    "0xbb85aa68f6785c14c29f6fd2fa53b0f2c7b17777",
-    "0xe590ffff2affe4266e2bf8d995164776ca503b07",
-    "0xe630b072f593c2d1cef7011c5be9746f8fff2b07",
-    "0x86a2e59d26f126f85f5f2bce009de7b0c6188b07",
-    "0x30254e944f233131fad9365e3b16f600c7c67777",
-    "0x503ecf2a9ebd55a6bbcd4c471583f3113ad87777",
-    "0xf416b7bcd7a1b05ebd5de009215d7cbe6acf3b07",
-    "0x48e773fe8bf9628bb7a785f5c4582d6b4fa73b07",
-    "0x2aae80691bf07007c1dbda5c6380974367096b07",
-    "0xb765bdd73be31176459c7cf19b039c33cb637777",
-    "0x3834fa2bc35d996136cd1712557b63a76aa23b07",
-    "0x3c0614b0b8e15892d725b58486001442ccc22b07",
-    "0x3c3edd0da345655365c56b74235a3bf36aab4b07",
-    "0xb9d2cc889fb18b1c4702fa10c2987a283258db07",
-    "0xce61af27c73727750e4636d44ba335d831f0db07",
-    "0xedf6323b94a17126f4324edeca3f013b13e86b07",
-    "0x93e921d242f7e3e7ce77eebbef685701281b7777",
-    "0xc5f15702ba02a0aadbc1c9187ab7dc69fa6b7777",
-    "0x6192ea03847eb3e65722a674faa9b1be8df07b07",
-    "0xd15d6fc4865372ee3aa797c24171cee4f37adb07",
-    "0xe79aadb9358d6036fa14272e7beb0697f3009b07",
-    "0x5463aa1b8b0593c964fd83fab2d873884455cb07",
-    "0x7419dd6b7549aa1f9aecc1b4e3016cf27ecebb07",
-    "0x4ac0f951fe4759c6ca58b70c3c11a0c681190b07",
-    "0x60900c42d04833e3dc6f99baa1e0e47f40887b07",
-    "0x8127bdd9bb352376ed1767a32dbdd8943938fb07",
-    "0xfb587369df488de8b3f222bcd2b79aa8d67deb07",
-    "0x24cf8c19bc09143960dff43fc305c5d048037777",
-    "0x968e5c93907fd7ef0838a7f39e9bfde128245b07",
-    "0xdd2912ed639c0de59c8aa27a3118308945617777",
-    "0x41837f1bf061b6c3e037b05b3e52d1e27f7b4b07",
-    "0x9b70c8b72b009c81515547309c19c7fba0961b07",
-    "0xc85514aedaad5ded4e32caeb1cd0109c91250b07",
-    "0x54b534464dc964765e5e8ef3f4d906b36cc04b07",
-    "0x78b399c904d9058c0950d39c3a001023aa521b07",
-    "0x5a2d7f5e824fe4fed3a7170967be484aa2a92ccc",
-    "0xb76da3e0d58955699d885f249a9de74c324fab07",
-    "0x5fee3a7bb746d5425a94bd4fba588d7cc535fb07",
     "0x5272653c6a50363e9300538497ff8663cfab4b07",
     "0x46082c1f77569df4fe72eb261cf377973d9dcb07",
     "0xd618643aa9138f6e11e94bba7bfa373985405b07",
     "0xb27d1b51703fb7972f7821a29740e7769196ab07",
-    "0x7fce3bd213013cabd44d307b0db05d64c28e5b07",
     "0x84048da9ff8366efb2111a8013c4de8216ab8b07",
     "0x461d3c96d170e551611f54fa466d3d74a680aba3",
     "0xb1eba65cf45ee49f5e3f60f3b677ef46d8f1a799",
     "0xc5267c0dfbb3f1b28f8c0fc59233d28cb1d1db07"
   ],
   "items": [
+    {
+      "tokenName": "FIFA2026 Coin",
+      "tokenSymbol": "FIFA26",
+      "tokenAddress": "0x97645E581268cE0cB385436bdf1C75b958866b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-11 02:42:57",
+      "poolId": "0xd595a4bc6b7a435f7f745e3e12bd99db02cbd9dcae062eda0190945978414040",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd595a4bc6b7a435f7f745e3e12bd99db02cbd9dcae062eda0190945978414040",
+      "basescanUrl": "https://basescan.org/token/0x97645E581268cE0cB385436bdf1C75b958866b07",
+      "source": "clanker",
+      "volume24h": 19710.05,
+      "txns24h": 153
+    },
+    {
+      "tokenName": "AgentHansa",
+      "tokenSymbol": "AgentHansa",
+      "tokenAddress": "0xe103E738d7EB2E652376B90bE12a889ffAbAfb07",
+      "imageUrl": null,
+      "createdAt": "2026-06-11 02:25:45",
+      "poolId": "0x9e8e7a3bd9bb40ce4cf901eb573469462ea43fb7882e64a1b915d62f9212c51c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9e8e7a3bd9bb40ce4cf901eb573469462ea43fb7882e64a1b915d62f9212c51c",
+      "basescanUrl": "https://basescan.org/token/0xe103E738d7EB2E652376B90bE12a889ffAbAfb07",
+      "source": "clanker",
+      "volume24h": 24872.739999999998,
+      "txns24h": 173
+    },
+    {
+      "tokenName": "SpaceX",
+      "tokenSymbol": "SpaceX",
+      "tokenAddress": "0xaF1F7A23730c78855963e73cE6Df727D08865B07",
+      "imageUrl": null,
+      "createdAt": "2026-06-11 02:08:29",
+      "poolId": "0x813bd692f496550ca50e700dae046bd7b462fa88708c28952d1d7f74c3e8c083",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x813bd692f496550ca50e700dae046bd7b462fa88708c28952d1d7f74c3e8c083",
+      "basescanUrl": "https://basescan.org/token/0xaF1F7A23730c78855963e73cE6Df727D08865B07",
+      "source": "clanker",
+      "volume24h": 13687.58,
+      "txns24h": 123
+    },
+    {
+      "tokenName": "RELIQT",
+      "tokenSymbol": "RELIQT",
+      "tokenAddress": "0x99Bfb09efd8E834CcB77E09Fb837d404744A8B07",
+      "imageUrl": null,
+      "createdAt": "2026-06-11 01:48:57",
+      "poolId": "0xa81c83c300be5ac48e750820753bba119ac7018e683f0f60614e8ed40028dfaa",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa81c83c300be5ac48e750820753bba119ac7018e683f0f60614e8ed40028dfaa",
+      "basescanUrl": "https://basescan.org/token/0x99Bfb09efd8E834CcB77E09Fb837d404744A8B07",
+      "source": "clanker",
+      "volume24h": 58943.91,
+      "txns24h": 373
+    },
+    {
+      "tokenName": "SpaceX",
+      "tokenSymbol": "SpaceX",
+      "tokenAddress": "0xdCBb0E7f86B35777f49E81E3A2C166EfeC5c2b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidy7nm4j5m6hfsvriuuspleqndmdghjx47hn4hopa3q5yrkohjdsm",
+      "createdAt": "2026-06-11 01:28:55",
+      "poolId": "0x376369e6304027f592f16cf4196952003e2643fbee1f0cd2223ea9aac49946eb",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidy7nm4j5m6hfsvriuuspleqndmdghjx47hn4hopa3q5yrkohjdsm",
+        "verified": false,
+        "operatorAddress": "0xf0C9ab6c48cdDEbd7C87C292331c54fd2Fb4D379",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xf0C9ab6c48cdDEbd7C87C292331c54fd2Fb4D379",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x376369e6304027f592f16cf4196952003e2643fbee1f0cd2223ea9aac49946eb",
+      "basescanUrl": "https://basescan.org/token/0xdCBb0E7f86B35777f49E81E3A2C166EfeC5c2b07",
+      "source": "clanker",
+      "volume24h": 48197690.72,
+      "txns24h": 621
+    },
+    {
+      "tokenName": "DEFIED",
+      "tokenSymbol": "DEFIED",
+      "tokenAddress": "0x31FCeAD16Aad7a46502bdb14e85c620de69B6b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-11 00:54:37",
+      "poolId": "0x9382b952705ab501d3c80c0e97bd9294fe08813ea88251de3c49732d068f6634",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9382b952705ab501d3c80c0e97bd9294fe08813ea88251de3c49732d068f6634",
+      "basescanUrl": "https://basescan.org/token/0x31FCeAD16Aad7a46502bdb14e85c620de69B6b07",
+      "source": "clanker",
+      "volume24h": 52598.85,
+      "txns24h": 447
+    },
+    {
+      "tokenName": "PetroDollar",
+      "tokenSymbol": "XPD",
+      "tokenAddress": "0xab8CD468dc00b1aC688fdb4D65ae2D302C1A9B07",
+      "imageUrl": null,
+      "createdAt": "2026-06-11 00:33:35",
+      "poolId": "0xee71ee9ec0fa6287d29745d457ed0ec04fc10be71420dc6bb4b6a5e9407c9173",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xee71ee9ec0fa6287d29745d457ed0ec04fc10be71420dc6bb4b6a5e9407c9173",
+      "basescanUrl": "https://basescan.org/token/0xab8CD468dc00b1aC688fdb4D65ae2D302C1A9B07",
+      "source": "clanker",
+      "volume24h": 53574.62,
+      "txns24h": 464
+    },
+    {
+      "tokenName": "Hello World",
+      "tokenSymbol": "HWORLD",
+      "tokenAddress": "0x58bF8E02008B3df45498b22C9325b362250EDB07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 23:17:53",
+      "poolId": "0xe6e739282babe6bf116dc947e0d844ec985fa48faf0d959303147c2b6d00415d",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe6e739282babe6bf116dc947e0d844ec985fa48faf0d959303147c2b6d00415d",
+      "basescanUrl": "https://basescan.org/token/0x58bF8E02008B3df45498b22C9325b362250EDB07",
+      "source": "clanker",
+      "volume24h": 54700.240000000005,
+      "txns24h": 350
+    },
+    {
+      "tokenName": "ecco the dolphin",
+      "tokenSymbol": "ecco",
+      "tokenAddress": "0x1ce941cc6ADe45DE93C16932b75719bDda546b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 23:00:35",
+      "poolId": "0x5a9a8a84f5048ed8eabdb81d4bb932bdc9284b37014f4d380caa34152cfe8c78",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5a9a8a84f5048ed8eabdb81d4bb932bdc9284b37014f4d380caa34152cfe8c78",
+      "basescanUrl": "https://basescan.org/token/0x1ce941cc6ADe45DE93C16932b75719bDda546b07",
+      "source": "clanker",
+      "volume24h": 27641.03,
+      "txns24h": 289
+    },
+    {
+      "tokenName": "Hermes Desktop",
+      "tokenSymbol": "HD",
+      "tokenAddress": "0xDcdF6F83440bE49D2E7470bB4f82772d10280b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 22:57:47",
+      "poolId": "0x207f68aa61ed657c45fee0f7492ef3f7461095f84a82d14916a9e9280c61aab4",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x207f68aa61ed657c45fee0f7492ef3f7461095f84a82d14916a9e9280c61aab4",
+      "basescanUrl": "https://basescan.org/token/0xDcdF6F83440bE49D2E7470bB4f82772d10280b07",
+      "source": "clanker",
+      "volume24h": 42079.86,
+      "txns24h": 360
+    },
+    {
+      "tokenName": "MiroShark",
+      "tokenSymbol": "MiroShark",
+      "tokenAddress": "0x04D1f8a0b7506a991Ea96dE5c18F5BD9A6143b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 22:31:57",
+      "poolId": "0x4f500677de316ea223a5bebccd22b28ae144a26f68a0df7e3728e7954a92e993",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4f500677de316ea223a5bebccd22b28ae144a26f68a0df7e3728e7954a92e993",
+      "basescanUrl": "https://basescan.org/token/0x04D1f8a0b7506a991Ea96dE5c18F5BD9A6143b07",
+      "source": "clanker",
+      "volume24h": 37337.87,
+      "txns24h": 502
+    },
+    {
+      "tokenName": "Stablecoin",
+      "tokenSymbol": "Stable",
+      "tokenAddress": "0xa3342d5fb39E3F9bf8d7dd11616E505758652b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 22:25:15",
+      "poolId": "0x8099a8726c5801b5e547a28c27635f792d60262bbd3100fbfa7147d05d6fdfb8",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8099a8726c5801b5e547a28c27635f792d60262bbd3100fbfa7147d05d6fdfb8",
+      "basescanUrl": "https://basescan.org/token/0xa3342d5fb39E3F9bf8d7dd11616E505758652b07",
+      "source": "clanker",
+      "volume24h": 52885.83,
+      "txns24h": 363
+    },
+    {
+      "tokenName": "Basey",
+      "tokenSymbol": "Basey",
+      "tokenAddress": "0x08Ed6dc3f2d796b85e9F20980A612081912B0B07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 22:03:33",
+      "poolId": "0x0c06190d7b13fbb072e86501e70ea7ab9917594051771d570de92cb4dc74201c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0c06190d7b13fbb072e86501e70ea7ab9917594051771d570de92cb4dc74201c",
+      "basescanUrl": "https://basescan.org/token/0x08Ed6dc3f2d796b85e9F20980A612081912B0B07",
+      "source": "clanker",
+      "volume24h": 24521.37,
+      "txns24h": 189
+    },
+    {
+      "tokenName": "Basey",
+      "tokenSymbol": "Basey",
+      "tokenAddress": "0x4c037D9E70973dE8A7E81644c217251f24477b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 22:03:21",
+      "poolId": "0xe5d1e25d02086454acf95e4b8930c5763c8963bb367964733ed83889207afcac",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe5d1e25d02086454acf95e4b8930c5763c8963bb367964733ed83889207afcac",
+      "basescanUrl": "https://basescan.org/token/0x4c037D9E70973dE8A7E81644c217251f24477b07",
+      "source": "clanker",
+      "volume24h": 50727.12,
+      "txns24h": 462
+    },
+    {
+      "tokenName": "Harness",
+      "tokenSymbol": "Harness",
+      "tokenAddress": "0x14e2dC9E5CA23496735928Ee8d1aA511f3dCDB07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 21:47:21",
+      "poolId": "0xde1c9698ee98313adca00e66771d361daaedc9fa7a39af983cc0973eff178503",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xde1c9698ee98313adca00e66771d361daaedc9fa7a39af983cc0973eff178503",
+      "basescanUrl": "https://basescan.org/token/0x14e2dC9E5CA23496735928Ee8d1aA511f3dCDB07",
+      "source": "clanker",
+      "volume24h": 26125.629999999997,
+      "txns24h": 194
+    },
+    {
+      "tokenName": "EMBER",
+      "tokenSymbol": "EMBER",
+      "tokenAddress": "0x36525aa5670c15441F06E3262DbA5A16d50C5b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 21:28:45",
+      "poolId": "0x0a5fdf9ed18e3e39c8da2d3c8412cda793e38b6e3b95f9b75e1fa43f6a8569ba",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0a5fdf9ed18e3e39c8da2d3c8412cda793e38b6e3b95f9b75e1fa43f6a8569ba",
+      "basescanUrl": "https://basescan.org/token/0x36525aa5670c15441F06E3262DbA5A16d50C5b07",
+      "source": "clanker",
+      "volume24h": 28042,
+      "txns24h": 288
+    },
+    {
+      "tokenName": "NvidiaIntelGoogleGrokAMD",
+      "tokenSymbol": "NIGGA",
+      "tokenAddress": "0x51f44128a8638D26E3feE1e8d1B4Ae4D5401fB07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 21:01:21",
+      "poolId": "0x3a028799940988d4c47851671979a3b2a7e9b6faec56f6a28e35504ec435467e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3a028799940988d4c47851671979a3b2a7e9b6faec56f6a28e35504ec435467e",
+      "basescanUrl": "https://basescan.org/token/0x51f44128a8638D26E3feE1e8d1B4Ae4D5401fB07",
+      "source": "clanker",
+      "volume24h": 44177.630000000005,
+      "txns24h": 403
+    },
+    {
+      "tokenName": "Trillion",
+      "tokenSymbol": "TRILLION",
+      "tokenAddress": "0x10f89D84878c71Dc54bBE12F58D9372b1CaC9b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 20:49:15",
+      "poolId": "0x8f8df94b013cbdef7151cd7785246e4d899d723aafaee7fa034c67064e213c8f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8f8df94b013cbdef7151cd7785246e4d899d723aafaee7fa034c67064e213c8f",
+      "basescanUrl": "https://basescan.org/token/0x10f89D84878c71Dc54bBE12F58D9372b1CaC9b07",
+      "source": "clanker",
+      "volume24h": 56253.58,
+      "txns24h": 390
+    },
+    {
+      "tokenName": "Get Me a Job",
+      "tokenSymbol": "getmeajob",
+      "tokenAddress": "0xdd6C08283BceB4E7385488577c6C0F46BF937b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 20:41:53",
+      "poolId": "0xa9dafbf787d69e45234bdedeaa0993a92158f5557cc2f622eccd3c39c60078e1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa9dafbf787d69e45234bdedeaa0993a92158f5557cc2f622eccd3c39c60078e1",
+      "basescanUrl": "https://basescan.org/token/0xdd6C08283BceB4E7385488577c6C0F46BF937b07",
+      "source": "clanker",
+      "volume24h": 26553.46,
+      "txns24h": 195
+    },
+    {
+      "tokenName": "BIBI",
+      "tokenSymbol": "BIBI",
+      "tokenAddress": "0xBF29190a87621D7B7f081C8F0138f5c02F7a8b07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 20:32:09",
+      "poolId": "0x2e736482bf9b5b1db128048b3a48444c8ebc90e81670e85b95fa817d9fcc47e0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2e736482bf9b5b1db128048b3a48444c8ebc90e81670e85b95fa817d9fcc47e0",
+      "basescanUrl": "https://basescan.org/token/0xBF29190a87621D7B7f081C8F0138f5c02F7a8b07",
+      "source": "clanker",
+      "volume24h": 52430.83,
+      "txns24h": 384
+    },
+    {
+      "tokenName": "Gaejook The Puppy",
+      "tokenSymbol": "Gaejook",
+      "tokenAddress": "0x1f8fbfA97f3d48100b0C8C164B8f040759199B07",
+      "imageUrl": null,
+      "createdAt": "2026-06-10 20:10:15",
+      "poolId": "0xf1d63b4c79ba63c537705906321716bec91e8088087c42aa60ca31dc22e763bb",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf1d63b4c79ba63c537705906321716bec91e8088087c42aa60ca31dc22e763bb",
+      "basescanUrl": "https://basescan.org/token/0x1f8fbfA97f3d48100b0C8C164B8f040759199B07",
+      "source": "clanker",
+      "volume24h": 26473.829999999998,
+      "txns24h": 195
+    },
     {
       "tokenName": "Super Deployer",
       "tokenSymbol": "SD",
@@ -162,8 +599,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x445b73f065f9465ecc7158e5f88cf2211d6e06910959f664ebc9b2b6fc6086bb",
       "basescanUrl": "https://basescan.org/token/0xb40288F1F5D53860E6f8d955f449cB4F42f40b07",
       "source": "clanker",
-      "volume24h": 38994.57,
-      "txns24h": 531
+      "volume24h": 39013.380000000005,
+      "txns24h": 536
     },
     {
       "tokenName": "Super Deployer",
@@ -493,7 +930,7 @@
       "basescanUrl": "https://basescan.org/token/0x1de26852472da4963e950a5091bb655b23a18ba3",
       "source": "clanker",
       "volume24h": 33711.91,
-      "txns24h": 288
+      "txns24h": 287
     },
     {
       "tokenName": "Pumpscape",
@@ -515,7 +952,7 @@
       "basescanUrl": "https://basescan.org/token/0x486353f4062abfe547aa7cdcacd3597c622e7777",
       "source": "clanker",
       "volume24h": 212700.05,
-      "txns24h": 1422
+      "txns24h": 1421
     },
     {
       "tokenName": "Pumpscape",
@@ -558,8 +995,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0039cff34af698c8600351dc1aef2b218f83cd2c04d4c55703d946933574a4b4",
       "basescanUrl": "https://basescan.org/token/0x915139ab06882dbA63d01fB7cb26f5546A095b07",
       "source": "clanker",
-      "volume24h": 47137708.54,
-      "txns24h": 3591
+      "volume24h": 47169402.44,
+      "txns24h": 7437
     },
     {
       "tokenName": "Blue Coin",
@@ -602,8 +1039,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xb0c07b7b1400f72b67d58e208bd5abaea45abe127fc0bbb8ec5a9c47798ffa60",
       "basescanUrl": "https://basescan.org/token/0x50c072b2a42Bb43787c09912ccB59f47E304380f",
       "source": "clanker",
-      "volume24h": 234968.23,
-      "txns24h": 2910
+      "volume24h": 249497.31,
+      "txns24h": 3206
     },
     {
       "tokenName": "Pup",
@@ -650,28 +1087,6 @@
       "txns24h": 488
     },
     {
-      "tokenName": "ΣΤ𐍉𐍈",
-      "tokenSymbol": "ΣΤ𐍉",
-      "tokenAddress": "0x53790ec8218ef203fbf3e33e0e00ee7f38477777",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 13:37:25",
-      "poolId": "0x67e660d4c308c4c676fbeac5b0c4bf10798c9d3f31cfe204a68e33a84beb51f7",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x67e660d4c308c4c676fbeac5b0c4bf10798c9d3f31cfe204a68e33a84beb51f7",
-      "basescanUrl": "https://basescan.org/token/0x53790ec8218ef203fbf3e33e0e00ee7f38477777",
-      "source": "clanker",
-      "volume24h": 68334.26,
-      "txns24h": 526
-    },
-    {
       "tokenName": "White Lives Matter",
       "tokenSymbol": "WLM",
       "tokenAddress": "0x6916fd71895bfc803a00ea02292f63e89a767777",
@@ -691,7 +1106,7 @@
       "basescanUrl": "https://basescan.org/token/0x6916fd71895bfc803a00ea02292f63e89a767777",
       "source": "clanker",
       "volume24h": 259066.6,
-      "txns24h": 1685
+      "txns24h": 1684
     },
     {
       "tokenName": "memecoins can change your life",
@@ -757,7 +1172,7 @@
       "basescanUrl": "https://basescan.org/token/0xa9b5f53ff7ceb28adbd6d6181ecc1b4a34b67777",
       "source": "clanker",
       "volume24h": 233153.28,
-      "txns24h": 1586
+      "txns24h": 1585
     },
     {
       "tokenName": "Saltburn",
@@ -801,7 +1216,7 @@
       "basescanUrl": "https://basescan.org/token/0x50bcf55d951acd9d99c0bff5d8cec5973c467777",
       "source": "clanker",
       "volume24h": 240899.19,
-      "txns24h": 1616
+      "txns24h": 1615
     },
     {
       "tokenName": "Oarcoin",
@@ -815,15 +1230,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xdefbd0bdb790813411d6f180172c34bac4e326cbe442249e5dd9dd7c7fb2be90",
       "basescanUrl": "https://basescan.org/token/0x211c0a6f971a134c9441F7f56351b88C355b0b07",
       "source": "clanker",
-      "volume24h": 18124.719999999998,
-      "txns24h": 124
+      "volume24h": 18124.71,
+      "txns24h": 123
     },
     {
       "tokenName": "Brötchen",
@@ -845,7 +1260,7 @@
       "basescanUrl": "https://basescan.org/token/0xa504f8b1092a03a11851c90f6d3236df67687777",
       "source": "clanker",
       "volume24h": 64932.31,
-      "txns24h": 515
+      "txns24h": 514
     },
     {
       "tokenName": "SpaceX",
@@ -859,15 +1274,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x2b25b5278088dd73a927e5dc2b3b15285e560edb0894859fb477b2d84e7c4ec1",
       "basescanUrl": "https://basescan.org/token/0xe7aE5eb148688C94Cf55698DD76F8cFC4a601b07",
       "source": "clanker",
-      "volume24h": 24606.23,
-      "txns24h": 182
+      "volume24h": 24606.22,
+      "txns24h": 181
     },
     {
       "tokenName": "memebank",
@@ -881,15 +1296,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x925561607274ab905642ac2f08ded1a32541bc1442789bee74f2002f6139b1dc",
       "basescanUrl": "https://basescan.org/token/0xba6Eca45079625EE173bAE1330aFcA21eBA5bb07",
       "source": "clanker",
-      "volume24h": 58287.1,
-      "txns24h": 413
+      "volume24h": 58287.09,
+      "txns24h": 412
     },
     {
       "tokenName": "Millions Must Go",
@@ -911,7 +1326,7 @@
       "basescanUrl": "https://basescan.org/token/0xcc88f09b029b8d205cd5989d902ead322c5a7777",
       "source": "clanker",
       "volume24h": 237809.56,
-      "txns24h": 1606
+      "txns24h": 1605
     },
     {
       "tokenName": "I HATE CRYPTO",
@@ -925,15 +1340,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x5ff69185de2f59f3ddc3152ff0c56db97db625e2f92d3bcba6c086b756e1996f",
       "basescanUrl": "https://basescan.org/token/0x9Fa7109cfcdA060914aF9f1F4A76763aF2cB6B07",
       "source": "clanker",
-      "volume24h": 53438.66,
-      "txns24h": 368
+      "volume24h": 53438.65,
+      "txns24h": 367
     },
     {
       "tokenName": "I HATE CRYPTO",
@@ -947,15 +1362,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x8742fe3fdb176c3a9ac793e55963783a76c6792a2bdc150ab516964b0e4c6ba0",
       "basescanUrl": "https://basescan.org/token/0x72cC95871E1BE273c198c0F8deda9167305a8B07",
       "source": "clanker",
-      "volume24h": 47205.71,
-      "txns24h": 462
+      "volume24h": 47205.7,
+      "txns24h": 461
     },
     {
       "tokenName": "BRAINMON",
@@ -969,15 +1384,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xd4fa221224216afafef83e55cf59eb47d0dd5db44e211efd49a5ef430b90c746",
       "basescanUrl": "https://basescan.org/token/0x0e86dFf443313ad82f647c12EB36BA0642B66B07",
       "source": "clanker",
-      "volume24h": 27147.379999999997,
-      "txns24h": 201
+      "volume24h": 27147.37,
+      "txns24h": 200
     },
     {
       "tokenName": "TESSL",
@@ -991,10 +1406,10 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeigy6boojho2ncg3yfzzhlj57t7srcqega6vbm3s2a5cyhlqyudm5y",
         "verified": false,
-        "operatorAddress": "0x5DF25b24d3694827baE08684d6B6eea49412cf14",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x5DF25b24d3694827baE08684d6B6eea49412cf14",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xeaa0dcfc2ea184f16136c34622e0bd87398f84781791c9cd3715370064ca4bd3",
       "basescanUrl": "https://basescan.org/token/0xd9f51e1b968522e47D983C6738Dc5c0777DDbb07",
       "source": "clanker",
@@ -1021,7 +1436,7 @@
       "basescanUrl": "https://basescan.org/token/0x3804d7fe0e6a811022124d1e3203dee0551b7777",
       "source": "clanker",
       "volume24h": 218324.04,
-      "txns24h": 1448
+      "txns24h": 1447
     },
     {
       "tokenName": "Baseland",
@@ -1035,37 +1450,15 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiecu5s2g5jjssqf5asqrlrkpwb6ujwstcbpqwnuwugfkg3loxggnm",
         "verified": false,
-        "operatorAddress": "0x78A40F3b1bCDF4F9b76de1C36a6363299953C7b7",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x78A40F3b1bCDF4F9b76de1C36a6363299953C7b7",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xdb5f1c34c94cf19e1b97bc57212bfce147ae98e4a1047c687dba2b818c70cd25",
       "basescanUrl": "https://basescan.org/token/0xFF5200798aBB74936aF5Bb6852597166bCfB0B07",
       "source": "clanker",
       "volume24h": 4063.94,
       "txns24h": 144
-    },
-    {
-      "tokenName": "SpaceX",
-      "tokenSymbol": "SpaceX",
-      "tokenAddress": "0x81CF52134b7D67befBd6098D9dc8e1A434B24B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaprhtyx2kywi3rm4ya2qsamgnhpequkuytpakgbmg5dqev77teta",
-      "createdAt": "2026-06-10 10:13:51",
-      "poolId": "0xc2defe8d0eb168655db539c67115c0e6d7ad96c0ccc2494072b8cbe8ba3f25f0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaprhtyx2kywi3rm4ya2qsamgnhpequkuytpakgbmg5dqev77teta",
-        "verified": false,
-        "operatorAddress": "0xf0C9ab6c48cdDEbd7C87C292331c54fd2Fb4D379",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xf0C9ab6c48cdDEbd7C87C292331c54fd2Fb4D379",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xc2defe8d0eb168655db539c67115c0e6d7ad96c0ccc2494072b8cbe8ba3f25f0",
-      "basescanUrl": "https://basescan.org/token/0x81CF52134b7D67befBd6098D9dc8e1A434B24B07",
-      "source": "clanker",
-      "volume24h": 56586700.10999999,
-      "txns24h": 3486
     },
     {
       "tokenName": "RWA",
@@ -1079,15 +1472,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xf8c8f96831974753efdfc1b13cb4feba7aa81468c90ff0bf80645f4cdf53fbe2",
       "basescanUrl": "https://basescan.org/token/0x6CF078058206EB50d55F537E1eB6Ece5dE889b07",
       "source": "clanker",
-      "volume24h": 38538.19,
-      "txns24h": 440
+      "volume24h": 38538.18,
+      "txns24h": 439
     },
     {
       "tokenName": "Lumen AI",
@@ -1101,10 +1494,10 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiacairibk44aq3l2wqb5g624q56vkf6d2gjc5gayxadrwpsmpb2wi",
         "verified": false,
-        "operatorAddress": "0xDfFE35afA36A61612F005f73115923110A3ff886",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0xDfFE35afA36A61612F005f73115923110A3ff886",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x8cf60b00461ba7d3bb32def59c494d801e55355d1032ca59d773b00ed559cb46",
       "basescanUrl": "https://basescan.org/token/0x7cC582792bADd05816eE4De09886cb7bCdf00B07",
       "source": "clanker",
@@ -1123,15 +1516,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xe5036aab39a00ad870f0331393d698e87bc9d7858c65bd744b48daf38676d59e",
       "basescanUrl": "https://basescan.org/token/0xff2e3fE30ed8AC314b4E9Ca38B59604330fb5b07",
       "source": "clanker",
-      "volume24h": 50053.61,
-      "txns24h": 438
+      "volume24h": 50053.6,
+      "txns24h": 437
     },
     {
       "tokenName": "ai2humanwork",
@@ -1145,15 +1538,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xdfdbf744f21bc8061279f2dfaf9dcb6befa75b9a5532aa27bd2e16a29ecc82e0",
       "basescanUrl": "https://basescan.org/token/0x7b9b2d09D9684dbd47bfe90018597eb74a6B5b07",
       "source": "clanker",
-      "volume24h": 55904.700000000004,
-      "txns24h": 377
+      "volume24h": 55904.69,
+      "txns24h": 376
     },
     {
       "tokenName": "Worthless Coin",
@@ -1189,10 +1582,10 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaxzh4ewm3d5ptllmleocigq3i2yofcxlccaxnb5tjvtvowqdbnd4",
         "verified": false,
-        "operatorAddress": "0xDE90e43aE7fAADEc54358Ac78fa611df4F5C0193",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0xDE90e43aE7fAADEc54358Ac78fa611df4F5C0193",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x16a9d4cb46c3d3506ba21d06b4c8635e81e4c0055654f94d6659ae9812727a01",
       "basescanUrl": "https://basescan.org/token/0x91AFdd9773De51537D25A9588Fb0f425D2892B07",
       "source": "clanker",
@@ -1219,29 +1612,7 @@
       "basescanUrl": "https://basescan.org/token/0xe26e0e188e25cd46e7e0a0b44af80ab0cc367777",
       "source": "clanker",
       "volume24h": 241133.69,
-      "txns24h": 1652
-    },
-    {
-      "tokenName": "SAFEMOON",
-      "tokenSymbol": "SAFEMOON",
-      "tokenAddress": "0x5c58D7dE1D3f2dafB22b70d45C6D39E160fAFb07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 08:40:49",
-      "poolId": "0xe817429b164447e22322bfa9cdbe5de954a7c3897b00d674b961a521f10d8981",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe817429b164447e22322bfa9cdbe5de954a7c3897b00d674b961a521f10d8981",
-      "basescanUrl": "https://basescan.org/token/0x5c58D7dE1D3f2dafB22b70d45C6D39E160fAFb07",
-      "source": "clanker",
-      "volume24h": 52928.200000000004,
-      "txns24h": 539
+      "txns24h": 1651
     },
     {
       "tokenName": "SAFEMOON",
@@ -1255,15 +1626,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xf1de3330ed971056b54064d541acf940183cf17bd4db827ca2891641acafacfe",
       "basescanUrl": "https://basescan.org/token/0x41fAb189b74825267ba8CCbD574d0d72a4c44b07",
       "source": "clanker",
-      "volume24h": 26536.91,
-      "txns24h": 296
+      "volume24h": 26536.9,
+      "txns24h": 295
     },
     {
       "tokenName": "Lumen Labs",
@@ -1277,15 +1648,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x052a95509de1fd0cd86985e7561f830c617992db53fee2250163546ce0eef413",
       "basescanUrl": "https://basescan.org/token/0x37D850d0F1934a36A51a89DaE35f355fa1f34B07",
       "source": "clanker",
-      "volume24h": 55320.090000000004,
-      "txns24h": 466
+      "volume24h": 55320.08,
+      "txns24h": 465
     },
     {
       "tokenName": "Valuable coin",
@@ -1299,15 +1670,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x554d61d5e6c397346fb7431062c96ab8b8bc29e7b6d28a1244f84bfdba6a6d35",
       "basescanUrl": "https://basescan.org/token/0xbbD4D15c33c89fec87cd122D116430f57FC92B07",
       "source": "clanker",
-      "volume24h": 26263.09,
-      "txns24h": 199
+      "volume24h": 26263.08,
+      "txns24h": 198
     },
     {
       "tokenName": "Jimmy",
@@ -1321,15 +1692,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x2bc2d477581840b8ca4fc158289febc511647fddab4069738e1e1aa89372d3a3",
       "basescanUrl": "https://basescan.org/token/0xBE26f40501d51ADEFc8bE10b7C455106bfFC6B07",
       "source": "clanker",
-      "volume24h": 28995.429999999997,
-      "txns24h": 309
+      "volume24h": 28995.42,
+      "txns24h": 306
     },
     {
       "tokenName": "Worthless Coin",
@@ -1354,28 +1725,6 @@
       "txns24h": 1652
     },
     {
-      "tokenName": "Worthless Coin",
-      "tokenSymbol": "WORTHLESS",
-      "tokenAddress": "0xCd20Fd12940B797aD03DEa65B1a5C0cDA95FFb07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 08:05:15",
-      "poolId": "0x94d7185f8910e01ca9504536ae08c7a5e17257dfa6c0082b3f943433c0cf6912",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x94d7185f8910e01ca9504536ae08c7a5e17257dfa6c0082b3f943433c0cf6912",
-      "basescanUrl": "https://basescan.org/token/0xCd20Fd12940B797aD03DEa65B1a5C0cDA95FFb07",
-      "source": "clanker",
-      "volume24h": 37789.01,
-      "txns24h": 404
-    },
-    {
       "tokenName": "Raffled",
       "tokenSymbol": "Raffled",
       "tokenAddress": "0xd02271EB7Cc1b961150c24f5Ba6983cc55b0EB07",
@@ -1387,10 +1736,10 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibpixidhqyja2257pismkuxudkfawh3cryuhjmxcbmf6dgeermiji",
         "verified": false,
-        "operatorAddress": "0x42fe938b2b0bFeE145CeDCcceFf2B3F61751Fa1C",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x42fe938b2b0bFeE145CeDCcceFf2B3F61751Fa1C",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x2b5b0b963a879537d4d9b27bfbe90b737b9ad9343b04df54a642730c9650388c",
       "basescanUrl": "https://basescan.org/token/0xd02271EB7Cc1b961150c24f5Ba6983cc55b0EB07",
       "source": "clanker",
@@ -1409,15 +1758,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xb4303a28bec9de61486ee893e2e444701c0c21733527159424fe6f42854f5903",
       "basescanUrl": "https://basescan.org/token/0x9EeA0ba0E0F2AB6A3a3881344b68c13e94195B07",
       "source": "clanker",
-      "volume24h": 54885.21,
-      "txns24h": 558
+      "volume24h": 54885.2,
+      "txns24h": 557
     },
     {
       "tokenName": "Plant Coin",
@@ -1431,10 +1780,10 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreig7dzqia23mafje5agvdxa7q5xdrkqtuwzd4jodsegg66apirqy7a",
         "verified": false,
-        "operatorAddress": "0x3f1Eb784CA5689770DDF377669aA5cD103aFe82C",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x3f1Eb784CA5689770DDF377669aA5cD103aFe82C",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x3bc9d8c52e911730e30af4d80f8bb28814ff1184ec75486f4f6a2154f90272a9",
       "basescanUrl": "https://basescan.org/token/0xa32E0D37B98DD3dBBeFa26D8E67C3966b21d4b07",
       "source": "clanker",
@@ -1461,7 +1810,7 @@
       "basescanUrl": "https://basescan.org/token/0x3fb2006f33b2a325ff553c1790cef4bebe747777",
       "source": "clanker",
       "volume24h": 259770.35,
-      "txns24h": 1735
+      "txns24h": 1736
     },
     {
       "tokenName": "Niggerdom",
@@ -1475,37 +1824,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x5f6c250746c76fca92068dc967c4cc8bfdbd12e4e53a4f1451e8813ec05f1c2e",
       "basescanUrl": "https://basescan.org/token/0xd89aDB2cC9Bd27748F22C0E9Ce7729d88E07Eb07",
       "source": "clanker",
-      "volume24h": 25255.67,
-      "txns24h": 193
-    },
-    {
-      "tokenName": "Dollar",
-      "tokenSymbol": "Dollar",
-      "tokenAddress": "0x01B17eEA9d395eB85cA62eb0E711435Bd1014B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 07:22:57",
-      "poolId": "0x7d9ed9c502535e61d32ed1a5ba422954fc4c2c12e3c47dab9217bacd6eb1fbda",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x7d9ed9c502535e61d32ed1a5ba422954fc4c2c12e3c47dab9217bacd6eb1fbda",
-      "basescanUrl": "https://basescan.org/token/0x01B17eEA9d395eB85cA62eb0E711435Bd1014B07",
-      "source": "clanker",
-      "volume24h": 55952.82,
-      "txns24h": 516
+      "volume24h": 25255.66,
+      "txns24h": 192
     },
     {
       "tokenName": "World's First Trillionaire",
@@ -1519,15 +1846,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x04b72923b7e39c458b48c25cc9242850d104aaf933d97608772f992cf0605b65",
       "basescanUrl": "https://basescan.org/token/0x836e2951828CF3DA537BACb12f2747D109A64B07",
       "source": "clanker",
-      "volume24h": 28479.25,
-      "txns24h": 295
+      "volume24h": 28479.24,
+      "txns24h": 294
     },
     {
       "tokenName": "SCUBACAT",
@@ -1563,15 +1890,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x096ecf3c6ca39e3b90db7ebd3c4dca74fc9b419c4ef804474b3fda821923277d",
       "basescanUrl": "https://basescan.org/token/0xcC4f2a4bbC04E30a9cfB6f8B3Ce34d4D85ecdB07",
       "source": "clanker",
-      "volume24h": 49210.68,
-      "txns24h": 436
+      "volume24h": 49210.67,
+      "txns24h": 435
     },
     {
       "tokenName": "Claude Crab",
@@ -1585,15 +1912,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x8e98c14ec7fed9c829edaf2f258e3f92079152061b1862e5e8b5087820177cc5",
       "basescanUrl": "https://basescan.org/token/0xe2b19f416005EB5ACc1b4BFaD1F1116F60ad8b07",
       "source": "clanker",
-      "volume24h": 16531.5,
-      "txns24h": 159
+      "volume24h": 16531.49,
+      "txns24h": 158
     },
     {
       "tokenName": "PROJECT OASIS COIN",
@@ -1607,15 +1934,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x3e56672ee46f107e2c67cbd87e3a556003db1b1a59d4cd5a8531d752a6cb93c8",
       "basescanUrl": "https://basescan.org/token/0xBD12675C1Ad36f804f73cAbe97D352d91CD6db07",
       "source": "clanker",
-      "volume24h": 33486.32,
-      "txns24h": 329
+      "volume24h": 33486.31,
+      "txns24h": 328
     },
     {
       "tokenName": "Niggerdom",
@@ -1651,15 +1978,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x9250ee9d56e351c583dfe51cee05df9127f7328eeab9a7ef36a066444d2710e9",
       "basescanUrl": "https://basescan.org/token/0x5BfA52eb2356e8b9E84b8A5A61DE7D9096084B07",
       "source": "clanker",
-      "volume24h": 16198.64,
-      "txns24h": 134
+      "volume24h": 16198.63,
+      "txns24h": 133
     },
     {
       "tokenName": "Commissions",
@@ -1673,15 +2000,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xbc416e06c8af8b0097ee58a0272e84cee799b49f85ba009bdb73b08d2135da96",
       "basescanUrl": "https://basescan.org/token/0xfc283c6A85A59Be3e51AAbb15FADE392cA7AcB07",
       "source": "clanker",
-      "volume24h": 21532.879999999997,
-      "txns24h": 240
+      "volume24h": 21532.87,
+      "txns24h": 239
     },
     {
       "tokenName": "Cain y Abel",
@@ -1695,15 +2022,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xda8fd7b05a9e1a262758d01a6445a3dbf8d6ffe3d2c213df9bcaa8fa2f2ded6b",
       "basescanUrl": "https://basescan.org/token/0x215E9A69aD05Fa841571727D58989F9A20bB7b07",
       "source": "clanker",
-      "volume24h": 44199.26,
-      "txns24h": 456
+      "volume24h": 44199.25,
+      "txns24h": 455
     },
     {
       "tokenName": "Foxcoin",
@@ -1739,15 +2066,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xd7b31be611b7f38f633313cd20de054952629cb36bbdb699003b3f3626c08d25",
       "basescanUrl": "https://basescan.org/token/0xd782cd3f4DBE59D59acfc8E58552483793321B07",
       "source": "clanker",
-      "volume24h": 48682.94,
-      "txns24h": 309
+      "volume24h": 48682.93,
+      "txns24h": 308
     },
     {
       "tokenName": "CLAUBBIT",
@@ -1783,15 +2110,15 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xe54c0e1aaa50db915bb0c4e0186da5557012977b42397b0cdca41dfd30f55c31",
       "basescanUrl": "https://basescan.org/token/0x2fcf65266E01cd58684cBC21E92Bd692afE22b07",
       "source": "clanker",
-      "volume24h": 26799.14,
-      "txns24h": 281
+      "volume24h": 26799.13,
+      "txns24h": 280
     },
     {
       "tokenName": "CERBY",
@@ -1805,10 +2132,10 @@
         "handle": null,
         "image": null,
         "verified": false,
-        "operatorAddress": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x32f0999B6c6CEAa0B527a422F39AdEac46376d67",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x7a0d2748ec3bfd275d109a83419f5c993dbc4e173bb9dd418da803ac121713e0",
       "basescanUrl": "https://basescan.org/token/0xCD763028B7028A7B5C56A875168A1738e80A2B07",
       "source": "clanker",
@@ -1834,8 +2161,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xcee100b6862084261913fed049d0ba97a015a202fffa8cfb4e45bef91dac0afb",
       "basescanUrl": "https://basescan.org/token/0x2a0C3aF6c6eBD4F6EBc4896c59A12083A3B56b07",
       "source": "clanker",
-      "volume24h": 55185.37,
-      "txns24h": 465
+      "volume24h": 55185.380000000005,
+      "txns24h": 466
     },
     {
       "tokenName": "Cain y Abel",
@@ -1856,8 +2183,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xde929967277301c4d577af11c6fe355c39ccf7aa1fc73f0d7306a9a13950d030",
       "basescanUrl": "https://basescan.org/token/0x0C4ae2ACC61f2c67056566A067380e0f65632b07",
       "source": "clanker",
-      "volume24h": 53229.79,
-      "txns24h": 483
+      "volume24h": 53229.8,
+      "txns24h": 484
     },
     {
       "tokenName": "gaffer games",
@@ -1878,8 +2205,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc32cb6ffc14c6bc42f93be5045c6a70a912e1a5444cd7573e9ec18cc268b9de1",
       "basescanUrl": "https://basescan.org/token/0x6b424C5bC48Cb7B76Cd69fA614Ef522e8A76bb07",
       "source": "clanker",
-      "volume24h": 25478.91,
-      "txns24h": 192
+      "volume24h": 25478.92,
+      "txns24h": 193
     },
     {
       "tokenName": "Ouroboros",
@@ -1900,8 +2227,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa08dc054b9e0bd301efa4928ed52668688966d5b119e361a2eeae04ea2a6d6dd",
       "basescanUrl": "https://basescan.org/token/0xcca310Ad658577a8e03CC9EE366CBea6B24B2B07",
       "source": "clanker",
-      "volume24h": 50200.49,
-      "txns24h": 477
+      "volume24h": 50200.5,
+      "txns24h": 478
     },
     {
       "tokenName": "Tung Tung Tung Sahur",
@@ -1922,8 +2249,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x91aaca10a0a8fe77b31ca470ad07eee1d8bfd76f50e6df4b09de71054d670bd5",
       "basescanUrl": "https://basescan.org/token/0x766C308003C93A198C9236801EeDE3D24688Eb07",
       "source": "clanker",
-      "volume24h": 53745.47,
-      "txns24h": 397
+      "volume24h": 53745.48,
+      "txns24h": 398
     },
     {
       "tokenName": "drq",
@@ -1944,30 +2271,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x434d9ceec0f735ce85b3a52a47b5c19274d71e99721bbdf40866a45fd5406c80",
       "basescanUrl": "https://basescan.org/token/0x79Af6f6806F8E23Edac0AA26cD625349EE2CFB07",
       "source": "clanker",
-      "volume24h": 53942.93,
-      "txns24h": 373
-    },
-    {
-      "tokenName": "Insane Profit Opportunity",
-      "tokenSymbol": "IPO",
-      "tokenAddress": "0x61bE23Bed7B7532E9e11706B77fd9c1c8AEEcB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 02:28:05",
-      "poolId": "0xe75c8106d75ed124e174e1ff1c859ead1d046282f1cbc2f9c7c7fab649697a35",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe75c8106d75ed124e174e1ff1c859ead1d046282f1cbc2f9c7c7fab649697a35",
-      "basescanUrl": "https://basescan.org/token/0x61bE23Bed7B7532E9e11706B77fd9c1c8AEEcB07",
-      "source": "clanker",
-      "volume24h": 47563.84,
-      "txns24h": 461
+      "volume24h": 24730.58,
+      "txns24h": 246
     },
     {
       "tokenName": "Litebeam",
@@ -1988,866 +2293,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x7c14b90ab269480a6e8716550e00c9b3b09c98f935789bb6c6514e8b471af76e",
       "basescanUrl": "https://basescan.org/token/0x08e2D8D82247ecDC6a72Af41a17AF0E809569B07",
       "source": "clanker",
-      "volume24h": 38797.18,
-      "txns24h": 501
-    },
-    {
-      "tokenName": "PVECOIN",
-      "tokenSymbol": "PVE",
-      "tokenAddress": "0xf7b79d6929241D01730f5C95B449A04e37FfdB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 02:12:33",
-      "poolId": "0x2e6bb9674120c3d6730e9267297241f059e387f5f2197506f42368967bdbf788",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2e6bb9674120c3d6730e9267297241f059e387f5f2197506f42368967bdbf788",
-      "basescanUrl": "https://basescan.org/token/0xf7b79d6929241D01730f5C95B449A04e37FfdB07",
-      "source": "clanker",
-      "volume24h": 51669.58,
-      "txns24h": 366
-    },
-    {
-      "tokenName": "vibecat",
-      "tokenSymbol": "vibecat",
-      "tokenAddress": "0xbb85aa68f6785c14c29f6fd2fa53b0f2c7b17777",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 02:07:53",
-      "poolId": "0x29ba328b94449a802669c295e1a4e2b854252eb77554fdc5846b35900cfc760b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x29ba328b94449a802669c295e1a4e2b854252eb77554fdc5846b35900cfc760b",
-      "basescanUrl": "https://basescan.org/token/0xbb85aa68f6785c14c29f6fd2fa53b0f2c7b17777",
-      "source": "clanker",
-      "volume24h": 238336.13,
-      "txns24h": 1532
-    },
-    {
-      "tokenName": "vibecat",
-      "tokenSymbol": "vibecat",
-      "tokenAddress": "0xe590FFFf2affE4266E2bF8d995164776ca503B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:58:05",
-      "poolId": "0x8b4177930570387e780a57d374d2a91ef89dadc85dd38f2a869477da5ecaec6b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8b4177930570387e780a57d374d2a91ef89dadc85dd38f2a869477da5ecaec6b",
-      "basescanUrl": "https://basescan.org/token/0xe590FFFf2affE4266E2bF8d995164776ca503B07",
-      "source": "clanker",
-      "volume24h": 47380.02,
-      "txns24h": 442
-    },
-    {
-      "tokenName": "401k",
-      "tokenSymbol": "401k",
-      "tokenAddress": "0xe630B072F593c2D1CeF7011C5be9746F8fFf2B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:56:25",
-      "poolId": "0xda98785a73915489ea673b108f921fe6e79cbb933ba3c87d4e7ca69df037e815",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xda98785a73915489ea673b108f921fe6e79cbb933ba3c87d4e7ca69df037e815",
-      "basescanUrl": "https://basescan.org/token/0xe630B072F593c2D1CeF7011C5be9746F8fFf2B07",
-      "source": "clanker",
-      "volume24h": 28451.9,
-      "txns24h": 281
-    },
-    {
-      "tokenName": "401k",
-      "tokenSymbol": "401k",
-      "tokenAddress": "0x86a2E59D26F126f85f5f2Bce009dE7b0c6188b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:51:59",
-      "poolId": "0x43d7bb74fd33d7d4d1247fe687c467f62ab269ec659379b832b25ce840b506e3",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x43d7bb74fd33d7d4d1247fe687c467f62ab269ec659379b832b25ce840b506e3",
-      "basescanUrl": "https://basescan.org/token/0x86a2E59D26F126f85f5f2Bce009dE7b0c6188b07",
-      "source": "clanker",
-      "volume24h": 24990.39,
-      "txns24h": 181
-    },
-    {
-      "tokenName": "vibecat",
-      "tokenSymbol": "vibecat",
-      "tokenAddress": "0x30254e944f233131fad9365e3b16f600c7c67777",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:45:57",
-      "poolId": "0x37bb7184cb25ef6467a5149d6f84d887017a718c05fb23f1989387307b4cb7c2",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x37bb7184cb25ef6467a5149d6f84d887017a718c05fb23f1989387307b4cb7c2",
-      "basescanUrl": "https://basescan.org/token/0x30254e944f233131fad9365e3b16f600c7c67777",
-      "source": "clanker",
-      "volume24h": 141965.18,
-      "txns24h": 966
-    },
-    {
-      "tokenName": "vibecat",
-      "tokenSymbol": "vibecat",
-      "tokenAddress": "0x503ecf2a9ebd55a6bbcd4c471583f3113ad87777",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:40:19",
-      "poolId": "0xf799fa7414cb15e09a0c86719ab046945d14afe64a68966662984c2d42ad4e89",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf799fa7414cb15e09a0c86719ab046945d14afe64a68966662984c2d42ad4e89",
-      "basescanUrl": "https://basescan.org/token/0x503ecf2a9ebd55a6bbcd4c471583f3113ad87777",
-      "source": "clanker",
-      "volume24h": 15652.72,
-      "txns24h": 111
-    },
-    {
-      "tokenName": "The Official USDC 67 Coin",
-      "tokenSymbol": "67",
-      "tokenAddress": "0xF416B7bCD7a1b05ebD5de009215d7CBe6ACF3B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:36:21",
-      "poolId": "0x1b1187ff4f2e70d248883d4525b15fb0081351ee5669b88785501a2b5b626f0d",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1b1187ff4f2e70d248883d4525b15fb0081351ee5669b88785501a2b5b626f0d",
-      "basescanUrl": "https://basescan.org/token/0xF416B7bCD7a1b05ebD5de009215d7CBe6ACF3B07",
-      "source": "clanker",
-      "volume24h": 25450.49,
-      "txns24h": 196
-    },
-    {
-      "tokenName": "vibecat",
-      "tokenSymbol": "vibecat",
-      "tokenAddress": "0x48E773fe8bF9628Bb7A785f5C4582d6B4FA73b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:35:01",
-      "poolId": "0xe3bece59a29984972d9a1ca4526345f23a7f40e8b37249a510060c86ff544979",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe3bece59a29984972d9a1ca4526345f23a7f40e8b37249a510060c86ff544979",
-      "basescanUrl": "https://basescan.org/token/0x48E773fe8bF9628Bb7A785f5C4582d6B4FA73b07",
-      "source": "clanker",
-      "volume24h": 55354.34,
-      "txns24h": 466
-    },
-    {
-      "tokenName": "vibecat",
-      "tokenSymbol": "vibecat",
-      "tokenAddress": "0x2aAE80691bf07007c1DbDA5c6380974367096B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:34:09",
-      "poolId": "0xd06487b6fe52c6cb6b5e5363fa6bc19ee3f4ebe52f049958b49c1e01caeaf02c",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd06487b6fe52c6cb6b5e5363fa6bc19ee3f4ebe52f049958b49c1e01caeaf02c",
-      "basescanUrl": "https://basescan.org/token/0x2aAE80691bf07007c1DbDA5c6380974367096B07",
-      "source": "clanker",
-      "volume24h": 54541.64,
-      "txns24h": 454
-    },
-    {
-      "tokenName": "Official Lizard Coin",
-      "tokenSymbol": "LIZARD",
-      "tokenAddress": "0xb765bdd73be31176459c7cf19b039c33cb637777",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 01:07:21",
-      "poolId": "0x5b66f2093d75b356ca372101d79d556cb62572430683a8a88086e0b9fad83c90",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5b66f2093d75b356ca372101d79d556cb62572430683a8a88086e0b9fad83c90",
-      "basescanUrl": "https://basescan.org/token/0xb765bdd73be31176459c7cf19b039c33cb637777",
-      "source": "clanker",
-      "volume24h": 233247.74,
-      "txns24h": 1528
-    },
-    {
-      "tokenName": "Nyan Cat",
-      "tokenSymbol": "NYAN",
-      "tokenAddress": "0x3834FA2Bc35d996136cD1712557B63A76AA23b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:56:39",
-      "poolId": "0x33ad599320e2d2a8df45d71fbcf2302b487bc79e9f121c9b5634e62343f937d2",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x33ad599320e2d2a8df45d71fbcf2302b487bc79e9f121c9b5634e62343f937d2",
-      "basescanUrl": "https://basescan.org/token/0x3834FA2Bc35d996136cD1712557B63A76AA23b07",
-      "source": "clanker",
-      "volume24h": 59176.88,
-      "txns24h": 402
-    },
-    {
-      "tokenName": "BRUNO COIN",
-      "tokenSymbol": "BRUNO",
-      "tokenAddress": "0x3c0614B0B8E15892d725B58486001442ccc22b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:49:27",
-      "poolId": "0xe2229fbc9f7a9257abc7868fdd029fbb9b665fdfa3e5829ee358ad2cf36a8b1a",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe2229fbc9f7a9257abc7868fdd029fbb9b665fdfa3e5829ee358ad2cf36a8b1a",
-      "basescanUrl": "https://basescan.org/token/0x3c0614B0B8E15892d725B58486001442ccc22b07",
-      "source": "clanker",
-      "volume24h": 26245.38,
-      "txns24h": 202
-    },
-    {
-      "tokenName": "Beamer",
-      "tokenSymbol": "BEAMER",
-      "tokenAddress": "0x3C3edD0Da345655365C56B74235a3bf36aAb4b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:33:47",
-      "poolId": "0x743531e3cfb91e461d11ac47e60b9024dab81614366c659a01b272f2bb83cb16",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x743531e3cfb91e461d11ac47e60b9024dab81614366c659a01b272f2bb83cb16",
-      "basescanUrl": "https://basescan.org/token/0x3C3edD0Da345655365C56B74235a3bf36aAb4b07",
-      "source": "clanker",
-      "volume24h": 26052.51,
+      "volume24h": 14108.17,
       "txns24h": 185
-    },
-    {
-      "tokenName": "Litebeam",
-      "tokenSymbol": "$LBEAM",
-      "tokenAddress": "0xB9D2CC889FB18b1c4702Fa10c2987A283258Db07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:24:01",
-      "poolId": "0xdcb4738253808ca206a25217b66979c24a355c8c35fc2e846ef3b1fddbe1d9ea",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xdcb4738253808ca206a25217b66979c24a355c8c35fc2e846ef3b1fddbe1d9ea",
-      "basescanUrl": "https://basescan.org/token/0xB9D2CC889FB18b1c4702Fa10c2987A283258Db07",
-      "source": "clanker",
-      "volume24h": 26617.02,
-      "txns24h": 285
-    },
-    {
-      "tokenName": "Beamer",
-      "tokenSymbol": "BEAMER",
-      "tokenAddress": "0xCE61AF27c73727750e4636D44BA335d831f0DB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:19:57",
-      "poolId": "0xd2da6b4c886d09aca366d06b632e6b88a21d63d1bc710041790a5d3ded2194d9",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd2da6b4c886d09aca366d06b632e6b88a21d63d1bc710041790a5d3ded2194d9",
-      "basescanUrl": "https://basescan.org/token/0xCE61AF27c73727750e4636D44BA335d831f0DB07",
-      "source": "clanker",
-      "volume24h": 49584.38,
-      "txns24h": 455
-    },
-    {
-      "tokenName": "braincomp",
-      "tokenSymbol": "brain",
-      "tokenAddress": "0xEDF6323b94a17126F4324eDecA3F013b13E86b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:18:09",
-      "poolId": "0x845bf809b34c28d5ce08e82c35d3d2f952a7c9986e4de47e03608bd314e2816c",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x845bf809b34c28d5ce08e82c35d3d2f952a7c9986e4de47e03608bd314e2816c",
-      "basescanUrl": "https://basescan.org/token/0xEDF6323b94a17126F4324eDecA3F013b13E86b07",
-      "source": "clanker",
-      "volume24h": 24433.41,
-      "txns24h": 189
-    },
-    {
-      "tokenName": "BrimFable",
-      "tokenSymbol": "BRIM",
-      "tokenAddress": "0x93e921d242f7e3e7ce77eebbef685701281b7777",
-      "imageUrl": null,
-      "createdAt": "2026-06-10 00:16:17",
-      "poolId": "0x514a7aaf802e152997160b3b6458b23a98de5130b152f96f071944aaeabe65fb",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x514a7aaf802e152997160b3b6458b23a98de5130b152f96f071944aaeabe65fb",
-      "basescanUrl": "https://basescan.org/token/0x93e921d242f7e3e7ce77eebbef685701281b7777",
-      "source": "clanker",
-      "volume24h": 230068.91,
-      "txns24h": 1544
-    },
-    {
-      "tokenName": "Bruno Coin",
-      "tokenSymbol": "BRUNO",
-      "tokenAddress": "0xc5f15702ba02a0aadbc1c9187ab7dc69fa6b7777",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 23:42:43",
-      "poolId": "0xd4f77b0267601624e9c6c5300c4728dd6cefb25ad96446c08384b40c9c47a409",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd4f77b0267601624e9c6c5300c4728dd6cefb25ad96446c08384b40c9c47a409",
-      "basescanUrl": "https://basescan.org/token/0xc5f15702ba02a0aadbc1c9187ab7dc69fa6b7777",
-      "source": "clanker",
-      "volume24h": 254894.32,
-      "txns24h": 1575
-    },
-    {
-      "tokenName": "BRUNO COIN",
-      "tokenSymbol": "BRUNO",
-      "tokenAddress": "0x6192EA03847eb3e65722A674FaA9B1Be8Df07B07",
-      "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/9gK5xeiz598mxU8HXiyD9dS8CAksxJJjMHh7XU6aj28j.webp",
-      "createdAt": "2026-06-09 23:24:05",
-      "poolId": "0x250f805f8a1eeb6032ded3896b12c0a70a3cc86b364bf83fb80b76d1c03a47da",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://axiomtrading-v2.axiom-cdn.io/9gK5xeiz598mxU8HXiyD9dS8CAksxJJjMHh7XU6aj28j.webp",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x250f805f8a1eeb6032ded3896b12c0a70a3cc86b364bf83fb80b76d1c03a47da",
-      "basescanUrl": "https://basescan.org/token/0x6192EA03847eb3e65722A674FaA9B1Be8Df07B07",
-      "source": "clanker",
-      "volume24h": 71289.13,
-      "txns24h": 534
-    },
-    {
-      "tokenName": "Litebeam",
-      "tokenSymbol": "$LBEAM",
-      "tokenAddress": "0xD15D6fC4865372Ee3aa797C24171cEe4F37aDB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 23:17:25",
-      "poolId": "0x7db2e19a4432d9965703689df335593e2e27da7d817a446b87c83a811ec3a1ab",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x7db2e19a4432d9965703689df335593e2e27da7d817a446b87c83a811ec3a1ab",
-      "basescanUrl": "https://basescan.org/token/0xD15D6fC4865372Ee3aa797C24171cEe4F37aDB07",
-      "source": "clanker",
-      "volume24h": 57703.9,
-      "txns24h": 391
-    },
-    {
-      "tokenName": "Litebeam",
-      "tokenSymbol": "LBEAM",
-      "tokenAddress": "0xE79AADb9358D6036fa14272e7bEb0697F3009B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 23:15:47",
-      "poolId": "0x757973d8f1aa9f543af827a75576c35410159582265f2b0796f6bbcfbd610169",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x757973d8f1aa9f543af827a75576c35410159582265f2b0796f6bbcfbd610169",
-      "basescanUrl": "https://basescan.org/token/0xE79AADb9358D6036fa14272e7bEb0697F3009B07",
-      "source": "clanker",
-      "volume24h": 27289.6,
-      "txns24h": 201
-    },
-    {
-      "tokenName": "metrpay",
-      "tokenSymbol": "METR",
-      "tokenAddress": "0x5463AA1b8B0593C964FD83fAB2d873884455CB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 23:06:57",
-      "poolId": "0x3e1135cdb21ba48237c870be854cce0d40692e44c3f8e6ffeeb37e469635e3c6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3e1135cdb21ba48237c870be854cce0d40692e44c3f8e6ffeeb37e469635e3c6",
-      "basescanUrl": "https://basescan.org/token/0x5463AA1b8B0593C964FD83fAB2d873884455CB07",
-      "source": "clanker",
-      "volume24h": 18019.68,
-      "txns24h": 102
-    },
-    {
-      "tokenName": "Sophia",
-      "tokenSymbol": "Sophia",
-      "tokenAddress": "0x7419dD6B7549aA1F9aecc1b4E3016CF27eCeBB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 22:51:19",
-      "poolId": "0x0348e30cba76c7d541e703f6d8fc72290c3640ae141aeaeeb33d202a41595081",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0348e30cba76c7d541e703f6d8fc72290c3640ae141aeaeeb33d202a41595081",
-      "basescanUrl": "https://basescan.org/token/0x7419dD6B7549aA1F9aecc1b4E3016CF27eCeBB07",
-      "source": "clanker",
-      "volume24h": 26213.29,
-      "txns24h": 201
-    },
-    {
-      "tokenName": "MAJOR COIN",
-      "tokenSymbol": "MAJOR",
-      "tokenAddress": "0x4ac0f951fe4759c6ca58b70c3c11a0C681190b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 22:41:13",
-      "poolId": "0x3be084e37c925ecce9f239765e3938da1adfea11aa1dd366170ad2ce9cff0e2a",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3be084e37c925ecce9f239765e3938da1adfea11aa1dd366170ad2ce9cff0e2a",
-      "basescanUrl": "https://basescan.org/token/0x4ac0f951fe4759c6ca58b70c3c11a0C681190b07",
-      "source": "clanker",
-      "volume24h": 53257.18,
-      "txns24h": 449
-    },
-    {
-      "tokenName": "Blinkospace",
-      "tokenSymbol": "BLINKO",
-      "tokenAddress": "0x60900c42D04833E3dC6f99bAa1E0e47F40887b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 22:34:19",
-      "poolId": "0xd06eca283e8e052960c85961ad4d49bcdeb4b63bf95a48ae9a361675e8d333ca",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd06eca283e8e052960c85961ad4d49bcdeb4b63bf95a48ae9a361675e8d333ca",
-      "basescanUrl": "https://basescan.org/token/0x60900c42D04833E3dC6f99bAa1E0e47F40887b07",
-      "source": "clanker",
-      "volume24h": 55234,
-      "txns24h": 483
-    },
-    {
-      "tokenName": "SLANTIX",
-      "tokenSymbol": "SLANTIX",
-      "tokenAddress": "0x8127bdD9bB352376eD1767A32DbDD8943938FB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 22:17:17",
-      "poolId": "0x5982daed8f17d3b7f787dd70cc3a8fc3b4b70a03e8991a0fa6636952367b043f",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5982daed8f17d3b7f787dd70cc3a8fc3b4b70a03e8991a0fa6636952367b043f",
-      "basescanUrl": "https://basescan.org/token/0x8127bdD9bB352376eD1767A32DbDD8943938FB07",
-      "source": "clanker",
-      "volume24h": 60014.52,
-      "txns24h": 415
-    },
-    {
-      "tokenName": "BankrSpace",
-      "tokenSymbol": "Space",
-      "tokenAddress": "0xFb587369df488dE8B3F222bCd2b79Aa8D67Deb07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 22:00:19",
-      "poolId": "0xffc7b78e11c6cea72dbc907e19bfa7837b8ba8e7762ab848084d65143d855ca6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xffc7b78e11c6cea72dbc907e19bfa7837b8ba8e7762ab848084d65143d855ca6",
-      "basescanUrl": "https://basescan.org/token/0xFb587369df488dE8B3F222bCd2b79Aa8D67Deb07",
-      "source": "clanker",
-      "volume24h": 58351.42,
-      "txns24h": 397
-    },
-    {
-      "tokenName": "bountymoney",
-      "tokenSymbol": "bounty",
-      "tokenAddress": "0x24cf8c19bc09143960dff43fc305c5d048037777",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:58:27",
-      "poolId": "0x477fb294d8af1b5df8fd3ddcfa25b94647c60ec91b8d047bdae6a565b93289b4",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x477fb294d8af1b5df8fd3ddcfa25b94647c60ec91b8d047bdae6a565b93289b4",
-      "basescanUrl": "https://basescan.org/token/0x24cf8c19bc09143960dff43fc305c5d048037777",
-      "source": "clanker",
-      "volume24h": 244237.71,
-      "txns24h": 1605
-    },
-    {
-      "tokenName": "Dronk AI",
-      "tokenSymbol": "DRONK",
-      "tokenAddress": "0x968E5C93907Fd7eF0838a7f39E9bFDe128245b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:44:13",
-      "poolId": "0xdc57aec9a1e120f9e978bf05332325ee8e3e6c9393c5d9dfefe935486d7b5061",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xdc57aec9a1e120f9e978bf05332325ee8e3e6c9393c5d9dfefe935486d7b5061",
-      "basescanUrl": "https://basescan.org/token/0x968E5C93907Fd7eF0838a7f39E9bFDe128245b07",
-      "source": "clanker",
-      "volume24h": 28609.14,
-      "txns24h": 304
-    },
-    {
-      "tokenName": "Homecoin",
-      "tokenSymbol": "Homecoin",
-      "tokenAddress": "0xdd2912ed639c0de59c8aa27a3118308945617777",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:43:25",
-      "poolId": "0xc510ada98c1b947a8cd66abf526b8d9bf056536795800e0051dfab48d80335de",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xc510ada98c1b947a8cd66abf526b8d9bf056536795800e0051dfab48d80335de",
-      "basescanUrl": "https://basescan.org/token/0xdd2912ed639c0de59c8aa27a3118308945617777",
-      "source": "clanker",
-      "volume24h": 94321.49,
-      "txns24h": 674
-    },
-    {
-      "tokenName": "Money Machine",
-      "tokenSymbol": "mGDP",
-      "tokenAddress": "0x41837f1Bf061b6C3E037b05b3e52D1E27f7b4B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:40:29",
-      "poolId": "0x895b0bc680f1a50c99a5f3a0087caa8829cecd8295f3470a618f1101a83a4334",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x895b0bc680f1a50c99a5f3a0087caa8829cecd8295f3470a618f1101a83a4334",
-      "basescanUrl": "https://basescan.org/token/0x41837f1Bf061b6C3E037b05b3e52D1E27f7b4B07",
-      "source": "clanker",
-      "volume24h": 8362.75,
-      "txns24h": 123
-    },
-    {
-      "tokenName": "Money Machine",
-      "tokenSymbol": "mGDP",
-      "tokenAddress": "0x9B70c8b72B009c81515547309C19c7fBA0961B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:32:27",
-      "poolId": "0x08bda112660bf0f80649b7b12ccb4ea8461a6694d2cc8ad8665e9fd9e1c0191e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x08bda112660bf0f80649b7b12ccb4ea8461a6694d2cc8ad8665e9fd9e1c0191e",
-      "basescanUrl": "https://basescan.org/token/0x9B70c8b72B009c81515547309C19c7fBA0961B07",
-      "source": "clanker",
-      "volume24h": 26158.49,
-      "txns24h": 193
-    },
-    {
-      "tokenName": "BankrSpace",
-      "tokenSymbol": "Bankr",
-      "tokenAddress": "0xc85514aEdAaD5ded4E32caeb1CD0109c91250B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:16:53",
-      "poolId": "0x6074bab32a7258376fc32371e2734d28b6804b5a934085f0f851289e511cb21c",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x6074bab32a7258376fc32371e2734d28b6804b5a934085f0f851289e511cb21c",
-      "basescanUrl": "https://basescan.org/token/0xc85514aEdAaD5ded4E32caeb1CD0109c91250B07",
-      "source": "clanker",
-      "volume24h": 26779.17,
-      "txns24h": 201
-    },
-    {
-      "tokenName": "NewLimits",
-      "tokenSymbol": "NewLimits",
-      "tokenAddress": "0x54B534464Dc964765e5E8eF3F4d906b36CC04B07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:11:01",
-      "poolId": "0xdd1787705881927693b444980ab11e54fb1511e18bd7c91b002646824f53dc61",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xdd1787705881927693b444980ab11e54fb1511e18bd7c91b002646824f53dc61",
-      "basescanUrl": "https://basescan.org/token/0x54B534464Dc964765e5E8eF3F4d906b36CC04B07",
-      "source": "clanker",
-      "volume24h": 58446.27,
-      "txns24h": 399
-    },
-    {
-      "tokenName": "BankrSpace",
-      "tokenSymbol": "Space",
-      "tokenAddress": "0x78b399C904D9058c0950D39c3a001023aa521b07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 21:01:19",
-      "poolId": "0x3cb247e81811b05be19af073ca29db291eb87af42238e948490751175d8c8470",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3cb247e81811b05be19af073ca29db291eb87af42238e948490751175d8c8470",
-      "basescanUrl": "https://basescan.org/token/0x78b399C904D9058c0950D39c3a001023aa521b07",
-      "source": "clanker",
-      "volume24h": 25211.65,
-      "txns24h": 194
-    },
-    {
-      "tokenName": "Loboratory",
-      "tokenSymbol": "0XLOBO",
-      "tokenAddress": "0x5A2D7F5e824fe4Fed3A7170967bE484Aa2A92Ccc",
-      "imageUrl": "https://apricot-impressive-mule-642.mypinata.cloud\n/ipfs/bafybeiafzxcwoxfxyvq4cvssnrsnpjoavgczyhny6qkgcizkjlias5xsbe",
-      "createdAt": "2026-06-09 20:52:25",
-      "poolId": "0xeeb6c2c71450ad83a55112e4470cb9f52c439116a65e4cb40a34cd7cd00efaf1",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://apricot-impressive-mule-642.mypinata.cloud\n/ipfs/bafybeiafzxcwoxfxyvq4cvssnrsnpjoavgczyhny6qkgcizkjlias5xsbe",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xeeb6c2c71450ad83a55112e4470cb9f52c439116a65e4cb40a34cd7cd00efaf1",
-      "basescanUrl": "https://basescan.org/token/0x5A2D7F5e824fe4Fed3A7170967bE484Aa2A92Ccc",
-      "source": "clanker",
-      "volume24h": 11369.96,
-      "txns24h": 111
-    },
-    {
-      "tokenName": "BankrSpace",
-      "tokenSymbol": "Space",
-      "tokenAddress": "0xb76Da3E0d58955699D885f249A9De74c324fAb07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 20:33:21",
-      "poolId": "0xa7b4a78a4157823756bfc5bf5fe52160a7afa0c2be9c9f982d82a940bc78a4d1",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa7b4a78a4157823756bfc5bf5fe52160a7afa0c2be9c9f982d82a940bc78a4d1",
-      "basescanUrl": "https://basescan.org/token/0xb76Da3E0d58955699D885f249A9De74c324fAb07",
-      "source": "clanker",
-      "volume24h": 27972.55,
-      "txns24h": 293
-    },
-    {
-      "tokenName": "Quintessence",
-      "tokenSymbol": "QNT",
-      "tokenAddress": "0x5fEe3a7bb746d5425a94bd4fbA588d7Cc535fB07",
-      "imageUrl": null,
-      "createdAt": "2026-06-09 20:12:01",
-      "poolId": "0xce2636429c65c0a901d9761df8a06ab7f27426d7e5f3ef96db15f539c81df3b2",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xce2636429c65c0a901d9761df8a06ab7f27426d7e5f3ef96db15f539c81df3b2",
-      "basescanUrl": "https://basescan.org/token/0x5fEe3a7bb746d5425a94bd4fbA588d7Cc535fB07",
-      "source": "clanker",
-      "volume24h": 25566.3,
-      "txns24h": 298
     },
     {
       "tokenName": "Synaphos",
@@ -2868,8 +2315,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc4fbbcf3b37f3d86a11c5c7320ac97be5f5a9754305f1ec551300bf4f90b5024",
       "basescanUrl": "https://basescan.org/token/0x5272653c6a50363E9300538497Ff8663CFAb4b07",
       "source": "clanker",
-      "volume24h": 64789.37,
-      "txns24h": 800
+      "volume24h": 23761.81,
+      "txns24h": 257
     },
     {
       "tokenName": "airgap.finance",
@@ -2890,8 +2337,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x210e1060487a7c9f6d3bfa9927b87b720883ed3e4b52ae94e70e737419e9ca08",
       "basescanUrl": "https://basescan.org/token/0x46082c1F77569DF4fE72Eb261cF377973d9Dcb07",
       "source": "clanker",
-      "volume24h": 34782.71,
-      "txns24h": 586
+      "volume24h": 17157.149999999998,
+      "txns24h": 410
     },
     {
       "tokenName": "Paynaptic",
@@ -2912,8 +2359,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1c4bb9534da004e9960f9a6ff00d7210e203b0aa8da47887a7da527ac712c38a",
       "basescanUrl": "https://basescan.org/token/0xd618643AA9138F6e11e94Bba7BFa373985405b07",
       "source": "clanker",
-      "volume24h": 22813.69,
-      "txns24h": 590
+      "volume24h": 17561.01,
+      "txns24h": 474
     },
     {
       "tokenName": "KalderSystems",
@@ -2934,30 +2381,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x71300d72ff7c768673fddbe1f1db328505eb20e664df725c964f93510ddace7d",
       "basescanUrl": "https://basescan.org/token/0xB27d1B51703fB7972F7821A29740e7769196aB07",
       "source": "clanker",
-      "volume24h": 55470.64,
-      "txns24h": 722
-    },
-    {
-      "tokenName": "SpaceX",
-      "tokenSymbol": "SpaceX",
-      "tokenAddress": "0x7fcE3bD213013caBd44d307b0dB05d64c28E5b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidy7nm4j5m6hfsvriuuspleqndmdghjx47hn4hopa3q5yrkohjdsm",
-      "createdAt": "2026-06-09 02:05:47",
-      "poolId": "0x8cbfb01165f2abfbe2fa4b12cc40415ae8ff3767589acd82ff4b0015e1181fec",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidy7nm4j5m6hfsvriuuspleqndmdghjx47hn4hopa3q5yrkohjdsm",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8cbfb01165f2abfbe2fa4b12cc40415ae8ff3767589acd82ff4b0015e1181fec",
-      "basescanUrl": "https://basescan.org/token/0x7fcE3bD213013caBd44d307b0dB05d64c28E5b07",
-      "source": "clanker",
-      "volume24h": 3240.6699999999996,
-      "txns24h": 113
+      "volume24h": 55378.1,
+      "txns24h": 714
     },
     {
       "tokenName": "5ive Privacy",
@@ -2978,8 +2403,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa2b60bec20afe935b2b7e899b0e241ea0ff1665eb644b5a221dc27b606dec0e0",
       "basescanUrl": "https://basescan.org/token/0x84048dA9fF8366efB2111a8013c4de8216Ab8b07",
       "source": "clanker",
-      "volume24h": 41665.369999999995,
-      "txns24h": 807
+      "volume24h": 30888.37,
+      "txns24h": 805
     },
     {
       "tokenName": "Root Edge",
@@ -3000,8 +2425,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x91a06c8f90cc4a21f47d20ff6b81ddef508fe483f1b11e02457836b2467e1351",
       "basescanUrl": "https://basescan.org/token/0x461d3c96d170e551611f54fa466d3d74a680aba3",
       "source": "clanker",
-      "volume24h": 150604.44,
-      "txns24h": 3172
+      "volume24h": 117277.00000000001,
+      "txns24h": 2835
     },
     {
       "tokenName": "LPUSD",
@@ -3022,8 +2447,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x4b542b3d5eb0c37e2c1b02dc1601b030857e7fbdab09f8e81604d8a143deb705",
       "basescanUrl": "https://basescan.org/token/0xb1EbA65Cf45ee49f5e3F60F3B677eF46D8f1A799",
       "source": "clanker",
-      "volume24h": 11691.98,
-      "txns24h": 388
+      "volume24h": 6572.030000000001,
+      "txns24h": 298
     },
     {
       "tokenName": "Underly",
@@ -3044,8 +2469,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd6c454d7b3333a89a1c82a7c7b7bfea83a400f0e20fea19851a99f00494f2e51",
       "basescanUrl": "https://basescan.org/token/0xc5267C0DFbB3f1b28F8C0FC59233D28cb1D1Db07",
       "source": "clanker",
-      "volume24h": 8085.27,
-      "txns24h": 243
+      "volume24h": 6845.42,
+      "txns24h": 222
     }
   ]
 }
