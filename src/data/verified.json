@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-06-11T02:51:44.357Z",
+  "generatedAt": "2026-06-11T10:11:24.336Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
     "page": 28
   },
-  "expectedVerified": 84,
+  "expectedVerified": 78,
   "count": 38,
   "addresses": [
+    "0x47a47fa3379ab530d2073da378dd2d1fbf5b9ba3",
     "0x0a4a0d0937c20e9d7832f4dddbf0ec0dd58acba3",
     "0x2ca5e38d8aec901fc77c4d367eb059af2de6aba3",
     "0xb5d2838a36d87cfb7b47f154e37c4342634ddba3",
@@ -35,7 +36,6 @@
     "0x99fcaa1d4964cea38b26af81e2c1f9e728a8cba3",
     "0xa59c7f24f46383ea50a938605dcef93b546e5ba3",
     "0x7d7e05158d20861a466c5e33013a27fc9e5d4ba3",
-    "0x47211a2c70a26989e36a5ba564ed09f8f7101ba3",
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
@@ -48,6 +48,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x47a47Fa3379aB530D2073DA378DD2d1fbf5b9bA3",
+      "tokenName": "BUB",
+      "tokenSymbol": "BUB",
+      "imageUrl": null,
+      "poolId": "0xd41ba767d380fc3baab925f9a02eca888c9709f40e18a75adda7a93d99ccaada",
+      "createdAt": "2026-06-11T05:51:47.622Z",
+      "name": "BUB",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x47a47Fa3379aB530D2073DA378DD2d1fbf5b9bA3",
+      "basescanUrl": "https://basescan.org/token/0x47a47Fa3379aB530D2073DA378DD2d1fbf5b9bA3"
+    },
     {
       "tokenAddress": "0x0a4A0d0937C20e9d7832F4DDDBF0ec0dD58Acba3",
       "tokenName": "arlas",
@@ -425,20 +439,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x7d7E05158D20861A466C5E33013A27FC9E5d4ba3",
       "basescanUrl": "https://basescan.org/token/0x7d7E05158D20861A466C5E33013A27FC9E5d4ba3"
-    },
-    {
-      "tokenAddress": "0x47211A2C70a26989E36a5BA564ed09f8f7101ba3",
-      "tokenName": "Hi me",
-      "tokenSymbol": "HIME",
-      "imageUrl": null,
-      "poolId": "0x68349a8c2dd8da2e5e9466e6d25a75ad79791dd597a7725885768d16d5848b78",
-      "createdAt": "2026-06-09T20:12:01.638Z",
-      "name": "Hi me",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x47211A2C70a26989E36a5BA564ed09f8f7101ba3",
-      "basescanUrl": "https://basescan.org/token/0x47211A2C70a26989E36a5BA564ed09f8f7101ba3"
     },
     {
       "tokenAddress": "0x025170CB07f70fdE28fb3AD298Ff2f092e542ba3",
