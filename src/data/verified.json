@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-06-11T10:11:24.336Z",
+  "generatedAt": "2026-06-11T15:41:02.286Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
-    "page": 28
+    "page": 27
   },
-  "expectedVerified": 78,
-  "count": 38,
+  "expectedVerified": 79,
+  "count": 37,
   "addresses": [
+    "0xc36518b9b75733169040e371673ac0f8320fcba3",
     "0x47a47fa3379ab530d2073da378dd2d1fbf5b9ba3",
     "0x0a4a0d0937c20e9d7832f4dddbf0ec0dd58acba3",
     "0x2ca5e38d8aec901fc77c4d367eb059af2de6aba3",
@@ -34,8 +35,6 @@
     "0x620768097c89e3d4bb84719431496044cc758ba3",
     "0x3a1c9326f7774779f5561f10d5fa2d31fdfd7ba3",
     "0x99fcaa1d4964cea38b26af81e2c1f9e728a8cba3",
-    "0xa59c7f24f46383ea50a938605dcef93b546e5ba3",
-    "0x7d7e05158d20861a466c5e33013a27fc9e5d4ba3",
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
@@ -48,6 +47,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0xC36518b9b75733169040E371673AC0f8320fCba3",
+      "tokenName": "Nemesis",
+      "tokenSymbol": "NEMESIS",
+      "imageUrl": null,
+      "poolId": "0x8535ace96f411b4f1015cec16f0f44855299da2b47ad0025fd6af7cfadffd402",
+      "createdAt": "2026-06-11T14:23:11.706Z",
+      "name": "Nemesis",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xC36518b9b75733169040E371673AC0f8320fCba3",
+      "basescanUrl": "https://basescan.org/token/0xC36518b9b75733169040E371673AC0f8320fCba3"
+    },
     {
       "tokenAddress": "0x47a47Fa3379aB530D2073DA378DD2d1fbf5b9bA3",
       "tokenName": "BUB",
@@ -411,34 +424,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x99fcAa1D4964cEa38B26AF81E2c1f9e728a8CBa3",
       "basescanUrl": "https://basescan.org/token/0x99fcAa1D4964cEa38B26AF81E2c1f9e728a8CBa3"
-    },
-    {
-      "tokenAddress": "0xa59c7F24F46383Ea50a938605DCef93b546E5ba3",
-      "tokenName": "Fly",
-      "tokenSymbol": "FLY",
-      "imageUrl": null,
-      "poolId": "0x691e39abe87db671b8dcc74458fccdf8a69bf99377b43c625633ad69ee6c5aee",
-      "createdAt": "2026-06-09T20:51:35.612Z",
-      "name": "Fly",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa59c7F24F46383Ea50a938605DCef93b546E5ba3",
-      "basescanUrl": "https://basescan.org/token/0xa59c7F24F46383Ea50a938605DCef93b546E5ba3"
-    },
-    {
-      "tokenAddress": "0x7d7E05158D20861A466C5E33013A27FC9E5d4ba3",
-      "tokenName": "Hjjjhh",
-      "tokenSymbol": "HJJJHH",
-      "imageUrl": null,
-      "poolId": "0x4231625c12e3e1a0c7964a2bbed4457238bae09de73fed99579e27d73cba4596",
-      "createdAt": "2026-06-09T20:50:35.621Z",
-      "name": "Hjjjhh",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x7d7E05158D20861A466C5E33013A27FC9E5d4ba3",
-      "basescanUrl": "https://basescan.org/token/0x7d7E05158D20861A466C5E33013A27FC9E5d4ba3"
     },
     {
       "tokenAddress": "0x025170CB07f70fdE28fb3AD298Ff2f092e542ba3",
