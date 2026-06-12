@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-06-12T02:48:32.734Z",
+  "generatedAt": "2026-06-12T09:59:42.481Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
-    "page": 15
+    "page": 16
   },
-  "expectedVerified": 38,
-  "count": 24,
+  "expectedVerified": 39,
+  "count": 25,
   "addresses": [
+    "0x35bf185cd9d3c7a4aca48593f0c5abe71833dba3",
+    "0x31b0e7dcafeb9553c4c3d43ee26608d9ff9dfba3",
     "0x3ce0858bd25f48241c8f00a33e8bccbe045dbba3",
     "0x48cc1602d99ab603f80f2d4e2fbd6f5db44feba3",
     "0x16b3df87ed2a6fda41d7c707c813e1494eaebba3",
@@ -22,7 +24,6 @@
     "0xe54be0e0455e24bc4b31396ec9d74f1a11676ba3",
     "0xf26c2d2c2db314b89ea200571fb975e881615ba3",
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
-    "0x57477c9733c1f519e712a489784469174c50cba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
     "0x9db971417cdc42a36d0e10c9b1f79fc8bc9edba3",
     "0x810affc8aadad2824c65e0a2c5ef96ef1de42ba3",
@@ -34,6 +35,34 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x35bf185cd9d3C7A4aCA48593f0C5abe71833dBA3",
+      "tokenName": "fiberx",
+      "tokenSymbol": "FIBERX",
+      "imageUrl": null,
+      "poolId": "0x1d9336e7e89d2eb5eb4511a2025814da0f782a1196cf91161b53a4318d5f3956",
+      "createdAt": "2026-06-12T05:46:17.576Z",
+      "name": "fiberx",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x35bf185cd9d3C7A4aCA48593f0C5abe71833dBA3",
+      "basescanUrl": "https://basescan.org/token/0x35bf185cd9d3C7A4aCA48593f0C5abe71833dBA3"
+    },
+    {
+      "tokenAddress": "0x31b0E7DcAFeB9553c4c3D43Ee26608d9ff9dFBa3",
+      "tokenName": "Trofcup",
+      "tokenSymbol": "TROFCUP",
+      "imageUrl": null,
+      "poolId": "0xcb717d82c9f79e485849913a0e4d4ef08733b5ae578ce0878ecb691de9843045",
+      "createdAt": "2026-06-12T03:37:07.545Z",
+      "name": "Trofcup",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x31b0E7DcAFeB9553c4c3D43Ee26608d9ff9dFBa3",
+      "basescanUrl": "https://basescan.org/token/0x31b0E7DcAFeB9553c4c3D43Ee26608d9ff9dFBa3"
+    },
     {
       "tokenAddress": "0x3Ce0858bD25f48241c8F00a33e8bccbe045dbBa3",
       "tokenName": "Harmes",
@@ -229,20 +258,6 @@
       "profileUrl": "https://0xwork.org/agents/0xF7026956305cB468914d7C229D0e3647DF49079B",
       "dexscreenerUrl": "https://dexscreener.com/base/0x025170CB07f70fdE28fb3AD298Ff2f092e542ba3",
       "basescanUrl": "https://basescan.org/token/0x025170CB07f70fdE28fb3AD298Ff2f092e542ba3"
-    },
-    {
-      "tokenAddress": "0x57477C9733c1f519e712a489784469174c50Cba3",
-      "tokenName": "Utt",
-      "tokenSymbol": "UTT",
-      "imageUrl": null,
-      "poolId": "0x48cd66d259a413ea7c854f21dea662d71030090e9d6adc51bff0b9d073a86e7b",
-      "createdAt": "2026-06-07T21:29:27.439Z",
-      "name": "Utt",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x57477C9733c1f519e712a489784469174c50Cba3",
-      "basescanUrl": "https://basescan.org/token/0x57477C9733c1f519e712a489784469174c50Cba3"
     },
     {
       "tokenAddress": "0xCB3427b91f993575ccD0586af356cFE902a5Bba3",
