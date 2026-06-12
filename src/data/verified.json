@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-06-12T09:59:42.481Z",
+  "generatedAt": "2026-06-12T14:41:12.065Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
-    "page": 16
+    "page": 17
   },
-  "expectedVerified": 39,
-  "count": 25,
+  "expectedVerified": 40,
+  "count": 26,
   "addresses": [
+    "0x8ea577b3e5db98b06254085f38abe883e1f83ba3",
     "0x35bf185cd9d3c7a4aca48593f0c5abe71833dba3",
     "0x31b0e7dcafeb9553c4c3d43ee26608d9ff9dfba3",
     "0x3ce0858bd25f48241c8f00a33e8bccbe045dbba3",
@@ -35,6 +36,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0x8ea577b3E5db98B06254085F38abe883E1F83bA3",
+      "tokenName": "Mocking",
+      "tokenSymbol": "MOCKING",
+      "imageUrl": null,
+      "poolId": "0xf5c5fdf4881c9a90d73f7cd01b89cd2b1ce96cf1bec557d2791d2cf23c284830",
+      "createdAt": "2026-06-12T10:43:47.594Z",
+      "name": "Mocking",
+      "handle": null,
+      "operatorAddress": null,
+      "profileUrl": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8ea577b3E5db98B06254085F38abe883E1F83bA3",
+      "basescanUrl": "https://basescan.org/token/0x8ea577b3E5db98B06254085F38abe883E1F83bA3"
+    },
     {
       "tokenAddress": "0x35bf185cd9d3C7A4aCA48593f0C5abe71833dBA3",
       "tokenName": "fiberx",
