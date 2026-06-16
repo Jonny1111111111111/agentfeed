@@ -1,20 +1,17 @@
 {
-  "generatedAt": "2026-06-16T02:57:53.734Z",
+  "generatedAt": "2026-06-16T10:57:53.150Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
     "api": 10,
-    "page": 9
+    "page": 6
   },
-  "expectedVerified": 32,
-  "count": 18,
+  "expectedVerified": 29,
+  "count": 15,
   "addresses": [
     "0x024a950d6ff459cf0ff48d22ce6c463afb50aba3",
     "0x35bf185cd9d3c7a4aca48593f0c5abe71833dba3",
-    "0x31b0e7dcafeb9553c4c3d43ee26608d9ff9dfba3",
     "0x3ce0858bd25f48241c8f00a33e8bccbe045dbba3",
     "0x920e404c5ec96265690677fc6274c4fc19dd6ba3",
-    "0x0ae9c19c7b9299e71553f616e8413c080372aba3",
-    "0x77cc0ca5607398d1076b0f6749a3def1cf6ddba3",
     "0x86e980571b2321b8c6efcd0ea2414ab4a0eb8ba3",
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
@@ -57,20 +54,6 @@
       "basescanUrl": "https://basescan.org/token/0x35bf185cd9d3C7A4aCA48593f0C5abe71833dBA3"
     },
     {
-      "tokenAddress": "0x31b0E7DcAFeB9553c4c3D43Ee26608d9ff9dFBa3",
-      "tokenName": "Trofcup",
-      "tokenSymbol": "TROFCUP",
-      "imageUrl": null,
-      "poolId": "0xcb717d82c9f79e485849913a0e4d4ef08733b5ae578ce0878ecb691de9843045",
-      "createdAt": "2026-06-12T03:37:07.545Z",
-      "name": "Trofcup",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x31b0E7DcAFeB9553c4c3D43Ee26608d9ff9dFBa3",
-      "basescanUrl": "https://basescan.org/token/0x31b0E7DcAFeB9553c4c3D43Ee26608d9ff9dFBa3"
-    },
-    {
       "tokenAddress": "0x3Ce0858bD25f48241c8F00a33e8bccbe045dbBa3",
       "tokenName": "Harmes",
       "tokenSymbol": "HARMES",
@@ -97,34 +80,6 @@
       "profileUrl": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x920E404C5EC96265690677FC6274C4Fc19dD6BA3",
       "basescanUrl": "https://basescan.org/token/0x920E404C5EC96265690677FC6274C4Fc19dD6BA3"
-    },
-    {
-      "tokenAddress": "0x0ae9C19c7b9299E71553F616e8413c080372aBa3",
-      "tokenName": "Burn it",
-      "tokenSymbol": "BURN",
-      "imageUrl": null,
-      "poolId": "0xf826eebdaaacafe411f1ea38c0aa76d29fe7071aded3a72fc48fa7e056b33ba9",
-      "createdAt": "2026-06-11T21:54:29.558Z",
-      "name": "Burn it",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0ae9C19c7b9299E71553F616e8413c080372aBa3",
-      "basescanUrl": "https://basescan.org/token/0x0ae9C19c7b9299E71553F616e8413c080372aBa3"
-    },
-    {
-      "tokenAddress": "0x77cC0cA5607398D1076b0f6749A3Def1Cf6dDbA3",
-      "tokenName": "Dlicom",
-      "tokenSymbol": "DLI",
-      "imageUrl": null,
-      "poolId": "0xe17761241ff79c2b68a3eb97b43604cafe51b1e737687c294e222de5735cec3b",
-      "createdAt": "2026-06-11T21:37:37.493Z",
-      "name": "Dlicom",
-      "handle": null,
-      "operatorAddress": null,
-      "profileUrl": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x77cC0cA5607398D1076b0f6749A3Def1Cf6dDbA3",
-      "basescanUrl": "https://basescan.org/token/0x77cC0cA5607398D1076b0f6749A3Def1Cf6dDbA3"
     },
     {
       "tokenAddress": "0x86E980571b2321B8c6efcD0ea2414aB4A0eB8BA3",
