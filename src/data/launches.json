@@ -8,6 +8,28 @@
   "count": 234,
   "items": [
     {
+      "tokenName": "Claude",
+      "tokenSymbol": "Claude",
+      "tokenAddress": "0xed327E881bdDe8a134E6FDdcf4a64881F86A3b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreic7tsxt76rnh6mhsvtj6rq6kosopcdw3yf4r6mz2akgu3uksizwcu",
+      "createdAt": "2026-07-14 11:50:11",
+      "poolId": "0xdc13d826519997946711380b4d89fa993126bce5c5f098f80d3ad7d6c5939dc3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreic7tsxt76rnh6mhsvtj6rq6kosopcdw3yf4r6mz2akgu3uksizwcu",
+        "verified": false,
+        "operatorAddress": "0x04f46E13E583a46C1eC68a7ABcba3552B55eB1bC",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x04f46E13E583a46C1eC68a7ABcba3552B55eB1bC",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xdc13d826519997946711380b4d89fa993126bce5c5f098f80d3ad7d6c5939dc3",
+      "basescanUrl": "https://basescan.org/token/0xed327E881bdDe8a134E6FDdcf4a64881F86A3b07",
+      "source": "clanker",
+      "volume24h": 60751848.71,
+      "txns24h": 1434
+    },
+    {
       "tokenName": "The Final Form Bull",
       "tokenSymbol": "CZ",
       "tokenAddress": "0xf807e9f329A559e78Bc85fde881C739EBAA67b07",
@@ -28,28 +50,6 @@
       "source": "clanker",
       "volume24h": 24390519.35,
       "txns24h": 409
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0x8453Cf5Dd4840072b5Da025Ca4c5caA13c192b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-      "createdAt": "2026-07-14 01:25:39",
-      "poolId": "0x3230a090bef9a3ea30c47fc732575ad8199603878225fbffadcfb91b4cadff5e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-        "verified": false,
-        "operatorAddress": "0x04f46E13E583a46C1eC68a7ABcba3552B55eB1bC",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x04f46E13E583a46C1eC68a7ABcba3552B55eB1bC",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3230a090bef9a3ea30c47fc732575ad8199603878225fbffadcfb91b4cadff5e",
-      "basescanUrl": "https://basescan.org/token/0x8453Cf5Dd4840072b5Da025Ca4c5caA13c192b07",
-      "source": "clanker",
-      "volume24h": 145637770.59,
-      "txns24h": 6951
     },
     {
       "tokenName": "OMEN",
