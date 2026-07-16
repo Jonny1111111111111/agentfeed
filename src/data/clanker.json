@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-07-16T13:26:43.927Z",
+  "generatedAt": "2026-07-16T18:59:44.487Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 445,
-    "chain": 493,
-    "persisted": 4
+    "api": 421,
+    "chain": 296,
+    "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0xc7d16b111415e017b2916da8b2c4ac71682d9487",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Larpcaster",
+      "tokenSymbol": "LARPCASTER",
+      "tokenAddress": "0xc7d16B111415e017b2916Da8B2C4AC71682D9487",
+      "imageUrl": "https://pbs.twimg.com/profile_images/2075864546191794176/qJg1lniy_400x400.jpg",
+      "createdAt": "2026-07-16 17:05:17",
+      "poolId": "0xf440c4df48a62b65764b5b25651907dca4461dafc7463cfa787dbb23a7c89b01",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pbs.twimg.com/profile_images/2075864546191794176/qJg1lniy_400x400.jpg",
+        "verified": false,
+        "operatorAddress": "0xFC426DFeAe55Dae2f936a592450C9ECEa87A5736",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xFC426DFeAe55Dae2f936a592450C9ECEa87A5736",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf440c4df48a62b65764b5b25651907dca4461dafc7463cfa787dbb23a7c89b01",
+      "basescanUrl": "https://basescan.org/token/0xc7d16B111415e017b2916Da8B2C4AC71682D9487",
+      "source": "clanker",
+      "volume24h": 19779.87,
+      "txns24h": 219
+    },
     {
       "tokenName": "Degen",
       "tokenSymbol": "DEGEN",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 57068.96,
-      "txns24h": 1676
+      "volume24h": 45318.72999999999,
+      "txns24h": 1376
     },
     {
       "tokenName": "gitlawb",
@@ -54,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 183182.74,
-      "txns24h": 2853
+      "volume24h": 104204.00999999998,
+      "txns24h": 2030
     }
   ]
 }
