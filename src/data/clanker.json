@@ -1,64 +1,18 @@
 {
-  "generatedAt": "2026-07-16T07:59:47.789Z",
+  "generatedAt": "2026-07-16T13:26:43.927Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 502,
-    "chain": 292,
+    "api": 445,
+    "chain": 493,
     "persisted": 4
   },
-  "count": 4,
+  "count": 2,
   "addresses": [
-    "0x8a6786e0f64736771e34df56b869d4c620870b07",
-    "0xd6e4cf8e0407a7271a0136624d08bbfbbb5efb07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
-    {
-      "tokenName": "Claude",
-      "tokenSymbol": "Claude",
-      "tokenAddress": "0x8a6786E0F64736771E34DF56B869d4c620870b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
-      "createdAt": "2026-07-16 02:07:53",
-      "poolId": "0xa3e467aa398cac33dcc1483cdb3781b49833aeda43c255641a30b0fcc8340b5d",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
-        "verified": false,
-        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa3e467aa398cac33dcc1483cdb3781b49833aeda43c255641a30b0fcc8340b5d",
-      "basescanUrl": "https://basescan.org/token/0x8a6786E0F64736771E34DF56B869d4c620870b07",
-      "source": "clanker",
-      "volume24h": 154462847.45999998,
-      "txns24h": 6592
-    },
-    {
-      "tokenName": "cobie app",
-      "tokenSymbol": "Cobie",
-      "tokenAddress": "0xD6E4Cf8E0407A7271a0136624d08BBfbBb5efb07",
-      "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/DgjuYA25Ftz4i8nA7p2AMnv9yCzbBToLyLx1QeWrpump.webp",
-      "createdAt": "2026-07-16 01:28:23",
-      "poolId": "0x696295f8f6af85741953f0a1d39924453b969ccdd475f5b5e9fe08e424670c8d",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://axiomtrading-v2.axiom-cdn.io/DgjuYA25Ftz4i8nA7p2AMnv9yCzbBToLyLx1QeWrpump.webp",
-        "verified": false,
-        "operatorAddress": "0xDF2237114d595e0Bf4D35CBcdEBcdF43C55c4669",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xDF2237114d595e0Bf4D35CBcdEBcdF43C55c4669",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x696295f8f6af85741953f0a1d39924453b969ccdd475f5b5e9fe08e424670c8d",
-      "basescanUrl": "https://basescan.org/token/0xD6E4Cf8E0407A7271a0136624d08BBfbBb5efb07",
-      "source": "clanker",
-      "volume24h": 154351.24,
-      "txns24h": 1574
-    },
     {
       "tokenName": "Degen",
       "tokenSymbol": "DEGEN",
@@ -78,8 +32,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 59486.92000000002,
-      "txns24h": 1681
+      "volume24h": 57068.96,
+      "txns24h": 1676
     },
     {
       "tokenName": "gitlawb",
@@ -100,8 +54,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 217645.33000000002,
-      "txns24h": 2877
+      "volume24h": 183182.74,
+      "txns24h": 2853
     }
   ]
 }
