@@ -1,20 +1,42 @@
 {
-  "generatedAt": "2026-07-16T01:54:22.709Z",
+  "generatedAt": "2026-07-16T07:59:47.789Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 409,
-    "chain": 127,
-    "persisted": 2
+    "api": 502,
+    "chain": 292,
+    "persisted": 4
   },
   "count": 4,
   "addresses": [
+    "0x8a6786e0f64736771e34df56b869d4c620870b07",
     "0xd6e4cf8e0407a7271a0136624d08bbfbbb5efb07",
-    "0xdb73e4d08c93162c1313dc8ce6fdd1343ec797c4",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Claude",
+      "tokenSymbol": "Claude",
+      "tokenAddress": "0x8a6786E0F64736771E34DF56B869d4c620870b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
+      "createdAt": "2026-07-16 02:07:53",
+      "poolId": "0xa3e467aa398cac33dcc1483cdb3781b49833aeda43c255641a30b0fcc8340b5d",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
+        "verified": false,
+        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa3e467aa398cac33dcc1483cdb3781b49833aeda43c255641a30b0fcc8340b5d",
+      "basescanUrl": "https://basescan.org/token/0x8a6786E0F64736771E34DF56B869d4c620870b07",
+      "source": "clanker",
+      "volume24h": 154462847.45999998,
+      "txns24h": 6592
+    },
     {
       "tokenName": "cobie app",
       "tokenSymbol": "Cobie",
@@ -34,30 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x696295f8f6af85741953f0a1d39924453b969ccdd475f5b5e9fe08e424670c8d",
       "basescanUrl": "https://basescan.org/token/0xD6E4Cf8E0407A7271a0136624d08BBfbBb5efb07",
       "source": "clanker",
-      "volume24h": 149380.79,
-      "txns24h": 1447
-    },
-    {
-      "tokenName": "Limitless Progress",
-      "tokenSymbol": "jesse",
-      "tokenAddress": "0xdB73E4d08C93162C1313dc8ce6fdD1343Ec797C4",
-      "imageUrl": "https://pbs.twimg.com/profile_images/1879556312822120448/QngrqCSC_400x400.jpg",
-      "createdAt": "2026-07-15 21:49:29",
-      "poolId": "0xaf09fd58603359e55795e976bc1e4ed2bc61ce4fd33694f0c184e07c2566c5f3",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://pbs.twimg.com/profile_images/1879556312822120448/QngrqCSC_400x400.jpg",
-        "verified": false,
-        "operatorAddress": "0xD6321B1acFCfba2d0235F602695b2294979ef6Ef",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xD6321B1acFCfba2d0235F602695b2294979ef6Ef",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xaf09fd58603359e55795e976bc1e4ed2bc61ce4fd33694f0c184e07c2566c5f3",
-      "basescanUrl": "https://basescan.org/token/0xdB73E4d08C93162C1313dc8ce6fdD1343Ec797C4",
-      "source": "clanker",
-      "volume24h": 13832.95,
-      "txns24h": 316
+      "volume24h": 154351.24,
+      "txns24h": 1574
     },
     {
       "tokenName": "Degen",
@@ -78,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 67594.33000000003,
-      "txns24h": 1821
+      "volume24h": 59486.92000000002,
+      "txns24h": 1681
     },
     {
       "tokenName": "gitlawb",
@@ -100,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 219180.99999999997,
-      "txns24h": 2924
+      "volume24h": 217645.33000000002,
+      "txns24h": 2877
     }
   ]
 }
