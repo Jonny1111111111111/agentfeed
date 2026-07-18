@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-07-17T18:56:32.395Z",
+  "generatedAt": "2026-07-18T01:48:04.560Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 477,
-    "chain": 1192,
-    "persisted": 6
+    "api": 764,
+    "chain": 677,
+    "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0x1c06760ac7753c81b8ba6f5bbfeaca55128057fb",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "brian_armstrong",
+      "tokenSymbol": "BRIAN",
+      "tokenAddress": "0x1C06760Ac7753C81b8Ba6f5BBFeACA55128057fB",
+      "imageUrl": "https://deploy.28282828282828.com/m/bde54ef4bfcd6852.jpg",
+      "createdAt": "2026-07-18 01:39:43",
+      "poolId": "0x7de6a783be3b03b00b12857f5c1100c7fbb84895842b862c8cc3f6225829f003",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://deploy.28282828282828.com/m/bde54ef4bfcd6852.jpg",
+        "verified": false,
+        "operatorAddress": "0xefB9A96D74E365ba46d1D800abf7072B8Ceeb9FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xefB9A96D74E365ba46d1D800abf7072B8Ceeb9FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7de6a783be3b03b00b12857f5c1100c7fbb84895842b862c8cc3f6225829f003",
+      "basescanUrl": "https://basescan.org/token/0x1C06760Ac7753C81b8Ba6f5BBFeACA55128057fB",
+      "source": "clanker",
+      "volume24h": 45551.38,
+      "txns24h": 157
+    },
     {
       "tokenName": "Degen",
       "tokenSymbol": "DEGEN",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 43882.12999999999,
-      "txns24h": 1384
+      "volume24h": 37054.780000000006,
+      "txns24h": 1420
     },
     {
       "tokenName": "gitlawb",
@@ -54,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 176984.66,
-      "txns24h": 2783
+      "volume24h": 173796.97999999998,
+      "txns24h": 2632
     }
   ]
 }

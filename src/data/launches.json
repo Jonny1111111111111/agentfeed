@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 231,
+  "count": 232,
   "items": [
+    {
+      "tokenName": "brian_armstrong",
+      "tokenSymbol": "BRIAN",
+      "tokenAddress": "0x1C06760Ac7753C81b8Ba6f5BBFeACA55128057fB",
+      "imageUrl": "https://deploy.28282828282828.com/m/bde54ef4bfcd6852.jpg",
+      "createdAt": "2026-07-18 01:39:43",
+      "poolId": "0x7de6a783be3b03b00b12857f5c1100c7fbb84895842b862c8cc3f6225829f003",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://deploy.28282828282828.com/m/bde54ef4bfcd6852.jpg",
+        "verified": false,
+        "operatorAddress": "0xefB9A96D74E365ba46d1D800abf7072B8Ceeb9FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xefB9A96D74E365ba46d1D800abf7072B8Ceeb9FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7de6a783be3b03b00b12857f5c1100c7fbb84895842b862c8cc3f6225829f003",
+      "basescanUrl": "https://basescan.org/token/0x1C06760Ac7753C81b8Ba6f5BBFeACA55128057fB",
+      "source": "clanker",
+      "volume24h": 45551.38,
+      "txns24h": 157
+    },
     {
       "tokenName": "Layer",
       "tokenSymbol": "LAYER",
