@@ -1,41 +1,18 @@
 {
-  "generatedAt": "2026-07-19T18:55:12.388Z",
+  "generatedAt": "2026-07-20T03:20:51.567Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 312,
-    "chain": 459,
+    "api": 63,
+    "chain": 19,
     "persisted": 3
   },
-  "count": 3,
+  "count": 2,
   "addresses": [
-    "0x9385bd6198ec6664567c456db8cee1c940d1cb07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
-    {
-      "tokenName": "Claude",
-      "tokenSymbol": "Claude",
-      "tokenAddress": "0x9385bd6198ec6664567c456db8cee1c940d1cb07",
-      "imageUrl": null,
-      "createdAt": "2026-07-19 15:07:51",
-      "poolId": "0x64a8bb1682044b4e97f49afa049b717313310e2de2d5d30ef3c70a52be39438d",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x64a8bb1682044b4e97f49afa049b717313310e2de2d5d30ef3c70a52be39438d",
-      "basescanUrl": "https://basescan.org/token/0x9385bd6198ec6664567c456db8cee1c940d1cb07",
-      "source": "clanker",
-      "volume24h": 50550976.7,
-      "txns24h": 4290
-    },
     {
       "tokenName": "Degen",
       "tokenSymbol": "DEGEN",
@@ -55,8 +32,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 800777.9600000001,
-      "txns24h": 15244
+      "volume24h": 623908.4100000001,
+      "txns24h": 12074
     },
     {
       "tokenName": "gitlawb",
@@ -77,8 +54,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 58119.04,
-      "txns24h": 1578
+      "volume24h": 67533.15999999999,
+      "txns24h": 1244
     }
   ]
 }
