@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Claude",
+      "tokenSymbol": "Claude",
+      "tokenAddress": "0x6E97D91456C55a6097ef49234942d2C1e2AB8b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
+      "createdAt": "2026-07-22 06:04:03",
+      "poolId": "0xdb0e3639258327e486134e136f10b28842771044f34ef0325d455e9eaedd7814",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
+        "verified": false,
+        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xdb0e3639258327e486134e136f10b28842771044f34ef0325d455e9eaedd7814",
+      "basescanUrl": "https://basescan.org/token/0x6E97D91456C55a6097ef49234942d2C1e2AB8b07",
+      "source": "clanker",
+      "volume24h": 38399870.24,
+      "txns24h": 2189
+    },
     {
       "tokenName": "Rug #1",
       "tokenSymbol": "RC1",
