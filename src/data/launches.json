@@ -8,6 +8,28 @@
   "count": 234,
   "items": [
     {
+      "tokenName": "Rug Money",
+      "tokenSymbol": "RUGMONEY",
+      "tokenAddress": "0x848Cef7ed6963ED956863399813340621805a442",
+      "imageUrl": "https://res.cloudinary.com/qkbouz8l/image/upload/v1784658792/rugclub/suggestions/fuvrukzozotpof6rfv2h.png",
+      "createdAt": "2026-07-22 18:13:59",
+      "poolId": "0x64ba07387ae752e3a44edcd0ff56115d6b59b1c44a7abe68e71f4a275f364ea1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://res.cloudinary.com/qkbouz8l/image/upload/v1784658792/rugclub/suggestions/fuvrukzozotpof6rfv2h.png",
+        "verified": false,
+        "operatorAddress": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x64ba07387ae752e3a44edcd0ff56115d6b59b1c44a7abe68e71f4a275f364ea1",
+      "basescanUrl": "https://basescan.org/token/0x848Cef7ed6963ED956863399813340621805a442",
+      "source": "clanker",
+      "volume24h": 32303.05,
+      "txns24h": 124
+    },
+    {
       "tokenName": "Claude",
       "tokenSymbol": "Claude",
       "tokenAddress": "0x6E97D91456C55a6097ef49234942d2C1e2AB8b07",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 230991.44,
       "txns24h": 1190
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0xFd15909C86BCd27F195B0B9f9A791c17Eb87Eb07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifzvv6ip74s6zn7vnsxb4tkjsaisejh2h7qiih6er6ww25n4xdsye",
-      "createdAt": "2026-07-21 10:06:33",
-      "poolId": "0xb2736aed2d4730b51d9f847bca6d64c6226365adf91f966c1c1a6b336b44ac4d",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifzvv6ip74s6zn7vnsxb4tkjsaisejh2h7qiih6er6ww25n4xdsye",
-        "verified": false,
-        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb2736aed2d4730b51d9f847bca6d64c6226365adf91f966c1c1a6b336b44ac4d",
-      "basescanUrl": "https://basescan.org/token/0xFd15909C86BCd27F195B0B9f9A791c17Eb87Eb07",
-      "source": "clanker",
-      "volume24h": 84152991.42999999,
-      "txns24h": 3722
     },
     {
       "tokenName": "Layer",
