@@ -8,6 +8,28 @@
   "count": 233,
   "items": [
     {
+      "tokenName": "Rug #1",
+      "tokenSymbol": "RC1",
+      "tokenAddress": "0x5858a024C840629077056118a25f915FE9489C2D",
+      "imageUrl": "https://i.imgur.com/zLMlQZe.png",
+      "createdAt": "2026-07-21 18:13:53",
+      "poolId": "0x553840bea55330d2d6ea219e4d00a04f12f0504ab04c3599c95448ab5dfb6b85",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://i.imgur.com/zLMlQZe.png",
+        "verified": false,
+        "operatorAddress": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x553840bea55330d2d6ea219e4d00a04f12f0504ab04c3599c95448ab5dfb6b85",
+      "basescanUrl": "https://basescan.org/token/0x5858a024C840629077056118a25f915FE9489C2D",
+      "source": "clanker",
+      "volume24h": 230991.44,
+      "txns24h": 1190
+    },
+    {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
       "tokenAddress": "0xFd15909C86BCd27F195B0B9f9A791c17Eb87Eb07",
@@ -28,28 +50,6 @@
       "source": "clanker",
       "volume24h": 84152991.42999999,
       "txns24h": 3722
-    },
-    {
-      "tokenName": "Claude",
-      "tokenSymbol": "Claude",
-      "tokenAddress": "0x4aC963E04EcCD97A98bBe6BCB6d3bc2A649E0b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
-      "createdAt": "2026-07-21 01:26:09",
-      "poolId": "0xbcb4e57223d23b00fd7bcaf9a729dd55f74cae7db33ca313880d613a02ddcee2",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
-        "verified": false,
-        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xbcb4e57223d23b00fd7bcaf9a729dd55f74cae7db33ca313880d613a02ddcee2",
-      "basescanUrl": "https://basescan.org/token/0x4aC963E04EcCD97A98bBe6BCB6d3bc2A649E0b07",
-      "source": "clanker",
-      "volume24h": 1884888.48,
-      "txns24h": 121
     },
     {
       "tokenName": "Layer",

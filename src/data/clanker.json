@@ -1,20 +1,42 @@
 {
-  "generatedAt": "2026-07-21T19:07:06.887Z",
+  "generatedAt": "2026-07-22T01:55:20.788Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 403,
-    "chain": 132,
+    "api": 404,
+    "chain": 74,
     "persisted": 4
   },
   "count": 4,
   "addresses": [
+    "0x5858a024c840629077056118a25f915fe9489c2d",
     "0xfd15909c86bcd27f195b0b9f9a791c17eb87eb07",
-    "0x4ac963e04eccd97a98bbe6bcb6d3bc2a649e0b07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Rug #1",
+      "tokenSymbol": "RC1",
+      "tokenAddress": "0x5858a024C840629077056118a25f915FE9489C2D",
+      "imageUrl": "https://i.imgur.com/zLMlQZe.png",
+      "createdAt": "2026-07-21 18:13:53",
+      "poolId": "0x553840bea55330d2d6ea219e4d00a04f12f0504ab04c3599c95448ab5dfb6b85",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://i.imgur.com/zLMlQZe.png",
+        "verified": false,
+        "operatorAddress": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x553840bea55330d2d6ea219e4d00a04f12f0504ab04c3599c95448ab5dfb6b85",
+      "basescanUrl": "https://basescan.org/token/0x5858a024C840629077056118a25f915FE9489C2D",
+      "source": "clanker",
+      "volume24h": 230991.44,
+      "txns24h": 1190
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -34,30 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xb2736aed2d4730b51d9f847bca6d64c6226365adf91f966c1c1a6b336b44ac4d",
       "basescanUrl": "https://basescan.org/token/0xFd15909C86BCd27F195B0B9f9A791c17Eb87Eb07",
       "source": "clanker",
-      "volume24h": 118470810.66,
-      "txns24h": 8187
-    },
-    {
-      "tokenName": "Claude",
-      "tokenSymbol": "Claude",
-      "tokenAddress": "0x4aC963E04EcCD97A98bBe6BCB6d3bc2A649E0b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
-      "createdAt": "2026-07-21 01:26:09",
-      "poolId": "0xbcb4e57223d23b00fd7bcaf9a729dd55f74cae7db33ca313880d613a02ddcee2",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih3icyphirf7ccybnhd25xenv2klb2pnrurzueixwhh575nmhrv5i",
-        "verified": false,
-        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xbcb4e57223d23b00fd7bcaf9a729dd55f74cae7db33ca313880d613a02ddcee2",
-      "basescanUrl": "https://basescan.org/token/0x4aC963E04EcCD97A98bBe6BCB6d3bc2A649E0b07",
-      "source": "clanker",
-      "volume24h": 54044623.690000005,
-      "txns24h": 3780
+      "volume24h": 118481739.17999999,
+      "txns24h": 9491
     },
     {
       "tokenName": "Degen",
@@ -78,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 75305.21999999999,
-      "txns24h": 1845
+      "volume24h": 74095.94999999998,
+      "txns24h": 1862
     },
     {
       "tokenName": "gitlawb",
@@ -100,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 45348.200000000004,
-      "txns24h": 1130
+      "volume24h": 71588.05,
+      "txns24h": 1642
     }
   ]
 }
