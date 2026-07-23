@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 237,
+  "count": 238,
   "items": [
+    {
+      "tokenName": "Robinhood",
+      "tokenSymbol": "Robinhood",
+      "tokenAddress": "0xC674C13F12B506419cc236661e69487d5a019054",
+      "imageUrl": "https://ipfs.io/ipfs/QmUKkAKjVffQ2FrRK9vJ9T93seFDWbf8fphkUgUR1ZSNDT",
+      "createdAt": "2026-07-23 12:59:25",
+      "poolId": "0x9ae630975263d3a239b317d4412f32e27c3d20f64885d64fa1d0ccd3c38d8c24",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmUKkAKjVffQ2FrRK9vJ9T93seFDWbf8fphkUgUR1ZSNDT",
+        "verified": false,
+        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9ae630975263d3a239b317d4412f32e27c3d20f64885d64fa1d0ccd3c38d8c24",
+      "basescanUrl": "https://basescan.org/token/0xC674C13F12B506419cc236661e69487d5a019054",
+      "source": "clanker",
+      "volume24h": 108667798.72,
+      "txns24h": 6448
+    },
     {
       "tokenName": "Robinhood",
       "tokenSymbol": "Robinhood",
