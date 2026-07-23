@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-07-23T08:16:14.368Z",
+  "generatedAt": "2026-07-23T13:29:34.088Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 404,
-    "chain": 28,
-    "persisted": 5
+    "api": 418,
+    "chain": 69,
+    "persisted": 7
   },
-  "count": 7,
+  "count": 8,
   "addresses": [
+    "0xcb8ccfb5cdefb6d1a97bb36dbdbdc5749ee57791",
     "0x7ad54c3f76b97933a6b3ac886614978091eb8b07",
     "0xd82e82caa2bf63b9ec72548358bb5a90651c9b07",
     "0x656331d8cb35f7499696353a0602c2985b3f8b07",
@@ -18,6 +19,28 @@
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Robinhood",
+      "tokenSymbol": "Robinhood",
+      "tokenAddress": "0xcb8cCFb5CdEfB6D1a97BB36dbDbdC5749EE57791",
+      "imageUrl": "https://ipfs.io/ipfs/QmUKkAKjVffQ2FrRK9vJ9T93seFDWbf8fphkUgUR1ZSNDT",
+      "createdAt": "2026-07-23 10:42:39",
+      "poolId": "0x1616fef09c9f3d10f06a34e10691696de4180a69815dd4fd00d27cccd34c3600",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmUKkAKjVffQ2FrRK9vJ9T93seFDWbf8fphkUgUR1ZSNDT",
+        "verified": false,
+        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1616fef09c9f3d10f06a34e10691696de4180a69815dd4fd00d27cccd34c3600",
+      "basescanUrl": "https://basescan.org/token/0xcb8cCFb5CdEfB6D1a97BB36dbDbdC5749EE57791",
+      "source": "clanker",
+      "volume24h": 17766131.88,
+      "txns24h": 2240
+    },
     {
       "tokenName": "Robinhood",
       "tokenSymbol": "Robinhood",
@@ -37,8 +60,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x99910b64f31dc5100f049234a00fe49334cf72d7dd60e66183444c9689035a61",
       "basescanUrl": "https://basescan.org/token/0x7AD54C3f76b97933a6B3AC886614978091eB8B07",
       "source": "clanker",
-      "volume24h": 31399097.43,
-      "txns24h": 1064
+      "volume24h": 73866080.95,
+      "txns24h": 3018
     },
     {
       "tokenName": "OpenAI",
@@ -59,8 +82,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0f694e945aa8d5e3e740e0c554134145d0178e6762cfb457f20655fe3c687e48",
       "basescanUrl": "https://basescan.org/token/0xD82E82CaA2bf63B9Ec72548358bB5a90651c9b07",
       "source": "clanker",
-      "volume24h": 124233268.23,
-      "txns24h": 8352
+      "volume24h": 124233360,
+      "txns24h": 8368
     },
     {
       "tokenName": "Clarity",
@@ -81,8 +104,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa5c67bdd66c86608422fe19d224f7e8509bab95766635393c1e0fea6c10688d0",
       "basescanUrl": "https://basescan.org/token/0x656331d8Cb35f7499696353a0602C2985b3F8b07",
       "source": "clanker",
-      "volume24h": 3518.55,
-      "txns24h": 122
+      "volume24h": 3518.94,
+      "txns24h": 138
     },
     {
       "tokenName": "Rug Money",
@@ -103,8 +126,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x64ba07387ae752e3a44edcd0ff56115d6b59b1c44a7abe68e71f4a275f364ea1",
       "basescanUrl": "https://basescan.org/token/0x848Cef7ed6963ED956863399813340621805a442",
       "source": "clanker",
-      "volume24h": 37869.52,
-      "txns24h": 256
+      "volume24h": 38053.48,
+      "txns24h": 302
     },
     {
       "tokenName": "Claude",
@@ -125,8 +148,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xdb0e3639258327e486134e136f10b28842771044f34ef0325d455e9eaedd7814",
       "basescanUrl": "https://basescan.org/token/0x6E97D91456C55a6097ef49234942d2C1e2AB8b07",
       "source": "clanker",
-      "volume24h": 111742101.99000002,
-      "txns24h": 13221
+      "volume24h": 6344034.490000001,
+      "txns24h": 6751
     },
     {
       "tokenName": "Degen",
@@ -147,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 38934.35,
-      "txns24h": 1200
+      "volume24h": 42330.96000000001,
+      "txns24h": 1480
     },
     {
       "tokenName": "gitlawb",
@@ -169,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 132656.89,
-      "txns24h": 2366
+      "volume24h": 70166.81999999999,
+      "txns24h": 1649
     }
   ]
 }
