@@ -5,8 +5,74 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 236,
   "items": [
+    {
+      "tokenName": "Robinhood",
+      "tokenSymbol": "Robinhood",
+      "tokenAddress": "0x7AD54C3f76b97933a6B3AC886614978091eB8B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiahkpimv2irhogtuhqqhdwib3urzq6dru36dggwem4pfsywnvc7z4",
+      "createdAt": "2026-07-23 07:03:25",
+      "poolId": "0x99910b64f31dc5100f049234a00fe49334cf72d7dd60e66183444c9689035a61",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiahkpimv2irhogtuhqqhdwib3urzq6dru36dggwem4pfsywnvc7z4",
+        "verified": false,
+        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x99910b64f31dc5100f049234a00fe49334cf72d7dd60e66183444c9689035a61",
+      "basescanUrl": "https://basescan.org/token/0x7AD54C3f76b97933a6B3AC886614978091eB8B07",
+      "source": "clanker",
+      "volume24h": 31399097.43,
+      "txns24h": 1064
+    },
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0xD82E82CaA2bf63B9Ec72548358bB5a90651c9b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-07-23 01:39:41",
+      "poolId": "0x0f694e945aa8d5e3e740e0c554134145d0178e6762cfb457f20655fe3c687e48",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7FD96bAe5725667888dC32e7141D8A1255f5D968",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0f694e945aa8d5e3e740e0c554134145d0178e6762cfb457f20655fe3c687e48",
+      "basescanUrl": "https://basescan.org/token/0xD82E82CaA2bf63B9Ec72548358bB5a90651c9b07",
+      "source": "clanker",
+      "volume24h": 124233268.23,
+      "txns24h": 8352
+    },
+    {
+      "tokenName": "Clarity",
+      "tokenSymbol": "CLARITY",
+      "tokenAddress": "0x656331d8Cb35f7499696353a0602C2985b3F8b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaqipbblxngfv24ixfnzt5hy3cwrv6bjk2kxoigrlbm4oyn4v4sba",
+      "createdAt": "2026-07-22 20:10:55",
+      "poolId": "0xa5c67bdd66c86608422fe19d224f7e8509bab95766635393c1e0fea6c10688d0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaqipbblxngfv24ixfnzt5hy3cwrv6bjk2kxoigrlbm4oyn4v4sba",
+        "verified": false,
+        "operatorAddress": "0x928a8918D31941FB6b7b1F5456964A8bcbCB2435",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x928a8918D31941FB6b7b1F5456964A8bcbCB2435",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa5c67bdd66c86608422fe19d224f7e8509bab95766635393c1e0fea6c10688d0",
+      "basescanUrl": "https://basescan.org/token/0x656331d8Cb35f7499696353a0602C2985b3F8b07",
+      "source": "clanker",
+      "volume24h": 3518.55,
+      "txns24h": 122
+    },
     {
       "tokenName": "Rug Money",
       "tokenSymbol": "RUGMONEY",
@@ -50,28 +116,6 @@
       "source": "clanker",
       "volume24h": 38399870.24,
       "txns24h": 2189
-    },
-    {
-      "tokenName": "Rug #1",
-      "tokenSymbol": "RC1",
-      "tokenAddress": "0x5858a024C840629077056118a25f915FE9489C2D",
-      "imageUrl": "https://i.imgur.com/zLMlQZe.png",
-      "createdAt": "2026-07-21 18:13:53",
-      "poolId": "0x553840bea55330d2d6ea219e4d00a04f12f0504ab04c3599c95448ab5dfb6b85",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://i.imgur.com/zLMlQZe.png",
-        "verified": false,
-        "operatorAddress": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x553840bea55330d2d6ea219e4d00a04f12f0504ab04c3599c95448ab5dfb6b85",
-      "basescanUrl": "https://basescan.org/token/0x5858a024C840629077056118a25f915FE9489C2D",
-      "source": "clanker",
-      "volume24h": 230991.44,
-      "txns24h": 1190
     },
     {
       "tokenName": "Layer",
