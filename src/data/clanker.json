@@ -1,22 +1,43 @@
 {
-  "generatedAt": "2026-07-24T08:12:10.543Z",
+  "generatedAt": "2026-07-24T13:22:12.553Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 427,
-    "chain": 37,
-    "persisted": 8
+    "api": 450,
+    "chain": 46,
+    "persisted": 6
   },
-  "count": 6,
+  "count": 5,
   "addresses": [
+    "0xf30d3221a6d46645423ff82c324875586c0fab07",
     "0x10d991b3f8f04d552597d95de80d86fc29a77b07",
     "0xc674c13f12b506419cc236661e69487d5a019054",
-    "0xcb8ccfb5cdefb6d1a97bb36dbdbdc5749ee57791",
-    "0x7ad54c3f76b97933a6b3ac886614978091eb8b07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0xf30d3221a6d46645423FF82C324875586c0fAB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+      "createdAt": "2026-07-24 09:18:27",
+      "poolId": "0x20f3b5f7006ce9f60fa3547112f7a391f1681650945b82355df709a5d0d6ca09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+        "verified": false,
+        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x20f3b5f7006ce9f60fa3547112f7a391f1681650945b82355df709a5d0d6ca09",
+      "basescanUrl": "https://basescan.org/token/0xf30d3221a6d46645423FF82C324875586c0fAB07",
+      "source": "clanker",
+      "volume24h": 108652396.58000001,
+      "txns24h": 5688
+    },
     {
       "tokenName": "Virtual Beef",
       "tokenSymbol": "VBEEF",
@@ -36,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x669a9a318d547cb609687f50326fbaf1cece9e2ff540e3638fec89a037e8643e",
       "basescanUrl": "https://basescan.org/token/0x10d991B3F8f04d552597d95de80d86Fc29a77b07",
       "source": "clanker",
-      "volume24h": 691748.67,
-      "txns24h": 4784
+      "volume24h": 698025.25,
+      "txns24h": 4980
     },
     {
       "tokenName": "Robinhood",
@@ -58,52 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9ae630975263d3a239b317d4412f32e27c3d20f64885d64fa1d0ccd3c38d8c24",
       "basescanUrl": "https://basescan.org/token/0xC674C13F12B506419cc236661e69487d5a019054",
       "source": "clanker",
-      "volume24h": 108705014.51,
-      "txns24h": 12668
-    },
-    {
-      "tokenName": "Robinhood",
-      "tokenSymbol": "Robinhood",
-      "tokenAddress": "0xcb8cCFb5CdEfB6D1a97BB36dbDbdC5749EE57791",
-      "imageUrl": "https://ipfs.io/ipfs/QmUKkAKjVffQ2FrRK9vJ9T93seFDWbf8fphkUgUR1ZSNDT",
-      "createdAt": "2026-07-23 10:42:39",
-      "poolId": "0x1616fef09c9f3d10f06a34e10691696de4180a69815dd4fd00d27cccd34c3600",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://ipfs.io/ipfs/QmUKkAKjVffQ2FrRK9vJ9T93seFDWbf8fphkUgUR1ZSNDT",
-        "verified": false,
-        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1616fef09c9f3d10f06a34e10691696de4180a69815dd4fd00d27cccd34c3600",
-      "basescanUrl": "https://basescan.org/token/0xcb8cCFb5CdEfB6D1a97BB36dbDbdC5749EE57791",
-      "source": "clanker",
-      "volume24h": 17766163.43,
-      "txns24h": 2332
-    },
-    {
-      "tokenName": "Robinhood",
-      "tokenSymbol": "Robinhood",
-      "tokenAddress": "0x7AD54C3f76b97933a6B3AC886614978091eB8B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiahkpimv2irhogtuhqqhdwib3urzq6dru36dggwem4pfsywnvc7z4",
-      "createdAt": "2026-07-23 07:03:25",
-      "poolId": "0x99910b64f31dc5100f049234a00fe49334cf72d7dd60e66183444c9689035a61",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiahkpimv2irhogtuhqqhdwib3urzq6dru36dggwem4pfsywnvc7z4",
-        "verified": false,
-        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x99910b64f31dc5100f049234a00fe49334cf72d7dd60e66183444c9689035a61",
-      "basescanUrl": "https://basescan.org/token/0x7AD54C3f76b97933a6B3AC886614978091eB8B07",
-      "source": "clanker",
-      "volume24h": 44973369.35,
-      "txns24h": 2134
+      "volume24h": 108707439.89,
+      "txns24h": 13038
     },
     {
       "tokenName": "Degen",
@@ -124,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 49665.67999999999,
-      "txns24h": 1544
+      "volume24h": 79115.92,
+      "txns24h": 1981
     },
     {
       "tokenName": "gitlawb",
@@ -146,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 165172.54000000004,
-      "txns24h": 2124
+      "volume24h": 188250.22999999998,
+      "txns24h": 2263
     }
   ]
 }
