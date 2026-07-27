@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0xc0f7800a382AFDe51E930De4b1f130A1d85EEB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-07-27 03:53:35",
+      "poolId": "0x31d4263a7443d4ae906dfce58b695947b866a3ffa1930ee79c92048a571d0cb8",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x31d4263a7443d4ae906dfce58b695947b866a3ffa1930ee79c92048a571d0cb8",
+      "basescanUrl": "https://basescan.org/token/0xc0f7800a382AFDe51E930De4b1f130A1d85EEB07",
+      "source": "clanker",
+      "volume24h": 110150871.16,
+      "txns24h": 6393
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
