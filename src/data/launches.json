@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0xA6977034A44f40949a735844B7E008A8eAd4FB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-07-28 03:35:35",
+      "poolId": "0xa8c3d1b1f5c9c3de6b4a63692a9678c226ab26818ca6c9b4e3f568939b6fb853",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa8c3d1b1f5c9c3de6b4a63692a9678c226ab26818ca6c9b4e3f568939b6fb853",
+      "basescanUrl": "https://basescan.org/token/0xA6977034A44f40949a735844B7E008A8eAd4FB07",
+      "source": "clanker",
+      "volume24h": 96099704.14,
+      "txns24h": 3789
+    },
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0xe14552928F1Da4A1d813755ac606c8222C963B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-07-28 01:56:49",
+      "poolId": "0xd080319217c76bd4b998257c689f3d6acabf56b1b6fe983147c476187ab25b02",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd080319217c76bd4b998257c689f3d6acabf56b1b6fe983147c476187ab25b02",
+      "basescanUrl": "https://basescan.org/token/0xe14552928F1Da4A1d813755ac606c8222C963B07",
+      "source": "clanker",
+      "volume24h": 32041193.96,
+      "txns24h": 1154
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -28,28 +72,6 @@
       "source": "clanker",
       "volume24h": 110150871.16,
       "txns24h": 6393
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0x1cB0f168A71F5319EaAE5E1765B4C76cfaD57b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
-      "createdAt": "2026-07-26 12:16:05",
-      "poolId": "0x752c96045089a3f84271f9654fe317f561d445fd13a42ece45fa1f5d91ea9024",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
-        "verified": false,
-        "operatorAddress": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x76e29353e58eDc68dA51Ff4fD43582596b229163",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x752c96045089a3f84271f9654fe317f561d445fd13a42ece45fa1f5d91ea9024",
-      "basescanUrl": "https://basescan.org/token/0x1cB0f168A71F5319EaAE5E1765B4C76cfaD57b07",
-      "source": "clanker",
-      "volume24h": 10617486.09,
-      "txns24h": 230
     },
     {
       "tokenName": "Layer",
