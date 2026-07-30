@@ -8,6 +8,28 @@
   "count": 235,
   "items": [
     {
+      "tokenName": "A",
+      "tokenSymbol": "A",
+      "tokenAddress": "0x117641bfd9c90E9AA5b7eBBE4F0bFC1671234B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreieqqraz4t6y243iunyeqqcwggy4haquk6pcdvr6sctqwhdrszcblu",
+      "createdAt": "2026-07-30 01:38:05",
+      "poolId": "0xB6B36D6D874c82795ba693Eac07a836cd2cD1231",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreieqqraz4t6y243iunyeqqcwggy4haquk6pcdvr6sctqwhdrszcblu",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb6b36d6d874c82795ba693eac07a836cd2cd1231",
+      "basescanUrl": "https://basescan.org/token/0x117641bfd9c90E9AA5b7eBBE4F0bFC1671234B07",
+      "source": "clanker",
+      "volume24h": 430917.7,
+      "txns24h": 113
+    },
+    {
       "tokenName": "pipedog",
       "tokenSymbol": "PIPEDOG",
       "tokenAddress": "0xde2b3D68B593C1c9e0Cb6E55Cbf289CdF5a5CB07",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 51698532.120000005,
       "txns24h": 4487
-    },
-    {
-      "tokenName": "pipedog",
-      "tokenSymbol": "PIPEDOG",
-      "tokenAddress": "0x4de10eb5FDE6ed0a8a280DDF37bF9aED8951db07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeibs6pi66xo2fs3zt5czchvqc757c3ducr5m2h3h6etld6uwp4ts54",
-      "createdAt": "2026-07-29 01:40:19",
-      "poolId": "0x3ff67d8f7768bc719b9126c00ac6cd8c6b4cfa7430790d993151f3d6d19418e5",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeibs6pi66xo2fs3zt5czchvqc757c3ducr5m2h3h6etld6uwp4ts54",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3ff67d8f7768bc719b9126c00ac6cd8c6b4cfa7430790d993151f3d6d19418e5",
-      "basescanUrl": "https://basescan.org/token/0x4de10eb5FDE6ed0a8a280DDF37bF9aED8951db07",
-      "source": "clanker",
-      "volume24h": 27835725.279999997,
-      "txns24h": 1465
     },
     {
       "tokenName": "OpenAI",
