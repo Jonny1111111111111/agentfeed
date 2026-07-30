@@ -1,19 +1,18 @@
 {
-  "generatedAt": "2026-07-29T19:02:36.448Z",
+  "generatedAt": "2026-07-30T01:47:17.059Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 405,
-    "chain": 40,
+    "api": 390,
+    "chain": 23,
     "persisted": 7
   },
-  "count": 7,
+  "count": 6,
   "addresses": [
     "0xde2b3d68b593c1c9e0cb6e55cbf289cdf5a5cb07",
     "0x22409cd6f62b90ea2b57acf997011f4490ad5b07",
     "0x4de10eb5fde6ed0a8a280ddf37bf9aed8951db07",
     "0x3f58e7054fcaa38c74c1f46a5206e479ed995b07",
-    "0xb90fab07bc7bc5fb6a64f547cabea6b279dcfb07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
@@ -37,8 +36,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x6ad84b7d56c837d875e913c164ea0b684c4aaddd851c2f6cf5dec0a705a8bb2f",
       "basescanUrl": "https://basescan.org/token/0xde2b3D68B593C1c9e0Cb6E55Cbf289CdF5a5CB07",
       "source": "clanker",
-      "volume24h": 77416259.78999999,
-      "txns24h": 2331
+      "volume24h": 77418763.49000001,
+      "txns24h": 5069
     },
     {
       "tokenName": "pipedog",
@@ -59,8 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa925f278b9b1c12b657e77b686f9e8ea49e776ddd3be20db6534af14306c5ef6",
       "basescanUrl": "https://basescan.org/token/0x22409Cd6f62b90Ea2B57acF997011f4490AD5B07",
       "source": "clanker",
-      "volume24h": 51702372.07,
-      "txns24h": 5045
+      "volume24h": 51702387.85,
+      "txns24h": 5061
     },
     {
       "tokenName": "pipedog",
@@ -81,8 +80,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1b6f58ddea7000eced33aa6712dd5815d1a3a6bcdde1ee60effbf969fb703399",
       "basescanUrl": "https://basescan.org/token/0x4de10eb5FDE6ed0a8a280DDF37bF9aED8951db07",
       "source": "clanker",
-      "volume24h": 27835715.05,
-      "txns24h": 1415
+      "volume24h": 27835726.77,
+      "txns24h": 1489
     },
     {
       "tokenName": "OpenAI",
@@ -103,30 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x980cade20fb1aef0bef6406f09e2a08f07fe1bbea4514caa3a5882a0216eac73",
       "basescanUrl": "https://basescan.org/token/0x3f58E7054FcaA38c74C1f46A5206E479ED995b07",
       "source": "clanker",
-      "volume24h": 180527912.31,
-      "txns24h": 6877
-    },
-    {
-      "tokenName": "Claude",
-      "tokenSymbol": "Claude",
-      "tokenAddress": "0xb90FAb07Bc7Bc5Fb6A64f547cABea6B279dCFb07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreic7tsxt76rnh6mhsvtj6rq6kosopcdw3yf4r6mz2akgu3uksizwcu",
-      "createdAt": "2026-07-28 13:58:33",
-      "poolId": "0xa5672cd1196a3eaaec161ef85ac2a72b5c85a9967a6fd56fa93a9b7885cc37ea",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreic7tsxt76rnh6mhsvtj6rq6kosopcdw3yf4r6mz2akgu3uksizwcu",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa5672cd1196a3eaaec161ef85ac2a72b5c85a9967a6fd56fa93a9b7885cc37ea",
-      "basescanUrl": "https://basescan.org/token/0xb90FAb07Bc7Bc5Fb6A64f547cABea6B279dCFb07",
-      "source": "clanker",
-      "volume24h": 5765.63,
-      "txns24h": 1209
+      "volume24h": 180535144.77,
+      "txns24h": 7454
     },
     {
       "tokenName": "Degen",
@@ -147,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 350142.2799999999,
-      "txns24h": 6138
+      "volume24h": 381985.25999999995,
+      "txns24h": 7116
     },
     {
       "tokenName": "gitlawb",
@@ -169,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 207071.65999999997,
-      "txns24h": 3184
+      "volume24h": 150164.41,
+      "txns24h": 2423
     }
   ]
 }
