@@ -8,6 +8,28 @@
   "count": 235,
   "items": [
     {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x3Bf254aF3338C89974b97a67D2E1E6066AA29B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+      "createdAt": "2026-07-31 13:43:11",
+      "poolId": "0x2e60dC2b1f71E66D47Cf63feCc731eF555d453c7",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2e60dc2b1f71e66d47cf63fecc731ef555d453c7",
+      "basescanUrl": "https://basescan.org/token/0x3Bf254aF3338C89974b97a67D2E1E6066AA29B07",
+      "source": "clanker",
+      "volume24h": 81086365.18,
+      "txns24h": 3718
+    },
+    {
       "tokenName": "Anthropic",
       "tokenSymbol": "Anthropic",
       "tokenAddress": "0x33eC03d445c9D5CD70d80cF3a010c11CEe779B07",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 82070733.7,
       "txns24h": 7386
-    },
-    {
-      "tokenName": "Launcher",
-      "tokenSymbol": "LAUNCH",
-      "tokenAddress": "0xb1EB360e83e46F2768C58a508d972ed55D7132bE",
-      "imageUrl": "https://res.cloudinary.com/dzr8cn56i/image/upload/v1785338489/tokens/token-image.png",
-      "createdAt": "2026-07-30 13:27:25",
-      "poolId": "0x2203e28184d3770303f570e096abd57d53c50f25bad3e86e298e8a2d80d0bcb6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://res.cloudinary.com/dzr8cn56i/image/upload/v1785418280/launchpad-tokens/token-1785418279864.png",
-        "verified": false,
-        "operatorAddress": "0x799a390464fa551a1D6E9F9E9fA94Fd9737462f9",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x799a390464fa551a1D6E9F9E9fA94Fd9737462f9",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2203e28184d3770303f570e096abd57d53c50f25bad3e86e298e8a2d80d0bcb6",
-      "basescanUrl": "https://basescan.org/token/0xb1EB360e83e46F2768C58a508d972ed55D7132bE",
-      "source": "clanker",
-      "volume24h": 31078.08,
-      "txns24h": 315
     },
     {
       "tokenName": "OpenAI",
