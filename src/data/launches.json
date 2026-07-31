@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 236,
+  "count": 235,
   "items": [
     {
       "tokenName": "Launcher",
@@ -17,7 +17,7 @@
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://res.cloudinary.com/dzr8cn56i/image/upload/v1785338489/tokens/token-image.png",
+        "image": "https://res.cloudinary.com/dzr8cn56i/image/upload/v1785418280/launchpad-tokens/token-1785418279864.png",
         "verified": false,
         "operatorAddress": "0x799a390464fa551a1D6E9F9E9fA94Fd9737462f9",
         "profileUrl": null
@@ -72,28 +72,6 @@
       "source": "clanker",
       "volume24h": 430917.7,
       "txns24h": 113
-    },
-    {
-      "tokenName": "pipedog",
-      "tokenSymbol": "PIPEDOG",
-      "tokenAddress": "0xde2b3D68B593C1c9e0Cb6E55Cbf289CdF5a5CB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihzxmy36njsjp3vxrdpsjq2lg7acflx4dbfug3lnyvraskf2v5btm",
-      "createdAt": "2026-07-29 14:09:13",
-      "poolId": "0x6ad84b7d56c837d875e913c164ea0b684c4aaddd851c2f6cf5dec0a705a8bb2f",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihzxmy36njsjp3vxrdpsjq2lg7acflx4dbfug3lnyvraskf2v5btm",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x6ad84b7d56c837d875e913c164ea0b684c4aaddd851c2f6cf5dec0a705a8bb2f",
-      "basescanUrl": "https://basescan.org/token/0xde2b3D68B593C1c9e0Cb6E55Cbf289CdF5a5CB07",
-      "source": "clanker",
-      "volume24h": 77416259.78999999,
-      "txns24h": 2331
     },
     {
       "tokenName": "OpenAI",
