@@ -8,6 +8,28 @@
   "count": 234,
   "items": [
     {
+      "tokenName": "SK hynix",
+      "tokenSymbol": "SKHY",
+      "tokenAddress": "0xe64e672d82fFE5909c89bB16c66fB3AeB7a7e27a",
+      "imageUrl": "https://ipfs.io/ipfs/QmT34X44MS11KYUR5G2g1ae4XciL2x2R6vnwLTgX1CAujC",
+      "createdAt": "2026-08-02 11:34:47",
+      "poolId": "0x39B403f33Ad00A017F9aF1E1498109a2Fa7ea7CD",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmT34X44MS11KYUR5G2g1ae4XciL2x2R6vnwLTgX1CAujC",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x39b403f33ad00a017f9af1e1498109a2fa7ea7cd",
+      "basescanUrl": "https://basescan.org/token/0xe64e672d82fFE5909c89bB16c66fB3AeB7a7e27a",
+      "source": "clanker",
+      "volume24h": 53941850.62,
+      "txns24h": 1496
+    },
+    {
       "tokenName": "Asteroid Shiba",
       "tokenSymbol": "ASTEROID",
       "tokenAddress": "0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 121239339.7,
       "txns24h": 3905
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0x73ADFA3A448D63025D52E39f921369386E4fCB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
-      "createdAt": "2026-08-01 01:02:51",
-      "poolId": "0x7A5b82925bd22dA6f20ED1faE22850437DD7186E",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x7a5b82925bd22da6f20ed1fae22850437dd7186e",
-      "basescanUrl": "https://basescan.org/token/0x73ADFA3A448D63025D52E39f921369386E4fCB07",
-      "source": "clanker",
-      "volume24h": 21558599.78,
-      "txns24h": 842
     },
     {
       "tokenName": "Layer",
