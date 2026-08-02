@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Clanker V5",
+      "tokenSymbol": "V5",
+      "tokenAddress": "0x3Dc2B6E2ca63ceb9B272B243C8032D7f9895997d",
+      "imageUrl": "https://ipfs.io/ipfs/bafybeihohhxk3nmi52zjlert2a244m2fmov7c2xzboxajp3pbc5dl7ewai",
+      "createdAt": "2026-08-02 18:18:33",
+      "poolId": "0x7ead76d7508b2636c2993afede65ee8fdbeab846a53db66b83e57d945a9fa812",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/bafybeihohhxk3nmi52zjlert2a244m2fmov7c2xzboxajp3pbc5dl7ewai",
+        "verified": false,
+        "operatorAddress": "0x23C7d8e92BB290147E7e683d6F0a74C737cFdDD5",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x23C7d8e92BB290147E7e683d6F0a74C737cFdDD5",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7ead76d7508b2636c2993afede65ee8fdbeab846a53db66b83e57d945a9fa812",
+      "basescanUrl": "https://basescan.org/token/0x3Dc2B6E2ca63ceb9B272B243C8032D7f9895997d",
+      "source": "clanker",
+      "volume24h": 992.54,
+      "txns24h": 173
+    },
     {
       "tokenName": "SK hynix",
       "tokenSymbol": "SKHY",

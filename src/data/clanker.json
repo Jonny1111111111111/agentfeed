@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-02T13:04:21.572Z",
+  "generatedAt": "2026-08-02T18:59:23.085Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 462,
-    "chain": 18,
+    "api": 465,
+    "chain": 46,
     "persisted": 5
   },
-  "count": 5,
+  "count": 6,
   "addresses": [
+    "0x3dc2b6e2ca63ceb9b272b243c8032d7f9895997d",
     "0xe64e672d82ffe5909c89bb16c66fb3aeb7a7e27a",
     "0x4b0333bcfb941a8bdd53313b40c9198117c94b07",
     "0xc4e9a27d5a1c6857823fbf8dccc607b8d7e32b07",
@@ -16,6 +17,28 @@
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Clanker V5",
+      "tokenSymbol": "V5",
+      "tokenAddress": "0x3Dc2B6E2ca63ceb9B272B243C8032D7f9895997d",
+      "imageUrl": "https://ipfs.io/ipfs/bafybeihohhxk3nmi52zjlert2a244m2fmov7c2xzboxajp3pbc5dl7ewai",
+      "createdAt": "2026-08-02 18:18:33",
+      "poolId": "0x7ead76d7508b2636c2993afede65ee8fdbeab846a53db66b83e57d945a9fa812",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/bafybeihohhxk3nmi52zjlert2a244m2fmov7c2xzboxajp3pbc5dl7ewai",
+        "verified": false,
+        "operatorAddress": "0x23C7d8e92BB290147E7e683d6F0a74C737cFdDD5",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x23C7d8e92BB290147E7e683d6F0a74C737cFdDD5",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7ead76d7508b2636c2993afede65ee8fdbeab846a53db66b83e57d945a9fa812",
+      "basescanUrl": "https://basescan.org/token/0x3Dc2B6E2ca63ceb9B272B243C8032D7f9895997d",
+      "source": "clanker",
+      "volume24h": 992.54,
+      "txns24h": 173
+    },
     {
       "tokenName": "SK hynix",
       "tokenSymbol": "SKHY",
@@ -35,8 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x39b403f33ad00a017f9af1e1498109a2fa7ea7cd",
       "basescanUrl": "https://basescan.org/token/0xe64e672d82fFE5909c89bB16c66fB3AeB7a7e27a",
       "source": "clanker",
-      "volume24h": 53941850.62,
-      "txns24h": 1496
+      "volume24h": 123658095.08999999,
+      "txns24h": 5761
     },
     {
       "tokenName": "Asteroid Shiba",
@@ -57,8 +80,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1d686cf1a34cdc830359e33de5c2d1b421859788",
       "basescanUrl": "https://basescan.org/token/0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
       "source": "clanker",
-      "volume24h": 113809261.15999998,
-      "txns24h": 2991
+      "volume24h": 113809261.61999999,
+      "txns24h": 2992
     },
     {
       "tokenName": "Claude",
@@ -79,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd26944e7c26df2c1e528f67ba72f79872e8fc538",
       "basescanUrl": "https://basescan.org/token/0xC4e9A27D5a1C6857823fBf8dCCc607b8d7E32b07",
       "source": "clanker",
-      "volume24h": 26904.54,
-      "txns24h": 4050
+      "volume24h": 7632.900000000001,
+      "txns24h": 1191
     },
     {
       "tokenName": "Degen",
@@ -101,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 73622.14000000003,
-      "txns24h": 2010
+      "volume24h": 61804.439999999995,
+      "txns24h": 1893
     },
     {
       "tokenName": "gitlawb",
@@ -123,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 47469.42,
-      "txns24h": 1153
+      "volume24h": 68651.28000000001,
+      "txns24h": 1255
     }
   ]
 }
