@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Asteroid Shiba",
+      "tokenSymbol": "ASTEROID",
+      "tokenAddress": "0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiahbzkommfhqwju3knfzgatnkw23ba5ozg6lorhrqzicdyw27ecee",
+      "createdAt": "2026-08-02 07:00:19",
+      "poolId": "0x1D686cf1a34cDC830359E33DE5C2D1b421859788",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiahbzkommfhqwju3knfzgatnkw23ba5ozg6lorhrqzicdyw27ecee",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1d686cf1a34cdc830359e33de5c2d1b421859788",
+      "basescanUrl": "https://basescan.org/token/0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
+      "source": "clanker",
+      "volume24h": 62646892.080000006,
+      "txns24h": 905
+    },
     {
       "tokenName": "Claude",
       "tokenSymbol": "Claude",
