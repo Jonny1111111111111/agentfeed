@@ -1,23 +1,68 @@
 {
-  "generatedAt": "2026-08-03T09:28:59.518Z",
+  "generatedAt": "2026-08-03T14:21:28.412Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 506,
-    "chain": 60,
-    "persisted": 6
+    "api": 494,
+    "chain": 25,
+    "persisted": 7
   },
-  "count": 7,
+  "count": 8,
   "addresses": [
+    "0x9e7344bd94250f5af997740590408bc180f32b07",
+    "0x0788e6bef226fd41d140227730b8a06e59e60b07",
     "0x8ad5d75db9447f7300d74a151b9cd24ed1a2cb07",
     "0x3dc2b6e2ca63ceb9b272b243c8032d7f9895997d",
     "0xe64e672d82ffe5909c89bb16c66fb3aeb7a7e27a",
-    "0x4b0333bcfb941a8bdd53313b40c9198117c94b07",
     "0xc4e9a27d5a1c6857823fbf8dccc607b8d7e32b07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x9e7344BD94250F5AF997740590408bC180f32b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+      "createdAt": "2026-08-03 11:07:53",
+      "poolId": "0x3321660f230593183f431ba25419d0a8714d8f22abf09353d65c232950479537",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+        "verified": false,
+        "operatorAddress": "0x1CD26C419619887f373DDD9CdcAdF1078a870DAb",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x1CD26C419619887f373DDD9CdcAdF1078a870DAb",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3321660f230593183f431ba25419d0a8714d8f22abf09353d65c232950479537",
+      "basescanUrl": "https://basescan.org/token/0x9e7344BD94250F5AF997740590408bC180f32b07",
+      "source": "clanker",
+      "volume24h": 12330067.42,
+      "txns24h": 3869
+    },
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x0788E6BeF226FD41d140227730b8A06e59E60b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-08-03 06:20:45",
+      "poolId": "0x2aaa2855b2aae1a9f44db8a4ec1033a6e9c80ac6913fc02d3334e23895392342",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2aaa2855b2aae1a9f44db8a4ec1033a6e9c80ac6913fc02d3334e23895392342",
+      "basescanUrl": "https://basescan.org/token/0x0788E6BeF226FD41d140227730b8A06e59E60b07",
+      "source": "clanker",
+      "volume24h": 5304591.65,
+      "txns24h": 276
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -37,8 +82,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x07e47ec8afbe4502bd1ad2cba2035ad279d677e1",
       "basescanUrl": "https://basescan.org/token/0x8ad5D75DB9447F7300d74A151b9Cd24ed1a2cb07",
       "source": "clanker",
-      "volume24h": 53346167.64,
-      "txns24h": 6083
+      "volume24h": 53356219.06,
+      "txns24h": 7801
     },
     {
       "tokenName": "Clanker V5",
@@ -81,30 +126,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x39b403f33ad00a017f9af1e1498109a2fa7ea7cd",
       "basescanUrl": "https://basescan.org/token/0xe64e672d82fFE5909c89bB16c66fB3AeB7a7e27a",
       "source": "clanker",
-      "volume24h": 123660768.42000002,
-      "txns24h": 9434
-    },
-    {
-      "tokenName": "Asteroid Shiba",
-      "tokenSymbol": "ASTEROID",
-      "tokenAddress": "0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiahbzkommfhqwju3knfzgatnkw23ba5ozg6lorhrqzicdyw27ecee",
-      "createdAt": "2026-08-02 07:00:19",
-      "poolId": "0x1D686cf1a34cDC830359E33DE5C2D1b421859788",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiahbzkommfhqwju3knfzgatnkw23ba5ozg6lorhrqzicdyw27ecee",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1d686cf1a34cdc830359e33de5c2d1b421859788",
-      "basescanUrl": "https://basescan.org/token/0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
-      "source": "clanker",
-      "volume24h": 20562.71,
-      "txns24h": 808
+      "volume24h": 17705732.62,
+      "txns24h": 7148
     },
     {
       "tokenName": "Claude",
@@ -125,8 +148,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x384504043542b59a959e01a506417001c2ad2803b87ae3840dae42788b64f177",
       "basescanUrl": "https://basescan.org/token/0xC4e9A27D5a1C6857823fBf8dCCc607b8d7E32b07",
       "source": "clanker",
-      "volume24h": 1050.16,
-      "txns24h": 177
+      "volume24h": 1044.85,
+      "txns24h": 172
     },
     {
       "tokenName": "Degen",
@@ -147,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 61257.68999999999,
-      "txns24h": 1962
+      "volume24h": 126505.52999999998,
+      "txns24h": 3193
     },
     {
       "tokenName": "gitlawb",
@@ -169,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 244159.93,
-      "txns24h": 3319
+      "volume24h": 295729.45,
+      "txns24h": 3862
     }
   ]
 }

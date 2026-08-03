@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 236,
+  "count": 237,
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x9e7344BD94250F5AF997740590408bC180f32b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+      "createdAt": "2026-08-03 11:07:53",
+      "poolId": "0x3321660f230593183f431ba25419d0a8714d8f22abf09353d65c232950479537",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiedid62o52jigeqkjup4tauqh4bz5d5earqwz5smq6zt3qohmrmtq",
+        "verified": false,
+        "operatorAddress": "0x1CD26C419619887f373DDD9CdcAdF1078a870DAb",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x1CD26C419619887f373DDD9CdcAdF1078a870DAb",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3321660f230593183f431ba25419d0a8714d8f22abf09353d65c232950479537",
+      "basescanUrl": "https://basescan.org/token/0x9e7344BD94250F5AF997740590408bC180f32b07",
+      "source": "clanker",
+      "volume24h": 12330067.42,
+      "txns24h": 3869
+    },
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x0788E6BeF226FD41d140227730b8A06e59E60b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-08-03 06:20:45",
+      "poolId": "0x2aaa2855b2aae1a9f44db8a4ec1033a6e9c80ac6913fc02d3334e23895392342",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2aaa2855b2aae1a9f44db8a4ec1033a6e9c80ac6913fc02d3334e23895392342",
+      "basescanUrl": "https://basescan.org/token/0x0788E6BeF226FD41d140227730b8A06e59E60b07",
+      "source": "clanker",
+      "volume24h": 5304591.65,
+      "txns24h": 276
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -72,28 +116,6 @@
       "source": "clanker",
       "volume24h": 53941850.62,
       "txns24h": 1496
-    },
-    {
-      "tokenName": "Asteroid Shiba",
-      "tokenSymbol": "ASTEROID",
-      "tokenAddress": "0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiahbzkommfhqwju3knfzgatnkw23ba5ozg6lorhrqzicdyw27ecee",
-      "createdAt": "2026-08-02 07:00:19",
-      "poolId": "0x1D686cf1a34cDC830359E33DE5C2D1b421859788",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiahbzkommfhqwju3knfzgatnkw23ba5ozg6lorhrqzicdyw27ecee",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1d686cf1a34cdc830359e33de5c2d1b421859788",
-      "basescanUrl": "https://basescan.org/token/0x4B0333Bcfb941a8BDD53313B40c9198117c94B07",
-      "source": "clanker",
-      "volume24h": 62646892.080000006,
-      "txns24h": 905
     },
     {
       "tokenName": "Claude",
