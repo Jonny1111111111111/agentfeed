@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 236,
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x8ad5D75DB9447F7300d74A151b9Cd24ed1a2cb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-08-03 04:03:35",
+      "poolId": "0x07E47ec8afbE4502Bd1aD2Cba2035Ad279D677e1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x07e47ec8afbe4502bd1ad2cba2035ad279d677e1",
+      "basescanUrl": "https://basescan.org/token/0x8ad5D75DB9447F7300d74A151b9Cd24ed1a2cb07",
+      "source": "clanker",
+      "volume24h": 53346167.64,
+      "txns24h": 6083
+    },
     {
       "tokenName": "Clanker V5",
       "tokenSymbol": "V5",
