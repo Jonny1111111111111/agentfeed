@@ -1,24 +1,92 @@
 {
-  "generatedAt": "2026-08-04T01:49:28.447Z",
+  "generatedAt": "2026-08-04T08:25:29.637Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 510,
-    "chain": 55,
+    "api": 528,
+    "chain": 22,
     "persisted": 8
   },
-  "count": 8,
+  "count": 10,
   "addresses": [
+    "0x7649080d56b9a6062378fb26a01a04c840ce7b07",
+    "0xc701120251f7e2e84ee0a33ec353f00ce8d7cb07",
+    "0x7a6379033209f0ee3f5bad70d2468cfe1f79fb07",
     "0x4de36eaea210077541d175b0d2e1404b06bf4b07",
     "0xa2a83e24c6c853d9e38c74271e9ea0d261479b07",
     "0x9e7344bd94250f5af997740590408bc180f32b07",
     "0x0788e6bef226fd41d140227730b8a06e59e60b07",
     "0x8ad5d75db9447f7300d74a151b9cd24ed1a2cb07",
-    "0xe64e672d82ffe5909c89bb16c66fb3aeb7a7e27a",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x7649080D56b9a6062378fb26a01A04c840ce7B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigckd3edvm5azbpbh6rjstbqmxckek6ukjcs7llz7t6z5bpdkqyvq",
+      "createdAt": "2026-08-04 05:16:29",
+      "poolId": "0x01599CE6bad4888C77Ad34c80F6971832fD94fBD",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigckd3edvm5azbpbh6rjstbqmxckek6ukjcs7llz7t6z5bpdkqyvq",
+        "verified": false,
+        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x01599ce6bad4888c77ad34c80f6971832fd94fbd",
+      "basescanUrl": "https://basescan.org/token/0x7649080D56b9a6062378fb26a01A04c840ce7B07",
+      "source": "clanker",
+      "volume24h": 105765244.61,
+      "txns24h": 4518
+    },
+    {
+      "tokenName": "pepedog",
+      "tokenSymbol": "PEPEDOG",
+      "tokenAddress": "0xc701120251F7E2E84Ee0a33EC353f00Ce8D7CB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihkyanifiomgfaz3kiwqdr7dw2keykrsb3bqht3n4obndfij5sq3e",
+      "createdAt": "2026-08-04 03:32:59",
+      "poolId": "0xF56E7366e8Cbe39E3b7167d94571556C15Fb6f09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihkyanifiomgfaz3kiwqdr7dw2keykrsb3bqht3n4obndfij5sq3e",
+        "verified": false,
+        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf56e7366e8cbe39e3b7167d94571556c15fb6f09",
+      "basescanUrl": "https://basescan.org/token/0xc701120251F7E2E84Ee0a33EC353f00Ce8D7CB07",
+      "source": "clanker",
+      "volume24h": 2221525.3699999996,
+      "txns24h": 319
+    },
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x7a6379033209F0ee3F5BAD70D2468cfe1F79fB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-08-04 01:32:17",
+      "poolId": "0x8e81611aca9de1e9d87a205b2eaba6c84dd89db8f28676b60ca719e12dfe403e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8e81611aca9de1e9d87a205b2eaba6c84dd89db8f28676b60ca719e12dfe403e",
+      "basescanUrl": "https://basescan.org/token/0x7a6379033209F0ee3F5BAD70D2468cfe1F79fB07",
+      "source": "clanker",
+      "volume24h": 16307547.32,
+      "txns24h": 5323
+    },
     {
       "tokenName": "EXPLO",
       "tokenSymbol": "EXPLO",
@@ -60,8 +128,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9a175b0d6373ba637cf5d79291ffde32d6def0dc",
       "basescanUrl": "https://basescan.org/token/0xA2a83E24c6C853D9E38C74271e9ea0d261479B07",
       "source": "clanker",
-      "volume24h": 63690123.059999995,
-      "txns24h": 5909
+      "volume24h": 63690123.489999995,
+      "txns24h": 5916
     },
     {
       "tokenName": "OpenAI",
@@ -104,8 +172,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2aaa2855b2aae1a9f44db8a4ec1033a6e9c80ac6913fc02d3334e23895392342",
       "basescanUrl": "https://basescan.org/token/0x0788E6BeF226FD41d140227730b8A06e59E60b07",
       "source": "clanker",
-      "volume24h": 5304591.65,
-      "txns24h": 276
+      "volume24h": 5304591.640000001,
+      "txns24h": 275
     },
     {
       "tokenName": "OpenAI",
@@ -113,7 +181,7 @@
       "tokenAddress": "0x8ad5D75DB9447F7300d74A151b9Cd24ed1a2cb07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
       "createdAt": "2026-08-03 04:03:35",
-      "poolId": "0x07E47ec8afbE4502Bd1aD2Cba2035Ad279D677e1",
+      "poolId": "0xd92534826ebd7e9abe890d8bdedd590479e1343c2bbe4f1d1cc308ff8f27413b",
       "launcher": {
         "name": null,
         "handle": null,
@@ -123,33 +191,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x07e47ec8afbe4502bd1ad2cba2035ad279d677e1",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd92534826ebd7e9abe890d8bdedd590479e1343c2bbe4f1d1cc308ff8f27413b",
       "basescanUrl": "https://basescan.org/token/0x8ad5D75DB9447F7300d74A151b9Cd24ed1a2cb07",
       "source": "clanker",
-      "volume24h": 53356219.06,
-      "txns24h": 7801
-    },
-    {
-      "tokenName": "SK hynix",
-      "tokenSymbol": "SKHY",
-      "tokenAddress": "0xe64e672d82fFE5909c89bB16c66fB3AeB7a7e27a",
-      "imageUrl": "https://ipfs.io/ipfs/QmT34X44MS11KYUR5G2g1ae4XciL2x2R6vnwLTgX1CAujC",
-      "createdAt": "2026-08-02 11:34:47",
-      "poolId": "0x916a44a66a88cc6f30d6dcc3adb3eb864e06ec612aae0c2db9143cccba6f46bf",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://ipfs.io/ipfs/QmT34X44MS11KYUR5G2g1ae4XciL2x2R6vnwLTgX1CAujC",
-        "verified": false,
-        "operatorAddress": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xA8264C56bbe61C38beC6825ff48d30682a20A66b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x916a44a66a88cc6f30d6dcc3adb3eb864e06ec612aae0c2db9143cccba6f46bf",
-      "basescanUrl": "https://basescan.org/token/0xe64e672d82fFE5909c89bB16c66fB3AeB7a7e27a",
-      "source": "clanker",
-      "volume24h": 746.62,
-      "txns24h": 1032
+      "volume24h": 285625.09,
+      "txns24h": 2622
     },
     {
       "tokenName": "Degen",
@@ -170,8 +216,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9034c3e7f58003e6ae0c8438e7c8f4598d5acaa",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 117865.61,
-      "txns24h": 2997
+      "volume24h": 113434.52000000002,
+      "txns24h": 2846
     },
     {
       "tokenName": "gitlawb",
@@ -192,8 +238,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 119609.79,
-      "txns24h": 1900
+      "volume24h": 105100.16000000002,
+      "txns24h": 1711
     }
   ]
 }
