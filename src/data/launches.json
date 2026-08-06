@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 234,
   "items": [
     {
       "tokenName": "OpenAI",
@@ -52,48 +52,26 @@
       "txns24h": 7893
     },
     {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0x2B31D3eD065F1f834D5C85EFEd49089F4c4f6b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibvnaifqtrg6a6x3hgqioism52auqn6pkbph3h66yvb74ehrfrypi",
-      "createdAt": "2026-08-04 12:35:57",
-      "poolId": "0x8D3e3E8e041DbE09CE210Dc3a84D0b8B5218FfcA",
+      "tokenName": "Claude",
+      "tokenSymbol": "Claude",
+      "tokenAddress": "0xF66a9c73F34b56579A9E25e7eC89bca5a9C83b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegtmjd2sfibxfypug7pr6rhhe5tnkqsrju4egsc4t3qqsda4jqze",
+      "createdAt": "2026-08-05 12:43:31",
+      "poolId": "0x4c2D3cd201055683813bfc719e3B81ce78Bc2185",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibvnaifqtrg6a6x3hgqioism52auqn6pkbph3h66yvb74ehrfrypi",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegtmjd2sfibxfypug7pr6rhhe5tnkqsrju4egsc4t3qqsda4jqze",
         "verified": false,
         "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
         "profileUrl": null
       },
       "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8d3e3e8e041dbe09ce210dc3a84d0b8b5218ffca",
-      "basescanUrl": "https://basescan.org/token/0x2B31D3eD065F1f834D5C85EFEd49089F4c4f6b07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4c2d3cd201055683813bfc719e3b81ce78bc2185",
+      "basescanUrl": "https://basescan.org/token/0xF66a9c73F34b56579A9E25e7eC89bca5a9C83b07",
       "source": "clanker",
-      "volume24h": 31365067.37,
-      "txns24h": 925
-    },
-    {
-      "tokenName": "Base Agent",
-      "tokenSymbol": "AI",
-      "tokenAddress": "0x6f02203Ad1afECA3e0a50dBD491dC94fdbD08B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib4fzwoxk4pybugrwnpfibzikgbgddc4agvzvo2537heodwzly33y",
-      "createdAt": "2026-08-04 11:50:49",
-      "poolId": "0x1f0bc6d311c53FEb0e749D1B9eDdd018C505212b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib4fzwoxk4pybugrwnpfibzikgbgddc4agvzvo2537heodwzly33y",
-        "verified": false,
-        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1f0bc6d311c53feb0e749d1b9eddd018c505212b",
-      "basescanUrl": "https://basescan.org/token/0x6f02203Ad1afECA3e0a50dBD491dC94fdbD08B07",
-      "source": "clanker",
-      "volume24h": 69253040.47,
-      "txns24h": 3343
+      "volume24h": 112279890.06,
+      "txns24h": 4803
     },
     {
       "tokenName": "Layer",
