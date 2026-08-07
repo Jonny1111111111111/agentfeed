@@ -30,28 +30,6 @@
       "txns24h": 416
     },
     {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0x003AFA6D1eddF81326106D19A59Fd4B5f90CdB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaihr42ujvo5lk5gtytwqwq5dlmpetdiakfz3kekx7qe67enagtbm",
-      "createdAt": "2026-08-06 02:24:05",
-      "poolId": "0xe8c541aEBA0e4B7D59077DE1CBF788c354f9973D",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaihr42ujvo5lk5gtytwqwq5dlmpetdiakfz3kekx7qe67enagtbm",
-        "verified": false,
-        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe8c541aeba0e4b7d59077de1cbf788c354f9973d",
-      "basescanUrl": "https://basescan.org/token/0x003AFA6D1eddF81326106D19A59Fd4B5f90CdB07",
-      "source": "clanker",
-      "volume24h": 46845862.64,
-      "txns24h": 7466
-    },
-    {
       "tokenName": "Claude",
       "tokenSymbol": "Claude",
       "tokenAddress": "0xF66a9c73F34b56579A9E25e7eC89bca5a9C83b07",
@@ -72,6 +50,28 @@
       "source": "clanker",
       "volume24h": 112279890.06,
       "txns24h": 4803
+    },
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x2A4332d0333473618fE76bcED4270095547E6B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibvnaifqtrg6a6x3hgqioism52auqn6pkbph3h66yvb74ehrfrypi",
+      "createdAt": "2026-08-05 12:04:37",
+      "poolId": "0x9c091525e2CB68aF016B7607A3E280af379FC5ca",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibvnaifqtrg6a6x3hgqioism52auqn6pkbph3h66yvb74ehrfrypi",
+        "verified": false,
+        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9c091525e2cb68af016b7607a3e280af379fc5ca",
+      "basescanUrl": "https://basescan.org/token/0x2A4332d0333473618fE76bcED4270095547E6B07",
+      "source": "clanker",
+      "volume24h": 24000157.580000002,
+      "txns24h": 224
     },
     {
       "tokenName": "Base Agent",
