@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-08-08T12:31:52.604Z",
+  "generatedAt": "2026-08-08T18:25:38.469Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 587,
-    "chain": 15,
-    "persisted": 4
+    "api": 596,
+    "chain": 31,
+    "persisted": 3
   },
   "count": 3,
   "addresses": [
-    "0x2a4332d0333473618fe76bced4270095547e6b07",
+    "0xd253a3dcfce4a87b76b20ced20b87931a1ff9b07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
     {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0x2A4332d0333473618fE76bcED4270095547E6B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibvnaifqtrg6a6x3hgqioism52auqn6pkbph3h66yvb74ehrfrypi",
-      "createdAt": "2026-08-05 12:04:37",
-      "poolId": "0x9c091525e2CB68aF016B7607A3E280af379FC5ca",
+      "tokenName": "Polymarket",
+      "tokenSymbol": "Polymarket",
+      "tokenAddress": "0xD253a3dCfcE4a87B76b20CEd20B87931A1FF9b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia3clfuu7jbozhur3ebzcr4gieiuu3tbrnu6cx2pgvpad5sfwxapy",
+      "createdAt": "2026-08-08 12:45:21",
+      "poolId": "0x1390D2139fEbC413BE80DF080a7743f682ce38c2",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibvnaifqtrg6a6x3hgqioism52auqn6pkbph3h66yvb74ehrfrypi",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia3clfuu7jbozhur3ebzcr4gieiuu3tbrnu6cx2pgvpad5sfwxapy",
         "verified": false,
-        "operatorAddress": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
         "profileUrl": null
       },
-      "feeRecipient": "0x47be9dB008D304546eddE72A0F424eBDacDcBfa0",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x9c091525e2cb68af016b7607a3e280af379fc5ca",
-      "basescanUrl": "https://basescan.org/token/0x2A4332d0333473618fE76bcED4270095547E6B07",
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1390d2139febc413be80df080a7743f682ce38c2",
+      "basescanUrl": "https://basescan.org/token/0xD253a3dCfcE4a87B76b20CEd20B87931A1FF9b07",
       "source": "clanker",
-      "volume24h": 3562580.8,
-      "txns24h": 17950
+      "volume24h": 14914662.839999998,
+      "txns24h": 3987
     },
     {
       "tokenName": "Degen",
@@ -55,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 31642.220000000005,
-      "txns24h": 1595
+      "volume24h": 23529.28,
+      "txns24h": 1278
     },
     {
       "tokenName": "gitlawb",
@@ -77,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 47099.5,
-      "txns24h": 952
+      "volume24h": 38428.990000000005,
+      "txns24h": 737
     }
   ]
 }
