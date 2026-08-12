@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
     {
       "tokenName": "plumber",
@@ -72,6 +72,28 @@
       "source": "clanker",
       "volume24h": 434838.0400000001,
       "txns24h": 2662
+    },
+    {
+      "tokenName": "SpaceX",
+      "tokenSymbol": "SpaceX",
+      "tokenAddress": "0xd4C5A50540BafEDad767260026b970E74285a98E",
+      "imageUrl": "https://ipfs.io/ipfs/QmXp8Q1HjbBcqFC5dcBAXJKoRsnX41Xa4KFR7D6dmQkf73",
+      "createdAt": "2026-08-09 12:57:57",
+      "poolId": "0xCcFBBE6954457e971275575BA765662350Ad72A8",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmXp8Q1HjbBcqFC5dcBAXJKoRsnX41Xa4KFR7D6dmQkf73",
+        "verified": false,
+        "operatorAddress": "0x0EfB3Ae3531F39DF631A0E6BB0Df49e571257793",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0EfB3Ae3531F39DF631A0E6BB0Df49e571257793",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xccfbbe6954457e971275575ba765662350ad72a8",
+      "basescanUrl": "https://basescan.org/token/0xd4C5A50540BafEDad767260026b970E74285a98E",
+      "source": "clanker",
+      "volume24h": 25425919.169999998,
+      "txns24h": 4085
     },
     {
       "tokenName": "Layer",
