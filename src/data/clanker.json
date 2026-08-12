@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-08-12T07:13:11.665Z",
+  "generatedAt": "2026-08-12T12:51:43.908Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 724,
-    "chain": 21,
-    "persisted": 5
+    "chain": 22,
+    "persisted": 6
   },
-  "count": 6,
+  "count": 5,
   "addresses": [
     "0xb8ecb4c4f9b6a241de7eba491a9164e9212c7b07",
     "0x3a3a8cde7e0f56dd2ebbd9415586149a26b00105",
-    "0x9dba3ae7002daefd7324e7b9f829ed31cb5f0b07",
     "0xd4c5a50540bafedad767260026b970e74285a98e",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
@@ -62,28 +61,6 @@
       "txns24h": 123
     },
     {
-      "tokenName": "Cthuwu",
-      "tokenSymbol": "UWU",
-      "tokenAddress": "0x9dBa3AE7002DaEfd7324e7B9f829ed31Cb5f0B07",
-      "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/17509806-c46a-4aca-305f-ae2ba078d800/original",
-      "createdAt": "2026-08-10 01:34:49",
-      "poolId": "0xadb05fcb5731ae9ebc7566d29d8e8982ab701c3707af1bceb31106babd3c9b34",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/17509806-c46a-4aca-305f-ae2ba078d800/original",
-        "verified": false,
-        "operatorAddress": "0x7ab874Eeef0169ADA0d225E9801A3FfFfa26aAC3",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x7ab874Eeef0169ADA0d225E9801A3FfFfa26aAC3",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xadb05fcb5731ae9ebc7566d29d8e8982ab701c3707af1bceb31106babd3c9b34",
-      "basescanUrl": "https://basescan.org/token/0x9dBa3AE7002DaEfd7324e7B9f829ed31Cb5f0B07",
-      "source": "clanker",
-      "volume24h": 7593.790000000001,
-      "txns24h": 108
-    },
-    {
       "tokenName": "SpaceX",
       "tokenSymbol": "SpaceX",
       "tokenAddress": "0xd4C5A50540BafEDad767260026b970E74285a98E",
@@ -102,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xccfbbe6954457e971275575ba765662350ad72a8",
       "basescanUrl": "https://basescan.org/token/0xd4C5A50540BafEDad767260026b970E74285a98E",
       "source": "clanker",
-      "volume24h": 25425919.169999998,
-      "txns24h": 4085
+      "volume24h": 25428873.06,
+      "txns24h": 4715
     },
     {
       "tokenName": "Degen",
@@ -124,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 30238.949999999993,
-      "txns24h": 1104
+      "volume24h": 30420.519999999997,
+      "txns24h": 1010
     },
     {
       "tokenName": "gitlawb",
@@ -146,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 81271.28000000001,
-      "txns24h": 1812
+      "volume24h": 79015.87,
+      "txns24h": 2132
     }
   ]
 }
