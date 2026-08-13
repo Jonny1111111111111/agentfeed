@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Grotto",
+      "tokenSymbol": "GROTTO",
+      "tokenAddress": "0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
+      "imageUrl": "https://tokens.fun/api/token-image?ticker=GROTTO",
+      "createdAt": "2026-08-13 14:23:09",
+      "poolId": "0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://tokens.fun/api/token-image?ticker=GROTTO",
+        "verified": false,
+        "operatorAddress": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
+      "basescanUrl": "https://basescan.org/token/0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
+      "source": "clanker",
+      "volume24h": 15508.07,
+      "txns24h": 119
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",

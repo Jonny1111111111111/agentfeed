@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-13T12:52:40.471Z",
+  "generatedAt": "2026-08-13T18:52:25.779Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 757,
-    "chain": 30,
+    "api": 724,
+    "chain": 86,
     "persisted": 5
   },
-  "count": 5,
+  "count": 6,
   "addresses": [
+    "0xe892cfe2cd344c75883e4a72a97c1febdcc0b54c",
     "0xbb32d5c41c1fe335e0a1811be56f921904612b07",
     "0xcaa60be5d0505564d4527a31f651e8402c96db07",
     "0x6293a5bff3f692236ee12585d37d4f0a0fd02b07",
@@ -16,6 +17,28 @@
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Grotto",
+      "tokenSymbol": "GROTTO",
+      "tokenAddress": "0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
+      "imageUrl": "https://tokens.fun/api/token-image?ticker=GROTTO",
+      "createdAt": "2026-08-13 14:23:09",
+      "poolId": "0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://tokens.fun/api/token-image?ticker=GROTTO",
+        "verified": false,
+        "operatorAddress": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
+      "basescanUrl": "https://basescan.org/token/0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
+      "source": "clanker",
+      "volume24h": 15508.07,
+      "txns24h": 119
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -35,8 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x798b4a547197370688278d44d19e0bc04cd4455e",
       "basescanUrl": "https://basescan.org/token/0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
       "source": "clanker",
-      "volume24h": 25691529.39,
-      "txns24h": 5183
+      "volume24h": 25923620.470000003,
+      "txns24h": 8534
     },
     {
       "tokenName": "BaiBai",
@@ -57,8 +80,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0f1dbe0ba844d23776a654e46a9ce7b34851da85319c6c54598b7c66db636a5e",
       "basescanUrl": "https://basescan.org/token/0xCAA60bE5D0505564D4527a31f651E8402C96DB07",
       "source": "clanker",
-      "volume24h": 9193.39,
-      "txns24h": 110
+      "volume24h": 9562.51,
+      "txns24h": 118
     },
     {
       "tokenName": "SK hynix",
@@ -101,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 77721.70999999998,
-      "txns24h": 1628
+      "volume24h": 243966.74999999997,
+      "txns24h": 4477
     },
     {
       "tokenName": "gitlawb",
@@ -123,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 34400.76000000001,
-      "txns24h": 1111
+      "volume24h": 45833.16,
+      "txns24h": 1398
     }
   ]
 }
