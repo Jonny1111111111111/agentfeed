@@ -1,19 +1,65 @@
 {
-  "generatedAt": "2026-08-13T01:16:51.161Z",
+  "generatedAt": "2026-08-13T07:15:57.008Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 740,
-    "chain": 27,
-    "persisted": 4
+    "api": 753,
+    "chain": 42,
+    "persisted": 3
   },
-  "count": 3,
+  "count": 5,
   "addresses": [
+    "0xcaa60be5d0505564d4527a31f651e8402c96db07",
+    "0x6293a5bff3f692236ee12585d37d4f0a0fd02b07",
     "0xd4c5a50540bafedad767260026b970e74285a98e",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "BaiBai",
+      "tokenSymbol": "BaiBai",
+      "tokenAddress": "0xCAA60bE5D0505564D4527a31f651E8402C96DB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihmuw7vztc32c5sd6j4ahu6idzbirhcrffreqnhlhu3qapjh63ana",
+      "createdAt": "2026-08-13 01:18:07",
+      "poolId": "0x0f1dbe0ba844d23776a654e46a9ce7b34851da85319c6c54598b7c66db636a5e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihmuw7vztc32c5sd6j4ahu6idzbirhcrffreqnhlhu3qapjh63ana",
+        "verified": false,
+        "operatorAddress": "0x07431D0Db9042F8bE2368BbFF98D2879B4E665AB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x07431D0Db9042F8bE2368BbFF98D2879B4E665AB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0f1dbe0ba844d23776a654e46a9ce7b34851da85319c6c54598b7c66db636a5e",
+      "basescanUrl": "https://basescan.org/token/0xCAA60bE5D0505564D4527a31f651E8402C96DB07",
+      "source": "clanker",
+      "volume24h": 9192.42,
+      "txns24h": 106
+    },
+    {
+      "tokenName": "SK hynix",
+      "tokenSymbol": "SKHY",
+      "tokenAddress": "0x6293a5Bff3F692236EE12585D37D4F0A0fD02B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiccmklqhajo4qleih5rgojgp4dvmiv4muzruutwjdub6s2k62cuau",
+      "createdAt": "2026-08-10 13:11:05",
+      "poolId": "0x2b4629A323D81088648ce8dBCa1dEebA676b7543",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiccmklqhajo4qleih5rgojgp4dvmiv4muzruutwjdub6s2k62cuau",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2b4629a323d81088648ce8dbca1deeba676b7543",
+      "basescanUrl": "https://basescan.org/token/0x6293a5Bff3F692236EE12585D37D4F0A0fD02B07",
+      "source": "clanker",
+      "volume24h": 24010557.42,
+      "txns24h": 2081
+    },
     {
       "tokenName": "SpaceX",
       "tokenSymbol": "SpaceX",
@@ -33,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xccfbbe6954457e971275575ba765662350ad72a8",
       "basescanUrl": "https://basescan.org/token/0xd4C5A50540BafEDad767260026b970E74285a98E",
       "source": "clanker",
-      "volume24h": 25428881.3,
-      "txns24h": 4730
+      "volume24h": 2619.4100000000003,
+      "txns24h": 577
     },
     {
       "tokenName": "Degen",
@@ -55,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 14044.249999999998,
-      "txns24h": 657
+      "volume24h": 34865.64,
+      "txns24h": 1071
     },
     {
       "tokenName": "gitlawb",
@@ -77,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 47136.67,
-      "txns24h": 1960
+      "volume24h": 31474.430000000004,
+      "txns24h": 1287
     }
   ]
 }
