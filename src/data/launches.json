@@ -8,6 +8,28 @@
   "count": 234,
   "items": [
     {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+      "createdAt": "2026-08-13 06:44:51",
+      "poolId": "0x798b4a547197370688278D44D19e0BC04cd4455e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x798b4a547197370688278d44d19e0bc04cd4455e",
+      "basescanUrl": "https://basescan.org/token/0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
+      "source": "clanker",
+      "volume24h": 25691529.39,
+      "txns24h": 5183
+    },
+    {
       "tokenName": "BaiBai",
       "tokenSymbol": "BaiBai",
       "tokenAddress": "0xCAA60bE5D0505564D4527a31f651E8402C96DB07",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 24010557.42,
       "txns24h": 2081
-    },
-    {
-      "tokenName": "SpaceX",
-      "tokenSymbol": "SpaceX",
-      "tokenAddress": "0xd4C5A50540BafEDad767260026b970E74285a98E",
-      "imageUrl": "https://ipfs.io/ipfs/QmXp8Q1HjbBcqFC5dcBAXJKoRsnX41Xa4KFR7D6dmQkf73",
-      "createdAt": "2026-08-09 12:57:57",
-      "poolId": "0xCcFBBE6954457e971275575BA765662350Ad72A8",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://ipfs.io/ipfs/QmXp8Q1HjbBcqFC5dcBAXJKoRsnX41Xa4KFR7D6dmQkf73",
-        "verified": false,
-        "operatorAddress": "0x0EfB3Ae3531F39DF631A0E6BB0Df49e571257793",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0EfB3Ae3531F39DF631A0E6BB0Df49e571257793",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xccfbbe6954457e971275575ba765662350ad72a8",
-      "basescanUrl": "https://basescan.org/token/0xd4C5A50540BafEDad767260026b970E74285a98E",
-      "source": "clanker",
-      "volume24h": 25425919.169999998,
-      "txns24h": 4085
     },
     {
       "tokenName": "Layer",
