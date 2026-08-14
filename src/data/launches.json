@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 232,
   "items": [
     {
       "tokenName": "OpenAI",
@@ -28,50 +28,6 @@
       "source": "clanker",
       "volume24h": 25448089.63,
       "txns24h": 4314
-    },
-    {
-      "tokenName": "Grotto",
-      "tokenSymbol": "GROTTO",
-      "tokenAddress": "0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
-      "imageUrl": "https://tokens.fun/api/token-image?ticker=GROTTO",
-      "createdAt": "2026-08-13 14:23:09",
-      "poolId": "0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://tokens.fun/api/token-image?ticker=GROTTO",
-        "verified": false,
-        "operatorAddress": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
-      "basescanUrl": "https://basescan.org/token/0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
-      "source": "clanker",
-      "volume24h": 15508.07,
-      "txns24h": 119
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-      "createdAt": "2026-08-13 06:44:51",
-      "poolId": "0x798b4a547197370688278D44D19e0BC04cd4455e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x798b4a547197370688278d44d19e0bc04cd4455e",
-      "basescanUrl": "https://basescan.org/token/0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
-      "source": "clanker",
-      "volume24h": 25691529.39,
-      "txns24h": 5183
     },
     {
       "tokenName": "Layer",

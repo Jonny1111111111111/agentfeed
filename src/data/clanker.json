@@ -1,17 +1,15 @@
 {
-  "generatedAt": "2026-08-14T12:47:12.650Z",
+  "generatedAt": "2026-08-14T18:43:16.121Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 727,
-    "chain": 21,
+    "api": 723,
+    "chain": 25,
     "persisted": 5
   },
-  "count": 5,
+  "count": 3,
   "addresses": [
     "0xa4a92aa22cb174fbb48fd1a0d34f345217fc7b07",
-    "0xe892cfe2cd344c75883e4a72a97c1febdcc0b54c",
-    "0xbb32d5c41c1fe335e0a1811be56f921904612b07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
@@ -35,52 +33,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa5508e8fcaebf529d942c2a6bc68d90863830eb0",
       "basescanUrl": "https://basescan.org/token/0xA4A92aa22Cb174fbB48Fd1a0D34F345217fC7b07",
       "source": "clanker",
-      "volume24h": 27095321.859999996,
-      "txns24h": 8987
-    },
-    {
-      "tokenName": "Grotto",
-      "tokenSymbol": "GROTTO",
-      "tokenAddress": "0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
-      "imageUrl": "https://tokens.fun/api/token-image?ticker=GROTTO",
-      "createdAt": "2026-08-13 14:23:09",
-      "poolId": "0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://tokens.fun/api/token-image?ticker=GROTTO",
-        "verified": false,
-        "operatorAddress": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xB924F7cFB8be048fA0438383433cA63b4593e377",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe9c7111c41aa7a3b2b186ff9eb026c3cf085a2a7f833be965cd8d41f4940daa0",
-      "basescanUrl": "https://basescan.org/token/0xE892cFE2cd344c75883e4a72A97C1febdCc0b54C",
-      "source": "clanker",
-      "volume24h": 15753.99,
-      "txns24h": 129
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-      "createdAt": "2026-08-13 06:44:51",
-      "poolId": "0x798b4a547197370688278D44D19e0BC04cd4455e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x798b4a547197370688278d44d19e0bc04cd4455e",
-      "basescanUrl": "https://basescan.org/token/0xbb32D5C41c1fE335E0A1811Be56f921904612b07",
-      "source": "clanker",
-      "volume24h": 243253,
-      "txns24h": 3516
+      "volume24h": 29132106.299999997,
+      "txns24h": 14768
     },
     {
       "tokenName": "Degen",
@@ -101,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 203617.47000000003,
-      "txns24h": 5063
+      "volume24h": 39709.149999999994,
+      "txns24h": 2402
     },
     {
       "tokenName": "gitlawb",
@@ -123,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 43360.14,
-      "txns24h": 1429
+      "volume24h": 28450.91,
+      "txns24h": 948
     }
   ]
 }
