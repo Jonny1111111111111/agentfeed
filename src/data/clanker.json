@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-16T18:18:08.708Z",
+  "generatedAt": "2026-08-17T00:48:21.535Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 714,
-    "chain": 37,
-    "persisted": 5
+    "api": 715,
+    "chain": 24,
+    "persisted": 6
   },
-  "count": 6,
+  "count": 7,
   "addresses": [
+    "0xdad6cf92944c2d3a24473678f4e365a8d5cb0b07",
     "0x688bd92e92a44ae7ad75016506b053fe5cfa8b07",
     "0xf6d9e68653a82c11a6867b0071d61029aa49eb07",
     "0x371c61e26666d632d17f274dff4a5b204406bb07",
@@ -17,6 +18,28 @@
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "Madonna Day",
+      "tokenSymbol": "MDNA",
+      "tokenAddress": "0xDAD6Cf92944C2d3A24473678f4e365A8D5cb0B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaxxs65wmf3od7462jpgcbutjhenobeqmzrqyqlsro3upfpmzk3wm",
+      "createdAt": "2026-08-16 21:46:05",
+      "poolId": "0xae2adc7747b28e0e1d6d3c322c80b9f71df97670ce5939502a2efedf6111f4b9",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaxxs65wmf3od7462jpgcbutjhenobeqmzrqyqlsro3upfpmzk3wm",
+        "verified": false,
+        "operatorAddress": "0xd03A1DbFBD89814D90436d5726F2Bffc0c1fAe8D",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd03A1DbFBD89814D90436d5726F2Bffc0c1fAe8D",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xae2adc7747b28e0e1d6d3c322c80b9f71df97670ce5939502a2efedf6111f4b9",
+      "basescanUrl": "https://basescan.org/token/0xDAD6Cf92944C2d3A24473678f4e365A8D5cb0B07",
+      "source": "clanker",
+      "volume24h": 14967.49,
+      "txns24h": 102
+    },
     {
       "tokenName": "牛来",
       "tokenSymbol": "牛来",
@@ -36,8 +59,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x79afb428d247bbeee48a953578157415e5a09ea0",
       "basescanUrl": "https://basescan.org/token/0x688bd92E92A44aE7ad75016506B053FE5CfA8B07",
       "source": "clanker",
-      "volume24h": 26872301.990000002,
-      "txns24h": 4538
+      "volume24h": 26996643.21,
+      "txns24h": 6605
     },
     {
       "tokenName": "牛来",
@@ -102,8 +125,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x5fc71009fb1f28c66a3f96bd36220227e7e33f78",
       "basescanUrl": "https://basescan.org/token/0xdE271d6463094127d3De6A8487C57fd9F2766b07",
       "source": "clanker",
-      "volume24h": 24844640.290000003,
-      "txns24h": 2847
+      "volume24h": 24844650.640000004,
+      "txns24h": 2849
     },
     {
       "tokenName": "Degen",
@@ -124,8 +147,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 27294.820000000003,
-      "txns24h": 1974
+      "volume24h": 21609.430000000004,
+      "txns24h": 1279
     },
     {
       "tokenName": "gitlawb",
@@ -146,8 +169,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 26043.93,
-      "txns24h": 1038
+      "volume24h": 30292.520000000004,
+      "txns24h": 948
     }
   ]
 }
