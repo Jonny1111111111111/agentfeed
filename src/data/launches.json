@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 236,
   "items": [
+    {
+      "tokenName": "牛来",
+      "tokenSymbol": "牛来",
+      "tokenAddress": "0x9Daa8Aa9a188032d6781715F77feb0ADC4f96B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+      "createdAt": "2026-08-17 12:58:39",
+      "poolId": "0xf52FaCBCCe00eac4558AD40629BD141F9fB988d2",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf52facbcce00eac4558ad40629bd141f9fb988d2",
+      "basescanUrl": "https://basescan.org/token/0x9Daa8Aa9a188032d6781715F77feb0ADC4f96B07",
+      "source": "clanker",
+      "volume24h": 27499215.84,
+      "txns24h": 5743
+    },
+    {
+      "tokenName": "COIN",
+      "tokenSymbol": "COIN",
+      "tokenAddress": "0xD0DDe0f1525673e9556B77B11dA447F165017131",
+      "imageUrl": null,
+      "createdAt": "2026-08-17 11:29:51",
+      "poolId": "0xf580421c2b9a19477cfff3c6ec4c6702f937c502888842044a44575fb26fa222",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xEE32fbaD3D96A0C4F5601f2BC19A3154649D9f11",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xEE32fbaD3D96A0C4F5601f2BC19A3154649D9f11",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf580421c2b9a19477cfff3c6ec4c6702f937c502888842044a44575fb26fa222",
+      "basescanUrl": "https://basescan.org/token/0xD0DDe0f1525673e9556B77B11dA447F165017131",
+      "source": "clanker",
+      "volume24h": 928.77,
+      "txns24h": 1412
+    },
     {
       "tokenName": "牛来",
       "tokenSymbol": "牛来",
@@ -72,28 +116,6 @@
       "source": "clanker",
       "volume24h": 26872301.990000002,
       "txns24h": 4538
-    },
-    {
-      "tokenName": "牛来",
-      "tokenSymbol": "牛来",
-      "tokenAddress": "0xf6D9e68653a82c11a6867B0071d61029aa49EB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
-      "createdAt": "2026-08-16 10:03:07",
-      "poolId": "0xC555DA559bD4E3A1401F430e94da90A69B2b68C0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xc555da559bd4e3a1401f430e94da90a69b2b68c0",
-      "basescanUrl": "https://basescan.org/token/0xf6D9e68653a82c11a6867B0071d61029aa49EB07",
-      "source": "clanker",
-      "volume24h": 24633178.180000003,
-      "txns24h": 2107
     },
     {
       "tokenName": "Layer",
