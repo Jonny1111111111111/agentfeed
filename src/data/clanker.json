@@ -1,18 +1,17 @@
 {
-  "generatedAt": "2026-08-17T18:27:14.363Z",
+  "generatedAt": "2026-08-18T00:46:17.310Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 721,
-    "chain": 49,
-    "persisted": 6
+    "api": 720,
+    "chain": 45,
+    "persisted": 7
   },
-  "count": 7,
+  "count": 6,
   "addresses": [
     "0x9daa8aa9a188032d6781715f77feb0adc4f96b07",
     "0xd0dde0f1525673e9556b77b11da447f165017131",
     "0xece6293e21a65fa7266c7a04d55c8d2cc4a4cb07",
-    "0xdad6cf92944c2d3a24473678f4e365a8d5cb0b07",
     "0x688bd92e92a44ae7ad75016506b053fe5cfa8b07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
@@ -37,8 +36,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf52facbcce00eac4558ad40629bd141f9fb988d2",
       "basescanUrl": "https://basescan.org/token/0x9Daa8Aa9a188032d6781715F77feb0ADC4f96B07",
       "source": "clanker",
-      "volume24h": 27499215.84,
-      "txns24h": 5743
+      "volume24h": 29183720.970000003,
+      "txns24h": 10573
     },
     {
       "tokenName": "COIN",
@@ -59,8 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf580421c2b9a19477cfff3c6ec4c6702f937c502888842044a44575fb26fa222",
       "basescanUrl": "https://basescan.org/token/0xD0DDe0f1525673e9556B77B11dA447F165017131",
       "source": "clanker",
-      "volume24h": 928.77,
-      "txns24h": 1412
+      "volume24h": 1328.1999999999998,
+      "txns24h": 1421
     },
     {
       "tokenName": "牛来",
@@ -85,28 +84,6 @@
       "txns24h": 12665
     },
     {
-      "tokenName": "Madonna Day",
-      "tokenSymbol": "MDNA",
-      "tokenAddress": "0xDAD6Cf92944C2d3A24473678f4e365A8D5cb0B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaxxs65wmf3od7462jpgcbutjhenobeqmzrqyqlsro3upfpmzk3wm",
-      "createdAt": "2026-08-16 21:46:05",
-      "poolId": "0xae2adc7747b28e0e1d6d3c322c80b9f71df97670ce5939502a2efedf6111f4b9",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaxxs65wmf3od7462jpgcbutjhenobeqmzrqyqlsro3upfpmzk3wm",
-        "verified": false,
-        "operatorAddress": "0xd03A1DbFBD89814D90436d5726F2Bffc0c1fAe8D",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xd03A1DbFBD89814D90436d5726F2Bffc0c1fAe8D",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xae2adc7747b28e0e1d6d3c322c80b9f71df97670ce5939502a2efedf6111f4b9",
-      "basescanUrl": "https://basescan.org/token/0xDAD6Cf92944C2d3A24473678f4e365A8D5cb0B07",
-      "source": "clanker",
-      "volume24h": 14968.15,
-      "txns24h": 106
-    },
-    {
       "tokenName": "牛来",
       "tokenSymbol": "牛来",
       "tokenAddress": "0x688bd92E92A44aE7ad75016506B053FE5CfA8B07",
@@ -125,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x79afb428d247bbeee48a953578157415e5a09ea0",
       "basescanUrl": "https://basescan.org/token/0x688bd92E92A44aE7ad75016506B053FE5CfA8B07",
       "source": "clanker",
-      "volume24h": 111535.65,
-      "txns24h": 3613
+      "volume24h": 10390.9,
+      "txns24h": 1619
     },
     {
       "tokenName": "Degen",
@@ -147,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 41003.84999999999,
-      "txns24h": 1595
+      "volume24h": 38350.04999999999,
+      "txns24h": 1670
     },
     {
       "tokenName": "gitlawb",
@@ -169,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 87817.49999999999,
-      "txns24h": 3847
+      "volume24h": 94909.7,
+      "txns24h": 5115
     }
   ]
 }
