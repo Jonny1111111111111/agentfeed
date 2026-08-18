@@ -5,8 +5,29 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 236,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Gang",
+      "tokenSymbol": "GANG",
+      "tokenAddress": "0xF61d223cDaD242F6CA3666601168Bbacad92BBa3",
+      "imageUrl": null,
+      "createdAt": "2026-08-18 13:41:53",
+      "poolId": "0xf312cd8e9a95938d0f89d4b34efc266bf91c72edd214fb771bd0888559aaac04",
+      "launcher": {
+        "name": "Myagent",
+        "handle": null,
+        "image": null,
+        "verified": true,
+        "operatorAddress": "0x3E81003D1Ff850B3D6D6A216537343e3d8a1b290",
+        "profileUrl": "https://0xwork.org/agents/0x3E81003D1Ff850B3D6D6A216537343e3d8a1b290"
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF61d223cDaD242F6CA3666601168Bbacad92BBa3",
+      "launchUrl": "https://0xwork.org/agents/0x3E81003D1Ff850B3D6D6A216537343e3d8a1b290",
+      "basescanUrl": "https://basescan.org/token/0xF61d223cDaD242F6CA3666601168Bbacad92BBa3",
+      "source": "token-forge"
+    },
     {
       "tokenName": "BASEBOOK",
       "tokenSymbol": "BB",
@@ -72,50 +93,6 @@
       "source": "clanker",
       "volume24h": 27499215.84,
       "txns24h": 5743
-    },
-    {
-      "tokenName": "COIN",
-      "tokenSymbol": "COIN",
-      "tokenAddress": "0xD0DDe0f1525673e9556B77B11dA447F165017131",
-      "imageUrl": null,
-      "createdAt": "2026-08-17 11:29:51",
-      "poolId": "0xf580421c2b9a19477cfff3c6ec4c6702f937c502888842044a44575fb26fa222",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0xEE32fbaD3D96A0C4F5601f2BC19A3154649D9f11",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xEE32fbaD3D96A0C4F5601f2BC19A3154649D9f11",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf580421c2b9a19477cfff3c6ec4c6702f937c502888842044a44575fb26fa222",
-      "basescanUrl": "https://basescan.org/token/0xD0DDe0f1525673e9556B77B11dA447F165017131",
-      "source": "clanker",
-      "volume24h": 928.77,
-      "txns24h": 1412
-    },
-    {
-      "tokenName": "牛来",
-      "tokenSymbol": "牛来",
-      "tokenAddress": "0xECE6293E21A65fa7266C7a04D55c8d2Cc4A4CB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
-      "createdAt": "2026-08-17 02:04:49",
-      "poolId": "0x8fFe96c9926f668A4843863E585c6EE2ffEfB8bA",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8ffe96c9926f668a4843863e585c6ee2ffefb8ba",
-      "basescanUrl": "https://basescan.org/token/0xECE6293E21A65fa7266C7a04D55c8d2Cc4A4CB07",
-      "source": "clanker",
-      "volume24h": 26630264.09,
-      "txns24h": 4655
     },
     {
       "tokenName": "Layer",

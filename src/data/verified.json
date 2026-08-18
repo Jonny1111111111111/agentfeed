@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-08-18T12:28:45.823Z",
+  "generatedAt": "2026-08-18T18:25:23.058Z",
   "source": "0xwork.org/launches (verified)",
   "sources": {
-    "api": 10,
-    "page": 2
+    "api": 11,
+    "page": 3
   },
-  "expectedVerified": 21,
-  "count": 11,
+  "expectedVerified": 22,
+  "count": 12,
   "addresses": [
+    "0xf61d223cdad242f6ca3666601168bbacad92bba3",
     "0x86e980571b2321b8c6efcd0ea2414ab4a0eb8ba3",
     "0x025170cb07f70fde28fb3ad298ff2f092e542ba3",
     "0xcb3427b91f993575ccd0586af356cfe902a5bba3",
@@ -21,6 +22,20 @@
     "0x0d25182248e889c909a246c3d2ab29788d966ba3"
   ],
   "agents": [
+    {
+      "tokenAddress": "0xF61d223cDaD242F6CA3666601168Bbacad92BBa3",
+      "tokenName": "Gang",
+      "tokenSymbol": "GANG",
+      "imageUrl": null,
+      "poolId": "0xf312cd8e9a95938d0f89d4b34efc266bf91c72edd214fb771bd0888559aaac04",
+      "createdAt": "2026-08-18 13:41:53",
+      "name": "Myagent",
+      "handle": null,
+      "operatorAddress": "0x3E81003D1Ff850B3D6D6A216537343e3d8a1b290",
+      "profileUrl": "https://0xwork.org/agents/0x3E81003D1Ff850B3D6D6A216537343e3d8a1b290",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xF61d223cDaD242F6CA3666601168Bbacad92BBa3",
+      "basescanUrl": "https://basescan.org/token/0xF61d223cDaD242F6CA3666601168Bbacad92BBa3"
+    },
     {
       "tokenAddress": "0x86E980571b2321B8c6efcD0ea2414aB4A0eB8BA3",
       "tokenName": "Engram",
