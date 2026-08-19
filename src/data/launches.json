@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 236,
   "items": [
+    {
+      "tokenName": "LARRY",
+      "tokenSymbol": "LARRY",
+      "tokenAddress": "0x2bdDc00d57Da7E580131Fd1857832d6b68bb8b07",
+      "imageUrl": null,
+      "createdAt": "2026-08-19 13:42:41",
+      "poolId": "0x0c661742bf0f23fc1a82e38311588de1c577dbaf5906a967dd0e0bd7f143b11f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xd44AA7eccDE19067321D99fba9629Dc42d83b404",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd44AA7eccDE19067321D99fba9629Dc42d83b404",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0c661742bf0f23fc1a82e38311588de1c577dbaf5906a967dd0e0bd7f143b11f",
+      "basescanUrl": "https://basescan.org/token/0x2bdDc00d57Da7E580131Fd1857832d6b68bb8b07",
+      "source": "clanker",
+      "volume24h": 88342.75,
+      "txns24h": 565
+    },
     {
       "tokenName": "宇树科技",
       "tokenSymbol": "UNITREE",
