@@ -1,21 +1,43 @@
 {
-  "generatedAt": "2026-08-19T06:30:15.735Z",
+  "generatedAt": "2026-08-19T12:29:47.790Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 786,
-    "chain": 55,
+    "chain": 35,
     "persisted": 5
   },
   "count": 5,
   "addresses": [
+    "0xcf5473736c9ce3299c274e4bca54138a41f7cb07",
     "0x2af4d4a93832e3d09ee91ad487c27ac8412d8b07",
-    "0x3da64253dee9ccd7f21f93be3354affabf2b9b07",
     "0x96594709ee85e343ad0be181b0f1a68a9b4ebb07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "宇树科技",
+      "tokenSymbol": "UNITREE",
+      "tokenAddress": "0xCF5473736C9CE3299C274e4BCA54138a41f7CB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif2ipgaweu4dxiy2kocshe2vvfgfecjnyquay3gui4jebxmxyfonm",
+      "createdAt": "2026-08-19 06:24:25",
+      "poolId": "0x7E80b5f88A702ddd405F3a076A089c51061C9767",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif2ipgaweu4dxiy2kocshe2vvfgfecjnyquay3gui4jebxmxyfonm",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7e80b5f88a702ddd405f3a076a089c51061c9767",
+      "basescanUrl": "https://basescan.org/token/0xCF5473736C9CE3299C274e4BCA54138a41f7CB07",
+      "source": "clanker",
+      "volume24h": 30554720.36,
+      "txns24h": 6695
+    },
     {
       "tokenName": "BASEBOOK",
       "tokenSymbol": "BB",
@@ -35,30 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x47a892ef9e4b9468c614b5a5d5671f452106f8c85178c09881d9ebb7a6655484",
       "basescanUrl": "https://basescan.org/token/0x2AF4d4a93832e3D09Ee91ad487c27AC8412D8b07",
       "source": "clanker",
-      "volume24h": 114313.25,
-      "txns24h": 1962
-    },
-    {
-      "tokenName": "豹拉",
-      "tokenSymbol": "豹拉",
-      "tokenAddress": "0x3Da64253dEe9ccD7F21f93bE3354AfFabf2b9B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiddskml5cqqmikwv4vise3otmt47lktskzuyl7of7ncrwqgeyhcuu",
-      "createdAt": "2026-08-18 02:01:53",
-      "poolId": "0x5423c380097e6c63D93Ec0A2823f94275253B503",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiddskml5cqqmikwv4vise3otmt47lktskzuyl7of7ncrwqgeyhcuu",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5423c380097e6c63d93ec0a2823f94275253b503",
-      "basescanUrl": "https://basescan.org/token/0x3Da64253dEe9ccD7F21f93bE3354AfFabf2b9B07",
-      "source": "clanker",
-      "volume24h": 1158636.4100000004,
-      "txns24h": 3397
+      "volume24h": 5275,
+      "txns24h": 245
     },
     {
       "tokenName": "牛来",
@@ -79,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8e1ec4ee86bdee3f00bff7012fb5f3ad46e806f9",
       "basescanUrl": "https://basescan.org/token/0x96594709eE85e343Ad0be181b0F1A68A9b4EBb07",
       "source": "clanker",
-      "volume24h": 27132430.55,
-      "txns24h": 5190
+      "volume24h": 27132436.25,
+      "txns24h": 5191
     },
     {
       "tokenName": "Degen",
@@ -101,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 91315.93,
-      "txns24h": 4217
+      "volume24h": 58933.169999999984,
+      "txns24h": 2901
     },
     {
       "tokenName": "gitlawb",
@@ -123,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 83743.94000000002,
-      "txns24h": 2473
+      "volume24h": 68128.09,
+      "txns24h": 2785
     }
   ]
 }
