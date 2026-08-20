@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-08-20T12:32:12.689Z",
+  "generatedAt": "2026-08-20T18:28:20.547Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 786,
-    "chain": 21,
+    "api": 783,
+    "chain": 58,
     "persisted": 4
   },
   "count": 4,
   "addresses": [
-    "0x2bddc00d57da7e580131fd1857832d6b68bb8b07",
+    "0xf68e0b87d2c3ef3e7fcd459d7a80e2a7be41db07",
     "0xcf5473736c9ce3299c274e4bca54138a41f7cb07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
     {
-      "tokenName": "LARRY",
-      "tokenSymbol": "LARRY",
-      "tokenAddress": "0x2bdDc00d57Da7E580131Fd1857832d6b68bb8b07",
-      "imageUrl": null,
-      "createdAt": "2026-08-19 13:42:41",
-      "poolId": "0x0c661742bf0f23fc1a82e38311588de1c577dbaf5906a967dd0e0bd7f143b11f",
+      "tokenName": "BaseKitten",
+      "tokenSymbol": "BASEKITTEN",
+      "tokenAddress": "0xf68E0B87D2C3EF3E7Fcd459d7a80E2A7BE41DB07",
+      "imageUrl": "https://ipfs.io/ipfs/QmNXuajUv4cdPyPdLFvMLov4qnqtytEAeVPRrdyuBuTE8g",
+      "createdAt": "2026-08-20 14:03:11",
+      "poolId": "0xa525917a0feb717bee2856e862bfd64b64245376fb9e7a4b698783903a3054dc",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": null,
+        "image": "https://ipfs.io/ipfs/QmNXuajUv4cdPyPdLFvMLov4qnqtytEAeVPRrdyuBuTE8g",
         "verified": false,
-        "operatorAddress": "0xd44AA7eccDE19067321D99fba9629Dc42d83b404",
+        "operatorAddress": "0xec3bb204592d835f9b0762Bfb3Dd2565BB010d35",
         "profileUrl": null
       },
-      "feeRecipient": "0xd44AA7eccDE19067321D99fba9629Dc42d83b404",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0c661742bf0f23fc1a82e38311588de1c577dbaf5906a967dd0e0bd7f143b11f",
-      "basescanUrl": "https://basescan.org/token/0x2bdDc00d57Da7E580131Fd1857832d6b68bb8b07",
+      "feeRecipient": "0xec3bb204592d835f9b0762Bfb3Dd2565BB010d35",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa525917a0feb717bee2856e862bfd64b64245376fb9e7a4b698783903a3054dc",
+      "basescanUrl": "https://basescan.org/token/0xf68E0B87D2C3EF3E7Fcd459d7a80E2A7BE41DB07",
       "source": "clanker",
-      "volume24h": 88448.22,
-      "txns24h": 570
+      "volume24h": 23163.45,
+      "txns24h": 495
     },
     {
       "tokenName": "宇树科技",
@@ -56,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x7e80b5f88a702ddd405f3a076a089c51061c9767",
       "basescanUrl": "https://basescan.org/token/0xCF5473736C9CE3299C274e4BCA54138a41f7CB07",
       "source": "clanker",
-      "volume24h": 356403.65,
-      "txns24h": 4484
+      "volume24h": 2696.95,
+      "txns24h": 1032
     },
     {
       "tokenName": "Degen",
@@ -78,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 330427.52,
-      "txns24h": 9840
+      "volume24h": 215024.75999999995,
+      "txns24h": 7684
     },
     {
       "tokenName": "gitlawb",
@@ -100,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 144292.99999999997,
-      "txns24h": 3178
+      "volume24h": 133514.62999999998,
+      "txns24h": 2526
     }
   ]
 }
