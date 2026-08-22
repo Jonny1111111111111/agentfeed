@@ -1,14 +1,17 @@
 {
-  "generatedAt": "2026-08-22T00:47:19.751Z",
+  "generatedAt": "2026-08-22T06:25:51.803Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 793,
-    "chain": 268,
-    "persisted": 2
+    "api": 794,
+    "chain": 102,
+    "persisted": 5
   },
-  "count": 5,
+  "count": 8,
   "addresses": [
+    "0x73fdb6f7088ad7b77169aff550fda784516488af",
+    "0xa68eb7c60ec06402512d9fd512f23117af626b07",
+    "0x12fe40425cd41a6020fad21ab650346f4d51bb07",
     "0x389909ff1c81448b62b3ee0952fa514d21d67b07",
     "0x27ded8da5fc7aa3101b7dcc31e28b01d8804bb07",
     "0x7eaf48e70681f3a2e56abd2c16437a5026157ec0",
@@ -16,6 +19,72 @@
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
+    {
+      "tokenName": "BaseStreet",
+      "tokenSymbol": "BASESTREET",
+      "tokenAddress": "0x73fDB6F7088Ad7B77169aFF550FDA784516488Af",
+      "imageUrl": "https://proximaimage.hel1.your-objectstorage.com/evm/b2728457-f402-4517-97b9-b0051ad41355",
+      "createdAt": "2026-08-22 02:29:27",
+      "poolId": "0x846852b7a6c0f443cd659cc0a2e41a4d9a601e9b3a5df4b8fa99e53858f79b37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://proximaimage.hel1.your-objectstorage.com/evm/b2728457-f402-4517-97b9-b0051ad41355",
+        "verified": false,
+        "operatorAddress": "0x2066D34D1772AA30fA6639Cc1Aa8108fe16A12F8",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x2066D34D1772AA30fA6639Cc1Aa8108fe16A12F8",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x846852b7a6c0f443cd659cc0a2e41a4d9a601e9b3a5df4b8fa99e53858f79b37",
+      "basescanUrl": "https://basescan.org/token/0x73fDB6F7088Ad7B77169aFF550FDA784516488Af",
+      "source": "clanker",
+      "volume24h": 33297.29,
+      "txns24h": 818
+    },
+    {
+      "tokenName": "Base",
+      "tokenSymbol": "Base",
+      "tokenAddress": "0xa68eb7c60Ec06402512D9FD512f23117AF626b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigwmruift7p5uc2o7rrok3azy7qetdfhbcl7quj7zwydigjprfztm",
+      "createdAt": "2026-08-22 02:19:59",
+      "poolId": "0xb37cEFFFB38093100117CFf29385c370616cA94b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigwmruift7p5uc2o7rrok3azy7qetdfhbcl7quj7zwydigjprfztm",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb37cefffb38093100117cff29385c370616ca94b",
+      "basescanUrl": "https://basescan.org/token/0xa68eb7c60Ec06402512D9FD512f23117AF626b07",
+      "source": "clanker",
+      "volume24h": 22427451.23,
+      "txns24h": 829
+    },
+    {
+      "tokenName": "Trump",
+      "tokenSymbol": "TRUMP",
+      "tokenAddress": "0x12fe40425cd41a6020fAD21Ab650346f4d51bb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeic6nm3sg3bp45jodiizhv4qxpw65wdqg6g47bfhspfms7rcr5xfvy",
+      "createdAt": "2026-08-22 01:45:31",
+      "poolId": "0x1c117652CB031ff08E53E842101D89975E049bf1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeic6nm3sg3bp45jodiizhv4qxpw65wdqg6g47bfhspfms7rcr5xfvy",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1c117652cb031ff08e53e842101d89975e049bf1",
+      "basescanUrl": "https://basescan.org/token/0x12fe40425cd41a6020fAD21Ab650346f4d51bb07",
+      "source": "clanker",
+      "volume24h": 34100875.080000006,
+      "txns24h": 2097
+    },
     {
       "tokenName": "STEWARDS",
       "tokenSymbol": "stewards",
@@ -35,8 +104,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x21924a7b54663eefc2dd7738be71aeed97e37a737d2f970480b267e041343b09",
       "basescanUrl": "https://basescan.org/token/0x389909fF1c81448b62B3eE0952fA514d21d67b07",
       "source": "clanker",
-      "volume24h": 14207.56,
-      "txns24h": 110
+      "volume24h": 14329.24,
+      "txns24h": 120
     },
     {
       "tokenName": "choochoolabu",
@@ -57,8 +126,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x909b80f4f6b4bb4613adca9540da001586112382ca122a3715b3b963c8dff05c",
       "basescanUrl": "https://basescan.org/token/0x27Ded8dA5Fc7aa3101B7dcC31E28B01d8804BB07",
       "source": "clanker",
-      "volume24h": 247411.47999999998,
-      "txns24h": 849
+      "volume24h": 247494.41999999998,
+      "txns24h": 860
     },
     {
       "tokenName": "Private AI",
@@ -79,8 +148,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0793c1fe69442b10422b37a07cbddffad401e79beef000fdef16fcc9938e70c6",
       "basescanUrl": "https://basescan.org/token/0x7eAF48e70681F3a2E56ABD2c16437A5026157Ec0",
       "source": "clanker",
-      "volume24h": 7518.46,
-      "txns24h": 145
+      "volume24h": 7520.22,
+      "txns24h": 147
     },
     {
       "tokenName": "Degen",
@@ -101,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 93424.36,
-      "txns24h": 3161
+      "volume24h": 106084.11000000002,
+      "txns24h": 3823
     },
     {
       "tokenName": "gitlawb",
@@ -123,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 377398.86000000004,
-      "txns24h": 6047
+      "volume24h": 396121.87999999995,
+      "txns24h": 6387
     }
   ]
 }
