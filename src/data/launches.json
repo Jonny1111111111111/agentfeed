@@ -5,8 +5,74 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 232,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "STEWARDS",
+      "tokenSymbol": "stewards",
+      "tokenAddress": "0x389909fF1c81448b62B3eE0952fA514d21d67b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibuuzae2zsylbyduqylsog4oocqb7zo6ibbvk4m4glvf4do2xee3y",
+      "createdAt": "2026-08-22 00:36:33",
+      "poolId": "0x21924a7b54663eefc2dd7738be71aeed97e37a737d2f970480b267e041343b09",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibuuzae2zsylbyduqylsog4oocqb7zo6ibbvk4m4glvf4do2xee3y",
+        "verified": false,
+        "operatorAddress": "0xDB221863401c5174e51aF0489F76caF7b32b5EA9",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xDB221863401c5174e51aF0489F76caF7b32b5EA9",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x21924a7b54663eefc2dd7738be71aeed97e37a737d2f970480b267e041343b09",
+      "basescanUrl": "https://basescan.org/token/0x389909fF1c81448b62B3eE0952fA514d21d67b07",
+      "source": "clanker",
+      "volume24h": 14207.56,
+      "txns24h": 110
+    },
+    {
+      "tokenName": "choochoolabu",
+      "tokenSymbol": "choochoolabu",
+      "tokenAddress": "0x27Ded8dA5Fc7aa3101B7dcC31E28B01d8804BB07",
+      "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7a18c44d-c146-430c-88e0-a7da2564e600/original",
+      "createdAt": "2026-08-21 23:14:41",
+      "poolId": "0x909b80f4f6b4bb4613adca9540da001586112382ca122a3715b3b963c8dff05c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/7a18c44d-c146-430c-88e0-a7da2564e600/original",
+        "verified": false,
+        "operatorAddress": "0x93aA52DA4E9349229BF7D5D1950D2e7641b071B1",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x93aA52DA4E9349229BF7D5D1950D2e7641b071B1",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x909b80f4f6b4bb4613adca9540da001586112382ca122a3715b3b963c8dff05c",
+      "basescanUrl": "https://basescan.org/token/0x27Ded8dA5Fc7aa3101B7dcC31E28B01d8804BB07",
+      "source": "clanker",
+      "volume24h": 247411.47999999998,
+      "txns24h": 849
+    },
+    {
+      "tokenName": "Private AI",
+      "tokenSymbol": "PVAI",
+      "tokenAddress": "0x7eAF48e70681F3a2E56ABD2c16437A5026157Ec0",
+      "imageUrl": "https://ipfs.io/ipfs/QmTumRmVAttLFdaXDKNyzw61U14KxoAeQHhiBKRhvQ289M",
+      "createdAt": "2026-08-21 18:33:31",
+      "poolId": "0x0793c1fe69442b10422b37a07cbddffad401e79beef000fdef16fcc9938e70c6",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://ipfs.io/ipfs/QmTumRmVAttLFdaXDKNyzw61U14KxoAeQHhiBKRhvQ289M",
+        "verified": false,
+        "operatorAddress": "0xBDC3612400CB354e88cdE45A15BCE929f3444Db4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xBDC3612400CB354e88cdE45A15BCE929f3444Db4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0793c1fe69442b10422b37a07cbddffad401e79beef000fdef16fcc9938e70c6",
+      "basescanUrl": "https://basescan.org/token/0x7eAF48e70681F3a2E56ABD2c16437A5026157Ec0",
+      "source": "clanker",
+      "volume24h": 7518.46,
+      "txns24h": 145
+    },
     {
       "tokenName": "Gang",
       "tokenSymbol": "GANG",
