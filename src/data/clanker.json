@@ -1,65 +1,19 @@
 {
-  "generatedAt": "2026-08-23T00:52:11.273Z",
+  "generatedAt": "2026-08-23T06:27:22.433Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 782,
-    "chain": 104,
-    "persisted": 8
+    "api": 783,
+    "chain": 42,
+    "persisted": 5
   },
-  "count": 5,
+  "count": 3,
   "addresses": [
-    "0x73fdb6f7088ad7b77169aff550fda784516488af",
-    "0xa68eb7c60ec06402512d9fd512f23117af626b07",
     "0x12fe40425cd41a6020fad21ab650346f4d51bb07",
     "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
     "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
   ],
   "items": [
-    {
-      "tokenName": "BaseStreet",
-      "tokenSymbol": "BASESTREET",
-      "tokenAddress": "0x73fDB6F7088Ad7B77169aFF550FDA784516488Af",
-      "imageUrl": "https://proximaimage.hel1.your-objectstorage.com/evm/b2728457-f402-4517-97b9-b0051ad41355",
-      "createdAt": "2026-08-22 02:29:27",
-      "poolId": "0x846852b7a6c0f443cd659cc0a2e41a4d9a601e9b3a5df4b8fa99e53858f79b37",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://proximaimage.hel1.your-objectstorage.com/evm/b2728457-f402-4517-97b9-b0051ad41355",
-        "verified": false,
-        "operatorAddress": "0x2066D34D1772AA30fA6639Cc1Aa8108fe16A12F8",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x2066D34D1772AA30fA6639Cc1Aa8108fe16A12F8",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x846852b7a6c0f443cd659cc0a2e41a4d9a601e9b3a5df4b8fa99e53858f79b37",
-      "basescanUrl": "https://basescan.org/token/0x73fDB6F7088Ad7B77169aFF550FDA784516488Af",
-      "source": "clanker",
-      "volume24h": 34870.97,
-      "txns24h": 833
-    },
-    {
-      "tokenName": "Base",
-      "tokenSymbol": "Base",
-      "tokenAddress": "0xa68eb7c60Ec06402512D9FD512f23117AF626b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigwmruift7p5uc2o7rrok3azy7qetdfhbcl7quj7zwydigjprfztm",
-      "createdAt": "2026-08-22 02:19:59",
-      "poolId": "0xb37cEFFFB38093100117CFf29385c370616cA94b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigwmruift7p5uc2o7rrok3azy7qetdfhbcl7quj7zwydigjprfztm",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb37cefffb38093100117cff29385c370616ca94b",
-      "basescanUrl": "https://basescan.org/token/0xa68eb7c60Ec06402512D9FD512f23117AF626b07",
-      "source": "clanker",
-      "volume24h": 22427495.540000003,
-      "txns24h": 1540
-    },
     {
       "tokenName": "Trump",
       "tokenSymbol": "TRUMP",
@@ -79,8 +33,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1c117652cb031ff08e53e842101d89975e049bf1",
       "basescanUrl": "https://basescan.org/token/0x12fe40425cd41a6020fAD21Ab650346f4d51bb07",
       "source": "clanker",
-      "volume24h": 34107392.51,
-      "txns24h": 3196
+      "volume24h": 6418.389999999999,
+      "txns24h": 1086
     },
     {
       "tokenName": "Degen",
@@ -101,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
       "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
       "source": "clanker",
-      "volume24h": 91823.77999999997,
-      "txns24h": 3359
+      "volume24h": 83246.82999999999,
+      "txns24h": 2868
     },
     {
       "tokenName": "gitlawb",
@@ -123,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
       "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
       "source": "clanker",
-      "volume24h": 592271.3400000002,
-      "txns24h": 5729
+      "volume24h": 564120.2,
+      "txns24h": 5352
     }
   ]
 }
