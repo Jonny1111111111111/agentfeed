@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
     {
       "tokenName": "Schrödinger",
@@ -28,6 +28,28 @@
       "source": "clanker",
       "volume24h": 13617521.6,
       "txns24h": 7645
+    },
+    {
+      "tokenName": "Base",
+      "tokenSymbol": "BASE",
+      "tokenAddress": "0xA342DdCD9348fCB57aAF4Cc686989F8498183b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigwmruift7p5uc2o7rrok3azy7qetdfhbcl7quj7zwydigjprfztm",
+      "createdAt": "2026-08-22 02:16:35",
+      "poolId": "0xbE30F4A6d6A8751019d7865D82d29097168c6514",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreigwmruift7p5uc2o7rrok3azy7qetdfhbcl7quj7zwydigjprfztm",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbe30f4a6d6a8751019d7865d82d29097168c6514",
+      "basescanUrl": "https://basescan.org/token/0xA342DdCD9348fCB57aAF4Cc686989F8498183b07",
+      "source": "clanker",
+      "volume24h": 21862068.4,
+      "txns24h": 2427
     },
     {
       "tokenName": "Gang",
