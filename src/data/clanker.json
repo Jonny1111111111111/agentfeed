@@ -1,18 +1,16 @@
 {
-  "generatedAt": "2026-08-24T06:40:42.125Z",
+  "generatedAt": "2026-08-24T13:14:21.429Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 784,
-    "chain": 91,
+    "api": 783,
+    "chain": 96,
     "persisted": 4
   },
-  "count": 4,
+  "count": 2,
   "addresses": [
     "0xe63e4db8687aedf1f2fa314e9e35b05b71479b07",
-    "0xee744f807b51ffc12f63727f940f8db0d13b0b07",
-    "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-    "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3"
+    "0xee744f807b51ffc12f63727f940f8db0d13b0b07"
   ],
   "items": [
     {
@@ -34,8 +32,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x94b93eb970b33d0047b538010adf8e0215f2fd2856a283b2bddc5d7e869ac378",
       "basescanUrl": "https://basescan.org/token/0xE63E4dB8687Aedf1F2fa314e9e35b05B71479B07",
       "source": "clanker",
-      "volume24h": 347021.67,
-      "txns24h": 2376
+      "volume24h": 306221.32,
+      "txns24h": 2050
     },
     {
       "tokenName": "Schrödinger",
@@ -56,52 +54,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xabd72376e83636a7a4c3d8930f95152d38555764",
       "basescanUrl": "https://basescan.org/token/0xEe744F807B51FfC12f63727F940f8DB0D13B0B07",
       "source": "clanker",
-      "volume24h": 2211408.14,
-      "txns24h": 8874
-    },
-    {
-      "tokenName": "Degen",
-      "tokenSymbol": "DEGEN",
-      "tokenAddress": "0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-      "imageUrl": "https://cdn.dexscreener.com/cms/images/c865067e6e29f660b5d0c2a69814875c7415c3fc0022434651525c21f03cc24a?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-06-04 15:06:25",
-      "poolId": "0x0cA6485b7e9cF814A3Fd09d81672B07323535b64",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://cdn.dexscreener.com/cms/images/c865067e6e29f660b5d0c2a69814875c7415c3fc0022434651525c21f03cc24a?width=800&height=800&quality=95&format=auto",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0ca6485b7e9cf814a3fd09d81672b07323535b64",
-      "basescanUrl": "https://basescan.org/token/0x4ed4e862860bed51a9570b96d89af5e1b0efefed",
-      "source": "clanker",
-      "volume24h": 85824.6,
-      "txns24h": 3462
-    },
-    {
-      "tokenName": "gitlawb",
-      "tokenSymbol": "GITLAWB",
-      "tokenAddress": "0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
-      "imageUrl": "https://cdn.dexscreener.com/cms/images/l9vvZv9smF-rICMx?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-05-30 18:20:23",
-      "poolId": "0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://cdn.dexscreener.com/cms/images/l9vvZv9smF-rICMx?width=800&height=800&quality=95&format=auto",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xec33256bf1ded407a57fd3c1965e7556e42ac14db09bc4e6fef57d5e2eb0b0b9",
-      "basescanUrl": "https://basescan.org/token/0x5f980dcfc4c0fa3911554cf5ab288ed0eb13dba3",
-      "source": "clanker",
-      "volume24h": 316116.9700000001,
-      "txns24h": 4759
+      "volume24h": 14154320.98,
+      "txns24h": 9171
     }
   ]
 }
