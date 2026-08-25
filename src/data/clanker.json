@@ -1,39 +1,62 @@
 {
-  "generatedAt": "2026-08-25T12:32:23.246Z",
+  "generatedAt": "2026-08-25T18:28:08.662Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 789,
-    "chain": 103,
+    "api": 790,
+    "chain": 196,
     "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
-    "0xc2d28969c4365f8d3c8b87b49fb67043973feb07",
+    "0x1ab4b0466be953a5d62e1ed4f97f4a14203078d0",
+    "0x143bce8c2333934373a046033ab7d1b0e877db07",
     "0xe63e4db8687aedf1f2fa314e9e35b05b71479b07"
   ],
   "items": [
     {
-      "tokenName": "Mario Entertainment System",
-      "tokenSymbol": "MARIO",
-      "tokenAddress": "0xC2d28969c4365f8d3C8B87b49FB67043973FeB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia74ou6ie62ktx72jqo6cd7g72puegr4exdkpaulzt4ptmpbto3xa",
-      "createdAt": "2026-08-24 12:36:33",
-      "poolId": "0x981ac23a9d9ce57f034c946f172f473d5f63852252eff451e90f5e6af0b2ebf2",
+      "tokenName": "Nietzschean Robot",
+      "tokenSymbol": "PEMBA",
+      "tokenAddress": "0x1AB4b0466bE953A5D62E1eD4f97f4a14203078d0",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifffuvvb2h7zhec75fph3hihjfhe5ld4tr66hg74ylrik5nnpdyfa",
+      "createdAt": "2026-08-25 15:11:19",
+      "poolId": "0x9faf9b63ae311108487c9a89b1b9f4484ed5cc8507774566f61c4c0bd13b01a8",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia74ou6ie62ktx72jqo6cd7g72puegr4exdkpaulzt4ptmpbto3xa",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifffuvvb2h7zhec75fph3hihjfhe5ld4tr66hg74ylrik5nnpdyfa",
         "verified": false,
-        "operatorAddress": "0x928a8918D31941FB6b7b1F5456964A8bcbCB2435",
+        "operatorAddress": "0x3E844bFa12d9cB4AA6722eD8343a7a13EE26ca4c",
         "profileUrl": null
       },
-      "feeRecipient": "0x928a8918D31941FB6b7b1F5456964A8bcbCB2435",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x981ac23a9d9ce57f034c946f172f473d5f63852252eff451e90f5e6af0b2ebf2",
-      "basescanUrl": "https://basescan.org/token/0xC2d28969c4365f8d3C8B87b49FB67043973FeB07",
+      "feeRecipient": "0x3E844bFa12d9cB4AA6722eD8343a7a13EE26ca4c",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9faf9b63ae311108487c9a89b1b9f4484ed5cc8507774566f61c4c0bd13b01a8",
+      "basescanUrl": "https://basescan.org/token/0x1AB4b0466bE953A5D62E1eD4f97f4a14203078d0",
       "source": "clanker",
-      "volume24h": 11182.02,
-      "txns24h": 174
+      "volume24h": 49006.05,
+      "txns24h": 442
+    },
+    {
+      "tokenName": "Slop Janitor",
+      "tokenSymbol": "Janitor",
+      "tokenAddress": "0x143BcE8C2333934373A046033aB7d1b0E877DB07",
+      "imageUrl": null,
+      "createdAt": "2026-08-25 14:10:41",
+      "poolId": "0x852a2b73937ba66cdbe74ca38b046a6443a5e7c09a8fa6bc5182e80595dcd4ef",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x4314f6348FA04c370766c6446C45634cE562e64F",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x4314f6348FA04c370766c6446C45634cE562e64F",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x852a2b73937ba66cdbe74ca38b046a6443a5e7c09a8fa6bc5182e80595dcd4ef",
+      "basescanUrl": "https://basescan.org/token/0x143BcE8C2333934373A046033aB7d1b0E877DB07",
+      "source": "clanker",
+      "volume24h": 34684.45,
+      "txns24h": 132
     },
     {
       "tokenName": "Lobster 3301",
@@ -54,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x94b93eb970b33d0047b538010adf8e0215f2fd2856a283b2bddc5d7e869ac378",
       "basescanUrl": "https://basescan.org/token/0xE63E4dB8687Aedf1F2fa314e9e35b05B71479B07",
       "source": "clanker",
-      "volume24h": 10722.619999999999,
-      "txns24h": 292
+      "volume24h": 4384.780000000001,
+      "txns24h": 182
     }
   ]
 }
