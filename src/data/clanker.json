@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-08-26T06:34:37.911Z",
+  "generatedAt": "2026-08-26T12:35:35.638Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 791,
-    "chain": 64,
-    "persisted": 3
+    "api": 790,
+    "chain": 53,
+    "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0x12ecfee0294b9b8163d1f8cb86f588f399463b07",
     "0x1ab4b0466be953a5d62e1ed4f97f4a14203078d0",
     "0x143bce8c2333934373a046033ab7d1b0e877db07"
   ],
   "items": [
+    {
+      "tokenName": "Pi Agent",
+      "tokenSymbol": "Pi",
+      "tokenAddress": "0x12eCfEe0294b9b8163D1F8CB86F588f399463b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib3swp2gdal5eln5mb2aglkerwg7qshezu7s3ax55muemzppro7sm",
+      "createdAt": "2026-08-26 10:17:31",
+      "poolId": "0x250f153bca259342f8da2a608c22f36eb5b125b70028997d63e1b4ce9ee61bde",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib3swp2gdal5eln5mb2aglkerwg7qshezu7s3ax55muemzppro7sm",
+        "verified": false,
+        "operatorAddress": "0x641aD626b45c6C061112C48E45002ad811148bF2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x641aD626b45c6C061112C48E45002ad811148bF2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x250f153bca259342f8da2a608c22f36eb5b125b70028997d63e1b4ce9ee61bde",
+      "basescanUrl": "https://basescan.org/token/0x12eCfEe0294b9b8163D1F8CB86F588f399463b07",
+      "source": "clanker",
+      "volume24h": 76141.36,
+      "txns24h": 682
+    },
     {
       "tokenName": "Nietzschean Robot",
       "tokenSymbol": "PEMBA",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9faf9b63ae311108487c9a89b1b9f4484ed5cc8507774566f61c4c0bd13b01a8",
       "basescanUrl": "https://basescan.org/token/0x1AB4b0466bE953A5D62E1eD4f97f4a14203078d0",
       "source": "clanker",
-      "volume24h": 49016.19,
-      "txns24h": 458
+      "volume24h": 49021.51,
+      "txns24h": 462
     },
     {
       "tokenName": "Slop Janitor",

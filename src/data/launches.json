@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 232,
+  "count": 233,
   "items": [
+    {
+      "tokenName": "Pi Agent",
+      "tokenSymbol": "Pi",
+      "tokenAddress": "0x12eCfEe0294b9b8163D1F8CB86F588f399463b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib3swp2gdal5eln5mb2aglkerwg7qshezu7s3ax55muemzppro7sm",
+      "createdAt": "2026-08-26 10:17:31",
+      "poolId": "0x250f153bca259342f8da2a608c22f36eb5b125b70028997d63e1b4ce9ee61bde",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib3swp2gdal5eln5mb2aglkerwg7qshezu7s3ax55muemzppro7sm",
+        "verified": false,
+        "operatorAddress": "0x641aD626b45c6C061112C48E45002ad811148bF2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x641aD626b45c6C061112C48E45002ad811148bF2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x250f153bca259342f8da2a608c22f36eb5b125b70028997d63e1b4ce9ee61bde",
+      "basescanUrl": "https://basescan.org/token/0x12eCfEe0294b9b8163D1F8CB86F588f399463b07",
+      "source": "clanker",
+      "volume24h": 76141.36,
+      "txns24h": 682
+    },
     {
       "tokenName": "Nietzschean Robot",
       "tokenSymbol": "PEMBA",
