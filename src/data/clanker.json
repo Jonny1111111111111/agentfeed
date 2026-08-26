@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-08-26T00:50:42.651Z",
+  "generatedAt": "2026-08-26T06:34:37.911Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 790,
-    "chain": 110,
+    "api": 791,
+    "chain": 64,
     "persisted": 3
   },
-  "count": 3,
+  "count": 2,
   "addresses": [
     "0x1ab4b0466be953a5d62e1ed4f97f4a14203078d0",
-    "0x143bce8c2333934373a046033ab7d1b0e877db07",
-    "0xe63e4db8687aedf1f2fa314e9e35b05b71479b07"
+    "0x143bce8c2333934373a046033ab7d1b0e877db07"
   ],
   "items": [
     {
@@ -57,28 +56,6 @@
       "source": "clanker",
       "volume24h": 34684.45,
       "txns24h": 132
-    },
-    {
-      "tokenName": "Lobster 3301",
-      "tokenSymbol": "LOBSTER",
-      "tokenAddress": "0xE63E4dB8687Aedf1F2fa314e9e35b05B71479B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeicr3y62vcspkfxypi3bi5jq4dsto4qj335duzir5wwp66llj3vc4q",
-      "createdAt": "2026-08-23 22:45:27",
-      "poolId": "0x94b93eb970b33d0047b538010adf8e0215f2fd2856a283b2bddc5d7e869ac378",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeicr3y62vcspkfxypi3bi5jq4dsto4qj335duzir5wwp66llj3vc4q",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x94b93eb970b33d0047b538010adf8e0215f2fd2856a283b2bddc5d7e869ac378",
-      "basescanUrl": "https://basescan.org/token/0xE63E4dB8687Aedf1F2fa314e9e35b05B71479B07",
-      "source": "clanker",
-      "volume24h": 2882.67,
-      "txns24h": 123
     }
   ]
 }
