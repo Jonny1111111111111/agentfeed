@@ -1,28 +1,24 @@
 {
-  "generatedAt": "2026-08-28T08:17:09.724Z",
+  "generatedAt": "2026-08-28T21:38:47.137Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 785,
-    "chain": 106,
-    "persisted": 7
+    "api": 790,
+    "chain": 163,
+    "persisted": 14
   },
-  "count": 14,
+  "count": 10,
   "addresses": [
     "0xe1dd283a0f34ef23860c54a75ed612a312112b07",
+    "0xdc4f058c103f3879fea72d0fc86eded309f43b07",
     "0x27b0bb8d51a5be44f9dd02bf88a5757fa84d6b07",
     "0xc8cec762b2b43a87e02f1fbc9ce96da11c660b07",
     "0x9dc738e50955726f37f34bbe84f20133f3213b07",
     "0x8905b73446f1011b6451be81e8cba10be8ab6b07",
     "0x2e97179e2ac8f6c687eada1dbb8a379bbc625b07",
     "0xb69ed79a4e252b2d8d6c8dc80975bccd0aa10b07",
-    "0x672aade13b0ae551f5f105857da41c9e6ed09b07",
-    "0xe18da0ce1e3409d6a0391348fb8f92c6c3444b07",
-    "0xc434939b2e15a19079d1dcbc86433e9808a9ab07",
-    "0xee4fcea63c8ff8a1998bd17135ebdf6c2deb4b07",
     "0x9f8529dbeef9feb94d9084790da3ae49ad03ab07",
-    "0x6b36539d126aa231e20a6062bc29300df908eb07",
-    "0x572ce16f1ebb27f8b80aa81b3d39c89b0e352b07"
+    "0x6b36539d126aa231e20a6062bc29300df908eb07"
   ],
   "items": [
     {
@@ -44,8 +40,30 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x185367bf0cef5e3a564bbfd87fb0d8df93af6cb2",
       "basescanUrl": "https://basescan.org/token/0xE1dD283A0F34EF23860c54a75ED612a312112B07",
       "source": "clanker",
-      "volume24h": 32313319.83,
-      "txns24h": 801
+      "volume24h": 32313322.46,
+      "txns24h": 805
+    },
+    {
+      "tokenName": "我的女友景甜",
+      "tokenSymbol": "我的女友景甜",
+      "tokenAddress": "0xDC4F058C103f3879fea72D0FC86EdED309F43b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
+      "createdAt": "2026-08-28 04:58:05",
+      "poolId": "0x0Febc65Fb4084D6AD82c710B953EaEB1250A4888",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
+        "verified": false,
+        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0febc65fb4084d6ad82c710b953eaeb1250a4888",
+      "basescanUrl": "https://basescan.org/token/0xDC4F058C103f3879fea72D0FC86EdED309F43b07",
+      "source": "clanker",
+      "volume24h": 37002054.220000006,
+      "txns24h": 6619
     },
     {
       "tokenName": "我的女友景甜",
@@ -66,8 +84,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x6db96abc26aa299b05451c3cd039a62efab7bd95",
       "basescanUrl": "https://basescan.org/token/0x27B0Bb8D51A5bE44F9dd02Bf88a5757Fa84d6b07",
       "source": "clanker",
-      "volume24h": 6781538.149999999,
-      "txns24h": 158
+      "volume24h": 11273336.549999999,
+      "txns24h": 7037
     },
     {
       "tokenName": "我的女友景甜",
@@ -88,8 +106,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9ebfee321803439e8b0dc92fc62ef4efa5f162fd",
       "basescanUrl": "https://basescan.org/token/0xc8Cec762b2b43A87E02f1fBC9Ce96DA11C660B07",
       "source": "clanker",
-      "volume24h": 32346652.200000003,
-      "txns24h": 622
+      "volume24h": 32357551.82,
+      "txns24h": 701
     },
     {
       "tokenName": "我的女友景甜",
@@ -110,8 +128,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x4bd0b18baefd42c3286b14af50a989fa73649fe3f427bc879a0f6ed44ae315c8",
       "basescanUrl": "https://basescan.org/token/0x9dc738e50955726F37f34BBe84F20133F3213B07",
       "source": "clanker",
-      "volume24h": 26379482.369999997,
-      "txns24h": 3391
+      "volume24h": 26379482.49,
+      "txns24h": 3394
     },
     {
       "tokenName": "Diamante IO",
@@ -180,94 +198,6 @@
       "txns24h": 321
     },
     {
-      "tokenName": "BOBIE",
-      "tokenSymbol": "BOBIE",
-      "tokenAddress": "0x672aadE13B0ae551F5f105857dA41c9e6eD09B07",
-      "imageUrl": null,
-      "createdAt": "2026-08-27 20:45:59",
-      "poolId": "0xde0f20bf56423e05264c9938f9bda7ed773bd155db236a3967048b985c1bf140",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0xb74884A66aE8dcC04381B25E40c1284f72aAFF86",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xb74884A66aE8dcC04381B25E40c1284f72aAFF86",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xde0f20bf56423e05264c9938f9bda7ed773bd155db236a3967048b985c1bf140",
-      "basescanUrl": "https://basescan.org/token/0x672aadE13B0ae551F5f105857dA41c9e6eD09B07",
-      "source": "clanker",
-      "volume24h": 58807.71,
-      "txns24h": 313
-    },
-    {
-      "tokenName": "Catwifaura",
-      "tokenSymbol": "catwifaura",
-      "tokenAddress": "0xE18da0Ce1e3409d6a0391348Fb8F92C6c3444b07",
-      "imageUrl": null,
-      "createdAt": "2026-08-27 20:29:43",
-      "poolId": "0xb118b113fa3e6321183505de7fdb8f86d82ea9743b75c105b29fadfcc9d28b29",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x28D14Cbdb528E504C5f75024cd8dFBc5FA9Db14A",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x28D14Cbdb528E504C5f75024cd8dFBc5FA9Db14A",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb118b113fa3e6321183505de7fdb8f86d82ea9743b75c105b29fadfcc9d28b29",
-      "basescanUrl": "https://basescan.org/token/0xE18da0Ce1e3409d6a0391348Fb8F92C6c3444b07",
-      "source": "clanker",
-      "volume24h": 20177.61,
-      "txns24h": 206
-    },
-    {
-      "tokenName": "stonkape",
-      "tokenSymbol": "stonkape",
-      "tokenAddress": "0xC434939B2E15A19079d1dcBC86433e9808a9AB07",
-      "imageUrl": null,
-      "createdAt": "2026-08-27 20:09:01",
-      "poolId": "0x1137395f8e681e2199a7786488dfd61fb53e90367d3760c88128ff8d7478e27f",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x30B0DEEc4DEcb34b5C8F2672d7c85BdB7Dd2D7A4",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x30B0DEEc4DEcb34b5C8F2672d7c85BdB7Dd2D7A4",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1137395f8e681e2199a7786488dfd61fb53e90367d3760c88128ff8d7478e27f",
-      "basescanUrl": "https://basescan.org/token/0xC434939B2E15A19079d1dcBC86433e9808a9AB07",
-      "source": "clanker",
-      "volume24h": 36625.049999999996,
-      "txns24h": 600
-    },
-    {
-      "tokenName": "The Black Can",
-      "tokenSymbol": "CANSEM",
-      "tokenAddress": "0xee4FCEa63c8Ff8a1998BD17135EBDf6c2DEb4b07",
-      "imageUrl": null,
-      "createdAt": "2026-08-27 19:48:19",
-      "poolId": "0xe70bd5053c89a156f8e42367803f711ee0aa02e7210876e184ce073b47df3ca4",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x84A5da1c36e4189437768DB1745643fE540b5bF5",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x84A5da1c36e4189437768DB1745643fE540b5bF5",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe70bd5053c89a156f8e42367803f711ee0aa02e7210876e184ce073b47df3ca4",
-      "basescanUrl": "https://basescan.org/token/0xee4FCEa63c8Ff8a1998BD17135EBDf6c2DEb4b07",
-      "source": "clanker",
-      "volume24h": 38715.079999999994,
-      "txns24h": 599
-    },
-    {
       "tokenName": "Base10 Index",
       "tokenSymbol": "BASED10",
       "tokenAddress": "0x9f8529DBeEf9fEb94d9084790DA3AE49aD03ab07",
@@ -286,8 +216,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1d2d46ef574876dd93112b4e6290ec933af2b04bfe263c68c700c90973b9bd1a",
       "basescanUrl": "https://basescan.org/token/0x9f8529DBeEf9fEb94d9084790DA3AE49aD03ab07",
       "source": "clanker",
-      "volume24h": 878554.02,
-      "txns24h": 9623
+      "volume24h": 9146.020000000002,
+      "txns24h": 306
     },
     {
       "tokenName": "我的女友景甜",
@@ -301,37 +231,15 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
         "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xd5e8987f0331877f8ef4bc47b731038239a7f54b",
       "basescanUrl": "https://basescan.org/token/0x6B36539D126AA231e20a6062bc29300DF908eB07",
       "source": "clanker",
-      "volume24h": 19472109.220000003,
-      "txns24h": 8317
-    },
-    {
-      "tokenName": "我的女友景甜",
-      "tokenSymbol": "我的女友景甜",
-      "tokenAddress": "0x572cE16F1eBB27f8B80aA81B3d39C89B0E352B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeifrcjnwnadnt2gnzqh4ztfkoqh4gunshag7v66ziegiypmfkecl6a",
-      "createdAt": "2026-08-27 13:17:59",
-      "poolId": "0x45502f56B137B6A34b9864ABC198567F9aa24B75",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeifrcjnwnadnt2gnzqh4ztfkoqh4gunshag7v66ziegiypmfkecl6a",
-        "verified": false,
-        "operatorAddress": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x00AAE02dC0AAB6b7BEE1FE9F301649BbD46BCe61",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x45502f56b137b6a34b9864abc198567f9aa24b75",
-      "basescanUrl": "https://basescan.org/token/0x572cE16F1eBB27f8B80aA81B3d39C89B0E352B07",
-      "source": "clanker",
-      "volume24h": 6509795.99,
-      "txns24h": 1570
+      "volume24h": 7819.380000000001,
+      "txns24h": 2136
     }
   ]
 }
