@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-08-30T11:00:18.246Z",
+  "generatedAt": "2026-08-30T15:49:21.379Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 786,
-    "chain": 1,
-    "persisted": 6
+    "api": 779,
+    "chain": 0,
+    "persisted": 2
   },
-  "count": 2,
+  "count": 1,
   "addresses": [
-    "0x11730cbe129a931bc7e7092b59a53b444f548b07",
-    "0x10cb0c01dda3266886c43602ad59df8dd591eb07"
+    "0x11730cbe129a931bc7e7092b59a53b444f548b07"
   ],
   "items": [
     {
@@ -32,30 +31,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xb67038cb3ac17e8b7dacb63fc3647c8d20f5e028",
       "basescanUrl": "https://basescan.org/token/0x11730cBe129A931Bc7E7092b59A53B444F548B07",
       "source": "clanker",
-      "volume24h": 13477860.91,
-      "txns24h": 3503
-    },
-    {
-      "tokenName": "Microduck",
-      "tokenSymbol": "Microduck",
-      "tokenAddress": "0x10Cb0C01DDA3266886C43602ad59dF8DD591eB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaa2xapdgvsxcbhagrz66hgyfmm4whlk254gjkypuv5kmdlkyfjj4",
-      "createdAt": "2026-08-29 10:23:09",
-      "poolId": "0xD3A1F47F909798eBF9E3d8ec28D75D73adbAeB54",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaa2xapdgvsxcbhagrz66hgyfmm4whlk254gjkypuv5kmdlkyfjj4",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd3a1f47f909798ebf9e3d8ec28d75d73adbaeb54",
-      "basescanUrl": "https://basescan.org/token/0x10Cb0C01DDA3266886C43602ad59dF8DD591eB07",
-      "source": "clanker",
-      "volume24h": 2068986.2700000003,
-      "txns24h": 1433
+      "volume24h": 179637.86,
+      "txns24h": 406
     }
   ]
 }
