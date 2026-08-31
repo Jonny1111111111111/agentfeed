@@ -1,17 +1,132 @@
 {
-  "generatedAt": "2026-08-31T02:42:15.098Z",
+  "generatedAt": "2026-08-31T12:19:39.248Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 762,
-    "chain": 25,
+    "chain": 62,
     "persisted": 1
   },
-  "count": 1,
+  "count": 6,
   "addresses": [
+    "0x13ea5bb744b2710600dcf384d78f74e0cb39bb07",
+    "0x79766687cfd0dfeb94f8f70ecc61a1f0a74b5b07",
+    "0x895521f5db930262516ba0bdd929b90f4f273b07",
+    "0x1a04f1c01d7a1969dc7471ce4948b2e9bb7d3b07",
+    "0xabcabc399912a612062f6704325909728c0d6b07",
     "0x58295ae52aa75de5be51d8a7c1ff9e78faa5db07"
   ],
   "items": [
+    {
+      "tokenName": "牛来",
+      "tokenSymbol": "牛来",
+      "tokenAddress": "0x13ea5BB744B2710600DCF384D78f74E0cb39BB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+      "createdAt": "2026-08-31 09:35:41",
+      "poolId": "0x01E36902eB95d030e9f381d7FD5DE760F90391Aa",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x01e36902eb95d030e9f381d7fd5de760f90391aa",
+      "basescanUrl": "https://basescan.org/token/0x13ea5BB744B2710600DCF384D78f74E0cb39BB07",
+      "source": "clanker",
+      "volume24h": 10749512.07,
+      "txns24h": 2322
+    },
+    {
+      "tokenName": "牛来​",
+      "tokenSymbol": "牛来",
+      "tokenAddress": "0x79766687Cfd0DFEb94F8F70EcC61A1F0a74B5b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+      "createdAt": "2026-08-31 07:21:49",
+      "poolId": "0xF9086aCcCE9F80D7C8586DCc1f12721a33a1Cae4",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf9086accce9f80d7c8586dcc1f12721a33a1cae4",
+      "basescanUrl": "https://basescan.org/token/0x79766687Cfd0DFEb94F8F70EcC61A1F0a74B5b07",
+      "source": "clanker",
+      "volume24h": 9480081.799999999,
+      "txns24h": 272
+    },
+    {
+      "tokenName": "牛来​",
+      "tokenSymbol": "牛来​",
+      "tokenAddress": "0x895521F5dB930262516Ba0BDD929B90f4f273b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+      "createdAt": "2026-08-31 06:37:01",
+      "poolId": "0x11Ca0c6BE0c02ef724a70dbBca4dB1d8e97eDd07",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x11ca0c6be0c02ef724a70dbbca4db1d8e97edd07",
+      "basescanUrl": "https://basescan.org/token/0x895521F5dB930262516Ba0BDD929B90f4f273b07",
+      "source": "clanker",
+      "volume24h": 3211737.34,
+      "txns24h": 298
+    },
+    {
+      "tokenName": "牛来",
+      "tokenSymbol": "牛来­",
+      "tokenAddress": "0x1A04f1C01D7A1969dC7471Ce4948b2E9bB7d3B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+      "createdAt": "2026-08-31 05:39:37",
+      "poolId": "0x2c6a89fd8fD8a830abFCb113fCAB6f707a5848bd",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2c6a89fd8fd8a830abfcb113fcab6f707a5848bd",
+      "basescanUrl": "https://basescan.org/token/0x1A04f1C01D7A1969dC7471Ce4948b2E9bB7d3B07",
+      "source": "clanker",
+      "volume24h": 6432339.819999999,
+      "txns24h": 693
+    },
+    {
+      "tokenName": "牛来人生",
+      "tokenSymbol": "牛来",
+      "tokenAddress": "0xABcAbc399912A612062f6704325909728C0d6B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+      "createdAt": "2026-08-31 04:35:29",
+      "poolId": "0x7AeaCcfcFFd3a9DFB637E6F49eCd90c16f34302F",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3lagx6ky5a6tgwnwsiidnydc6fhp5c3cmcpdvr442qnd6xrlshi",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7aeaccfcffd3a9dfb637e6f49ecd90c16f34302f",
+      "basescanUrl": "https://basescan.org/token/0xABcAbc399912A612062f6704325909728C0d6B07",
+      "source": "clanker",
+      "volume24h": 6323069.149999999,
+      "txns24h": 718
+    },
     {
       "tokenName": "我的女友景甜",
       "tokenSymbol": "我的女友景甜",
@@ -31,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2e14c69f154eecd5be20d7f01c713f86b1fd3dea",
       "basescanUrl": "https://basescan.org/token/0x58295Ae52AA75dE5BE51d8A7c1Ff9E78Faa5Db07",
       "source": "clanker",
-      "volume24h": 11400239.33,
-      "txns24h": 670
+      "volume24h": 13709740.290000001,
+      "txns24h": 6559
     }
   ]
 }
