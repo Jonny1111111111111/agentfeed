@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-08-31T12:19:39.248Z",
+  "generatedAt": "2026-08-31T22:15:51.090Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 762,
-    "chain": 62,
-    "persisted": 1
+    "chain": 150,
+    "persisted": 6
   },
-  "count": 6,
+  "count": 7,
   "addresses": [
+    "0x1a677ed34e20a57530edc5d5bea9d4c8e267db07",
     "0x13ea5bb744b2710600dcf384d78f74e0cb39bb07",
     "0x79766687cfd0dfeb94f8f70ecc61a1f0a74b5b07",
     "0x895521f5db930262516ba0bdd929b90f4f273b07",
@@ -17,6 +18,28 @@
     "0x58295ae52aa75de5be51d8a7c1ff9e78faa5db07"
   ],
   "items": [
+    {
+      "tokenName": "豹拉",
+      "tokenSymbol": "豹拉",
+      "tokenAddress": "0x1a677Ed34e20A57530Edc5d5bea9d4C8e267dB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeieggqctes4r46nxlua2yylsl5v5znlgskwr44sul2q7ulhqcunboa",
+      "createdAt": "2026-08-31 13:03:39",
+      "poolId": "0x3779DB4a1CA0a1eC458c0243dEde07A5fC062186",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeieggqctes4r46nxlua2yylsl5v5znlgskwr44sul2q7ulhqcunboa",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3779db4a1ca0a1ec458c0243dede07a5fc062186",
+      "basescanUrl": "https://basescan.org/token/0x1a677Ed34e20A57530Edc5d5bea9d4C8e267dB07",
+      "source": "clanker",
+      "volume24h": 11666757.19,
+      "txns24h": 1675
+    },
     {
       "tokenName": "牛来",
       "tokenSymbol": "牛来",
@@ -36,8 +59,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x01e36902eb95d030e9f381d7fd5de760f90391aa",
       "basescanUrl": "https://basescan.org/token/0x13ea5BB744B2710600DCF384D78f74E0cb39BB07",
       "source": "clanker",
-      "volume24h": 10749512.07,
-      "txns24h": 2322
+      "volume24h": 10749514.21,
+      "txns24h": 2331
     },
     {
       "tokenName": "牛来​",
@@ -146,8 +169,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2e14c69f154eecd5be20d7f01c713f86b1fd3dea",
       "basescanUrl": "https://basescan.org/token/0x58295Ae52AA75dE5BE51d8A7c1Ff9E78Faa5Db07",
       "source": "clanker",
-      "volume24h": 13709740.290000001,
-      "txns24h": 6559
+      "volume24h": 13717474.240000002,
+      "txns24h": 9437
     }
   ]
 }
