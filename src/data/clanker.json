@@ -1,22 +1,43 @@
 {
-  "generatedAt": "2026-09-02T10:19:50.698Z",
+  "generatedAt": "2026-09-02T15:45:10.788Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 788,
-    "chain": 51,
-    "persisted": 4
+    "api": 783,
+    "chain": 80,
+    "persisted": 6
   },
-  "count": 6,
+  "count": 5,
   "addresses": [
+    "0x0e3dd9cf5b09002c14e21c920006245076a0db07",
     "0x22facad863a638c055b6721ee613e52ac74c5b07",
     "0x94eada3f64ec8b712f2dbfa9365c292e85020b07",
     "0x30ddf0183c644a26b86ad8b41bcc3b80681ebb07",
-    "0x61ec89d844b6dd964e7a0c4d06c0653412645b07",
-    "0x1c4448a3d284200cbcbb28366402d5c039a6db07",
-    "0xb50d938e65acc66d1a7bd10ca07a478d0c0f0b07"
+    "0x61ec89d844b6dd964e7a0c4d06c0653412645b07"
   ],
   "items": [
+    {
+      "tokenName": "特朗普",
+      "tokenSymbol": "特朗普",
+      "tokenAddress": "0x0E3Dd9cf5B09002c14e21c920006245076a0dB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeic6nm3sg3bp45jodiizhv4qxpw65wdqg6g47bfhspfms7rcr5xfvy",
+      "createdAt": "2026-09-02 11:19:11",
+      "poolId": "0x88260b7745c40db0a5B3384Fadad3a4618f61bfE",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeic6nm3sg3bp45jodiizhv4qxpw65wdqg6g47bfhspfms7rcr5xfvy",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x88260b7745c40db0a5b3384fadad3a4618f61bfe",
+      "basescanUrl": "https://basescan.org/token/0x0E3Dd9cf5B09002c14e21c920006245076a0dB07",
+      "source": "clanker",
+      "volume24h": 16568820.28,
+      "txns24h": 2430
+    },
     {
       "tokenName": "Bros",
       "tokenSymbol": "Bros",
@@ -81,7 +102,7 @@
       "basescanUrl": "https://basescan.org/token/0x30dDF0183c644a26B86ad8B41bCc3b80681EBb07",
       "source": "clanker",
       "volume24h": 12936997.74,
-      "txns24h": 1123
+      "txns24h": 1127
     },
     {
       "tokenName": "我的女友景甜",
@@ -102,52 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9e59951dcd953845994751dcbc3f173b592db187",
       "basescanUrl": "https://basescan.org/token/0x61EC89D844B6DD964E7a0C4d06c0653412645B07",
       "source": "clanker",
-      "volume24h": 13300877.729999999,
-      "txns24h": 8818
-    },
-    {
-      "tokenName": "孙小圣",
-      "tokenSymbol": "孙小圣",
-      "tokenAddress": "0x1C4448A3D284200CBcbB28366402d5c039a6dB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeid6crntthwvjff5gyzxjk5dkjlfpqqddl5tc2dbo5hzjm663xxc3e",
-      "createdAt": "2026-09-01 12:07:47",
-      "poolId": "0xe527a438E7E59298271A953a8ad94A8E7152CC11",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeid6crntthwvjff5gyzxjk5dkjlfpqqddl5tc2dbo5hzjm663xxc3e",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe527a438e7e59298271a953a8ad94a8e7152cc11",
-      "basescanUrl": "https://basescan.org/token/0x1C4448A3D284200CBcbB28366402d5c039a6dB07",
-      "source": "clanker",
-      "volume24h": 11120892.5,
-      "txns24h": 1208
-    },
-    {
-      "tokenName": "我的女友景甜",
-      "tokenSymbol": "我的女友景甜",
-      "tokenAddress": "0xb50d938E65aCC66D1a7Bd10Ca07A478d0C0F0b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
-      "createdAt": "2026-09-01 09:24:37",
-      "poolId": "0x4aE6303ac358051Cca511Dc96579eAa1b3cb305b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x4ae6303ac358051cca511dc96579eaa1b3cb305b",
-      "basescanUrl": "https://basescan.org/token/0xb50d938E65aCC66D1a7Bd10Ca07A478d0C0F0b07",
-      "source": "clanker",
-      "volume24h": 1015059.5099999999,
-      "txns24h": 1220
+      "volume24h": 1713687.19,
+      "txns24h": 6752
     }
   ]
 }
