@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-02T15:45:10.788Z",
+  "generatedAt": "2026-09-02T20:23:03.342Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 783,
-    "chain": 80,
-    "persisted": 6
+    "api": 782,
+    "chain": 154,
+    "persisted": 5
   },
-  "count": 5,
+  "count": 6,
   "addresses": [
+    "0x8a09ed365da37cddfad61b50e039b99cda8f3b07",
     "0x0e3dd9cf5b09002c14e21c920006245076a0db07",
     "0x22facad863a638c055b6721ee613e52ac74c5b07",
     "0x94eada3f64ec8b712f2dbfa9365c292e85020b07",
@@ -16,6 +17,28 @@
     "0x61ec89d844b6dd964e7a0c4d06c0653412645b07"
   ],
   "items": [
+    {
+      "tokenName": "EIP69420",
+      "tokenSymbol": "EIP69420",
+      "tokenAddress": "0x8a09ed365Da37cDDFad61B50e039b99cdA8f3b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezuac3vzzc62ikehix6htd2zwlxlddeb7ctuwmpy7p7uy45dan6e",
+      "createdAt": "2026-09-02 19:45:43",
+      "poolId": "0x8e4dd661f9587b3124703bc62014e638cfad88154ceb0b0eb74ab5929813ed3e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezuac3vzzc62ikehix6htd2zwlxlddeb7ctuwmpy7p7uy45dan6e",
+        "verified": false,
+        "operatorAddress": "0x497aFF136E85f8Eee1FddD0897FB83658ecFB17E",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x497aFF136E85f8Eee1FddD0897FB83658ecFB17E",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8e4dd661f9587b3124703bc62014e638cfad88154ceb0b0eb74ab5929813ed3e",
+      "basescanUrl": "https://basescan.org/token/0x8a09ed365Da37cDDFad61B50e039b99cdA8f3b07",
+      "source": "clanker",
+      "volume24h": 22179.49,
+      "txns24h": 140
+    },
     {
       "tokenName": "特朗普",
       "tokenSymbol": "特朗普",
@@ -35,8 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x88260b7745c40db0a5b3384fadad3a4618f61bfe",
       "basescanUrl": "https://basescan.org/token/0x0E3Dd9cf5B09002c14e21c920006245076a0dB07",
       "source": "clanker",
-      "volume24h": 16568820.28,
-      "txns24h": 2430
+      "volume24h": 16568822.46,
+      "txns24h": 2433
     },
     {
       "tokenName": "Bros",
@@ -79,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf7a5c665d4db6b4133b3e6c1b82374ff2456d699",
       "basescanUrl": "https://basescan.org/token/0x94Eada3f64eC8B712f2dBFa9365C292E85020B07",
       "source": "clanker",
-      "volume24h": 10835154.919999998,
-      "txns24h": 760
+      "volume24h": 10835154.929999998,
+      "txns24h": 762
     },
     {
       "tokenName": "Basecat",
@@ -101,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x93eb3ec3ee5ddac2ff2dff447161252fd931b805",
       "basescanUrl": "https://basescan.org/token/0x30dDF0183c644a26B86ad8B41bCc3b80681EBb07",
       "source": "clanker",
-      "volume24h": 12936997.74,
-      "txns24h": 1127
+      "volume24h": 12936997.76,
+      "txns24h": 1128
     },
     {
       "tokenName": "我的女友景甜",
@@ -123,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9e59951dcd953845994751dcbc3f173b592db187",
       "basescanUrl": "https://basescan.org/token/0x61EC89D844B6DD964E7a0C4d06c0653412645B07",
       "source": "clanker",
-      "volume24h": 1713687.19,
-      "txns24h": 6752
+      "volume24h": 1472356.1,
+      "txns24h": 4533
     }
   ]
 }
