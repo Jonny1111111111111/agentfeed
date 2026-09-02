@@ -1,20 +1,88 @@
 {
-  "generatedAt": "2026-09-02T02:14:54.531Z",
+  "generatedAt": "2026-09-02T10:19:50.698Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 789,
-    "chain": 113,
+    "api": 788,
+    "chain": 51,
     "persisted": 4
   },
-  "count": 4,
+  "count": 6,
   "addresses": [
+    "0x22facad863a638c055b6721ee613e52ac74c5b07",
+    "0x94eada3f64ec8b712f2dbfa9365c292e85020b07",
+    "0x30ddf0183c644a26b86ad8b41bcc3b80681ebb07",
     "0x61ec89d844b6dd964e7a0c4d06c0653412645b07",
     "0x1c4448a3d284200cbcbb28366402d5c039a6db07",
-    "0xb50d938e65acc66d1a7bd10ca07a478d0c0f0b07",
-    "0xbabe84b6f6e039fad97036fcf568631082b2cb07"
+    "0xb50d938e65acc66d1a7bd10ca07a478d0c0f0b07"
   ],
   "items": [
+    {
+      "tokenName": "Bros",
+      "tokenSymbol": "Bros",
+      "tokenAddress": "0x22faCAd863a638C055b6721Ee613e52ac74c5b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih7tf5zb5ysonztx2o5kokswfjfa5iyo3jwpckmxpthmjn37mttxa",
+      "createdAt": "2026-09-02 06:39:05",
+      "poolId": "0x64e29DdA374C6E96f20276f47632D9a1813aC6ef",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih7tf5zb5ysonztx2o5kokswfjfa5iyo3jwpckmxpthmjn37mttxa",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x64e29dda374c6e96f20276f47632d9a1813ac6ef",
+      "basescanUrl": "https://basescan.org/token/0x22faCAd863a638C055b6721Ee613e52ac74c5b07",
+      "source": "clanker",
+      "volume24h": 7176333.79,
+      "txns24h": 306
+    },
+    {
+      "tokenName": "罗宾汉",
+      "tokenSymbol": "罗宾汉",
+      "tokenAddress": "0x94Eada3f64eC8B712f2dBFa9365C292E85020B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiahkpimv2irhogtuhqqhdwib3urzq6dru36dggwem4pfsywnvc7z4",
+      "createdAt": "2026-09-02 04:08:09",
+      "poolId": "0xf7a5c665d4dB6b4133b3e6c1b82374fF2456D699",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiahkpimv2irhogtuhqqhdwib3urzq6dru36dggwem4pfsywnvc7z4",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf7a5c665d4db6b4133b3e6c1b82374ff2456d699",
+      "basescanUrl": "https://basescan.org/token/0x94Eada3f64eC8B712f2dBFa9365C292E85020B07",
+      "source": "clanker",
+      "volume24h": 10835154.919999998,
+      "txns24h": 760
+    },
+    {
+      "tokenName": "Basecat",
+      "tokenSymbol": "Basecat",
+      "tokenAddress": "0x30dDF0183c644a26B86ad8B41bCc3b80681EBb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihihm7sssrda7qo6pl7sgjqcharflhyyqyd3r6td5l2nzsxietxua",
+      "createdAt": "2026-09-02 03:00:51",
+      "poolId": "0x93eb3eC3Ee5ddaC2FF2dFF447161252FD931b805",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihihm7sssrda7qo6pl7sgjqcharflhyyqyd3r6td5l2nzsxietxua",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x93eb3ec3ee5ddac2ff2dff447161252fd931b805",
+      "basescanUrl": "https://basescan.org/token/0x30dDF0183c644a26B86ad8B41bCc3b80681EBb07",
+      "source": "clanker",
+      "volume24h": 12936997.74,
+      "txns24h": 1123
+    },
     {
       "tokenName": "我的女友景甜",
       "tokenSymbol": "我的女友景甜",
@@ -34,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9e59951dcd953845994751dcbc3f173b592db187",
       "basescanUrl": "https://basescan.org/token/0x61EC89D844B6DD964E7a0C4d06c0653412645B07",
       "source": "clanker",
-      "volume24h": 13248159.039999997,
-      "txns24h": 8601
+      "volume24h": 13300877.729999999,
+      "txns24h": 8818
     },
     {
       "tokenName": "孙小圣",
@@ -56,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xe527a438e7e59298271a953a8ad94a8e7152cc11",
       "basescanUrl": "https://basescan.org/token/0x1C4448A3D284200CBcbB28366402d5c039a6dB07",
       "source": "clanker",
-      "volume24h": 11120892.45,
-      "txns24h": 1207
+      "volume24h": 11120892.5,
+      "txns24h": 1208
     },
     {
       "tokenName": "我的女友景甜",
@@ -78,30 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x4ae6303ac358051cca511dc96579eaa1b3cb305b",
       "basescanUrl": "https://basescan.org/token/0xb50d938E65aCC66D1a7Bd10Ca07A478d0C0F0b07",
       "source": "clanker",
-      "volume24h": 13416721.309999999,
-      "txns24h": 1929
-    },
-    {
-      "tokenName": "我的女友景甜",
-      "tokenSymbol": "我的女友景甜",
-      "tokenAddress": "0xbAbE84b6f6e039fad97036Fcf568631082b2cb07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
-      "createdAt": "2026-09-01 02:53:37",
-      "poolId": "0x03CcB6118D8b37901EC7b01bd5EFea755F69b29b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x03ccb6118d8b37901ec7b01bd5efea755f69b29b",
-      "basescanUrl": "https://basescan.org/token/0xbAbE84b6f6e039fad97036Fcf568631082b2cb07",
-      "source": "clanker",
-      "volume24h": 13330415.23,
-      "txns24h": 5667
+      "volume24h": 1015059.5099999999,
+      "txns24h": 1220
     }
   ]
 }
