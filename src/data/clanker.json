@@ -1,19 +1,41 @@
 {
-  "generatedAt": "2026-09-03T10:29:55.099Z",
+  "generatedAt": "2026-09-03T15:35:42.873Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 784,
-    "chain": 38,
-    "persisted": 6
+    "api": 779,
+    "chain": 135,
+    "persisted": 3
   },
   "count": 3,
   "addresses": [
+    "0x44ebea85b6a5d5ce7f29def58d3bc3184294cb07",
     "0xf2cb7aaebfd19aa1b65aac299604dc9e74602b07",
-    "0x8a09ed365da37cddfad61b50e039b99cda8f3b07",
-    "0x0e3dd9cf5b09002c14e21c920006245076a0db07"
+    "0x8a09ed365da37cddfad61b50e039b99cda8f3b07"
   ],
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x44ebeA85B6a5d5cE7f29deF58d3Bc3184294cB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifzvv6ip74s6zn7vnsxb4tkjsaisejh2h7qiih6er6ww25n4xdsye",
+      "createdAt": "2026-09-03 12:38:37",
+      "poolId": "0xDD9121A73f4bEAf843A2e0E3D40394c0B542bE0e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreifzvv6ip74s6zn7vnsxb4tkjsaisejh2h7qiih6er6ww25n4xdsye",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xdd9121a73f4beaf843a2e0e3d40394c0b542be0e",
+      "basescanUrl": "https://basescan.org/token/0x44ebeA85B6a5d5cE7f29deF58d3Bc3184294cB07",
+      "source": "clanker",
+      "volume24h": 4727796.75,
+      "txns24h": 1754
+    },
     {
       "tokenName": "牛仔",
       "tokenSymbol": "牛仔",
@@ -55,30 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8e4dd661f9587b3124703bc62014e638cfad88154ceb0b0eb74ab5929813ed3e",
       "basescanUrl": "https://basescan.org/token/0x8a09ed365Da37cDDFad61B50e039b99cdA8f3b07",
       "source": "clanker",
-      "volume24h": 22222.48,
-      "txns24h": 148
-    },
-    {
-      "tokenName": "特朗普",
-      "tokenSymbol": "特朗普",
-      "tokenAddress": "0x0E3Dd9cf5B09002c14e21c920006245076a0dB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeic6nm3sg3bp45jodiizhv4qxpw65wdqg6g47bfhspfms7rcr5xfvy",
-      "createdAt": "2026-09-02 11:19:11",
-      "poolId": "0x88260b7745c40db0a5B3384Fadad3a4618f61bfE",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeic6nm3sg3bp45jodiizhv4qxpw65wdqg6g47bfhspfms7rcr5xfvy",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x88260b7745c40db0a5b3384fadad3a4618f61bfe",
-      "basescanUrl": "https://basescan.org/token/0x0E3Dd9cf5B09002c14e21c920006245076a0dB07",
-      "source": "clanker",
-      "volume24h": 16568825.38,
-      "txns24h": 2452
+      "volume24h": 22224.03,
+      "txns24h": 150
     }
   ]
 }
