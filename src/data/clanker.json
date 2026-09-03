@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-02T20:23:03.342Z",
+  "generatedAt": "2026-09-03T02:22:33.750Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 782,
-    "chain": 154,
-    "persisted": 5
+    "api": 781,
+    "chain": 101,
+    "persisted": 6
   },
   "count": 6,
   "addresses": [
@@ -36,8 +36,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8e4dd661f9587b3124703bc62014e638cfad88154ceb0b0eb74ab5929813ed3e",
       "basescanUrl": "https://basescan.org/token/0x8a09ed365Da37cDDFad61B50e039b99cdA8f3b07",
       "source": "clanker",
-      "volume24h": 22179.49,
-      "txns24h": 140
+      "volume24h": 22203.05,
+      "txns24h": 144
     },
     {
       "tokenName": "特朗普",
@@ -58,8 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x88260b7745c40db0a5b3384fadad3a4618f61bfe",
       "basescanUrl": "https://basescan.org/token/0x0E3Dd9cf5B09002c14e21c920006245076a0dB07",
       "source": "clanker",
-      "volume24h": 16568822.46,
-      "txns24h": 2433
+      "volume24h": 16568824.12,
+      "txns24h": 2440
     },
     {
       "tokenName": "Bros",
@@ -139,15 +139,15 @@
         "handle": null,
         "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ucjtcqviztmiz2jatqufmauqxvhmsl4eu2yrdqfawxrb4tkqcq",
         "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x9e59951dcd953845994751dcbc3f173b592db187",
       "basescanUrl": "https://basescan.org/token/0x61EC89D844B6DD964E7a0C4d06c0653412645B07",
       "source": "clanker",
-      "volume24h": 1472356.1,
-      "txns24h": 4533
+      "volume24h": 5786.43,
+      "txns24h": 109
     }
   ]
 }
