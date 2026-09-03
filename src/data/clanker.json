@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-09-03T15:35:42.873Z",
+  "generatedAt": "2026-09-03T20:22:38.632Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 779,
-    "chain": 135,
+    "chain": 215,
     "persisted": 3
   },
-  "count": 3,
+  "count": 2,
   "addresses": [
     "0x44ebea85b6a5d5ce7f29def58d3bc3184294cb07",
-    "0xf2cb7aaebfd19aa1b65aac299604dc9e74602b07",
-    "0x8a09ed365da37cddfad61b50e039b99cda8f3b07"
+    "0xf2cb7aaebfd19aa1b65aac299604dc9e74602b07"
   ],
   "items": [
     {
@@ -33,8 +32,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xdd9121a73f4beaf843a2e0e3d40394c0b542be0e",
       "basescanUrl": "https://basescan.org/token/0x44ebeA85B6a5d5cE7f29deF58d3Bc3184294cB07",
       "source": "clanker",
-      "volume24h": 4727796.75,
-      "txns24h": 1754
+      "volume24h": 4734148.4799999995,
+      "txns24h": 3561
     },
     {
       "tokenName": "牛仔",
@@ -57,28 +56,6 @@
       "source": "clanker",
       "volume24h": 3348166.64,
       "txns24h": 1768
-    },
-    {
-      "tokenName": "EIP69420",
-      "tokenSymbol": "EIP69420",
-      "tokenAddress": "0x8a09ed365Da37cDDFad61B50e039b99cdA8f3b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezuac3vzzc62ikehix6htd2zwlxlddeb7ctuwmpy7p7uy45dan6e",
-      "createdAt": "2026-09-02 19:45:43",
-      "poolId": "0x8e4dd661f9587b3124703bc62014e638cfad88154ceb0b0eb74ab5929813ed3e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezuac3vzzc62ikehix6htd2zwlxlddeb7ctuwmpy7p7uy45dan6e",
-        "verified": false,
-        "operatorAddress": "0x497aFF136E85f8Eee1FddD0897FB83658ecFB17E",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x497aFF136E85f8Eee1FddD0897FB83658ecFB17E",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8e4dd661f9587b3124703bc62014e638cfad88154ceb0b0eb74ab5929813ed3e",
-      "basescanUrl": "https://basescan.org/token/0x8a09ed365Da37cDDFad61B50e039b99cdA8f3b07",
-      "source": "clanker",
-      "volume24h": 22224.03,
-      "txns24h": 150
     }
   ]
 }
