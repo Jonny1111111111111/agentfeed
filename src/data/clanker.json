@@ -1,20 +1,89 @@
 {
-  "generatedAt": "2026-09-04T10:17:57.332Z",
+  "generatedAt": "2026-09-04T15:33:11.572Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 784,
-    "chain": 59,
-    "persisted": 3
+    "api": 785,
+    "chain": 128,
+    "persisted": 4
   },
-  "count": 4,
+  "count": 7,
   "addresses": [
+    "0x811b77a72acb667cb4b17d6a9208a86e83aedb07",
+    "0x9927897f2a13c41fdd299ec77fb2f4b6363c0b07",
+    "0x8e401e0942b481a71faf440ea5e3b088b94e3b07",
     "0x85896c680c7dc02d19e3799740a5cc0a77382b07",
     "0xbe047e916c8458eaf8c0da70527882ea01874b07",
     "0x99e146d35d1cd98d7fc466c0385bbdd1b64f3b07",
     "0x44ebea85b6a5d5ce7f29def58d3bc3184294cb07"
   ],
   "items": [
+    {
+      "tokenName": "Flap",
+      "tokenSymbol": "FLAP",
+      "tokenAddress": "0x811B77a72Acb667CB4b17D6A9208a86e83aedB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7cptpmz6tkhknbvtdvujqgd7notrdvig6qcpd6u2x45rvf54cy4",
+      "createdAt": "2026-09-04 14:35:27",
+      "poolId": "0x855fbdefe8eBB7830713B4327d044269C7fE9D7C",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7cptpmz6tkhknbvtdvujqgd7notrdvig6qcpd6u2x45rvf54cy4",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x855fbdefe8ebb7830713b4327d044269c7fe9d7c",
+      "basescanUrl": "https://basescan.org/token/0x811B77a72Acb667CB4b17D6A9208a86e83aedB07",
+      "source": "clanker",
+      "volume24h": 36480008.18,
+      "txns24h": 199
+    },
+    {
+      "tokenName": "18932",
+      "tokenSymbol": "18932",
+      "tokenAddress": "0x9927897f2A13C41fDd299eC77Fb2f4B6363c0B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihp3nng3sv3mv3wfguzvjiwgw6l63tgihzbxl4ryvpsps3wetxc4e",
+      "createdAt": "2026-09-04 12:04:57",
+      "poolId": "0x1a812B30CCd8756562081f9ed9124aecc1746144",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihp3nng3sv3mv3wfguzvjiwgw6l63tgihzbxl4ryvpsps3wetxc4e",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1a812b30ccd8756562081f9ed9124aecc1746144",
+      "basescanUrl": "https://basescan.org/token/0x9927897f2A13C41fDd299eC77Fb2f4B6363c0B07",
+      "source": "clanker",
+      "volume24h": 12193022.69,
+      "txns24h": 2130
+    },
+    {
+      "tokenName": "A Meme Coin",
+      "tokenSymbol": "MEME",
+      "tokenAddress": "0x8E401e0942B481a71Faf440eA5e3b088b94E3B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibxlv3itfzmkae22stawc6o445jhbcos35kd2s74btobpjxv3exaq",
+      "createdAt": "2026-09-04 11:15:45",
+      "poolId": "0xC02e92d0098c53659e216323CB174EabEBB8D4de",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibxlv3itfzmkae22stawc6o445jhbcos35kd2s74btobpjxv3exaq",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc02e92d0098c53659e216323cb174eabebb8d4de",
+      "basescanUrl": "https://basescan.org/token/0x8E401e0942B481a71Faf440eA5e3b088b94E3B07",
+      "source": "clanker",
+      "volume24h": 7558302.49,
+      "txns24h": 528
+    },
     {
       "tokenName": "Cybercab",
       "tokenSymbol": "Cybercab",
@@ -34,8 +103,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd97b96b07cf15621c8addfcb144778bb293ad939",
       "basescanUrl": "https://basescan.org/token/0x85896C680C7Dc02D19e3799740a5cc0A77382B07",
       "source": "clanker",
-      "volume24h": 10188344.37,
-      "txns24h": 6572
+      "volume24h": 10444721.110000001,
+      "txns24h": 7621
     },
     {
       "tokenName": "Cybercab",
@@ -56,8 +125,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0e37424bb918175afb7009e0727a5031b4261fea",
       "basescanUrl": "https://basescan.org/token/0xbe047E916C8458eaF8C0Da70527882EA01874B07",
       "source": "clanker",
-      "volume24h": 7484331.62,
-      "txns24h": 407
+      "volume24h": 7678885.23,
+      "txns24h": 1540
     },
     {
       "tokenName": "我的女友景甜",
@@ -78,8 +147,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x43e19f2a1d1db7d281a2253366bedf9b1fd73feb",
       "basescanUrl": "https://basescan.org/token/0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
       "source": "clanker",
-      "volume24h": 22939302.07,
-      "txns24h": 4803
+      "volume24h": 22940112.08,
+      "txns24h": 4806
     },
     {
       "tokenName": "OpenAI",
@@ -100,8 +169,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xdd9121a73f4beaf843a2e0e3d40394c0b542be0e",
       "basescanUrl": "https://basescan.org/token/0x44ebeA85B6a5d5cE7f29deF58d3Bc3184294cB07",
       "source": "clanker",
-      "volume24h": 4734152.62,
-      "txns24h": 3564
+      "volume24h": 15066.43,
+      "txns24h": 1841
     }
   ]
 }
