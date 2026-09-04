@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-09-03T20:22:38.632Z",
+  "generatedAt": "2026-09-04T02:17:40.825Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 779,
-    "chain": 215,
-    "persisted": 3
+    "api": 783,
+    "chain": 70,
+    "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0x99e146d35d1cd98d7fc466c0385bbdd1b64f3b07",
     "0x44ebea85b6a5d5ce7f29def58d3bc3184294cb07",
     "0xf2cb7aaebfd19aa1b65aac299604dc9e74602b07"
   ],
   "items": [
+    {
+      "tokenName": "我的女友景甜",
+      "tokenSymbol": "我的女友景甜",
+      "tokenAddress": "0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiet3rvnwx7e5mdpgn47o6dhoq77ln5isptiuqwgijunlza3etvrqu",
+      "createdAt": "2026-09-04 01:30:11",
+      "poolId": "0x43e19f2A1D1dB7d281a2253366BEDF9b1Fd73FEb",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiet3rvnwx7e5mdpgn47o6dhoq77ln5isptiuqwgijunlza3etvrqu",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x43e19f2a1d1db7d281a2253366bedf9b1fd73feb",
+      "basescanUrl": "https://basescan.org/token/0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
+      "source": "clanker",
+      "volume24h": 21456015.38,
+      "txns24h": 149
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xdd9121a73f4beaf843a2e0e3d40394c0b542be0e",
       "basescanUrl": "https://basescan.org/token/0x44ebeA85B6a5d5cE7f29deF58d3Bc3184294cB07",
       "source": "clanker",
-      "volume24h": 4734148.4799999995,
-      "txns24h": 3561
+      "volume24h": 4734152.6,
+      "txns24h": 3563
     },
     {
       "tokenName": "牛仔",
