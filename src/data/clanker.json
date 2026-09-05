@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-04T20:08:01.986Z",
+  "generatedAt": "2026-09-05T02:18:03.324Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 786,
-    "chain": 179,
-    "persisted": 7
+    "api": 789,
+    "chain": 89,
+    "persisted": 6
   },
-  "count": 6,
+  "count": 7,
   "addresses": [
+    "0xa5efe14424255bb5ada89f4e7e5a83e2c610cb07",
     "0x811b77a72acb667cb4b17d6a9208a86e83aedb07",
     "0x9927897f2a13c41fdd299ec77fb2f4b6363c0b07",
     "0x8e401e0942b481a71faf440ea5e3b088b94e3b07",
@@ -17,6 +18,28 @@
     "0x99e146d35d1cd98d7fc466c0385bbdd1b64f3b07"
   ],
   "items": [
+    {
+      "tokenName": "Cybercab",
+      "tokenSymbol": "Cybercab",
+      "tokenAddress": "0xA5efE14424255bB5aDA89f4e7e5a83e2C610cB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
+      "createdAt": "2026-09-05 01:21:27",
+      "poolId": "0xC2a13a8CDF4C3c6C86FDD37B761381A5c2A85e8c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc2a13a8cdf4c3c6c86fdd37b761381a5c2a85e8c",
+      "basescanUrl": "https://basescan.org/token/0xA5efE14424255bB5aDA89f4e7e5a83e2C610cB07",
+      "source": "clanker",
+      "volume24h": 36290034.42,
+      "txns24h": 201
+    },
     {
       "tokenName": "Flap",
       "tokenSymbol": "FLAP",
@@ -36,8 +59,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x855fbdefe8ebb7830713b4327d044269c7fe9d7c",
       "basescanUrl": "https://basescan.org/token/0x811B77a72Acb667CB4b17D6A9208a86e83aedB07",
       "source": "clanker",
-      "volume24h": 54863184.089999996,
-      "txns24h": 4623
+      "volume24h": 54952201.75,
+      "txns24h": 7797
     },
     {
       "tokenName": "18932",
@@ -80,8 +103,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc02e92d0098c53659e216323cb174eabebb8d4de",
       "basescanUrl": "https://basescan.org/token/0x8E401e0942B481a71Faf440eA5e3b088b94E3B07",
       "source": "clanker",
-      "volume24h": 7558302.49,
-      "txns24h": 528
+      "volume24h": 7558302.59,
+      "txns24h": 530
     },
     {
       "tokenName": "Cybercab",
@@ -146,8 +169,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x43e19f2a1d1db7d281a2253366bedf9b1fd73feb",
       "basescanUrl": "https://basescan.org/token/0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
       "source": "clanker",
-      "volume24h": 22940131.909999996,
-      "txns24h": 4807
+      "volume24h": 1484106.53,
+      "txns24h": 4656
     }
   ]
 }
