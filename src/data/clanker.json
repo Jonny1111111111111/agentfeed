@@ -1,24 +1,65 @@
 {
-  "generatedAt": "2026-09-05T09:46:21.599Z",
+  "generatedAt": "2026-09-05T14:21:14.778Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 791,
-    "chain": 73,
-    "persisted": 7
+    "api": 792,
+    "chain": 31,
+    "persisted": 8
   },
-  "count": 8,
+  "count": 5,
   "addresses": [
+    "0xb9138b1470008555a454ac2f8385fe9743c6eb07",
+    "0x3a7bd214e929113cb19b7e7710e5baab8194eb07",
     "0x170a696b549d00a1e519bcf5ead992e46da90b07",
     "0xa5efe14424255bb5ada89f4e7e5a83e2c610cb07",
-    "0x811b77a72acb667cb4b17d6a9208a86e83aedb07",
-    "0x9927897f2a13c41fdd299ec77fb2f4b6363c0b07",
-    "0x8e401e0942b481a71faf440ea5e3b088b94e3b07",
-    "0x85896c680c7dc02d19e3799740a5cc0a77382b07",
-    "0xbe047e916c8458eaf8c0da70527882ea01874b07",
-    "0x99e146d35d1cd98d7fc466c0385bbdd1b64f3b07"
+    "0x811b77a72acb667cb4b17d6a9208a86e83aedb07"
   ],
   "items": [
+    {
+      "tokenName": "1股=100000代币",
+      "tokenSymbol": "长鑫科技",
+      "tokenAddress": "0xb9138B1470008555A454aC2f8385FE9743C6eB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreickkn6itu7rremndrta7gxppsecsphdcbviczw6t6xssun7ql6pmm",
+      "createdAt": "2026-09-05 12:54:33",
+      "poolId": "0xF982c6F3f9F13bf9FFD323B7Fcd97c17dfa6A428",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreickkn6itu7rremndrta7gxppsecsphdcbviczw6t6xssun7ql6pmm",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf982c6f3f9f13bf9ffd323b7fcd97c17dfa6a428",
+      "basescanUrl": "https://basescan.org/token/0xb9138B1470008555A454aC2f8385FE9743C6eB07",
+      "source": "clanker",
+      "volume24h": 13549553.11,
+      "txns24h": 883
+    },
+    {
+      "tokenName": "闪兑",
+      "tokenSymbol": "闪兑",
+      "tokenAddress": "0x3A7BD214e929113cb19b7e7710e5baab8194Eb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiddjgwm76jwrik4s6izuslb32hwmcriy73hghgefdfj6tllpiihae",
+      "createdAt": "2026-09-05 11:15:05",
+      "poolId": "0xc8F9e7070B780Be5DB6D744a3a81EF70536f6fDe",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiddjgwm76jwrik4s6izuslb32hwmcriy73hghgefdfj6tllpiihae",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc8f9e7070b780be5db6d744a3a81ef70536f6fde",
+      "basescanUrl": "https://basescan.org/token/0x3A7BD214e929113cb19b7e7710e5baab8194Eb07",
+      "source": "clanker",
+      "volume24h": 10678839.37,
+      "txns24h": 1073
+    },
     {
       "tokenName": "SanDisk",
       "tokenSymbol": "闪迪股票",
@@ -38,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf2e3edace061f8ce69d4acb0faa57259346e283e",
       "basescanUrl": "https://basescan.org/token/0x170a696b549d00a1e519bcf5EaD992E46DA90b07",
       "source": "clanker",
-      "volume24h": 10188749.809999999,
-      "txns24h": 1206
+      "volume24h": 11892814.73,
+      "txns24h": 2165
     },
     {
       "tokenName": "Cybercab",
@@ -84,116 +125,6 @@
       "source": "clanker",
       "volume24h": 54952201.75,
       "txns24h": 7797
-    },
-    {
-      "tokenName": "18932",
-      "tokenSymbol": "18932",
-      "tokenAddress": "0x9927897f2A13C41fDd299eC77Fb2f4B6363c0B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihp3nng3sv3mv3wfguzvjiwgw6l63tgihzbxl4ryvpsps3wetxc4e",
-      "createdAt": "2026-09-04 12:04:57",
-      "poolId": "0x1a812B30CCd8756562081f9ed9124aecc1746144",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihp3nng3sv3mv3wfguzvjiwgw6l63tgihzbxl4ryvpsps3wetxc4e",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1a812b30ccd8756562081f9ed9124aecc1746144",
-      "basescanUrl": "https://basescan.org/token/0x9927897f2A13C41fDd299eC77Fb2f4B6363c0B07",
-      "source": "clanker",
-      "volume24h": 12193022.709999999,
-      "txns24h": 2131
-    },
-    {
-      "tokenName": "A Meme Coin",
-      "tokenSymbol": "MEME",
-      "tokenAddress": "0x8E401e0942B481a71Faf440eA5e3b088b94E3B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibxlv3itfzmkae22stawc6o445jhbcos35kd2s74btobpjxv3exaq",
-      "createdAt": "2026-09-04 11:15:45",
-      "poolId": "0xC02e92d0098c53659e216323CB174EabEBB8D4de",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibxlv3itfzmkae22stawc6o445jhbcos35kd2s74btobpjxv3exaq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xc02e92d0098c53659e216323cb174eabebb8d4de",
-      "basescanUrl": "https://basescan.org/token/0x8E401e0942B481a71Faf440eA5e3b088b94E3B07",
-      "source": "clanker",
-      "volume24h": 7558302.680000001,
-      "txns24h": 532
-    },
-    {
-      "tokenName": "Cybercab",
-      "tokenSymbol": "Cybercab",
-      "tokenAddress": "0x85896C680C7Dc02D19e3799740a5cc0A77382B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
-      "createdAt": "2026-09-04 02:54:35",
-      "poolId": "0xd97B96b07cF15621c8AddFcb144778Bb293aD939",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd97b96b07cf15621c8addfcb144778bb293ad939",
-      "basescanUrl": "https://basescan.org/token/0x85896C680C7Dc02D19e3799740a5cc0A77382B07",
-      "source": "clanker",
-      "volume24h": 312057.67,
-      "txns24h": 1309
-    },
-    {
-      "tokenName": "Cybercab",
-      "tokenSymbol": "黄金时代",
-      "tokenAddress": "0xbe047E916C8458eaF8C0Da70527882EA01874B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
-      "createdAt": "2026-09-04 02:22:11",
-      "poolId": "0x0e37424bB918175AfB7009E0727A5031b4261fEa",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0e37424bb918175afb7009e0727a5031b4261fea",
-      "basescanUrl": "https://basescan.org/token/0xbe047E916C8458eaF8C0Da70527882EA01874B07",
-      "source": "clanker",
-      "volume24h": 254742.40999999997,
-      "txns24h": 1462
-    },
-    {
-      "tokenName": "我的女友景甜",
-      "tokenSymbol": "我的女友景甜",
-      "tokenAddress": "0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiet3rvnwx7e5mdpgn47o6dhoq77ln5isptiuqwgijunlza3etvrqu",
-      "createdAt": "2026-09-04 01:30:11",
-      "poolId": "0x43e19f2A1D1dB7d281a2253366BEDF9b1Fd73FEb",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiet3rvnwx7e5mdpgn47o6dhoq77ln5isptiuqwgijunlza3etvrqu",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x43e19f2a1d1db7d281a2253366bedf9b1fd73feb",
-      "basescanUrl": "https://basescan.org/token/0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
-      "source": "clanker",
-      "volume24h": 52031.200000000004,
-      "txns24h": 151
     }
   ]
 }
