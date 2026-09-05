@@ -1,18 +1,19 @@
 {
-  "generatedAt": "2026-09-05T14:21:14.778Z",
+  "generatedAt": "2026-09-05T19:47:46.640Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 792,
-    "chain": 31,
-    "persisted": 8
+    "api": 786,
+    "chain": 95,
+    "persisted": 5
   },
-  "count": 5,
+  "count": 6,
   "addresses": [
     "0xb9138b1470008555a454ac2f8385fe9743c6eb07",
     "0x3a7bd214e929113cb19b7e7710e5baab8194eb07",
     "0x170a696b549d00a1e519bcf5ead992e46da90b07",
     "0xa5efe14424255bb5ada89f4e7e5a83e2c610cb07",
+    "0x23c5f653110543b15635b5c51ca387e5bc4eac24",
     "0x811b77a72acb667cb4b17d6a9208a86e83aedb07"
   ],
   "items": [
@@ -35,8 +36,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf982c6f3f9f13bf9ffd323b7fcd97c17dfa6a428",
       "basescanUrl": "https://basescan.org/token/0xb9138B1470008555A454aC2f8385FE9743C6eB07",
       "source": "clanker",
-      "volume24h": 13549553.11,
-      "txns24h": 883
+      "volume24h": 13689767.82,
+      "txns24h": 5268
     },
     {
       "tokenName": "闪兑",
@@ -105,6 +106,28 @@
       "txns24h": 4432
     },
     {
+      "tokenName": "LA BASE",
+      "tokenSymbol": "LA BASE",
+      "tokenAddress": "0x23c5f653110543b15635b5c51ca387e5BC4eac24",
+      "imageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096022705824813058/img/gIszpjAjQ0KlMCjH.jpg?name=small",
+      "createdAt": "2026-09-05 00:08:39",
+      "poolId": "0x08f61898535f7a8cd82529ca22cd0ce6bb9106ccd8fee74866d93e1028a2f560",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pbs.twimg.com/amplify_video_thumb/2096022705824813058/img/gIszpjAjQ0KlMCjH.jpg?name=small",
+        "verified": false,
+        "operatorAddress": "0x55bf048c706a75eC549824A4e77e7D7B24390F96",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x55bf048c706a75eC549824A4e77e7D7B24390F96",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x08f61898535f7a8cd82529ca22cd0ce6bb9106ccd8fee74866d93e1028a2f560",
+      "basescanUrl": "https://basescan.org/token/0x23c5f653110543b15635b5c51ca387e5BC4eac24",
+      "source": "clanker",
+      "volume24h": 6914.84,
+      "txns24h": 102
+    },
+    {
       "tokenName": "Flap",
       "tokenSymbol": "FLAP",
       "tokenAddress": "0x811B77a72Acb667CB4b17D6A9208a86e83aedB07",
@@ -123,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x855fbdefe8ebb7830713b4327d044269c7fe9d7c",
       "basescanUrl": "https://basescan.org/token/0x811B77a72Acb667CB4b17D6A9208a86e83aedB07",
       "source": "clanker",
-      "volume24h": 54952201.75,
-      "txns24h": 7797
+      "volume24h": 96350.27,
+      "txns24h": 3415
     }
   ]
 }

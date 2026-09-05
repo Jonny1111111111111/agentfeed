@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 236,
   "items": [
     {
       "tokenName": "1股=100000代币",
@@ -94,6 +94,28 @@
       "source": "clanker",
       "volume24h": 36290034.42,
       "txns24h": 201
+    },
+    {
+      "tokenName": "LA BASE",
+      "tokenSymbol": "LA BASE",
+      "tokenAddress": "0x23c5f653110543b15635b5c51ca387e5BC4eac24",
+      "imageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096022705824813058/img/gIszpjAjQ0KlMCjH.jpg?name=small",
+      "createdAt": "2026-09-05 00:08:39",
+      "poolId": "0x08f61898535f7a8cd82529ca22cd0ce6bb9106ccd8fee74866d93e1028a2f560",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://pbs.twimg.com/amplify_video_thumb/2096022705824813058/img/gIszpjAjQ0KlMCjH.jpg?name=small",
+        "verified": false,
+        "operatorAddress": "0x55bf048c706a75eC549824A4e77e7D7B24390F96",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x55bf048c706a75eC549824A4e77e7D7B24390F96",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x08f61898535f7a8cd82529ca22cd0ce6bb9106ccd8fee74866d93e1028a2f560",
+      "basescanUrl": "https://basescan.org/token/0x23c5f653110543b15635b5c51ca387e5BC4eac24",
+      "source": "clanker",
+      "volume24h": 6914.84,
+      "txns24h": 102
     },
     {
       "tokenName": "Flap",
