@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-05T02:18:03.324Z",
+  "generatedAt": "2026-09-05T09:46:21.599Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 789,
-    "chain": 89,
-    "persisted": 6
+    "api": 791,
+    "chain": 73,
+    "persisted": 7
   },
-  "count": 7,
+  "count": 8,
   "addresses": [
+    "0x170a696b549d00a1e519bcf5ead992e46da90b07",
     "0xa5efe14424255bb5ada89f4e7e5a83e2c610cb07",
     "0x811b77a72acb667cb4b17d6a9208a86e83aedb07",
     "0x9927897f2a13c41fdd299ec77fb2f4b6363c0b07",
@@ -18,6 +19,28 @@
     "0x99e146d35d1cd98d7fc466c0385bbdd1b64f3b07"
   ],
   "items": [
+    {
+      "tokenName": "SanDisk",
+      "tokenSymbol": "闪迪股票",
+      "tokenAddress": "0x170a696b549d00a1e519bcf5EaD992E46DA90b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih2b4byz67pliy6b3vfcpb5w62il4dzk24mckhet3qtbwuviftdgy",
+      "createdAt": "2026-09-05 08:31:05",
+      "poolId": "0xf2E3EdacE061f8ce69d4Acb0FAa57259346E283e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih2b4byz67pliy6b3vfcpb5w62il4dzk24mckhet3qtbwuviftdgy",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf2e3edace061f8ce69d4acb0faa57259346e283e",
+      "basescanUrl": "https://basescan.org/token/0x170a696b549d00a1e519bcf5EaD992E46DA90b07",
+      "source": "clanker",
+      "volume24h": 10188749.809999999,
+      "txns24h": 1206
+    },
     {
       "tokenName": "Cybercab",
       "tokenSymbol": "Cybercab",
@@ -37,8 +60,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc2a13a8cdf4c3c6c86fdd37b761381a5c2a85e8c",
       "basescanUrl": "https://basescan.org/token/0xA5efE14424255bB5aDA89f4e7e5a83e2C610cB07",
       "source": "clanker",
-      "volume24h": 36290034.42,
-      "txns24h": 201
+      "volume24h": 36406906.339999996,
+      "txns24h": 4432
     },
     {
       "tokenName": "Flap",
@@ -81,8 +104,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1a812b30ccd8756562081f9ed9124aecc1746144",
       "basescanUrl": "https://basescan.org/token/0x9927897f2A13C41fDd299eC77Fb2f4B6363c0B07",
       "source": "clanker",
-      "volume24h": 12193022.69,
-      "txns24h": 2130
+      "volume24h": 12193022.709999999,
+      "txns24h": 2131
     },
     {
       "tokenName": "A Meme Coin",
@@ -103,8 +126,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc02e92d0098c53659e216323cb174eabebb8d4de",
       "basescanUrl": "https://basescan.org/token/0x8E401e0942B481a71Faf440eA5e3b088b94E3B07",
       "source": "clanker",
-      "volume24h": 7558302.59,
-      "txns24h": 530
+      "volume24h": 7558302.680000001,
+      "txns24h": 532
     },
     {
       "tokenName": "Cybercab",
@@ -125,8 +148,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd97b96b07cf15621c8addfcb144778bb293ad939",
       "basescanUrl": "https://basescan.org/token/0x85896C680C7Dc02D19e3799740a5cc0A77382B07",
       "source": "clanker",
-      "volume24h": 10444721.120000001,
-      "txns24h": 7622
+      "volume24h": 312057.67,
+      "txns24h": 1309
     },
     {
       "tokenName": "Cybercab",
@@ -147,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0e37424bb918175afb7009e0727a5031b4261fea",
       "basescanUrl": "https://basescan.org/token/0xbe047E916C8458eaF8C0Da70527882EA01874B07",
       "source": "clanker",
-      "volume24h": 7678885.23,
-      "txns24h": 1540
+      "volume24h": 254742.40999999997,
+      "txns24h": 1462
     },
     {
       "tokenName": "我的女友景甜",
@@ -169,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x43e19f2a1d1db7d281a2253366bedf9b1fd73feb",
       "basescanUrl": "https://basescan.org/token/0x99e146d35d1cd98D7Fc466c0385bbdd1B64f3b07",
       "source": "clanker",
-      "volume24h": 1484106.53,
-      "txns24h": 4656
+      "volume24h": 52031.200000000004,
+      "txns24h": 151
     }
   ]
 }
