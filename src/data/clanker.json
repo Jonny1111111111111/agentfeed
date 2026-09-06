@@ -1,20 +1,19 @@
 {
-  "generatedAt": "2026-09-06T02:13:59.904Z",
+  "generatedAt": "2026-09-06T10:01:45.135Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 787,
-    "chain": 128,
+    "api": 788,
+    "chain": 36,
     "persisted": 6
   },
-  "count": 6,
+  "count": 5,
   "addresses": [
     "0x436fec0d4cdd1a4b0fcec5eff1342dd21b192b07",
     "0xc9750053fe947e0961eab0f3e29325f0311dcb07",
     "0xb9138b1470008555a454ac2f8385fe9743c6eb07",
     "0x3a7bd214e929113cb19b7e7710e5baab8194eb07",
-    "0x170a696b549d00a1e519bcf5ead992e46da90b07",
-    "0xa5efe14424255bb5ada89f4e7e5a83e2c610cb07"
+    "0x170a696b549d00a1e519bcf5ead992e46da90b07"
   ],
   "items": [
     {
@@ -36,8 +35,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x11523a15f269354a8776e76cf15b0ec4123573a0f876c0c5a41abf2253e4fd4d",
       "basescanUrl": "https://basescan.org/token/0x436FeC0D4cDD1a4B0FCeC5EfF1342dd21b192b07",
       "source": "clanker",
-      "volume24h": 25873721.229999997,
-      "txns24h": 1359
+      "volume24h": 25935623,
+      "txns24h": 3473
     },
     {
       "tokenName": "C",
@@ -58,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x08c2222ab55c9ddebebe6a9a6a24e882e4a6f764b8246e2f9f93520edc27dca1",
       "basescanUrl": "https://basescan.org/token/0xC9750053FE947E0961eab0f3E29325F0311DCb07",
       "source": "clanker",
-      "volume24h": 779686.0700000001,
-      "txns24h": 3816
+      "volume24h": 788836.27,
+      "txns24h": 3934
     },
     {
       "tokenName": "1股=100000代币",
@@ -124,30 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf2e3edace061f8ce69d4acb0faa57259346e283e",
       "basescanUrl": "https://basescan.org/token/0x170a696b549d00a1e519bcf5EaD992E46DA90b07",
       "source": "clanker",
-      "volume24h": 11892814.73,
-      "txns24h": 2165
-    },
-    {
-      "tokenName": "Cybercab",
-      "tokenSymbol": "Cybercab",
-      "tokenAddress": "0xA5efE14424255bB5aDA89f4e7e5a83e2C610cB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
-      "createdAt": "2026-09-05 01:21:27",
-      "poolId": "0xC2a13a8CDF4C3c6C86FDD37B761381A5c2A85e8c",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeif3ijgzbdpjofmzc3oims7cmzaigzouxdcnxi3q6lgfvuoo5nnwfq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xc2a13a8cdf4c3c6c86fdd37b761381a5c2a85e8c",
-      "basescanUrl": "https://basescan.org/token/0xA5efE14424255bB5aDA89f4e7e5a83e2C610cB07",
-      "source": "clanker",
-      "volume24h": 2586876.5599999996,
-      "txns24h": 4245
+      "volume24h": 1268793.29,
+      "txns24h": 724
     }
   ]
 }
