@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-09-06T19:51:43.442Z",
+  "generatedAt": "2026-09-07T02:11:12.123Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 787,
-    "chain": 69,
+    "chain": 111,
     "persisted": 3
   },
-  "count": 3,
+  "count": 2,
   "addresses": [
     "0x436fec0d4cdd1a4b0fcec5eff1342dd21b192b07",
-    "0xc9750053fe947e0961eab0f3e29325f0311dcb07",
-    "0xb9138b1470008555a454ac2f8385fe9743c6eb07"
+    "0xc9750053fe947e0961eab0f3e29325f0311dcb07"
   ],
   "items": [
     {
@@ -20,7 +19,7 @@
       "tokenAddress": "0x436FeC0D4cDD1a4B0FCeC5EfF1342dd21b192b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiewrbqdltyvmwfkjvv7g57uzdksqw2ry3d2kq6go6cqhqpj3mbe5e",
       "createdAt": "2026-09-06 00:40:21",
-      "poolId": "0xa08b6E2861d9FB536d1Dee34dA06712Ed54b618B",
+      "poolId": "0x11523a15f269354a8776e76cf15b0ec4123573a0f876c0c5a41abf2253e4fd4d",
       "launcher": {
         "name": null,
         "handle": null,
@@ -30,11 +29,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa08b6e2861d9fb536d1dee34da06712ed54b618b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x11523a15f269354a8776e76cf15b0ec4123573a0f876c0c5a41abf2253e4fd4d",
       "basescanUrl": "https://basescan.org/token/0x436FeC0D4cDD1a4B0FCeC5EfF1342dd21b192b07",
       "source": "clanker",
-      "volume24h": 25935652.95,
-      "txns24h": 3485
+      "volume24h": 63413.43,
+      "txns24h": 2201
     },
     {
       "tokenName": "C",
@@ -55,30 +54,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x08c2222ab55c9ddebebe6a9a6a24e882e4a6f764b8246e2f9f93520edc27dca1",
       "basescanUrl": "https://basescan.org/token/0xC9750053FE947E0961eab0f3E29325F0311DCb07",
       "source": "clanker",
-      "volume24h": 789806.7399999999,
-      "txns24h": 3993
-    },
-    {
-      "tokenName": "1股=100000代币",
-      "tokenSymbol": "长鑫科技",
-      "tokenAddress": "0xb9138B1470008555A454aC2f8385FE9743C6eB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreickkn6itu7rremndrta7gxppsecsphdcbviczw6t6xssun7ql6pmm",
-      "createdAt": "2026-09-05 12:54:33",
-      "poolId": "0xF982c6F3f9F13bf9FFD323B7Fcd97c17dfa6A428",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreickkn6itu7rremndrta7gxppsecsphdcbviczw6t6xssun7ql6pmm",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf982c6f3f9f13bf9ffd323b7fcd97c17dfa6a428",
-      "basescanUrl": "https://basescan.org/token/0xb9138B1470008555A454aC2f8385FE9743C6eB07",
-      "source": "clanker",
-      "volume24h": 5121.05,
-      "txns24h": 504
+      "volume24h": 10270.19,
+      "txns24h": 186
     }
   ]
 }
