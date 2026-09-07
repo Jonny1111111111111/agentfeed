@@ -1,15 +1,17 @@
 {
-  "generatedAt": "2026-09-07T16:58:39.669Z",
+  "generatedAt": "2026-09-07T20:58:50.578Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 788,
-    "chain": 146,
-    "persisted": 2
+    "api": 794,
+    "chain": 164,
+    "persisted": 3
   },
-  "count": 3,
+  "count": 5,
   "addresses": [
+    "0x4fb636434b05c5dbcf0070f2e810f8e706277b07",
     "0x2cfa48dd3e126a64a7dfde989c9128fe95b29b07",
+    "0x9230534ac072ff9cda7085d5f2e25336a4651b07",
     "0xdb3c1520d16658d19a2b519eecec08655a140b07",
     "0x0a04fe77b64b9c27f8f43f5c9ccfeeb5a0dbab07"
   ],
@@ -17,10 +19,32 @@
     {
       "tokenName": "Laptop",
       "tokenSymbol": "LAPTOP",
+      "tokenAddress": "0x4FB636434b05C5dbcf0070f2e810f8E706277b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
+      "createdAt": "2026-09-07 17:13:49",
+      "poolId": "0x363F22912EA4f6fe2c006c6C1941a4E478BFd597",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
+        "verified": false,
+        "operatorAddress": "0x7Da01d185d4044f542E0A17D3a907D6AFA29305A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7Da01d185d4044f542E0A17D3a907D6AFA29305A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x363f22912ea4f6fe2c006c6c1941a4e478bfd597",
+      "basescanUrl": "https://basescan.org/token/0x4FB636434b05C5dbcf0070f2e810f8E706277b07",
+      "source": "clanker",
+      "volume24h": 23540869,
+      "txns24h": 6551
+    },
+    {
+      "tokenName": "Laptop",
+      "tokenSymbol": "LAPTOP",
       "tokenAddress": "0x2CfA48dd3e126A64a7DFDe989c9128Fe95B29b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
       "createdAt": "2026-09-07 15:40:11",
-      "poolId": "0x4C43a04DbF1cEE48B5755bfB0523f964222347FC",
+      "poolId": "0xbb72bbc781017534c9d9e33ecf734da29901a11a68e7371a60fa7f0c4b3fe16f",
       "launcher": {
         "name": null,
         "handle": null,
@@ -30,11 +54,33 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x4c43a04dbf1cee48b5755bfb0523f964222347fc",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbb72bbc781017534c9d9e33ecf734da29901a11a68e7371a60fa7f0c4b3fe16f",
       "basescanUrl": "https://basescan.org/token/0x2CfA48dd3e126A64a7DFDe989c9128Fe95B29b07",
       "source": "clanker",
-      "volume24h": 20341714.490000002,
-      "txns24h": 792
+      "volume24h": 20355008.93,
+      "txns24h": 2323
+    },
+    {
+      "tokenName": "CABAL",
+      "tokenSymbol": "CABAL",
+      "tokenAddress": "0x9230534AC072Ff9cda7085D5f2E25336a4651B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie75gh4f43kudsjuzlli2kmxe5ovntko2fdismxskcqvdf3ds7rai",
+      "createdAt": "2026-09-07 12:33:49",
+      "poolId": "0xab2514577377ad2393e2f19fcb918ccd24be4206c0f90b72636e2bc532792633",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie75gh4f43kudsjuzlli2kmxe5ovntko2fdismxskcqvdf3ds7rai",
+        "verified": false,
+        "operatorAddress": "0x182AAD2D7CD2aEe5C7815063D7824e43EcBbea0E",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x182AAD2D7CD2aEe5C7815063D7824e43EcBbea0E",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xab2514577377ad2393e2f19fcb918ccd24be4206c0f90b72636e2bc532792633",
+      "basescanUrl": "https://basescan.org/token/0x9230534AC072Ff9cda7085D5f2E25336a4651B07",
+      "source": "clanker",
+      "volume24h": 1135.33,
+      "txns24h": 120
     },
     {
       "tokenName": "OpenAI",
