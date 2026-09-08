@@ -1,29 +1,51 @@
 {
-  "generatedAt": "2026-09-08T10:23:30.259Z",
+  "generatedAt": "2026-09-08T15:46:34.778Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 799,
-    "chain": 85,
-    "persisted": 5
+    "api": 794,
+    "chain": 100,
+    "persisted": 6
   },
   "count": 6,
   "addresses": [
+    "0xebe772bb43bd3166c4dfc968f1483472ac756b07",
     "0x63e6fdd73e11cda8edf252ad2474bbdd5da04b07",
     "0xa002e475acb822cfa4fb029fc475badd3811ab07",
     "0x4fb636434b05c5dbcf0070f2e810f8e706277b07",
     "0x2cfa48dd3e126a64a7dfde989c9128fe95b29b07",
-    "0x9230534ac072ff9cda7085d5f2e25336a4651b07",
-    "0xdb3c1520d16658d19a2b519eecec08655a140b07"
+    "0x9230534ac072ff9cda7085d5f2e25336a4651b07"
   ],
   "items": [
+    {
+      "tokenName": "Laptop",
+      "tokenSymbol": "LAPTOP",
+      "tokenAddress": "0xebE772bB43bD3166C4DFC968F1483472Ac756b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
+      "createdAt": "2026-09-08 13:23:33",
+      "poolId": "0xb23c1862cf34002704128bba2449eaef437ba498c0a425b2a6d210427477abe5",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
+        "verified": false,
+        "operatorAddress": "0x7Da01d185d4044f542E0A17D3a907D6AFA29305A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7Da01d185d4044f542E0A17D3a907D6AFA29305A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb23c1862cf34002704128bba2449eaef437ba498c0a425b2a6d210427477abe5",
+      "basescanUrl": "https://basescan.org/token/0xebE772bB43bD3166C4DFC968F1483472Ac756b07",
+      "source": "clanker",
+      "volume24h": 36509472.059999995,
+      "txns24h": 2463
+    },
     {
       "tokenName": "LAPTOP",
       "tokenSymbol": "LAPTOP",
       "tokenAddress": "0x63e6FDD73E11Cda8eDf252aD2474Bbdd5DA04B07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeias4zqqphhiizhppekjmcd2n57dh4jk47gtq6bvdxkmusgygavvfi",
       "createdAt": "2026-09-08 05:53:51",
-      "poolId": "0xcfe7924e96a4a453cc0b49cdeb725e0772cd15a62fe0f802bf102a4739fa904c",
+      "poolId": "0x2FDb1bA99a523a8827402b60C0bd99f88EB33095",
       "launcher": {
         "name": null,
         "handle": null,
@@ -33,11 +55,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xcfe7924e96a4a453cc0b49cdeb725e0772cd15a62fe0f802bf102a4739fa904c",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2fdb1ba99a523a8827402b60c0bd99f88eb33095",
       "basescanUrl": "https://basescan.org/token/0x63e6FDD73E11Cda8eDf252aD2474Bbdd5DA04B07",
       "source": "clanker",
-      "volume24h": 24396439.259999998,
-      "txns24h": 5271
+      "volume24h": 24471040.2,
+      "txns24h": 10696
     },
     {
       "tokenName": "Laptop",
@@ -45,7 +67,7 @@
       "tokenAddress": "0xa002e475aCB822CfA4FB029Fc475BAdd3811aB07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeias4zqqphhiizhppekjmcd2n57dh4jk47gtq6bvdxkmusgygavvfi",
       "createdAt": "2026-09-08 02:19:23",
-      "poolId": "0x11d1e0c7009f6d92ed243902f2cc53b9a5fccca71d8b096021de25a91ad93572",
+      "poolId": "0x69d0b845F17fE9635a41f45090b12D0A601AC466",
       "launcher": {
         "name": null,
         "handle": null,
@@ -55,11 +77,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x11d1e0c7009f6d92ed243902f2cc53b9a5fccca71d8b096021de25a91ad93572",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x69d0b845f17fe9635a41f45090b12d0a601ac466",
       "basescanUrl": "https://basescan.org/token/0xa002e475aCB822CfA4FB029Fc475BAdd3811aB07",
       "source": "clanker",
-      "volume24h": 23150436.06,
-      "txns24h": 5335
+      "volume24h": 23150638.13,
+      "txns24h": 5360
     },
     {
       "tokenName": "Laptop",
@@ -80,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x02c3f40443527628bcbfe056d78ec9c0a3a5388cd0ee349706d261ba60c32ca6",
       "basescanUrl": "https://basescan.org/token/0x4FB636434b05C5dbcf0070f2e810f8E706277b07",
       "source": "clanker",
-      "volume24h": 23688435.06,
-      "txns24h": 17877
+      "volume24h": 23688554.749999996,
+      "txns24h": 17950
     },
     {
       "tokenName": "Laptop",
@@ -102,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xbb72bbc781017534c9d9e33ecf734da29901a11a68e7371a60fa7f0c4b3fe16f",
       "basescanUrl": "https://basescan.org/token/0x2CfA48dd3e126A64a7DFDe989c9128Fe95B29b07",
       "source": "clanker",
-      "volume24h": 20355487.71,
-      "txns24h": 2422
+      "volume24h": 20355548.14,
+      "txns24h": 2430
     },
     {
       "tokenName": "CABAL",
@@ -111,7 +133,7 @@
       "tokenAddress": "0x9230534AC072Ff9cda7085D5f2E25336a4651B07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie75gh4f43kudsjuzlli2kmxe5ovntko2fdismxskcqvdf3ds7rai",
       "createdAt": "2026-09-07 12:33:49",
-      "poolId": "0xab2514577377ad2393e2f19fcb918ccd24be4206c0f90b72636e2bc532792633",
+      "poolId": "0xf283df2413ece57538e9812211e41d132edbcd78a084854901b3a56981d1bf57",
       "launcher": {
         "name": null,
         "handle": null,
@@ -121,33 +143,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0x182AAD2D7CD2aEe5C7815063D7824e43EcBbea0E",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xab2514577377ad2393e2f19fcb918ccd24be4206c0f90b72636e2bc532792633",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf283df2413ece57538e9812211e41d132edbcd78a084854901b3a56981d1bf57",
       "basescanUrl": "https://basescan.org/token/0x9230534AC072Ff9cda7085D5f2E25336a4651B07",
       "source": "clanker",
-      "volume24h": 1677.44,
-      "txns24h": 195
-    },
-    {
-      "tokenName": "OpenAI",
-      "tokenSymbol": "OpenAI",
-      "tokenAddress": "0xdb3c1520d16658d19a2b519EEcec08655a140B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-      "createdAt": "2026-09-07 07:30:25",
-      "poolId": "0xb64ec965740fe9c75b96994b5f21431037ff4406bc5f8e4dc43bd2a028094cb6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidgvnqi76t44vg2lkxorkewxox4tkip45dujj37xggyznaft6xtpq",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb64ec965740fe9c75b96994b5f21431037ff4406bc5f8e4dc43bd2a028094cb6",
-      "basescanUrl": "https://basescan.org/token/0xdb3c1520d16658d19a2b519EEcec08655a140B07",
-      "source": "clanker",
-      "volume24h": 10678.039999999999,
-      "txns24h": 506
+      "volume24h": 1991.0800000000002,
+      "txns24h": 204
     }
   ]
 }
