@@ -1,20 +1,19 @@
 {
-  "generatedAt": "2026-09-08T15:46:34.778Z",
+  "generatedAt": "2026-09-08T20:34:08.338Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 794,
-    "chain": 100,
+    "chain": 182,
     "persisted": 6
   },
-  "count": 6,
+  "count": 5,
   "addresses": [
     "0xebe772bb43bd3166c4dfc968f1483472ac756b07",
     "0x63e6fdd73e11cda8edf252ad2474bbdd5da04b07",
     "0xa002e475acb822cfa4fb029fc475badd3811ab07",
     "0x4fb636434b05c5dbcf0070f2e810f8e706277b07",
-    "0x2cfa48dd3e126a64a7dfde989c9128fe95b29b07",
-    "0x9230534ac072ff9cda7085d5f2e25336a4651b07"
+    "0x2cfa48dd3e126a64a7dfde989c9128fe95b29b07"
   ],
   "items": [
     {
@@ -36,8 +35,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xb23c1862cf34002704128bba2449eaef437ba498c0a425b2a6d210427477abe5",
       "basescanUrl": "https://basescan.org/token/0xebE772bB43bD3166C4DFC968F1483472Ac756b07",
       "source": "clanker",
-      "volume24h": 36509472.059999995,
-      "txns24h": 2463
+      "volume24h": 36646593.10999999,
+      "txns24h": 5484
     },
     {
       "tokenName": "LAPTOP",
@@ -58,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2fdb1ba99a523a8827402b60c0bd99f88eb33095",
       "basescanUrl": "https://basescan.org/token/0x63e6FDD73E11Cda8eDf252aD2474Bbdd5DA04B07",
       "source": "clanker",
-      "volume24h": 24471040.2,
-      "txns24h": 10696
+      "volume24h": 24472146.54,
+      "txns24h": 11392
     },
     {
       "tokenName": "Laptop",
@@ -80,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x69d0b845f17fe9635a41f45090b12d0a601ac466",
       "basescanUrl": "https://basescan.org/token/0xa002e475aCB822CfA4FB029Fc475BAdd3811aB07",
       "source": "clanker",
-      "volume24h": 23150638.13,
-      "txns24h": 5360
+      "volume24h": 23150651.91,
+      "txns24h": 5388
     },
     {
       "tokenName": "Laptop",
@@ -102,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x02c3f40443527628bcbfe056d78ec9c0a3a5388cd0ee349706d261ba60c32ca6",
       "basescanUrl": "https://basescan.org/token/0x4FB636434b05C5dbcf0070f2e810f8E706277b07",
       "source": "clanker",
-      "volume24h": 23688554.749999996,
-      "txns24h": 17950
+      "volume24h": 157619.05000000002,
+      "txns24h": 12270
     },
     {
       "tokenName": "Laptop",
@@ -124,30 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xbb72bbc781017534c9d9e33ecf734da29901a11a68e7371a60fa7f0c4b3fe16f",
       "basescanUrl": "https://basescan.org/token/0x2CfA48dd3e126A64a7DFDe989c9128Fe95B29b07",
       "source": "clanker",
-      "volume24h": 20355548.14,
-      "txns24h": 2430
-    },
-    {
-      "tokenName": "CABAL",
-      "tokenSymbol": "CABAL",
-      "tokenAddress": "0x9230534AC072Ff9cda7085D5f2E25336a4651B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie75gh4f43kudsjuzlli2kmxe5ovntko2fdismxskcqvdf3ds7rai",
-      "createdAt": "2026-09-07 12:33:49",
-      "poolId": "0xf283df2413ece57538e9812211e41d132edbcd78a084854901b3a56981d1bf57",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie75gh4f43kudsjuzlli2kmxe5ovntko2fdismxskcqvdf3ds7rai",
-        "verified": false,
-        "operatorAddress": "0x182AAD2D7CD2aEe5C7815063D7824e43EcBbea0E",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x182AAD2D7CD2aEe5C7815063D7824e43EcBbea0E",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf283df2413ece57538e9812211e41d132edbcd78a084854901b3a56981d1bf57",
-      "basescanUrl": "https://basescan.org/token/0x9230534AC072Ff9cda7085D5f2E25336a4651B07",
-      "source": "clanker",
-      "volume24h": 1991.0800000000002,
-      "txns24h": 204
+      "volume24h": 570.8899999999999,
+      "txns24h": 142
     }
   ]
 }
