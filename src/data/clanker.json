@@ -1,16 +1,17 @@
 {
-  "generatedAt": "2026-09-11T15:39:39.691Z",
+  "generatedAt": "2026-09-11T20:19:00.326Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 795,
+    "api": 794,
     "chain": 0,
-    "persisted": 4
+    "persisted": 3
   },
-  "count": 3,
+  "count": 4,
   "addresses": [
     "0x71ae06e05b192713ee5ab14843103f00ef2b5b07",
     "0xd696940a9adcaa876fae5239f7a8e705ba8edb07",
+    "0x72f47da54c9a3ff0fb2fc19a0ab946753b17fb07",
     "0x810ff17a63643bdac9145e5be3d2625c24fe2b07"
   ],
   "items": [
@@ -33,8 +34,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x63abd01e353631f6aaef6d5d3cb78e7e4a646325395a69143b6bcc54e0abf045",
       "basescanUrl": "https://basescan.org/token/0x71AE06e05b192713ee5aB14843103F00ef2b5B07",
       "source": "clanker",
-      "volume24h": 8364429.589999999,
-      "txns24h": 1511
+      "volume24h": 8364478.8,
+      "txns24h": 1519
     },
     {
       "tokenName": "牛来",
@@ -55,8 +56,30 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xdb01c4fe7f89b9cde92a9c35ce522396e760028a65bac39119e96f2dc342a65d",
       "basescanUrl": "https://basescan.org/token/0xD696940A9aDcAA876fAe5239F7A8E705Ba8EDB07",
       "source": "clanker",
-      "volume24h": 6696.46,
-      "txns24h": 3733
+      "volume24h": 6696.4800000000005,
+      "txns24h": 3735
+    },
+    {
+      "tokenName": "COIN-OP",
+      "tokenSymbol": "COINOP",
+      "tokenAddress": "0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "imageUrl": "https://coinop.industries/brand/coinop-pfp-800.png",
+      "createdAt": "2026-09-11 03:11:37",
+      "poolId": "0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://coinop.industries/brand/coinop-pfp-800.png",
+        "verified": false,
+        "operatorAddress": "0x0964cb0939610b88f6b79d16453962238a52A505",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0964cb0939610b88f6b79d16453962238a52A505",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "source": "clanker",
+      "volume24h": 4685.56,
+      "txns24h": 110
     },
     {
       "tokenName": "OpenAI",
@@ -77,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8759b0a4126eefe36b44455f0eaba503641b5d344e527b5432c4e773bb321be0",
       "basescanUrl": "https://basescan.org/token/0x810fF17A63643BDAc9145E5BE3d2625c24FE2b07",
       "source": "clanker",
-      "volume24h": 18641366.990000002,
-      "txns24h": 5367
+      "volume24h": 18641367.02,
+      "txns24h": 5369
     }
   ]
 }
