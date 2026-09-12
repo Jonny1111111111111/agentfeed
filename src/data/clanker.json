@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-09-12T14:46:15.222Z",
+  "generatedAt": "2026-09-12T19:59:30.583Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 791,
+    "api": 792,
     "chain": 0,
-    "persisted": 2
+    "persisted": 1
   },
-  "count": 1,
+  "count": 2,
   "addresses": [
-    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07"
+    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07",
+    "0x72f47da54c9a3ff0fb2fc19a0ab946753b17fb07"
   ],
   "items": [
     {
@@ -31,8 +32,30 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xab9c457e9e932e14144763dbf2d81d1d3df05ed7f9a7364d0f474f1ec454b59f",
       "basescanUrl": "https://basescan.org/token/0x449B9198d91BC04E46a2eC38D6cFA85E4cDf4B07",
       "source": "clanker",
-      "volume24h": 162649.13999999998,
-      "txns24h": 9779
+      "volume24h": 165427.3,
+      "txns24h": 11128
+    },
+    {
+      "tokenName": "COIN-OP",
+      "tokenSymbol": "COINOP",
+      "tokenAddress": "0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "imageUrl": "https://coinop.industries/brand/coinop-pfp-800.png",
+      "createdAt": "2026-09-11 03:11:37",
+      "poolId": "0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://coinop.industries/brand/coinop-pfp-800.png",
+        "verified": false,
+        "operatorAddress": "0x0964cb0939610b88f6b79d16453962238a52A505",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0964cb0939610b88f6b79d16453962238a52A505",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "source": "clanker",
+      "volume24h": 54401.23,
+      "txns24h": 667
     }
   ]
 }
