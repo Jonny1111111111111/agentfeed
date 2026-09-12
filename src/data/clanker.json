@@ -1,20 +1,43 @@
 {
-  "generatedAt": "2026-09-11T20:19:00.326Z",
+  "generatedAt": "2026-09-12T02:28:12.810Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 794,
+    "api": 795,
     "chain": 0,
-    "persisted": 3
+    "persisted": 4
   },
-  "count": 4,
+  "count": 5,
   "addresses": [
+    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07",
     "0x71ae06e05b192713ee5ab14843103f00ef2b5b07",
     "0xd696940a9adcaa876fae5239f7a8e705ba8edb07",
     "0x72f47da54c9a3ff0fb2fc19a0ab946753b17fb07",
     "0x810ff17a63643bdac9145e5be3d2625c24fe2b07"
   ],
   "items": [
+    {
+      "tokenName": "LAPTOP",
+      "tokenSymbol": "LAPTOP",
+      "tokenAddress": "0x449B9198d91BC04E46a2eC38D6cFA85E4cDf4B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
+      "createdAt": "2026-09-12 00:58:39",
+      "poolId": "0xab9c457e9e932e14144763dbf2d81d1d3df05ed7f9a7364d0f474f1ec454b59f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xab9c457e9e932e14144763dbf2d81d1d3df05ed7f9a7364d0f474f1ec454b59f",
+      "basescanUrl": "https://basescan.org/token/0x449B9198d91BC04E46a2eC38D6cFA85E4cDf4B07",
+      "source": "clanker",
+      "volume24h": 27901.13,
+      "txns24h": 864
+    },
     {
       "tokenName": "Base Stock",
       "tokenSymbol": "BaseStock",
@@ -34,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x63abd01e353631f6aaef6d5d3cb78e7e4a646325395a69143b6bcc54e0abf045",
       "basescanUrl": "https://basescan.org/token/0x71AE06e05b192713ee5aB14843103F00ef2b5B07",
       "source": "clanker",
-      "volume24h": 8364478.8,
-      "txns24h": 1519
+      "volume24h": 8364507.609999999,
+      "txns24h": 3054
     },
     {
       "tokenName": "牛来",
@@ -78,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
       "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
       "source": "clanker",
-      "volume24h": 4685.56,
-      "txns24h": 110
+      "volume24h": 4765.82,
+      "txns24h": 120
     },
     {
       "tokenName": "OpenAI",
@@ -100,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8759b0a4126eefe36b44455f0eaba503641b5d344e527b5432c4e773bb321be0",
       "basescanUrl": "https://basescan.org/token/0x810fF17A63643BDAc9145E5BE3d2625c24FE2b07",
       "source": "clanker",
-      "volume24h": 18641367.02,
-      "txns24h": 5369
+      "volume24h": 113015.57,
+      "txns24h": 5062
     }
   ]
 }
