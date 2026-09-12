@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-09-12T09:54:13.017Z",
+  "generatedAt": "2026-09-12T14:46:15.222Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 794,
+    "api": 791,
     "chain": 0,
-    "persisted": 5
+    "persisted": 2
   },
-  "count": 2,
+  "count": 1,
   "addresses": [
-    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07",
-    "0x71ae06e05b192713ee5ab14843103f00ef2b5b07"
+    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07"
   ],
   "items": [
     {
@@ -32,30 +31,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xab9c457e9e932e14144763dbf2d81d1d3df05ed7f9a7364d0f474f1ec454b59f",
       "basescanUrl": "https://basescan.org/token/0x449B9198d91BC04E46a2eC38D6cFA85E4cDf4B07",
       "source": "clanker",
-      "volume24h": 162081.86999999997,
-      "txns24h": 8766
-    },
-    {
-      "tokenName": "Base Stock",
-      "tokenSymbol": "BaseStock",
-      "tokenAddress": "0x71AE06e05b192713ee5aB14843103F00ef2b5B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibkahioxcii7oda3mqvq5ytis6iapsmhvdzzmbpupyyslslsvc6fi",
-      "createdAt": "2026-09-11 12:09:35",
-      "poolId": "0x63abd01e353631f6aaef6d5d3cb78e7e4a646325395a69143b6bcc54e0abf045",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibkahioxcii7oda3mqvq5ytis6iapsmhvdzzmbpupyyslslsvc6fi",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x63abd01e353631f6aaef6d5d3cb78e7e4a646325395a69143b6bcc54e0abf045",
-      "basescanUrl": "https://basescan.org/token/0x71AE06e05b192713ee5aB14843103F00ef2b5B07",
-      "source": "clanker",
-      "volume24h": 8364508.06,
-      "txns24h": 3057
+      "volume24h": 162649.13999999998,
+      "txns24h": 9779
     }
   ]
 }
