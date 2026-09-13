@@ -1,18 +1,64 @@
 {
-  "generatedAt": "2026-09-13T10:54:18.232Z",
+  "generatedAt": "2026-09-13T15:26:00.632Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 782,
+    "api": 781,
     "chain": 0,
     "persisted": 2
   },
-  "count": 2,
+  "count": 4,
   "addresses": [
+    "0x392ac6abd370dca45271b827c196e758223d4b07",
+    "0x93685214cbf8a56a6d3f25d3d26fe3242465ab07",
     "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07",
     "0x72f47da54c9a3ff0fb2fc19a0ab946753b17fb07"
   ],
   "items": [
+    {
+      "tokenName": "Arc",
+      "tokenSymbol": "Arc",
+      "tokenAddress": "0x392AC6abd370DCA45271B827C196E758223d4b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreielfxlh5s5czcou37qsem3xsqo2lupoln5brtrrbhjkly5pisam5m",
+      "createdAt": "2026-09-13 13:28:17",
+      "poolId": "0xd1f8bbb1454f85f25db1b24fc472f6419718f728f3e76d4d43ce324733f67751",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreielfxlh5s5czcou37qsem3xsqo2lupoln5brtrrbhjkly5pisam5m",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd1f8bbb1454f85f25db1b24fc472f6419718f728f3e76d4d43ce324733f67751",
+      "basescanUrl": "https://basescan.org/token/0x392AC6abd370DCA45271B827C196E758223d4b07",
+      "source": "clanker",
+      "volume24h": 34808014.80000001,
+      "txns24h": 1482
+    },
+    {
+      "tokenName": "富贵",
+      "tokenSymbol": "富贵",
+      "tokenAddress": "0x93685214cBf8a56a6D3f25d3d26Fe3242465Ab07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihfs4cdjjk4mrtgqcquzzr3m437bkeyygktfx7ni6izrftb4zlm4e",
+      "createdAt": "2026-09-13 10:27:37",
+      "poolId": "0x95839c1156d9adf1fe09906d26a6da4b3af1f121a4dfb328a351e80ae72285ce",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihfs4cdjjk4mrtgqcquzzr3m437bkeyygktfx7ni6izrftb4zlm4e",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x95839c1156d9adf1fe09906d26a6da4b3af1f121a4dfb328a351e80ae72285ce",
+      "basescanUrl": "https://basescan.org/token/0x93685214cBf8a56a6D3f25d3d26Fe3242465Ab07",
+      "source": "clanker",
+      "volume24h": 12605423.29,
+      "txns24h": 2387
+    },
     {
       "tokenName": "LAPTOP",
       "tokenSymbol": "LAPTOP",
@@ -32,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xab9c457e9e932e14144763dbf2d81d1d3df05ed7f9a7364d0f474f1ec454b59f",
       "basescanUrl": "https://basescan.org/token/0x449B9198d91BC04E46a2eC38D6cFA85E4cDf4B07",
       "source": "clanker",
-      "volume24h": 6894071.24,
-      "txns24h": 8024
+      "volume24h": 6894554.069999999,
+      "txns24h": 6547
     },
     {
       "tokenName": "COIN-OP",
@@ -54,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
       "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
       "source": "clanker",
-      "volume24h": 57556.3,
-      "txns24h": 743
+      "volume24h": 57717.09,
+      "txns24h": 760
     }
   ]
 }
