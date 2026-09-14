@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 232,
+  "count": 233,
   "items": [
+    {
+      "tokenName": "FOUR INU",
+      "tokenSymbol": "4INU",
+      "tokenAddress": "0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
+      "imageUrl": "https://fou4pad.vercel.app/api/image/7",
+      "createdAt": "2026-09-14 19:07:31",
+      "poolId": "0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://fou4pad.vercel.app/api/image/7",
+        "verified": false,
+        "operatorAddress": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
+      "basescanUrl": "https://basescan.org/token/0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
+      "source": "clanker",
+      "volume24h": 6820.39,
+      "txns24h": 141
+    },
     {
       "tokenName": "LONG",
       "tokenSymbol": "LONG",

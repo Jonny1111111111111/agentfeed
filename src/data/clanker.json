@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-09-14T17:22:31.990Z",
+  "generatedAt": "2026-09-14T21:16:50.606Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
     "api": 784,
     "chain": 0,
-    "persisted": 4
+    "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0x6e1652bf766a91c1c3a7a9cb6ed7827a468cb854",
     "0xd4f5725c5967d6568a17927e095ad73aeb6fab07",
     "0x392ac6abd370dca45271b827c196e758223d4b07"
   ],
   "items": [
+    {
+      "tokenName": "FOUR INU",
+      "tokenSymbol": "4INU",
+      "tokenAddress": "0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
+      "imageUrl": "https://fou4pad.vercel.app/api/image/7",
+      "createdAt": "2026-09-14 19:07:31",
+      "poolId": "0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://fou4pad.vercel.app/api/image/7",
+        "verified": false,
+        "operatorAddress": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
+      "basescanUrl": "https://basescan.org/token/0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
+      "source": "clanker",
+      "volume24h": 6820.39,
+      "txns24h": 141
+    },
     {
       "tokenName": "LONG",
       "tokenSymbol": "LONG",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x47358e720da794f319aba3c845883b0f5e17d1e5",
       "basescanUrl": "https://basescan.org/token/0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
       "source": "clanker",
-      "volume24h": 35090623.97,
-      "txns24h": 6374
+      "volume24h": 35091058.669999994,
+      "txns24h": 7725
     },
     {
       "tokenName": "Arc",
@@ -54,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd1f8bbb1454f85f25db1b24fc472f6419718f728f3e76d4d43ce324733f67751",
       "basescanUrl": "https://basescan.org/token/0x392AC6abd370DCA45271B827C196E758223d4b07",
       "source": "clanker",
-      "volume24h": 2203.53,
-      "txns24h": 644
+      "volume24h": 2044.48,
+      "txns24h": 633
     }
   ]
 }
