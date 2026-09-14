@@ -8,6 +8,28 @@
   "count": 234,
   "items": [
     {
+      "tokenName": "LONG",
+      "tokenSymbol": "LONG",
+      "tokenAddress": "0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
+      "createdAt": "2026-09-14 05:36:21",
+      "poolId": "0x2c5704ed6795d4bff18fa59320834e1c4f2fe47fbb8946d40148d51059a73fe3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2c5704ed6795d4bff18fa59320834e1c4f2fe47fbb8946d40148d51059a73fe3",
+      "basescanUrl": "https://basescan.org/token/0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
+      "source": "clanker",
+      "volume24h": 35052243.419999994,
+      "txns24h": 3291
+    },
+    {
       "tokenName": "Arc",
       "tokenSymbol": "Arc",
       "tokenAddress": "0x392AC6abd370DCA45271B827C196E758223d4b07",
@@ -72,28 +94,6 @@
       "source": "clanker",
       "volume24h": 27901.13,
       "txns24h": 864
-    },
-    {
-      "tokenName": "COIN-OP",
-      "tokenSymbol": "COINOP",
-      "tokenAddress": "0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
-      "imageUrl": "https://coinop.industries/brand/coinop-pfp-800.png",
-      "createdAt": "2026-09-11 03:11:37",
-      "poolId": "0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://coinop.industries/brand/coinop-pfp-800.png",
-        "verified": false,
-        "operatorAddress": "0x0964cb0939610b88f6b79d16453962238a52A505",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0964cb0939610b88f6b79d16453962238a52A505",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
-      "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
-      "source": "clanker",
-      "volume24h": 54401.23,
-      "txns24h": 667
     },
     {
       "tokenName": "Gang",

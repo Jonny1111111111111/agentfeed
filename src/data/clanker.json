@@ -1,20 +1,42 @@
 {
-  "generatedAt": "2026-09-14T02:43:49.429Z",
+  "generatedAt": "2026-09-14T11:24:20.274Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 783,
+    "api": 785,
     "chain": 0,
     "persisted": 4
   },
   "count": 4,
   "addresses": [
+    "0xd4f5725c5967d6568a17927e095ad73aeb6fab07",
     "0x392ac6abd370dca45271b827c196e758223d4b07",
     "0x93685214cbf8a56a6d3f25d3d26fe3242465ab07",
-    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07",
-    "0x72f47da54c9a3ff0fb2fc19a0ab946753b17fb07"
+    "0x449b9198d91bc04e46a2ec38d6cfa85e4cdf4b07"
   ],
   "items": [
+    {
+      "tokenName": "LONG",
+      "tokenSymbol": "LONG",
+      "tokenAddress": "0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
+      "createdAt": "2026-09-14 05:36:21",
+      "poolId": "0x2c5704ed6795d4bff18fa59320834e1c4f2fe47fbb8946d40148d51059a73fe3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2c5704ed6795d4bff18fa59320834e1c4f2fe47fbb8946d40148d51059a73fe3",
+      "basescanUrl": "https://basescan.org/token/0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
+      "source": "clanker",
+      "volume24h": 35052243.419999994,
+      "txns24h": 3291
+    },
     {
       "tokenName": "Arc",
       "tokenSymbol": "Arc",
@@ -34,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd1f8bbb1454f85f25db1b24fc472f6419718f728f3e76d4d43ce324733f67751",
       "basescanUrl": "https://basescan.org/token/0x392AC6abd370DCA45271B827C196E758223d4b07",
       "source": "clanker",
-      "volume24h": 34829648.13000001,
-      "txns24h": 3277
+      "volume24h": 34830325.77000001,
+      "txns24h": 3423
     },
     {
       "tokenName": "富贵",
@@ -56,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x95839c1156d9adf1fe09906d26a6da4b3af1f121a4dfb328a351e80ae72285ce",
       "basescanUrl": "https://basescan.org/token/0x93685214cBf8a56a6D3f25d3d26Fe3242465Ab07",
       "source": "clanker",
-      "volume24h": 12605423.37,
-      "txns24h": 2389
+      "volume24h": 45411.23,
+      "txns24h": 1793
     },
     {
       "tokenName": "LAPTOP",
@@ -78,30 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xab9c457e9e932e14144763dbf2d81d1d3df05ed7f9a7364d0f474f1ec454b59f",
       "basescanUrl": "https://basescan.org/token/0x449B9198d91BC04E46a2eC38D6cFA85E4cDf4B07",
       "source": "clanker",
-      "volume24h": 2191472.18,
-      "txns24h": 2586
-    },
-    {
-      "tokenName": "COIN-OP",
-      "tokenSymbol": "COINOP",
-      "tokenAddress": "0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
-      "imageUrl": "https://coinop.industries/brand/coinop-pfp-800.png",
-      "createdAt": "2026-09-11 03:11:37",
-      "poolId": "0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://coinop.industries/brand/coinop-pfp-800.png",
-        "verified": false,
-        "operatorAddress": "0x0964cb0939610b88f6b79d16453962238a52A505",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0964cb0939610b88f6b79d16453962238a52A505",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
-      "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
-      "source": "clanker",
-      "volume24h": 1113.48,
-      "txns24h": 106
+      "volume24h": 1380.35,
+      "txns24h": 138
     }
   ]
 }
