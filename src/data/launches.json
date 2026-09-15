@@ -74,28 +74,6 @@
       "txns24h": 3260
     },
     {
-      "tokenName": "FOUR INU",
-      "tokenSymbol": "4INU",
-      "tokenAddress": "0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
-      "imageUrl": "https://fou4pad.vercel.app/api/image/7",
-      "createdAt": "2026-09-14 19:07:31",
-      "poolId": "0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://fou4pad.vercel.app/api/image/7",
-        "verified": false,
-        "operatorAddress": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
-      "basescanUrl": "https://basescan.org/token/0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
-      "source": "clanker",
-      "volume24h": 6820.39,
-      "txns24h": 141
-    },
-    {
       "tokenName": "LONG",
       "tokenSymbol": "LONG",
       "tokenAddress": "0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
@@ -116,6 +94,28 @@
       "source": "clanker",
       "volume24h": 35052243.419999994,
       "txns24h": 3291
+    },
+    {
+      "tokenName": "COIN-OP",
+      "tokenSymbol": "COINOP",
+      "tokenAddress": "0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "imageUrl": "https://coinop.industries/brand/coinop-pfp-800.png",
+      "createdAt": "2026-09-11 03:11:37",
+      "poolId": "0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://coinop.industries/brand/coinop-pfp-800.png",
+        "verified": false,
+        "operatorAddress": "0x0964cb0939610b88f6b79d16453962238a52A505",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0964cb0939610b88f6b79d16453962238a52A505",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "source": "clanker",
+      "volume24h": 3837.04,
+      "txns24h": 131
     },
     {
       "tokenName": "Gang",

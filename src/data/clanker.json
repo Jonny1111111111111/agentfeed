@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-15T16:01:41.915Z",
+  "generatedAt": "2026-09-15T20:44:52.154Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 775,
+    "api": 772,
     "chain": 0,
     "persisted": 5
   },
@@ -12,8 +12,8 @@
     "0x8f82c53c84e0979d17cc62bb3ed0b8d4ba5a9b07",
     "0x79db263e9d7539032fede0438474f763e9707b07",
     "0x4a72d6f1fd7582f1246ce9e5b248083d938b2b07",
-    "0x6e1652bf766a91c1c3a7a9cb6ed7827a468cb854",
-    "0xd4f5725c5967d6568a17927e095ad73aeb6fab07"
+    "0xd4f5725c5967d6568a17927e095ad73aeb6fab07",
+    "0x72f47da54c9a3ff0fb2fc19a0ab946753b17fb07"
   ],
   "items": [
     {
@@ -35,8 +35,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x189c90cdd5e3c1ce7cdc175c15cfe7bd58663e35f8072398cd7ae32cf38b6991",
       "basescanUrl": "https://basescan.org/token/0x8f82C53C84E0979d17Cc62BB3ED0B8d4Ba5a9B07",
       "source": "clanker",
-      "volume24h": 14628019.11,
-      "txns24h": 1003
+      "volume24h": 14628019.409999998,
+      "txns24h": 1005
     },
     {
       "tokenName": "usdc is cool",
@@ -57,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa47ee8e0d381a157c551f156afe069380b69a4efd8cc1016c5eb9a6d247fdca3",
       "basescanUrl": "https://basescan.org/token/0x79dB263E9d7539032FEdE0438474f763e9707b07",
       "source": "clanker",
-      "volume24h": 12237.59,
-      "txns24h": 5338
+      "volume24h": 12419.910000000002,
+      "txns24h": 6147
     },
     {
       "tokenName": "LONG",
@@ -79,30 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x7437fc027ffe54b8cb5edf3380539076d75c5920be2e9d11348f30b3a8815bd6",
       "basescanUrl": "https://basescan.org/token/0x4A72d6f1fd7582F1246CE9E5B248083d938b2B07",
       "source": "clanker",
-      "volume24h": 25631.37,
-      "txns24h": 5849
-    },
-    {
-      "tokenName": "FOUR INU",
-      "tokenSymbol": "4INU",
-      "tokenAddress": "0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
-      "imageUrl": "https://fou4pad.vercel.app/api/image/7",
-      "createdAt": "2026-09-14 19:07:31",
-      "poolId": "0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://fou4pad.vercel.app/api/image/7",
-        "verified": false,
-        "operatorAddress": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xbdd0565a915Bd14C1b98F155509a0065C3Bf705E",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x35f2a2b210deb50e5dc7f65d19b7f38a66071dee83dc5d3999bcbd022957e140",
-      "basescanUrl": "https://basescan.org/token/0x6e1652bf766a91c1c3a7A9cB6ed7827a468cB854",
-      "source": "clanker",
-      "volume24h": 6824.25,
-      "txns24h": 145
+      "volume24h": 26373.71,
+      "txns24h": 5919
     },
     {
       "tokenName": "LONG",
@@ -123,8 +101,30 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2c5704ed6795d4bff18fa59320834e1c4f2fe47fbb8946d40148d51059a73fe3",
       "basescanUrl": "https://basescan.org/token/0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
       "source": "clanker",
-      "volume24h": 9824.19,
-      "txns24h": 4602
+      "volume24h": 7509.899999999999,
+      "txns24h": 2407
+    },
+    {
+      "tokenName": "COIN-OP",
+      "tokenSymbol": "COINOP",
+      "tokenAddress": "0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "imageUrl": "https://coinop.industries/brand/coinop-pfp-800.png",
+      "createdAt": "2026-09-11 03:11:37",
+      "poolId": "0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://coinop.industries/brand/coinop-pfp-800.png",
+        "verified": false,
+        "operatorAddress": "0x0964cb0939610b88f6b79d16453962238a52A505",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0964cb0939610b88f6b79d16453962238a52A505",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x78332f6b732773f4ab5d5fe6f4241b38e34b4b11e11b1117943872403b61a684",
+      "basescanUrl": "https://basescan.org/token/0x72F47dA54c9a3Ff0FB2fC19a0aB946753b17FB07",
+      "source": "clanker",
+      "volume24h": 3837.04,
+      "txns24h": 131
     }
   ]
 }
