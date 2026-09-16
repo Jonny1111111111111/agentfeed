@@ -1,24 +1,46 @@
 {
-  "generatedAt": "2026-09-16T10:37:06.208Z",
+  "generatedAt": "2026-09-16T15:53:48.727Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 767,
+    "api": 765,
     "chain": 0,
-    "persisted": 5
+    "persisted": 8
   },
   "count": 8,
   "addresses": [
+    "0x2704da20f48b486b9e047e15d2a71ed9fdcc4b07",
     "0x4a21564d908403009c2a1b2bd070ec4501612b07",
     "0x75da26c86806c261865faa25d80333ec8ee41b07",
     "0x44119127e9abfd4c17ebc61e3c045078f5bd9b07",
     "0x37d9fa84fcbe5f84355d6e2bdafac88f8c948b07",
-    "0x8f82c53c84e0979d17cc62bb3ed0b8d4ba5a9b07",
     "0x79db263e9d7539032fede0438474f763e9707b07",
     "0x4a72d6f1fd7582f1246ce9e5b248083d938b2b07",
     "0xd4f5725c5967d6568a17927e095ad73aeb6fab07"
   ],
   "items": [
+    {
+      "tokenName": "孙宇晨奖",
+      "tokenSymbol": "孙宇晨奖",
+      "tokenAddress": "0x2704Da20f48B486B9e047E15D2a71ED9FdCC4B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiepifkmszlvuyg2b3dbndk3nackwynno5w4whixg5dgyhg6dz7yba",
+      "createdAt": "2026-09-16 11:20:31",
+      "poolId": "0xeff9a32d184067054188c3d657272cc6b3bfc5efb81d9b6f8509e478bb4dc485",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiepifkmszlvuyg2b3dbndk3nackwynno5w4whixg5dgyhg6dz7yba",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xeff9a32d184067054188c3d657272cc6b3bfc5efb81d9b6f8509e478bb4dc485",
+      "basescanUrl": "https://basescan.org/token/0x2704Da20f48B486B9e047E15D2a71ED9FdCC4B07",
+      "source": "clanker",
+      "volume24h": 57126,
+      "txns24h": 2632
+    },
     {
       "tokenName": "Argus",
       "tokenSymbol": "ARGUS",
@@ -38,8 +60,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xcb8b7895012eb01bcbbffa520dfca914beaa4e0406cf0f496664b31e6589a1ed",
       "basescanUrl": "https://basescan.org/token/0x4a21564D908403009C2A1B2bD070ec4501612B07",
       "source": "clanker",
-      "volume24h": 28693.239999999994,
-      "txns24h": 3233
+      "volume24h": 26061994.05,
+      "txns24h": 5163
     },
     {
       "tokenName": "LONG",
@@ -47,7 +69,7 @@
       "tokenAddress": "0x75Da26C86806c261865faa25d80333Ec8eE41B07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
       "createdAt": "2026-09-16 04:17:17",
-      "poolId": "0x44a5700edfa43cdf98dd05aa3118710f52142e25f2000438f7c64444258e9699",
+      "poolId": "0x93f4D32A785aC185dd1Ed8De9da74E93BCe6E718",
       "launcher": {
         "name": null,
         "handle": null,
@@ -57,11 +79,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x44a5700edfa43cdf98dd05aa3118710f52142e25f2000438f7c64444258e9699",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x93f4d32a785ac185dd1ed8de9da74e93bce6e718",
       "basescanUrl": "https://basescan.org/token/0x75Da26C86806c261865faa25d80333Ec8eE41B07",
       "source": "clanker",
-      "volume24h": 90272.75,
-      "txns24h": 5768
+      "volume24h": 18399474.39,
+      "txns24h": 6150
     },
     {
       "tokenName": "Tolly",
@@ -83,7 +105,7 @@
       "basescanUrl": "https://basescan.org/token/0x44119127E9ABfD4C17EBc61E3C045078f5bd9b07",
       "source": "clanker",
       "volume24h": 18308029.64,
-      "txns24h": 115
+      "txns24h": 117
     },
     {
       "tokenName": "永生果蝇",
@@ -108,34 +130,12 @@
       "txns24h": 1055
     },
     {
-      "tokenName": "Tolly",
-      "tokenSymbol": "TOLLY",
-      "tokenAddress": "0x8f82C53C84E0979d17Cc62BB3ED0B8d4Ba5a9B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegtamf7ygdf2xgssrgzdurqnmmw5rs3jpbufhxkcm6uvu5nxqxgm",
-      "createdAt": "2026-09-15 13:41:45",
-      "poolId": "0x189c90cdd5e3c1ce7cdc175c15cfe7bd58663e35f8072398cd7ae32cf38b6991",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegtamf7ygdf2xgssrgzdurqnmmw5rs3jpbufhxkcm6uvu5nxqxgm",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x189c90cdd5e3c1ce7cdc175c15cfe7bd58663e35f8072398cd7ae32cf38b6991",
-      "basescanUrl": "https://basescan.org/token/0x8f82C53C84E0979d17Cc62BB3ED0B8d4Ba5a9B07",
-      "source": "clanker",
-      "volume24h": 14630165.309999999,
-      "txns24h": 1025
-    },
-    {
       "tokenName": "usdc is cool",
       "tokenSymbol": "COOL",
       "tokenAddress": "0x79dB263E9d7539032FEdE0438474f763e9707b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiacc3le2p6nhxpc5nrrayni7wae3thqfmailsc62m3r7v7jwzicji",
       "createdAt": "2026-09-15 04:31:09",
-      "poolId": "0x5d4ac72603DB9679d2a3fdB0a16F8436436B6C5b",
+      "poolId": "0xa47ee8e0d381a157c551f156afe069380b69a4efd8cc1016c5eb9a6d247fdca3",
       "launcher": {
         "name": null,
         "handle": null,
@@ -145,11 +145,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5d4ac72603db9679d2a3fdb0a16f8436436b6c5b",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa47ee8e0d381a157c551f156afe069380b69a4efd8cc1016c5eb9a6d247fdca3",
       "basescanUrl": "https://basescan.org/token/0x79dB263E9d7539032FEdE0438474f763e9707b07",
       "source": "clanker",
-      "volume24h": 2997.7499999999995,
-      "txns24h": 4174
+      "volume24h": 2162.49,
+      "txns24h": 1642
     },
     {
       "tokenName": "LONG",
@@ -170,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x7437fc027ffe54b8cb5edf3380539076d75c5920be2e9d11348f30b3a8815bd6",
       "basescanUrl": "https://basescan.org/token/0x4A72d6f1fd7582F1246CE9E5B248083d938b2B07",
       "source": "clanker",
-      "volume24h": 5584.089999999999,
-      "txns24h": 3755
+      "volume24h": 2444.1400000000003,
+      "txns24h": 1012
     },
     {
       "tokenName": "LONG",
@@ -192,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd13469e664f60781ef13713ecfebf2ab9b738e2bcd04e6c2c9e2251514f7dbf8",
       "basescanUrl": "https://basescan.org/token/0xD4f5725c5967d6568A17927e095AD73aeb6FAB07",
       "source": "clanker",
-      "volume24h": 2956.86,
-      "txns24h": 164
+      "volume24h": 520.5899999999999,
+      "txns24h": 120
     }
   ]
 }
