@@ -1,41 +1,17 @@
 {
-  "generatedAt": "2026-09-17T10:46:36.651Z",
+  "generatedAt": "2026-09-17T16:00:19.935Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 764,
+    "api": 762,
     "chain": 0,
-    "persisted": 5
+    "persisted": 3
   },
-  "count": 3,
+  "count": 1,
   "addresses": [
-    "0x2704da20f48b486b9e047e15d2a71ed9fdcc4b07",
-    "0x4a21564d908403009c2a1b2bd070ec4501612b07",
-    "0x75da26c86806c261865faa25d80333ec8ee41b07"
+    "0x4a21564d908403009c2a1b2bd070ec4501612b07"
   ],
   "items": [
-    {
-      "tokenName": "孙宇晨奖",
-      "tokenSymbol": "孙宇晨奖",
-      "tokenAddress": "0x2704Da20f48B486B9e047E15D2a71ED9FdCC4B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiepifkmszlvuyg2b3dbndk3nackwynno5w4whixg5dgyhg6dz7yba",
-      "createdAt": "2026-09-16 11:20:31",
-      "poolId": "0xeff9a32d184067054188c3d657272cc6b3bfc5efb81d9b6f8509e478bb4dc485",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiepifkmszlvuyg2b3dbndk3nackwynno5w4whixg5dgyhg6dz7yba",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xeff9a32d184067054188c3d657272cc6b3bfc5efb81d9b6f8509e478bb4dc485",
-      "basescanUrl": "https://basescan.org/token/0x2704Da20f48B486B9e047E15D2a71ED9FdCC4B07",
-      "source": "clanker",
-      "volume24h": 17537149.29,
-      "txns24h": 3379
-    },
     {
       "tokenName": "Argus",
       "tokenSymbol": "ARGUS",
@@ -55,30 +31,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xcb8b7895012eb01bcbbffa520dfca914beaa4e0406cf0f496664b31e6589a1ed",
       "basescanUrl": "https://basescan.org/token/0x4a21564D908403009C2A1B2bD070ec4501612B07",
       "source": "clanker",
-      "volume24h": 5004.87,
-      "txns24h": 2480
-    },
-    {
-      "tokenName": "LONG",
-      "tokenSymbol": "LONG",
-      "tokenAddress": "0x75Da26C86806c261865faa25d80333Ec8eE41B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
-      "createdAt": "2026-09-16 04:17:17",
-      "poolId": "0x44a5700edfa43cdf98dd05aa3118710f52142e25f2000438f7c64444258e9699",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreib7qavncgjfjdhcopzjle5ci4bw6oxylg572irlrgidyrsudzmg3e",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x44a5700edfa43cdf98dd05aa3118710f52142e25f2000438f7c64444258e9699",
-      "basescanUrl": "https://basescan.org/token/0x75Da26C86806c261865faa25d80333Ec8eE41B07",
-      "source": "clanker",
-      "volume24h": 1119.59,
-      "txns24h": 135
+      "volume24h": 2454.77,
+      "txns24h": 909
     }
   ]
 }
