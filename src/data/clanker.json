@@ -1,26 +1,49 @@
 {
-  "generatedAt": "2026-09-18T10:21:52.616Z",
+  "generatedAt": "2026-09-18T15:35:42.367Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 761,
+    "api": 765,
     "chain": 0,
-    "persisted": 1
+    "persisted": 3
   },
-  "count": 3,
+  "count": 4,
   "addresses": [
+    "0x56e102e37410ffac3b97cade570cbeee6526ab07",
     "0x82a80bdb559716643e10d8e40e745e68c0536b07",
     "0xd319bd3414d0064bad7a34150a818a6999833b07",
     "0x4dac4aa46a503dedb9614fce7cc6e55db2164b07"
   ],
   "items": [
     {
+      "tokenName": "Basecat",
+      "tokenSymbol": "Basecat",
+      "tokenAddress": "0x56E102e37410FFaC3b97CAdE570cbeEE6526aB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeigkm6jtef6qfn54lsxuzkszvmacpkf23lterj4vrvqg3iofsqav2m",
+      "createdAt": "2026-09-18 13:13:27",
+      "poolId": "0xc9eeb986abf04c9810537108d80e04cd461e78521ed05acd0e7fd9db96125366",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeigkm6jtef6qfn54lsxuzkszvmacpkf23lterj4vrvqg3iofsqav2m",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc9eeb986abf04c9810537108d80e04cd461e78521ed05acd0e7fd9db96125366",
+      "basescanUrl": "https://basescan.org/token/0x56E102e37410FFaC3b97CAdE570cbeEE6526aB07",
+      "source": "clanker",
+      "volume24h": 33721083.7,
+      "txns24h": 2585
+    },
+    {
       "tokenName": "Argus",
       "tokenSymbol": "ARGUS",
       "tokenAddress": "0x82a80bdb559716643e10d8e40E745E68C0536b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeihena67kdvyz3elxjre5dm5wmu6wvdvoo76xejwyhh4l2m2crwmqm",
       "createdAt": "2026-09-18 07:27:07",
-      "poolId": "0xf69962c2f1be26b123874ba62037b9c2b24e282b24e00838c099ecc0db3d4ce0",
+      "poolId": "0xD6354A769B1cBd8967B0194925486E6e6E5a7253",
       "launcher": {
         "name": null,
         "handle": null,
@@ -30,11 +53,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf69962c2f1be26b123874ba62037b9c2b24e282b24e00838c099ecc0db3d4ce0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd6354a769b1cbd8967b0194925486e6e6e5a7253",
       "basescanUrl": "https://basescan.org/token/0x82a80bdb559716643e10d8e40E745E68C0536b07",
       "source": "clanker",
-      "volume24h": 80216.58,
-      "txns24h": 2582
+      "volume24h": 33541288.96,
+      "txns24h": 3883
     },
     {
       "tokenName": "Leopardus tilcayo",
