@@ -1,20 +1,64 @@
 {
-  "generatedAt": "2026-09-19T02:31:20.392Z",
+  "generatedAt": "2026-09-19T10:04:56.975Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 748,
+    "api": 747,
     "chain": 0,
     "persisted": 4
   },
   "count": 4,
   "addresses": [
+    "0xe7a04a89abf6edfe4a5f13c1c477f8b79b378b07",
+    "0x3725265a77d314b53c877607b76d7c12e6e21b07",
     "0x56e102e37410ffac3b97cade570cbeee6526ab07",
-    "0x82a80bdb559716643e10d8e40e745e68c0536b07",
-    "0xd319bd3414d0064bad7a34150a818a6999833b07",
-    "0x4dac4aa46a503dedb9614fce7cc6e55db2164b07"
+    "0x82a80bdb559716643e10d8e40e745e68c0536b07"
   ],
   "items": [
+    {
+      "tokenName": "VCAT",
+      "tokenSymbol": "VCAT",
+      "tokenAddress": "0xE7A04A89AbF6EdfE4a5f13C1c477f8b79B378B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeibxs72ynmgioqggop5ab2ebxma3ze2j3zaklipsf7vzfsvkmieixq",
+      "createdAt": "2026-09-19 03:41:37",
+      "poolId": "0xa363dd82756234ef9d8e4df446cefed1b61947af91d9839055b4f247b37c1135",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeibxs72ynmgioqggop5ab2ebxma3ze2j3zaklipsf7vzfsvkmieixq",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa363dd82756234ef9d8e4df446cefed1b61947af91d9839055b4f247b37c1135",
+      "basescanUrl": "https://basescan.org/token/0xE7A04A89AbF6EdfE4a5f13C1c477f8b79B378B07",
+      "source": "clanker",
+      "volume24h": 18379859.479999997,
+      "txns24h": 3164
+    },
+    {
+      "tokenName": "牛马",
+      "tokenSymbol": "牛马",
+      "tokenAddress": "0x3725265a77D314b53C877607b76D7c12E6E21B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeidvybowfw66axzjfqjp4vzcjff2ba3dasbmpgfup5syf3wzcz2xty",
+      "createdAt": "2026-09-19 03:08:03",
+      "poolId": "0xcabf36e6b3590bdb59d51bd07c8e126940dcb8b374da63b77bac7371bc5a2e73",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeidvybowfw66axzjfqjp4vzcjff2ba3dasbmpgfup5syf3wzcz2xty",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcabf36e6b3590bdb59d51bd07c8e126940dcb8b374da63b77bac7371bc5a2e73",
+      "basescanUrl": "https://basescan.org/token/0x3725265a77D314b53C877607b76D7c12E6E21B07",
+      "source": "clanker",
+      "volume24h": 9178416.13,
+      "txns24h": 4758
+    },
     {
       "tokenName": "Basecat",
       "tokenSymbol": "Basecat",
@@ -34,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9eeb986abf04c9810537108d80e04cd461e78521ed05acd0e7fd9db96125366",
       "basescanUrl": "https://basescan.org/token/0x56E102e37410FFaC3b97CAdE570cbeEE6526aB07",
       "source": "clanker",
-      "volume24h": 33785355.77,
-      "txns24h": 8297
+      "volume24h": 33785608.989999995,
+      "txns24h": 8625
     },
     {
       "tokenName": "Argus",
@@ -56,52 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf69962c2f1be26b123874ba62037b9c2b24e282b24e00838c099ecc0db3d4ce0",
       "basescanUrl": "https://basescan.org/token/0x82a80bdb559716643e10d8e40E745E68C0536b07",
       "source": "clanker",
-      "volume24h": 104954.53,
-      "txns24h": 3695
-    },
-    {
-      "tokenName": "Leopardus tilcayo",
-      "tokenSymbol": "Tilcayo",
-      "tokenAddress": "0xD319BD3414d0064bad7A34150a818a6999833b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeid5wzx2jx2mwk4bnj67zamtvjollvngzj7armyxue6k7ra3fuixme",
-      "createdAt": "2026-09-18 03:01:17",
-      "poolId": "0x8939eddf64bd6c9d913406e732d3179a4e010fb94eb28bfc2e51c64137f91f45",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeid5wzx2jx2mwk4bnj67zamtvjollvngzj7armyxue6k7ra3fuixme",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8939eddf64bd6c9d913406e732d3179a4e010fb94eb28bfc2e51c64137f91f45",
-      "basescanUrl": "https://basescan.org/token/0xD319BD3414d0064bad7A34150a818a6999833b07",
-      "source": "clanker",
-      "volume24h": 17492215.299999997,
-      "txns24h": 2746
-    },
-    {
-      "tokenName": "LAPTOP",
-      "tokenSymbol": "LAPTOP",
-      "tokenAddress": "0x4DAC4aA46a503deDb9614fCe7CC6E55dB2164B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
-      "createdAt": "2026-09-18 01:50:35",
-      "poolId": "0x41da3fca5e55dbd24533379beb805473c25b750feab47a6f8239e1e77057e7af",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeida3x2ayuvieeilmrx3hd3lvigbxxn2gy4eyma4y7vludji4ok5oi",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x41da3fca5e55dbd24533379beb805473c25b750feab47a6f8239e1e77057e7af",
-      "basescanUrl": "https://basescan.org/token/0x4DAC4aA46a503deDb9614fCe7CC6E55dB2164B07",
-      "source": "clanker",
-      "volume24h": 39899.94,
-      "txns24h": 4486
+      "volume24h": 38838.89,
+      "txns24h": 1629
     }
   ]
 }
