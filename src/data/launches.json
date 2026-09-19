@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "EMBER",
+      "tokenSymbol": "EMBER",
+      "tokenAddress": "0x7D78bf8364042CF03B65F3b4642BcCbE54108B07",
+      "imageUrl": "https://wzwsuomjxjitpfcglwmu.supabase.co/storage/v1/object/public/launchpad-logos/f2af7f64-e3f6-460c-906a-7436a66e3108.jpg",
+      "createdAt": "2026-09-19 18:31:29",
+      "poolId": "0x3847820159c057e6fa9c5e87a287326c50adaaa82b02115d5b18bb593b96fe0b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://wzwsuomjxjitpfcglwmu.supabase.co/storage/v1/object/public/launchpad-logos/f2af7f64-e3f6-460c-906a-7436a66e3108.jpg",
+        "verified": false,
+        "operatorAddress": "0x5C7bD42EB443fb8bBB78301E240D9378582e8237",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5C7bD42EB443fb8bBB78301E240D9378582e8237",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3847820159c057e6fa9c5e87a287326c50adaaa82b02115d5b18bb593b96fe0b",
+      "basescanUrl": "https://basescan.org/token/0x7D78bf8364042CF03B65F3b4642BcCbE54108B07",
+      "source": "clanker",
+      "volume24h": 28529.63,
+      "txns24h": 267
+    },
     {
       "tokenName": "WildBeest",
       "tokenSymbol": "WildBeest",
