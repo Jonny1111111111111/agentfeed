@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-09-20T10:24:29.763Z",
+  "generatedAt": "2026-09-20T15:12:50.545Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 741,
+    "api": 738,
     "chain": 0,
-    "persisted": 4
+    "persisted": 2
   },
-  "count": 2,
+  "count": 1,
   "addresses": [
-    "0x7d78bf8364042cf03b65f3b4642bccbe54108b07",
-    "0x45e97d3890296ff67af53751a1e92d063393db07"
+    "0x7d78bf8364042cf03b65f3b4642bccbe54108b07"
   ],
   "items": [
     {
@@ -32,30 +31,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x3847820159c057e6fa9c5e87a287326c50adaaa82b02115d5b18bb593b96fe0b",
       "basescanUrl": "https://basescan.org/token/0x7D78bf8364042CF03B65F3b4642BcCbE54108B07",
       "source": "clanker",
-      "volume24h": 30004.57,
-      "txns24h": 330
-    },
-    {
-      "tokenName": "WildBeest",
-      "tokenSymbol": "WildBeest",
-      "tokenAddress": "0x45E97d3890296Ff67AF53751a1E92D063393db07",
-      "imageUrl": null,
-      "createdAt": "2026-09-19 10:46:27",
-      "poolId": "0x2621c71ce4914fd50fc4aa382c3570d2e1eaeff52ef3088194b888ea358f6b62",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x64C985524bC5119a383e236aF728b13ba713c50f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x64C985524bC5119a383e236aF728b13ba713c50f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2621c71ce4914fd50fc4aa382c3570d2e1eaeff52ef3088194b888ea358f6b62",
-      "basescanUrl": "https://basescan.org/token/0x45E97d3890296Ff67AF53751a1E92D063393db07",
-      "source": "clanker",
-      "volume24h": 27528.05,
-      "txns24h": 114
+      "volume24h": 30044.89,
+      "txns24h": 336
     }
   ]
 }
