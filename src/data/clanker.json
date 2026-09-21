@@ -1,38 +1,38 @@
 {
-  "generatedAt": "2026-09-20T15:12:50.545Z",
+  "generatedAt": "2026-09-21T02:39:38.355Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 738,
+    "api": 734,
     "chain": 0,
-    "persisted": 2
+    "persisted": 1
   },
   "count": 1,
   "addresses": [
-    "0x7d78bf8364042cf03b65f3b4642bccbe54108b07"
+    "0x407e3ce208bde5492b87172615c03265c7199b07"
   ],
   "items": [
     {
-      "tokenName": "EMBER",
-      "tokenSymbol": "EMBER",
-      "tokenAddress": "0x7D78bf8364042CF03B65F3b4642BcCbE54108B07",
-      "imageUrl": "https://wzwsuomjxjitpfcglwmu.supabase.co/storage/v1/object/public/launchpad-logos/f2af7f64-e3f6-460c-906a-7436a66e3108.jpg",
-      "createdAt": "2026-09-19 18:31:29",
-      "poolId": "0x3847820159c057e6fa9c5e87a287326c50adaaa82b02115d5b18bb593b96fe0b",
+      "tokenName": "Zcash Shielded Assets",
+      "tokenSymbol": "Stamp",
+      "tokenAddress": "0x407E3cE208bdE5492B87172615c03265c7199b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiftazpgrdlhkicmktrakjlbgjvg663pxqas2jdohkmpp4dcfkxh44",
+      "createdAt": "2026-09-21 01:27:33",
+      "poolId": "0x08ba4b37a5dc75c021a434a1aa26debb9f38bd3c624348a6a11ed4584c058adb",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://wzwsuomjxjitpfcglwmu.supabase.co/storage/v1/object/public/launchpad-logos/f2af7f64-e3f6-460c-906a-7436a66e3108.jpg",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiftazpgrdlhkicmktrakjlbgjvg663pxqas2jdohkmpp4dcfkxh44",
         "verified": false,
-        "operatorAddress": "0x5C7bD42EB443fb8bBB78301E240D9378582e8237",
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
         "profileUrl": null
       },
-      "feeRecipient": "0x5C7bD42EB443fb8bBB78301E240D9378582e8237",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3847820159c057e6fa9c5e87a287326c50adaaa82b02115d5b18bb593b96fe0b",
-      "basescanUrl": "https://basescan.org/token/0x7D78bf8364042CF03B65F3b4642BcCbE54108B07",
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x08ba4b37a5dc75c021a434a1aa26debb9f38bd3c624348a6a11ed4584c058adb",
+      "basescanUrl": "https://basescan.org/token/0x407E3cE208bdE5492B87172615c03265c7199b07",
       "source": "clanker",
-      "volume24h": 30044.89,
-      "txns24h": 336
+      "volume24h": 36616033.72,
+      "txns24h": 714
     }
   ]
 }
