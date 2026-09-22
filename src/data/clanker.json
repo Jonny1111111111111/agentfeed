@@ -1,61 +1,84 @@
 {
-  "generatedAt": "2026-09-22T10:42:34.953Z",
+  "generatedAt": "2026-09-22T16:03:04.743Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 735,
+    "api": 737,
     "chain": 0,
     "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
-    "0x7e7f31a088b7f6b0f4040bf6a1741eaf75b43b07",
-    "0x711cd14053f3f9a04bd05cd355711fd7459ecb07"
+    "0xd35dcc8ec888b5af0bc52995ba818f7e25a81b07",
+    "0x6b806df99ea9d5a155a440108626217a57fdab07",
+    "0x28c8e6cae2be181b060fe88f916513625b229b07"
   ],
   "items": [
     {
-      "tokenName": "中国人能飞火箭",
-      "tokenSymbol": "中国人能飞",
-      "tokenAddress": "0x7e7f31a088B7F6B0F4040BF6a1741eAf75b43B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeig4hjb5ggplxrihs2dvakbogyo3fgfalnxqvb2vi5ykdlz5fahr2a",
-      "createdAt": "2026-09-21 12:06:03",
-      "poolId": "0xb9e12537bf8c992f414d11576713df63963d1b9beb7eceb6e2d51a5354d58d1b",
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
+      "createdAt": "2026-09-22 13:17:57",
+      "poolId": "0x0712Edf0c3861543b37ad3576Fa5FaCf39b55745",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeig4hjb5ggplxrihs2dvakbogyo3fgfalnxqvb2vi5ykdlz5fahr2a",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
         "verified": false,
         "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb9e12537bf8c992f414d11576713df63963d1b9beb7eceb6e2d51a5354d58d1b",
-      "basescanUrl": "https://basescan.org/token/0x7e7f31a088B7F6B0F4040BF6a1741eAf75b43B07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0712edf0c3861543b37ad3576fa5facf39b55745",
+      "basescanUrl": "https://basescan.org/token/0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
       "source": "clanker",
-      "volume24h": 13210306.58,
-      "txns24h": 2389
+      "volume24h": 13607160.71,
+      "txns24h": 2323
     },
     {
-      "tokenName": "Paimon Polymarket SPV Token",
-      "tokenSymbol": "pPOLY",
-      "tokenAddress": "0x711cd14053f3F9A04Bd05Cd355711fd7459eCB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihrsjuzhjaytsy5fsw2z7vu5khka5l5pkw32qekokzra3d4hdo2ay",
-      "createdAt": "2026-09-21 07:57:35",
-      "poolId": "0xa7676dbe1b9028aedf59837e8dd585bc362276ea5e7ef75fbb57ef4d7c4c2bb4",
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x6b806dF99ea9d5a155a440108626217a57fDAb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
+      "createdAt": "2026-09-22 12:52:57",
+      "poolId": "0x6E3a7F2f4F8F1DA5e5E38CdD5cf6821761b4a26B",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreihrsjuzhjaytsy5fsw2z7vu5khka5l5pkw32qekokzra3d4hdo2ay",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
         "verified": false,
         "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa7676dbe1b9028aedf59837e8dd585bc362276ea5e7ef75fbb57ef4d7c4c2bb4",
-      "basescanUrl": "https://basescan.org/token/0x711cd14053f3F9A04Bd05Cd355711fd7459eCB07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6e3a7f2f4f8f1da5e5e38cdd5cf6821761b4a26b",
+      "basescanUrl": "https://basescan.org/token/0x6b806dF99ea9d5a155a440108626217a57fDAb07",
       "source": "clanker",
-      "volume24h": 14241.57,
-      "txns24h": 507
+      "volume24h": 18308009.88,
+      "txns24h": 101
+    },
+    {
+      "tokenName": "月之暗面",
+      "tokenSymbol": "Moonshot",
+      "tokenAddress": "0x28c8e6cAE2Be181b060FE88f916513625B229b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidopp4anf7um7xt2p3gdpxubreuh2e5i7z6jxnupsa7bqx32esvpe",
+      "createdAt": "2026-09-22 10:46:49",
+      "poolId": "0xf9c006af7848ca30d84F1F386cd1ee111Fd036A1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidopp4anf7um7xt2p3gdpxubreuh2e5i7z6jxnupsa7bqx32esvpe",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf9c006af7848ca30d84f1f386cd1ee111fd036a1",
+      "basescanUrl": "https://basescan.org/token/0x28c8e6cAE2Be181b060FE88f916513625B229b07",
+      "source": "clanker",
+      "volume24h": 31448958.9,
+      "txns24h": 3287
     }
   ]
 }
