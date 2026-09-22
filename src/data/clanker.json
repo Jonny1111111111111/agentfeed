@@ -1,26 +1,49 @@
 {
-  "generatedAt": "2026-09-22T16:03:04.743Z",
+  "generatedAt": "2026-09-22T20:44:22.019Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 737,
+    "api": 741,
     "chain": 0,
-    "persisted": 2
+    "persisted": 3
   },
-  "count": 3,
+  "count": 4,
   "addresses": [
+    "0x8acb282af7805c37f738d5ba95ae20761c621b07",
     "0xd35dcc8ec888b5af0bc52995ba818f7e25a81b07",
     "0x6b806df99ea9d5a155a440108626217a57fdab07",
     "0x28c8e6cae2be181b060fe88f916513625b229b07"
   ],
   "items": [
     {
+      "tokenName": "Revert Finance",
+      "tokenSymbol": "Revert",
+      "tokenAddress": "0x8AcB282AF7805c37f738d5BA95aE20761c621B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidjftcgsz3afiug72rlwqgnp4d2e3535b5hfypge2q2xwye2nrsp4",
+      "createdAt": "2026-09-22 17:25:05",
+      "poolId": "0xa9e811638332ed3354a24bc1c1431ac774703ca5e3f34cd3610aeafa177703c0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidjftcgsz3afiug72rlwqgnp4d2e3535b5hfypge2q2xwye2nrsp4",
+        "verified": false,
+        "operatorAddress": "0x58f6e5e38c1197D8bCEb528885ca249aB4297A3f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x58f6e5e38c1197D8bCEb528885ca249aB4297A3f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa9e811638332ed3354a24bc1c1431ac774703ca5e3f34cd3610aeafa177703c0",
+      "basescanUrl": "https://basescan.org/token/0x8AcB282AF7805c37f738d5BA95aE20761c621B07",
+      "source": "clanker",
+      "volume24h": 23170.81,
+      "txns24h": 282
+    },
+    {
       "tokenName": "Muse",
       "tokenSymbol": "Muse",
       "tokenAddress": "0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
       "createdAt": "2026-09-22 13:17:57",
-      "poolId": "0x0712Edf0c3861543b37ad3576Fa5FaCf39b55745",
+      "poolId": "0x70c0ed8d6a8a9e881e2fef2c71b7b4eb28787b56c940bc42984b1134ffe1ecad",
       "launcher": {
         "name": null,
         "handle": null,
@@ -30,11 +53,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0712edf0c3861543b37ad3576fa5facf39b55745",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x70c0ed8d6a8a9e881e2fef2c71b7b4eb28787b56c940bc42984b1134ffe1ecad",
       "basescanUrl": "https://basescan.org/token/0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
       "source": "clanker",
-      "volume24h": 13607160.71,
-      "txns24h": 2323
+      "volume24h": 13607935.48,
+      "txns24h": 4092
     },
     {
       "tokenName": "Muse",
