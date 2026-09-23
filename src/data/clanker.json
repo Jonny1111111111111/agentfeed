@@ -1,15 +1,16 @@
 {
-  "generatedAt": "2026-09-23T02:42:11.826Z",
+  "generatedAt": "2026-09-23T10:35:06.436Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 745,
+    "api": 738,
     "chain": 0,
-    "persisted": 4
+    "persisted": 5
   },
-  "count": 5,
+  "count": 6,
   "addresses": [
-    "0x956263117093cd4961faefb99a882d97fa60eb07",
+    "0x270ef48d08f60401d6bb8e469c6e6e1687df8b07",
+    "0x704c3306c450a63936b6268b6e19cee66be8fb07",
     "0x8acb282af7805c37f738d5ba95ae20761c621b07",
     "0xd35dcc8ec888b5af0bc52995ba818f7e25a81b07",
     "0x6b806df99ea9d5a155a440108626217a57fdab07",
@@ -17,26 +18,48 @@
   ],
   "items": [
     {
-      "tokenName": "Muse",
-      "tokenSymbol": "Muse",
-      "tokenAddress": "0x956263117093cd4961FAEFB99A882d97FA60EB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
-      "createdAt": "2026-09-23 01:37:39",
-      "poolId": "0x67915fac7d34aeb25169ce091a7db611d005ae775d1c7f873aadcb1f42e5b801",
+      "tokenName": "Polymarket",
+      "tokenSymbol": "POLY",
+      "tokenAddress": "0x270Ef48d08f60401D6Bb8e469c6e6e1687dF8b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
+      "createdAt": "2026-09-23 06:01:25",
+      "poolId": "0x0359b147374bE30A3664C032b3d838de6b962652",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
         "verified": false,
         "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
         "profileUrl": null
       },
       "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x67915fac7d34aeb25169ce091a7db611d005ae775d1c7f873aadcb1f42e5b801",
-      "basescanUrl": "https://basescan.org/token/0x956263117093cd4961FAEFB99A882d97FA60EB07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0359b147374be30a3664c032b3d838de6b962652",
+      "basescanUrl": "https://basescan.org/token/0x270Ef48d08f60401D6Bb8e469c6e6e1687dF8b07",
       "source": "clanker",
-      "volume24h": 16469072.1,
-      "txns24h": 555
+      "volume24h": 3035872.92,
+      "txns24h": 452
+    },
+    {
+      "tokenName": "Polymarket",
+      "tokenSymbol": "POLY",
+      "tokenAddress": "0x704C3306c450A63936b6268B6E19CEE66BE8fB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
+      "createdAt": "2026-09-23 03:56:15",
+      "poolId": "0x82a345439cd2a8B467c3D323E1BDf5Ce0FfE9339",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x82a345439cd2a8b467c3d323e1bdf5ce0ffe9339",
+      "basescanUrl": "https://basescan.org/token/0x704C3306c450A63936b6268B6E19CEE66BE8fB07",
+      "source": "clanker",
+      "volume24h": 16468043.32,
+      "txns24h": 248
     },
     {
       "tokenName": "Revert Finance",
@@ -57,8 +80,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9e811638332ed3354a24bc1c1431ac774703ca5e3f34cd3610aeafa177703c0",
       "basescanUrl": "https://basescan.org/token/0x8AcB282AF7805c37f738d5BA95aE20761c621B07",
       "source": "clanker",
-      "volume24h": 23778.65,
-      "txns24h": 298
+      "volume24h": 23816.4,
+      "txns24h": 322
     },
     {
       "tokenName": "Muse",
@@ -79,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x70c0ed8d6a8a9e881e2fef2c71b7b4eb28787b56c940bc42984b1134ffe1ecad",
       "basescanUrl": "https://basescan.org/token/0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
       "source": "clanker",
-      "volume24h": 13608761.4,
-      "txns24h": 5615
+      "volume24h": 13608761.61,
+      "txns24h": 5617
     },
     {
       "tokenName": "Muse",
@@ -101,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x6e3a7f2f4f8f1da5e5e38cdd5cf6821761b4a26b",
       "basescanUrl": "https://basescan.org/token/0x6b806dF99ea9d5a155a440108626217a57fDAb07",
       "source": "clanker",
-      "volume24h": 18308009.88,
-      "txns24h": 101
+      "volume24h": 18308009.99,
+      "txns24h": 103
     },
     {
       "tokenName": "月之暗面",
@@ -123,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf9c006af7848ca30d84f1f386cd1ee111fd036a1",
       "basescanUrl": "https://basescan.org/token/0x28c8e6cAE2Be181b060FE88f916513625B229b07",
       "source": "clanker",
-      "volume24h": 31448979.93,
-      "txns24h": 4733
+      "volume24h": 31448983.68,
+      "txns24h": 4740
     }
   ]
 }
