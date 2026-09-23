@@ -1,19 +1,18 @@
 {
-  "generatedAt": "2026-09-23T15:53:56.719Z",
+  "generatedAt": "2026-09-23T20:56:58.702Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 737,
+    "api": 736,
     "chain": 0,
     "persisted": 6
   },
-  "count": 6,
+  "count": 5,
   "addresses": [
     "0x063ea995844ff6907c44a2a18ce44f5ae6491b07",
     "0xa202119fe9032cff3269a5caa1d0e1b6fe191b07",
     "0x270ef48d08f60401d6bb8e469c6e6e1687df8b07",
     "0x704c3306c450a63936b6268b6e19cee66be8fb07",
-    "0x8acb282af7805c37f738d5ba95ae20761c621b07",
     "0xd35dcc8ec888b5af0bc52995ba818f7e25a81b07"
   ],
   "items": [
@@ -36,8 +35,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x94359db5cf4cd784e0644945222346a2f65b7699",
       "basescanUrl": "https://basescan.org/token/0x063ea995844FF6907C44A2a18ce44f5AE6491B07",
       "source": "clanker",
-      "volume24h": 26082081.61,
-      "txns24h": 1678
+      "volume24h": 26082352.14,
+      "txns24h": 3537
     },
     {
       "tokenName": "Muse",
@@ -80,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0359b147374be30a3664c032b3d838de6b962652",
       "basescanUrl": "https://basescan.org/token/0x270Ef48d08f60401D6Bb8e469c6e6e1687dF8b07",
       "source": "clanker",
-      "volume24h": 3035872.9,
-      "txns24h": 451
+      "volume24h": 3035872.92,
+      "txns24h": 452
     },
     {
       "tokenName": "Polymarket",
@@ -106,28 +105,6 @@
       "txns24h": 248
     },
     {
-      "tokenName": "Revert Finance",
-      "tokenSymbol": "Revert",
-      "tokenAddress": "0x8AcB282AF7805c37f738d5BA95aE20761c621B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidjftcgsz3afiug72rlwqgnp4d2e3535b5hfypge2q2xwye2nrsp4",
-      "createdAt": "2026-09-22 17:25:05",
-      "poolId": "0xa9e811638332ed3354a24bc1c1431ac774703ca5e3f34cd3610aeafa177703c0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreidjftcgsz3afiug72rlwqgnp4d2e3535b5hfypge2q2xwye2nrsp4",
-        "verified": false,
-        "operatorAddress": "0x58f6e5e38c1197D8bCEb528885ca249aB4297A3f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x58f6e5e38c1197D8bCEb528885ca249aB4297A3f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa9e811638332ed3354a24bc1c1431ac774703ca5e3f34cd3610aeafa177703c0",
-      "basescanUrl": "https://basescan.org/token/0x8AcB282AF7805c37f738d5BA95aE20761c621B07",
-      "source": "clanker",
-      "volume24h": 23817.42,
-      "txns24h": 326
-    },
-    {
       "tokenName": "Muse",
       "tokenSymbol": "Muse",
       "tokenAddress": "0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
@@ -146,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x70c0ed8d6a8a9e881e2fef2c71b7b4eb28787b56c940bc42984b1134ffe1ecad",
       "basescanUrl": "https://basescan.org/token/0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
       "source": "clanker",
-      "volume24h": 1645.9299999999998,
-      "txns24h": 3431
+      "volume24h": 826.12,
+      "txns24h": 1525
     }
   ]
 }
