@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x956263117093cd4961FAEFB99A882d97FA60EB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+      "createdAt": "2026-09-23 01:37:39",
+      "poolId": "0x67915fac7d34aeb25169ce091a7db611d005ae775d1c7f873aadcb1f42e5b801",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x67915fac7d34aeb25169ce091a7db611d005ae775d1c7f873aadcb1f42e5b801",
+      "basescanUrl": "https://basescan.org/token/0x956263117093cd4961FAEFB99A882d97FA60EB07",
+      "source": "clanker",
+      "volume24h": 16469072.1,
+      "txns24h": 555
+    },
     {
       "tokenName": "Revert Finance",
       "tokenSymbol": "Revert",

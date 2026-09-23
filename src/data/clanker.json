@@ -1,20 +1,43 @@
 {
-  "generatedAt": "2026-09-22T20:44:22.019Z",
+  "generatedAt": "2026-09-23T02:42:11.826Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 741,
+    "api": 745,
     "chain": 0,
-    "persisted": 3
+    "persisted": 4
   },
-  "count": 4,
+  "count": 5,
   "addresses": [
+    "0x956263117093cd4961faefb99a882d97fa60eb07",
     "0x8acb282af7805c37f738d5ba95ae20761c621b07",
     "0xd35dcc8ec888b5af0bc52995ba818f7e25a81b07",
     "0x6b806df99ea9d5a155a440108626217a57fdab07",
     "0x28c8e6cae2be181b060fe88f916513625b229b07"
   ],
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x956263117093cd4961FAEFB99A882d97FA60EB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+      "createdAt": "2026-09-23 01:37:39",
+      "poolId": "0x67915fac7d34aeb25169ce091a7db611d005ae775d1c7f873aadcb1f42e5b801",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "verified": false,
+        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x67915fac7d34aeb25169ce091a7db611d005ae775d1c7f873aadcb1f42e5b801",
+      "basescanUrl": "https://basescan.org/token/0x956263117093cd4961FAEFB99A882d97FA60EB07",
+      "source": "clanker",
+      "volume24h": 16469072.1,
+      "txns24h": 555
+    },
     {
       "tokenName": "Revert Finance",
       "tokenSymbol": "Revert",
@@ -34,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9e811638332ed3354a24bc1c1431ac774703ca5e3f34cd3610aeafa177703c0",
       "basescanUrl": "https://basescan.org/token/0x8AcB282AF7805c37f738d5BA95aE20761c621B07",
       "source": "clanker",
-      "volume24h": 23170.81,
-      "txns24h": 282
+      "volume24h": 23778.65,
+      "txns24h": 298
     },
     {
       "tokenName": "Muse",
@@ -56,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x70c0ed8d6a8a9e881e2fef2c71b7b4eb28787b56c940bc42984b1134ffe1ecad",
       "basescanUrl": "https://basescan.org/token/0xd35dcC8EC888B5af0BC52995bA818F7e25A81b07",
       "source": "clanker",
-      "volume24h": 13607935.48,
-      "txns24h": 4092
+      "volume24h": 13608761.4,
+      "txns24h": 5615
     },
     {
       "tokenName": "Muse",
@@ -100,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf9c006af7848ca30d84f1f386cd1ee111fd036a1",
       "basescanUrl": "https://basescan.org/token/0x28c8e6cAE2Be181b060FE88f916513625B229b07",
       "source": "clanker",
-      "volume24h": 31448958.9,
-      "txns24h": 3287
+      "volume24h": 31448979.93,
+      "txns24h": 4733
     }
   ]
 }
