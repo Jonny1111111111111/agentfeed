@@ -1,21 +1,110 @@
 {
-  "generatedAt": "2026-09-24T02:31:27.399Z",
+  "generatedAt": "2026-09-24T10:53:13.382Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 728,
+    "api": 730,
     "chain": 0,
     "persisted": 5
   },
-  "count": 5,
+  "count": 6,
   "addresses": [
+    "0x23eebd6b838f67549433e1ea3285e79c3b65bb07",
+    "0x0cf2f069be394725ee77c2b413f1833568185b07",
+    "0x4fb788e4f47654101a2d292405933867f9f78b07",
+    "0xca74d340a552c7957d6436e426527d2cce079b07",
     "0xc59689cee2817cf67f663231d1213fa7f7a11b07",
-    "0x063ea995844ff6907c44a2a18ce44f5ae6491b07",
-    "0xa202119fe9032cff3269a5caa1d0e1b6fe191b07",
-    "0x270ef48d08f60401d6bb8e469c6e6e1687df8b07",
-    "0x704c3306c450a63936b6268b6e19cee66be8fb07"
+    "0x063ea995844ff6907c44a2a18ce44f5ae6491b07"
   ],
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x23Eebd6B838f67549433e1Ea3285e79c3B65Bb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+      "createdAt": "2026-09-24 07:36:21",
+      "poolId": "0xFC37347a6533142486887DC0Ec326aBc8f54C0ed",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfc37347a6533142486887dc0ec326abc8f54c0ed",
+      "basescanUrl": "https://basescan.org/token/0x23Eebd6B838f67549433e1Ea3285e79c3B65Bb07",
+      "source": "clanker",
+      "volume24h": 18500.5,
+      "txns24h": 1022
+    },
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x0CF2F069be394725ee77C2b413F1833568185b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+      "createdAt": "2026-09-24 06:56:57",
+      "poolId": "0x8f5059f675E10EC54e1f82d1561bF123cd683CF5",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8f5059f675e10ec54e1f82d1561bf123cd683cf5",
+      "basescanUrl": "https://basescan.org/token/0x0CF2F069be394725ee77C2b413F1833568185b07",
+      "source": "clanker",
+      "volume24h": 990.69,
+      "txns24h": 284
+    },
+    {
+      "tokenName": "Sender",
+      "tokenSymbol": "SEND",
+      "tokenAddress": "0x4FB788E4F47654101a2D292405933867f9f78b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibbpnfnzxmema3eu7sgdkqjesodx7trmhi4gdq7gblhkhq447c5tu",
+      "createdAt": "2026-09-24 05:34:09",
+      "poolId": "0xb3053aD551346F88f474Dbb0DaF91C41C1C32AFe",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibbpnfnzxmema3eu7sgdkqjesodx7trmhi4gdq7gblhkhq447c5tu",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb3053ad551346f88f474dbb0daf91c41c1c32afe",
+      "basescanUrl": "https://basescan.org/token/0x4FB788E4F47654101a2D292405933867f9f78b07",
+      "source": "clanker",
+      "volume24h": 8234020.569999999,
+      "txns24h": 598
+    },
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0xcA74D340a552C7957d6436e426527D2cce079B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+      "createdAt": "2026-09-24 02:59:15",
+      "poolId": "0x19d78cd9359cfdc15655d953D841a124d7Adeb37",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "verified": false,
+        "operatorAddress": "0x3CaBeE84D00fb5b30A07D8B4DF1563Fd0419F6C7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3CaBeE84D00fb5b30A07D8B4DF1563Fd0419F6C7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x19d78cd9359cfdc15655d953d841a124d7adeb37",
+      "basescanUrl": "https://basescan.org/token/0xcA74D340a552C7957d6436e426527D2cce079B07",
+      "source": "clanker",
+      "volume24h": 18391.49,
+      "txns24h": 257
+    },
     {
       "tokenName": "familiars.family",
       "tokenSymbol": "familiars",
@@ -35,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x998c604c8f7a8e3e73c2adf97ad1810e6b53e081",
       "basescanUrl": "https://basescan.org/token/0xC59689ceE2817cf67f663231d1213fA7F7A11b07",
       "source": "clanker",
-      "volume24h": 8234021,
-      "txns24h": 132
+      "volume24h": 8234021.100000001,
+      "txns24h": 133
     },
     {
       "tokenName": "Muse",
@@ -59,72 +148,6 @@
       "source": "clanker",
       "volume24h": 26082487.58,
       "txns24h": 3550
-    },
-    {
-      "tokenName": "Muse",
-      "tokenSymbol": "Muse",
-      "tokenAddress": "0xa202119fE9032CfF3269a5Caa1d0E1B6FE191b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
-      "createdAt": "2026-09-23 10:16:05",
-      "poolId": "0x16D40AcC11290eB149701e43d972280A7f3d0612",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreican25lu4wjr3qn3br4kb6itdmyojbvnjzhxycswj6ovz2yfpwn6y",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x16d40acc11290eb149701e43d972280a7f3d0612",
-      "basescanUrl": "https://basescan.org/token/0xa202119fE9032CfF3269a5Caa1d0E1B6FE191b07",
-      "source": "clanker",
-      "volume24h": 8055097.359999999,
-      "txns24h": 2557
-    },
-    {
-      "tokenName": "Polymarket",
-      "tokenSymbol": "POLY",
-      "tokenAddress": "0x270Ef48d08f60401D6Bb8e469c6e6e1687dF8b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
-      "createdAt": "2026-09-23 06:01:25",
-      "poolId": "0x0359b147374bE30A3664C032b3d838de6b962652",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0359b147374be30a3664c032b3d838de6b962652",
-      "basescanUrl": "https://basescan.org/token/0x270Ef48d08f60401D6Bb8e469c6e6e1687dF8b07",
-      "source": "clanker",
-      "volume24h": 3035872.92,
-      "txns24h": 452
-    },
-    {
-      "tokenName": "Polymarket",
-      "tokenSymbol": "POLY",
-      "tokenAddress": "0x704C3306c450A63936b6268B6E19CEE66BE8fB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
-      "createdAt": "2026-09-23 03:56:15",
-      "poolId": "0x82a345439cd2a8B467c3D323E1BDf5Ce0FfE9339",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiezfnq3yrzulmg5olbdimbbtlogujwzmmyp7arc5qopdyiamjqpuu",
-        "verified": false,
-        "operatorAddress": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC08DD51a6532a70069813288A8c3554d88e3DE5f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x82a345439cd2a8b467c3d323e1bdf5ce0ffe9339",
-      "basescanUrl": "https://basescan.org/token/0x704C3306c450A63936b6268B6E19CEE66BE8fB07",
-      "source": "clanker",
-      "volume24h": 16468043.34,
-      "txns24h": 249
     }
   ]
 }
