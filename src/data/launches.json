@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 232,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Coinbase Muse",
+      "tokenSymbol": "CBMUSE",
+      "tokenAddress": "0x9701FC1B060FFCD60d2C0A95bED403C6D8cDfB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreieextg4witcnqk3xuikyuufjbctfnu2kulocwdyrcnlvaby7ad33y",
+      "createdAt": "2026-09-26 16:53:35",
+      "poolId": "0xed3293e8d79ffc5eed721a188894432a3f746bcf91ad88916fbf052fd2e05766",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreieextg4witcnqk3xuikyuufjbctfnu2kulocwdyrcnlvaby7ad33y",
+        "verified": false,
+        "operatorAddress": "0x58a580D879921eA5601b615c3086Ea59D1d5dEC6",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x58a580D879921eA5601b615c3086Ea59D1d5dEC6",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xed3293e8d79ffc5eed721a188894432a3f746bcf91ad88916fbf052fd2e05766",
+      "basescanUrl": "https://basescan.org/token/0x9701FC1B060FFCD60d2C0A95bED403C6D8cDfB07",
+      "source": "clanker",
+      "volume24h": 11320.42,
+      "txns24h": 260
+    },
+    {
+      "tokenName": "androidlm",
+      "tokenSymbol": "androidlm",
+      "tokenAddress": "0x17A80bb0B31B9faa3A0c2D7BDe63a2a34Ba41b07",
+      "imageUrl": null,
+      "createdAt": "2026-09-26 16:52:27",
+      "poolId": "0xf55a03ff3f1bc53982c6ceae0f11e9fd846328659d4291c8a5b7b31ae445970c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xE1E4024d2c605f1290e3940f5F95Ac900555800F",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE1E4024d2c605f1290e3940f5F95Ac900555800F",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf55a03ff3f1bc53982c6ceae0f11e9fd846328659d4291c8a5b7b31ae445970c",
+      "basescanUrl": "https://basescan.org/token/0x17A80bb0B31B9faa3A0c2D7BDe63a2a34Ba41b07",
+      "source": "clanker",
+      "volume24h": 32238.88,
+      "txns24h": 212
+    },
     {
       "tokenName": "Effective Accelerationism",
       "tokenSymbol": "e/acc",
