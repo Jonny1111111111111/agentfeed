@@ -5,29 +5,51 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 231,
+  "count": 232,
   "items": [
     {
-      "tokenName": "Muse",
-      "tokenSymbol": "Muse",
-      "tokenAddress": "0x5bC5e2FD1C3Ff2DAee38251eF9bC4D11b3881B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-      "createdAt": "2026-09-25 00:37:19",
-      "poolId": "0x11bd50B935036f4adE68346A6dD9F17404Ed4853",
+      "tokenName": "Effective Accelerationism",
+      "tokenSymbol": "e/acc",
+      "tokenAddress": "0x9260aa5DD62d592D8056cccBba013414aA17FB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeia36lrhrlxmy5cr6rqfzqphjnabwb5zsithzlc3ygk535rf7gqjb4",
+      "createdAt": "2026-09-26 04:12:07",
+      "poolId": "0x412373484199131BE2a9A64f57554aE440161BEa",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeia36lrhrlxmy5cr6rqfzqphjnabwb5zsithzlc3ygk535rf7gqjb4",
         "verified": false,
         "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
         "profileUrl": null
       },
       "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x11bd50b935036f4ade68346a6dd9f17404ed4853",
-      "basescanUrl": "https://basescan.org/token/0x5bC5e2FD1C3Ff2DAee38251eF9bC4D11b3881B07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x412373484199131be2a9a64f57554ae440161bea",
+      "basescanUrl": "https://basescan.org/token/0x9260aa5DD62d592D8056cccBba013414aA17FB07",
       "source": "clanker",
-      "volume24h": 2942681.5100000002,
-      "txns24h": 1260
+      "volume24h": 9654745.879999999,
+      "txns24h": 1645
+    },
+    {
+      "tokenName": "boar",
+      "tokenSymbol": "boar",
+      "tokenAddress": "0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
+      "imageUrl": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/00c51774-de30-45b0-438e-fa8e4c916700/original",
+      "createdAt": "2026-09-26 02:58:01",
+      "poolId": "0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/00c51774-de30-45b0-438e-fa8e4c916700/original",
+        "verified": false,
+        "operatorAddress": "0x32d1C8A4d133241a710d780f1198992A015Ea5Ed",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x32d1C8A4d133241a710d780f1198992A015Ea5Ed",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
+      "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
+      "source": "clanker",
+      "volume24h": 1342736.29,
+      "txns24h": 6077
     },
     {
       "tokenName": "Gang",
