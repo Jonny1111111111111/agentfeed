@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "boar",
+      "tokenSymbol": "boar",
+      "tokenAddress": "0xc9650cBA0e9A432F523DB5e89d1165E8Fe8c7b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegbxpejkegfoe3uxq4lgiosveapnr2xkqpuluw4rj7wi3mx44o3u",
+      "createdAt": "2026-09-27 06:56:33",
+      "poolId": "0x2A2fc0D22359c9605B2Fdb8d78eFC62cb15AA0a9",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegbxpejkegfoe3uxq4lgiosveapnr2xkqpuluw4rj7wi3mx44o3u",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2a2fc0d22359c9605b2fdb8d78efc62cb15aa0a9",
+      "basescanUrl": "https://basescan.org/token/0xc9650cBA0e9A432F523DB5e89d1165E8Fe8c7b07",
+      "source": "clanker",
+      "volume24h": 18573656.77,
+      "txns24h": 2084
+    },
     {
       "tokenName": "Coinbase Muse",
       "tokenSymbol": "CBMUSE",

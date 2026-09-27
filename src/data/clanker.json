@@ -1,19 +1,42 @@
 {
-  "generatedAt": "2026-09-27T02:52:52.346Z",
+  "generatedAt": "2026-09-27T11:09:04.883Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 780,
+    "api": 778,
     "chain": 0,
-    "persisted": 4
+    "persisted": 3
   },
-  "count": 3,
+  "count": 4,
   "addresses": [
+    "0xc9650cba0e9a432f523db5e89d1165e8fe8c7b07",
     "0x9701fc1b060ffcd60d2c0a95bed403c6d8cdfb07",
     "0x17a80bb0b31b9faa3a0c2d7bde63a2a34ba41b07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "boar",
+      "tokenSymbol": "boar",
+      "tokenAddress": "0xc9650cBA0e9A432F523DB5e89d1165E8Fe8c7b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegbxpejkegfoe3uxq4lgiosveapnr2xkqpuluw4rj7wi3mx44o3u",
+      "createdAt": "2026-09-27 06:56:33",
+      "poolId": "0x2A2fc0D22359c9605B2Fdb8d78eFC62cb15AA0a9",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiegbxpejkegfoe3uxq4lgiosveapnr2xkqpuluw4rj7wi3mx44o3u",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2a2fc0d22359c9605b2fdb8d78efc62cb15aa0a9",
+      "basescanUrl": "https://basescan.org/token/0xc9650cBA0e9A432F523DB5e89d1165E8Fe8c7b07",
+      "source": "clanker",
+      "volume24h": 18573656.77,
+      "txns24h": 2084
+    },
     {
       "tokenName": "Coinbase Muse",
       "tokenSymbol": "CBMUSE",
@@ -33,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xed3293e8d79ffc5eed721a188894432a3f746bcf91ad88916fbf052fd2e05766",
       "basescanUrl": "https://basescan.org/token/0x9701FC1B060FFCD60d2C0A95bED403C6D8cDfB07",
       "source": "clanker",
-      "volume24h": 11349.32,
-      "txns24h": 266
+      "volume24h": 11363.95,
+      "txns24h": 268
     },
     {
       "tokenName": "androidlm",
@@ -55,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf55a03ff3f1bc53982c6ceae0f11e9fd846328659d4291c8a5b7b31ae445970c",
       "basescanUrl": "https://basescan.org/token/0x17A80bb0B31B9faa3A0c2D7BDe63a2a34Ba41b07",
       "source": "clanker",
-      "volume24h": 32263.38,
-      "txns24h": 214
+      "volume24h": 32282.47,
+      "txns24h": 215
     },
     {
       "tokenName": "boar",
@@ -77,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 11290977.670000004,
-      "txns24h": 55462
+      "volume24h": 10779634.8,
+      "txns24h": 48589
     }
   ]
 }
