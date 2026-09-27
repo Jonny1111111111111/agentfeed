@@ -1,20 +1,43 @@
 {
-  "generatedAt": "2026-09-27T11:09:04.883Z",
+  "generatedAt": "2026-09-27T16:09:33.215Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 778,
+    "api": 783,
     "chain": 0,
-    "persisted": 3
+    "persisted": 4
   },
-  "count": 4,
+  "count": 5,
   "addresses": [
+    "0x59ffbc2c3b47549b204b350427b31fdefd76bb07",
     "0xc9650cba0e9a432f523db5e89d1165e8fe8c7b07",
     "0x9701fc1b060ffcd60d2c0a95bed403c6d8cdfb07",
     "0x17a80bb0b31b9faa3a0c2d7bde63a2a34ba41b07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x59fFBc2c3B47549B204b350427b31fDEFd76Bb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+      "createdAt": "2026-09-27 11:01:19",
+      "poolId": "0x87db8068EF289A55C45c7F3723436BAe9413309B",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x87db8068ef289a55c45c7f3723436bae9413309b",
+      "basescanUrl": "https://basescan.org/token/0x59fFBc2c3B47549B204b350427b31fDEFd76Bb07",
+      "source": "clanker",
+      "volume24h": 33464635.13,
+      "txns24h": 1376
+    },
     {
       "tokenName": "boar",
       "tokenSymbol": "boar",
@@ -78,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf55a03ff3f1bc53982c6ceae0f11e9fd846328659d4291c8a5b7b31ae445970c",
       "basescanUrl": "https://basescan.org/token/0x17A80bb0B31B9faa3A0c2D7BDe63a2a34Ba41b07",
       "source": "clanker",
-      "volume24h": 32282.47,
-      "txns24h": 215
+      "volume24h": 33042.91,
+      "txns24h": 219
     },
     {
       "tokenName": "boar",
@@ -100,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 10779634.8,
-      "txns24h": 48589
+      "volume24h": 9795776.590000002,
+      "txns24h": 49851
     }
   ]
 }
