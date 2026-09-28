@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-09-28T12:32:41.239Z",
+  "generatedAt": "2026-09-28T22:51:53.361Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 773,
+    "api": 780,
     "chain": 0,
-    "persisted": 3
+    "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0x81cf4e1ac4c3f076197d609c6bb607a916f0fb07",
     "0x060e1aa79456d3dfc73269db8cdcd57a97275b07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "中国人能飞火箭",
+      "tokenSymbol": "中国人能飞",
+      "tokenAddress": "0x81cF4e1Ac4c3F076197D609C6bB607a916f0FB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeig4hjb5ggplxrihs2dvakbogyo3fgfalnxqvb2vi5ykdlz5fahr2a",
+      "createdAt": "2026-09-28 12:46:47",
+      "poolId": "0xA01D0F65ad86356c6c168Fb19307b70Ee64D8314",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeig4hjb5ggplxrihs2dvakbogyo3fgfalnxqvb2vi5ykdlz5fahr2a",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa01d0f65ad86356c6c168fb19307b70ee64d8314",
+      "basescanUrl": "https://basescan.org/token/0x81cF4e1Ac4c3F076197D609C6bB607a916f0FB07",
+      "source": "clanker",
+      "volume24h": 1647483.7100000002,
+      "txns24h": 880
+    },
     {
       "tokenName": "ClankFi",
       "tokenSymbol": "ClankFi",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x5144c05a93b2e16d20ad600b93d7922b6cd95079c79cdd399c998c5bdc5ac494",
       "basescanUrl": "https://basescan.org/token/0x060e1aa79456D3dFc73269Db8CdcD57a97275B07",
       "source": "clanker",
-      "volume24h": 75602.25,
-      "txns24h": 603
+      "volume24h": 77448.37,
+      "txns24h": 659
     },
     {
       "tokenName": "boar",
@@ -54,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 2009843.71,
-      "txns24h": 8718
+      "volume24h": 1110573.94,
+      "txns24h": 5004
     }
   ]
 }
