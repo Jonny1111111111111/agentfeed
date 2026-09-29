@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0xaAeCa41D0595A521043fAc4245E518D2C6aAeB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+      "createdAt": "2026-09-29 14:05:09",
+      "poolId": "0xd08e35277bbbBE9aEed8276f1CAb2403dBDAFA16",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd08e35277bbbbe9aeed8276f1cab2403dbdafa16",
+      "basescanUrl": "https://basescan.org/token/0xaAeCa41D0595A521043fAc4245E518D2C6aAeB07",
+      "source": "clanker",
+      "volume24h": 54003163.23,
+      "txns24h": 4010
+    },
     {
       "tokenName": "Muse",
       "tokenSymbol": "Muse",
@@ -50,50 +72,6 @@
       "source": "clanker",
       "volume24h": 1584702.6800000002,
       "txns24h": 196
-    },
-    {
-      "tokenName": "中国人能飞火箭",
-      "tokenSymbol": "中国人能飞",
-      "tokenAddress": "0x81cF4e1Ac4c3F076197D609C6bB607a916f0FB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeig4hjb5ggplxrihs2dvakbogyo3fgfalnxqvb2vi5ykdlz5fahr2a",
-      "createdAt": "2026-09-28 12:46:47",
-      "poolId": "0xA01D0F65ad86356c6c168Fb19307b70Ee64D8314",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeig4hjb5ggplxrihs2dvakbogyo3fgfalnxqvb2vi5ykdlz5fahr2a",
-        "verified": false,
-        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa01d0f65ad86356c6c168fb19307b70ee64d8314",
-      "basescanUrl": "https://basescan.org/token/0x81cF4e1Ac4c3F076197D609C6bB607a916f0FB07",
-      "source": "clanker",
-      "volume24h": 1647483.7100000002,
-      "txns24h": 880
-    },
-    {
-      "tokenName": "ClankFi",
-      "tokenSymbol": "ClankFi",
-      "tokenAddress": "0x060e1aa79456D3dFc73269Db8CdcD57a97275B07",
-      "imageUrl": "https://ipfs.io/ipfs/QmWSHeByf7KB5qMYo3KhKBtvL3f5kBPLqaCcx2BmUti2QU",
-      "createdAt": "2026-09-28 11:48:09",
-      "poolId": "0x5144c05a93b2e16d20ad600b93d7922b6cd95079c79cdd399c998c5bdc5ac494",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://ipfs.io/ipfs/QmWSHeByf7KB5qMYo3KhKBtvL3f5kBPLqaCcx2BmUti2QU",
-        "verified": false,
-        "operatorAddress": "0x38B2bAC6431604dFfEc17a1E6Adc649a9Ea0eFba",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x38B2bAC6431604dFfEc17a1E6Adc649a9Ea0eFba",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5144c05a93b2e16d20ad600b93d7922b6cd95079c79cdd399c998c5bdc5ac494",
-      "basescanUrl": "https://basescan.org/token/0x060e1aa79456D3dFc73269Db8CdcD57a97275B07",
-      "source": "clanker",
-      "volume24h": 75602.25,
-      "txns24h": 603
     },
     {
       "tokenName": "boar",
