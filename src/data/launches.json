@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0xb87eF3e09FC5a0b75E805a7C883Ba39eB2f8Ab07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+      "createdAt": "2026-09-29 03:09:57",
+      "poolId": "0x277c918f5cdBfAc28C472B980b7Bf60e8e5705f7",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia6nfz6iziws2utr7wfdx2s5vqmi5enwt725uqyn4tptocbpuemnq",
+        "verified": false,
+        "operatorAddress": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x277c918f5cdbfac28c472b980b7bf60e8e5705f7",
+      "basescanUrl": "https://basescan.org/token/0xb87eF3e09FC5a0b75E805a7C883Ba39eB2f8Ab07",
+      "source": "clanker",
+      "volume24h": 1584702.6800000002,
+      "txns24h": 196
+    },
     {
       "tokenName": "中国人能飞火箭",
       "tokenSymbol": "中国人能飞",
@@ -63,7 +85,7 @@
         "handle": null,
         "image": "https://imagedelivery.net/BXluQx4ige9GuW0Ia56BHw/00c51774-de30-45b0-438e-fa8e4c916700/original",
         "verified": false,
-        "operatorAddress": "0x32d1C8A4d133241a710d780f1198992A015Ea5Ed",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x32d1C8A4d133241a710d780f1198992A015Ea5Ed",
