@@ -1,19 +1,42 @@
 {
-  "generatedAt": "2026-10-02T03:26:35.528Z",
+  "generatedAt": "2026-10-02T11:42:22.366Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 758,
+    "api": 757,
     "chain": 0,
     "persisted": 3
   },
-  "count": 3,
+  "count": 4,
   "addresses": [
+    "0x7d6ba87fb76c82896db24aa29608268ac0e4db07",
     "0xb3a1fcaacd4e4afa6cdd3a3865c59288c4bd8b07",
     "0xa7cef888cd72f47495603dc98621e177bdad6b07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x7D6bA87fb76c82896Db24AA29608268AC0E4db07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+      "createdAt": "2026-10-02 08:28:01",
+      "poolId": "0x9f20F2f439567544A24aA3Ab34c085E69b9F265E",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9f20f2f439567544a24aa3ab34c085e69b9f265e",
+      "basescanUrl": "https://basescan.org/token/0x7D6bA87fb76c82896Db24AA29608268AC0E4db07",
+      "source": "clanker",
+      "volume24h": 47435978.230000004,
+      "txns24h": 3770
+    },
     {
       "tokenName": "HyperStride",
       "tokenSymbol": "STRIDE",
@@ -33,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1d4188de1a455e84569059e263afa8da270112e92c8b0064fdf031c8d0f698fe",
       "basescanUrl": "https://basescan.org/token/0xb3a1FcAACD4e4AFa6cDd3A3865C59288C4bD8b07",
       "source": "clanker",
-      "volume24h": 16324.3,
-      "txns24h": 241
+      "volume24h": 16460.01,
+      "txns24h": 250
     },
     {
       "tokenName": "Doppler",
@@ -42,7 +65,7 @@
       "tokenAddress": "0xA7cEF888Cd72f47495603dC98621E177BDAd6b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreif2bhv4b2n2wal5xpmrkdzxzhpl4ahgw3c663n2cfkbnz5yctuham",
       "createdAt": "2026-10-01 14:54:23",
-      "poolId": "0xeE0c636907e398fb93Ef16d5cC7F164283573b61",
+      "poolId": "0xd479c8fbd67fb1c234bc22cbdfc572a5aed1fdaa0056626c685b0da34fdf1525",
       "launcher": {
         "name": null,
         "handle": null,
@@ -52,11 +75,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0x7f6A69F9F5B54AaFB46B095F8EDeb4277857bE57",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xee0c636907e398fb93ef16d5cc7f164283573b61",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd479c8fbd67fb1c234bc22cbdfc572a5aed1fdaa0056626c685b0da34fdf1525",
       "basescanUrl": "https://basescan.org/token/0xA7cEF888Cd72f47495603dC98621E177BDAd6b07",
       "source": "clanker",
-      "volume24h": 43801636.99,
-      "txns24h": 4874
+      "volume24h": 43801641.77000001,
+      "txns24h": 5072
     },
     {
       "tokenName": "boar",
@@ -77,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 468593.35999999987,
-      "txns24h": 2634
+      "volume24h": 425832.54,
+      "txns24h": 2572
     }
   ]
 }
