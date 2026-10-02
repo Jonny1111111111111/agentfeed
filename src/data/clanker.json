@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-10-02T17:11:40.149Z",
+  "generatedAt": "2026-10-02T21:41:22.790Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 755,
+    "api": 754,
     "chain": 0,
-    "persisted": 4
+    "persisted": 3
   },
-  "count": 3,
+  "count": 2,
   "addresses": [
     "0x7d6ba87fb76c82896db24aa29608268ac0e4db07",
-    "0xb3a1fcaacd4e4afa6cdd3a3865c59288c4bd8b07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
@@ -33,30 +32,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9f20f2f439567544a24aa3ab34c085e69b9f265e",
       "basescanUrl": "https://basescan.org/token/0x7D6bA87fb76c82896Db24AA29608268AC0E4db07",
       "source": "clanker",
-      "volume24h": 51883012.29000001,
-      "txns24h": 5580
-    },
-    {
-      "tokenName": "HyperStride",
-      "tokenSymbol": "STRIDE",
-      "tokenAddress": "0xb3a1FcAACD4e4AFa6cDd3A3865C59288C4bD8b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia7xvl334az2b77xt62xfcxdqxcvemgotgftjykchoxemosyhplgm",
-      "createdAt": "2026-10-01 16:07:27",
-      "poolId": "0x1d4188de1a455e84569059e263afa8da270112e92c8b0064fdf031c8d0f698fe",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreia7xvl334az2b77xt62xfcxdqxcvemgotgftjykchoxemosyhplgm",
-        "verified": false,
-        "operatorAddress": "0x841AC064763c75A6b6b916eF676420d6FfDd281f",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x841AC064763c75A6b6b916eF676420d6FfDd281f",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1d4188de1a455e84569059e263afa8da270112e92c8b0064fdf031c8d0f698fe",
-      "basescanUrl": "https://basescan.org/token/0xb3a1FcAACD4e4AFa6cDd3A3865C59288C4bD8b07",
-      "source": "clanker",
-      "volume24h": 2128.82,
-      "txns24h": 106
+      "volume24h": 51883016.38,
+      "txns24h": 6047
     },
     {
       "tokenName": "boar",
@@ -77,8 +54,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 397242.17999999993,
-      "txns24h": 2237
+      "volume24h": 377539.36,
+      "txns24h": 2018
     }
   ]
 }
