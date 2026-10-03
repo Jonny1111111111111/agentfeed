@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "OpenAI",
+      "tokenSymbol": "OpenAI",
+      "tokenAddress": "0x39A4199fCBA7d9fecbBa5974C23444065Ba1Bb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaihr42ujvo5lk5gtytwqwq5dlmpetdiakfz3kekx7qe67enagtbm",
+      "createdAt": "2026-10-03 05:55:01",
+      "poolId": "0xa9Cfd0B88289FE10F695Eb7319926d24Bd6C0Afa",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreiaihr42ujvo5lk5gtytwqwq5dlmpetdiakfz3kekx7qe67enagtbm",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa9cfd0b88289fe10f695eb7319926d24bd6c0afa",
+      "basescanUrl": "https://basescan.org/token/0x39A4199fCBA7d9fecbBa5974C23444065Ba1Bb07",
+      "source": "clanker",
+      "volume24h": 7250031.05,
+      "txns24h": 2602
+    },
     {
       "tokenName": "Conway Tech",
       "tokenSymbol": "CONWAY",
