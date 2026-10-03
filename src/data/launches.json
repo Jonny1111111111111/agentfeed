@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 232,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Conway Tech",
+      "tokenSymbol": "CONWAY",
+      "tokenAddress": "0x26567019576f7d9EA24C66D1Eb485964c8F5a6ba",
+      "imageUrl": "https://lavender-impressive-unicorn-780.mypinata.cloud/ipfs/bafkreiahakpatz2riqsx5ismlgdftcepwgrnmtpj5gbm4cmff5gfodhqza",
+      "createdAt": "2026-10-03 01:36:59",
+      "poolId": "0x0fdba9ad3745f4e01bebf94bb068fb814edda27442b3866cbcf211549a9012ba",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://lavender-impressive-unicorn-780.mypinata.cloud/ipfs/bafkreiahakpatz2riqsx5ismlgdftcepwgrnmtpj5gbm4cmff5gfodhqza",
+        "verified": false,
+        "operatorAddress": "0xB8d12A616F2FA72Dd6A222FB9Ca5837323ED3011",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB8d12A616F2FA72Dd6A222FB9Ca5837323ED3011",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0fdba9ad3745f4e01bebf94bb068fb814edda27442b3866cbcf211549a9012ba",
+      "basescanUrl": "https://basescan.org/token/0x26567019576f7d9EA24C66D1Eb485964c8F5a6ba",
+      "source": "clanker",
+      "volume24h": 38574.74,
+      "txns24h": 234
+    },
+    {
+      "tokenName": "Green Morning",
+      "tokenSymbol": "GM",
+      "tokenAddress": "0x5766a021d591566F009377F4eC840eDF4BCC4B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeib5hv6zjvpfyjpoqfujet5id7ujvbgntvjswjygwn5vpe36fxxgw4",
+      "createdAt": "2026-10-03 01:16:31",
+      "poolId": "0x57381e6874a6c4DD6b659129feF764020CC266D8",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeib5hv6zjvpfyjpoqfujet5id7ujvbgntvjswjygwn5vpe36fxxgw4",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x57381e6874a6c4dd6b659129fef764020cc266d8",
+      "basescanUrl": "https://basescan.org/token/0x5766a021d591566F009377F4eC840eDF4BCC4B07",
+      "source": "clanker",
+      "volume24h": 34955195.660000004,
+      "txns24h": 1132
+    },
     {
       "tokenName": "Muse",
       "tokenSymbol": "Muse",
