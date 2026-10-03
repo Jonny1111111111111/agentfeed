@@ -1,18 +1,17 @@
 {
-  "generatedAt": "2026-10-03T10:56:03.444Z",
+  "generatedAt": "2026-10-03T15:32:26.113Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 763,
+    "api": 761,
     "chain": 0,
-    "persisted": 4
+    "persisted": 5
   },
-  "count": 5,
+  "count": 4,
   "addresses": [
     "0x39a4199fcba7d9fecbba5974c23444065ba1bb07",
     "0x26567019576f7d9ea24c66d1eb485964c8f5a6ba",
     "0x5766a021d591566f009377f4ec840edf4bcc4b07",
-    "0x7d6ba87fb76c82896db24aa29608268ac0e4db07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
@@ -35,8 +34,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9cfd0b88289fe10f695eb7319926d24bd6c0afa",
       "basescanUrl": "https://basescan.org/token/0x39A4199fCBA7d9fecbBa5974C23444065Ba1Bb07",
       "source": "clanker",
-      "volume24h": 7250031.05,
-      "txns24h": 2602
+      "volume24h": 20137701.97,
+      "txns24h": 4590
     },
     {
       "tokenName": "Conway Tech",
@@ -57,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0fdba9ad3745f4e01bebf94bb068fb814edda27442b3866cbcf211549a9012ba",
       "basescanUrl": "https://basescan.org/token/0x26567019576f7d9EA24C66D1Eb485964c8F5a6ba",
       "source": "clanker",
-      "volume24h": 42596.87,
-      "txns24h": 258
+      "volume24h": 42621.52,
+      "txns24h": 263
     },
     {
       "tokenName": "Green Morning",
@@ -83,28 +82,6 @@
       "txns24h": 1359
     },
     {
-      "tokenName": "Muse",
-      "tokenSymbol": "Muse",
-      "tokenAddress": "0x7D6bA87fb76c82896Db24AA29608268AC0E4db07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-      "createdAt": "2026-10-02 08:28:01",
-      "poolId": "0x9f20F2f439567544A24aA3Ab34c085E69b9F265E",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x9f20f2f439567544a24aa3ab34c085e69b9f265e",
-      "basescanUrl": "https://basescan.org/token/0x7D6bA87fb76c82896Db24AA29608268AC0E4db07",
-      "source": "clanker",
-      "volume24h": 15598048.14,
-      "txns24h": 2960
-    },
-    {
       "tokenName": "boar",
       "tokenSymbol": "boar",
       "tokenAddress": "0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
@@ -123,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 356272.82,
-      "txns24h": 1980
+      "volume24h": 287041.94999999995,
+      "txns24h": 1703
     }
   ]
 }
