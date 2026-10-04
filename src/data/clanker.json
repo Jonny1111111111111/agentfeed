@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-04T03:39:12.218Z",
+  "generatedAt": "2026-10-04T11:38:01.054Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 760,
+    "api": 762,
     "chain": 0,
     "persisted": 4
   },
@@ -34,8 +34,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x545222ef41f7f25da3f9c967916569782f14431c",
       "basescanUrl": "https://basescan.org/token/0x91499b9a40CE10C04ddFCea1CD4FbEA06f390b07",
       "source": "clanker",
-      "volume24h": 22740.45,
-      "txns24h": 371
+      "volume24h": 341978.17000000004,
+      "txns24h": 1979
     },
     {
       "tokenName": "MILF",
@@ -43,21 +43,21 @@
       "tokenAddress": "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "imageUrl": "https://cdn.dexscreener.com/cms/images/d1a0104c7c581fed72078d9daa44f828d79e31361906342b93890e7fc6ce734e?width=800&height=800&quality=95&format=auto",
       "createdAt": "2026-10-03 22:04:49",
-      "poolId": "0x19b51fd16608f917e318156dd74859cd4cf36b66d06337529a38b5daa657ff38",
+      "poolId": "0xd8D511e494077E497fBDA449135Cd5F3B6EcC85C",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": null,
+        "image": "https://cdn.dexscreener.com/cms/images/d1a0104c7c581fed72078d9daa44f828d79e31361906342b93890e7fc6ce734e?width=800&height=800&quality=95&format=auto",
         "verified": false,
         "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x19b51fd16608f917e318156dd74859cd4cf36b66d06337529a38b5daa657ff38",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 552.29,
-      "txns24h": 108
+      "volume24h": 3928.7299999999996,
+      "txns24h": 1102
     },
     {
       "tokenName": "OpenAI",
@@ -78,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9cfd0b88289fe10f695eb7319926d24bd6c0afa",
       "basescanUrl": "https://basescan.org/token/0x39A4199fCBA7d9fecbBa5974C23444065Ba1Bb07",
       "source": "clanker",
-      "volume24h": 20138118.16,
-      "txns24h": 5738
+      "volume24h": 12888129.75,
+      "txns24h": 2941
     },
     {
       "tokenName": "boar",
@@ -100,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 666844.5299999998,
-      "txns24h": 2907
+      "volume24h": 705668.1799999998,
+      "txns24h": 3153
     }
   ]
 }
