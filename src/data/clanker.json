@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:27:39.941Z",
+  "generatedAt": "2026-10-04T03:39:12.218Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
@@ -9,12 +9,56 @@
   },
   "count": 4,
   "addresses": [
+    "0x91499b9a40ce10c04ddfcea1cd4fbea06f390b07",
+    "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x39a4199fcba7d9fecbba5974c23444065ba1bb07",
-    "0x26567019576f7d9ea24c66d1eb485964c8f5a6ba",
-    "0x5766a021d591566f009377f4ec840edf4bcc4b07",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x91499b9a40CE10C04ddFCea1CD4FbEA06f390b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+      "createdAt": "2026-10-04 03:06:41",
+      "poolId": "0x545222EF41f7F25Da3f9C967916569782F14431c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x545222ef41f7f25da3f9c967916569782f14431c",
+      "basescanUrl": "https://basescan.org/token/0x91499b9a40CE10C04ddFCea1CD4FbEA06f390b07",
+      "source": "clanker",
+      "volume24h": 22740.45,
+      "txns24h": 371
+    },
+    {
+      "tokenName": "MILF",
+      "tokenSymbol": "MILF",
+      "tokenAddress": "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
+      "imageUrl": "https://cdn.dexscreener.com/cms/images/d1a0104c7c581fed72078d9daa44f828d79e31361906342b93890e7fc6ce734e?width=800&height=800&quality=95&format=auto",
+      "createdAt": "2026-10-03 22:04:49",
+      "poolId": "0x19b51fd16608f917e318156dd74859cd4cf36b66d06337529a38b5daa657ff38",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": null,
+        "profileUrl": null
+      },
+      "feeRecipient": null,
+      "dexscreenerUrl": "https://dexscreener.com/base/0x19b51fd16608f917e318156dd74859cd4cf36b66d06337529a38b5daa657ff38",
+      "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
+      "source": "clanker",
+      "volume24h": 552.29,
+      "txns24h": 108
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -34,52 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9cfd0b88289fe10f695eb7319926d24bd6c0afa",
       "basescanUrl": "https://basescan.org/token/0x39A4199fCBA7d9fecbBa5974C23444065Ba1Bb07",
       "source": "clanker",
-      "volume24h": 20137900.82,
-      "txns24h": 4599
-    },
-    {
-      "tokenName": "Conway Tech",
-      "tokenSymbol": "CONWAY",
-      "tokenAddress": "0x26567019576f7d9EA24C66D1Eb485964c8F5a6ba",
-      "imageUrl": "https://lavender-impressive-unicorn-780.mypinata.cloud/ipfs/bafkreiahakpatz2riqsx5ismlgdftcepwgrnmtpj5gbm4cmff5gfodhqza",
-      "createdAt": "2026-10-03 01:36:59",
-      "poolId": "0x0fdba9ad3745f4e01bebf94bb068fb814edda27442b3866cbcf211549a9012ba",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://lavender-impressive-unicorn-780.mypinata.cloud/ipfs/bafkreiahakpatz2riqsx5ismlgdftcepwgrnmtpj5gbm4cmff5gfodhqza",
-        "verified": false,
-        "operatorAddress": "0xB8d12A616F2FA72Dd6A222FB9Ca5837323ED3011",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xB8d12A616F2FA72Dd6A222FB9Ca5837323ED3011",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0fdba9ad3745f4e01bebf94bb068fb814edda27442b3866cbcf211549a9012ba",
-      "basescanUrl": "https://basescan.org/token/0x26567019576f7d9EA24C66D1Eb485964c8F5a6ba",
-      "source": "clanker",
-      "volume24h": 42927.06,
-      "txns24h": 275
-    },
-    {
-      "tokenName": "Green Morning",
-      "tokenSymbol": "GM",
-      "tokenAddress": "0x5766a021d591566F009377F4eC840eDF4BCC4B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeib5hv6zjvpfyjpoqfujet5id7ujvbgntvjswjygwn5vpe36fxxgw4",
-      "createdAt": "2026-10-03 01:16:31",
-      "poolId": "0x57381e6874a6c4DD6b659129feF764020CC266D8",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeib5hv6zjvpfyjpoqfujet5id7ujvbgntvjswjygwn5vpe36fxxgw4",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x57381e6874a6c4dd6b659129fef764020cc266d8",
-      "basescanUrl": "https://basescan.org/token/0x5766a021d591566F009377F4eC840eDF4BCC4B07",
-      "source": "clanker",
-      "volume24h": 34955249.21,
-      "txns24h": 1365
+      "volume24h": 20138118.16,
+      "txns24h": 5738
     },
     {
       "tokenName": "boar",
@@ -100,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 308132.42,
-      "txns24h": 1764
+      "volume24h": 666844.5299999998,
+      "txns24h": 2907
     }
   ]
 }
