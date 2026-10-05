@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-10-05T13:12:38.339Z",
+  "generatedAt": "2026-10-05T23:34:23.682Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 771,
+    "api": 775,
     "chain": 0,
     "persisted": 5
   },
-  "count": 5,
+  "count": 4,
   "addresses": [
     "0x7e8bce91b410b35fc2a0de971e36ebe6370a8b07",
-    "0x16ef05430ead1dc2c8ed82e015ed534ea218eb07",
     "0x728a536469cc655bddbca2b86098aa4e07168b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
@@ -35,30 +34,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc0f70b96982110a04c6a8b0eecdc07ff429c8e40",
       "basescanUrl": "https://basescan.org/token/0x7E8bce91B410B35Fc2A0DE971E36ebE6370a8B07",
       "source": "clanker",
-      "volume24h": 7147343.94,
-      "txns24h": 1618
-    },
-    {
-      "tokenName": "躺赢人生",
-      "tokenSymbol": "躺赢",
-      "tokenAddress": "0x16EF05430EAD1Dc2c8Ed82E015ed534ea218EB07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiexrfkwzvrdjd5qsffqlcud5fcge3itlbg4kfv66kbgt5lmcy2zta",
-      "createdAt": "2026-10-04 13:46:57",
-      "poolId": "0x0aCc14bAF20B2c0Aeb2BBF2088935105078Ca60B",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeiexrfkwzvrdjd5qsffqlcud5fcge3itlbg4kfv66kbgt5lmcy2zta",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0acc14baf20b2c0aeb2bbf2088935105078ca60b",
-      "basescanUrl": "https://basescan.org/token/0x16EF05430EAD1Dc2c8Ed82E015ed534ea218EB07",
-      "source": "clanker",
-      "volume24h": 41278037.62,
-      "txns24h": 2063
+      "volume24h": 82098861.54,
+      "txns24h": 5964
     },
     {
       "tokenName": "Base",
@@ -79,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa52d5bc6376258c94a40f4a36684ad73a77cfc57",
       "basescanUrl": "https://basescan.org/token/0x728A536469cC655bDdBcA2b86098Aa4E07168b07",
       "source": "clanker",
-      "volume24h": 1311401.1300000001,
-      "txns24h": 1359
+      "volume24h": 848.65,
+      "txns24h": 351
     },
     {
       "tokenName": "MILF",
@@ -101,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 2822.55,
-      "txns24h": 755
+      "volume24h": 2508.3500000000004,
+      "txns24h": 628
     },
     {
       "tokenName": "boar",
@@ -123,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 257705.74000000002,
-      "txns24h": 1355
+      "volume24h": 259662.61,
+      "txns24h": 1415
     }
   ]
 }
