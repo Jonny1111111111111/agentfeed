@@ -1,19 +1,65 @@
 {
-  "generatedAt": "2026-10-06T04:09:21.812Z",
+  "generatedAt": "2026-10-06T12:33:33.277Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 771,
+    "api": 772,
     "chain": 0,
-    "persisted": 4
+    "persisted": 3
   },
-  "count": 3,
+  "count": 5,
   "addresses": [
+    "0xb49e16557bbb95ad6e3fca5768e994ab39367b07",
+    "0x2adcace6ef07fc602da3a538f1de1bdadb193b07",
     "0x7e8bce91b410b35fc2a0de971e36ebe6370a8b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Claus",
+      "tokenSymbol": "CLAUS",
+      "tokenAddress": "0xb49e16557Bbb95aD6E3FCa5768E994Ab39367b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibdljwkrzvabvpjg764ylhpidpzo645ts5i4aats7jp4arrq4mcje",
+      "createdAt": "2026-10-06 10:37:07",
+      "poolId": "0x29270aD10835E4eC62a129F3a5A0f216fdeb5f10",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreibdljwkrzvabvpjg764ylhpidpzo645ts5i4aats7jp4arrq4mcje",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x29270ad10835e4ec62a129f3a5a0f216fdeb5f10",
+      "basescanUrl": "https://basescan.org/token/0xb49e16557Bbb95aD6E3FCa5768E994Ab39367b07",
+      "source": "clanker",
+      "volume24h": 78484844.25999999,
+      "txns24h": 2021
+    },
+    {
+      "tokenName": "Muse",
+      "tokenSymbol": "Muse",
+      "tokenAddress": "0x2adcAcE6eF07Fc602da3a538f1De1BDADb193B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+      "createdAt": "2026-10-06 05:31:53",
+      "poolId": "0x0c416470e8482E265364505E583F4fB877D8F1a6",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0c416470e8482e265364505e583f4fb877d8f1a6",
+      "basescanUrl": "https://basescan.org/token/0x2adcAcE6eF07Fc602da3a538f1De1BDADb193B07",
+      "source": "clanker",
+      "volume24h": 95472.24,
+      "txns24h": 676
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -33,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc0f70b96982110a04c6a8b0eecdc07ff429c8e40",
       "basescanUrl": "https://basescan.org/token/0x7E8bce91B410B35Fc2A0DE971E36ebE6370a8B07",
       "source": "clanker",
-      "volume24h": 82099172.18,
-      "txns24h": 6902
+      "volume24h": 75077539.15,
+      "txns24h": 7407
     },
     {
       "tokenName": "MILF",
@@ -55,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 2870.61,
-      "txns24h": 716
+      "volume24h": 2284.34,
+      "txns24h": 702
     },
     {
       "tokenName": "boar",
@@ -77,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 277096.79999999993,
-      "txns24h": 1489
+      "volume24h": 290702.25999999995,
+      "txns24h": 1534
     }
   ]
 }
