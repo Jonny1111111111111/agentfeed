@@ -1,21 +1,43 @@
 {
-  "generatedAt": "2026-10-07T03:36:52.175Z",
+  "generatedAt": "2026-10-07T12:26:18.711Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 770,
+    "api": 771,
     "chain": 0,
     "persisted": 5
   },
   "count": 5,
   "addresses": [
+    "0x9ee20304eb682081edf0d7e89fc3929c4ed3e336",
     "0xe3a21055b503bac71f7a0102e146a914a4209b07",
     "0xb49e16557bbb95ad6e3fca5768e994ab39367b07",
-    "0x2adcace6ef07fc602da3a538f1de1bdadb193b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "keyring",
+      "tokenSymbol": "KEYRING",
+      "tokenAddress": "0x9Ee20304eb682081EDf0D7e89fc3929C4Ed3E336",
+      "imageUrl": null,
+      "createdAt": "2026-10-07 04:17:55",
+      "poolId": "0x8591e166a2528f5665b3c042fd4b15e5734156375e96d7da3df4cd6232437373",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x3D0Ffc73712229b1f6eB584d19E318C9C7234F15",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3D0Ffc73712229b1f6eB584d19E318C9C7234F15",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8591e166a2528f5665b3c042fd4b15e5734156375e96d7da3df4cd6232437373",
+      "basescanUrl": "https://basescan.org/token/0x9Ee20304eb682081EDf0D7e89fc3929C4Ed3E336",
+      "source": "clanker",
+      "volume24h": 57066.59,
+      "txns24h": 342
+    },
     {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
@@ -35,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc9bf05c6874af53ace1af4a05830a16ee141ff94",
       "basescanUrl": "https://basescan.org/token/0xe3a21055b503bAc71F7A0102e146A914A4209B07",
       "source": "clanker",
-      "volume24h": 25211402.970000003,
-      "txns24h": 604
+      "volume24h": 113686177.36999999,
+      "txns24h": 3565
     },
     {
       "tokenName": "Claus",
@@ -57,30 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x29270ad10835e4ec62a129f3a5a0f216fdeb5f10",
       "basescanUrl": "https://basescan.org/token/0xb49e16557Bbb95aD6E3FCa5768E994Ab39367b07",
       "source": "clanker",
-      "volume24h": 90864826.1,
-      "txns24h": 2650
-    },
-    {
-      "tokenName": "Muse",
-      "tokenSymbol": "Muse",
-      "tokenAddress": "0x2adcAcE6eF07Fc602da3a538f1De1BDADb193B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-      "createdAt": "2026-10-06 05:31:53",
-      "poolId": "0x0c416470e8482E265364505E583F4fB877D8F1a6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0c416470e8482e265364505e583f4fb877d8f1a6",
-      "basescanUrl": "https://basescan.org/token/0x2adcAcE6eF07Fc602da3a538f1De1BDADb193B07",
-      "source": "clanker",
-      "volume24h": 95472.26000000001,
-      "txns24h": 677
+      "volume24h": 19349592.409999996,
+      "txns24h": 795
     },
     {
       "tokenName": "MILF",
@@ -101,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 3016.2999999999997,
-      "txns24h": 868
+      "volume24h": 3234.1399999999994,
+      "txns24h": 903
     },
     {
       "tokenName": "boar",
@@ -123,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 271924.85000000003,
-      "txns24h": 1584
+      "volume24h": 287030.07999999996,
+      "txns24h": 1789
     }
   ]
 }

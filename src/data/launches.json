@@ -8,6 +8,28 @@
   "count": 235,
   "items": [
     {
+      "tokenName": "keyring",
+      "tokenSymbol": "KEYRING",
+      "tokenAddress": "0x9Ee20304eb682081EDf0D7e89fc3929C4Ed3E336",
+      "imageUrl": null,
+      "createdAt": "2026-10-07 04:17:55",
+      "poolId": "0x8591e166a2528f5665b3c042fd4b15e5734156375e96d7da3df4cd6232437373",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x3D0Ffc73712229b1f6eB584d19E318C9C7234F15",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3D0Ffc73712229b1f6eB584d19E318C9C7234F15",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8591e166a2528f5665b3c042fd4b15e5734156375e96d7da3df4cd6232437373",
+      "basescanUrl": "https://basescan.org/token/0x9Ee20304eb682081EDf0D7e89fc3929C4Ed3E336",
+      "source": "clanker",
+      "volume24h": 57066.59,
+      "txns24h": 342
+    },
+    {
       "tokenName": "OpenAI",
       "tokenSymbol": "OpenAI",
       "tokenAddress": "0xe3a21055b503bAc71F7A0102e146A914A4209B07",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 78484844.25999999,
       "txns24h": 2021
-    },
-    {
-      "tokenName": "Muse",
-      "tokenSymbol": "Muse",
-      "tokenAddress": "0x2adcAcE6eF07Fc602da3a538f1De1BDADb193B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-      "createdAt": "2026-10-06 05:31:53",
-      "poolId": "0x0c416470e8482E265364505E583F4fB877D8F1a6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreih5idt2znnkhy2szgxes5keirz3kvs3amh4dpjhc3x6h4u6udu7r4",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x0c416470e8482e265364505e583f4fb877d8f1a6",
-      "basescanUrl": "https://basescan.org/token/0x2adcAcE6eF07Fc602da3a538f1De1BDADb193B07",
-      "source": "clanker",
-      "volume24h": 95472.24,
-      "txns24h": 676
     },
     {
       "tokenName": "MILF",
