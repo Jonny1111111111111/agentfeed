@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "Paper",
+      "tokenAddress": "0x5F8FC6a725De67e74ec489819D8848C1545aAb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+      "createdAt": "2026-10-10 14:26:51",
+      "poolId": "0xAD5ed74049A00DdF2A5920c3341db186831F493e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xad5ed74049a00ddf2a5920c3341db186831f493e",
+      "basescanUrl": "https://basescan.org/token/0x5F8FC6a725De67e74ec489819D8848C1545aAb07",
+      "source": "clanker",
+      "volume24h": 43317861.33,
+      "txns24h": 3243
+    },
     {
       "tokenName": "Apple 3x Long",
       "tokenSymbol": "AAPLx3L",

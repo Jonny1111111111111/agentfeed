@@ -1,20 +1,43 @@
 {
-  "generatedAt": "2026-10-10T11:42:08.715Z",
+  "generatedAt": "2026-10-10T16:44:23.365Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 761,
+    "api": 756,
     "chain": 0,
     "persisted": 4
   },
-  "count": 4,
+  "count": 5,
   "addresses": [
+    "0x5f8fc6a725de67e74ec489819d8848c1545aab07",
     "0xce8d0da2a484f6d354c944cb5202283638259b07",
     "0xb1c3aab2a968bfdc55f6bb401df5dc5f5a828b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "Paper",
+      "tokenAddress": "0x5F8FC6a725De67e74ec489819D8848C1545aAb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+      "createdAt": "2026-10-10 14:26:51",
+      "poolId": "0xAD5ed74049A00DdF2A5920c3341db186831F493e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xad5ed74049a00ddf2a5920c3341db186831f493e",
+      "basescanUrl": "https://basescan.org/token/0x5F8FC6a725De67e74ec489819D8848C1545aAb07",
+      "source": "clanker",
+      "volume24h": 43317861.33,
+      "txns24h": 3243
+    },
     {
       "tokenName": "Apple 3x Long",
       "tokenSymbol": "AAPLx3L",
@@ -34,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x493f1cdd51c19bb8742e71875c969982a2649936",
       "basescanUrl": "https://basescan.org/token/0xce8D0da2A484f6d354C944Cb5202283638259b07",
       "source": "clanker",
-      "volume24h": 41185740.18,
-      "txns24h": 2935
+      "volume24h": 41185776.62,
+      "txns24h": 2938
     },
     {
       "tokenName": "FidCaster",
@@ -56,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xac4d521e531269d8bda44ad70140b10b9258433feef9301cbc8dce92dfa88556",
       "basescanUrl": "https://basescan.org/token/0xB1C3aaB2A968bfdC55f6bB401Df5Dc5F5a828b07",
       "source": "clanker",
-      "volume24h": 28919.53,
-      "txns24h": 435
+      "volume24h": 28942.36,
+      "txns24h": 464
     },
     {
       "tokenName": "MILF",
@@ -78,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1241.56,
-      "txns24h": 414
+      "volume24h": 1135.5900000000001,
+      "txns24h": 390
     },
     {
       "tokenName": "boar",
@@ -100,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 121769.4,
-      "txns24h": 1087
+      "volume24h": 85655.06000000001,
+      "txns24h": 865
     }
   ]
 }
