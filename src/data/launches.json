@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "PAPER",
+      "tokenAddress": "0x689F859175FF0e306D2557D54a96ec40F7181b07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+      "createdAt": "2026-10-11 00:28:23",
+      "poolId": "0x2081dAefbC9cab929214c8c2de9Be83f974c1895",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2081daefbc9cab929214c8c2de9be83f974c1895",
+      "basescanUrl": "https://basescan.org/token/0x689F859175FF0e306D2557D54a96ec40F7181b07",
+      "source": "clanker",
+      "volume24h": 24368002.29,
+      "txns24h": 2880
+    },
     {
       "tokenName": "Papertrade",
       "tokenSymbol": "Paper",
