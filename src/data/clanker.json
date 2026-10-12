@@ -1,17 +1,16 @@
 {
-  "generatedAt": "2026-10-11T21:20:59.157Z",
+  "generatedAt": "2026-10-12T03:36:20.438Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 723,
+    "api": 726,
     "chain": 0,
     "persisted": 5
   },
-  "count": 5,
+  "count": 4,
   "addresses": [
     "0x689f859175ff0e306d2557d54a96ec40f7181b07",
     "0x949b7238403553f466aa8b97030105d82d0c9b07",
-    "0x5f8fc6a725de67e74ec489819d8848c1545aab07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
@@ -35,8 +34,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2081daefbc9cab929214c8c2de9be83f974c1895",
       "basescanUrl": "https://basescan.org/token/0x689F859175FF0e306D2557D54a96ec40F7181b07",
       "source": "clanker",
-      "volume24h": 24368825.94,
-      "txns24h": 4944
+      "volume24h": 626.1899999999999,
+      "txns24h": 2061
     },
     {
       "tokenName": "Papertrade",
@@ -57,30 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x4c110de7f181b319724c562e2bdd72722ff16a78",
       "basescanUrl": "https://basescan.org/token/0x949B7238403553f466Aa8B97030105D82D0c9B07",
       "source": "clanker",
-      "volume24h": 52306733.77,
-      "txns24h": 2751
-    },
-    {
-      "tokenName": "Papertrade",
-      "tokenSymbol": "Paper",
-      "tokenAddress": "0x5F8FC6a725De67e74ec489819D8848C1545aAb07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
-      "createdAt": "2026-10-10 14:26:51",
-      "poolId": "0xAD5ed74049A00DdF2A5920c3341db186831F493e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xad5ed74049a00ddf2a5920c3341db186831f493e",
-      "basescanUrl": "https://basescan.org/token/0x5F8FC6a725De67e74ec489819D8848C1545aAb07",
-      "source": "clanker",
-      "volume24h": 679.42,
-      "txns24h": 451
+      "volume24h": 52307142.44,
+      "txns24h": 2929
     },
     {
       "tokenName": "MILF",
@@ -101,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1880.3299999999995,
-      "txns24h": 817
+      "volume24h": 1650.39,
+      "txns24h": 683
     },
     {
       "tokenName": "boar",
@@ -123,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 65805.93,
-      "txns24h": 736
+      "volume24h": 67595.9,
+      "txns24h": 782
     }
   ]
 }
