@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-10-13T18:44:53.356Z",
+  "generatedAt": "2026-10-14T02:58:17.494Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 703,
+    "api": 713,
     "chain": 0,
     "persisted": 3
   },
-  "count": 3,
+  "count": 4,
   "addresses": [
+    "0xc54a9e149d964a8e8620f685be8a09e0acbf0b07",
     "0x2c19047a49c5184bc7b755dc5157d2d558b85b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
@@ -17,10 +18,10 @@
     {
       "tokenName": "Papertrade",
       "tokenSymbol": "Paper",
-      "tokenAddress": "0x2C19047A49C5184bC7b755dC5157D2d558b85B07",
+      "tokenAddress": "0xC54a9e149d964a8e8620f685bE8a09e0acbf0b07",
       "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeidmzsotlyh2oi6xjug6zbuqubt5i4aabafrx6a6waxtjbrgu3yeki",
-      "createdAt": "2026-10-13 06:57:57",
-      "poolId": "0x2269a6aF13B05e10578792A9445ed6a293BBBF1E",
+      "createdAt": "2026-10-14 01:38:01",
+      "poolId": "0x434794DA8B2f897287A32259C818612a2acc5C0B",
       "launcher": {
         "name": null,
         "handle": null,
@@ -30,11 +31,33 @@
         "profileUrl": null
       },
       "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2269a6af13b05e10578792a9445ed6a293bbbf1e",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x434794da8b2f897287a32259c818612a2acc5c0b",
+      "basescanUrl": "https://basescan.org/token/0xC54a9e149d964a8e8620f685bE8a09e0acbf0b07",
+      "source": "clanker",
+      "volume24h": 61319431.13,
+      "txns24h": 1602
+    },
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "Paper",
+      "tokenAddress": "0x2C19047A49C5184bC7b755dC5157D2d558b85B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeidmzsotlyh2oi6xjug6zbuqubt5i4aabafrx6a6waxtjbrgu3yeki",
+      "createdAt": "2026-10-13 06:57:57",
+      "poolId": "0xc27eec3c06456421b1c9cce0b438140233dde8119335f8fd51ec15fb583cb8ee",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeidmzsotlyh2oi6xjug6zbuqubt5i4aabafrx6a6waxtjbrgu3yeki",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc27eec3c06456421b1c9cce0b438140233dde8119335f8fd51ec15fb583cb8ee",
       "basescanUrl": "https://basescan.org/token/0x2C19047A49C5184bC7b755dC5157D2d558b85B07",
       "source": "clanker",
-      "volume24h": 58880541.78,
-      "txns24h": 3894
+      "volume24h": 58880560.8,
+      "txns24h": 4217
     },
     {
       "tokenName": "MILF",
@@ -55,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1444.07,
-      "txns24h": 472
+      "volume24h": 2428.68,
+      "txns24h": 630
     },
     {
       "tokenName": "boar",
@@ -77,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 29768.389999999996,
-      "txns24h": 376
+      "volume24h": 44759.740000000005,
+      "txns24h": 479
     }
   ]
 }
