@@ -1,27 +1,50 @@
 {
-  "generatedAt": "2026-10-17T09:58:20.651Z",
+  "generatedAt": "2026-10-17T14:46:01.823Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 713,
+    "api": 710,
     "chain": 0,
-    "persisted": 3
+    "persisted": 4
   },
-  "count": 4,
+  "count": 5,
   "addresses": [
-    "0x78d1ec04bae839bb0d2f7653ecf32b1578558b07",
+    "0x85f316e96991e87b9ea960454723160f5ec92b07",
+    "0x39ebf83109655395cb54206ca7922852580b5b07",
     "0x8b996930fcde8260145fb0c0445db5a9e8293b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
     {
-      "tokenName": "CryptOps Protocol",
-      "tokenSymbol": "COPS",
-      "tokenAddress": "0x78d1EC04BAE839bb0d2F7653eCf32B1578558B07",
+      "tokenName": "Papertrade",
+      "tokenSymbol": "Paper",
+      "tokenAddress": "0x85f316e96991e87b9EA960454723160f5ec92B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+      "createdAt": "2026-10-17 12:09:17",
+      "poolId": "0xE2d1bD52C809e334304Cd5283E0f247c7684836C",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xe2d1bd52c809e334304cd5283e0f247c7684836c",
+      "basescanUrl": "https://basescan.org/token/0x85f316e96991e87b9EA960454723160f5ec92B07",
+      "source": "clanker",
+      "volume24h": 55530405.7,
+      "txns24h": 3221
+    },
+    {
+      "tokenName": "CryptOps x402 Network",
+      "tokenSymbol": "CRYPTOPS",
+      "tokenAddress": "0x39ebF83109655395cB54206CA7922852580B5b07",
       "imageUrl": "https://cryptops.ai/cryptops/logo_cops_512.svg",
-      "createdAt": "2026-10-16 23:03:01",
-      "poolId": "0x1f7648977675adcadc878d17062ee3c57741c366d0d9a7424f2e8d5c9d08f118",
+      "createdAt": "2026-10-17 00:45:51",
+      "poolId": "0xb7bbd7b603f758f60bbbfa1715f0ffb849552236f7029fb21387615f3be9ca65",
       "launcher": {
         "name": null,
         "handle": null,
@@ -31,11 +54,11 @@
         "profileUrl": null
       },
       "feeRecipient": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x1f7648977675adcadc878d17062ee3c57741c366d0d9a7424f2e8d5c9d08f118",
-      "basescanUrl": "https://basescan.org/token/0x78d1EC04BAE839bb0d2F7653eCf32B1578558B07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb7bbd7b603f758f60bbbfa1715f0ffb849552236f7029fb21387615f3be9ca65",
+      "basescanUrl": "https://basescan.org/token/0x39ebF83109655395cB54206CA7922852580B5b07",
       "source": "clanker",
-      "volume24h": 4627132.34,
-      "txns24h": 894
+      "volume24h": 2169993.14,
+      "txns24h": 371
     },
     {
       "tokenName": "Papertrade",
@@ -56,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x5d8af41373968979668171dbea239899a7751d7c",
       "basescanUrl": "https://basescan.org/token/0x8b996930FCdE8260145fb0C0445DB5a9E8293B07",
       "source": "clanker",
-      "volume24h": 43799388.68,
-      "txns24h": 5758
+      "volume24h": 1005.87,
+      "txns24h": 2992
     },
     {
       "tokenName": "MILF",
@@ -78,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 2071.1800000000003,
-      "txns24h": 550
+      "volume24h": 1993.7399999999996,
+      "txns24h": 528
     },
     {
       "tokenName": "boar",
@@ -100,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 37793.18,
-      "txns24h": 448
+      "volume24h": 27802.02,
+      "txns24h": 367
     }
   ]
 }
