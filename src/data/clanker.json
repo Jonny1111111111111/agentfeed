@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-18T10:11:02.543Z",
+  "generatedAt": "2026-10-18T15:11:39.545Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 694,
+    "api": 688,
     "chain": 0,
-    "persisted": 8
+    "persisted": 4
   },
   "count": 4,
   "addresses": [
-    "0x85f316e96991e87b9ea960454723160f5ec92b07",
+    "0x3e199f015ea827f27c2671f8eae516b8944ffb07",
     "0x78d1ec04bae839bb0d2f7653ecf32b1578558b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
@@ -18,24 +18,24 @@
     {
       "tokenName": "Papertrade",
       "tokenSymbol": "Paper",
-      "tokenAddress": "0x85f316e96991e87b9EA960454723160f5ec92B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
-      "createdAt": "2026-10-17 12:09:17",
-      "poolId": "0xE2d1bD52C809e334304Cd5283E0f247c7684836C",
+      "tokenAddress": "0x3E199F015ea827F27C2671f8EaE516b8944FFB07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+      "createdAt": "2026-10-18 11:13:45",
+      "poolId": "0x8DD7FcBE2e3c4c928E746d08919B530dE47A4B99",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
         "verified": false,
         "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
         "profileUrl": null
       },
       "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe2d1bd52c809e334304cd5283e0f247c7684836c",
-      "basescanUrl": "https://basescan.org/token/0x85f316e96991e87b9EA960454723160f5ec92B07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8dd7fcbe2e3c4c928e746d08919b530de47a4b99",
+      "basescanUrl": "https://basescan.org/token/0x3E199F015ea827F27C2671f8EaE516b8944FFB07",
       "source": "clanker",
-      "volume24h": 55530542.35,
-      "txns24h": 5859
+      "volume24h": 42541765.01,
+      "txns24h": 4197
     },
     {
       "tokenName": "CryptOps Protocol",
@@ -78,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1612.6100000000001,
-      "txns24h": 574
+      "volume24h": 1860.5900000000001,
+      "txns24h": 646
     },
     {
       "tokenName": "boar",
@@ -100,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 154563.27999999997,
-      "txns24h": 1160
+      "volume24h": 160815.62,
+      "txns24h": 1212
     }
   ]
 }
