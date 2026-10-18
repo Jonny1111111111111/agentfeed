@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 238,
   "items": [
     {
       "tokenName": "Papertrade",
@@ -52,26 +52,92 @@
       "txns24h": 371
     },
     {
-      "tokenName": "Papertrade",
-      "tokenSymbol": "Paper",
-      "tokenAddress": "0x8b996930FCdE8260145fb0C0445DB5a9E8293B07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
-      "createdAt": "2026-10-16 09:35:49",
-      "poolId": "0x5D8af41373968979668171DbeA239899a7751D7C",
+      "tokenName": "ProofAudit Verification Protocol",
+      "tokenSymbol": "PROOF",
+      "tokenAddress": "0x87b43b8dEb11505ADc6898899961d6d419CaBB07",
+      "imageUrl": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+      "createdAt": "2026-10-16 23:09:19",
+      "poolId": "0xd7572fb10b8e7f3c03911fc0f07e4bf7d7998cff0a2dd42d3ba2bb8de2426835",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+        "image": "https://cryptops.ai/cryptops/logo_cops_512.svg",
         "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "operatorAddress": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
         "profileUrl": null
       },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5d8af41373968979668171dbea239899a7751d7c",
-      "basescanUrl": "https://basescan.org/token/0x8b996930FCdE8260145fb0C0445DB5a9E8293B07",
+      "feeRecipient": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd7572fb10b8e7f3c03911fc0f07e4bf7d7998cff0a2dd42d3ba2bb8de2426835",
+      "basescanUrl": "https://basescan.org/token/0x87b43b8dEb11505ADc6898899961d6d419CaBB07",
       "source": "clanker",
-      "volume24h": 34071533.330000006,
-      "txns24h": 976
+      "volume24h": 2187972.13,
+      "txns24h": 372
+    },
+    {
+      "tokenName": "GuardRoute x402 Firewall",
+      "tokenSymbol": "GUARD",
+      "tokenAddress": "0x3e6B87b64469a59A93432DdA3C44523c472a1b07",
+      "imageUrl": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+      "createdAt": "2026-10-16 23:09:17",
+      "poolId": "0xcd59437c9876876e2d4cc2cfaf9dba437c52064a158bd96ecdcb4ad1aab0c3cf",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+        "verified": false,
+        "operatorAddress": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcd59437c9876876e2d4cc2cfaf9dba437c52064a158bd96ecdcb4ad1aab0c3cf",
+      "basescanUrl": "https://basescan.org/token/0x3e6B87b64469a59A93432DdA3C44523c472a1b07",
+      "source": "clanker",
+      "volume24h": 2525349.7,
+      "txns24h": 438
+    },
+    {
+      "tokenName": "RemitBot x402 Protocol",
+      "tokenSymbol": "REMIT",
+      "tokenAddress": "0x8976b35b26C14fEAe130dbc0D601f3Adf4e10b07",
+      "imageUrl": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+      "createdAt": "2026-10-16 23:09:15",
+      "poolId": "0x7f2c1dde22c808780cc1256504fbe7733c436b232bc108a79f5a92bc54ae9a92",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+        "verified": false,
+        "operatorAddress": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7f2c1dde22c808780cc1256504fbe7733c436b232bc108a79f5a92bc54ae9a92",
+      "basescanUrl": "https://basescan.org/token/0x8976b35b26C14fEAe130dbc0D601f3Adf4e10b07",
+      "source": "clanker",
+      "volume24h": 1455087.08,
+      "txns24h": 253
+    },
+    {
+      "tokenName": "CryptOps Protocol",
+      "tokenSymbol": "COPS",
+      "tokenAddress": "0x78d1EC04BAE839bb0d2F7653eCf32B1578558B07",
+      "imageUrl": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+      "createdAt": "2026-10-16 23:03:01",
+      "poolId": "0x1f7648977675adcadc878d17062ee3c57741c366d0d9a7424f2e8d5c9d08f118",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://cryptops.ai/cryptops/logo_cops_512.svg",
+        "verified": false,
+        "operatorAddress": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5C5eab8938Ac210C54E8465b11B72Fd19C7F32C4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1f7648977675adcadc878d17062ee3c57741c366d0d9a7424f2e8d5c9d08f118",
+      "basescanUrl": "https://basescan.org/token/0x78d1EC04BAE839bb0d2F7653eCf32B1578558B07",
+      "source": "clanker",
+      "volume24h": 6330993.3100000005,
+      "txns24h": 1260
     },
     {
       "tokenName": "MILF",
