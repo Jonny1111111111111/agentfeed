@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "FOIDMAX",
+      "tokenSymbol": "FOIDMAX",
+      "tokenAddress": "0x298cB2cFD2070CA76606e4601D297972309Bac7A",
+      "imageUrl": null,
+      "createdAt": "2026-10-21 17:28:59",
+      "poolId": "0xddfc441ebc2a30fa90161d9fad34f8f9673b600d58cdee82d23f8feb8d7b1f87",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x36de990133D36d7E3DF9a820aA3eDE5a2320De71",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x36de990133D36d7E3DF9a820aA3eDE5a2320De71",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xddfc441ebc2a30fa90161d9fad34f8f9673b600d58cdee82d23f8feb8d7b1f87",
+      "basescanUrl": "https://basescan.org/token/0x298cB2cFD2070CA76606e4601D297972309Bac7A",
+      "source": "clanker",
+      "volume24h": 36934.17,
+      "txns24h": 170
+    },
     {
       "tokenName": "AiBubble",
       "tokenSymbol": "AIPOP",
@@ -17,7 +39,7 @@
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Reflection_in_a_soap_bubble_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Reflection_in_a_soap_bubble_edit.jpg",
         "verified": false,
         "operatorAddress": "0xa179413c4EaC732668c368258a7Ef1D6195c2dE5",
         "profileUrl": null
