@@ -5,29 +5,51 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
     {
-      "tokenName": "Papertrade",
-      "tokenSymbol": "Paper",
-      "tokenAddress": "0xB3552EEFAF0f94Fd82a49B745A1C46A45C897b07",
-      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
-      "createdAt": "2026-10-20 10:41:15",
-      "poolId": "0x5Cb3bCb56b5145398CeE3225c3268b9B95562dD4",
+      "tokenName": "AiBubble",
+      "tokenSymbol": "AIPOP",
+      "tokenAddress": "0x155eB7A3Ac08F74875BE20F532d025f66536Ee0c",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Reflection_in_a_soap_bubble_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+      "createdAt": "2026-10-21 15:27:47",
+      "poolId": "0x87c274948a3bbb7848217944b21f6243c0de87a435ff7b1be22252ac8c35009b",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Reflection_in_a_soap_bubble_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        "verified": false,
+        "operatorAddress": "0xa179413c4EaC732668c368258a7Ef1D6195c2dE5",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xa179413c4EaC732668c368258a7Ef1D6195c2dE5",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x87c274948a3bbb7848217944b21f6243c0de87a435ff7b1be22252ac8c35009b",
+      "basescanUrl": "https://basescan.org/token/0x155eB7A3Ac08F74875BE20F532d025f66536Ee0c",
+      "source": "clanker",
+      "volume24h": 463390.27,
+      "txns24h": 2771
+    },
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "Paper",
+      "tokenAddress": "0xD0814CE4A2B66e55CDD04F8b9229A5704206Eb07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+      "createdAt": "2026-10-21 13:35:45",
+      "poolId": "0xac35De111009ED20e0cf74725F9AeB1Eb7f290B3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
         "verified": false,
         "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
         "profileUrl": null
       },
       "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5cb3bcb56b5145398cee3225c3268b9b95562dd4",
-      "basescanUrl": "https://basescan.org/token/0xB3552EEFAF0f94Fd82a49B745A1C46A45C897b07",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xac35de111009ed20e0cf74725f9aeb1eb7f290b3",
+      "basescanUrl": "https://basescan.org/token/0xD0814CE4A2B66e55CDD04F8b9229A5704206Eb07",
       "source": "clanker",
-      "volume24h": 54804310.02,
-      "txns24h": 5352
+      "volume24h": 57879041.050000004,
+      "txns24h": 3436
     },
     {
       "tokenName": "MILF",
