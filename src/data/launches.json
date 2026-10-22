@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 236,
   "items": [
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "PAPER",
+      "tokenAddress": "0xAeff12C7Ab896215350fCF3808749d07298E1B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+      "createdAt": "2026-10-22 06:48:07",
+      "poolId": "0x3502228EDa64B92AfADa209fBe688C5c0E552370",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3502228eda64b92afada209fbe688c5c0e552370",
+      "basescanUrl": "https://basescan.org/token/0xAeff12C7Ab896215350fCF3808749d07298E1B07",
+      "source": "clanker",
+      "volume24h": 43344650.879999995,
+      "txns24h": 1639
+    },
     {
       "tokenName": "Eyesos Terminal",
       "tokenSymbol": "EYESOS",
