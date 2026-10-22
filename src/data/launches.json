@@ -8,6 +8,28 @@
   "count": 235,
   "items": [
     {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "PAPER",
+      "tokenAddress": "0xAeff12C7Ab896215350fCF3808749d07298E1B07",
+      "imageUrl": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+      "createdAt": "2026-10-22 06:48:07",
+      "poolId": "0x3502228EDa64B92AfADa209fBe688C5c0E552370",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://turquoise-blank-swallow-685.mypinata.cloud/ipfs/bafkreie5sixoxoee5a5udnqipwscq3bux4a33plxw357qmxe7kwghkwkby",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3502228eda64b92afada209fbe688c5c0e552370",
+      "basescanUrl": "https://basescan.org/token/0xAeff12C7Ab896215350fCF3808749d07298E1B07",
+      "source": "clanker",
+      "volume24h": 43345592.29000001,
+      "txns24h": 1869
+    },
+    {
       "tokenName": "Eyesos Terminal",
       "tokenSymbol": "EYESOS",
       "tokenAddress": "0x890F0637F0131748c3ecB236F7753eF2ca6F7b07",
@@ -28,28 +50,6 @@
       "source": "clanker",
       "volume24h": 25443.99,
       "txns24h": 236
-    },
-    {
-      "tokenName": "FOIDMAX",
-      "tokenSymbol": "FOIDMAX",
-      "tokenAddress": "0x298cB2cFD2070CA76606e4601D297972309Bac7A",
-      "imageUrl": null,
-      "createdAt": "2026-10-21 17:28:59",
-      "poolId": "0xddfc441ebc2a30fa90161d9fad34f8f9673b600d58cdee82d23f8feb8d7b1f87",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x36de990133D36d7E3DF9a820aA3eDE5a2320De71",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x36de990133D36d7E3DF9a820aA3eDE5a2320De71",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xddfc441ebc2a30fa90161d9fad34f8f9673b600d58cdee82d23f8feb8d7b1f87",
-      "basescanUrl": "https://basescan.org/token/0x298cB2cFD2070CA76606e4601D297972309Bac7A",
-      "source": "clanker",
-      "volume24h": 36934.17,
-      "txns24h": 170
     },
     {
       "tokenName": "AiBubble",
