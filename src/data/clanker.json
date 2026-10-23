@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-10-22T21:03:42.489Z",
+  "generatedAt": "2026-10-23T02:47:54.136Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 700,
+    "api": 705,
     "chain": 0,
     "persisted": 5
   },
-  "count": 5,
+  "count": 4,
   "addresses": [
     "0xaeff12c7ab896215350fcf3808749d07298e1b07",
-    "0x890f0637f0131748c3ecb236f7753ef2ca6f7b07",
     "0x155eb7a3ac08f74875be20f532d025f66536ee0c",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
@@ -35,30 +34,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x3502228eda64b92afada209fbe688c5c0e552370",
       "basescanUrl": "https://basescan.org/token/0xAeff12C7Ab896215350fCF3808749d07298E1B07",
       "source": "clanker",
-      "volume24h": 43345592.29000001,
-      "txns24h": 1869
-    },
-    {
-      "tokenName": "Eyesos Terminal",
-      "tokenSymbol": "EYESOS",
-      "tokenAddress": "0x890F0637F0131748c3ecB236F7753eF2ca6F7b07",
-      "imageUrl": "https://i.postimg.cc/cC3scbpq/n-Xei-Ov-Go-400x400.jpg",
-      "createdAt": "2026-10-21 21:46:47",
-      "poolId": "0xa312c2234e581977de106325836d58e4f4f0f10dcbfadb847d007353ac8d0c93",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://i.postimg.cc/cC3scbpq/n-Xei-Ov-Go-400x400.jpg",
-        "verified": false,
-        "operatorAddress": "0x0D9132f9ceEc54391c08f8710c287d066F091bBd",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0D9132f9ceEc54391c08f8710c287d066F091bBd",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa312c2234e581977de106325836d58e4f4f0f10dcbfadb847d007353ac8d0c93",
-      "basescanUrl": "https://basescan.org/token/0x890F0637F0131748c3ecB236F7753eF2ca6F7b07",
-      "source": "clanker",
-      "volume24h": 29312.57,
-      "txns24h": 300
+      "volume24h": 43345597.21,
+      "txns24h": 1977
     },
     {
       "tokenName": "AiBubble",
@@ -79,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x87c274948a3bbb7848217944b21f6243c0de87a435ff7b1be22252ac8c35009b",
       "basescanUrl": "https://basescan.org/token/0x155eB7A3Ac08F74875BE20F532d025f66536Ee0c",
       "source": "clanker",
-      "volume24h": 76518.92,
-      "txns24h": 467
+      "volume24h": 73738.47,
+      "txns24h": 389
     },
     {
       "tokenName": "MILF",
@@ -101,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 2998.17,
-      "txns24h": 772
+      "volume24h": 2203.89,
+      "txns24h": 700
     },
     {
       "tokenName": "boar",
@@ -123,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 25425.98,
-      "txns24h": 328
+      "volume24h": 27688.21,
+      "txns24h": 342
     }
   ]
 }
