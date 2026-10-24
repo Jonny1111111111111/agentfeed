@@ -1,20 +1,43 @@
 {
-  "generatedAt": "2026-10-23T20:51:47.550Z",
+  "generatedAt": "2026-10-24T02:44:49.376Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 711,
+    "api": 706,
     "chain": 0,
     "persisted": 4
   },
-  "count": 4,
+  "count": 5,
   "addresses": [
+    "0x66650590ff805a33f7c81dd63e948dedc55c3b07",
     "0xbb409a0d7f33ff798eb5ddf3fb52203884d01b07",
     "0x155eb7a3ac08f74875be20f532d025f66536ee0c",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Elon Coin",
+      "tokenSymbol": "ELON",
+      "tokenAddress": "0x66650590fF805a33f7C81dD63E948DEDc55c3B07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeievvqbtemq7fkp3t2rb7dhk6bbu3nw4zzlrm7ygaaaazbrhqk65by",
+      "createdAt": "2026-10-24 01:54:13",
+      "poolId": "0xC11B18B570b6e9d30cb8e36F55C466Ae707D8D57",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeievvqbtemq7fkp3t2rb7dhk6bbu3nw4zzlrm7ygaaaazbrhqk65by",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc11b18b570b6e9d30cb8e36f55c466ae707d8d57",
+      "basescanUrl": "https://basescan.org/token/0x66650590fF805a33f7C81dD63E948DEDc55c3B07",
+      "source": "clanker",
+      "volume24h": 36619377.15,
+      "txns24h": 1112
+    },
     {
       "tokenName": "Aura Final Boss",
       "tokenSymbol": "Kimchi",
@@ -34,8 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x956ff9bdfa48193c764250edc28b66859bcf4dac",
       "basescanUrl": "https://basescan.org/token/0xBb409A0D7F33ff798Eb5DDf3fB52203884d01B07",
       "source": "clanker",
-      "volume24h": 51451643.42,
-      "txns24h": 4122
+      "volume24h": 51451690.78,
+      "txns24h": 4123
     },
     {
       "tokenName": "AiBubble",
@@ -56,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x87c274948a3bbb7848217944b21f6243c0de87a435ff7b1be22252ac8c35009b",
       "basescanUrl": "https://basescan.org/token/0x155eB7A3Ac08F74875BE20F532d025f66536Ee0c",
       "source": "clanker",
-      "volume24h": 31624.65,
-      "txns24h": 251
+      "volume24h": 27455.91,
+      "txns24h": 240
     },
     {
       "tokenName": "MILF",
@@ -78,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1634.05,
-      "txns24h": 582
+      "volume24h": 1713.5200000000002,
+      "txns24h": 588
     },
     {
       "tokenName": "boar",
@@ -100,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 36828.68,
-      "txns24h": 409
+      "volume24h": 38034.579999999994,
+      "txns24h": 357
     }
   ]
 }

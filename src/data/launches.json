@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "Elon Coin",
+      "tokenSymbol": "ELON",
+      "tokenAddress": "0x66650590fF805a33f7C81dD63E948DEDc55c3B07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeievvqbtemq7fkp3t2rb7dhk6bbu3nw4zzlrm7ygaaaazbrhqk65by",
+      "createdAt": "2026-10-24 01:54:13",
+      "poolId": "0xC11B18B570b6e9d30cb8e36F55C466Ae707D8D57",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeievvqbtemq7fkp3t2rb7dhk6bbu3nw4zzlrm7ygaaaazbrhqk65by",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc11b18b570b6e9d30cb8e36f55c466ae707d8d57",
+      "basescanUrl": "https://basescan.org/token/0x66650590fF805a33f7C81dD63E948DEDc55c3B07",
+      "source": "clanker",
+      "volume24h": 36619377.15,
+      "txns24h": 1112
+    },
     {
       "tokenName": "Aura Final Boss",
       "tokenSymbol": "Kimchi",
