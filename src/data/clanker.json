@@ -1,43 +1,19 @@
 {
-  "generatedAt": "2026-10-24T10:04:25.190Z",
+  "generatedAt": "2026-10-24T15:09:52.274Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 705,
+    "api": 698,
     "chain": 0,
     "persisted": 5
   },
-  "count": 5,
+  "count": 3,
   "addresses": [
-    "0xbec0c62384de58cd1336897236cf71bfd6883b07",
     "0x66650590ff805a33f7c81dd63e948dedc55c3b07",
-    "0x155eb7a3ac08f74875be20f532d025f66536ee0c",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
-    {
-      "tokenName": "Papertrade",
-      "tokenSymbol": "Paper",
-      "tokenAddress": "0xBec0c62384DE58cd1336897236cf71BFd6883b07",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
-      "createdAt": "2026-10-24 07:25:09",
-      "poolId": "0xaD195E49efe118d79b68d653037DD8F6f047DcdD",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xad195e49efe118d79b68d653037dd8f6f047dcdd",
-      "basescanUrl": "https://basescan.org/token/0xBec0c62384DE58cd1336897236cf71BFd6883b07",
-      "source": "clanker",
-      "volume24h": 53383701.48,
-      "txns24h": 2695
-    },
     {
       "tokenName": "Elon Coin",
       "tokenSymbol": "ELON",
@@ -61,28 +37,6 @@
       "txns24h": 3292
     },
     {
-      "tokenName": "AiBubble",
-      "tokenSymbol": "AIPOP",
-      "tokenAddress": "0x155eB7A3Ac08F74875BE20F532d025f66536Ee0c",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeidm3vnntagt74pw42siouqtxvohtmymri7bi4eizfb7xxwpqyli6a",
-      "createdAt": "2026-10-21 15:27:47",
-      "poolId": "0x87c274948a3bbb7848217944b21f6243c0de87a435ff7b1be22252ac8c35009b",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeidm3vnntagt74pw42siouqtxvohtmymri7bi4eizfb7xxwpqyli6a",
-        "verified": false,
-        "operatorAddress": "0xa179413c4EaC732668c368258a7Ef1D6195c2dE5",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xa179413c4EaC732668c368258a7Ef1D6195c2dE5",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x87c274948a3bbb7848217944b21f6243c0de87a435ff7b1be22252ac8c35009b",
-      "basescanUrl": "https://basescan.org/token/0x155eB7A3Ac08F74875BE20F532d025f66536Ee0c",
-      "source": "clanker",
-      "volume24h": 10721.4,
-      "txns24h": 102
-    },
-    {
       "tokenName": "MILF",
       "tokenSymbol": "MILF",
       "tokenAddress": "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
@@ -101,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1508.79,
-      "txns24h": 545
+      "volume24h": 1355.0499999999997,
+      "txns24h": 520
     },
     {
       "tokenName": "boar",
@@ -123,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 29396.13,
-      "txns24h": 301
+      "volume24h": 24541.329999999998,
+      "txns24h": 242
     }
   ]
 }
