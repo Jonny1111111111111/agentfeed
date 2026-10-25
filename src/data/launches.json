@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "BEEPER",
+      "tokenSymbol": "BEEPER",
+      "tokenAddress": "0x33BCdD901a112D16fDC1C0454310421e668407fc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreic65zbrxluvnxjkp3u3klvllfi7jqly3gbsvosqbob5mcec4oape4",
+      "createdAt": "2026-10-25 01:54:33",
+      "poolId": "0x6967ab888869d7b8e081c1458ec1fca04262436d4cb7f03604b5b9e8108df428",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreic65zbrxluvnxjkp3u3klvllfi7jqly3gbsvosqbob5mcec4oape4",
+        "verified": false,
+        "operatorAddress": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0b864645E13C2DDd47CbA46FDd918a9f85d11065",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6967ab888869d7b8e081c1458ec1fca04262436d4cb7f03604b5b9e8108df428",
+      "basescanUrl": "https://basescan.org/token/0x33BCdD901a112D16fDC1C0454310421e668407fc",
+      "source": "clanker",
+      "volume24h": 63043.91,
+      "txns24h": 384
+    },
+    {
+      "tokenName": "Papertrade",
+      "tokenSymbol": "Paper",
+      "tokenAddress": "0xBec0c62384DE58cd1336897236cf71BFd6883b07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+      "createdAt": "2026-10-24 07:25:09",
+      "poolId": "0xaD195E49efe118d79b68d653037DD8F6f047DcdD",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeie6ovxs27qdvgr4x6jedofrzla5j33ep6gswytxf72g5yceayyn2y",
+        "verified": false,
+        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xad195e49efe118d79b68d653037dd8f6f047dcdd",
+      "basescanUrl": "https://basescan.org/token/0xBec0c62384DE58cd1336897236cf71BFd6883b07",
+      "source": "clanker",
+      "volume24h": 53384231.75,
+      "txns24h": 3937
+    },
     {
       "tokenName": "Elon Coin",
       "tokenSymbol": "ELON",
