@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-10-26T02:34:04.558Z",
+  "generatedAt": "2026-10-26T12:00:25.795Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 669,
+    "api": 663,
     "chain": 0,
-    "persisted": 5
+    "persisted": 4
   },
-  "count": 4,
+  "count": 3,
   "addresses": [
     "0xb05696b8cd42671809b62ffc0843a7eda4e56b07",
-    "0xd6568903cd917d104dcd6a7036d1925ece518b07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
@@ -34,30 +33,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xda242d618299a99d1369f8eb8ae0d34689532e51",
       "basescanUrl": "https://basescan.org/token/0xb05696b8CD42671809b62FfC0843a7Eda4e56b07",
       "source": "clanker",
-      "volume24h": 33136619.91,
-      "txns24h": 3330
-    },
-    {
-      "tokenName": "Binance Agent",
-      "tokenSymbol": "Agent",
-      "tokenAddress": "0xd6568903cD917d104DCD6a7036d1925eCE518b07",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiggqqukgjnnh6t46jigrtdks6use5gtanb7wbl6dkhdzysv762zia",
-      "createdAt": "2026-10-25 07:24:19",
-      "poolId": "0xA670aFB91C8e5922dfc8CbA4fEB428fcCE13a540",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiggqqukgjnnh6t46jigrtdks6use5gtanb7wbl6dkhdzysv762zia",
-        "verified": false,
-        "operatorAddress": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x010E02f119B8dC076c92c457b6d3416a25686c69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa670afb91c8e5922dfc8cba4feb428fcce13a540",
-      "basescanUrl": "https://basescan.org/token/0xd6568903cD917d104DCD6a7036d1925eCE518b07",
-      "source": "clanker",
-      "volume24h": 31588920.22,
-      "txns24h": 3310
+      "volume24h": 33137410.55,
+      "txns24h": 3888
     },
     {
       "tokenName": "MILF",
@@ -78,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1070.68,
-      "txns24h": 426
+      "volume24h": 808.8199999999999,
+      "txns24h": 334
     },
     {
       "tokenName": "boar",
@@ -100,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 51698.1,
-      "txns24h": 335
+      "volume24h": 29027.639999999996,
+      "txns24h": 184
     }
   ]
 }
