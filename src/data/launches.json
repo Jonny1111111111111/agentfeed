@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 234,
+  "count": 235,
   "items": [
+    {
+      "tokenName": "小小徐",
+      "tokenSymbol": "小小徐",
+      "tokenAddress": "0x5AD1d043031659A562c34803eEa3B51BB2156B07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeif4ryj2m6cvadpitnciwcwplwtwoicehd3sp2sogchd4goi4tspeq",
+      "createdAt": "2026-10-29 00:06:57",
+      "poolId": "0x49Fc5FD4b75873bC6Bf674614C6fc794b33289d2",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeif4ryj2m6cvadpitnciwcwplwtwoicehd3sp2sogchd4goi4tspeq",
+        "verified": false,
+        "operatorAddress": "0xA83b4fCA82265AE81f6254c9e410A13418f25f92",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA83b4fCA82265AE81f6254c9e410A13418f25f92",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x49fc5fd4b75873bc6bf674614c6fc794b33289d2",
+      "basescanUrl": "https://basescan.org/token/0x5AD1d043031659A562c34803eEa3B51BB2156B07",
+      "source": "clanker",
+      "volume24h": 27794150.23,
+      "txns24h": 2748
+    },
     {
       "tokenName": "United Dividend Trust Fund",
       "tokenSymbol": "UDTF",
