@@ -5,7 +5,7 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 235,
+  "count": 236,
   "items": [
     {
       "tokenName": "小小徐",
@@ -72,6 +72,28 @@
       "source": "clanker",
       "volume24h": 5642.24,
       "txns24h": 269
+    },
+    {
+      "tokenName": "Anthropic",
+      "tokenSymbol": "Anthropic",
+      "tokenAddress": "0xf2166d39dD7E2712b81E96B4Ab802764ef68F7C9",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreib5ss4hp2mfws7lctytfsi4t5s4dyloe5bnddxu6senf44vol472e",
+      "createdAt": "2026-10-28 09:34:23",
+      "poolId": "0x1D726FbDE08D8f8A9b8CeB35ce6702162C5711C9",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreib5ss4hp2mfws7lctytfsi4t5s4dyloe5bnddxu6senf44vol472e",
+        "verified": false,
+        "operatorAddress": "0xA83b4fCA82265AE81f6254c9e410A13418f25f92",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA83b4fCA82265AE81f6254c9e410A13418f25f92",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x1d726fbde08d8f8a9b8ceb35ce6702162c5711c9",
+      "basescanUrl": "https://basescan.org/token/0xf2166d39dD7E2712b81E96B4Ab802764ef68F7C9",
+      "source": "clanker",
+      "volume24h": 9076120.53,
+      "txns24h": 219
     },
     {
       "tokenName": "MILF",
