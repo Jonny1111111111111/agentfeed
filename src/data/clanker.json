@@ -1,17 +1,15 @@
 {
-  "generatedAt": "2026-10-29T12:03:00.078Z",
+  "generatedAt": "2026-10-29T22:15:42.140Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 721,
+    "api": 719,
     "chain": 0,
-    "persisted": 5
+    "persisted": 6
   },
-  "count": 6,
+  "count": 4,
   "addresses": [
     "0x5ad1d043031659a562c34803eea3b51bb2156b07",
-    "0xa386066882188d0b84da6dd2c67e5a80726ceeb0",
-    "0x712c5af62e82aab87244911ef689b993fc4a8bb0",
     "0xf2166d39dd7e2712b81e96b4ab802764ef68f7c9",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
@@ -40,50 +38,6 @@
       "txns24h": 3988
     },
     {
-      "tokenName": "United Dividend Trust Fund",
-      "tokenSymbol": "UDTF",
-      "tokenAddress": "0xA386066882188D0b84Da6Dd2C67E5A80726Ceeb0",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicnzn2rcem3grw5d4jkhcxruympj67p2itqbnt5eziesgc7ikovj4",
-      "createdAt": "2026-10-28 16:48:19",
-      "poolId": "0x9137b0e16eacbe82407339f1ad0ea390211ac59b1d5197327f3867674540f48e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicnzn2rcem3grw5d4jkhcxruympj67p2itqbnt5eziesgc7ikovj4",
-        "verified": false,
-        "operatorAddress": "0x0Dca33FfD6e69b47280F50442B5eBc722215Ad1C",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0Dca33FfD6e69b47280F50442B5eBc722215Ad1C",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x9137b0e16eacbe82407339f1ad0ea390211ac59b1d5197327f3867674540f48e",
-      "basescanUrl": "https://basescan.org/token/0xA386066882188D0b84Da6Dd2C67E5A80726Ceeb0",
-      "source": "clanker",
-      "volume24h": 1003353.98,
-      "txns24h": 411
-    },
-    {
-      "tokenName": "United Dividend Trust Fund",
-      "tokenSymbol": "UDTF",
-      "tokenAddress": "0x712c5AF62e82Aab87244911EF689b993fc4a8BB0",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicnzn2rcem3grw5d4jkhcxruympj67p2itqbnt5eziesgc7ikovj4",
-      "createdAt": "2026-10-28 15:15:25",
-      "poolId": "0xd5fa1a118f680071b1facd4af9264a527d25266250d4bc3127f426a3d3ce194a",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicnzn2rcem3grw5d4jkhcxruympj67p2itqbnt5eziesgc7ikovj4",
-        "verified": false,
-        "operatorAddress": "0x0Dca33FfD6e69b47280F50442B5eBc722215Ad1C",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0Dca33FfD6e69b47280F50442B5eBc722215Ad1C",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd5fa1a118f680071b1facd4af9264a527d25266250d4bc3127f426a3d3ce194a",
-      "basescanUrl": "https://basescan.org/token/0x712c5AF62e82Aab87244911EF689b993fc4a8BB0",
-      "source": "clanker",
-      "volume24h": 5642.24,
-      "txns24h": 269
-    },
-    {
       "tokenName": "Anthropic",
       "tokenSymbol": "Anthropic",
       "tokenAddress": "0xf2166d39dD7E2712b81E96B4Ab802764ef68F7C9",
@@ -102,8 +56,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x1d726fbde08d8f8a9b8ceb35ce6702162c5711c9",
       "basescanUrl": "https://basescan.org/token/0xf2166d39dD7E2712b81E96B4Ab802764ef68F7C9",
       "source": "clanker",
-      "volume24h": 9076120.53,
-      "txns24h": 219
+      "volume24h": 63738410.25,
+      "txns24h": 4174
     },
     {
       "tokenName": "MILF",
@@ -124,8 +78,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 982.8500000000001,
-      "txns24h": 398
+      "volume24h": 1356.5099999999998,
+      "txns24h": 530
     },
     {
       "tokenName": "boar",
@@ -146,8 +100,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 25992.579999999998,
-      "txns24h": 203
+      "volume24h": 36752.71,
+      "txns24h": 224
     }
   ]
 }
