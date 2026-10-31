@@ -1,64 +1,18 @@
 {
-  "generatedAt": "2026-10-30T21:51:35.552Z",
+  "generatedAt": "2026-10-31T03:31:41.053Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 698,
+    "api": 691,
     "chain": 0,
     "persisted": 4
   },
-  "count": 4,
+  "count": 2,
   "addresses": [
-    "0x19a1a88e56bc50cb4fcfc600ed729b3ab13bbb74",
-    "0xf2166d39dd7e2712b81e96b4ab802764ef68f7c9",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
-    {
-      "tokenName": "Binance 0wned",
-      "tokenSymbol": "BIREKT",
-      "tokenAddress": "0x19a1a88E56bC50Cb4FCfc600eD729b3Ab13bBb74",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigene2atvv67ah65n3sxuxu7b73khpzg4ylgyboi72n2qkqcqzhw4",
-      "createdAt": "2026-10-29 23:33:15",
-      "poolId": "0x2bfb03a859ddf5814a9a5a26b26f5c95d5503543a0e16163c7246a2f94235bb6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigene2atvv67ah65n3sxuxu7b73khpzg4ylgyboi72n2qkqcqzhw4",
-        "verified": false,
-        "operatorAddress": "0x94951247EEda7AC37FD5A202A4db29196C84035A",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x94951247EEda7AC37FD5A202A4db29196C84035A",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2bfb03a859ddf5814a9a5a26b26f5c95d5503543a0e16163c7246a2f94235bb6",
-      "basescanUrl": "https://basescan.org/token/0x19a1a88E56bC50Cb4FCfc600eD729b3Ab13bBb74",
-      "source": "clanker",
-      "volume24h": 21089.9,
-      "txns24h": 145
-    },
-    {
-      "tokenName": "Anthropic",
-      "tokenSymbol": "Anthropic",
-      "tokenAddress": "0xf2166d39dD7E2712b81E96B4Ab802764ef68F7C9",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreib5ss4hp2mfws7lctytfsi4t5s4dyloe5bnddxu6senf44vol472e",
-      "createdAt": "2026-10-28 09:34:23",
-      "poolId": "0x9b01ae78dadb0aeedf9671ca0b974d3c72b3653ddeaee2050a96fdd99bfbe0ce",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreib5ss4hp2mfws7lctytfsi4t5s4dyloe5bnddxu6senf44vol472e",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x9b01ae78dadb0aeedf9671ca0b974d3c72b3653ddeaee2050a96fdd99bfbe0ce",
-      "basescanUrl": "https://basescan.org/token/0xf2166d39dD7E2712b81E96B4Ab802764ef68F7C9",
-      "source": "clanker",
-      "volume24h": 830.81,
-      "txns24h": 1713
-    },
     {
       "tokenName": "MILF",
       "tokenSymbol": "MILF",
@@ -78,8 +32,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1871.14,
-      "txns24h": 639
+      "volume24h": 1257.9299999999998,
+      "txns24h": 462
     },
     {
       "tokenName": "boar",
@@ -100,8 +54,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 35643.01,
-      "txns24h": 291
+      "volume24h": 61106.16,
+      "txns24h": 351
     }
   ]
 }
