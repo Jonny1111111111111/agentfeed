@@ -1,18 +1,41 @@
 {
-  "generatedAt": "2026-10-31T20:51:38.972Z",
+  "generatedAt": "2026-11-01T03:37:36.380Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 688,
+    "api": 703,
     "chain": 0,
     "persisted": 2
   },
-  "count": 2,
+  "count": 3,
   "addresses": [
+    "0xb0ef0acf594d3f8c2b546089707e769811d2eb07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
     "0x0cbf291ba052174879d90bf781df1a5f2bc5bb07"
   ],
   "items": [
+    {
+      "tokenName": "Michael Myers",
+      "tokenSymbol": "MYERS",
+      "tokenAddress": "0xB0ef0aCF594d3f8C2b546089707E769811d2Eb07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihzhggzi3dp5mhvxgstzikkgta2kouyokvg2xqc7gaupz4beccm5q",
+      "createdAt": "2026-10-31 22:56:27",
+      "poolId": "0xbec667313869be49244f5076957f8b66efafe363f6b8f4622d7a67e0ac7cd5af",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihzhggzi3dp5mhvxgstzikkgta2kouyokvg2xqc7gaupz4beccm5q",
+        "verified": false,
+        "operatorAddress": "0x09195A76A043B3A344D65A74b3e65C2b080d7DED",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x09195A76A043B3A344D65A74b3e65C2b080d7DED",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbec667313869be49244f5076957f8b66efafe363f6b8f4622d7a67e0ac7cd5af",
+      "basescanUrl": "https://basescan.org/token/0xB0ef0aCF594d3f8C2b546089707E769811d2Eb07",
+      "source": "clanker",
+      "volume24h": 2358.79,
+      "txns24h": 147
+    },
     {
       "tokenName": "MILF",
       "tokenSymbol": "MILF",
@@ -32,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 956.4100000000001,
-      "txns24h": 369
+      "volume24h": 788.9599999999999,
+      "txns24h": 317
     },
     {
       "tokenName": "boar",
@@ -54,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xef256e214c45aab706ca54d6e2c5d0ca42b87895a43e97b382ea012d13e78e49",
       "basescanUrl": "https://basescan.org/token/0x0cbf291Ba052174879d90bf781dF1A5F2BC5Bb07",
       "source": "clanker",
-      "volume24h": 87638.77,
-      "txns24h": 477
+      "volume24h": 57603.909999999996,
+      "txns24h": 294
     }
   ]
 }

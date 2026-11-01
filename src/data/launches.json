@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 232,
+  "count": 233,
   "items": [
+    {
+      "tokenName": "Michael Myers",
+      "tokenSymbol": "MYERS",
+      "tokenAddress": "0xB0ef0aCF594d3f8C2b546089707E769811d2Eb07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihzhggzi3dp5mhvxgstzikkgta2kouyokvg2xqc7gaupz4beccm5q",
+      "createdAt": "2026-10-31 22:56:27",
+      "poolId": "0xbec667313869be49244f5076957f8b66efafe363f6b8f4622d7a67e0ac7cd5af",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihzhggzi3dp5mhvxgstzikkgta2kouyokvg2xqc7gaupz4beccm5q",
+        "verified": false,
+        "operatorAddress": "0x09195A76A043B3A344D65A74b3e65C2b080d7DED",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x09195A76A043B3A344D65A74b3e65C2b080d7DED",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbec667313869be49244f5076957f8b66efafe363f6b8f4622d7a67e0ac7cd5af",
+      "basescanUrl": "https://basescan.org/token/0xB0ef0aCF594d3f8C2b546089707E769811d2Eb07",
+      "source": "clanker",
+      "volume24h": 2358.79,
+      "txns24h": 147
+    },
     {
       "tokenName": "MILF",
       "tokenSymbol": "MILF",
