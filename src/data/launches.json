@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "Dragon Reserve",
+      "tokenSymbol": "DRS",
+      "tokenAddress": "0xF2A84DE1bF001eCb25b0A34c06A809A1f3DF4B07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreig7h5uuiaavgmzyciadshxdmkbkutav25fuezhwhc6um4xicurhae",
+      "createdAt": "2026-11-01 18:29:53",
+      "poolId": "0xcb7525c309571a8c36cd977da4cddcf2b7018c1b1e0980da0453b7de13299fcb",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreig7h5uuiaavgmzyciadshxdmkbkutav25fuezhwhc6um4xicurhae",
+        "verified": false,
+        "operatorAddress": "0xDF75EBE830b43F0f8E272726Adca0282c7A8251D",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xDF75EBE830b43F0f8E272726Adca0282c7A8251D",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcb7525c309571a8c36cd977da4cddcf2b7018c1b1e0980da0453b7de13299fcb",
+      "basescanUrl": "https://basescan.org/token/0xF2A84DE1bF001eCb25b0A34c06A809A1f3DF4B07",
+      "source": "clanker",
+      "volume24h": 14156.16,
+      "txns24h": 262
+    },
     {
       "tokenName": "Michael Myers",
       "tokenSymbol": "MYERS",
