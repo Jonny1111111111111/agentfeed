@@ -5,8 +5,96 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 239,
+  "count": 243,
   "items": [
+    {
+      "tokenName": "Bootr",
+      "tokenSymbol": "BOOTR",
+      "tokenAddress": "0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeifcyuao7z5zhbetimkamishc7w544xltcvuogmddtgh7tz22ur57i",
+      "createdAt": "2026-11-04 13:05:07",
+      "poolId": "0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeifcyuao7z5zhbetimkamishc7w544xltcvuogmddtgh7tz22ur57i",
+        "verified": false,
+        "operatorAddress": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
+      "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
+      "source": "clanker",
+      "volume24h": 103146.52,
+      "txns24h": 1720
+    },
+    {
+      "tokenName": "NADF",
+      "tokenSymbol": "NADF",
+      "tokenAddress": "0x3d30FF425a52355eDddbcD9244A88E89c47F802B",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+      "createdAt": "2026-11-04 09:46:57",
+      "poolId": "0x6471be3e1a9e618e4c509faf1fd6009ddf9088bef6e50b6a885e004fc4fec800",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+        "verified": false,
+        "operatorAddress": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6471be3e1a9e618e4c509faf1fd6009ddf9088bef6e50b6a885e004fc4fec800",
+      "basescanUrl": "https://basescan.org/token/0x3d30FF425a52355eDddbcD9244A88E89c47F802B",
+      "source": "clanker",
+      "volume24h": 7333.65,
+      "txns24h": 805
+    },
+    {
+      "tokenName": "XTO",
+      "tokenSymbol": "X T O",
+      "tokenAddress": "0x66DA6F3231d3B78b46D21c640e31EB5d784Af4e4",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreig467z2rh6rzx623k7mvifrruupj2soz463kcoezzome4efypw4za",
+      "createdAt": "2026-11-04 08:23:11",
+      "poolId": "0x9b715c63097ebd396e4948d0e05d9f8914b8c0d7075179c34980e9376f6f8d12",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreig467z2rh6rzx623k7mvifrruupj2soz463kcoezzome4efypw4za",
+        "verified": false,
+        "operatorAddress": "0xd8DF4A351F5D5cc795dD11a975ee278A4e1879b7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd8DF4A351F5D5cc795dD11a975ee278A4e1879b7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9b715c63097ebd396e4948d0e05d9f8914b8c0d7075179c34980e9376f6f8d12",
+      "basescanUrl": "https://basescan.org/token/0x66DA6F3231d3B78b46D21c640e31EB5d784Af4e4",
+      "source": "clanker",
+      "volume24h": 6374.63,
+      "txns24h": 126
+    },
+    {
+      "tokenName": "NADF",
+      "tokenSymbol": "NADF",
+      "tokenAddress": "0xCcA0C1ff533324Faa45006f0f7b4A87b50e780B0",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+      "createdAt": "2026-11-04 08:12:07",
+      "poolId": "0x95ef47b6c70012c27f38e917b3284aaf7b7d21065944579b38ffa9f3236a0287",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+        "verified": false,
+        "operatorAddress": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x95ef47b6c70012c27f38e917b3284aaf7b7d21065944579b38ffa9f3236a0287",
+      "basescanUrl": "https://basescan.org/token/0xCcA0C1ff533324Faa45006f0f7b4A87b50e780B0",
+      "source": "clanker",
+      "volume24h": 4919.94,
+      "txns24h": 207
+    },
     {
       "tokenName": "Claker",
       "tokenSymbol": "Claker",

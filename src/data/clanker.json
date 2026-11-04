@@ -1,14 +1,18 @@
 {
-  "generatedAt": "2026-11-04T04:13:27.600Z",
+  "generatedAt": "2026-11-04T13:34:37.605Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 720,
+    "api": 755,
     "chain": 0,
-    "persisted": 7
+    "persisted": 9
   },
-  "count": 9,
+  "count": 13,
   "addresses": [
+    "0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c",
+    "0x3d30ff425a52355edddbcd9244a88e89c47f802b",
+    "0x66da6f3231d3b78b46d21c640e31eb5d784af4e4",
+    "0xcca0c1ff533324faa45006f0f7b4a87b50e780b0",
     "0xbb3aa9cccdf84c286e1b0d02fce7cc6ce0590b07",
     "0xdcf0034cdc40184f4acea768f6dfc940623c3b07",
     "0xfcb3cbd96a0c38c8354d36731dec89cdda27eb07",
@@ -20,6 +24,94 @@
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "Bootr",
+      "tokenSymbol": "BOOTR",
+      "tokenAddress": "0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeifcyuao7z5zhbetimkamishc7w544xltcvuogmddtgh7tz22ur57i",
+      "createdAt": "2026-11-04 13:05:07",
+      "poolId": "0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeifcyuao7z5zhbetimkamishc7w544xltcvuogmddtgh7tz22ur57i",
+        "verified": false,
+        "operatorAddress": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
+      "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
+      "source": "clanker",
+      "volume24h": 103146.52,
+      "txns24h": 1720
+    },
+    {
+      "tokenName": "NADF",
+      "tokenSymbol": "NADF",
+      "tokenAddress": "0x3d30FF425a52355eDddbcD9244A88E89c47F802B",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+      "createdAt": "2026-11-04 09:46:57",
+      "poolId": "0x6471be3e1a9e618e4c509faf1fd6009ddf9088bef6e50b6a885e004fc4fec800",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+        "verified": false,
+        "operatorAddress": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6471be3e1a9e618e4c509faf1fd6009ddf9088bef6e50b6a885e004fc4fec800",
+      "basescanUrl": "https://basescan.org/token/0x3d30FF425a52355eDddbcD9244A88E89c47F802B",
+      "source": "clanker",
+      "volume24h": 7333.65,
+      "txns24h": 805
+    },
+    {
+      "tokenName": "XTO",
+      "tokenSymbol": "X T O",
+      "tokenAddress": "0x66DA6F3231d3B78b46D21c640e31EB5d784Af4e4",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreig467z2rh6rzx623k7mvifrruupj2soz463kcoezzome4efypw4za",
+      "createdAt": "2026-11-04 08:23:11",
+      "poolId": "0x9b715c63097ebd396e4948d0e05d9f8914b8c0d7075179c34980e9376f6f8d12",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreig467z2rh6rzx623k7mvifrruupj2soz463kcoezzome4efypw4za",
+        "verified": false,
+        "operatorAddress": "0xd8DF4A351F5D5cc795dD11a975ee278A4e1879b7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd8DF4A351F5D5cc795dD11a975ee278A4e1879b7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9b715c63097ebd396e4948d0e05d9f8914b8c0d7075179c34980e9376f6f8d12",
+      "basescanUrl": "https://basescan.org/token/0x66DA6F3231d3B78b46D21c640e31EB5d784Af4e4",
+      "source": "clanker",
+      "volume24h": 6374.63,
+      "txns24h": 126
+    },
+    {
+      "tokenName": "NADF",
+      "tokenSymbol": "NADF",
+      "tokenAddress": "0xCcA0C1ff533324Faa45006f0f7b4A87b50e780B0",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+      "createdAt": "2026-11-04 08:12:07",
+      "poolId": "0x95ef47b6c70012c27f38e917b3284aaf7b7d21065944579b38ffa9f3236a0287",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeidi3vhe7fn6f2u6kzsesmigdmo6jiqik2cfj37qjivdmqvvatpdia",
+        "verified": false,
+        "operatorAddress": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE87AbCDc0DCDe696f8d73022991Da32Ded5b63FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x95ef47b6c70012c27f38e917b3284aaf7b7d21065944579b38ffa9f3236a0287",
+      "basescanUrl": "https://basescan.org/token/0xCcA0C1ff533324Faa45006f0f7b4A87b50e780B0",
+      "source": "clanker",
+      "volume24h": 4919.94,
+      "txns24h": 207
+    },
     {
       "tokenName": "Claker",
       "tokenSymbol": "Claker",
@@ -39,8 +131,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x884056c533a28553436b7a38903ca731a06d7f545963c03fd28478bc3f34d508",
       "basescanUrl": "https://basescan.org/token/0xBb3AA9cccdf84C286E1b0d02fce7cC6CE0590b07",
       "source": "clanker",
-      "volume24h": 25433.22,
-      "txns24h": 173
+      "volume24h": 25458.23,
+      "txns24h": 192
     },
     {
       "tokenName": "Toadstud",
@@ -61,8 +153,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x02635205e413b33d71c4aa218a242d8eeb3d27874b269ee69e4994fd0f5c6fcc",
       "basescanUrl": "https://basescan.org/token/0xDCf0034cDC40184f4aCea768f6dFC940623c3B07",
       "source": "clanker",
-      "volume24h": 14121.16,
-      "txns24h": 142
+      "volume24h": 14165.28,
+      "txns24h": 143
     },
     {
       "tokenName": "Cocoa",
@@ -83,8 +175,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8129dcd13b450b3da50fd6096215f8d3459a472dd11accee6f1be05fda69a303",
       "basescanUrl": "https://basescan.org/token/0xfcB3cBd96a0c38c8354d36731Dec89CDdA27EB07",
       "source": "clanker",
-      "volume24h": 37250.54,
-      "txns24h": 379
+      "volume24h": 39805.13,
+      "txns24h": 405
     },
     {
       "tokenName": "HashChain",
@@ -105,8 +197,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0d5d9ea203bfe45c0eb3e5d22ebdb9f38c5633bd264be607765e2ffb5e1cb073",
       "basescanUrl": "https://basescan.org/token/0xE58cB983d01725Ae5B7e71bC254806936F88cb07",
       "source": "clanker",
-      "volume24h": 21197.22,
-      "txns24h": 294
+      "volume24h": 21197.8,
+      "txns24h": 296
     },
     {
       "tokenName": "Clanker: Reboot",
@@ -171,8 +263,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 1271035.2599999998,
-      "txns24h": 12627
+      "volume24h": 1431956.1199999999,
+      "txns24h": 14153
     },
     {
       "tokenName": "Michael Myers",
@@ -193,8 +285,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xbec667313869be49244f5076957f8b66efafe363f6b8f4622d7a67e0ac7cd5af",
       "basescanUrl": "https://basescan.org/token/0xB0ef0aCF594d3f8C2b546089707E769811d2Eb07",
       "source": "clanker",
-      "volume24h": 1866.35,
-      "txns24h": 129
+      "volume24h": 1581.94,
+      "txns24h": 120
     },
     {
       "tokenName": "MILF",
@@ -215,8 +307,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1580.99,
-      "txns24h": 696
+      "volume24h": 1733.3999999999999,
+      "txns24h": 830
     }
   ]
 }
