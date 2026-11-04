@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 237,
+  "count": 239,
   "items": [
+    {
+      "tokenName": "Claker",
+      "tokenSymbol": "Claker",
+      "tokenAddress": "0xBb3AA9cccdf84C286E1b0d02fce7cC6CE0590b07",
+      "imageUrl": null,
+      "createdAt": "2026-11-04 00:48:23",
+      "poolId": "0x884056c533a28553436b7a38903ca731a06d7f545963c03fd28478bc3f34d508",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x559481b43B40e71EDD8485AEA697E3d81092f975",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x559481b43B40e71EDD8485AEA697E3d81092f975",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x884056c533a28553436b7a38903ca731a06d7f545963c03fd28478bc3f34d508",
+      "basescanUrl": "https://basescan.org/token/0xBb3AA9cccdf84C286E1b0d02fce7cC6CE0590b07",
+      "source": "clanker",
+      "volume24h": 25433.22,
+      "txns24h": 173
+    },
+    {
+      "tokenName": "Toadstud",
+      "tokenSymbol": "TOADSTUD",
+      "tokenAddress": "0xDCf0034cDC40184f4aCea768f6dFC940623c3B07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreibkrpy4ic7dyqfnvpyogiisiinywpegupvqeswldrzjnqhjuyfngu",
+      "createdAt": "2026-11-03 23:59:27",
+      "poolId": "0x02635205e413b33d71c4aa218a242d8eeb3d27874b269ee69e4994fd0f5c6fcc",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibkrpy4ic7dyqfnvpyogiisiinywpegupvqeswldrzjnqhjuyfngu",
+        "verified": false,
+        "operatorAddress": "0x5eC788648156B52A701ff883E543E3450987c6da",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5eC788648156B52A701ff883E543E3450987c6da",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x02635205e413b33d71c4aa218a242d8eeb3d27874b269ee69e4994fd0f5c6fcc",
+      "basescanUrl": "https://basescan.org/token/0xDCf0034cDC40184f4aCea768f6dFC940623c3B07",
+      "source": "clanker",
+      "volume24h": 14121.16,
+      "txns24h": 142
+    },
     {
       "tokenName": "Cocoa",
       "tokenSymbol": "Cocoa",

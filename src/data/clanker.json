@@ -1,14 +1,16 @@
 {
-  "generatedAt": "2026-11-03T22:45:29.409Z",
+  "generatedAt": "2026-11-04T04:13:27.600Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 662,
+    "api": 720,
     "chain": 0,
-    "persisted": 3
+    "persisted": 7
   },
-  "count": 7,
+  "count": 9,
   "addresses": [
+    "0xbb3aa9cccdf84c286e1b0d02fce7cc6ce0590b07",
+    "0xdcf0034cdc40184f4acea768f6dfc940623c3b07",
     "0xfcb3cbd96a0c38c8354d36731dec89cdda27eb07",
     "0xe58cb983d01725ae5b7e71bc254806936f88cb07",
     "0x1e49685d52fb40bc57372c4d8264d825f3ffbb07",
@@ -18,6 +20,50 @@
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "Claker",
+      "tokenSymbol": "Claker",
+      "tokenAddress": "0xBb3AA9cccdf84C286E1b0d02fce7cC6CE0590b07",
+      "imageUrl": null,
+      "createdAt": "2026-11-04 00:48:23",
+      "poolId": "0x884056c533a28553436b7a38903ca731a06d7f545963c03fd28478bc3f34d508",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x559481b43B40e71EDD8485AEA697E3d81092f975",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x559481b43B40e71EDD8485AEA697E3d81092f975",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x884056c533a28553436b7a38903ca731a06d7f545963c03fd28478bc3f34d508",
+      "basescanUrl": "https://basescan.org/token/0xBb3AA9cccdf84C286E1b0d02fce7cC6CE0590b07",
+      "source": "clanker",
+      "volume24h": 25433.22,
+      "txns24h": 173
+    },
+    {
+      "tokenName": "Toadstud",
+      "tokenSymbol": "TOADSTUD",
+      "tokenAddress": "0xDCf0034cDC40184f4aCea768f6dFC940623c3B07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreibkrpy4ic7dyqfnvpyogiisiinywpegupvqeswldrzjnqhjuyfngu",
+      "createdAt": "2026-11-03 23:59:27",
+      "poolId": "0x02635205e413b33d71c4aa218a242d8eeb3d27874b269ee69e4994fd0f5c6fcc",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibkrpy4ic7dyqfnvpyogiisiinywpegupvqeswldrzjnqhjuyfngu",
+        "verified": false,
+        "operatorAddress": "0x5eC788648156B52A701ff883E543E3450987c6da",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x5eC788648156B52A701ff883E543E3450987c6da",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x02635205e413b33d71c4aa218a242d8eeb3d27874b269ee69e4994fd0f5c6fcc",
+      "basescanUrl": "https://basescan.org/token/0xDCf0034cDC40184f4aCea768f6dFC940623c3B07",
+      "source": "clanker",
+      "volume24h": 14121.16,
+      "txns24h": 142
+    },
     {
       "tokenName": "Cocoa",
       "tokenSymbol": "Cocoa",
@@ -37,8 +83,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8129dcd13b450b3da50fd6096215f8d3459a472dd11accee6f1be05fda69a303",
       "basescanUrl": "https://basescan.org/token/0xfcB3cBd96a0c38c8354d36731Dec89CDdA27EB07",
       "source": "clanker",
-      "volume24h": 24960.19,
-      "txns24h": 275
+      "volume24h": 37250.54,
+      "txns24h": 379
     },
     {
       "tokenName": "HashChain",
@@ -59,8 +105,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x0d5d9ea203bfe45c0eb3e5d22ebdb9f38c5633bd264be607765e2ffb5e1cb073",
       "basescanUrl": "https://basescan.org/token/0xE58cB983d01725Ae5B7e71bC254806936F88cb07",
       "source": "clanker",
-      "volume24h": 21188.57,
-      "txns24h": 292
+      "volume24h": 21197.22,
+      "txns24h": 294
     },
     {
       "tokenName": "Clanker: Reboot",
@@ -125,8 +171,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 1091524.6999999997,
-      "txns24h": 10757
+      "volume24h": 1271035.2599999998,
+      "txns24h": 12627
     },
     {
       "tokenName": "Michael Myers",
@@ -147,8 +193,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xbec667313869be49244f5076957f8b66efafe363f6b8f4622d7a67e0ac7cd5af",
       "basescanUrl": "https://basescan.org/token/0xB0ef0aCF594d3f8C2b546089707E769811d2Eb07",
       "source": "clanker",
-      "volume24h": 1697.05,
-      "txns24h": 143
+      "volume24h": 1866.35,
+      "txns24h": 129
     },
     {
       "tokenName": "MILF",
@@ -169,8 +215,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1468.49,
-      "txns24h": 571
+      "volume24h": 1580.99,
+      "txns24h": 696
     }
   ]
 }
