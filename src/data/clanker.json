@@ -1,20 +1,16 @@
 {
-  "generatedAt": "2026-11-06T22:37:18.890Z",
+  "generatedAt": "2026-11-07T03:57:33.499Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 730,
+    "api": 713,
     "chain": 0,
-    "persisted": 16
+    "persisted": 9
   },
-  "count": 9,
+  "count": 5,
   "addresses": [
     "0xafda71a7060018bb052c73cac5881f059ffecccc",
     "0x134ba967d5973baafcd5abbf459b91eff34e0b07",
-    "0x5df82b9cc7ddd86cf9c020b50fa3d25453a84a7c",
-    "0x09b5cb12fadc6dfa39cc2aa569b05dd3c9b6ea9e",
-    "0xcdb4f0511e6d4709ca18a6d2632242de7ac32078",
-    "0xe4176f02127b8c929ac0ccd66e24663a48ae78ea",
     "0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c",
     "0x6f18277e5566090ad8ab35e401ce9155739bfb07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
@@ -39,8 +35,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x120146a10fc69bb35006572c086e5618a42f8814a1aa62876c561e93d6fc951b",
       "basescanUrl": "https://basescan.org/token/0xaFdA71A7060018Bb052c73CAC5881f059fFeCccC",
       "source": "clanker",
-      "volume24h": 92912.22,
-      "txns24h": 1622
+      "volume24h": 50782.549999999996,
+      "txns24h": 1027
     },
     {
       "tokenName": "Clankdexer",
@@ -61,96 +57,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x14d56b39e943bf3435896ea8ce2f54384a388cf8bbfdcddbc44b1e2b07bd3be9",
       "basescanUrl": "https://basescan.org/token/0x134BA967D5973baaFCD5aBBf459B91efF34e0B07",
       "source": "clanker",
-      "volume24h": 6837.35,
-      "txns24h": 349
-    },
-    {
-      "tokenName": "USOS",
-      "tokenSymbol": "USOS",
-      "tokenAddress": "0x5DF82b9cc7DdD86cf9C020B50fa3D25453a84a7C",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeibq55m35ysw7cio575z4upnprmcw7tm45ixler4uurjd7orzrgee4",
-      "createdAt": "2026-11-04 18:05:09",
-      "poolId": "0xa2a7ac25cbee9e9de3fed074a82fbca6d88d2cd078d0f87e39b55b280fe6c7ed",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeibq55m35ysw7cio575z4upnprmcw7tm45ixler4uurjd7orzrgee4",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xa2a7ac25cbee9e9de3fed074a82fbca6d88d2cd078d0f87e39b55b280fe6c7ed",
-      "basescanUrl": "https://basescan.org/token/0x5DF82b9cc7DdD86cf9C020B50fa3D25453a84a7C",
-      "source": "clanker",
-      "volume24h": 798.95,
-      "txns24h": 1148
-    },
-    {
-      "tokenName": "WSOS",
-      "tokenSymbol": "WSOS",
-      "tokenAddress": "0x09b5cb12fAdC6DfA39cc2aa569B05dd3C9b6eA9e",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeic6tyjugu4vkpt75bwutrmpkcofxg2fccwsl5dh23gjaufbk7p2sq",
-      "createdAt": "2026-11-04 17:29:43",
-      "poolId": "0xbc21587aa28a32b36385595eedf2b13e2c3fc801cf3934d90c6b4b1edea21f8a",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeic6tyjugu4vkpt75bwutrmpkcofxg2fccwsl5dh23gjaufbk7p2sq",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xbc21587aa28a32b36385595eedf2b13e2c3fc801cf3934d90c6b4b1edea21f8a",
-      "basescanUrl": "https://basescan.org/token/0x09b5cb12fAdC6DfA39cc2aa569B05dd3C9b6eA9e",
-      "source": "clanker",
-      "volume24h": 1267.38,
-      "txns24h": 1150
-    },
-    {
-      "tokenName": "AORP",
-      "tokenSymbol": "AORP",
-      "tokenAddress": "0xcDb4F0511E6D4709ca18a6D2632242De7ac32078",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreieb2alq7f5j5gogtihss2m7c7glxkdyqiq7rqna5qj2rxf4dtctme",
-      "createdAt": "2026-11-04 17:17:53",
-      "poolId": "0x7d1d58dd46607f754a7874c5daa6ba18ffa38e72f018d02e1621defcc857d8dd",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreieb2alq7f5j5gogtihss2m7c7glxkdyqiq7rqna5qj2rxf4dtctme",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x7d1d58dd46607f754a7874c5daa6ba18ffa38e72f018d02e1621defcc857d8dd",
-      "basescanUrl": "https://basescan.org/token/0xcDb4F0511E6D4709ca18a6D2632242De7ac32078",
-      "source": "clanker",
-      "volume24h": 770.53,
-      "txns24h": 1146
-    },
-    {
-      "tokenName": "XTO",
-      "tokenSymbol": "XTO",
-      "tokenAddress": "0xE4176F02127B8C929Ac0ccD66e24663a48aE78eA",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiehlhvfrz6xzpnsvwtckfw5pjlwfgavlqz5kqsabcmdlmk7ky7vz4",
-      "createdAt": "2026-11-04 16:50:29",
-      "poolId": "0x7deeca2aff60c549a0cfb25db75ac1bc2c0853839dc8a04a178a6507eba8cc23",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiehlhvfrz6xzpnsvwtckfw5pjlwfgavlqz5kqsabcmdlmk7ky7vz4",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x7deeca2aff60c549a0cfb25db75ac1bc2c0853839dc8a04a178a6507eba8cc23",
-      "basescanUrl": "https://basescan.org/token/0xE4176F02127B8C929Ac0ccD66e24663a48aE78eA",
-      "source": "clanker",
-      "volume24h": 800.07,
-      "txns24h": 1151
+      "volume24h": 5748.5,
+      "txns24h": 277
     },
     {
       "tokenName": "Bootr",
@@ -171,8 +79,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 24307.760000000002,
-      "txns24h": 909
+      "volume24h": 22178.84,
+      "txns24h": 860
     },
     {
       "tokenName": "Reboot",
@@ -193,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 33557.829999999994,
-      "txns24h": 640
+      "volume24h": 24594.43,
+      "txns24h": 578
     },
     {
       "tokenName": "MILF",
@@ -215,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1640.3100000000004,
-      "txns24h": 820
+      "volume24h": 1078.1800000000003,
+      "txns24h": 530
     }
   ]
 }
