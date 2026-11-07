@@ -1,14 +1,18 @@
 {
-  "generatedAt": "2026-11-07T12:13:17.003Z",
+  "generatedAt": "2026-11-07T21:17:16.619Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 704,
+    "api": 698,
     "chain": 0,
-    "persisted": 5
+    "persisted": 8
   },
-  "count": 8,
+  "count": 12,
   "addresses": [
+    "0xd86733f08cd1a62f007dfe6b636a88eb10e5cccc",
+    "0xf5f57a2c3ec1a3a9fd86fc8a0f5bbbafcd881868",
+    "0xd3f09ed9cbe37171f59d9b12c4143b7ea89c5dac",
+    "0xfbad852304c9e333ccf56ceb81e563aa1732cccc",
     "0xf6ccf3354ef5a05947ef9425be44262ab8e70c31",
     "0x528a7a48d0fc0366b9d8a103c2dadc87245b4a83",
     "0xa54c5a628a0aea69a7e6f4224756e3a0169e0ed2",
@@ -19,6 +23,94 @@
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "binnetagent",
+      "tokenSymbol": "BINNET",
+      "tokenAddress": "0xD86733f08cd1a62F007DFe6B636A88eB10E5cccC",
+      "imageUrl": null,
+      "createdAt": "2026-11-07 20:35:18",
+      "poolId": "0x067604149b8c13ce68045ad0d68df40e763dcf32fd3b257636401280330af963",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x20711c7E4a25942Aee88E02a6a6B13BCF4da438d",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x20711c7E4a25942Aee88E02a6a6B13BCF4da438d",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x067604149b8c13ce68045ad0d68df40e763dcf32fd3b257636401280330af963",
+      "basescanUrl": "https://basescan.org/token/0xD86733f08cd1a62F007DFe6B636A88eB10E5cccC",
+      "source": "clanker",
+      "volume24h": 7086.31,
+      "txns24h": 101
+    },
+    {
+      "tokenName": "USRP",
+      "tokenSymbol": "USRP",
+      "tokenAddress": "0xf5F57a2C3eC1A3A9FD86fC8a0f5BbbaFCD881868",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeigigczjkrzgdjyg4oghxhfjxp6o4yyhcdbl73vmu5svsaj26hwcum",
+      "createdAt": "2026-11-07 20:23:50",
+      "poolId": "0x4eee15fe893860e8a39fc10d876623025cfbe1aa6ee432cd4b31988fc1ef9739",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeigigczjkrzgdjyg4oghxhfjxp6o4yyhcdbl73vmu5svsaj26hwcum",
+        "verified": false,
+        "operatorAddress": "0xf6ceCF8990D7a24dA00757eD4a3715e94f371388",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xf6ceCF8990D7a24dA00757eD4a3715e94f371388",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4eee15fe893860e8a39fc10d876623025cfbe1aa6ee432cd4b31988fc1ef9739",
+      "basescanUrl": "https://basescan.org/token/0xf5F57a2C3eC1A3A9FD86fC8a0f5BbbaFCD881868",
+      "source": "clanker",
+      "volume24h": 11972.29,
+      "txns24h": 535
+    },
+    {
+      "tokenName": "Brian Brain",
+      "tokenSymbol": "BRIANBRAIN",
+      "tokenAddress": "0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicu3r4yrcy2xhtkfy4chfg7bphrsroqkba5zpf46en4mgt7qbrkha",
+      "createdAt": "2026-11-07 18:10:17",
+      "poolId": "0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicu3r4yrcy2xhtkfy4chfg7bphrsroqkba5zpf46en4mgt7qbrkha",
+        "verified": false,
+        "operatorAddress": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
+      "basescanUrl": "https://basescan.org/token/0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
+      "source": "clanker",
+      "volume24h": 145749.41999999998,
+      "txns24h": 3439
+    },
+    {
+      "tokenName": "Index Maxxing",
+      "tokenSymbol": "INDEXXING",
+      "tokenAddress": "0xfBAD852304C9e333Ccf56Ceb81E563aa1732CcCC",
+      "imageUrl": null,
+      "createdAt": "2026-11-07 14:16:11",
+      "poolId": "0x0336d5f44a94a9b31cb9ed04f36c1bd9eb74e6e664bbcd114af4a46a3784de26",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xB4Bc82DbeAba6656dB54c86a568a7dbB089B85c7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB4Bc82DbeAba6656dB54c86a568a7dbB089B85c7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0336d5f44a94a9b31cb9ed04f36c1bd9eb74e6e664bbcd114af4a46a3784de26",
+      "basescanUrl": "https://basescan.org/token/0xfBAD852304C9e333Ccf56Ceb81E563aa1732CcCC",
+      "source": "clanker",
+      "volume24h": 8255.81,
+      "txns24h": 144
+    },
     {
       "tokenName": "National Oil Trust Fund",
       "tokenSymbol": "NOTF",
@@ -38,8 +130,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x533aff2b7f964eac74f0cfe538977bc046817b5110e6d7570ba4fcab37ddcb00",
       "basescanUrl": "https://basescan.org/token/0xF6CCf3354EF5a05947ef9425BE44262aB8e70C31",
       "source": "clanker",
-      "volume24h": 11706.53,
-      "txns24h": 509
+      "volume24h": 25069.39,
+      "txns24h": 1308
     },
     {
       "tokenName": "Global Oil Institution Fund",
@@ -60,8 +152,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd5f07eefb6c0fdea3b66bf24e0422c738c948d63a08bb784c0f88fde21432bee",
       "basescanUrl": "https://basescan.org/token/0x528a7A48d0fc0366b9d8a103C2DAdc87245B4a83",
       "source": "clanker",
-      "volume24h": 12305.01,
-      "txns24h": 680
+      "volume24h": 13731.35,
+      "txns24h": 1005
     },
     {
       "tokenName": "National Oil Trust Fund",
@@ -82,8 +174,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x79139c57d7e941a8a93c64c34852e8dca4765e67159113edec1718e4bcf99db0",
       "basescanUrl": "https://basescan.org/token/0xA54C5a628a0aEa69a7e6f4224756e3a0169E0eD2",
       "source": "clanker",
-      "volume24h": 12022.9,
-      "txns24h": 178
+      "volume24h": 13477.98,
+      "txns24h": 504
     },
     {
       "tokenName": "DENIM",
@@ -97,15 +189,15 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreia55nhqbuft5urw74s5jw7c43xqa3urapgdo6f73mehu32njobooa",
         "verified": false,
-        "operatorAddress": "0xbeb40EAfD717Ae1c6Ac0414ba1631f46e2777795",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0xbeb40EAfD717Ae1c6Ac0414ba1631f46e2777795",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x120146a10fc69bb35006572c086e5618a42f8814a1aa62876c561e93d6fc951b",
       "basescanUrl": "https://basescan.org/token/0xaFdA71A7060018Bb052c73CAC5881f059fFeCccC",
       "source": "clanker",
-      "volume24h": 30602.090000000004,
-      "txns24h": 745
+      "volume24h": 19669.8,
+      "txns24h": 485
     },
     {
       "tokenName": "Clankdexer",
@@ -126,8 +218,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x14d56b39e943bf3435896ea8ce2f54384a388cf8bbfdcddbc44b1e2b07bd3be9",
       "basescanUrl": "https://basescan.org/token/0x134BA967D5973baaFCD5aBBf459B91efF34e0B07",
       "source": "clanker",
-      "volume24h": 5108.2,
-      "txns24h": 239
+      "volume24h": 13928.77,
+      "txns24h": 349
     },
     {
       "tokenName": "Bootr",
@@ -148,8 +240,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 13879.150000000001,
-      "txns24h": 721
+      "volume24h": 101227.01000000001,
+      "txns24h": 2002
     },
     {
       "tokenName": "Reboot",
@@ -170,8 +262,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 20311.66,
-      "txns24h": 552
+      "volume24h": 19763.19,
+      "txns24h": 418
     },
     {
       "tokenName": "MILF",
@@ -192,8 +284,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 839.0400000000001,
-      "txns24h": 405
+      "volume24h": 911.7900000000002,
+      "txns24h": 410
     }
   ]
 }

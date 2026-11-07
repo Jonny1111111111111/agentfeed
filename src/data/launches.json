@@ -5,8 +5,96 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 238,
+  "count": 242,
   "items": [
+    {
+      "tokenName": "binnetagent",
+      "tokenSymbol": "BINNET",
+      "tokenAddress": "0xD86733f08cd1a62F007DFe6B636A88eB10E5cccC",
+      "imageUrl": null,
+      "createdAt": "2026-11-07 20:35:18",
+      "poolId": "0x067604149b8c13ce68045ad0d68df40e763dcf32fd3b257636401280330af963",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x20711c7E4a25942Aee88E02a6a6B13BCF4da438d",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x20711c7E4a25942Aee88E02a6a6B13BCF4da438d",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x067604149b8c13ce68045ad0d68df40e763dcf32fd3b257636401280330af963",
+      "basescanUrl": "https://basescan.org/token/0xD86733f08cd1a62F007DFe6B636A88eB10E5cccC",
+      "source": "clanker",
+      "volume24h": 7086.31,
+      "txns24h": 101
+    },
+    {
+      "tokenName": "USRP",
+      "tokenSymbol": "USRP",
+      "tokenAddress": "0xf5F57a2C3eC1A3A9FD86fC8a0f5BbbaFCD881868",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeigigczjkrzgdjyg4oghxhfjxp6o4yyhcdbl73vmu5svsaj26hwcum",
+      "createdAt": "2026-11-07 20:23:50",
+      "poolId": "0x4eee15fe893860e8a39fc10d876623025cfbe1aa6ee432cd4b31988fc1ef9739",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeigigczjkrzgdjyg4oghxhfjxp6o4yyhcdbl73vmu5svsaj26hwcum",
+        "verified": false,
+        "operatorAddress": "0xf6ceCF8990D7a24dA00757eD4a3715e94f371388",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xf6ceCF8990D7a24dA00757eD4a3715e94f371388",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4eee15fe893860e8a39fc10d876623025cfbe1aa6ee432cd4b31988fc1ef9739",
+      "basescanUrl": "https://basescan.org/token/0xf5F57a2C3eC1A3A9FD86fC8a0f5BbbaFCD881868",
+      "source": "clanker",
+      "volume24h": 11972.29,
+      "txns24h": 535
+    },
+    {
+      "tokenName": "Brian Brain",
+      "tokenSymbol": "BRIANBRAIN",
+      "tokenAddress": "0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicu3r4yrcy2xhtkfy4chfg7bphrsroqkba5zpf46en4mgt7qbrkha",
+      "createdAt": "2026-11-07 18:10:17",
+      "poolId": "0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicu3r4yrcy2xhtkfy4chfg7bphrsroqkba5zpf46en4mgt7qbrkha",
+        "verified": false,
+        "operatorAddress": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
+      "basescanUrl": "https://basescan.org/token/0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
+      "source": "clanker",
+      "volume24h": 145749.41999999998,
+      "txns24h": 3439
+    },
+    {
+      "tokenName": "Index Maxxing",
+      "tokenSymbol": "INDEXXING",
+      "tokenAddress": "0xfBAD852304C9e333Ccf56Ceb81E563aa1732CcCC",
+      "imageUrl": null,
+      "createdAt": "2026-11-07 14:16:11",
+      "poolId": "0x0336d5f44a94a9b31cb9ed04f36c1bd9eb74e6e664bbcd114af4a46a3784de26",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xB4Bc82DbeAba6656dB54c86a568a7dbB089B85c7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xB4Bc82DbeAba6656dB54c86a568a7dbB089B85c7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0336d5f44a94a9b31cb9ed04f36c1bd9eb74e6e664bbcd114af4a46a3784de26",
+      "basescanUrl": "https://basescan.org/token/0xfBAD852304C9e333Ccf56Ceb81E563aa1732CcCC",
+      "source": "clanker",
+      "volume24h": 8255.81,
+      "txns24h": 144
+    },
     {
       "tokenName": "National Oil Trust Fund",
       "tokenSymbol": "NOTF",
@@ -85,7 +173,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreia55nhqbuft5urw74s5jw7c43xqa3urapgdo6f73mehu32njobooa",
         "verified": false,
-        "operatorAddress": "0xbeb40EAfD717Ae1c6Ac0414ba1631f46e2777795",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xbeb40EAfD717Ae1c6Ac0414ba1631f46e2777795",
