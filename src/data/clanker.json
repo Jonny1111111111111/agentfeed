@@ -1,14 +1,16 @@
 {
-  "generatedAt": "2026-11-09T03:55:15.873Z",
+  "generatedAt": "2026-11-09T14:50:06.257Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 576,
+    "api": 481,
     "chain": 0,
-    "persisted": 8
+    "persisted": 6
   },
-  "count": 6,
+  "count": 8,
   "addresses": [
+    "0x0adebb8cb31b330287bdf9bac66bbc2dc26b2fed",
+    "0x4f939955d0798dc9b1c06d04f79d0ed4048c2ebe",
     "0x36fcfc9462a69382433500be9da847dfada791e6",
     "0xfab900fe1ac602e07d41eba9128fdb462e73cccc",
     "0xd3f09ed9cbe37171f59d9b12c4143b7ea89c5dac",
@@ -17,6 +19,50 @@
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "Anthropic",
+      "tokenSymbol": "Anthropic",
+      "tokenAddress": "0x0ADeBB8cB31b330287Bdf9bAc66bbC2DC26b2fEd",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
+      "createdAt": "2026-11-09 13:58:49",
+      "poolId": "0xfCBe6b004D29423533956aC1E9AB0432D858BD87",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
+        "verified": false,
+        "operatorAddress": "0x0d3D619Ed86971328A3d8698CB233846b73ba832",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0d3D619Ed86971328A3d8698CB233846b73ba832",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xfcbe6b004d29423533956ac1e9ab0432d858bd87",
+      "basescanUrl": "https://basescan.org/token/0x0ADeBB8cB31b330287Bdf9bAc66bbC2DC26b2fEd",
+      "source": "clanker",
+      "volume24h": 27494301.69,
+      "txns24h": 635
+    },
+    {
+      "tokenName": "牛逼",
+      "tokenSymbol": "牛逼",
+      "tokenAddress": "0x4f939955D0798dc9B1C06D04F79D0ed4048C2EbE",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeibug5x6ts7h6rm226uujkquj7gwlps2pezyg5w4jcmhpzmjewzb2q",
+      "createdAt": "2026-11-09 04:57:52",
+      "poolId": "0x81DFf82893D3a5aee47682fB9B073BaDBd8B178E",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeibug5x6ts7h6rm226uujkquj7gwlps2pezyg5w4jcmhpzmjewzb2q",
+        "verified": false,
+        "operatorAddress": "0x0d3D619Ed86971328A3d8698CB233846b73ba832",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0d3D619Ed86971328A3d8698CB233846b73ba832",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x81dff82893d3a5aee47682fb9b073badbd8b178e",
+      "basescanUrl": "https://basescan.org/token/0x4f939955D0798dc9B1C06D04F79D0ed4048C2EbE",
+      "source": "clanker",
+      "volume24h": 20130596.58,
+      "txns24h": 2970
+    },
     {
       "tokenName": "Anthropic",
       "tokenSymbol": "ANT",
@@ -36,8 +82,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9f5dd8f62038215fa6cee6972efc4d0895575d4c423a426349ec4976c95c773",
       "basescanUrl": "https://basescan.org/token/0x36fCFC9462A69382433500Be9Da847dfAda791e6",
       "source": "clanker",
-      "volume24h": 387386.92,
-      "txns24h": 2605
+      "volume24h": 387387.15,
+      "txns24h": 2606
     },
     {
       "tokenName": "Clanked",
@@ -58,8 +104,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x43ab0ad1e6f0378c81e0e4057224077fc5e107fa420af324975a0bd6c9376abe",
       "basescanUrl": "https://basescan.org/token/0xFaB900fe1AC602E07D41EBa9128Fdb462e73cccc",
       "source": "clanker",
-      "volume24h": 15797.19,
-      "txns24h": 253
+      "volume24h": 15957.9,
+      "txns24h": 255
     },
     {
       "tokenName": "Brian Brain",
@@ -80,8 +126,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
       "basescanUrl": "https://basescan.org/token/0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
       "source": "clanker",
-      "volume24h": 15489.119999999999,
-      "txns24h": 811
+      "volume24h": 8459.759999999998,
+      "txns24h": 446
     },
     {
       "tokenName": "Bootr",
@@ -102,8 +148,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 42340.280000000006,
-      "txns24h": 829
+      "volume24h": 40935.159999999996,
+      "txns24h": 734
     },
     {
       "tokenName": "Reboot",
@@ -124,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 9193.52,
-      "txns24h": 205
+      "volume24h": 11082.910000000002,
+      "txns24h": 202
     },
     {
       "tokenName": "MILF",
@@ -146,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1272.94,
-      "txns24h": 450
+      "volume24h": 1286.9599999999998,
+      "txns24h": 532
     }
   ]
 }
