@@ -1,24 +1,44 @@
 {
-  "generatedAt": "2026-11-08T21:32:16.057Z",
+  "generatedAt": "2026-11-09T03:55:15.873Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 613,
+    "api": 576,
     "chain": 0,
-    "persisted": 12
+    "persisted": 8
   },
-  "count": 8,
+  "count": 6,
   "addresses": [
+    "0x36fcfc9462a69382433500be9da847dfada791e6",
     "0xfab900fe1ac602e07d41eba9128fdb462e73cccc",
-    "0xf5f57a2c3ec1a3a9fd86fc8a0f5bbbafcd881868",
     "0xd3f09ed9cbe37171f59d9b12c4143b7ea89c5dac",
-    "0x528a7a48d0fc0366b9d8a103c2dadc87245b4a83",
-    "0xa54c5a628a0aea69a7e6f4224756e3a0169e0ed2",
     "0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c",
     "0x6f18277e5566090ad8ab35e401ce9155739bfb07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "Anthropic",
+      "tokenSymbol": "ANT",
+      "tokenAddress": "0x36fCFC9462A69382433500Be9Da847dfAda791e6",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
+      "createdAt": "2026-11-09 02:04:22",
+      "poolId": "0xa9f5dd8f62038215fa6cee6972efc4d0895575d4c423a426349ec4976c95c773",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
+        "verified": false,
+        "operatorAddress": "0xa60beBF884b41785Eb963eDff8bEb907dE612f83",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xa60beBF884b41785Eb963eDff8bEb907dE612f83",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa9f5dd8f62038215fa6cee6972efc4d0895575d4c423a426349ec4976c95c773",
+      "basescanUrl": "https://basescan.org/token/0x36fCFC9462A69382433500Be9Da847dfAda791e6",
+      "source": "clanker",
+      "volume24h": 387386.92,
+      "txns24h": 2605
+    },
     {
       "tokenName": "Clanked",
       "tokenSymbol": "CLANKED",
@@ -38,30 +58,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x43ab0ad1e6f0378c81e0e4057224077fc5e107fa420af324975a0bd6c9376abe",
       "basescanUrl": "https://basescan.org/token/0xFaB900fe1AC602E07D41EBa9128Fdb462e73cccc",
       "source": "clanker",
-      "volume24h": 14155.21,
-      "txns24h": 215
-    },
-    {
-      "tokenName": "USRP",
-      "tokenSymbol": "USRP",
-      "tokenAddress": "0xf5F57a2C3eC1A3A9FD86fC8a0f5BbbaFCD881868",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeigigczjkrzgdjyg4oghxhfjxp6o4yyhcdbl73vmu5svsaj26hwcum",
-      "createdAt": "2026-11-07 20:23:50",
-      "poolId": "0x4eee15fe893860e8a39fc10d876623025cfbe1aa6ee432cd4b31988fc1ef9739",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeigigczjkrzgdjyg4oghxhfjxp6o4yyhcdbl73vmu5svsaj26hwcum",
-        "verified": false,
-        "operatorAddress": "0xf6ceCF8990D7a24dA00757eD4a3715e94f371388",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xf6ceCF8990D7a24dA00757eD4a3715e94f371388",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x4eee15fe893860e8a39fc10d876623025cfbe1aa6ee432cd4b31988fc1ef9739",
-      "basescanUrl": "https://basescan.org/token/0xf5F57a2C3eC1A3A9FD86fC8a0f5BbbaFCD881868",
-      "source": "clanker",
-      "volume24h": 13162.54,
-      "txns24h": 715
+      "volume24h": 15797.19,
+      "txns24h": 253
     },
     {
       "tokenName": "Brian Brain",
@@ -82,52 +80,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
       "basescanUrl": "https://basescan.org/token/0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
       "source": "clanker",
-      "volume24h": 51637.909999999996,
-      "txns24h": 1910
-    },
-    {
-      "tokenName": "Global Oil Institution Fund",
-      "tokenSymbol": "GOIF",
-      "tokenAddress": "0x528a7A48d0fc0366b9d8a103C2DAdc87245B4a83",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreibcrmbnsk3lcpjuo454sm43t7qrwggpt2i7yz337v3hw5ceozqfli",
-      "createdAt": "2026-11-07 07:20:20",
-      "poolId": "0xd5f07eefb6c0fdea3b66bf24e0422c738c948d63a08bb784c0f88fde21432bee",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibcrmbnsk3lcpjuo454sm43t7qrwggpt2i7yz337v3hw5ceozqfli",
-        "verified": false,
-        "operatorAddress": "0xC6f733bfEFb25cE540D067E78F26a61E96C843Ab",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xC6f733bfEFb25cE540D067E78F26a61E96C843Ab",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xd5f07eefb6c0fdea3b66bf24e0422c738c948d63a08bb784c0f88fde21432bee",
-      "basescanUrl": "https://basescan.org/token/0x528a7A48d0fc0366b9d8a103C2DAdc87245B4a83",
-      "source": "clanker",
-      "volume24h": 13364.25,
-      "txns24h": 713
-    },
-    {
-      "tokenName": "National Oil Trust Fund",
-      "tokenSymbol": "NOTF",
-      "tokenAddress": "0xA54C5a628a0aEa69a7e6f4224756e3a0169E0eD2",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiejllazfigfns7byfq5zmywmyfcyr5ykfmvf4niyryzf5u6x5iaze",
-      "createdAt": "2026-11-07 07:18:37",
-      "poolId": "0x79139c57d7e941a8a93c64c34852e8dca4765e67159113edec1718e4bcf99db0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiejllazfigfns7byfq5zmywmyfcyr5ykfmvf4niyryzf5u6x5iaze",
-        "verified": false,
-        "operatorAddress": "0x69df806F33EA5b509F4c899D5130Eb2F756cdAdA",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x69df806F33EA5b509F4c899D5130Eb2F756cdAdA",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x79139c57d7e941a8a93c64c34852e8dca4765e67159113edec1718e4bcf99db0",
-      "basescanUrl": "https://basescan.org/token/0xA54C5a628a0aEa69a7e6f4224756e3a0169E0eD2",
-      "source": "clanker",
-      "volume24h": 13164.21,
-      "txns24h": 212
+      "volume24h": 15489.119999999999,
+      "txns24h": 811
     },
     {
       "tokenName": "Bootr",
@@ -148,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 59455.65,
-      "txns24h": 1150
+      "volume24h": 42340.280000000006,
+      "txns24h": 829
     },
     {
       "tokenName": "Reboot",
@@ -170,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 8814.56,
-      "txns24h": 202
+      "volume24h": 9193.52,
+      "txns24h": 205
     },
     {
       "tokenName": "MILF",
@@ -192,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 906.3,
-      "txns24h": 318
+      "volume24h": 1272.94,
+      "txns24h": 450
     }
   ]
 }
