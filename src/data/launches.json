@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "SpyChip",
+      "tokenSymbol": "SPYCHIP",
+      "tokenAddress": "0xa241751eE8e1C93118C93d3bdf94d1B15010cccC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigigwf275kzetvfnfvegctfjricgoqlctfsjyg3aq3eaie7xb2wx4",
+      "createdAt": "2026-11-10 18:18:19",
+      "poolId": "0xafb7c03576aca1b52fdd00a73b9de7669aa10369c55577e5b3317c2d931eed98",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigigwf275kzetvfnfvegctfjricgoqlctfsjyg3aq3eaie7xb2wx4",
+        "verified": false,
+        "operatorAddress": "0x14395e499AB171c480531A5b1DCbAAC0BD5A07D5",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x14395e499AB171c480531A5b1DCbAAC0BD5A07D5",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xafb7c03576aca1b52fdd00a73b9de7669aa10369c55577e5b3317c2d931eed98",
+      "basescanUrl": "https://basescan.org/token/0xa241751eE8e1C93118C93d3bdf94d1B15010cccC",
+      "source": "clanker",
+      "volume24h": 28204.28,
+      "txns24h": 308
+    },
     {
       "tokenName": "Anthropic",
       "tokenSymbol": "Anthropic",
