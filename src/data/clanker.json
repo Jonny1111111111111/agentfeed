@@ -1,19 +1,17 @@
 {
-  "generatedAt": "2026-11-09T14:50:06.257Z",
+  "generatedAt": "2026-11-10T01:01:57.376Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 481,
+    "api": 362,
     "chain": 0,
-    "persisted": 6
+    "persisted": 8
   },
-  "count": 8,
+  "count": 6,
   "addresses": [
     "0x0adebb8cb31b330287bdf9bac66bbc2dc26b2fed",
     "0x4f939955d0798dc9b1c06d04f79d0ed4048c2ebe",
     "0x36fcfc9462a69382433500be9da847dfada791e6",
-    "0xfab900fe1ac602e07d41eba9128fdb462e73cccc",
-    "0xd3f09ed9cbe37171f59d9b12c4143b7ea89c5dac",
     "0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c",
     "0x6f18277e5566090ad8ab35e401ce9155739bfb07",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
@@ -38,8 +36,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xfcbe6b004d29423533956ac1e9ab0432d858bd87",
       "basescanUrl": "https://basescan.org/token/0x0ADeBB8cB31b330287Bdf9bAc66bbC2DC26b2fEd",
       "source": "clanker",
-      "volume24h": 27494301.69,
-      "txns24h": 635
+      "volume24h": 55071843.65,
+      "txns24h": 6720
     },
     {
       "tokenName": "牛逼",
@@ -82,52 +80,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xa9f5dd8f62038215fa6cee6972efc4d0895575d4c423a426349ec4976c95c773",
       "basescanUrl": "https://basescan.org/token/0x36fCFC9462A69382433500Be9Da847dfAda791e6",
       "source": "clanker",
-      "volume24h": 387387.15,
-      "txns24h": 2606
-    },
-    {
-      "tokenName": "Clanked",
-      "tokenSymbol": "CLANKED",
-      "tokenAddress": "0xFaB900fe1AC602E07D41EBa9128Fdb462e73cccc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiamqs7piayfwutm5kcwrgcwg2f5gqqmielmj6vgmiqizmdw5zlkhi",
-      "createdAt": "2026-11-08 17:21:54",
-      "poolId": "0x43ab0ad1e6f0378c81e0e4057224077fc5e107fa420af324975a0bd6c9376abe",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiamqs7piayfwutm5kcwrgcwg2f5gqqmielmj6vgmiqizmdw5zlkhi",
-        "verified": false,
-        "operatorAddress": "0xf19F11Dee16a341671E6Ed3e209b704C1Bbc3E57",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xf19F11Dee16a341671E6Ed3e209b704C1Bbc3E57",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x43ab0ad1e6f0378c81e0e4057224077fc5e107fa420af324975a0bd6c9376abe",
-      "basescanUrl": "https://basescan.org/token/0xFaB900fe1AC602E07D41EBa9128Fdb462e73cccc",
-      "source": "clanker",
-      "volume24h": 15957.9,
-      "txns24h": 255
-    },
-    {
-      "tokenName": "Brian Brain",
-      "tokenSymbol": "BRIANBRAIN",
-      "tokenAddress": "0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicu3r4yrcy2xhtkfy4chfg7bphrsroqkba5zpf46en4mgt7qbrkha",
-      "createdAt": "2026-11-07 18:10:17",
-      "poolId": "0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicu3r4yrcy2xhtkfy4chfg7bphrsroqkba5zpf46en4mgt7qbrkha",
-        "verified": false,
-        "operatorAddress": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf6dd6622ce42e3afb4b4bf0c6730953203119ac0c50c76146a042ff392adfa96",
-      "basescanUrl": "https://basescan.org/token/0xd3f09ED9cBe37171f59d9B12C4143b7Ea89c5DAC",
-      "source": "clanker",
-      "volume24h": 8459.759999999998,
-      "txns24h": 446
+      "volume24h": 387387.38,
+      "txns24h": 2607
     },
     {
       "tokenName": "Bootr",
@@ -148,8 +102,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 40935.159999999996,
-      "txns24h": 734
+      "volume24h": 21336.08,
+      "txns24h": 529
     },
     {
       "tokenName": "Reboot",
@@ -170,8 +124,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x66586da3aea24479b77183ef74dca95eb2b28541cb92f45d273e9790a4dd464a",
       "basescanUrl": "https://basescan.org/token/0x6F18277E5566090Ad8Ab35e401ce9155739BFb07",
       "source": "clanker",
-      "volume24h": 11082.910000000002,
-      "txns24h": 202
+      "volume24h": 7147.97,
+      "txns24h": 124
     },
     {
       "tokenName": "MILF",
@@ -192,8 +146,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1286.9599999999998,
-      "txns24h": 532
+      "volume24h": 1134.94,
+      "txns24h": 539
     }
   ]
 }
