@@ -1,16 +1,15 @@
 {
-  "generatedAt": "2026-11-10T22:42:42.226Z",
+  "generatedAt": "2026-11-11T03:59:27.993Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 286,
+    "api": 337,
     "chain": 0,
-    "persisted": 3
+    "persisted": 4
   },
-  "count": 4,
+  "count": 3,
   "addresses": [
     "0xa241751ee8e1c93118c93d3bdf94d1b15010cccc",
-    "0x0adebb8cb31b330287bdf9bac66bbc2dc26b2fed",
     "0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
@@ -38,28 +37,6 @@
       "txns24h": 308
     },
     {
-      "tokenName": "Anthropic",
-      "tokenSymbol": "Anthropic",
-      "tokenAddress": "0x0ADeBB8cB31b330287Bdf9bAc66bbC2DC26b2fEd",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
-      "createdAt": "2026-11-09 13:58:49",
-      "poolId": "0xfCBe6b004D29423533956aC1E9AB0432D858BD87",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
-        "verified": false,
-        "operatorAddress": "0x0d3D619Ed86971328A3d8698CB233846b73ba832",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0d3D619Ed86971328A3d8698CB233846b73ba832",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xfcbe6b004d29423533956ac1e9ab0432d858bd87",
-      "basescanUrl": "https://basescan.org/token/0x0ADeBB8cB31b330287Bdf9bAc66bbC2DC26b2fEd",
-      "source": "clanker",
-      "volume24h": 4379.91,
-      "txns24h": 1201
-    },
-    {
       "tokenName": "Bootr",
       "tokenSymbol": "BOOTR",
       "tokenAddress": "0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
@@ -78,8 +55,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 9947.81,
-      "txns24h": 304
+      "volume24h": 6923.64,
+      "txns24h": 282
     },
     {
       "tokenName": "MILF",
@@ -100,8 +77,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 838.0999999999999,
-      "txns24h": 384
+      "volume24h": 878.1,
+      "txns24h": 361
     }
   ]
 }
