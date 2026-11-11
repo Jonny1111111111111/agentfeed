@@ -1,20 +1,134 @@
 {
-  "generatedAt": "2026-11-11T13:19:40.412Z",
+  "generatedAt": "2026-11-11T23:55:24.690Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 365,
+    "api": 498,
     "chain": 0,
-    "persisted": 3
+    "persisted": 4
   },
-  "count": 4,
+  "count": 8,
   "addresses": [
+    "0xc08aa280098f68290595ca4b841dac8f5822cccc",
+    "0xa7e1bb94f3e015172ade7e463905f6e2432ccccc",
+    "0x3b39ea47b035b3e45440dee645269f12c415cccc",
+    "0x86b23e43e0b066f4cd6a0c2c31847b8b83a4cccc",
+    "0x3441e8fcdd380c4e7f5c7f55ccd599b2a2afcccc",
     "0xb51d897806ed81a483fb778ebba54f6179753d5f",
-    "0xa241751ee8e1c93118c93d3bdf94d1b15010cccc",
     "0xb1c3a6ac90e324c4072ad4b2a71c5d9382f9565c",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "KinetiqGPU",
+      "tokenSymbol": "KINETIQ",
+      "tokenAddress": "0xC08aa280098f68290595Ca4B841DAC8F5822CccC",
+      "imageUrl": null,
+      "createdAt": "2026-11-11 18:53:53",
+      "poolId": "0x31c1b03add402ea6a119e14f1571e4fba9d27efdd1d0542ef620f728c1dab555",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xE0302bB96cA031bDdA5286EDDdC8ca30aad73241",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xE0302bB96cA031bDdA5286EDDdC8ca30aad73241",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x31c1b03add402ea6a119e14f1571e4fba9d27efdd1d0542ef620f728c1dab555",
+      "basescanUrl": "https://basescan.org/token/0xC08aa280098f68290595Ca4B841DAC8F5822CccC",
+      "source": "clanker",
+      "volume24h": 17410.44,
+      "txns24h": 177
+    },
+    {
+      "tokenName": "Dragon Reserve",
+      "tokenSymbol": "DRS",
+      "tokenAddress": "0xA7e1Bb94F3E015172aDe7e463905F6E2432CcccC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihhncmizhdnt4za2nm67rknn3jqnegdkueynhqcw2x47chldvwqf4",
+      "createdAt": "2026-11-11 17:44:04",
+      "poolId": "0xcb8ca999248b62b35461e67ab37b41c03c56f28bb926799d9edf2cf68e536238",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihhncmizhdnt4za2nm67rknn3jqnegdkueynhqcw2x47chldvwqf4",
+        "verified": false,
+        "operatorAddress": "0x6205A88703bc5039075D411Be7E74c4c1Ac9EE58",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x6205A88703bc5039075D411Be7E74c4c1Ac9EE58",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xcb8ca999248b62b35461e67ab37b41c03c56f28bb926799d9edf2cf68e536238",
+      "basescanUrl": "https://basescan.org/token/0xA7e1Bb94F3E015172aDe7e463905F6E2432CcccC",
+      "source": "clanker",
+      "volume24h": 13346.289999999999,
+      "txns24h": 156
+    },
+    {
+      "tokenName": "Frog Fund",
+      "tokenSymbol": "FROG",
+      "tokenAddress": "0x3B39EA47b035b3E45440dee645269F12C415cccC",
+      "imageUrl": null,
+      "createdAt": "2026-11-11 16:36:28",
+      "poolId": "0x4ed4bea8b6a8a2369c3f1c56e3441bda22099225d707b49cc7a500eb8c86103b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x21296Cf6c0864E62357962775C5720A55cBA99A2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x21296Cf6c0864E62357962775C5720A55cBA99A2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4ed4bea8b6a8a2369c3f1c56e3441bda22099225d707b49cc7a500eb8c86103b",
+      "basescanUrl": "https://basescan.org/token/0x3B39EA47b035b3E45440dee645269F12C415cccC",
+      "source": "clanker",
+      "volume24h": 16130.06,
+      "txns24h": 192
+    },
+    {
+      "tokenName": "Frog Fund",
+      "tokenSymbol": "FROG",
+      "tokenAddress": "0x86B23E43E0B066f4cD6A0C2c31847B8b83A4cccC",
+      "imageUrl": null,
+      "createdAt": "2026-11-11 16:26:43",
+      "poolId": "0x34b66d90365c96e0f7422f923b8438be58ba58fa642b2062e99c3ae078f82a96",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x29d4763169139544f7823f0e0ec3c0D68D0aF6c2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x29d4763169139544f7823f0e0ec3c0D68D0aF6c2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x34b66d90365c96e0f7422f923b8438be58ba58fa642b2062e99c3ae078f82a96",
+      "basescanUrl": "https://basescan.org/token/0x86B23E43E0B066f4cD6A0C2c31847B8b83A4cccC",
+      "source": "clanker",
+      "volume24h": 15181.36,
+      "txns24h": 152
+    },
+    {
+      "tokenName": "Revvy",
+      "tokenSymbol": "REVVY",
+      "tokenAddress": "0x3441e8fCdD380c4e7F5C7F55CCd599B2a2afCcCC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreibj6wgv5eurl5gbvseztrypyyb4g36yn7xvpiqoqh4wem573twota",
+      "createdAt": "2026-11-11 16:11:11",
+      "poolId": "0xeabeac2e1264cda3e8bdca532a415c69a6d7c67225aabf270ee17a9b9282a78e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibj6wgv5eurl5gbvseztrypyyb4g36yn7xvpiqoqh4wem573twota",
+        "verified": false,
+        "operatorAddress": "0x9A9d7663C5017b8a0D6c2a75209A2E4241f1ff15",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x9A9d7663C5017b8a0D6c2a75209A2E4241f1ff15",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xeabeac2e1264cda3e8bdca532a415c69a6d7c67225aabf270ee17a9b9282a78e",
+      "basescanUrl": "https://basescan.org/token/0x3441e8fCdD380c4e7F5C7F55CCd599B2a2afCcCC",
+      "source": "clanker",
+      "volume24h": 1309777.5699999996,
+      "txns24h": 11574
+    },
     {
       "tokenName": "Anthropic",
       "tokenSymbol": "Anthropic",
@@ -34,30 +148,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8f4126145046c0d3d20594e8a38b4931eb40421f",
       "basescanUrl": "https://basescan.org/token/0xB51d897806ed81A483fb778eBba54F6179753D5F",
       "source": "clanker",
-      "volume24h": 50488487.1,
-      "txns24h": 4242
-    },
-    {
-      "tokenName": "SpyChip",
-      "tokenSymbol": "SPYCHIP",
-      "tokenAddress": "0xa241751eE8e1C93118C93d3bdf94d1B15010cccC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigigwf275kzetvfnfvegctfjricgoqlctfsjyg3aq3eaie7xb2wx4",
-      "createdAt": "2026-11-10 18:18:19",
-      "poolId": "0xafb7c03576aca1b52fdd00a73b9de7669aa10369c55577e5b3317c2d931eed98",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigigwf275kzetvfnfvegctfjricgoqlctfsjyg3aq3eaie7xb2wx4",
-        "verified": false,
-        "operatorAddress": "0x14395e499AB171c480531A5b1DCbAAC0BD5A07D5",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x14395e499AB171c480531A5b1DCbAAC0BD5A07D5",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xafb7c03576aca1b52fdd00a73b9de7669aa10369c55577e5b3317c2d931eed98",
-      "basescanUrl": "https://basescan.org/token/0xa241751eE8e1C93118C93d3bdf94d1B15010cccC",
-      "source": "clanker",
-      "volume24h": 28232.93,
-      "txns24h": 312
+      "volume24h": 50491137.44,
+      "txns24h": 5555
     },
     {
       "tokenName": "Bootr",
@@ -78,8 +170,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 7778.46,
-      "txns24h": 251
+      "volume24h": 24947.969999999998,
+      "txns24h": 592
     },
     {
       "tokenName": "MILF",
@@ -100,8 +192,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 865.39,
-      "txns24h": 361
+      "volume24h": 700.2799999999997,
+      "txns24h": 397
     }
   ]
 }
