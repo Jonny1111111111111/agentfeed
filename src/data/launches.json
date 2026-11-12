@@ -5,8 +5,74 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 238,
+  "count": 241,
   "items": [
+    {
+      "tokenName": "Potrun",
+      "tokenSymbol": "POT",
+      "tokenAddress": "0xE0Db0fc3203C870c98b5406a190DbE2F599ACccC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreif2ew2xnb3nphcjve5qzabbeci67e56sr24fvtuwayvui3xabd264",
+      "createdAt": "2026-11-12 14:00:23",
+      "poolId": "0x59711c44faaa54d1bceacb414f57234de2066d1c71d91658db2c3210f34f9781",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreif2ew2xnb3nphcjve5qzabbeci67e56sr24fvtuwayvui3xabd264",
+        "verified": false,
+        "operatorAddress": "0x1dF55098dC3F58A6B8Cd6C89B99F7aA777c094f8",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x1dF55098dC3F58A6B8Cd6C89B99F7aA777c094f8",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x59711c44faaa54d1bceacb414f57234de2066d1c71d91658db2c3210f34f9781",
+      "basescanUrl": "https://basescan.org/token/0xE0Db0fc3203C870c98b5406a190DbE2F599ACccC",
+      "source": "clanker",
+      "volume24h": 29777.300000000003,
+      "txns24h": 438
+    },
+    {
+      "tokenName": "BlackSwan",
+      "tokenSymbol": "BLACKSWAN",
+      "tokenAddress": "0x0893C531048aA48FD1705C7136079318d190CCcC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifnshxxrd2rjaf3izbb2zlbm75gixc73vl47qseyzsuaojpiyrjju",
+      "createdAt": "2026-11-12 08:44:30",
+      "poolId": "0xd7dbfd08ee9b0fcda0a5e16fc3ad1eb5db185136c1197a65dbad3cb0df158313",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifnshxxrd2rjaf3izbb2zlbm75gixc73vl47qseyzsuaojpiyrjju",
+        "verified": false,
+        "operatorAddress": "0x31d8bF513e030f753dC33b69847174e4495ea4FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x31d8bF513e030f753dC33b69847174e4495ea4FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xd7dbfd08ee9b0fcda0a5e16fc3ad1eb5db185136c1197a65dbad3cb0df158313",
+      "basescanUrl": "https://basescan.org/token/0x0893C531048aA48FD1705C7136079318d190CCcC",
+      "source": "clanker",
+      "volume24h": 44405.09,
+      "txns24h": 514
+    },
+    {
+      "tokenName": "黑天鹅",
+      "tokenSymbol": "黑天鹅",
+      "tokenAddress": "0x9C851769898a3824ff5f3C919439042b13BdcCcC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifnshxxrd2rjaf3izbb2zlbm75gixc73vl47qseyzsuaojpiyrjju",
+      "createdAt": "2026-11-12 08:34:04",
+      "poolId": "0xa7c36beedc0627220b5ff0d23130f624b6100b78c876125160f49309b3c00196",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifnshxxrd2rjaf3izbb2zlbm75gixc73vl47qseyzsuaojpiyrjju",
+        "verified": false,
+        "operatorAddress": "0x31d8bF513e030f753dC33b69847174e4495ea4FE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x31d8bF513e030f753dC33b69847174e4495ea4FE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa7c36beedc0627220b5ff0d23130f624b6100b78c876125160f49309b3c00196",
+      "basescanUrl": "https://basescan.org/token/0x9C851769898a3824ff5f3C919439042b13BdcCcC",
+      "source": "clanker",
+      "volume24h": 12599.74,
+      "txns24h": 101
+    },
     {
       "tokenName": "KinetiqGPU",
       "tokenSymbol": "KINETIQ",
@@ -129,7 +195,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicpmzpt7viyftf3lbggbznc3digyhneodxgrvsemzn7vuo76qzk3m",
         "verified": false,
-        "operatorAddress": "0x8776f6D0312A3E59f2039AD9522E0B960a1F7d07",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x8776f6D0312A3E59f2039AD9522E0B960a1F7d07",
