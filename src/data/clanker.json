@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-11-12T23:02:58.861Z",
+  "generatedAt": "2026-11-13T04:25:33.629Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 562,
+    "api": 558,
     "chain": 0,
-    "persisted": 11
+    "persisted": 6
   },
-  "count": 6,
+  "count": 7,
   "addresses": [
+    "0x7600dbc554ee18a98e923c836e9488007ee4cccc",
     "0xe0db0fc3203c870c98b5406a190dbe2f599acccc",
     "0x0893c531048aa48fd1705c7136079318d190cccc",
     "0x9c851769898a3824ff5f3c919439042b13bdcccc",
@@ -17,6 +18,28 @@
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "Long Dog",
+      "tokenSymbol": "LONGDOG",
+      "tokenAddress": "0x7600DBc554ee18A98e923c836e9488007Ee4cccc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeicn3oa5o3gxsu5wkwfiveeaurgyixedxof6ohebkfl3us2ifjx4pm",
+      "createdAt": "2026-11-12 22:52:51",
+      "poolId": "0x2ed6115105c2cdaf0b734aac88d9930af913f853ead094f99bc6d4c1b4745499",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeicn3oa5o3gxsu5wkwfiveeaurgyixedxof6ohebkfl3us2ifjx4pm",
+        "verified": false,
+        "operatorAddress": "0x4eE5ed29C70C8c4A48Af20e53DA2F63c0616Fa2d",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x4eE5ed29C70C8c4A48Af20e53DA2F63c0616Fa2d",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2ed6115105c2cdaf0b734aac88d9930af913f853ead094f99bc6d4c1b4745499",
+      "basescanUrl": "https://basescan.org/token/0x7600DBc554ee18A98e923c836e9488007Ee4cccc",
+      "source": "clanker",
+      "volume24h": 26590.3,
+      "txns24h": 324
+    },
     {
       "tokenName": "Potrun",
       "tokenSymbol": "POT",
@@ -36,8 +59,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x59711c44faaa54d1bceacb414f57234de2066d1c71d91658db2c3210f34f9781",
       "basescanUrl": "https://basescan.org/token/0xE0Db0fc3203C870c98b5406a190DbE2F599ACccC",
       "source": "clanker",
-      "volume24h": 37655.41,
-      "txns24h": 616
+      "volume24h": 38028.91,
+      "txns24h": 628
     },
     {
       "tokenName": "BlackSwan",
@@ -58,8 +81,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd7dbfd08ee9b0fcda0a5e16fc3ad1eb5db185136c1197a65dbad3cb0df158313",
       "basescanUrl": "https://basescan.org/token/0x0893C531048aA48FD1705C7136079318d190CCcC",
       "source": "clanker",
-      "volume24h": 48846.57,
-      "txns24h": 568
+      "volume24h": 48892.91,
+      "txns24h": 570
     },
     {
       "tokenName": "黑天鹅",
@@ -102,8 +125,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xeabeac2e1264cda3e8bdca532a415c69a6d7c67225aabf270ee17a9b9282a78e",
       "basescanUrl": "https://basescan.org/token/0x3441e8fCdD380c4e7F5C7F55CCd599B2a2afCcCC",
       "source": "clanker",
-      "volume24h": 314408.87999999995,
-      "txns24h": 3414
+      "volume24h": 256532.77,
+      "txns24h": 3014
     },
     {
       "tokenName": "Bootr",
@@ -124,8 +147,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
       "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
       "source": "clanker",
-      "volume24h": 4957.57,
-      "txns24h": 268
+      "volume24h": 13015.18,
+      "txns24h": 940
     },
     {
       "tokenName": "MILF",
@@ -146,8 +169,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1083.0100000000002,
-      "txns24h": 365
+      "volume24h": 1180.95,
+      "txns24h": 391
     }
   ]
 }
