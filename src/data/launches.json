@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 233,
+  "count": 234,
   "items": [
+    {
+      "tokenName": "clankvouch",
+      "tokenSymbol": "VOUCH",
+      "tokenAddress": "0xe9dc6278c7A015791A9Fa2B9E6110553545EccCc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifk6lzqexc74uwepf57isugxjrbti6kpevamspbvogiitgvx2knxe",
+      "createdAt": "2026-11-15 14:43:09",
+      "poolId": "0x56ceb7fa5282617824ca4d36c010448d26a45a236a74e4b556985b5ecbd835f3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifk6lzqexc74uwepf57isugxjrbti6kpevamspbvogiitgvx2knxe",
+        "verified": false,
+        "operatorAddress": "0x6b94F767376eD68d4aA5662d8da4D981E3d5eCfe",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x6b94F767376eD68d4aA5662d8da4D981E3d5eCfe",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x56ceb7fa5282617824ca4d36c010448d26a45a236a74e4b556985b5ecbd835f3",
+      "basescanUrl": "https://basescan.org/token/0xe9dc6278c7A015791A9Fa2B9E6110553545EccCc",
+      "source": "clanker",
+      "volume24h": 34312.09,
+      "txns24h": 628
+    },
     {
       "tokenName": "Revvy",
       "tokenSymbol": "REVVY",
