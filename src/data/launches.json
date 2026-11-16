@@ -8,6 +8,28 @@
   "count": 234,
   "items": [
     {
+      "tokenName": "NoiceCat",
+      "tokenSymbol": "NOCAT",
+      "tokenAddress": "0x02Fa840B93B40eEaE2cFfaaee36830c72D1eCCCc",
+      "imageUrl": null,
+      "createdAt": "2026-11-16 02:39:31",
+      "poolId": "0xea06064142c0edfd08166acd23599a1e3bbf1226431c222ad43d543e02abeb3e",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0xa32AD653Ddb29AaFAf67cA906F7bCEe145444746",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xa32AD653Ddb29AaFAf67cA906F7bCEe145444746",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xea06064142c0edfd08166acd23599a1e3bbf1226431c222ad43d543e02abeb3e",
+      "basescanUrl": "https://basescan.org/token/0x02Fa840B93B40eEaE2cFfaaee36830c72D1eCCCc",
+      "source": "clanker",
+      "volume24h": 10668.7,
+      "txns24h": 120
+    },
+    {
       "tokenName": "clankvouch",
       "tokenSymbol": "VOUCH",
       "tokenAddress": "0xe9dc6278c7A015791A9Fa2B9E6110553545EccCc",
@@ -50,28 +72,6 @@
       "source": "clanker",
       "volume24h": 1309777.5699999996,
       "txns24h": 11574
-    },
-    {
-      "tokenName": "Bootr",
-      "tokenSymbol": "BOOTR",
-      "tokenAddress": "0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeifcyuao7z5zhbetimkamishc7w544xltcvuogmddtgh7tz22ur57i",
-      "createdAt": "2026-11-04 13:05:07",
-      "poolId": "0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeifcyuao7z5zhbetimkamishc7w544xltcvuogmddtgh7tz22ur57i",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x387f1B0aC128D534E822c344D829645336BDAbbB",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x8bc634771ded3d01de173219fe3862bd17f80e887b73f81de09c34bad12aa395",
-      "basescanUrl": "https://basescan.org/token/0xB1C3a6ac90E324c4072aD4B2a71c5d9382F9565c",
-      "source": "clanker",
-      "volume24h": 103146.52,
-      "txns24h": 1720
     },
     {
       "tokenName": "MILF",
