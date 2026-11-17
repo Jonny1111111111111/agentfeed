@@ -1,23 +1,45 @@
 {
-  "generatedAt": "2026-11-17T01:23:01.964Z",
+  "generatedAt": "2026-11-17T15:18:15.678Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 726,
+    "api": 714,
     "chain": 0,
-    "persisted": 4
+    "persisted": 7
   },
   "count": 7,
   "addresses": [
+    "0x39571954ddda5c3610124b3fc44d77a46aa7cccc",
     "0x87bfaac0204857fddc72ff550dfe9febd113cccc",
     "0xf44f8eab0abdbabaa77f04be6b033f38a3afcccc",
     "0xa4ccdeaeb02e574aaf89eb39bca73169327dcccc",
     "0x6dfb0d1a918ea88b318ae694f2f46e79783bcccc",
-    "0x02fa840b93b40eeae2cffaaee36830c72d1ecccc",
     "0x3441e8fcdd380c4e7f5c7f55ccd599b2a2afcccc",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "AX1",
+      "tokenSymbol": "AX1",
+      "tokenAddress": "0x39571954dddA5c3610124b3FC44D77A46Aa7ccCc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiftyvayszo2soj7ewubws3eg2pcksuzxlf7q5yiscou4qcqotz3oq",
+      "createdAt": "2026-11-17 14:55:00",
+      "poolId": "0x32aa4545a70dabb7b1febdc7316fe94412d36e329670d2a0e7d2c7b6f600c4bd",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiftyvayszo2soj7ewubws3eg2pcksuzxlf7q5yiscou4qcqotz3oq",
+        "verified": false,
+        "operatorAddress": "0xe5bb4A85bd7E07aB4437706F25e41bBDbBF549B5",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xe5bb4A85bd7E07aB4437706F25e41bBDbBF549B5",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x32aa4545a70dabb7b1febdc7316fe94412d36e329670d2a0e7d2c7b6f600c4bd",
+      "basescanUrl": "https://basescan.org/token/0x39571954dddA5c3610124b3FC44D77A46Aa7ccCc",
+      "source": "clanker",
+      "volume24h": 16082.19,
+      "txns24h": 144
+    },
     {
       "tokenName": "Bloom",
       "tokenSymbol": "BLOOM",
@@ -37,8 +59,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xe3e7111bdcf88289ad65731676668d84ece7d7d3e2affc838182a9a74926d623",
       "basescanUrl": "https://basescan.org/token/0x87BFaAC0204857FdDc72Ff550DFE9FEBd113CCCC",
       "source": "clanker",
-      "volume24h": 16185.67,
-      "txns24h": 238
+      "volume24h": 16306.31,
+      "txns24h": 264
     },
     {
       "tokenName": "WHAT'S IN YOUR WALLET",
@@ -59,20 +81,20 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc02b9b20aac5efdffeada02bf199ed55ce67c7697112c9ff1e0151c27662649b",
       "basescanUrl": "https://basescan.org/token/0xF44F8eAb0aBDbaBAa77f04BE6b033f38A3AFCccC",
       "source": "clanker",
-      "volume24h": 9509.45,
-      "txns24h": 118
+      "volume24h": 9785.55,
+      "txns24h": 122
     },
     {
       "tokenName": "TEMU",
       "tokenSymbol": "TE",
       "tokenAddress": "0xa4CCdeaeB02e574aaF89EB39bCa73169327dcCcc",
-      "imageUrl": "https://cdn.dexscreener.com/cms/images/QQEZ1dD8f-NVS6aw?width=800&height=800&quality=95&format=auto",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihivccojpmao5byi5kkjushqkwz3dwvfab2mjien4ydt74fbhkfty",
       "createdAt": "2026-11-16 20:02:00",
       "poolId": "0x3c01d63bec8ea9611e449ccbbb4f5bad6e1f2abaac23dc2d1eb33700c236ce8e",
       "launcher": {
         "name": null,
         "handle": null,
-        "image": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihivccojpmao5byi5kkjushqkwz3dwvfab2mjien4ydt74fbhkfty",
         "verified": false,
         "operatorAddress": "0x37A08BC35A699DcAE713a58F043796a22C17314b",
         "profileUrl": null
@@ -81,8 +103,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x3c01d63bec8ea9611e449ccbbb4f5bad6e1f2abaac23dc2d1eb33700c236ce8e",
       "basescanUrl": "https://basescan.org/token/0xa4CCdeaeB02e574aaF89EB39bCa73169327dcCcc",
       "source": "clanker",
-      "volume24h": 144457.63,
-      "txns24h": 811
+      "volume24h": 151874.06,
+      "txns24h": 923
     },
     {
       "tokenName": "COOCOO",
@@ -103,30 +125,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8c70d14390577d4b38254f3f057b044f9fe942e37c864ffffe88aac558c2775",
       "basescanUrl": "https://basescan.org/token/0x6dFb0d1a918ea88b318ae694f2f46e79783BcccC",
       "source": "clanker",
-      "volume24h": 6890.58,
-      "txns24h": 119
-    },
-    {
-      "tokenName": "NoiceCat",
-      "tokenSymbol": "NOCAT",
-      "tokenAddress": "0x02Fa840B93B40eEaE2cFfaaee36830c72D1eCCCc",
-      "imageUrl": null,
-      "createdAt": "2026-11-16 02:39:31",
-      "poolId": "0xea06064142c0edfd08166acd23599a1e3bbf1226431c222ad43d543e02abeb3e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0xa32AD653Ddb29AaFAf67cA906F7bCEe145444746",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xa32AD653Ddb29AaFAf67cA906F7bCEe145444746",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xea06064142c0edfd08166acd23599a1e3bbf1226431c222ad43d543e02abeb3e",
-      "basescanUrl": "https://basescan.org/token/0x02Fa840B93B40eEaE2cFfaaee36830c72D1eCCCc",
-      "source": "clanker",
-      "volume24h": 11373.76,
-      "txns24h": 136
+      "volume24h": 6982.9,
+      "txns24h": 121
     },
     {
       "tokenName": "Revvy",
@@ -147,8 +147,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xeabeac2e1264cda3e8bdca532a415c69a6d7c67225aabf270ee17a9b9282a78e",
       "basescanUrl": "https://basescan.org/token/0x3441e8fCdD380c4e7F5C7F55CCd599B2a2afCcCC",
       "source": "clanker",
-      "volume24h": 22862,
-      "txns24h": 316
+      "volume24h": 29350.670000000002,
+      "txns24h": 575
     },
     {
       "tokenName": "MILF",
@@ -169,8 +169,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 538.95,
-      "txns24h": 316
+      "volume24h": 1033.05,
+      "txns24h": 528
     }
   ]
 }
