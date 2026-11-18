@@ -1,25 +1,43 @@
 {
-  "generatedAt": "2026-11-18T00:18:45.747Z",
+  "generatedAt": "2026-11-18T14:54:12.879Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 731,
+    "api": 792,
     "chain": 0,
-    "persisted": 7
+    "persisted": 9
   },
-  "count": 9,
+  "count": 5,
   "addresses": [
+    "0x455bbee3d4fdd98a33b9185d64cfcd048694cccc",
     "0x5a70e16f6f2b68161a697212ee1c103889c2cccc",
-    "0x05952b8768e6713f21f284480a77eb87cf71cccc",
-    "0x2a30123c89c536cdd37d038d729bbc51e150cccc",
-    "0x2407c2da15a2702e6c1f468b62b0993aff79cccc",
     "0x0947fb7076bfa307796f8fd533055f6016c6cccc",
-    "0x39571954ddda5c3610124b3fc44d77a46aa7cccc",
-    "0xa4ccdeaeb02e574aaf89eb39bca73169327dcccc",
     "0x3441e8fcdd380c4e7f5c7f55ccd599b2a2afcccc",
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "Coinbase Brain",
+      "tokenSymbol": "CBB",
+      "tokenAddress": "0x455bbEE3D4FDD98a33b9185d64CFcd048694cCCC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreieeiiclpshb45smafxcnjvzemhihtyrb7r2bxbdwzf6xqqi6s7lji",
+      "createdAt": "2026-11-18 14:10:30",
+      "poolId": "0xb86c708db7aad64b3543844a898525f3be432550659aa56134dd2d87f2dfcbc3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreieeiiclpshb45smafxcnjvzemhihtyrb7r2bxbdwzf6xqqi6s7lji",
+        "verified": false,
+        "operatorAddress": "0xA70D4fCbcD7979609E0e66E7b581bE2711A8FE69",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA70D4fCbcD7979609E0e66E7b581bE2711A8FE69",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb86c708db7aad64b3543844a898525f3be432550659aa56134dd2d87f2dfcbc3",
+      "basescanUrl": "https://basescan.org/token/0x455bbEE3D4FDD98a33b9185d64CFcd048694cCCC",
+      "source": "clanker",
+      "volume24h": 15898.7,
+      "txns24h": 184
+    },
     {
       "tokenName": "LumioPad",
       "tokenSymbol": "LUMIO",
@@ -32,81 +50,15 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifjq53fhqmowr4gxzzwqj3seukrgy3l4o426rlmdr5vrk7tpx5ku4",
         "verified": false,
-        "operatorAddress": "0xBBd47Eb821D432107Ed59eE7e0d586bCF8e70B0a",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0xBBd47Eb821D432107Ed59eE7e0d586bCF8e70B0a",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0xb45da5861f7faa6303a4333712188ee9d3865ce79a336ff04d8f9a1dd86aaa32",
       "basescanUrl": "https://basescan.org/token/0x5A70E16F6f2b68161a697212eE1C103889c2ccCC",
       "source": "clanker",
-      "volume24h": 53652.2,
-      "txns24h": 852
-    },
-    {
-      "tokenName": "Mochi Agent",
-      "tokenSymbol": "MOCHI",
-      "tokenAddress": "0x05952B8768E6713F21f284480A77Eb87cf71CcCC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigepzp5z3ka3f2tyzklc6lob5xdojxbu3rqxlehngyivjcag7suoq",
-      "createdAt": "2026-11-17 18:15:27",
-      "poolId": "0xb3cf9a24bcaf27fbcb0b7b7a2a61a8b2cc0e64b71a03f0c5686b5de6050b726e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigepzp5z3ka3f2tyzklc6lob5xdojxbu3rqxlehngyivjcag7suoq",
-        "verified": false,
-        "operatorAddress": "0xd660C5ff3A7377dD9B3a8228bBC33089f4654FE2",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xd660C5ff3A7377dD9B3a8228bBC33089f4654FE2",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb3cf9a24bcaf27fbcb0b7b7a2a61a8b2cc0e64b71a03f0c5686b5de6050b726e",
-      "basescanUrl": "https://basescan.org/token/0x05952B8768E6713F21f284480A77Eb87cf71CcCC",
-      "source": "clanker",
-      "volume24h": 8058.42,
-      "txns24h": 109
-    },
-    {
-      "tokenName": "Dragon Reserve",
-      "tokenSymbol": "DRS",
-      "tokenAddress": "0x2a30123c89c536cDd37D038d729bbc51E150CcCc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreig7h5uuiaavgmzyciadshxdmkbkutav25fuezhwhc6um4xicurhae",
-      "createdAt": "2026-11-17 18:05:46",
-      "poolId": "0x14bfd9b8acf3418e909692a94d629eafdf7463ffab91b9a8880bd7608e163ffc",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreig7h5uuiaavgmzyciadshxdmkbkutav25fuezhwhc6um4xicurhae",
-        "verified": false,
-        "operatorAddress": "0x5d490d558dB8418DdD7CdFCDb724Bf2ea95Faa69",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x5d490d558dB8418DdD7CdFCDb724Bf2ea95Faa69",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x14bfd9b8acf3418e909692a94d629eafdf7463ffab91b9a8880bd7608e163ffc",
-      "basescanUrl": "https://basescan.org/token/0x2a30123c89c536cDd37D038d729bbc51E150CcCc",
-      "source": "clanker",
-      "volume24h": 49913.55,
-      "txns24h": 644
-    },
-    {
-      "tokenName": "Bario Entertainment System",
-      "tokenSymbol": "BEAS",
-      "tokenAddress": "0x2407c2da15A2702e6c1F468B62b0993AFf79cccc",
-      "imageUrl": null,
-      "createdAt": "2026-11-17 17:52:34",
-      "poolId": "0x84fcc057de98ffb850863eab1aee7ee4fb10d03082da1693cdb39df7b3a2a5b6",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": null,
-        "verified": false,
-        "operatorAddress": "0x702ba46435D1E55B18440100BC81EB055574875e",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x702ba46435D1E55B18440100BC81EB055574875e",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x84fcc057de98ffb850863eab1aee7ee4fb10d03082da1693cdb39df7b3a2a5b6",
-      "basescanUrl": "https://basescan.org/token/0x2407c2da15A2702e6c1F468B62b0993AFf79cccc",
-      "source": "clanker",
-      "volume24h": 8635.16,
-      "txns24h": 169
+      "volume24h": 54044.01,
+      "txns24h": 879
     },
     {
       "tokenName": "AX1",
@@ -120,59 +72,15 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiekzfx5uadympzk4zs5wlcvjxrmw2son6pasxp3wd2lbwb6k7kvha",
         "verified": false,
-        "operatorAddress": "0xdA4FD867C1804e6a5e27Ed52A282C3814ce97064",
+        "operatorAddress": null,
         "profileUrl": null
       },
-      "feeRecipient": "0xdA4FD867C1804e6a5e27Ed52A282C3814ce97064",
+      "feeRecipient": null,
       "dexscreenerUrl": "https://dexscreener.com/base/0x28752b1c1be27a1d5947dc880dd7d969de945f7a7718d6f3747776dfd536ea76",
       "basescanUrl": "https://basescan.org/token/0x0947FB7076BFa307796F8fd533055f6016C6cccC",
       "source": "clanker",
-      "volume24h": 1187502.59,
-      "txns24h": 3828
-    },
-    {
-      "tokenName": "AX1",
-      "tokenSymbol": "AX1",
-      "tokenAddress": "0x39571954dddA5c3610124b3FC44D77A46Aa7ccCc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiftyvayszo2soj7ewubws3eg2pcksuzxlf7q5yiscou4qcqotz3oq",
-      "createdAt": "2026-11-17 14:55:00",
-      "poolId": "0x32aa4545a70dabb7b1febdc7316fe94412d36e329670d2a0e7d2c7b6f600c4bd",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiftyvayszo2soj7ewubws3eg2pcksuzxlf7q5yiscou4qcqotz3oq",
-        "verified": false,
-        "operatorAddress": "0xe5bb4A85bd7E07aB4437706F25e41bBDbBF549B5",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xe5bb4A85bd7E07aB4437706F25e41bBDbBF549B5",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x32aa4545a70dabb7b1febdc7316fe94412d36e329670d2a0e7d2c7b6f600c4bd",
-      "basescanUrl": "https://basescan.org/token/0x39571954dddA5c3610124b3FC44D77A46Aa7ccCc",
-      "source": "clanker",
-      "volume24h": 16173.04,
-      "txns24h": 146
-    },
-    {
-      "tokenName": "TEMU",
-      "tokenSymbol": "TE",
-      "tokenAddress": "0xa4CCdeaeB02e574aaF89EB39bCa73169327dcCcc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihivccojpmao5byi5kkjushqkwz3dwvfab2mjien4ydt74fbhkfty",
-      "createdAt": "2026-11-16 20:02:00",
-      "poolId": "0x3c01d63bec8ea9611e449ccbbb4f5bad6e1f2abaac23dc2d1eb33700c236ce8e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihivccojpmao5byi5kkjushqkwz3dwvfab2mjien4ydt74fbhkfty",
-        "verified": false,
-        "operatorAddress": "0x37A08BC35A699DcAE713a58F043796a22C17314b",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x37A08BC35A699DcAE713a58F043796a22C17314b",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3c01d63bec8ea9611e449ccbbb4f5bad6e1f2abaac23dc2d1eb33700c236ce8e",
-      "basescanUrl": "https://basescan.org/token/0xa4CCdeaeB02e574aaF89EB39bCa73169327dcCcc",
-      "source": "clanker",
-      "volume24h": 14101.13,
-      "txns24h": 183
+      "volume24h": 1283688.4300000002,
+      "txns24h": 4638
     },
     {
       "tokenName": "Revvy",
@@ -193,8 +101,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xeabeac2e1264cda3e8bdca532a415c69a6d7c67225aabf270ee17a9b9282a78e",
       "basescanUrl": "https://basescan.org/token/0x3441e8fCdD380c4e7F5C7F55CCd599B2a2afCcCC",
       "source": "clanker",
-      "volume24h": 102649.98,
-      "txns24h": 1270
+      "volume24h": 111401.71000000002,
+      "txns24h": 1173
     },
     {
       "tokenName": "MILF",
@@ -215,8 +123,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 1310.3100000000002,
-      "txns24h": 708
+      "volume24h": 1055.67,
+      "txns24h": 655
     }
   ]
 }
