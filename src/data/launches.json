@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 260,
+  "count": 259,
   "items": [
+    {
+      "tokenName": "Stargaze Finance",
+      "tokenSymbol": "STFI",
+      "tokenAddress": "0x075410682BAD796C0C296F0640F65a382830cCCC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreib4g3uc25jr4gimuvr7ioe5aab6qkt4wyezj7y5oil4elupirhgm4",
+      "createdAt": "2026-11-20 14:56:29",
+      "poolId": "0xf41bddfd216b40574b76130801b4c521cd0e34d405c195f11fba9897f5ed9799",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreib4g3uc25jr4gimuvr7ioe5aab6qkt4wyezj7y5oil4elupirhgm4",
+        "verified": false,
+        "operatorAddress": "0x0021A260B9ab7896E136f375C0678a3d2b9F76c0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0021A260B9ab7896E136f375C0678a3d2b9F76c0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf41bddfd216b40574b76130801b4c521cd0e34d405c195f11fba9897f5ed9799",
+      "basescanUrl": "https://basescan.org/token/0x075410682BAD796C0C296F0640F65a382830cCCC",
+      "source": "clanker",
+      "volume24h": 16395.41,
+      "txns24h": 236
+    },
+    {
+      "tokenName": "VTC 6",
+      "tokenSymbol": "VTC",
+      "tokenAddress": "0x1Eb826D69bB3260527A3917661376894CB71c1BD",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeih4m6vr3ifgkubxuxtocdl5gfiqkch4vx743kiovb3hnt6vqzjlpi",
+      "createdAt": "2026-11-20 14:02:08",
+      "poolId": "0x5934141cafdd196f31824dfe0cd6503469a0435e92f28b26b0b1e08d9e225cbe",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeih4m6vr3ifgkubxuxtocdl5gfiqkch4vx743kiovb3hnt6vqzjlpi",
+        "verified": false,
+        "operatorAddress": "0x198753e6297BB4d3006D20732b01E6a387fE5974",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x198753e6297BB4d3006D20732b01E6a387fE5974",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5934141cafdd196f31824dfe0cd6503469a0435e92f28b26b0b1e08d9e225cbe",
+      "basescanUrl": "https://basescan.org/token/0x1Eb826D69bB3260527A3917661376894CB71c1BD",
+      "source": "clanker",
+      "volume24h": 34869.94,
+      "txns24h": 465
+    },
     {
       "tokenName": "United States Energy Fund",
       "tokenSymbol": "USEF",
@@ -19,7 +63,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeieapsq6nvfjhzajed7aajiw2tz7a6zjk5cl3rh4ogql5pd6aqzk2m",
         "verified": false,
-        "operatorAddress": "0xF9e6ad593ad72cD832A11f7F98000A2452da36B9",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0xF9e6ad593ad72cD832A11f7F98000A2452da36B9",
@@ -41,7 +85,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreidjnfzbtbsu6e56hmv6mw4htecczsntgv55mdbog3vhgjginflb2a",
         "verified": false,
-        "operatorAddress": "0x299E8F39b2CDb5246dFB3F7234388F262E8414Bf",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x299E8F39b2CDb5246dFB3F7234388F262E8414Bf",
@@ -50,28 +94,6 @@
       "source": "clanker",
       "volume24h": 21734.79,
       "txns24h": 532
-    },
-    {
-      "tokenName": "NYXEN",
-      "tokenSymbol": "NYXEN",
-      "tokenAddress": "0x7bce736F48fe5001B44a7f251e7202CA4945cCcC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreibp46v2kxybxvytnelbgw5utlct3buybnghchyi5nycjawl7d42oq",
-      "createdAt": "2026-11-19 22:01:11",
-      "poolId": "0x488bada3ab9678d815acddb12c4595541870adf324d46803279e8bbe8a6b1615",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibp46v2kxybxvytnelbgw5utlct3buybnghchyi5nycjawl7d42oq",
-        "verified": false,
-        "operatorAddress": "0xB0B29D4c6116548FfD5713dBab93D8FAaCA1196A",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xB0B29D4c6116548FfD5713dBab93D8FAaCA1196A",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x488bada3ab9678d815acddb12c4595541870adf324d46803279e8bbe8a6b1615",
-      "basescanUrl": "https://basescan.org/token/0x7bce736F48fe5001B44a7f251e7202CA4945cCcC",
-      "source": "clanker",
-      "volume24h": 5057.24,
-      "txns24h": 112
     },
     {
       "tokenName": "Rerouter",
@@ -162,28 +184,6 @@
       "txns24h": 370
     },
     {
-      "tokenName": "United Global Oil Supply",
-      "tokenSymbol": "UGOS",
-      "tokenAddress": "0xDC71433728589f8396229350ba581Ea9c4E47238",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiclnn47jzlxdajaiiz7ixmqq7qp3nudbhzieo4ncepmj6sf34ypyq",
-      "createdAt": "2026-11-19 16:19:19",
-      "poolId": "0xbe1d7f9dba8f1ea2415f36ec23909de1b1f6f214d949df77540d01a2d8c56b30",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiclnn47jzlxdajaiiz7ixmqq7qp3nudbhzieo4ncepmj6sf34ypyq",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0xDACCBC1aFEE59BF624dA7df3493681e3d66530b4",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xbe1d7f9dba8f1ea2415f36ec23909de1b1f6f214d949df77540d01a2d8c56b30",
-      "basescanUrl": "https://basescan.org/token/0xDC71433728589f8396229350ba581Ea9c4E47238",
-      "source": "clanker",
-      "volume24h": 20497.5,
-      "txns24h": 674
-    },
-    {
       "tokenName": "United States Asset Reserve",
       "tokenSymbol": "USAR",
       "tokenAddress": "0xcA1E551fed64537339AC502a044d1EbAF1A3403C",
@@ -204,28 +204,6 @@
       "source": "clanker",
       "volume24h": 24487.22,
       "txns24h": 384
-    },
-    {
-      "tokenName": "VTC6⚡️",
-      "tokenSymbol": "VTC6⚡️",
-      "tokenAddress": "0xFE6Fa24c11a588F6299093b31420F3e99Ee0bE86",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeihotlfciusylq6wx7mxpefz2l4axx5i7hhxpfm55ujuzan7nt5mjq",
-      "createdAt": "2026-11-19 15:06:14",
-      "poolId": "0x5a72c716f51f422c5a34c1299f7b408a6fb751b4ae110a74255fb84eb8e0af58",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeihotlfciusylq6wx7mxpefz2l4axx5i7hhxpfm55ujuzan7nt5mjq",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0xc46A4a026d19db3d5e8a2BB9c2aB73dbA55d0bd8",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5a72c716f51f422c5a34c1299f7b408a6fb751b4ae110a74255fb84eb8e0af58",
-      "basescanUrl": "https://basescan.org/token/0xFE6Fa24c11a588F6299093b31420F3e99Ee0bE86",
-      "source": "clanker",
-      "volume24h": 29431.63,
-      "txns24h": 573
     },
     {
       "tokenName": "RST",
