@@ -5,8 +5,30 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 250,
+  "count": 248,
   "items": [
+    {
+      "tokenName": "Mad Frogg",
+      "tokenSymbol": "FROGG",
+      "tokenAddress": "0xbC0DC3cE11C08530db35ADA4eAAa3101EaFcCccC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifb7ybeexidahbmx555indng4wxtjxan4mb6avwbhxk77apgqcd6y",
+      "createdAt": "2026-11-21 17:27:41",
+      "poolId": "0x8ee9767d41d92f1083e9a75be5fa38938e36660404e9ea7cf7579f6e89ed75c3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifb7ybeexidahbmx555indng4wxtjxan4mb6avwbhxk77apgqcd6y",
+        "verified": false,
+        "operatorAddress": "0xaF050d99c550Fd7D8FB2Aa529BA53B61068D5a26",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xaF050d99c550Fd7D8FB2Aa529BA53B61068D5a26",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x8ee9767d41d92f1083e9a75be5fa38938e36660404e9ea7cf7579f6e89ed75c3",
+      "basescanUrl": "https://basescan.org/token/0xbC0DC3cE11C08530db35ADA4eAAa3101EaFcCccC",
+      "source": "clanker",
+      "volume24h": 8002.12,
+      "txns24h": 695
+    },
     {
       "tokenName": "AnthropicAI",
       "tokenSymbol": "Antropic",
@@ -138,72 +160,6 @@
       "source": "clanker",
       "volume24h": 32869.07,
       "txns24h": 151
-    },
-    {
-      "tokenName": "Stargaze Finance",
-      "tokenSymbol": "STFI",
-      "tokenAddress": "0x075410682BAD796C0C296F0640F65a382830cCCC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreib4g3uc25jr4gimuvr7ioe5aab6qkt4wyezj7y5oil4elupirhgm4",
-      "createdAt": "2026-11-20 14:56:29",
-      "poolId": "0xf41bddfd216b40574b76130801b4c521cd0e34d405c195f11fba9897f5ed9799",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreib4g3uc25jr4gimuvr7ioe5aab6qkt4wyezj7y5oil4elupirhgm4",
-        "verified": false,
-        "operatorAddress": "0x0021A260B9ab7896E136f375C0678a3d2b9F76c0",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x0021A260B9ab7896E136f375C0678a3d2b9F76c0",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xf41bddfd216b40574b76130801b4c521cd0e34d405c195f11fba9897f5ed9799",
-      "basescanUrl": "https://basescan.org/token/0x075410682BAD796C0C296F0640F65a382830cCCC",
-      "source": "clanker",
-      "volume24h": 16395.41,
-      "txns24h": 236
-    },
-    {
-      "tokenName": "VTC 6",
-      "tokenSymbol": "VTC",
-      "tokenAddress": "0x1Eb826D69bB3260527A3917661376894CB71c1BD",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeih4m6vr3ifgkubxuxtocdl5gfiqkch4vx743kiovb3hnt6vqzjlpi",
-      "createdAt": "2026-11-20 14:02:08",
-      "poolId": "0x5934141cafdd196f31824dfe0cd6503469a0435e92f28b26b0b1e08d9e225cbe",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeih4m6vr3ifgkubxuxtocdl5gfiqkch4vx743kiovb3hnt6vqzjlpi",
-        "verified": false,
-        "operatorAddress": "0x198753e6297BB4d3006D20732b01E6a387fE5974",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x198753e6297BB4d3006D20732b01E6a387fE5974",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x5934141cafdd196f31824dfe0cd6503469a0435e92f28b26b0b1e08d9e225cbe",
-      "basescanUrl": "https://basescan.org/token/0x1Eb826D69bB3260527A3917661376894CB71c1BD",
-      "source": "clanker",
-      "volume24h": 34869.94,
-      "txns24h": 465
-    },
-    {
-      "tokenName": "Rerouter",
-      "tokenSymbol": "ROUTER",
-      "tokenAddress": "0x13ea1CBD6FE70bbD40A817EBa940133fdb21cCCC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreidkv2dqp6t64grp4tctxvb6szwpgm4aksdg237zmv7nflk26kia3e",
-      "createdAt": "2026-11-19 18:50:57",
-      "poolId": "0xef3964bd737de5e7c28d8a62a84157a211449dfa963ee48f2c9b53d74280f631",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreidkv2dqp6t64grp4tctxvb6szwpgm4aksdg237zmv7nflk26kia3e",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x5f1486969D81EAE7A998356A7B538bd7Eda1593d",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xef3964bd737de5e7c28d8a62a84157a211449dfa963ee48f2c9b53d74280f631",
-      "basescanUrl": "https://basescan.org/token/0x13ea1CBD6FE70bbD40A817EBa940133fdb21cCCC",
-      "source": "clanker",
-      "volume24h": 176634.94,
-      "txns24h": 1571
     },
     {
       "tokenName": "USOI",
