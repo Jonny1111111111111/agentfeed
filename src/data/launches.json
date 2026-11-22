@@ -8,6 +8,28 @@
   "count": 248,
   "items": [
     {
+      "tokenName": "PROJECT ATX",
+      "tokenSymbol": "ATX",
+      "tokenAddress": "0x0e96Bf23E60dcAcbF24c3Ebcd5AaC2d8279F05f6",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiep5wr4eyncrawvlr4qykyfsrfpwzmn4avi7qwnk7aep2qzu2tdim",
+      "createdAt": "2026-11-21 23:49:46",
+      "poolId": "0xc81c1921c477aed6c7108825280f3a76252c544d04204aabd01a3f5174d29d88",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiep5wr4eyncrawvlr4qykyfsrfpwzmn4avi7qwnk7aep2qzu2tdim",
+        "verified": false,
+        "operatorAddress": "0xd56C27947E9a6583a9e5fA8720e346574939cf3A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd56C27947E9a6583a9e5fA8720e346574939cf3A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc81c1921c477aed6c7108825280f3a76252c544d04204aabd01a3f5174d29d88",
+      "basescanUrl": "https://basescan.org/token/0x0e96Bf23E60dcAcbF24c3Ebcd5AaC2d8279F05f6",
+      "source": "clanker",
+      "volume24h": 10186.73,
+      "txns24h": 222
+    },
+    {
       "tokenName": "Mad Frogg",
       "tokenSymbol": "FROGG",
       "tokenAddress": "0xbC0DC3cE11C08530db35ADA4eAAa3101EaFcCccC",
@@ -138,28 +160,6 @@
       "source": "clanker",
       "volume24h": 10489.92,
       "txns24h": 466
-    },
-    {
-      "tokenName": "NOTF",
-      "tokenSymbol": "NOTF",
-      "tokenAddress": "0xcd5Bd98eCEF7b0F22b822A2fA64c4fEB9f96791e",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeidqfod6p7itixdcitzdy4bdl6w73npksdg7jh6h3nujbjlfycvhci",
-      "createdAt": "2026-11-20 22:59:41",
-      "poolId": "0xae31c9291b99a343c4ad6dfa815575985d7fe8e09e9ed6efafba5ac96c822f52",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeidqfod6p7itixdcitzdy4bdl6w73npksdg7jh6h3nujbjlfycvhci",
-        "verified": false,
-        "operatorAddress": "0xc6dB4F48e4D2Ff79fF7745109D8bbb3CEab5f3eE",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xc6dB4F48e4D2Ff79fF7745109D8bbb3CEab5f3eE",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xae31c9291b99a343c4ad6dfa815575985d7fe8e09e9ed6efafba5ac96c822f52",
-      "basescanUrl": "https://basescan.org/token/0xcd5Bd98eCEF7b0F22b822A2fA64c4fEB9f96791e",
-      "source": "clanker",
-      "volume24h": 32869.07,
-      "txns24h": 151
     },
     {
       "tokenName": "USOI",
