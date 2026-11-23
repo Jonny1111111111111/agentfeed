@@ -5,8 +5,74 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 246,
+  "count": 248,
   "items": [
+    {
+      "tokenName": "United Oil Fund - UOF",
+      "tokenSymbol": "UOF",
+      "tokenAddress": "0x7b7590Ec773054018b077b12303007Fcd86CDAe1",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeia7mneaz2yyz4d5nbvpzw72cfc5nzgt62uafh572knqaqmqfuvvoy",
+      "createdAt": "2026-11-22 23:57:54",
+      "poolId": "0x6661e57b2240e19ac5e8e293655015294e7737b3e08c69c0a3e67695543f8f91",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeia7mneaz2yyz4d5nbvpzw72cfc5nzgt62uafh572knqaqmqfuvvoy",
+        "verified": false,
+        "operatorAddress": "0x3Ebf1fF63ea52d539737014A683c8Bf65449B6e3",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3Ebf1fF63ea52d539737014A683c8Bf65449B6e3",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x6661e57b2240e19ac5e8e293655015294e7737b3e08c69c0a3e67695543f8f91",
+      "basescanUrl": "https://basescan.org/token/0x7b7590Ec773054018b077b12303007Fcd86CDAe1",
+      "source": "clanker",
+      "volume24h": 9747.28,
+      "txns24h": 237
+    },
+    {
+      "tokenName": "Fan ID",
+      "tokenSymbol": "FAN",
+      "tokenAddress": "0xaecfb2601427A1D64837ec548F03b1847732cCcC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreif74h4pd4ues4iu3uycced43ogost3grlpkz3wvbwwtatjgq5chzu",
+      "createdAt": "2026-11-22 23:52:48",
+      "poolId": "0x51bd68d276965b678d6d45a38eb7ae85e03014cd15161fa1807b905ece726d8f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreif74h4pd4ues4iu3uycced43ogost3grlpkz3wvbwwtatjgq5chzu",
+        "verified": false,
+        "operatorAddress": "0x8A5366c788ff9eEBf5f802B0cB5CCEF33abc57E5",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x8A5366c788ff9eEBf5f802B0cB5CCEF33abc57E5",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x51bd68d276965b678d6d45a38eb7ae85e03014cd15161fa1807b905ece726d8f",
+      "basescanUrl": "https://basescan.org/token/0xaecfb2601427A1D64837ec548F03b1847732cCcC",
+      "source": "clanker",
+      "volume24h": 17825.88,
+      "txns24h": 265
+    },
+    {
+      "tokenName": "United States Oil Index",
+      "tokenSymbol": "USOI",
+      "tokenAddress": "0x24860d593dEe8E36eE53D049f19080C7D75105bB",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
+      "createdAt": "2026-11-22 22:59:48",
+      "poolId": "0xce90ea5ee81e2702e1c2983385788a61e7e380711dcef5608f54a48c5fb30596",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
+        "verified": false,
+        "operatorAddress": "0x8A4a8807B5E81Cddf5ACf1911CDfDDe0D56edE6A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x8A4a8807B5E81Cddf5ACf1911CDfDDe0D56edE6A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xce90ea5ee81e2702e1c2983385788a61e7e380711dcef5608f54a48c5fb30596",
+      "basescanUrl": "https://basescan.org/token/0x24860d593dEe8E36eE53D049f19080C7D75105bB",
+      "source": "clanker",
+      "volume24h": 37836.68,
+      "txns24h": 292
+    },
     {
       "tokenName": "Dolphin",
       "tokenSymbol": "POD",
@@ -41,7 +107,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/QmaaCwS57Tq7Gz3moCcXuWviyRyLAHkxYjREcsAT25qEyA",
         "verified": false,
-        "operatorAddress": "0x55371D03B738Bc796E46ba493A0F596fd958E2ff",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x55371D03B738Bc796E46ba493A0F596fd958E2ff",
@@ -270,28 +336,6 @@
       "source": "clanker",
       "volume24h": 10211.78,
       "txns24h": 340
-    },
-    {
-      "tokenName": "GODF",
-      "tokenSymbol": "GODF",
-      "tokenAddress": "0x427e892E70FEecDbEDc13b0C01561c502De5932A",
-      "imageUrl": "https://pbs.twimg.com/media/HXQ0sIEaAAAlEgH?format=png&name=small",
-      "createdAt": "2026-11-18 16:27:12",
-      "poolId": "0xc33e18376beb3087b133545fae3968eb41c818c348809ad5ccdf351e42cd08ab",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://pbs.twimg.com/media/HXQ0sIEaAAAlEgH?format=png&name=small",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0xAc3c6fB47dD06AEaB4BBddFc8a726e458fb982c8",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xc33e18376beb3087b133545fae3968eb41c818c348809ad5ccdf351e42cd08ab",
-      "basescanUrl": "https://basescan.org/token/0x427e892E70FEecDbEDc13b0C01561c502De5932A",
-      "source": "clanker",
-      "volume24h": 10354.14,
-      "txns24h": 349
     },
     {
       "tokenName": "NAFF",
