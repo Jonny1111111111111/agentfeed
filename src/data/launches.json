@@ -5,8 +5,96 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 251,
+  "count": 252,
   "items": [
+    {
+      "tokenName": "iClanker",
+      "tokenSymbol": "ICLANKER",
+      "tokenAddress": "0x11158EC527a26d72d0F6A2f2D6E325E8ee37ccCc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigr5eori2mwmnqoc66alf2adys6gjgaaxi4rwb7yzeurb6jofjm3e",
+      "createdAt": "2026-11-24 23:47:48",
+      "poolId": "0x2b31fa232016812f41b500b77a09f61cfcd77907935ce78a1ef7c5cad06689b0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigr5eori2mwmnqoc66alf2adys6gjgaaxi4rwb7yzeurb6jofjm3e",
+        "verified": false,
+        "operatorAddress": "0x57Cdd4F50c6C81DdD072b72B4F106553040C951F",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x57Cdd4F50c6C81DdD072b72B4F106553040C951F",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2b31fa232016812f41b500b77a09f61cfcd77907935ce78a1ef7c5cad06689b0",
+      "basescanUrl": "https://basescan.org/token/0x11158EC527a26d72d0F6A2f2D6E325E8ee37ccCc",
+      "source": "clanker",
+      "volume24h": 10726.85,
+      "txns24h": 113
+    },
+    {
+      "tokenName": "NOTF",
+      "tokenSymbol": "NOTF",
+      "tokenAddress": "0x5d941B169fc09d20Bfb1280B077D4667e889183b",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
+      "createdAt": "2026-11-24 22:41:08",
+      "poolId": "0x9c4b3da8855e9baef58829a9008f9562550bbb191ed0f9950581bd81cc0f7e42",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
+        "verified": false,
+        "operatorAddress": "0x647DA0B37e151286B46594A5e57AFf98EC70457a",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x647DA0B37e151286B46594A5e57AFf98EC70457a",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9c4b3da8855e9baef58829a9008f9562550bbb191ed0f9950581bd81cc0f7e42",
+      "basescanUrl": "https://basescan.org/token/0x5d941B169fc09d20Bfb1280B077D4667e889183b",
+      "source": "clanker",
+      "volume24h": 34838.89,
+      "txns24h": 160
+    },
+    {
+      "tokenName": "Zoopad",
+      "tokenSymbol": "ZOO",
+      "tokenAddress": "0xDCBdabC7643103F3f820A8067dD764730e38cCcc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreidgi5pvgqw4be5w7vujvhvwqmvogqtecv2w2svyx5o4hnn5onfuza",
+      "createdAt": "2026-11-24 20:07:14",
+      "poolId": "0x3e48a58e357ac56a23b28513f55082823a24b4aa40a9181efa2f5b551603d6c4",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreidgi5pvgqw4be5w7vujvhvwqmvogqtecv2w2svyx5o4hnn5onfuza",
+        "verified": false,
+        "operatorAddress": "0x666d0Ff130467f0741C4eD8b91c93D0775122384",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x666d0Ff130467f0741C4eD8b91c93D0775122384",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3e48a58e357ac56a23b28513f55082823a24b4aa40a9181efa2f5b551603d6c4",
+      "basescanUrl": "https://basescan.org/token/0xDCBdabC7643103F3f820A8067dD764730e38cCcc",
+      "source": "clanker",
+      "volume24h": 11026.23,
+      "txns24h": 123
+    },
+    {
+      "tokenName": "NOTF",
+      "tokenSymbol": "NOTF",
+      "tokenAddress": "0x522b0A627aB057b411d431666fF7dF0bd9Acb29e",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
+      "createdAt": "2026-11-24 19:30:53",
+      "poolId": "0x9ee6d550def0c64dba821c1b5f4f5638c888cee92e394419996011a90aeb48dc",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
+        "verified": false,
+        "operatorAddress": "0x509C7b43c4B055d6e7974C8e41b76C0b8b0e96Ef",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x509C7b43c4B055d6e7974C8e41b76C0b8b0e96Ef",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9ee6d550def0c64dba821c1b5f4f5638c888cee92e394419996011a90aeb48dc",
+      "basescanUrl": "https://basescan.org/token/0x522b0A627aB057b411d431666fF7dF0bd9Acb29e",
+      "source": "clanker",
+      "volume24h": 37660.14,
+      "txns24h": 221
+    },
     {
       "tokenName": "Double Tree",
       "tokenSymbol": "DOUBTREE",
@@ -85,7 +173,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigt34qnhid36xcqiarmae23qfbt4wua5jtovssxuhd3i6dyaa3jr4",
         "verified": false,
-        "operatorAddress": "0x8776f6D0312A3E59f2039AD9522E0B960a1F7d07",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x8776f6D0312A3E59f2039AD9522E0B960a1F7d07",
@@ -94,72 +182,6 @@
       "source": "clanker",
       "volume24h": 23675319.81,
       "txns24h": 1670
-    },
-    {
-      "tokenName": "Rostrum",
-      "tokenSymbol": "ROSTRUM",
-      "tokenAddress": "0xa47d4E7488b2aADC92a740dF4266dC8EEE49cccc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreih6plk2hnx7awuvyrb3xtrvnuxb7m5hvucye42bcdbrdqpt4jsckm",
-      "createdAt": "2026-11-23 19:25:29",
-      "poolId": "0xb7bff71c29e7a5bb962c63af80d87caeba804fec68a910631cf81c24f94c3466",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreih6plk2hnx7awuvyrb3xtrvnuxb7m5hvucye42bcdbrdqpt4jsckm",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x992C7423101b5c21c279F97d2A7d18f676EA3dE4",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xb7bff71c29e7a5bb962c63af80d87caeba804fec68a910631cf81c24f94c3466",
-      "basescanUrl": "https://basescan.org/token/0xa47d4E7488b2aADC92a740dF4266dC8EEE49cccc",
-      "source": "clanker",
-      "volume24h": 40421.58,
-      "txns24h": 484
-    },
-    {
-      "tokenName": "Realm Venice",
-      "tokenSymbol": "REALM",
-      "tokenAddress": "0xfA4cd6700b66B1a5A4aC95cE486ea18779bECCcc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigtd54twaiwsxbnuyddh4vmosaz2x4anu57uisy5tgy6ghi6zilsq",
-      "createdAt": "2026-11-23 17:22:29",
-      "poolId": "0x3e60eb8e983bc8a6da2f0d96ad3591f48472d3c2ac17bb1ed6eeaac8bd1e3c1e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigtd54twaiwsxbnuyddh4vmosaz2x4anu57uisy5tgy6ghi6zilsq",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0xd45bd4eB7280C54d701C5f2617fa5FF9C651b71B",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3e60eb8e983bc8a6da2f0d96ad3591f48472d3c2ac17bb1ed6eeaac8bd1e3c1e",
-      "basescanUrl": "https://basescan.org/token/0xfA4cd6700b66B1a5A4aC95cE486ea18779bECCcc",
-      "source": "clanker",
-      "volume24h": 33678.329999999994,
-      "txns24h": 452
-    },
-    {
-      "tokenName": "Jensen's Cats",
-      "tokenSymbol": "JC",
-      "tokenAddress": "0xCF8966bc1d72bbc7781Db7382737c675E952CCcc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifg5ah5vqujtdalfnop7yy6332sxohhtpiyibt2pmficxjmndviwe",
-      "createdAt": "2026-11-23 16:38:45",
-      "poolId": "0x240941af7b5ea318f5df4b9fe5a1dbff9b05d0c9c8c0c28eb557ce5360f8ff20",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifg5ah5vqujtdalfnop7yy6332sxohhtpiyibt2pmficxjmndviwe",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x623bF5aD3BA2Cf4C72e2Fb7a4182A5B795b0820c",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x240941af7b5ea318f5df4b9fe5a1dbff9b05d0c9c8c0c28eb557ce5360f8ff20",
-      "basescanUrl": "https://basescan.org/token/0xCF8966bc1d72bbc7781Db7382737c675E952CCcc",
-      "source": "clanker",
-      "volume24h": 12056.15,
-      "txns24h": 175
     },
     {
       "tokenName": "United States Asset Reserve",
