@@ -1,27 +1,39 @@
 {
-  "generatedAt": "2026-11-25T01:48:50.889Z",
+  "generatedAt": "2026-11-25T16:35:28.065Z",
   "source": "clanker.world API + v4 factory 0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "factory": "0xE85A59c628F7d27878ACeB4bf3b35733630083a9",
   "sources": {
-    "api": 734,
+    "api": 670,
     "chain": 0,
-    "persisted": 21
+    "persisted": 22
   },
-  "count": 22,
+  "count": 34,
   "addresses": [
+    "0x1f6676eb04371e08a51f88d346bbc978dcefcccc",
+    "0x48032e5677da3eb2df80113414417b5af13dca0e",
+    "0xc0d5b8e1e6d3c96b6913a3b43f5e3ccb98a03938",
+    "0xbf5dae536d77097d99da7d6990f393cefcd79d9c",
+    "0x9d52ea79b7878c1d00a62091c119e4bb772f2616",
+    "0x673ac13487cc159956ae65673281f19fe2c3384f",
+    "0xeb5b003a276e06ff219cb5422b6aa115ae2520b6",
+    "0x9cdcddf60d5ebad733330ea7cc35180d1e5f2c46",
+    "0xd3aa5353bf92c34ab3648acb9b4c4b020eb10509",
+    "0xcc29fbd718444c930803abe5b80f7327bb497adc",
+    "0x23efa1d44f74a83c9ad1027cdf2c34b746b8a065",
+    "0xfe0ce97f2fad6ac221874732e00d348dd1d278fc",
+    "0xafdc39bd54fe8c7a8f71df6f5232aa019847bfc2",
+    "0x5d79ded291bacc9193fdf618f87fa367c9a0ed6a",
+    "0x5a065d49f041a5b300d03d71e87930111f4ea5db",
+    "0x6e532be6f237ebb9a975ee8a518c80ca2da62212",
     "0x11158ec527a26d72d0f6a2f2d6e325e8ee37cccc",
     "0x5d941b169fc09d20bfb1280b077d4667e889183b",
     "0xdcbdabc7643103f3f820a8067dd764730e38cccc",
     "0x522b0a627ab057b411d431666ff7df0bd9acb29e",
-    "0x28e812242ea7129eaba2aa2518ad6e551f49cccc",
-    "0xd337b5b2d13e580b62c6ff5a8398a88e6d7d6621",
     "0x74b48de489e0b1cc9f6a7c8628fcee6f84327a9e",
-    "0xe581bda8d6a29a34a91cd717bd292f2e237b234a",
     "0xa26cda96cca05cb59de910b0153a5d10f0cf8343",
     "0xb8e8341386c7b93d8ba3706c3c22fc215b1182ce",
     "0xccc3cc21ca6308e5fabbf248a1250e6f78f84b88",
     "0x83f5c3890c5891a2554a74acddcb2a1a1e66b613",
-    "0x07009571774d0be0c99b8d572d0da0b2c5081ec9",
     "0x7b7590ec773054018b077b12303007fcd86cdae1",
     "0x24860d593dee8e36ee53d049f19080c7d75105bb",
     "0x40da76d8276b8f9d97f91833c98c89b7e2419875",
@@ -33,6 +45,358 @@
     "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df"
   ],
   "items": [
+    {
+      "tokenName": "The Dragon HQ",
+      "tokenSymbol": "DRGN",
+      "tokenAddress": "0x1f6676Eb04371e08a51F88d346bBc978dCEfcCCc",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreighdinar4ncm7xiqp4cnslk4nonltkbqryoflk6pmyqtwmu3jdy5m",
+      "createdAt": "2026-11-25 16:04:30",
+      "poolId": "0x0b42de9555d6a63cb3bd389b32c37fa1002318152f24348f8dc491d4ddd98872",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreighdinar4ncm7xiqp4cnslk4nonltkbqryoflk6pmyqtwmu3jdy5m",
+        "verified": false,
+        "operatorAddress": "0x0554BD56cC2515aD38E9F72A30125c3F5B1639a2",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x0554BD56cC2515aD38E9F72A30125c3F5B1639a2",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0b42de9555d6a63cb3bd389b32c37fa1002318152f24348f8dc491d4ddd98872",
+      "basescanUrl": "https://basescan.org/token/0x1f6676Eb04371e08a51F88d346bBc978dCEfcCCc",
+      "source": "clanker",
+      "volume24h": 43516.02,
+      "txns24h": 527
+    },
+    {
+      "tokenName": "United Bitcoin Reserve",
+      "tokenSymbol": "UBR",
+      "tokenAddress": "0x48032E5677Da3eb2Df80113414417b5Af13DcA0e",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifrjbpmhegjylvw2o6di2mgbiqx2byifupjngstbj4cjykc5xclxq",
+      "createdAt": "2026-11-25 15:23:13",
+      "poolId": "0x2dfb029b939994e9dacb0b20c808822b745978350277051e1500c9209dbf54b0",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifrjbpmhegjylvw2o6di2mgbiqx2byifupjngstbj4cjykc5xclxq",
+        "verified": false,
+        "operatorAddress": "0xa3f7D8ef60AF984617F674b8ca5f57D0e900B85A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xa3f7D8ef60AF984617F674b8ca5f57D0e900B85A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2dfb029b939994e9dacb0b20c808822b745978350277051e1500c9209dbf54b0",
+      "basescanUrl": "https://basescan.org/token/0x48032E5677Da3eb2Df80113414417b5Af13DcA0e",
+      "source": "clanker",
+      "volume24h": 28618.34,
+      "txns24h": 373
+    },
+    {
+      "tokenName": "United Oil Dividend Fund",
+      "tokenSymbol": "U0DF",
+      "tokenAddress": "0xC0d5b8e1e6d3c96b6913A3b43F5E3ccb98a03938",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihduezyimqlsozxervh2lnv2guk7246fuzuzzgsw4ialpy5puc3ea",
+      "createdAt": "2026-11-25 15:19:52",
+      "poolId": "0x5dcd8427234d35c6cdc6ac375cf15a0cfa1f12143e5ecc33ee19ffdc2fadd43a",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihduezyimqlsozxervh2lnv2guk7246fuzuzzgsw4ialpy5puc3ea",
+        "verified": false,
+        "operatorAddress": "0x94E49059eBBa0cC3F4e817dF6a39EB6605Cf094A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x94E49059eBBa0cC3F4e817dF6a39EB6605Cf094A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x5dcd8427234d35c6cdc6ac375cf15a0cfa1f12143e5ecc33ee19ffdc2fadd43a",
+      "basescanUrl": "https://basescan.org/token/0xC0d5b8e1e6d3c96b6913A3b43F5E3ccb98a03938",
+      "source": "clanker",
+      "volume24h": 14977.79,
+      "txns24h": 373
+    },
+    {
+      "tokenName": "Strategic Oil Fund Supply",
+      "tokenSymbol": "SOSF",
+      "tokenAddress": "0xBf5dAe536d77097d99dA7D6990F393ceFcD79d9C",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/QmUX2qepD9Fxzq8ykGfvwK5r5mik2cbd1jSUT4toHpPTRn",
+      "createdAt": "2026-11-25 14:44:27",
+      "poolId": "0x00f754325ad0d4f5277038d897ed55fdc7e55aa17aff25c4732da015d88b74e4",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/QmUX2qepD9Fxzq8ykGfvwK5r5mik2cbd1jSUT4toHpPTRn",
+        "verified": false,
+        "operatorAddress": "0x524Bb345700606266499777BEEb6147fe3e7adA9",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x524Bb345700606266499777BEEb6147fe3e7adA9",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x00f754325ad0d4f5277038d897ed55fdc7e55aa17aff25c4732da015d88b74e4",
+      "basescanUrl": "https://basescan.org/token/0xBf5dAe536d77097d99dA7D6990F393ceFcD79d9C",
+      "source": "clanker",
+      "volume24h": 13679.13,
+      "txns24h": 555
+    },
+    {
+      "tokenName": "Ripple USD",
+      "tokenSymbol": "RLUSD",
+      "tokenAddress": "0x9d52Ea79b7878c1D00A62091c119e4Bb772f2616",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifdrifq2tpznj2myl4ag5ahsu7yjxwrj3fv6aeg6otdg6gs7nh3zi",
+      "createdAt": "2026-11-25 14:21:07",
+      "poolId": "0x3dd81178e8610429555e3aa370f3d5838a051b2836f2a3793f9847ebb69fa771",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifdrifq2tpznj2myl4ag5ahsu7yjxwrj3fv6aeg6otdg6gs7nh3zi",
+        "verified": false,
+        "operatorAddress": "0x8c125ed46CC809D855b7fc91015D7a8502d637bE",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x8c125ed46CC809D855b7fc91015D7a8502d637bE",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3dd81178e8610429555e3aa370f3d5838a051b2836f2a3793f9847ebb69fa771",
+      "basescanUrl": "https://basescan.org/token/0x9d52Ea79b7878c1D00A62091c119e4Bb772f2616",
+      "source": "clanker",
+      "volume24h": 26215.8,
+      "txns24h": 319
+    },
+    {
+      "tokenName": "United States Energy Fund",
+      "tokenSymbol": "USEF",
+      "tokenAddress": "0x673aC13487cC159956ae65673281f19fE2c3384F",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeieapsq6nvfjhzajed7aajiw2tz7a6zjk5cl3rh4ogql5pd6aqzk2m",
+      "createdAt": "2026-11-25 08:31:01",
+      "poolId": "0x4f164167a454c7ebeb5a977ed2c8936d351fd35b8c2bfc480698cc60b9b2cbbf",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeieapsq6nvfjhzajed7aajiw2tz7a6zjk5cl3rh4ogql5pd6aqzk2m",
+        "verified": false,
+        "operatorAddress": "0xd7122D8b29C510B5fFF8d4c37931c8e38aD70504",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xd7122D8b29C510B5fFF8d4c37931c8e38aD70504",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x4f164167a454c7ebeb5a977ed2c8936d351fd35b8c2bfc480698cc60b9b2cbbf",
+      "basescanUrl": "https://basescan.org/token/0x673aC13487cC159956ae65673281f19fE2c3384F",
+      "source": "clanker",
+      "volume24h": 35885.51,
+      "txns24h": 391
+    },
+    {
+      "tokenName": "United States Asset Reserve",
+      "tokenSymbol": "USAR",
+      "tokenAddress": "0xEb5B003A276E06FF219Cb5422b6Aa115Ae2520b6",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihm44st47u5gmfvlvaiflkqjfau7ecnsxobfwnisvmmschvesieqq",
+      "createdAt": "2026-11-25 07:59:52",
+      "poolId": "0x7949af3fac134c5cd7cb8ae9ec1c21e41890beeb1fab7349bcdfbe7fc4bcaca9",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihm44st47u5gmfvlvaiflkqjfau7ecnsxobfwnisvmmschvesieqq",
+        "verified": false,
+        "operatorAddress": "0x7a6Cf2cFf144E727ea0497aAC93B62214f06DAeC",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x7a6Cf2cFf144E727ea0497aAC93B62214f06DAeC",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x7949af3fac134c5cd7cb8ae9ec1c21e41890beeb1fab7349bcdfbe7fc4bcaca9",
+      "basescanUrl": "https://basescan.org/token/0xEb5B003A276E06FF219Cb5422b6Aa115Ae2520b6",
+      "source": "clanker",
+      "volume24h": 31681.7,
+      "txns24h": 414
+    },
+    {
+      "tokenName": "United Oil Fund - UOF",
+      "tokenSymbol": "UOF",
+      "tokenAddress": "0x9CdCDDf60D5ebad733330EA7CC35180D1E5f2c46",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeia7mneaz2yyz4d5nbvpzw72cfc5nzgt62uafh572knqaqmqfuvvoy",
+      "createdAt": "2026-11-25 06:14:08",
+      "poolId": "0x37e21f26d91334d90cc6b3d1166ec9e114c89b69e4e672d711b75f413cc7f852",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeia7mneaz2yyz4d5nbvpzw72cfc5nzgt62uafh572knqaqmqfuvvoy",
+        "verified": false,
+        "operatorAddress": "0xA26Eb7b876Cc9Ad0679341E9D4039006f71B1EDC",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xA26Eb7b876Cc9Ad0679341E9D4039006f71B1EDC",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x37e21f26d91334d90cc6b3d1166ec9e114c89b69e4e672d711b75f413cc7f852",
+      "basescanUrl": "https://basescan.org/token/0x9CdCDDf60D5ebad733330EA7CC35180D1E5f2c46",
+      "source": "clanker",
+      "volume24h": 10124.2,
+      "txns24h": 497
+    },
+    {
+      "tokenName": "United States Oil Index",
+      "tokenSymbol": "USOI",
+      "tokenAddress": "0xd3Aa5353Bf92c34aB3648AcB9b4c4B020eB10509",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
+      "createdAt": "2026-11-25 06:08:33",
+      "poolId": "0xbcc233ce1ca6b330dc4ee11a8d887ab010f7a492d6e77910f16f2be8e0ecdf6d",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
+        "verified": false,
+        "operatorAddress": "0x3B4960CAE508eB247d2739B80D1498A520845E96",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x3B4960CAE508eB247d2739B80D1498A520845E96",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xbcc233ce1ca6b330dc4ee11a8d887ab010f7a492d6e77910f16f2be8e0ecdf6d",
+      "basescanUrl": "https://basescan.org/token/0xd3Aa5353Bf92c34aB3648AcB9b4c4B020eB10509",
+      "source": "clanker",
+      "volume24h": 34737.3,
+      "txns24h": 507
+    },
+    {
+      "tokenName": "United States Oil Index",
+      "tokenSymbol": "USOI",
+      "tokenAddress": "0xCC29fbd718444C930803ABE5b80F7327bb497aDC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
+      "createdAt": "2026-11-25 05:49:23",
+      "poolId": "0xc77ca434403e71b2dc3a8016be5606f2d8d92283224b18744ab1c0bff119ac91",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
+        "verified": false,
+        "operatorAddress": "0xF519A6149Aef5Ef24a4497614b31dc727852Ffb7",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xF519A6149Aef5Ef24a4497614b31dc727852Ffb7",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc77ca434403e71b2dc3a8016be5606f2d8d92283224b18744ab1c0bff119ac91",
+      "basescanUrl": "https://basescan.org/token/0xCC29fbd718444C930803ABE5b80F7327bb497aDC",
+      "source": "clanker",
+      "volume24h": 51417.66,
+      "txns24h": 193
+    },
+    {
+      "tokenName": "AnthropicAI",
+      "tokenSymbol": "Antropic",
+      "tokenAddress": "0x23efA1d44F74a83C9AD1027cDf2c34B746b8a065",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiejynvvrp4hnqpg7sfl5qck43x5yp6b7omuga3kw2th2n4by5k6cq",
+      "createdAt": "2026-11-25 05:22:18",
+      "poolId": "0xf56bdad28c8caa263ae6443431ada011dc2ebcc047f469525bf47badece92acb",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiejynvvrp4hnqpg7sfl5qck43x5yp6b7omuga3kw2th2n4by5k6cq",
+        "verified": false,
+        "operatorAddress": "0x10040Cd8F588a4193d9d10bF2Dfd2C247873684B",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x10040Cd8F588a4193d9d10bF2Dfd2C247873684B",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf56bdad28c8caa263ae6443431ada011dc2ebcc047f469525bf47badece92acb",
+      "basescanUrl": "https://basescan.org/token/0x23efA1d44F74a83C9AD1027cDf2c34B746b8a065",
+      "source": "clanker",
+      "volume24h": 21988.84,
+      "txns24h": 545
+    },
+    {
+      "tokenName": "ATX",
+      "tokenSymbol": "ATX",
+      "tokenAddress": "0xFE0CE97F2FAd6Ac221874732E00D348DD1d278fC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeig5ijbllvgrojeii4j72e6l525zn7zkbqskuljgjl2eschjmtthda",
+      "createdAt": "2026-11-25 05:20:43",
+      "poolId": "0x833bb1d24afae9c4bdba67dcc4d954863a5ec27f81378149e36b4538c6e69a4f",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeig5ijbllvgrojeii4j72e6l525zn7zkbqskuljgjl2eschjmtthda",
+        "verified": false,
+        "operatorAddress": "0x28705E1Ab4b3b68917E2b743B2fb6F79D1dd0192",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x28705E1Ab4b3b68917E2b743B2fb6F79D1dd0192",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x833bb1d24afae9c4bdba67dcc4d954863a5ec27f81378149e36b4538c6e69a4f",
+      "basescanUrl": "https://basescan.org/token/0xFE0CE97F2FAd6Ac221874732E00D348DD1d278fC",
+      "source": "clanker",
+      "volume24h": 10487.99,
+      "txns24h": 547
+    },
+    {
+      "tokenName": "GODF",
+      "tokenSymbol": "GODF",
+      "tokenAddress": "0xAFDc39Bd54Fe8c7a8f71df6f5232AA019847BfC2",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeibnbd7vxgpy6gtwsafvvzjrmpatpfg45vo7yzdaoscysjyvmlidl4",
+      "createdAt": "2026-11-25 05:16:40",
+      "poolId": "0xb0da70aaab3a2287ba355333658b33e5986cfc0adaa79f8bc44de63a7966c443",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeibnbd7vxgpy6gtwsafvvzjrmpatpfg45vo7yzdaoscysjyvmlidl4",
+        "verified": false,
+        "operatorAddress": "0xCf8a6d178B66355D4323DA0Aa4b2fd840e483c7f",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xCf8a6d178B66355D4323DA0Aa4b2fd840e483c7f",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb0da70aaab3a2287ba355333658b33e5986cfc0adaa79f8bc44de63a7966c443",
+      "basescanUrl": "https://basescan.org/token/0xAFDc39Bd54Fe8c7a8f71df6f5232AA019847BfC2",
+      "source": "clanker",
+      "volume24h": 10418.53,
+      "txns24h": 544
+    },
+    {
+      "tokenName": "Public American Dividend",
+      "tokenSymbol": "PAD",
+      "tokenAddress": "0x5D79DEd291BAcc9193fdf618F87fA367c9a0ED6a",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeihl34adwhvwli66cjdtnfi5hdelg7a2zlfbs67cjfirdsnxksyjga",
+      "createdAt": "2026-11-25 05:15:15",
+      "poolId": "0x2b79df96e6e599f4eabfe77e8d86501ef52e1254c4f93a55ffac667ae9052a51",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeihl34adwhvwli66cjdtnfi5hdelg7a2zlfbs67cjfirdsnxksyjga",
+        "verified": false,
+        "operatorAddress": "0xa054f58878a1838eFb610D6a66C3e25f97678Cbd",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xa054f58878a1838eFb610D6a66C3e25f97678Cbd",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2b79df96e6e599f4eabfe77e8d86501ef52e1254c4f93a55ffac667ae9052a51",
+      "basescanUrl": "https://basescan.org/token/0x5D79DEd291BAcc9193fdf618F87fA367c9a0ED6a",
+      "source": "clanker",
+      "volume24h": 10416.96,
+      "txns24h": 552
+    },
+    {
+      "tokenName": "Cashy",
+      "tokenSymbol": "CASHY",
+      "tokenAddress": "0x5a065d49f041a5b300D03D71e87930111F4EA5Db",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreif6oxrttsgmnhtafrqdulrvw3m2ggtl4gzjgat25ednn4tsslibza",
+      "createdAt": "2026-11-25 03:49:53",
+      "poolId": "0xa93d8763601257203f7a52008cfac0ddb8e6a8f254658fe5c0752a77d0793134",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreif6oxrttsgmnhtafrqdulrvw3m2ggtl4gzjgat25ednn4tsslibza",
+        "verified": false,
+        "operatorAddress": "0xdbB9F2E250FDb0cf6D219e07099aacedAFCEC0AA",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xdbB9F2E250FDb0cf6D219e07099aacedAFCEC0AA",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xa93d8763601257203f7a52008cfac0ddb8e6a8f254658fe5c0752a77d0793134",
+      "basescanUrl": "https://basescan.org/token/0x5a065d49f041a5b300D03D71e87930111F4EA5Db",
+      "source": "clanker",
+      "volume24h": 46016.97,
+      "txns24h": 615
+    },
+    {
+      "tokenName": "GOTF",
+      "tokenSymbol": "GOTF",
+      "tokenAddress": "0x6E532BE6f237eBB9a975EE8a518c80Ca2Da62212",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihz45uifuiziswrdaqm6nvxft5ritz2xf72h2dtgisr3sk4ryosei",
+      "createdAt": "2026-11-25 03:36:56",
+      "poolId": "0x889c9d7bdc5c78af966164ce1977b470809025c6baf36e65a70e5d37b649bf6b",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihz45uifuiziswrdaqm6nvxft5ritz2xf72h2dtgisr3sk4ryosei",
+        "verified": false,
+        "operatorAddress": "0x22c60Fb240D538607c47cd3206dbb03Ce77DDcE4",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x22c60Fb240D538607c47cd3206dbb03Ce77DDcE4",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x889c9d7bdc5c78af966164ce1977b470809025c6baf36e65a70e5d37b649bf6b",
+      "basescanUrl": "https://basescan.org/token/0x6E532BE6f237eBB9a975EE8a518c80Ca2Da62212",
+      "source": "clanker",
+      "volume24h": 36603.18,
+      "txns24h": 624
+    },
     {
       "tokenName": "iClanker",
       "tokenSymbol": "ICLANKER",
@@ -52,8 +416,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2b31fa232016812f41b500b77a09f61cfcd77907935ce78a1ef7c5cad06689b0",
       "basescanUrl": "https://basescan.org/token/0x11158EC527a26d72d0F6A2f2D6E325E8ee37ccCc",
       "source": "clanker",
-      "volume24h": 10726.85,
-      "txns24h": 113
+      "volume24h": 10762.45,
+      "txns24h": 115
     },
     {
       "tokenName": "NOTF",
@@ -74,8 +438,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x9c4b3da8855e9baef58829a9008f9562550bbb191ed0f9950581bd81cc0f7e42",
       "basescanUrl": "https://basescan.org/token/0x5d941B169fc09d20Bfb1280B077D4667e889183b",
       "source": "clanker",
-      "volume24h": 34838.89,
-      "txns24h": 160
+      "volume24h": 69581.39,
+      "txns24h": 342
     },
     {
       "tokenName": "Zoopad",
@@ -96,8 +460,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x3e48a58e357ac56a23b28513f55082823a24b4aa40a9181efa2f5b551603d6c4",
       "basescanUrl": "https://basescan.org/token/0xDCBdabC7643103F3f820A8067dD764730e38cCcc",
       "source": "clanker",
-      "volume24h": 11026.23,
-      "txns24h": 123
+      "volume24h": 11396.24,
+      "txns24h": 125
     },
     {
       "tokenName": "NOTF",
@@ -122,50 +486,6 @@
       "txns24h": 221
     },
     {
-      "tokenName": "Double Tree",
-      "tokenSymbol": "DOUBTREE",
-      "tokenAddress": "0x28e812242EA7129eABA2aA2518AD6E551F49cccC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihhw6nq67e6wuyfymandyd7efo5r42tlsnwpgrccegho5bbicvz3a",
-      "createdAt": "2026-11-24 13:40:59",
-      "poolId": "0x32c8446f14e71a98ec50508981f951e790623b334d68260260ce7dd8850f76ab",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihhw6nq67e6wuyfymandyd7efo5r42tlsnwpgrccegho5bbicvz3a",
-        "verified": false,
-        "operatorAddress": "0xbB5235387Df80C7aCFfB6092049A6c834298DE4c",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xbB5235387Df80C7aCFfB6092049A6c834298DE4c",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x32c8446f14e71a98ec50508981f951e790623b334d68260260ce7dd8850f76ab",
-      "basescanUrl": "https://basescan.org/token/0x28e812242EA7129eABA2aA2518AD6E551F49cccC",
-      "source": "clanker",
-      "volume24h": 8794.96,
-      "txns24h": 115
-    },
-    {
-      "tokenName": "PROJECT ATX",
-      "tokenSymbol": "ATX",
-      "tokenAddress": "0xd337b5b2d13E580B62c6fF5A8398A88E6D7D6621",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiep5wr4eyncrawvlr4qykyfsrfpwzmn4avi7qwnk7aep2qzu2tdim",
-      "createdAt": "2026-11-24 09:38:47",
-      "poolId": "0x96c3dfa2d569c35653c0f34967f4e24c12aed50fd351d618dc2a6c28eb646c66",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiep5wr4eyncrawvlr4qykyfsrfpwzmn4avi7qwnk7aep2qzu2tdim",
-        "verified": false,
-        "operatorAddress": "0x6931967d397434bd50bf37f560e9291AF3F8bAdC",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x6931967d397434bd50bf37f560e9291AF3F8bAdC",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x96c3dfa2d569c35653c0f34967f4e24c12aed50fd351d618dc2a6c28eb646c66",
-      "basescanUrl": "https://basescan.org/token/0xd337b5b2d13E580B62c6fF5A8398A88E6D7D6621",
-      "source": "clanker",
-      "volume24h": 13238.03,
-      "txns24h": 804
-    },
-    {
       "tokenName": "Aura Final Boss",
       "tokenSymbol": "Kimchi",
       "tokenAddress": "0x74b48de489e0b1CC9F6A7C8628FCeE6f84327a9e",
@@ -177,37 +497,15 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibnkxlqixsefurlqefrnp7ri37s3jaru2vwbw2vrm4c4mozgcv2ty",
         "verified": false,
-        "operatorAddress": "0xf419cc162Ff2FA6DeB5f2290E10A517eD20f7a5F",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xf419cc162Ff2FA6DeB5f2290E10A517eD20f7a5F",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x73580e1b6f328e18d27b2fab3b903618196d353ee81ca0990a08d724a9bec8c3",
-      "basescanUrl": "https://basescan.org/token/0x74b48de489e0b1CC9F6A7C8628FCeE6f84327a9e",
-      "source": "clanker",
-      "volume24h": 12249.23,
-      "txns24h": 1021
-    },
-    {
-      "tokenName": "NVIDIA 3x Long",
-      "tokenSymbol": "NVDA",
-      "tokenAddress": "0xe581Bda8D6A29A34A91CD717Bd292f2e237B234A",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigt34qnhid36xcqiarmae23qfbt4wua5jtovssxuhd3i6dyaa3jr4",
-      "createdAt": "2026-11-24 01:37:46",
-      "poolId": "0x402d0073BBFeE5BA43aeD75845Cf3F28Fc0e5BB3",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigt34qnhid36xcqiarmae23qfbt4wua5jtovssxuhd3i6dyaa3jr4",
-        "verified": false,
         "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x402d0073bbfee5ba43aed75845cf3f28fc0e5bb3",
-      "basescanUrl": "https://basescan.org/token/0xe581Bda8D6A29A34A91CD717Bd292f2e237B234A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x73580e1b6f328e18d27b2fab3b903618196d353ee81ca0990a08d724a9bec8c3",
+      "basescanUrl": "https://basescan.org/token/0x74b48de489e0b1CC9F6A7C8628FCeE6f84327a9e",
       "source": "clanker",
-      "volume24h": 23675763.61,
-      "txns24h": 2992
+      "volume24h": 4600.44,
+      "txns24h": 1188
     },
     {
       "tokenName": "United States Asset Reserve",
@@ -228,8 +526,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x2954e1840208f618bf8273b6d9de4189ee784749817d506a19186a0641b4707a",
       "basescanUrl": "https://basescan.org/token/0xA26Cda96Cca05cB59de910B0153a5D10f0cf8343",
       "source": "clanker",
-      "volume24h": 4854.74,
-      "txns24h": 1163
+      "volume24h": 21711.41,
+      "txns24h": 881
     },
     {
       "tokenName": "Confidential Cat",
@@ -250,8 +548,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x6dae7d2aab403e25c7c23bd0d4e90e0eb1004bf16081574133c3f34ff007ef52",
       "basescanUrl": "https://basescan.org/token/0xb8E8341386C7b93D8ba3706C3C22Fc215b1182Ce",
       "source": "clanker",
-      "volume24h": 4081.71,
-      "txns24h": 1170
+      "volume24h": 4447.17,
+      "txns24h": 1190
     },
     {
       "tokenName": "privacyCASH",
@@ -272,8 +570,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x6e1798174d2b9c19b953125d5c4711345471ba696b0eff1163f08be248b85646",
       "basescanUrl": "https://basescan.org/token/0xCCc3CC21ca6308e5FaBbf248a1250E6F78f84B88",
       "source": "clanker",
-      "volume24h": 3906.35,
-      "txns24h": 1158
+      "volume24h": 3817.42,
+      "txns24h": 1144
     },
     {
       "tokenName": "FLOAT",
@@ -294,30 +592,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x02c2ff105b8621442d76b94d22dbc9585ed112fb8f7e35be04a35f15e30d2bb2",
       "basescanUrl": "https://basescan.org/token/0x83f5c3890c5891A2554A74acdDCb2a1a1e66b613",
       "source": "clanker",
-      "volume24h": 3949.53,
-      "txns24h": 1162
-    },
-    {
-      "tokenName": "PROJECT ATX",
-      "tokenSymbol": "ATX",
-      "tokenAddress": "0x07009571774D0be0C99B8D572d0da0B2C5081eC9",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiep5wr4eyncrawvlr4qykyfsrfpwzmn4avi7qwnk7aep2qzu2tdim",
-      "createdAt": "2026-11-23 11:59:08",
-      "poolId": "0xe63315eb6d30933dfd23f4ad8ac31c5ac6d2c055cc552be0547b51f93c1a1415",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiep5wr4eyncrawvlr4qykyfsrfpwzmn4avi7qwnk7aep2qzu2tdim",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0xe63315eb6d30933dfd23f4ad8ac31c5ac6d2c055cc552be0547b51f93c1a1415",
-      "basescanUrl": "https://basescan.org/token/0x07009571774D0be0C99B8D572d0da0B2C5081eC9",
-      "source": "clanker",
-      "volume24h": 12696.28,
-      "txns24h": 632
+      "volume24h": 3834.32,
+      "txns24h": 1163
     },
     {
       "tokenName": "United Oil Fund - UOF",
@@ -338,8 +614,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x6661e57b2240e19ac5e8e293655015294e7737b3e08c69c0a3e67695543f8f91",
       "basescanUrl": "https://basescan.org/token/0x7b7590Ec773054018b077b12303007Fcd86CDAe1",
       "source": "clanker",
-      "volume24h": 3942.23,
-      "txns24h": 1157
+      "volume24h": 15036.35,
+      "txns24h": 648
     },
     {
       "tokenName": "United States Oil Index",
@@ -360,8 +636,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xce90ea5ee81e2702e1c2983385788a61e7e380711dcef5608f54a48c5fb30596",
       "basescanUrl": "https://basescan.org/token/0x24860d593dEe8E36eE53D049f19080C7D75105bB",
       "source": "clanker",
-      "volume24h": 3952.34,
-      "txns24h": 1156
+      "volume24h": 25319.12,
+      "txns24h": 782
     },
     {
       "tokenName": "United Global Oil Supply",
@@ -382,8 +658,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xcbff269e5a290f7f45304f74320ce0791ccebe2b9123a5152166143688954a3e",
       "basescanUrl": "https://basescan.org/token/0x40dA76D8276B8F9D97F91833c98C89B7e2419875",
       "source": "clanker",
-      "volume24h": 3775.61,
-      "txns24h": 1124
+      "volume24h": 1402.87,
+      "txns24h": 420
     },
     {
       "tokenName": "Ribbita",
@@ -404,8 +680,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0x511d0110e37fdd25dd7aee7c53d3ddbabcf8b680bd91cb1f847fa066c2090d04",
       "basescanUrl": "https://basescan.org/token/0x4DB7ecbfbA712adC003029AaaF3059771CA55A39",
       "source": "clanker",
-      "volume24h": 3817.44,
-      "txns24h": 1127
+      "volume24h": 1446.04,
+      "txns24h": 425
     },
     {
       "tokenName": "United States Water Reserve",
@@ -426,8 +702,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xc2a31e224d83c84e284a98096042e77f7db62707b69bdb589cbce4f69b713cdb",
       "basescanUrl": "https://basescan.org/token/0x7f7eec4945d810af00EfD3065D6701e4675F56F7",
       "source": "clanker",
-      "volume24h": 3900.46,
-      "txns24h": 1150
+      "volume24h": 3725.11,
+      "txns24h": 1126
     },
     {
       "tokenName": "US POWER RESERVE⚡️",
@@ -448,8 +724,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xdda7df93f8cce7087d27478b3913060859910e31274672f1c97ea4471c478c84",
       "basescanUrl": "https://basescan.org/token/0xfC4619a2Cd7722Ead1e84C8dfEae5bfe9323ACA7",
       "source": "clanker",
-      "volume24h": 3817.35,
-      "txns24h": 1150
+      "volume24h": 3749.98,
+      "txns24h": 1149
     },
     {
       "tokenName": "United States Power Reserve",
@@ -470,8 +746,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xeb1676f37788ba5f767d4b652c8df8e50d99767498e02e156881b1291b4fe96d",
       "basescanUrl": "https://basescan.org/token/0x6b7F51bAc9695967Ecf9485d14308CcFd0de3239",
       "source": "clanker",
-      "volume24h": 3904.5,
-      "txns24h": 1152
+      "volume24h": 22706.38,
+      "txns24h": 1641
     },
     {
       "tokenName": "Revvy",
@@ -492,8 +768,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xeabeac2e1264cda3e8bdca532a415c69a6d7c67225aabf270ee17a9b9282a78e",
       "basescanUrl": "https://basescan.org/token/0x3441e8fCdD380c4e7F5C7F55CCd599B2a2afCcCC",
       "source": "clanker",
-      "volume24h": 25783,
-      "txns24h": 328
+      "volume24h": 55277.5,
+      "txns24h": 623
     },
     {
       "tokenName": "MILF",
@@ -514,8 +790,8 @@
       "dexscreenerUrl": "https://dexscreener.com/base/0xd8d511e494077e497fbda449135cd5f3b6ecc85c",
       "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
       "source": "clanker",
-      "volume24h": 538.9199999999998,
-      "txns24h": 354
+      "volume24h": 785.28,
+      "txns24h": 394
     }
   ]
 }
