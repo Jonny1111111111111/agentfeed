@@ -5,8 +5,74 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 264,
+  "count": 262,
   "items": [
+    {
+      "tokenName": "Claude Naming Service",
+      "tokenSymbol": "CLNS",
+      "tokenAddress": "0x767CF0B1d9733deA8ad63BD4a776e2Dd3830cCcC",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreie4zbpnsgqwecetfclag6eaxkxjy3ggbzhh7ztrhzrznd4zirlf3a",
+      "createdAt": "2026-11-25 22:48:52",
+      "poolId": "0x20757e14e45e23d5677c8326057e7ed39fa3dd7c95cfca785f46318e39c151af",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreie4zbpnsgqwecetfclag6eaxkxjy3ggbzhh7ztrhzrznd4zirlf3a",
+        "verified": false,
+        "operatorAddress": "0x4E00c22BBBBC501764CfFd3A28d0eB6131c406c0",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x4E00c22BBBBC501764CfFd3A28d0eB6131c406c0",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x20757e14e45e23d5677c8326057e7ed39fa3dd7c95cfca785f46318e39c151af",
+      "basescanUrl": "https://basescan.org/token/0x767CF0B1d9733deA8ad63BD4a776e2Dd3830cCcC",
+      "source": "clanker",
+      "volume24h": 13210.97,
+      "txns24h": 126
+    },
+    {
+      "tokenName": "NOTF",
+      "tokenSymbol": "NOTF",
+      "tokenAddress": "0xF5Df4eE32BD669Bd0FA5AB039819e7228bF6EfE5",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
+      "createdAt": "2026-11-25 21:05:40",
+      "poolId": "0x2ca7afd9ebdfaa38304035d2c21e4b00d2857a01c624a776ff116fffa8045b67",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
+        "verified": false,
+        "operatorAddress": "0x2B9fFb232934Fb94c465f2f64d832bdBF4e58EbA",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x2B9fFb232934Fb94c465f2f64d832bdBF4e58EbA",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x2ca7afd9ebdfaa38304035d2c21e4b00d2857a01c624a776ff116fffa8045b67",
+      "basescanUrl": "https://basescan.org/token/0xF5Df4eE32BD669Bd0FA5AB039819e7228bF6EfE5",
+      "source": "clanker",
+      "volume24h": 59876.65,
+      "txns24h": 212
+    },
+    {
+      "tokenName": "E2E 20261125T170306-clanker-v5-eth-1",
+      "tokenSymbol": "E2E",
+      "tokenAddress": "0x09c798867AE6C4EDDfC2b41e6fb961f2f797cccC",
+      "imageUrl": null,
+      "createdAt": "2026-11-25 17:03:41",
+      "poolId": "0xf9d12947e685126c6a7a463a93aeb7028e7f46ec3cb9d2f6ae77debc246332b9",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": null,
+        "verified": false,
+        "operatorAddress": "0x99289B1294F98aE809dB57B1b610b3d53fB87a40",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x99289B1294F98aE809dB57B1b610b3d53fB87a40",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xf9d12947e685126c6a7a463a93aeb7028e7f46ec3cb9d2f6ae77debc246332b9",
+      "basescanUrl": "https://basescan.org/token/0x09c798867AE6C4EDDfC2b41e6fb961f2f797cccC",
+      "source": "clanker",
+      "volume24h": 16328.09,
+      "txns24h": 203
+    },
     {
       "tokenName": "The Dragon HQ",
       "tokenSymbol": "DRGN",
@@ -360,28 +426,6 @@
       "txns24h": 624
     },
     {
-      "tokenName": "iClanker",
-      "tokenSymbol": "ICLANKER",
-      "tokenAddress": "0x11158EC527a26d72d0F6A2f2D6E325E8ee37ccCc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreigr5eori2mwmnqoc66alf2adys6gjgaaxi4rwb7yzeurb6jofjm3e",
-      "createdAt": "2026-11-24 23:47:48",
-      "poolId": "0x2b31fa232016812f41b500b77a09f61cfcd77907935ce78a1ef7c5cad06689b0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreigr5eori2mwmnqoc66alf2adys6gjgaaxi4rwb7yzeurb6jofjm3e",
-        "verified": false,
-        "operatorAddress": "0x57Cdd4F50c6C81DdD072b72B4F106553040C951F",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x57Cdd4F50c6C81DdD072b72B4F106553040C951F",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2b31fa232016812f41b500b77a09f61cfcd77907935ce78a1ef7c5cad06689b0",
-      "basescanUrl": "https://basescan.org/token/0x11158EC527a26d72d0F6A2f2D6E325E8ee37ccCc",
-      "source": "clanker",
-      "volume24h": 10726.85,
-      "txns24h": 113
-    },
-    {
       "tokenName": "NOTF",
       "tokenSymbol": "NOTF",
       "tokenAddress": "0x5d941B169fc09d20Bfb1280B077D4667e889183b",
@@ -402,50 +446,6 @@
       "source": "clanker",
       "volume24h": 34838.89,
       "txns24h": 160
-    },
-    {
-      "tokenName": "Zoopad",
-      "tokenSymbol": "ZOO",
-      "tokenAddress": "0xDCBdabC7643103F3f820A8067dD764730e38cCcc",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreidgi5pvgqw4be5w7vujvhvwqmvogqtecv2w2svyx5o4hnn5onfuza",
-      "createdAt": "2026-11-24 20:07:14",
-      "poolId": "0x3e48a58e357ac56a23b28513f55082823a24b4aa40a9181efa2f5b551603d6c4",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreidgi5pvgqw4be5w7vujvhvwqmvogqtecv2w2svyx5o4hnn5onfuza",
-        "verified": false,
-        "operatorAddress": "0x666d0Ff130467f0741C4eD8b91c93D0775122384",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x666d0Ff130467f0741C4eD8b91c93D0775122384",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x3e48a58e357ac56a23b28513f55082823a24b4aa40a9181efa2f5b551603d6c4",
-      "basescanUrl": "https://basescan.org/token/0xDCBdabC7643103F3f820A8067dD764730e38cCcc",
-      "source": "clanker",
-      "volume24h": 11026.23,
-      "txns24h": 123
-    },
-    {
-      "tokenName": "NOTF",
-      "tokenSymbol": "NOTF",
-      "tokenAddress": "0x522b0A627aB057b411d431666fF7dF0bd9Acb29e",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
-      "createdAt": "2026-11-24 19:30:53",
-      "poolId": "0x9ee6d550def0c64dba821c1b5f4f5638c888cee92e394419996011a90aeb48dc",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
-        "verified": false,
-        "operatorAddress": "0x509C7b43c4B055d6e7974C8e41b76C0b8b0e96Ef",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x509C7b43c4B055d6e7974C8e41b76C0b8b0e96Ef",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x9ee6d550def0c64dba821c1b5f4f5638c888cee92e394419996011a90aeb48dc",
-      "basescanUrl": "https://basescan.org/token/0x522b0A627aB057b411d431666fF7dF0bd9Acb29e",
-      "source": "clanker",
-      "volume24h": 37660.14,
-      "txns24h": 221
     },
     {
       "tokenName": "Aura Final Boss",
@@ -600,50 +600,6 @@
       "source": "clanker",
       "volume24h": 37836.68,
       "txns24h": 292
-    },
-    {
-      "tokenName": "United Global Oil Supply",
-      "tokenSymbol": "UGOS",
-      "tokenAddress": "0x40dA76D8276B8F9D97F91833c98C89B7e2419875",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreibo7bw4u6luzr2k4d4uhd7vmn26rmapul23jfctxocklcbzadn6fe",
-      "createdAt": "2026-11-22 05:34:54",
-      "poolId": "0xcbff269e5a290f7f45304f74320ce0791ccebe2b9123a5152166143688954a3e",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibo7bw4u6luzr2k4d4uhd7vmn26rmapul23jfctxocklcbzadn6fe",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x1d7Ef87D3505B51281c3Cf83197104a6fd1b5b57",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xcbff269e5a290f7f45304f74320ce0791ccebe2b9123a5152166143688954a3e",
-      "basescanUrl": "https://basescan.org/token/0x40dA76D8276B8F9D97F91833c98C89B7e2419875",
-      "source": "clanker",
-      "volume24h": 34373.96,
-      "txns24h": 399
-    },
-    {
-      "tokenName": "Ribbita",
-      "tokenSymbol": "TIBBIR",
-      "tokenAddress": "0x4DB7ecbfbA712adC003029AaaF3059771CA55A39",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicvzojoeopqectbptfdd3ogjnn5lah7iw54oojfxx5qloorzj3ecq",
-      "createdAt": "2026-11-22 05:18:22",
-      "poolId": "0x511d0110e37fdd25dd7aee7c53d3ddbabcf8b680bd91cb1f847fa066c2090d04",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicvzojoeopqectbptfdd3ogjnn5lah7iw54oojfxx5qloorzj3ecq",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x4157B28257419A9F299d607A9875A566c47f8436",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x511d0110e37fdd25dd7aee7c53d3ddbabcf8b680bd91cb1f847fa066c2090d04",
-      "basescanUrl": "https://basescan.org/token/0x4DB7ecbfbA712adC003029AaaF3059771CA55A39",
-      "source": "clanker",
-      "volume24h": 9667,
-      "txns24h": 419
     },
     {
       "tokenName": "United States Water Reserve",
