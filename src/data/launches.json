@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 260,
+  "count": 258,
   "items": [
+    {
+      "tokenName": "National Oil Asset Fund",
+      "tokenSymbol": "NOAF",
+      "tokenAddress": "0xEd9B310fdB1A855A74B8E59773379af131909239",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiapopd5jbckuhbzmidsnvsgxekoj2ttijm3bx2yv6qbhh53t2ukva",
+      "createdAt": "2026-11-27 09:10:29",
+      "poolId": "0x0ac068a9f40228b95ba9730475e08d4e3ec2e9f01dbca91294d4678a19ceef78",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiapopd5jbckuhbzmidsnvsgxekoj2ttijm3bx2yv6qbhh53t2ukva",
+        "verified": false,
+        "operatorAddress": "0x4F72E5F6Db785aC3f9FFD73bC77Bb8800cA81ca6",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x4F72E5F6Db785aC3f9FFD73bC77Bb8800cA81ca6",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x0ac068a9f40228b95ba9730475e08d4e3ec2e9f01dbca91294d4678a19ceef78",
+      "basescanUrl": "https://basescan.org/token/0xEd9B310fdB1A855A74B8E59773379af131909239",
+      "source": "clanker",
+      "volume24h": 22568.97,
+      "txns24h": 2017
+    },
+    {
+      "tokenName": "United Bitcoin Reserve",
+      "tokenSymbol": "UBR",
+      "tokenAddress": "0xB3cA3148e37f1eb70EB0F15408eb3E15dCB07c5E",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeifn67mrnxrfgdmngjtag3o6yjg7idqnq5nzhfsrj2gp3z5nhrl5wu",
+      "createdAt": "2026-11-27 08:09:03",
+      "poolId": "0xc03bdb75e83bc3b3d3d746ef753b7870d48bf0fe366d012eac8fc8315d25f8e4",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeifn67mrnxrfgdmngjtag3o6yjg7idqnq5nzhfsrj2gp3z5nhrl5wu",
+        "verified": false,
+        "operatorAddress": "0xa3f7D8ef60AF984617F674b8ca5f57D0e900B85A",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xa3f7D8ef60AF984617F674b8ca5f57D0e900B85A",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xc03bdb75e83bc3b3d3d746ef753b7870d48bf0fe366d012eac8fc8315d25f8e4",
+      "basescanUrl": "https://basescan.org/token/0xB3cA3148e37f1eb70EB0F15408eb3E15dCB07c5E",
+      "source": "clanker",
+      "volume24h": 33796.49,
+      "txns24h": 2317
+    },
     {
       "tokenName": "Bwards.fun",
       "tokenSymbol": "BWARDS",
@@ -118,28 +162,6 @@
       "txns24h": 379
     },
     {
-      "tokenName": "Xtask",
-      "tokenSymbol": "XTASK",
-      "tokenAddress": "0x7e321ff55191F5a1b364BB2f1715745bc6D5cccC",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreiag6frszfx5dkpkd2ng2h7eq3qsfzhlk5rpbwr56ee724blauauua",
-      "createdAt": "2026-11-26 15:41:42",
-      "poolId": "0x6a31cef9eef45af788ba5f5e5985fe6a847076c702d8e7a9a0a0c99a0f42e117",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreiag6frszfx5dkpkd2ng2h7eq3qsfzhlk5rpbwr56ee724blauauua",
-        "verified": false,
-        "operatorAddress": "0x4b2338F439478852D67b15030b405514E848276c",
-        "profileUrl": null
-      },
-      "feeRecipient": "0x4b2338F439478852D67b15030b405514E848276c",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x6a31cef9eef45af788ba5f5e5985fe6a847076c702d8e7a9a0a0c99a0f42e117",
-      "basescanUrl": "https://basescan.org/token/0x7e321ff55191F5a1b364BB2f1715745bc6D5cccC",
-      "source": "clanker",
-      "volume24h": 11184.23,
-      "txns24h": 124
-    },
-    {
       "tokenName": "United States Oil Index",
       "tokenSymbol": "USOI",
       "tokenAddress": "0xB881475708910Ef089A2035029E0611755C93E29",
@@ -217,7 +239,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreibt2ucqcfvxkuor3ya7knslqslbam4mn4qvjyf3lgcoldvul4csz4",
         "verified": false,
-        "operatorAddress": "0x796fA20CfA9805f82168f56e35B195D737cF5a15",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x796fA20CfA9805f82168f56e35B195D737cF5a15",
@@ -239,7 +261,7 @@
         "handle": null,
         "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiars2i5e4kqcgh5grnshdg2llsvgliy55xbgsddxpsc6vqdvpu5mi",
         "verified": false,
-        "operatorAddress": "0x3Dbd78f7B7E7853c543450753466768D99a55D39",
+        "operatorAddress": null,
         "profileUrl": null
       },
       "feeRecipient": "0x3Dbd78f7B7E7853c543450753466768D99a55D39",
@@ -248,28 +270,6 @@
       "source": "clanker",
       "volume24h": 11181.7,
       "txns24h": 694
-    },
-    {
-      "tokenName": "NOTF",
-      "tokenSymbol": "NOTF",
-      "tokenAddress": "0xF5Df4eE32BD669Bd0FA5AB039819e7228bF6EfE5",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
-      "createdAt": "2026-11-25 21:05:40",
-      "poolId": "0x2ca7afd9ebdfaa38304035d2c21e4b00d2857a01c624a776ff116fffa8045b67",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeiewufgiblz6nx4i2dir5dfmgh4e2tflsccwa2xqmbj4q3ofkf4qze",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x2B9fFb232934Fb94c465f2f64d832bdBF4e58EbA",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2ca7afd9ebdfaa38304035d2c21e4b00d2857a01c624a776ff116fffa8045b67",
-      "basescanUrl": "https://basescan.org/token/0xF5Df4eE32BD669Bd0FA5AB039819e7228bF6EfE5",
-      "source": "clanker",
-      "volume24h": 59876.65,
-      "txns24h": 212
     },
     {
       "tokenName": "United Bitcoin Reserve",
@@ -314,28 +314,6 @@
       "source": "clanker",
       "volume24h": 14977.79,
       "txns24h": 373
-    },
-    {
-      "tokenName": "Strategic Oil Fund Supply",
-      "tokenSymbol": "SOSF",
-      "tokenAddress": "0xBf5dAe536d77097d99dA7D6990F393ceFcD79d9C",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/QmUX2qepD9Fxzq8ykGfvwK5r5mik2cbd1jSUT4toHpPTRn",
-      "createdAt": "2026-11-25 14:44:27",
-      "poolId": "0x00f754325ad0d4f5277038d897ed55fdc7e55aa17aff25c4732da015d88b74e4",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/QmUX2qepD9Fxzq8ykGfvwK5r5mik2cbd1jSUT4toHpPTRn",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x524Bb345700606266499777BEEb6147fe3e7adA9",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x00f754325ad0d4f5277038d897ed55fdc7e55aa17aff25c4732da015d88b74e4",
-      "basescanUrl": "https://basescan.org/token/0xBf5dAe536d77097d99dA7D6990F393ceFcD79d9C",
-      "source": "clanker",
-      "volume24h": 13679.13,
-      "txns24h": 555
     },
     {
       "tokenName": "United States Energy Fund",
@@ -402,28 +380,6 @@
       "source": "clanker",
       "volume24h": 10124.2,
       "txns24h": 497
-    },
-    {
-      "tokenName": "United States Oil Index",
-      "tokenSymbol": "USOI",
-      "tokenAddress": "0xd3Aa5353Bf92c34aB3648AcB9b4c4B020eB10509",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
-      "createdAt": "2026-11-25 06:08:33",
-      "poolId": "0xbcc233ce1ca6b330dc4ee11a8d887ab010f7a492d6e77910f16f2be8e0ecdf6d",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafybeicnkams5eyuypg5jzv57gktmiyrokzc62p2yqxa4taqmg2myvre2e",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0x3B4960CAE508eB247d2739B80D1498A520845E96",
-      "dexscreenerUrl": "https://dexscreener.com/base/0xbcc233ce1ca6b330dc4ee11a8d887ab010f7a492d6e77910f16f2be8e0ecdf6d",
-      "basescanUrl": "https://basescan.org/token/0xd3Aa5353Bf92c34aB3648AcB9b4c4B020eB10509",
-      "source": "clanker",
-      "volume24h": 34737.3,
-      "txns24h": 507
     },
     {
       "tokenName": "GODF",
