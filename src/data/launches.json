@@ -5,8 +5,52 @@
   "lookbackBlocks": 1296000,
   "fromBlock": 45413817,
   "latestBlock": 46709817,
-  "count": 250,
+  "count": 251,
   "items": [
+    {
+      "tokenName": "Public American Dividend",
+      "tokenSymbol": "PAD",
+      "tokenAddress": "0x7A889198dbBe71Df18b8041993B17a0aea86fb07",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreicg66ifdyahdonn3fvm5ouv2tizvna7yzaggqphd23h7niv63yt6i",
+      "createdAt": "2026-11-28 05:10:39",
+      "poolId": "0xb8a9aeb02b73a704d992a4f5f4b4b0fc47304f0c0ecbd4d768c945962ff1e28c",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreicg66ifdyahdonn3fvm5ouv2tizvna7yzaggqphd23h7niv63yt6i",
+        "verified": false,
+        "operatorAddress": "0x467792A0916BE49211f74f9185715aE8C2526526",
+        "profileUrl": null
+      },
+      "feeRecipient": "0x467792A0916BE49211f74f9185715aE8C2526526",
+      "dexscreenerUrl": "https://dexscreener.com/base/0xb8a9aeb02b73a704d992a4f5f4b4b0fc47304f0c0ecbd4d768c945962ff1e28c",
+      "basescanUrl": "https://basescan.org/token/0x7A889198dbBe71Df18b8041993B17a0aea86fb07",
+      "source": "clanker",
+      "volume24h": 9818.9,
+      "txns24h": 353
+    },
+    {
+      "tokenName": "United States Water Reserve",
+      "tokenSymbol": "USWR",
+      "tokenAddress": "0x1427B63009CD44B88f54dCDeb63fd1E00A22fd8E",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreid4nsizdrann2kcslbiaipnx7a2g74abb7fqtmgpbptdkj46r6hlm",
+      "createdAt": "2026-11-28 01:04:38",
+      "poolId": "0x965caa85835ded6962618028f52b353105fafd62a4da80926c4cbad3c545d5b3",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreid4nsizdrann2kcslbiaipnx7a2g74abb7fqtmgpbptdkj46r6hlm",
+        "verified": false,
+        "operatorAddress": "0xF8301882F12b52C0d7aeBf1749e7D6694FB5fd7a",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xF8301882F12b52C0d7aeBf1749e7D6694FB5fd7a",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x965caa85835ded6962618028f52b353105fafd62a4da80926c4cbad3c545d5b3",
+      "basescanUrl": "https://basescan.org/token/0x1427B63009CD44B88f54dCDeb63fd1E00A22fd8E",
+      "source": "clanker",
+      "volume24h": 10568.67,
+      "txns24h": 555
+    },
     {
       "tokenName": "The Daily Print",
       "tokenSymbol": "DAILY",
@@ -72,6 +116,50 @@
       "source": "clanker",
       "volume24h": 148914.42,
       "txns24h": 252
+    },
+    {
+      "tokenName": "United States Oil Dividend",
+      "tokenSymbol": "USOD",
+      "tokenAddress": "0xA8dd8acD83853159eC7BD25024a15Bf822462671",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/Qme7HTM3UmX6SiCUMhHHo3us4TsM3VqiXUPEmJT8TWg1XL",
+      "createdAt": "2026-11-27 12:49:27",
+      "poolId": "0x3d45e4dde0c362f6ac15f55b86d30b8c6cf703289fb90b3cd3eb9b6bc3446681",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/Qme7HTM3UmX6SiCUMhHHo3us4TsM3VqiXUPEmJT8TWg1XL",
+        "verified": false,
+        "operatorAddress": "0xb1f8332A827a23C3fdA8C13B26366E3303F24598",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xb1f8332A827a23C3fdA8C13B26366E3303F24598",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x3d45e4dde0c362f6ac15f55b86d30b8c6cf703289fb90b3cd3eb9b6bc3446681",
+      "basescanUrl": "https://basescan.org/token/0xA8dd8acD83853159eC7BD25024a15Bf822462671",
+      "source": "clanker",
+      "volume24h": 1341.59,
+      "txns24h": 356
+    },
+    {
+      "tokenName": "United Oil Fund - UOF",
+      "tokenSymbol": "UOF",
+      "tokenAddress": "0x6Ac8B30e6176dfE636ebf02cF5679A72bb48d4F5",
+      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihtgzm24tsxcxn4pq5xa4bf2r2jodr5hop5tfydf3hzi66dv7aotm",
+      "createdAt": "2026-11-27 12:46:39",
+      "poolId": "0x9aaf6d391a710efbc390fa49b3be173db0b7b8469cf32cac77fb022d00daabe1",
+      "launcher": {
+        "name": null,
+        "handle": null,
+        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihtgzm24tsxcxn4pq5xa4bf2r2jodr5hop5tfydf3hzi66dv7aotm",
+        "verified": false,
+        "operatorAddress": "0xFc290c636c953F1F91556667E3bFFef0b56EBe23",
+        "profileUrl": null
+      },
+      "feeRecipient": "0xFc290c636c953F1F91556667E3bFFef0b56EBe23",
+      "dexscreenerUrl": "https://dexscreener.com/base/0x9aaf6d391a710efbc390fa49b3be173db0b7b8469cf32cac77fb022d00daabe1",
+      "basescanUrl": "https://basescan.org/token/0x6Ac8B30e6176dfE636ebf02cF5679A72bb48d4F5",
+      "source": "clanker",
+      "volume24h": 1214.86,
+      "txns24h": 354
     },
     {
       "tokenName": "National Oil Asset Fund",
@@ -140,28 +228,6 @@
       "txns24h": 370
     },
     {
-      "tokenName": "United Oil Fund - UOF",
-      "tokenSymbol": "UOF",
-      "tokenAddress": "0x141F769541662824c0077e01764F025F861fa68A",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreihtgzm24tsxcxn4pq5xa4bf2r2jodr5hop5tfydf3hzi66dv7aotm",
-      "createdAt": "2026-11-26 17:31:31",
-      "poolId": "0x6c2547a6efe46801a0cc259015df8f00bd24701c3c7e9f650e9ba87e3cc8e674",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreihtgzm24tsxcxn4pq5xa4bf2r2jodr5hop5tfydf3hzi66dv7aotm",
-        "verified": false,
-        "operatorAddress": "0xF4c45b9E61CbdfDD3123A6eE14DCE782C57Fa3C4",
-        "profileUrl": null
-      },
-      "feeRecipient": "0xF4c45b9E61CbdfDD3123A6eE14DCE782C57Fa3C4",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x6c2547a6efe46801a0cc259015df8f00bd24701c3c7e9f650e9ba87e3cc8e674",
-      "basescanUrl": "https://basescan.org/token/0x141F769541662824c0077e01764F025F861fa68A",
-      "source": "clanker",
-      "volume24h": 10068.67,
-      "txns24h": 379
-    },
-    {
       "tokenName": "NPR",
       "tokenSymbol": "NPR",
       "tokenAddress": "0x5CE95D5F475D9445c0300FCd0D587De4b31082Ca",
@@ -204,28 +270,6 @@
       "source": "clanker",
       "volume24h": 20997.91,
       "txns24h": 4216
-    },
-    {
-      "tokenName": "United Bitcoin Reserve",
-      "tokenSymbol": "UBR",
-      "tokenAddress": "0x48032E5677Da3eb2Df80113414417b5Af13DcA0e",
-      "imageUrl": "https://clankerworld.mypinata.cloud/ipfs/bafkreifrjbpmhegjylvw2o6di2mgbiqx2byifupjngstbj4cjykc5xclxq",
-      "createdAt": "2026-11-25 15:23:13",
-      "poolId": "0x2dfb029b939994e9dacb0b20c808822b745978350277051e1500c9209dbf54b0",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://clankerworld.mypinata.cloud/ipfs/bafkreifrjbpmhegjylvw2o6di2mgbiqx2byifupjngstbj4cjykc5xclxq",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": "0xa3f7D8ef60AF984617F674b8ca5f57D0e900B85A",
-      "dexscreenerUrl": "https://dexscreener.com/base/0x2dfb029b939994e9dacb0b20c808822b745978350277051e1500c9209dbf54b0",
-      "basescanUrl": "https://basescan.org/token/0x48032E5677Da3eb2Df80113414417b5Af13DcA0e",
-      "source": "clanker",
-      "volume24h": 28618.34,
-      "txns24h": 373
     },
     {
       "tokenName": "United Oil Dividend Fund",
@@ -424,28 +468,6 @@
       "source": "clanker",
       "volume24h": 1309777.5699999996,
       "txns24h": 11574
-    },
-    {
-      "tokenName": "MILF",
-      "tokenSymbol": "MILF",
-      "tokenAddress": "0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
-      "imageUrl": "https://cdn.dexscreener.com/cms/images/d1a0104c7c581fed72078d9daa44f828d79e31361906342b93890e7fc6ce734e?width=800&height=800&quality=95&format=auto",
-      "createdAt": "2026-10-03 22:04:49",
-      "poolId": "0x19b51fd16608f917e318156dd74859cd4cf36b66d06337529a38b5daa657ff38",
-      "launcher": {
-        "name": null,
-        "handle": null,
-        "image": "https://cdn.dexscreener.com/cms/images/d1a0104c7c581fed72078d9daa44f828d79e31361906342b93890e7fc6ce734e?width=800&height=800&quality=95&format=auto",
-        "verified": false,
-        "operatorAddress": null,
-        "profileUrl": null
-      },
-      "feeRecipient": null,
-      "dexscreenerUrl": "https://dexscreener.com/base/0x19b51fd16608f917e318156dd74859cd4cf36b66d06337529a38b5daa657ff38",
-      "basescanUrl": "https://basescan.org/token/0x2d4bcc58fd1b101ae71c4b15c02178e1fbe777df",
-      "source": "clanker",
-      "volume24h": 552.29,
-      "txns24h": 108
     },
     {
       "tokenName": "Gang",
